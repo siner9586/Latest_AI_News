@@ -1,6 +1,12 @@
 from __future__ import annotations
 
+import sys
 from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
 from latest_ai_news.registry import build_sources, build_people, build_companies
 
 sources = build_sources()
