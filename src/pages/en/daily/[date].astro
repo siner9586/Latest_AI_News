@@ -1,6 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
-import { latestBrief, archiveIndex } from '../../../utils/data';
+import { latestBrief, archiveIndex, newsFocus } from '../../../utils/data';
 
 export function getStaticPaths() {
   const dates = archiveIndex.items?.length ? archiveIndex.items : [{ date: latestBrief.date }];
@@ -18,7 +18,7 @@ const { b } = Astro.props;
       <article class="item">
         <p class="meta">{item.category} · {item.source_name}</p>
         <h3>{item.title}</h3>
-        <p>{item.summary_en}</p>
+        <p>{newsFocus(item, 'en')}</p>
         <a class="pill" href={item.original_url} target="_blank" rel="noreferrer">Original source</a>
       </article>
     ))}
