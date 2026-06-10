@@ -6,7 +6,7 @@ const b = latestBrief;
 <Base title={`English AI News Brief · ${b.date}`} description={b.overview_en}>
   <section class="hero">
     <div class="eyebrow">Daily AI Intelligence</div>
-    <h1>Executive-grade AI news, every morning.</h1>
+    <h1>Daily AI Core Updates.</h1>
     <p>{b.overview_en}</p>
     <p class="muted">Latest · {b.date} · Candidates {b.candidate_count} · Selected {b.selected_count} · Sources {b.source_count}</p>
   </section>
@@ -17,7 +17,6 @@ const b = latestBrief;
         <article class="item">
           <p class="meta">{item.category} · {item.source_name}</p>
           <h3>{item.title}</h3>
-          <p>{item.summary_en}</p>
           <a class="pill" href={item.original_url} target="_blank" rel="noreferrer">Original source</a>
           {(item.tags || []).map((t:string) => <span class="pill">#{t}</span>)}
         </article>
