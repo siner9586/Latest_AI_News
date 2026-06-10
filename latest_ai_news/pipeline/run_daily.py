@@ -7,6 +7,8 @@ import html
 import json
 import re
 from datetime import date, datetime, timezone
+from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from latest_ai_news.config import DATA, ROOT, SITE_URL
 from latest_ai_news.fetchers.rss import fetch_rss
@@ -25,6 +27,7 @@ CATEGORY_LABELS = {
 
 TOP_PEOPLE = {"sam altman", "demis hassabis", "dario amodei", "jensen huang", "satya nadella", "sundar pichai", "mark zuckerberg", "ilya sutskever", "andrej karpathy", "yann lecun", "fei-fei li", "andrew ng", "elon musk"}
 TOP_COMPANIES = {"openai", "anthropic", "deepmind", "google", "microsoft", "meta", "nvidia", "xai", "perplexity", "mistral", "hugging face", "yc", "a16z", "sequoia"}
+TRACKING_PARAMS = {"utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "utm_id", "ref", "ref_src", "fbclid", "gclid"}
 
 
 def ensure_registries() -> tuple[list[dict], list[dict], list[dict]]:
@@ -37,6 +40,71 @@ def ensure_registries() -> tuple[list[dict], list[dict], list[dict]]:
     (DATA / "entities" / "people.json").write_text(json.dumps(people, ensure_ascii=False, indent=2), encoding="utf-8")
     (DATA / "entities" / "companies.json").write_text(json.dumps(companies, ensure_ascii=False, indent=2), encoding="utf-8")
     return sources, people, companies
+
+
+def canonical_url(url: str) -> str:
+    """Normalize URLs so historical duplicate checks survive tracking params and trailing slashes."""
+    if not url:
+        return ""
+    try:
+        parts = urlsplit(url.strip())
+        query = urlencode([(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True) if k.lower() not in TRACKING_PARAMS])
+        path = parts.path.rstrip("/") or "/"
+        return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), path, query, ""))
+    except Exception:
+        return url.strip().rstrip("/")
+
+
+def title_key(title: str) -> str:
+    text = html.unescape(title or "").lower()
+    text = re.sub(r"[^\w\u4e00-\u9fff]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def load_json(path: Path) -> dict | None:
+    try:
+        if path.exists():
+            return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    return None
+
+
+def load_history(exclude_date: str | None = None) -> dict[str, set[str]]:
+    """Load all previously displayed items so a new issue never reuses old visible dynamics.
+
+    The current publish_date is excluded to allow manual reruns for the same date to replace that issue.
+    """
+    urls: set[str] = set()
+    titles: set[str] = set()
+    groups: set[str] = set()
+    daily_dir = DATA / "daily"
+    paths = sorted(daily_dir.glob("*.json")) if daily_dir.exists() else []
+    latest = DATA / "index" / "latest.json"
+    if latest.exists():
+        paths.append(latest)
+    for path in paths:
+        data = load_json(path)
+        if not data or data.get("date") == exclude_date:
+            continue
+        for item in data.get("items", []) or []:
+            url = canonical_url(str(item.get("original_url", "")))
+            title = title_key(str(item.get("title", "")))
+            group = str(item.get("duplicate_group_id", "")).strip()
+            if url:
+                urls.add(url)
+            if title:
+                titles.add(title)
+            if group:
+                groups.add(group)
+    return {"urls": urls, "titles": titles, "groups": groups}
+
+
+def is_historical_item(url: str, title: str, history: dict[str, set[str]]) -> bool:
+    canonical = canonical_url(url)
+    tkey = title_key(title)
+    group = hashlib.sha1(canonical.encode("utf-8")).hexdigest()[:12] if canonical else ""
+    return bool((canonical and canonical in history.get("urls", set())) or (tkey and tkey in history.get("titles", set())) or (group and group in history.get("groups", set())))
 
 
 def category_for(row: dict) -> str:
@@ -125,16 +193,24 @@ def brief_summaries(row: dict, category: str, companies: list[str] | None = None
     return zh[:260], en[:300]
 
 
-def normalize(raw: list[dict], people: list[dict], companies: list[dict]) -> list[dict]:
+def normalize(raw: list[dict], people: list[dict], companies: list[dict], history: dict[str, set[str]] | None = None) -> tuple[list[dict], int]:
     now = datetime.now(timezone.utc).isoformat()
     seen: set[str] = set()
     out: list[dict] = []
+    skipped_history = 0
+    history = history or {"urls": set(), "titles": set(), "groups": set()}
     for row in raw:
         url = row.get("url", "").strip()
         title = re.sub(r"\s+", " ", row.get("title", "")).strip()
-        if not url or not title or url in seen:
+        if not url or not title:
             continue
-        seen.add(url)
+        canonical = canonical_url(url)
+        if canonical in seen:
+            continue
+        if is_historical_item(url, title, history):
+            skipped_history += 1
+            continue
+        seen.add(canonical)
         cat = category_for(row)
         ps, cs = extract_entities(title, people, companies)
         importance, freshness, credibility = score(row, cat, ps, cs)
@@ -155,18 +231,27 @@ def normalize(raw: list[dict], people: list[dict], companies: list[dict]) -> lis
             "importance_score": round(float(importance), 2),
             "freshness_score": round(float(freshness), 2),
             "credibility_score": round(float(credibility), 2),
-            "duplicate_group_id": hashlib.sha1(url.encode("utf-8")).hexdigest()[:12],
+            "duplicate_group_id": hashlib.sha1(canonical.encode("utf-8")).hexdigest()[:12],
             "language": row.get("language", "en"),
         })
-    return sorted(out, key=lambda x: (x["importance_score"], x["published_at"]), reverse=True)
+    return sorted(out, key=lambda x: (x["importance_score"], x["published_at"]), reverse=True), skipped_history
 
 
-def fallback_source_index(sources: list[dict], publish_date: str, limit: int) -> list[dict]:
+def fallback_source_index(sources: list[dict], publish_date: str, limit: int, history: dict[str, set[str]] | None = None) -> list[dict]:
     now = datetime.now(timezone.utc).isoformat()
-    chosen = sorted(sources, key=lambda s: {"S": 0, "A": 1, "B": 2, "C": 3}.get(s.get("priority", "B"), 2))[:limit]
+    history = history or {"urls": set(), "titles": set(), "groups": set()}
+    chosen: list[dict] = []
+    for s in sorted(sources, key=lambda s: {"S": 0, "A": 1, "B": 2, "C": 3}.get(s.get("priority", "B"), 2)):
+        title = f"Source index initialized: {s['name']}"
+        if is_historical_item(s["url"], title, history):
+            continue
+        chosen.append(s)
+        if len(chosen) >= limit:
+            break
     items = []
     for s in chosen:
         url = s["url"]
+        canonical = canonical_url(url)
         title = f"Source index initialized: {s['name']}"
         items.append({
             "title": title,
@@ -184,7 +269,7 @@ def fallback_source_index(sources: list[dict], publish_date: str, limit: int) ->
             "importance_score": 60,
             "freshness_score": 10,
             "credibility_score": 90,
-            "duplicate_group_id": hashlib.sha1(url.encode("utf-8")).hexdigest()[:12],
+            "duplicate_group_id": hashlib.sha1(canonical.encode("utf-8")).hexdigest()[:12],
             "language": s.get("language", "en"),
         })
     return items
@@ -203,11 +288,19 @@ def write_outputs(brief: dict) -> None:
             old = json.loads(archive_path.read_text(encoding="utf-8"))
         except Exception:
             old = {"items": []}
-    row = {"date": d, "source_count": brief["source_count"], "candidate_count": brief["candidate_count"], "selected_count": brief["selected_count"], "title": brief["title_zh"]}
+    row = {"date": d, "source_count": brief["source_count"], "candidate_count": brief["candidate_count"], "selected_count": brief["selected_count"], "skipped_history_count": brief.get("skipped_history_count", 0), "title": brief["title_zh"]}
     items = [x for x in old.get("items", []) if x.get("date") != d]
     items.insert(0, row)
     archive_path.write_text(json.dumps({"items": items[:365]}, ensure_ascii=False, indent=2), encoding="utf-8")
-    (DATA / "sources" / "last_seen.json").write_text(json.dumps({"updated_at": datetime.now(timezone.utc).isoformat(), "failures": brief.get("failures", [])}, ensure_ascii=False, indent=2), encoding="utf-8")
+    last_seen = {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "date": d,
+        "displayed_urls": [x.get("original_url") for x in brief.get("items", []) if x.get("original_url")],
+        "displayed_titles": [x.get("title") for x in brief.get("items", []) if x.get("title")],
+        "skipped_history_count": brief.get("skipped_history_count", 0),
+        "failures": brief.get("failures", []),
+    }
+    (DATA / "sources" / "last_seen.json").write_text(json.dumps(last_seen, ensure_ascii=False, indent=2), encoding="utf-8")
     zh_lines = ["---", f"title: AI 新闻简报 · {d}", f"date: {d}", "---", "", brief["overview_zh"], ""]
     en_lines = ["---", f"title: English AI News Brief · {d}", f"date: {d}", "---", "", brief["overview_en"], ""]
     for item in brief["items"]:
@@ -223,8 +316,9 @@ def write_outputs(brief: dict) -> None:
     (ROOT / "public" / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL.rstrip('/')}/sitemap-index.xml\n", encoding="utf-8")
 
 
-def run(publish_date: str, max_items: int, dry_run: bool) -> dict:
+def run(publish_date: str, max_items: int, dry_run: bool, force: bool = False) -> dict:
     sources, people, companies = ensure_registries()
+    history = {"urls": set(), "titles": set(), "groups": set()} if force else load_history(exclude_date=publish_date)
     raw: list[dict] = []
     failures: list[dict] = []
     fetch_cap = int(os.getenv("MAX_FETCH_SOURCES", "30"))
@@ -234,17 +328,18 @@ def run(publish_date: str, max_items: int, dry_run: bool) -> dict:
             raw.extend(fetch_rss(source, limit=8))
         except Exception as exc:
             failures.append({"source": source.get("name"), "error": str(exc)[:220]})
-    items = normalize(raw, people, companies)
-    selected = items[:max_items] if items else fallback_source_index(sources, publish_date, max_items)
+    items, skipped_history = normalize(raw, people, companies, history=history)
+    selected = items[:max_items] if items else fallback_source_index(sources, publish_date, max_items, history=history)
     categories = sorted({x["category"] for x in selected})
     brief = {
         "date": publish_date,
         "title_zh": f"AI 新闻简报 · {publish_date}",
         "title_en": f"English AI News Brief · {publish_date}",
-        "overview_zh": f"本期从 {len(sources)} 个结构化来源中生成，候选 {len(raw)} 条，入选 {len(selected)} 条。所有条目均保留原始来源链接；若真实抓取不足，则仅发布来源索引初始化记录，不用测试数据冒充更新。",
-        "overview_en": f"This brief is generated from {len(sources)} structured sources with {len(raw)} candidates and {len(selected)} selected items. Every item keeps an original source link; if live fetching is insufficient, the site publishes source-index records instead of fake news.",
+        "overview_zh": f"本期从 {len(sources)} 个结构化来源中生成，候选 {len(raw)} 条，跨期排除历史已展示 {skipped_history} 条，入选 {len(selected)} 条。所有条目均保留原始来源链接；若真实抓取不足，则仅发布未展示过的来源索引记录，不用测试数据冒充更新。",
+        "overview_en": f"This brief is generated from {len(sources)} structured sources with {len(raw)} candidates, {skipped_history} previously displayed items excluded, and {len(selected)} selected items. Every item keeps an original source link; if live fetching is insufficient, the site publishes only not-yet-shown source-index records instead of fake news.",
         "source_count": len(sources),
         "candidate_count": len(raw),
+        "skipped_history_count": skipped_history,
         "selected_count": len(selected),
         "categories": categories,
         "items": selected,
@@ -264,11 +359,11 @@ def main() -> None:
     parser.add_argument("--max-items", type=int, default=18)
     parser.add_argument("--language", default="all", choices=["all", "zh", "en"])
     args = parser.parse_args()
-    brief = run(args.date, args.max_items, args.dry_run)
+    brief = run(args.date, args.max_items, args.dry_run, force=args.force)
     if args.dry_run:
         print(json.dumps(brief, ensure_ascii=False, indent=2))
     else:
-        print(f"generated {args.date}: {brief['selected_count']} selected, {brief['candidate_count']} candidates, {len(brief['failures'])} failures")
+        print(f"generated {args.date}: {brief['selected_count']} selected, {brief['candidate_count']} candidates, {brief.get('skipped_history_count', 0)} historical skipped, {len(brief['failures'])} failures")
 
 
 if __name__ == "__main__":
