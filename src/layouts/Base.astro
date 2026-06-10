@@ -30,10 +30,10 @@ const wechatQr = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAa4AAAGuAQAAAADg
           <a href="/tags/">Tags</a>
           <a href="/about/">About</a>
           <span class="wechat-nav">
-            <button class="wechat-trigger" type="button" aria-expanded="false" aria-controls="wechat-popover">公众号</button>
-            <span id="wechat-popover" class="wechat-popover" role="dialog" aria-label="微信公众号二维码" aria-hidden="true">
-              <button class="wechat-close" type="button" aria-label="关闭公众号二维码">×</button>
-              <img src={wechatQr} alt="微信公众号二维码" loading="lazy" />
+            <a class="wechat-link" href="#wechat-popover" aria-controls="wechat-popover">公众号</a>
+            <span id="wechat-popover" class="wechat-popover" role="dialog" aria-label="微信公众号二维码">
+              <a class="wechat-close" href="#" aria-label="关闭公众号二维码">×</a>
+              <img src={wechatQr} alt="微信公众号二维码" loading="eager" decoding="sync" />
               <span class="wechat-caption">微信扫码关注公众号</span>
             </span>
           </span>
@@ -42,33 +42,5 @@ const wechatQr = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAa4AAAGuAQAAAADg
     </header>
     <main class="shell"><slot /></main>
     <footer class="shell footer">Daily at 07:12 Beijing/Taipei time · Source-linked summaries only · No paywall bypass · No fake links · No test news in production.</footer>
-    <div class="wechat-backdrop" data-wechat-backdrop></div>
-    <script is:inline>
-      (() => {
-        const trigger = document.querySelector('.wechat-trigger');
-        const popover = document.querySelector('.wechat-popover');
-        const backdrop = document.querySelector('[data-wechat-backdrop]');
-        const close = document.querySelector('.wechat-close');
-        if (!trigger || !popover || !backdrop || !close) return;
-        const open = () => {
-          popover.classList.add('is-open');
-          backdrop.classList.add('is-open');
-          trigger.setAttribute('aria-expanded', 'true');
-          popover.setAttribute('aria-hidden', 'false');
-        };
-        const hide = () => {
-          popover.classList.remove('is-open');
-          backdrop.classList.remove('is-open');
-          trigger.setAttribute('aria-expanded', 'false');
-          popover.setAttribute('aria-hidden', 'true');
-        };
-        trigger.addEventListener('click', () => popover.classList.contains('is-open') ? hide() : open());
-        close.addEventListener('click', hide);
-        backdrop.addEventListener('click', hide);
-        document.addEventListener('keydown', (event) => {
-          if (event.key === 'Escape') hide();
-        });
-      })();
-    </script>
   </body>
 </html>
