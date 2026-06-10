@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import { sourceIndex, groupBy } from '../../utils/data';
+const groups = groupBy(sourceIndex, 'type');
+---
+<Base title="Sources · Latest AI News">
+  <section class="hero">
+    <h1>Sources</h1>
+    <p>Structured registry for podcasts, YouTube, X accounts, media, company blogs, research labs, investors, newsletters and developer ecosystems.</p>
+  </section>
+  {Object.entries(groups).map(([type, list]: any) => (
+    <section class="card" style="margin-bottom:20px">
+      <h2 class="section-title">{type} · {list.length}</h2>
+      <div class="list">
+        {list.map((s:any) => (
+          <article class="source-card">
+            <p class="meta">priority {s.priority} · {s.language} · {s.fetch_method}</p>
+            <h3><a href={s.url} target="_blank" rel="noreferrer">{s.name}</a></h3>
+            <p class="muted">{(s.tags || []).join(' · ')}</p>
+            <p class="muted">RSS: {s.rss ? 'yes' : 'optional / manual'} · paywall: {s.paywall ? 'yes' : 'no'}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  ))}
+</Base>
