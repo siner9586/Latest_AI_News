@@ -1,7 +1,6 @@
 ---
 import '../styles/global.css';
 const { title = 'Latest AI News', description = 'Daily AI executive, podcast, media and product news brief.' } = Astro.props;
-const wechatQr = 'data:image/png;base64,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';
 ---
 <!doctype html>
 <html lang="zh-CN">
@@ -33,7 +32,7 @@ const wechatQr = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAa4AAAGuAQAAAADg
             <a class="wechat-link" href="#wechat-popover" aria-controls="wechat-popover">公众号</a>
             <span id="wechat-popover" class="wechat-popover" role="dialog" aria-label="微信公众号二维码">
               <a class="wechat-close" href="#" aria-label="关闭公众号二维码">×</a>
-              <img src={wechatQr} alt="微信公众号二维码" loading="eager" decoding="sync" />
+              <img src="/wechat-qr.svg" alt="微信公众号二维码" loading="eager" decoding="sync" />
               <span class="wechat-caption">微信扫码关注公众号</span>
             </span>
           </span>
