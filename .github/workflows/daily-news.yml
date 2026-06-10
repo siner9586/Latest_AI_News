@@ -1,0 +1,67 @@
+name: Daily AI News
+
+on:
+  schedule:
+    - cron: '12 23 * * *'
+  workflow_dispatch:
+    inputs:
+      publish_date:
+        description: 'YYYY-MM-DD'
+        required: false
+      source_date:
+        description: 'Optional source date'
+        required: false
+      force:
+        description: 'Force regeneration'
+        required: false
+        default: 'false'
+      dry_run:
+        description: 'Run without committing'
+        required: false
+        default: 'false'
+      max_items:
+        description: 'Max selected items'
+        required: false
+        default: '18'
+      language:
+        description: 'all / zh / en'
+        required: false
+        default: 'all'
+
+permissions:
+  contents: write
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: pip install -r requirements.txt
+      - run: npm install
+      - name: Generate brief
+        run: |
+          DATE="${{ github.event.inputs.publish_date }}"
+          if [ -z "$DATE" ]; then DATE=$(TZ=Asia/Shanghai date +%F); fi
+          ARGS=(--date "$DATE" --max-items "${{ github.event.inputs.max_items || '18' }}" --language "${{ github.event.inputs.language || 'all' }}")
+          if [ -n "${{ github.event.inputs.source_date }}" ]; then ARGS+=(--source-date "${{ github.event.inputs.source_date }}"); fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then ARGS+=(--force); fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then ARGS+=(--dry-run); fi
+          python -m latest_ai_news.pipeline.run_daily "${ARGS[@]}"
+      - run: python scripts/validate_daily.py
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+      - run: npm run build
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+      - name: Commit generated content
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data content public/rss.xml public/robots.txt
+          git diff --cached --quiet && echo "No content changes" || git commit -m "chore: update daily AI news"
+          git push
