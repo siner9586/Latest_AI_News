@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import { peopleIndex } from '../../utils/data';
+---
+<Base title="People · Latest AI News">
+  <section class="hero">
+    <h1>People</h1>
+    <p>AI executives, founders, researchers, investors, podcast hosts and public thinkers tracked by the pipeline.</p>
+  </section>
+  <section class="list">
+    {peopleIndex.map((p) => (
+      <article class="source-card">
+        <p class="meta">{p.role} · {p.org}</p>
+        <h3>{p.name}<span class="muted"> {p.zh || ''}</span></h3>
+        <p>{(p.tags || []).map((t) => <span class="pill">{t}</span>)}</p>
+      </article>
+    ))}
+  </section>
+</Base>
