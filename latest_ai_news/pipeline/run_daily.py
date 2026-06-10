@@ -75,12 +75,54 @@ def score(row: dict, category: str, people: list[str], companies: list[str]) -> 
     return priority + people_boost + company_boost + product_boost + podcast_boost, freshness, credibility
 
 
-def brief_summaries(row: dict, category: str) -> tuple[str, str]:
+def clean_excerpt(value: str) -> str:
+    text = html.unescape(value or "")
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"^(The post|This post)\b.*", "", text, flags=re.I).strip()
+    text = re.sub(r"\b(Read more|Continue reading|Listen now|Watch now)\b.*$", "", text, flags=re.I).strip()
+    return text[:320]
+
+
+def zh_focus_from_title(title: str, source: str, companies: list[str], people: list[str], category: str) -> str:
+    subject = "、".join((companies or people)[:2]) or source
+    low = title.lower()
+    if category == "podcasts-interviews":
+        return f"重点：{subject}相关访谈/播客更新，核心议题是“{title}”，可用于跟踪 AI 高管判断、产业方向和产品趋势。"
+    if any(word in low for word in ["introducing", "launch", "release", "announces", "unveils"]):
+        return f"重点：{subject}发布或推出新进展，主题为“{title}”，涉及模型、产品能力或开发者生态的变化。"
+    if any(word in low for word in ["benchmark", "research", "paper", "study"]):
+        return f"重点：{subject}围绕“{title}”给出研究或评测进展，值得关注其指标、实验结论和应用边界。"
+    if any(word in low for word in ["funding", "raises", "investment"]):
+        return f"重点：{subject}出现融资或资本动态，主题为“{title}”，反映 AI 创业和基础设施投入方向。"
+    return f"重点：{subject}出现新动态，主题为“{title}”，与 AI 产品、产业落地或技术路线变化有关。"
+
+
+def en_focus_from_title(title: str, source: str, companies: list[str], people: list[str], category: str) -> str:
+    subject = ", ".join((companies or people)[:2]) or source
+    low = title.lower()
+    if category == "podcasts-interviews":
+        return f"Focus: {subject} is covered in a new interview or podcast. The core topic is '{title}', useful for tracking executive views, AI strategy and product direction."
+    if any(word in low for word in ["introducing", "launch", "release", "announces", "unveils"]):
+        return f"Focus: {subject} has a new release or product update around '{title}', pointing to changes in model capability, developer tooling or AI adoption."
+    if any(word in low for word in ["benchmark", "research", "paper", "study"]):
+        return f"Focus: {subject} shares research or evaluation work on '{title}', with attention to metrics, findings and practical limits."
+    if any(word in low for word in ["funding", "raises", "investment"]):
+        return f"Focus: {subject} has a funding or investment update around '{title}', reflecting capital flows in AI startups and infrastructure."
+    return f"Focus: {subject} has a new AI-related update around '{title}', relevant to product, industry or technical direction."
+
+
+def brief_summaries(row: dict, category: str, companies: list[str] | None = None, people: list[str] | None = None) -> tuple[str, str]:
     title = row["title"].strip()
     source = row["source_name"]
-    zh = f"据 {source} 发布，{title}。该条目归入「{CATEGORY_LABELS.get(category, category)}」，已保留原始链接，便于继续追踪相关人物、机构、产品或研究进展。"
-    en = f"{source} published: {title}. The item is classified under {category} and keeps the original link for follow-up tracking of people, companies, products or research."
-    return zh[:240], en[:260]
+    excerpt = clean_excerpt(row.get("summary", ""))
+    if excerpt and excerpt.lower() != title.lower():
+        zh = f"重点：{excerpt}"
+        en = f"Focus: {excerpt}"
+    else:
+        zh = zh_focus_from_title(title, source, companies or [], people or [], category)
+        en = en_focus_from_title(title, source, companies or [], people or [], category)
+    return zh[:260], en[:300]
 
 
 def normalize(raw: list[dict], people: list[dict], companies: list[dict]) -> list[dict]:
@@ -96,7 +138,7 @@ def normalize(raw: list[dict], people: list[dict], companies: list[dict]) -> lis
         cat = category_for(row)
         ps, cs = extract_entities(title, people, companies)
         importance, freshness, credibility = score(row, cat, ps, cs)
-        zh, en = brief_summaries({**row, "title": title}, cat)
+        zh, en = brief_summaries({**row, "title": title}, cat, cs, ps)
         out.append({
             "title": title,
             "summary_zh": zh,
@@ -128,8 +170,8 @@ def fallback_source_index(sources: list[dict], publish_date: str, limit: int) ->
         title = f"Source index initialized: {s['name']}"
         items.append({
             "title": title,
-            "summary_zh": f"初始化来源索引：{s['name']} 已纳入 AI 新闻雷达。该条目不是模拟新闻，而是正式来源库建设记录；后续流水线将优先使用其 RSS、播客 RSS、YouTube RSS 或公开页面元数据。",
-            "summary_en": f"Source index initialized: {s['name']} is now tracked by the AI news radar. This is not fake news; it is a production source-registry record for future RSS, podcast RSS, YouTube RSS or public metadata fetching.",
+            "summary_zh": f"重点：{s['name']} 已纳入 AI 新闻雷达，后续将优先跟踪其 RSS、播客、视频或公开页面更新。",
+            "summary_en": f"Focus: {s['name']} has been added to the AI news radar for future RSS, podcast, video or public-page monitoring.",
             "source_name": s["name"],
             "source_url": url,
             "original_url": url,
