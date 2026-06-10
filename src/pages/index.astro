@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { latestBrief } from '../utils/data';
+import { latestBrief, newsFocus } from '../utils/data';
 const b = latestBrief;
 ---
 <Base title={`AI 新闻简报 · ${b.date}`} description={b.overview_zh}>
@@ -17,6 +17,7 @@ const b = latestBrief;
         <article class="item">
           <p class="meta">{item.category} · {item.source_name} · {item.published_at}</p>
           <h3>{item.title}</h3>
+          <p>{newsFocus(item, 'zh')}</p>
           <a class="pill" href={item.original_url} target="_blank" rel="noreferrer">原始来源</a>
           {(item.tags || []).map((t:string) => <span class="pill">#{t}</span>)}
         </article>
