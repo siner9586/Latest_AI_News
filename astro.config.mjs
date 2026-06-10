@@ -1,8 +1,8 @@
 import { defineConfig } from 'astro/config';
-import sitemap from '@astrojs/sitemap';
+
+const site = process.env.SITE_URL || 'https://aib.ccwu.cc';
 
 export default defineConfig({
-  site: process.env.SITE_URL || 'https://siner9586.github.io/Latest_AI_News',
-  integrations: [sitemap()],
+  site,
   output: 'static'
 });
