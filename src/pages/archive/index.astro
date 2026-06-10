@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import { archiveIndex } from '../../utils/data';
+---
+<Base title="Archive · Latest AI News">
+  <section class="hero">
+    <h1>Archive</h1>
+    <p>All daily AI news briefs, generated from source-linked candidates.</p>
+  </section>
+  <section class="card">
+    {archiveIndex.items.map((d:any) => (
+      <article class="item">
+        <h3><a href={`/daily/${d.date}/`}>AI 新闻简报 · {d.date}</a></h3>
+        <p class="muted">sources {d.source_count} · candidates {d.candidate_count} · selected {d.selected_count}</p>
+      </article>
+    ))}
+  </section>
+</Base>
