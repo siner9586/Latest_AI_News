@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+const tags = ['Agent','LLM','multimodal','AI coding','robotics','AI safety','open source','chips','infrastructure','enterprise AI','consumer AI','policy','funding','research','podcast','interview'];
+---
+<Base title="Tags · Latest AI News">
+  <section class="hero">
+    <h1>Tags</h1>
+    <p>Topic map for AI news classification.</p>
+  </section>
+  <section class="card">{tags.map((t) => <span class="pill">#{t}</span>)}</section>
+</Base>
