@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import { latestBrief } from '../../utils/data';
+const b = latestBrief;
+---
+<Base title={`AI 新闻简报 · ${b.date}`} description={b.overview_zh}>
+  <section class="hero">
+    <div class="eyebrow">中文 AI 新闻台</div>
+    <h1>每天 07:12，读懂 AI 核心动态。</h1>
+    <p>{b.overview_zh}</p>
+    <p class="muted">最新一期 · {b.date} · 候选 {b.candidate_count} · 入选 {b.selected_count} · 来源 {b.source_count}</p>
+  </section>
+  <section class="grid">
+    <div class="card">
+      <h2 class="section-title">今日重点</h2>
+      {b.items.map((item:any) => (
+        <article class="item">
+          <p class="meta">{item.category} · {item.source_name}</p>
+          <h3>{item.title}</h3>
+          <p>{item.summary_zh}</p>
+          <a class="pill" href={item.original_url} target="_blank" rel="noreferrer">原始来源</a>
+          {(item.people || []).map((t:string) => <span class="pill">{t}</span>)}
+          {(item.companies || []).map((t:string) => <span class="pill">{t}</span>)}
+        </article>
+      ))}
+    </div>
+    <aside class="card">
+      <h2 class="section-title">覆盖范围</h2>
+      <div class="stats">
+        <div class="stat"><strong>{b.source_count}</strong><span>来源</span></div>
+        <div class="stat"><strong>{b.candidate_count}</strong><span>候选</span></div>
+        <div class="stat"><strong>{b.selected_count}</strong><span>入选</span></div>
+      </div>
+    </aside>
+  </section>
+</Base>
