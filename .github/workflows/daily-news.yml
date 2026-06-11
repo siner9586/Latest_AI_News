@@ -2,7 +2,15 @@ name: Daily AI News
 
 on:
   schedule:
+    # Primary run: 06:42 Beijing/Taipei time = 22:42 UTC on the previous day.
+    - cron: '42 22 * * *'
+    # Redundant compensation checks every 30 minutes through 09:42 Beijing/Taipei time.
     - cron: '12 23 * * *'
+    - cron: '42 23 * * *'
+    - cron: '12 0 * * *'
+    - cron: '42 0 * * *'
+    - cron: '12 1 * * *'
+    - cron: '42 1 * * *'
   workflow_dispatch:
     inputs:
       publish_date:
@@ -31,35 +39,106 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: daily-ai-news-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   daily:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve publish date and idempotency gate
+        id: gate
+        shell: bash
+        env:
+          INPUT_PUBLISH_DATE: ${{ github.event.inputs.publish_date || '' }}
+          INPUT_FORCE: ${{ github.event.inputs.force || 'false' }}
+          INPUT_DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          set -euo pipefail
+          git pull --ff-only origin "${GITHUB_REF_NAME:-main}" || true
+
+          DATE="$INPUT_PUBLISH_DATE"
+          if [ -z "$DATE" ]; then
+            DATE=$(TZ=Asia/Taipei date +%F)
+          fi
+
+          SKIP=false
+          if [ "$INPUT_FORCE" != "true" ] && [ "$INPUT_DRY_RUN" != "true" ] \
+            && [ -f "data/daily/${DATE}.json" ] \
+            && [ -f "content/zh/daily/${DATE}.md" ] \
+            && [ -f "content/en/daily/${DATE}.md" ]; then
+            SKIP=true
+          fi
+
+          {
+            echo "date=$DATE"
+            echo "force=$INPUT_FORCE"
+            echo "dry_run=$INPUT_DRY_RUN"
+            echo "skip=$SKIP"
+          } >> "$GITHUB_OUTPUT"
+
+          {
+            echo "### Daily AI News gate"
+            echo "- publish_date: $DATE"
+            echo "- force: $INPUT_FORCE"
+            echo "- dry_run: $INPUT_DRY_RUN"
+            echo "- skip_existing_issue: $SKIP"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ "$SKIP" = "true" ]; then
+            echo "Daily issue for ${DATE} already exists. Skip this redundant schedule run."
+          fi
+
       - uses: actions/setup-python@v5
+        if: ${{ steps.gate.outputs.skip != 'true' }}
         with:
           python-version: '3.11'
+
       - uses: actions/setup-node@v4
+        if: ${{ steps.gate.outputs.skip != 'true' }}
         with:
           node-version: '20'
+
       - run: pip install -r requirements.txt
+        if: ${{ steps.gate.outputs.skip != 'true' }}
+
       - run: npm install
+        if: ${{ steps.gate.outputs.skip != 'true' }}
+
       - name: Generate brief
+        if: ${{ steps.gate.outputs.skip != 'true' }}
+        shell: bash
+        env:
+          PUBLISH_DATE: ${{ steps.gate.outputs.date }}
+          SOURCE_DATE: ${{ github.event.inputs.source_date || '' }}
+          MAX_ITEMS: ${{ github.event.inputs.max_items || '18' }}
+          LANGUAGE: ${{ github.event.inputs.language || 'all' }}
+          FORCE: ${{ steps.gate.outputs.force }}
+          DRY_RUN: ${{ steps.gate.outputs.dry_run }}
         run: |
-          DATE="${{ github.event.inputs.publish_date }}"
-          if [ -z "$DATE" ]; then DATE=$(TZ=Asia/Shanghai date +%F); fi
-          ARGS=(--date "$DATE" --max-items "${{ github.event.inputs.max_items || '18' }}" --language "${{ github.event.inputs.language || 'all' }}")
-          if [ -n "${{ github.event.inputs.source_date }}" ]; then ARGS+=(--source-date "${{ github.event.inputs.source_date }}"); fi
-          if [ "${{ github.event.inputs.force }}" = "true" ]; then ARGS+=(--force); fi
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then ARGS+=(--dry-run); fi
+          set -euo pipefail
+          ARGS=(--date "$PUBLISH_DATE" --max-items "$MAX_ITEMS" --language "$LANGUAGE")
+          if [ -n "$SOURCE_DATE" ]; then ARGS+=(--source-date "$SOURCE_DATE"); fi
+          if [ "$FORCE" = "true" ]; then ARGS+=(--force); fi
+          if [ "$DRY_RUN" = "true" ]; then ARGS+=(--dry-run); fi
           python -m latest_ai_news.pipeline.run_daily "${ARGS[@]}"
+
       - run: python scripts/validate_daily.py
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.gate.outputs.skip != 'true' && steps.gate.outputs.dry_run != 'true' }}
+
       - run: npm run build
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.gate.outputs.skip != 'true' && steps.gate.outputs.dry_run != 'true' }}
+
       - name: Commit generated content
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: ${{ steps.gate.outputs.skip != 'true' && steps.gate.outputs.dry_run != 'true' }}
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add data content public/rss.xml public/robots.txt
