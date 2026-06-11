@@ -2,7 +2,7 @@
 
 Latest AI News is a lightweight bilingual AI intelligence site for AI executives, founders, researchers, investors, top podcasts, YouTube channels, X accounts, company blogs, research labs, developer ecosystems and major media coverage.
 
-The project is initialized for `siner9586/Latest_AI_News` as an Astro + TypeScript static site and a Python source-linked news pipeline. It updates every day at **06:18 Beijing/Taipei time**, with redundant compensation checks every 30 minutes until **09:18 Beijing/Taipei time**. If the issue for the current date already exists, compensation runs skip automatically and do not publish duplicates.
+The project is initialized for `siner9586/Latest_AI_News` as an Astro + TypeScript static site and a Python source-linked news pipeline. It updates every day at **06:18 Beijing/Taipei time**, with redundant compensation checks every 15 minutes until **09:33 Beijing/Taipei time**. If the issue for the current date already exists, compensation runs skip automatically and do not publish duplicates.
 
 ## Core features
 
@@ -63,12 +63,19 @@ Optional flags:
 
 ```yaml
 cron: '18 22 * * *'  # 06:18 Beijing/Taipei time, primary run
+cron: '33 22 * * *'  # 06:33 compensation check
 cron: '48 22 * * *'  # 06:48 compensation check
+cron: '3 23 * * *'   # 07:03 compensation check
 cron: '18 23 * * *'  # 07:18 compensation check
+cron: '33 23 * * *'  # 07:33 compensation check
 cron: '48 23 * * *'  # 07:48 compensation check
+cron: '3 0 * * *'    # 08:03 compensation check
 cron: '18 0 * * *'   # 08:18 compensation check
+cron: '33 0 * * *'   # 08:33 compensation check
 cron: '48 0 * * *'   # 08:48 compensation check
-cron: '18 1 * * *'   # 09:18 final compensation check
+cron: '3 1 * * *'    # 09:03 compensation check
+cron: '18 1 * * *'   # 09:18 compensation check
+cron: '33 1 * * *'   # 09:33 final compensation check
 ```
 
 This means the project no longer has only one daily chance. The 06:18 run attempts generation first; later runs check whether the current Beijing/Taipei date already has `data/daily/YYYY-MM-DD.json`, `content/zh/daily/YYYY-MM-DD.md` and `content/en/daily/YYYY-MM-DD.md`. If all exist and `force` is not enabled, the run exits cleanly without generating or committing duplicate content.
@@ -163,7 +170,7 @@ dist
 
 - If no RSS candidates are found, the pipeline publishes a source-index brief rather than inventing news.
 - If one source fails, the workflow logs it in `failures` and continues.
-- If the first scheduled run is missed by GitHub, the compensation schedule checks again every 30 minutes until 09:18 Beijing/Taipei time.
+- If the first scheduled run is missed by GitHub, the compensation schedule checks again every 15 minutes until 09:33 Beijing/Taipei time.
 - If a daily issue already exists, compensation runs skip cleanly and do not duplicate the date.
 - Run `python scripts/validate_daily.py` before build to catch missing URLs, missing fields, duplicate URLs or insufficient registry size.
 - Run `python scripts/check_sources.py` to inspect source coverage by type.
