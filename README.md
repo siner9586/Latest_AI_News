@@ -2,7 +2,7 @@
 
 Latest AI News is a lightweight bilingual AI intelligence site for AI executives, founders, researchers, investors, top podcasts, YouTube channels, X accounts, company blogs, research labs, developer ecosystems and major media coverage.
 
-The project is initialized for `siner9586/Latest_AI_News` as an Astro + TypeScript static site and a Python source-linked news pipeline. It updates every day at **07:12 Beijing/Taipei time**.
+The project is initialized for `siner9586/Latest_AI_News` as an Astro + TypeScript static site and a Python source-linked news pipeline. It updates every day at **06:42 Beijing/Taipei time**, with redundant compensation checks every 30 minutes until **09:42 Beijing/Taipei time**. If the issue for the current date already exists, compensation runs skip automatically and do not publish duplicates.
 
 ## Core features
 
@@ -12,6 +12,7 @@ The project is initialized for `siner9586/Latest_AI_News` as an Astro + TypeScri
 - Source-linked generation: every selected item must include `original_url`, `source_name`, `published_at`, `category`, bilingual summaries and scoring fields.
 - Lightweight static output: Markdown, JSON, RSS and Astro pages; no database required.
 - Failure-tolerant fetching: RSS failures are logged but do not break the whole workflow.
+- Redundant idempotent scheduling: GitHub Actions gets multiple chances each morning; existing daily issues are detected and skipped.
 - Compliance principles: no paywall bypass, no full-text copying, no fake links, no test data in production briefs.
 
 ## Initial registry coverage
@@ -58,23 +59,36 @@ Optional flags:
 
 ### Daily AI News
 
-`.github/workflows/daily-news.yml` runs at:
+`.github/workflows/daily-news.yml` uses multi-point redundant scheduling:
 
 ```yaml
-cron: '12 23 * * *'
+cron: '42 22 * * *'  # 06:42 Beijing/Taipei time, primary run
+cron: '12 23 * * *'  # 07:12 compensation check
+cron: '42 23 * * *'  # 07:42 compensation check
+cron: '12 0 * * *'   # 08:12 compensation check
+cron: '42 0 * * *'   # 08:42 compensation check
+cron: '12 1 * * *'   # 09:12 compensation check
+cron: '42 1 * * *'   # 09:42 final compensation check
 ```
 
-This equals 07:12 Beijing/Taipei time the next morning. The workflow supports manual `workflow_dispatch` with `publish_date`, `source_date`, `force`, `dry_run`, `max_items` and `language`.
+This means the project no longer has only one daily chance. The 06:42 run attempts generation first; later runs check whether the current Beijing/Taipei date already has `data/daily/YYYY-MM-DD.json`, `content/zh/daily/YYYY-MM-DD.md` and `content/en/daily/YYYY-MM-DD.md`. If all exist and `force` is not enabled, the run exits cleanly without generating or committing duplicate content.
+
+The workflow also uses `concurrency` with `cancel-in-progress: false`, so redundant runs are serialized rather than racing each other. Before the idempotency gate, it pulls the latest `main` so a compensation run sees content committed by an earlier run.
+
+The workflow supports manual `workflow_dispatch` with `publish_date`, `source_date`, `force`, `dry_run`, `max_items` and `language`.
 
 Main steps:
 
 1. checkout
-2. setup Python and Node
-3. install dependencies
-4. run daily pipeline
-5. validate generated data
-6. build Astro site
-7. commit generated content and push to `main`
+2. pull latest branch state
+3. resolve Beijing/Taipei publish date
+4. skip if today's issue already exists, unless forced
+5. setup Python and Node
+6. install dependencies
+7. run daily pipeline
+8. validate generated data
+9. build Astro site
+10. commit generated content and push to `main`
 
 ### Build
 
@@ -149,5 +163,7 @@ dist
 
 - If no RSS candidates are found, the pipeline publishes a source-index brief rather than inventing news.
 - If one source fails, the workflow logs it in `failures` and continues.
+- If the first scheduled run is missed by GitHub, the compensation schedule checks again every 30 minutes until 09:42 Beijing/Taipei time.
+- If a daily issue already exists, compensation runs skip cleanly and do not duplicate the date.
 - Run `python scripts/validate_daily.py` before build to catch missing URLs, missing fields, duplicate URLs or insufficient registry size.
 - Run `python scripts/check_sources.py` to inspect source coverage by type.
