@@ -1,0 +1,181 @@
+---
+import { newsFocus } from '../utils/data';
+
+const {
+  b,
+  lang = 'zh',
+  eyebrow,
+  title,
+  subtitle,
+  sourceLabel,
+  showCategories = true,
+} = Astro.props;
+
+const isEn = lang === 'en';
+const items = Array.isArray(b?.items) ? b.items : [];
+const topItem = items[0];
+const categories = Array.isArray(b?.categories) ? b.categories : [];
+const failures = Array.isArray(b?.failures) ? b.failures : [];
+
+const labels = isEn
+  ? {
+      latest: 'Latest edition',
+      candidates: 'Candidates',
+      selected: 'Selected',
+      sources: 'Sources',
+      today: 'Today\'s intelligence feed',
+      original: 'Original source',
+      evidence: 'Evidence-first brief',
+      live: 'Daily signal',
+      coverage: 'Coverage radar',
+      sourceLinked: 'Source-linked',
+      noFake: 'No fake links',
+      noPaywall: 'No paywall bypass',
+      archive: 'View archive',
+      freshness: 'Freshness',
+      credibility: 'Credibility',
+      importance: 'Importance',
+      pipeline: 'Pipeline health',
+      categories: 'Categories',
+      tracked: 'Tracked sources',
+      failureNote: 'Fetch watchlist',
+    }
+  : {
+      latest: '最新一期',
+      candidates: '候选',
+      selected: '入选',
+      sources: '来源',
+      today: '今日情报流',
+      original: '原始来源',
+      evidence: '证据优先简报',
+      live: '每日信号',
+      coverage: '覆盖雷达',
+      sourceLinked: '原链可追溯',
+      noFake: '不用假链接',
+      noPaywall: '不绕过付费墙',
+      archive: '查看归档',
+      freshness: '新鲜度',
+      credibility: '可信度',
+      importance: '重要性',
+      pipeline: '采集管线',
+      categories: '分类',
+      tracked: '追踪来源',
+      failureNote: '抓取观察项',
+    };
+
+function clampScore(value: unknown) {
+  const n = Number(value ?? 0);
+  if (Number.isNaN(n)) return 0;
+  return Math.max(0, Math.min(100, Math.round(n)));
+}
+
+function compactDate(value: string) {
+  if (!value) return '';
+  try {
+    return new Intl.DateTimeFormat(isEn ? 'en-US' : 'zh-CN', {
+      month: 'short',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      timeZone: 'Asia/Taipei',
+    }).format(new Date(value));
+  } catch {
+    return value;
+  }
+}
+
+function scoreStyle(value: unknown) {
+  return `--score:${clampScore(value)}%`;
+}
+---
+<section class="hero hero-studio">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="pulse-dot"></span>{eyebrow || (isEn ? 'AI Executive · Podcast · Media Radar' : 'AI 高管 · 播客 · 媒体雷达')}</div>
+    <h1>{title || (isEn ? 'Daily AI Core Updates.' : '每日 AI 核心动态。')}</h1>
+    <p class="hero-lead">{subtitle || (isEn ? b.overview_en : b.overview_zh)}</p>
+    <div class="hero-actions" aria-label="quick actions">
+      <a class="button button-primary" href={topItem?.original_url || '/archive/'} target={topItem?.original_url ? '_blank' : undefined} rel={topItem?.original_url ? 'noreferrer' : undefined}>{sourceLabel || labels.original}</a>
+      <a class="button button-ghost" href="/archive/">{labels.archive}</a>
+    </div>
+    <div class="trust-strip" aria-label="publishing principles">
+      <span>{labels.sourceLinked}</span>
+      <span>{labels.noFake}</span>
+      <span>{labels.noPaywall}</span>
+    </div>
+  </div>
+
+  <aside class="hero-panel" aria-label="edition summary">
+    <div class="panel-glow"></div>
+    <p class="panel-kicker">{labels.latest}</p>
+    <h2>{b.date}</h2>
+    <p>{labels.evidence}</p>
+    <div class="metric-strip">
+      <div><strong>{b.source_count}</strong><span>{labels.sources}</span></div>
+      <div><strong>{b.candidate_count}</strong><span>{labels.candidates}</span></div>
+      <div><strong>{b.selected_count}</strong><span>{labels.selected}</span></div>
+    </div>
+  </aside>
+</section>
+
+<section class="brief-layout">
+  <section class="feed-card card-elevated">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow small">{labels.live}</p>
+        <h2 class="section-title">{labels.today}</h2>
+      </div>
+      <span class="count-badge">{items.length} {labels.selected}</span>
+    </div>
+
+    {items.map((item: any, index: number) => (
+      <article class={index === 0 ? 'news-card news-card-featured' : 'news-card'}>
+        <div class="rank-badge">{String(index + 1).padStart(2, '0')}</div>
+        <div class="news-body">
+          <p class="meta">{item.category} · {item.source_name} · {compactDate(item.published_at)}</p>
+          <h3><a href={item.original_url} target="_blank" rel="noreferrer">{item.title}</a></h3>
+          <p>{newsFocus(item, lang)}</p>
+          <div class="tag-row">
+            <a class="pill pill-source" href={item.original_url} target="_blank" rel="noreferrer">{labels.original}</a>
+            {(item.tags || []).map((t: string) => <span class="pill">#{t}</span>)}
+            {(item.people || []).map((t: string) => <span class="pill pill-entity">{t}</span>)}
+            {(item.companies || []).map((t: string) => <span class="pill pill-entity">{t}</span>)}
+          </div>
+        </div>
+        <aside class="score-stack" aria-label="item scores">
+          <div class="score-row"><span>{labels.importance}</span><strong>{clampScore(item.importance_score)}</strong><i style={scoreStyle(item.importance_score)}></i></div>
+          <div class="score-row"><span>{labels.freshness}</span><strong>{clampScore(item.freshness_score)}</strong><i style={scoreStyle(item.freshness_score)}></i></div>
+          <div class="score-row"><span>{labels.credibility}</span><strong>{clampScore(item.credibility_score)}</strong><i style={scoreStyle(item.credibility_score)}></i></div>
+        </aside>
+      </article>
+    ))}
+  </section>
+
+  <aside class="intel-rail">
+    <section class="rail-card radar-card">
+      <p class="eyebrow small">{labels.coverage}</p>
+      <h2>{labels.tracked}</h2>
+      <div class="radial-meter" style={`--sources:${Math.min(360, Number(b.source_count || 0) * 2)}deg`}><span>{b.source_count}</span></div>
+      <div class="rail-grid">
+        <div><strong>{b.candidate_count}</strong><span>{labels.candidates}</span></div>
+        <div><strong>{b.skipped_history_count ?? 0}</strong><span>{isEn ? 'Deduped' : '跨期排除'}</span></div>
+      </div>
+    </section>
+
+    {showCategories && categories.length > 0 && (
+      <section class="rail-card">
+        <p class="eyebrow small">{labels.categories}</p>
+        <div class="tag-cloud">{categories.map((c: string) => <span class="pill">{c}</span>)}</div>
+      </section>
+    )}
+
+    {failures.length > 0 && (
+      <section class="rail-card subdued-card">
+        <p class="eyebrow small">{labels.pipeline}</p>
+        <h2>{labels.failureNote}</h2>
+        {failures.slice(0, 3).map((f: any) => (
+          <p class="watch-item"><strong>{f.source}</strong><span>{f.error}</span></p>
+        ))}
+      </section>
+    )}
+  </aside>
+</section>
