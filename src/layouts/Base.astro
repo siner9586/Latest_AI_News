@@ -9,6 +9,7 @@ const { title = 'Latest AI News', description = 'Daily AI executive, podcast, me
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#070b16" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
@@ -16,10 +17,15 @@ const { title = 'Latest AI News', description = 'Daily AI executive, podcast, me
     <link rel="alternate" type="application/rss+xml" title="Latest AI News RSS" href="/rss.xml" />
   </head>
   <body>
+    <a class="skip-link" href="#content">跳到正文</a>
+    <div class="ambient-layer" aria-hidden="true"></div>
     <header class="nav">
       <div class="shell nav-inner">
-        <a class="brand" href="/">Latest AI News</a>
-        <nav>
+        <a class="brand" href="/" aria-label="Latest AI News home">
+          <span class="brand-mark">AI</span>
+          <span class="brand-copy"><strong>Latest AI News</strong><small>Executive Briefing</small></span>
+        </a>
+        <nav class="nav-links" aria-label="Main navigation">
           <a href="/zh/">中文</a>
           <a href="/en/">English</a>
           <a href="/archive/">Archive</a>
@@ -39,7 +45,13 @@ const { title = 'Latest AI News', description = 'Daily AI executive, podcast, me
         </nav>
       </div>
     </header>
-    <main class="shell"><slot /></main>
-    <footer class="shell footer">Daily at 07:12 Beijing/Taipei time · Source-linked summaries only · No paywall bypass · No fake links · No test news in production.</footer>
+    <main id="content" class="shell"><slot /></main>
+    <footer class="shell footer">
+      <div>
+        <strong>Latest AI News</strong>
+        <span>Daily at 07:12 Beijing/Taipei time · Source-linked summaries only.</span>
+      </div>
+      <div>Original links · concise summaries · production data only.</div>
+    </footer>
   </body>
 </html>
