@@ -3,9 +3,18 @@ import Base from '../../layouts/Base.astro';
 import BriefDashboard from '../../components/BriefDashboard.astro';
 import { latestBrief, archiveIndex } from '../../utils/data';
 
+const modules = import.meta.glob('../../../data/daily/*.json', { eager: true });
+function moduleData(mod: any) {
+  return mod.default || mod;
+}
+
 export function getStaticPaths() {
   const dates = archiveIndex.items?.length ? archiveIndex.items : [{ date: latestBrief.date }];
-  return dates.map((d:any) => ({ params: { date: d.date }, props: { b: latestBrief } }));
+  return dates.map((d:any) => {
+    const key = `../../../data/daily/${d.date}.json`;
+    const brief = modules[key] ? moduleData(modules[key]) : latestBrief;
+    return { params: { date: d.date }, props: { b: brief } };
+  });
 }
 const { b } = Astro.props;
 ---
