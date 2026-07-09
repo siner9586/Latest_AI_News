@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 import argparse
-import os
 import hashlib
 import html
 import json
+import os
 import re
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -12,6 +12,8 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from latest_ai_news.config import DATA, ROOT, SITE_URL
 from latest_ai_news.fetchers.rss import fetch_rss
+from latest_ai_news.pipeline.content_enrichment import enrich_selected_items
+from latest_ai_news.pipeline.localize import CATEGORY_LABELS_ZH, clean_text, ensure_localized_item, summary_zh
 from latest_ai_news.registry import build_companies, build_people, build_sources
 
 CATEGORY_LABELS = {
@@ -24,7 +26,6 @@ CATEGORY_LABELS = {
     "podcasts-interviews": "值得听 / 值得看",
     "source-index": "来源索引",
 }
-
 TOP_PEOPLE = {"sam altman", "demis hassabis", "dario amodei", "jensen huang", "satya nadella", "sundar pichai", "mark zuckerberg", "ilya sutskever", "andrej karpathy", "yann lecun", "fei-fei li", "andrew ng", "elon musk"}
 TOP_COMPANIES = {"openai", "anthropic", "deepmind", "google", "microsoft", "meta", "nvidia", "xai", "perplexity", "mistral", "hugging face", "yc", "a16z", "sequoia"}
 TRACKING_PARAMS = {"utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "utm_id", "ref", "ref_src", "fbclid", "gclid"}
@@ -43,7 +44,6 @@ def ensure_registries() -> tuple[list[dict], list[dict], list[dict]]:
 
 
 def canonical_url(url: str) -> str:
-    """Normalize URLs so historical duplicate checks survive tracking params and trailing slashes."""
     if not url:
         return ""
     try:
@@ -71,10 +71,6 @@ def load_json(path: Path) -> dict | None:
 
 
 def load_history(exclude_date: str | None = None) -> dict[str, set[str]]:
-    """Load all previously displayed items so a new issue never reuses old visible dynamics.
-
-    The current publish_date is excluded to allow manual reruns for the same date to replace that issue.
-    """
     urls: set[str] = set()
     titles: set[str] = set()
     groups: set[str] = set()
@@ -89,7 +85,7 @@ def load_history(exclude_date: str | None = None) -> dict[str, set[str]]:
             continue
         for item in data.get("items", []) or []:
             url = canonical_url(str(item.get("original_url", "")))
-            title = title_key(str(item.get("title", "")))
+            title = title_key(str(item.get("title_original") or item.get("title_en") or item.get("title") or ""))
             group = str(item.get("duplicate_group_id", "")).strip()
             if url:
                 urls.add(url)
@@ -143,62 +139,37 @@ def score(row: dict, category: str, people: list[str], companies: list[str]) -> 
     return priority + people_boost + company_boost + product_boost + podcast_boost, freshness, credibility
 
 
-def clean_excerpt(value: str) -> str:
-    text = html.unescape(value or "")
-    text = re.sub(r"<[^>]+>", " ", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    text = re.sub(r"^(The post|This post)\b.*", "", text, flags=re.I).strip()
-    text = re.sub(r"\b(Read more|Continue reading|Listen now|Watch now)\b.*$", "", text, flags=re.I).strip()
-    return text[:320]
-
-
-def zh_focus_from_title(title: str, source: str, companies: list[str], people: list[str], category: str) -> str:
-    subject = "、".join((companies or people)[:2]) or source
-    low = title.lower()
-    if category == "podcasts-interviews":
-        return f"重点：{subject}相关访谈/播客更新，核心议题是“{title}”，可用于跟踪 AI 高管判断、产业方向和产品趋势。"
-    if any(word in low for word in ["introducing", "launch", "release", "announces", "unveils"]):
-        return f"重点：{subject}发布或推出新进展，主题为“{title}”，涉及模型、产品能力或开发者生态的变化。"
-    if any(word in low for word in ["benchmark", "research", "paper", "study"]):
-        return f"重点：{subject}围绕“{title}”给出研究或评测进展，值得关注其指标、实验结论和应用边界。"
-    if any(word in low for word in ["funding", "raises", "investment"]):
-        return f"重点：{subject}出现融资或资本动态，主题为“{title}”，反映 AI 创业和基础设施投入方向。"
-    return f"重点：{subject}出现新动态，主题为“{title}”，与 AI 产品、产业落地或技术路线变化有关。"
-
-
 def en_focus_from_title(title: str, source: str, companies: list[str], people: list[str], category: str) -> str:
     subject = ", ".join((companies or people)[:2]) or source
     low = title.lower()
     if category == "podcasts-interviews":
-        return f"Focus: {subject} is covered in a new interview or podcast. The core topic is '{title}', useful for tracking executive views, AI strategy and product direction."
-    if any(word in low for word in ["introducing", "launch", "release", "announces", "unveils"]):
-        return f"Focus: {subject} has a new release or product update around '{title}', pointing to changes in model capability, developer tooling or AI adoption."
-    if any(word in low for word in ["benchmark", "research", "paper", "study"]):
-        return f"Focus: {subject} shares research or evaluation work on '{title}', with attention to metrics, findings and practical limits."
+        return f"{subject} is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy."
+    if any(word in low for word in ["introducing", "launch", "release", "announces", "unveils", "available"]):
+        return f"{subject} has a release or product update that may affect model capability, developer tooling or AI adoption."
+    if any(word in low for word in ["benchmark", "research", "paper", "study", "evaluat"]):
+        return f"{subject} shares research or evaluation work, with attention to metrics, findings and practical limits."
     if any(word in low for word in ["funding", "raises", "investment"]):
-        return f"Focus: {subject} has a funding or investment update around '{title}', reflecting capital flows in AI startups and infrastructure."
-    return f"Focus: {subject} has a new AI-related update around '{title}', relevant to product, industry or technical direction."
+        return f"{subject} has a funding or investment update, reflecting capital flows in AI startups and infrastructure."
+    return f"{subject} has an AI update relevant to product, industry or technical direction."
 
 
 def brief_summaries(row: dict, category: str, companies: list[str] | None = None, people: list[str] | None = None) -> tuple[str, str]:
     title = row["title"].strip()
     source = row["source_name"]
-    excerpt = clean_excerpt(row.get("summary", ""))
-    if excerpt and excerpt.lower() != title.lower():
-        zh = f"重点：{excerpt}"
-        en = f"Focus: {excerpt}"
-    else:
-        zh = zh_focus_from_title(title, source, companies or [], people or [], category)
-        en = en_focus_from_title(title, source, companies or [], people or [], category)
+    excerpt = clean_text(row.get("summary", ""), 260)
+    temp = {**row, "title_original": title, "summary_en": excerpt, "category": category, "companies": companies or [], "people": people or []}
+    zh = summary_zh(temp)
+    en = excerpt if excerpt and excerpt.lower() != title.lower() else en_focus_from_title(title, source, companies or [], people or [], category)
     return zh[:260], en[:300]
 
 
-def normalize(raw: list[dict], people: list[dict], companies: list[dict], history: dict[str, set[str]] | None = None) -> tuple[list[dict], int]:
+def normalize(raw: list[dict], people: list[dict], companies: list[dict], history: dict[str, set[str]] | None = None, publish_date: str | None = None) -> tuple[list[dict], int]:
     now = datetime.now(timezone.utc).isoformat()
     seen: set[str] = set()
     out: list[dict] = []
     skipped_history = 0
     history = history or {"urls": set(), "titles": set(), "groups": set()}
+    publish_date = publish_date or date.today().isoformat()
     for row in raw:
         url = row.get("url", "").strip()
         title = re.sub(r"\s+", " ", row.get("title", "")).strip()
@@ -212,11 +183,13 @@ def normalize(raw: list[dict], people: list[dict], companies: list[dict], histor
             continue
         seen.add(canonical)
         cat = category_for(row)
-        ps, cs = extract_entities(title, people, companies)
+        ps, cs = extract_entities(f"{title} {row.get('summary','')} {' '.join(row.get('tags', []))}", people, companies)
         importance, freshness, credibility = score(row, cat, ps, cs)
         zh, en = brief_summaries({**row, "title": title}, cat, cs, ps)
-        out.append({
+        item = {
             "title": title,
+            "title_original": title,
+            "title_en": title,
             "summary_zh": zh,
             "summary_en": en,
             "source_name": row["source_name"],
@@ -233,7 +206,12 @@ def normalize(raw: list[dict], people: list[dict], companies: list[dict], histor
             "credibility_score": round(float(credibility), 2),
             "duplicate_group_id": hashlib.sha1(canonical.encode("utf-8")).hexdigest()[:12],
             "language": row.get("language", "en"),
-        })
+            "source_type": row.get("source_type", "rss"),
+            "translation_status": "fallback",
+            "extraction_status": "partial",
+            "quality_warnings": [],
+        }
+        out.append(ensure_localized_item(item, publish_date))
     return sorted(out, key=lambda x: (x["importance_score"], x["published_at"]), reverse=True), skipped_history
 
 
@@ -253,10 +231,12 @@ def fallback_source_index(sources: list[dict], publish_date: str, limit: int, hi
         url = s["url"]
         canonical = canonical_url(url)
         title = f"Source index initialized: {s['name']}"
-        items.append({
+        item = {
             "title": title,
-            "summary_zh": f"重点：{s['name']} 已纳入 AI 新闻雷达，后续将优先跟踪其 RSS、播客、视频或公开页面更新。",
-            "summary_en": f"Focus: {s['name']} has been added to the AI news radar for future RSS, podcast, video or public-page monitoring.",
+            "title_original": title,
+            "title_en": title,
+            "summary_zh": f"{s['name']} 已纳入 AI 情报雷达，后续将追踪其 RSS、播客、视频或公开页面更新。",
+            "summary_en": f"{s['name']} has been added to the AI news radar for future RSS, podcast, video or public-page monitoring.",
             "source_name": s["name"],
             "source_url": url,
             "original_url": url,
@@ -271,7 +251,12 @@ def fallback_source_index(sources: list[dict], publish_date: str, limit: int, hi
             "credibility_score": 90,
             "duplicate_group_id": hashlib.sha1(canonical.encode("utf-8")).hexdigest()[:12],
             "language": s.get("language", "en"),
-        })
+            "source_type": s.get("type", "source"),
+            "translation_status": "fallback",
+            "extraction_status": "partial",
+            "quality_warnings": ["source_index_fallback"],
+        }
+        items.append(ensure_localized_item(item, publish_date))
     return items
 
 
@@ -296,7 +281,7 @@ def write_outputs(brief: dict) -> None:
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "date": d,
         "displayed_urls": [x.get("original_url") for x in brief.get("items", []) if x.get("original_url")],
-        "displayed_titles": [x.get("title") for x in brief.get("items", []) if x.get("title")],
+        "displayed_titles": [x.get("title_original") or x.get("title") for x in brief.get("items", []) if x.get("title_original") or x.get("title")],
         "skipped_history_count": brief.get("skipped_history_count", 0),
         "failures": brief.get("failures", []),
     }
@@ -304,13 +289,14 @@ def write_outputs(brief: dict) -> None:
     zh_lines = ["---", f"title: AI 新闻简报 · {d}", f"date: {d}", "---", "", brief["overview_zh"], ""]
     en_lines = ["---", f"title: English AI News Brief · {d}", f"date: {d}", "---", "", brief["overview_en"], ""]
     for item in brief["items"]:
-        zh_lines += [f"## {item['title']}", "", item["summary_zh"], "", f"来源：{item['original_url']}", ""]
-        en_lines += [f"## {item['title']}", "", item["summary_en"], "", f"Source: {item['original_url']}", ""]
+        zh_lines += [f"## {item.get('title_zh') or item.get('title')}", "", item.get("summary_zh", ""), "", f"中文阅读：{item.get('localized_url', '')}", f"来源：{item['original_url']}", ""]
+        en_lines += [f"## {item.get('title_en') or item.get('title_original') or item.get('title')}", "", item.get("summary_en", ""), "", f"Source: {item['original_url']}", ""]
     (ROOT / "content" / "zh" / "daily" / f"{d}.md").write_text("\n".join(zh_lines), encoding="utf-8")
     (ROOT / "content" / "en" / "daily" / f"{d}.md").write_text("\n".join(en_lines), encoding="utf-8")
     rss_items = []
     for item in brief["items"]:
-        rss_items.append(f"<item><title>{html.escape(item['title'])}</title><link>{html.escape(item['original_url'])}</link><description>{html.escape(item['summary_en'])}</description><pubDate>{html.escape(item['published_at'])}</pubDate></item>")
+        link = f"{SITE_URL.rstrip('/')}{item.get('localized_url')}" if item.get("localized_url") else item.get("original_url", "")
+        rss_items.append(f"<item><title>{html.escape(item.get('title_zh') or item.get('title') or '')}</title><link>{html.escape(link)}</link><description>{html.escape(item.get('summary_zh') or item.get('summary_en') or '')}</description><pubDate>{html.escape(item['published_at'])}</pubDate></item>")
     rss = f"""<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Latest AI News</title><link>{SITE_URL}</link><description>Daily source-linked AI intelligence</description>{''.join(rss_items)}</channel></rss>"""
     (ROOT / "public" / "rss.xml").write_text(rss, encoding="utf-8")
     (ROOT / "public" / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL.rstrip('/')}/sitemap-index.xml\n", encoding="utf-8")
@@ -328,20 +314,22 @@ def run(publish_date: str, max_items: int, dry_run: bool, force: bool = False) -
             raw.extend(fetch_rss(source, limit=8))
         except Exception as exc:
             failures.append({"source": source.get("name"), "error": str(exc)[:220]})
-    items, skipped_history = normalize(raw, people, companies, history=history)
+    items, skipped_history = normalize(raw, people, companies, history=history, publish_date=publish_date)
     selected = items[:max_items] if items else fallback_source_index(sources, publish_date, max_items, history=history)
+    selected = enrich_selected_items(selected, publish_date, force=force)
     categories = sorted({x["category"] for x in selected})
     brief = {
         "date": publish_date,
         "title_zh": f"AI 新闻简报 · {publish_date}",
         "title_en": f"English AI News Brief · {publish_date}",
-        "overview_zh": f"本期从 {len(sources)} 个结构化来源中生成，候选 {len(raw)} 条，跨期排除历史已展示 {skipped_history} 条，入选 {len(selected)} 条。所有条目均保留原始来源链接；若真实抓取不足，则仅发布未展示过的来源索引记录，不用测试数据冒充更新。",
-        "overview_en": f"This brief is generated from {len(sources)} structured sources with {len(raw)} candidates, {skipped_history} previously displayed items excluded, and {len(selected)} selected items. Every item keeps an original source link; if live fetching is insufficient, the site publishes only not-yet-shown source-index records instead of fake news.",
+        "overview_zh": f"本期从 {len(sources)} 个结构化来源中生成，候选 {len(raw)} 条，跨期排除历史已展示 {skipped_history} 条，入选 {len(selected)} 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+        "overview_en": f"This brief is generated from {len(sources)} structured sources with {len(raw)} candidates, {skipped_history} previously displayed items excluded, and {len(selected)} selected items. Chinese pages link to internal research digests while preserving original source links.",
         "source_count": len(sources),
         "candidate_count": len(raw),
         "skipped_history_count": skipped_history,
         "selected_count": len(selected),
         "categories": categories,
+        "category_labels_zh": {k: CATEGORY_LABELS_ZH.get(k, CATEGORY_LABELS.get(k, k)) for k in categories},
         "items": selected,
         "failures": failures,
     }
