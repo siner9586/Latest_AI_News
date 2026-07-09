@@ -18,6 +18,14 @@ jobs:
       - run: pip install -r requirements.txt
       - run: npm install
       - run: python -m latest_ai_news.pipeline.run_daily --max-items 18
+        env:
+          LOCALIZATION_PROVIDER: ${{ vars.LOCALIZATION_PROVIDER || 'rule' }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || '' }}
+      - run: python scripts/backfill_localized_items.py --date "$(python - <<'PY'
+import json
+print(json.load(open('data/index/latest.json'))['date'])
+PY
+)"
       - run: python scripts/check_sources.py
       - run: python scripts/validate_daily.py
       - run: npm run build
