@@ -78,7 +78,8 @@ jobs:
           if [ "$INPUT_FORCE" != "true" ] && [ "$INPUT_DRY_RUN" != "true" ] \
             && [ -f "data/daily/${DATE}.json" ] \
             && [ -f "content/zh/daily/${DATE}.md" ] \
-            && [ -f "content/en/daily/${DATE}.md" ]; then
+            && [ -f "content/en/daily/${DATE}.md" ] \
+            && grep -q '"localized_url"' "data/daily/${DATE}.json"; then
             SKIP=true
           fi
 
@@ -94,11 +95,11 @@ jobs:
             echo "- publish_date: $DATE"
             echo "- force: $INPUT_FORCE"
             echo "- dry_run: $INPUT_DRY_RUN"
-            echo "- skip_existing_issue: $SKIP"
+            echo "- skip_existing_localized_issue: $SKIP"
           } >> "$GITHUB_STEP_SUMMARY"
 
           if [ "$SKIP" = "true" ]; then
-            echo "Daily issue for ${DATE} already exists. Skip this redundant schedule run."
+            echo "Localized daily issue for ${DATE} already exists. Skip this redundant schedule run."
           fi
 
       - uses: actions/setup-python@v5
@@ -127,6 +128,8 @@ jobs:
           LANGUAGE: ${{ github.event.inputs.language || 'all' }}
           FORCE: ${{ steps.gate.outputs.force }}
           DRY_RUN: ${{ steps.gate.outputs.dry_run }}
+          LOCALIZATION_PROVIDER: ${{ vars.LOCALIZATION_PROVIDER || 'rule' }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || '' }}
         run: |
           set -euo pipefail
           ARGS=(--date "$PUBLISH_DATE" --max-items "$MAX_ITEMS" --language "$LANGUAGE")
@@ -134,6 +137,10 @@ jobs:
           if [ "$FORCE" = "true" ]; then ARGS+=(--force); fi
           if [ "$DRY_RUN" = "true" ]; then ARGS+=(--dry-run); fi
           python -m latest_ai_news.pipeline.run_daily "${ARGS[@]}"
+
+      - name: Backfill localized fields
+        if: ${{ steps.gate.outputs.skip != 'true' && steps.gate.outputs.dry_run != 'true' }}
+        run: python scripts/backfill_localized_items.py --date "${{ steps.gate.outputs.date }}"
 
       - run: python scripts/validate_daily.py
         if: ${{ steps.gate.outputs.skip != 'true' && steps.gate.outputs.dry_run != 'true' }}
