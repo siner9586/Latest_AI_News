@@ -1,0 +1,140 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import { categoryLabel } from '../../../../utils/data';
+
+const modules = import.meta.glob('../../../../../data/daily/*.json', { eager: true });
+
+function moduleData(mod: any) {
+  return mod.default || mod;
+}
+
+function fallbackSlug(item: any) {
+  return item?.slug || String(item?.duplicate_group_id || item?.title_original || item?.title || 'item')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '') || 'item';
+}
+
+export function getStaticPaths() {
+  const paths: any[] = [];
+  for (const mod of Object.values(modules)) {
+    const brief: any = moduleData(mod);
+    const date = brief?.date;
+    for (const item of brief?.items || []) {
+      const slug = fallbackSlug(item);
+      paths.push({ params: { date, slug }, props: { brief, item } });
+    }
+  }
+  return paths;
+}
+
+const { brief, item } = Astro.props;
+const title = item.title_zh || item.title || item.title_original || '中文研究解读';
+const points = Array.isArray(item.key_points_zh) ? item.key_points_zh : [];
+const terms = Array.isArray(item.terms_zh) ? item.terms_zh : [];
+const evidence = Array.isArray(item.evidence_zh) ? item.evidence_zh : [];
+const warnings = Array.isArray(item.quality_warnings) ? item.quality_warnings : [];
+const related = [...(item.companies || []), ...(item.people || []), ...(item.tags || []).map((t: string) => `#${t}`)].filter(Boolean);
+---
+<Base title={`${title} · 中文研究解读`} description={item.summary_zh || item.insight_zh || title}>
+  <article class="item-page">
+    <nav class="breadcrumb" aria-label="breadcrumb">
+      <a href="/zh/">首页</a>
+      <span>/</span>
+      <a href="/archive/">归档</a>
+      <span>/</span>
+      <span>{brief.date}</span>
+    </nav>
+
+    <header class="item-hero">
+      <p class="eyebrow small">中文研究阅读版</p>
+      <h1>{title}</h1>
+      <p class="item-deck">{item.summary_zh || item.insight_zh}</p>
+      <div class="item-meta-grid">
+        <div><span>来源</span><strong>{item.source_name}</strong></div>
+        <div><span>发布时间</span><strong>{item.published_at}</strong></div>
+        <div><span>抓取时间</span><strong>{item.fetched_at}</strong></div>
+        <div><span>分类</span><strong>{categoryLabel(item.category, 'zh')}</strong></div>
+      </div>
+      <div class="hero-actions">
+        {item.original_url && <a class="button button-primary" href={item.original_url} target="_blank" rel="noreferrer">查看原始来源 / Source</a>}
+        <a class="button button-ghost" href="/zh/">返回首页</a>
+      </div>
+    </header>
+
+    <section class="digest-section conclusion-card">
+      <p class="eyebrow small">一句话结论</p>
+      <p>{item.insight_zh || item.summary_zh}</p>
+    </section>
+
+    {points.length > 0 && (
+      <section class="digest-section">
+        <h2>核心要点</h2>
+        <div class="point-grid">
+          {points.slice(0, 6).map((p: string, index: number) => <p><strong>{index + 1}</strong><span>{p}</span></p>)}
+        </div>
+      </section>
+    )}
+
+    <section class="digest-section prose-card">
+      <h2>背景说明</h2>
+      <p>{item.background_zh}</p>
+    </section>
+
+    <section class="digest-section prose-card">
+      <h2>详细解读</h2>
+      <p>{item.summary_zh}</p>
+      <p>{item.insight_zh}</p>
+      {item.extracted_text_for_analysis && <p>{String(item.extracted_text_for_analysis).slice(0, 520)}……</p>}
+    </section>
+
+    <section class="digest-section prose-card">
+      <h2>影响判断</h2>
+      <p>{item.impact_zh}</p>
+    </section>
+
+    {related.length > 0 && (
+      <section class="digest-section">
+        <h2>相关主体</h2>
+        <div class="tag-row">{related.slice(0, 18).map((name: string) => <span class="pill pill-entity">{name}</span>)}</div>
+      </section>
+    )}
+
+    {terms.length > 0 && (
+      <section class="digest-section">
+        <h2>术语卡</h2>
+        <div class="term-grid">
+          {terms.slice(0, 6).map((t: any) => (
+            <div class="term-card"><strong>{t.term}</strong><p>{t.explanation}</p></div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="digest-section">
+      <h2>证据与来源</h2>
+      <div class="evidence-list">
+        {evidence.map((e: any) => (
+          <a href={e.source_url || item.original_url} target="_blank" rel="noreferrer">
+            <strong>{e.label}</strong>
+            <span>{e.text}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    {item.content_mode === 'full_zh_mirror' && item.full_text_zh && (
+      <section class="digest-section prose-card">
+        <h2>完整中文译文</h2>
+        <p>{item.full_text_zh}</p>
+      </section>
+    )}
+
+    {warnings.length > 0 && (
+      <section class="digest-section warning-card">
+        <h2>质量提示</h2>
+        <p>{warnings.join('、')}</p>
+      </section>
+    )}
+  </article>
+</Base>
