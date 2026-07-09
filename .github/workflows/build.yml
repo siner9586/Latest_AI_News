@@ -21,11 +21,7 @@ jobs:
         env:
           LOCALIZATION_PROVIDER: ${{ vars.LOCALIZATION_PROVIDER || 'rule' }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || '' }}
-      - run: python scripts/backfill_localized_items.py --date "$(python - <<'PY'
-import json
-print(json.load(open('data/index/latest.json'))['date'])
-PY
-)"
+      - run: python scripts/backfill_localized_items.py --date "$(python -c 'import json; print(json.load(open("data/index/latest.json"))["date"])')"
       - run: python scripts/check_sources.py
       - run: python scripts/validate_daily.py
       - run: npm run build
