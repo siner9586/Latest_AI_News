@@ -17,11 +17,17 @@ jobs:
           node-version: '20'
       - run: pip install -r requirements.txt
       - run: npm install
-      - run: python -m latest_ai_news.pipeline.run_daily --max-items 18
+      - name: Generate latest brief
+        run: python -m latest_ai_news.pipeline.run_daily --max-items 18
         env:
           LOCALIZATION_PROVIDER: ${{ vars.LOCALIZATION_PROVIDER || 'rule' }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || '' }}
-      - run: python scripts/backfill_localized_items.py --date "$(python -c 'import json; print(json.load(open("data/index/latest.json"))["date"])')"
+      - name: Backfill localized fields
+        shell: bash
+        run: |
+          set -euo pipefail
+          DATE=$(python -c 'import json; print(json.load(open("data/index/latest.json"))["date"])')
+          python scripts/backfill_localized_items.py --date "$DATE"
       - run: python scripts/check_sources.py
       - run: python scripts/validate_daily.py
       - run: npm run build
