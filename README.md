@@ -1,176 +1,291 @@
 # Latest AI News
 
-Latest AI News is a lightweight bilingual AI intelligence site for AI executives, founders, researchers, investors, top podcasts, YouTube channels, X accounts, company blogs, research labs, developer ecosystems and major media coverage.
+Latest AI News 是一个 Astro + Python 的中文优先 AI 情报站。它从结构化 RSS、公司博客、研究机构、开发者生态、播客、媒体与投资来源中生成每日 AI 情报流，并把首页阅读链路升级为“站内中文研究阅读页”。
 
-The project is initialized for `siner9586/Latest_AI_News` as an Astro + TypeScript static site and a Python source-linked news pipeline. It updates every day at **06:18 Beijing/Taipei time**, with redundant compensation checks every 15 minutes until **09:33 Beijing/Taipei time**. If the issue for the current date already exists, compensation runs skip automatically and do not publish duplicates.
+## 核心变化
 
-## Core features
+- 中文首页标题优先使用 `title_zh`，不再默认展示英文原标题。
+- 中文首页标题优先跳转 `/zh/items/YYYY-MM-DD/slug/` 站内详情页。
+- 原始来源仍保留，但降级为详情页和卡片中的“原始来源”按钮。
+- 每条 item 增加中文标题、中文摘要、研究解读、核心要点、背景说明、影响判断、术语卡、证据卡、站内路径、slug、抓取/翻译状态和质量提示。
+- 不绕过付费墙，不伪造来源，不用测试数据冒充真实新闻。
+- 没有 `OPENAI_API_KEY` 时使用规则型中文生成逻辑；有密钥时可选启用增强汉化，失败自动回退。
 
-- Daily bilingual AI news brief with Chinese and English pages using the same layout.
-- Structured source registry for podcasts, YouTube, X accounts, media, company blogs, research labs, investor content, newsletters and developer sources.
-- Structured entity registry for AI people, companies, labs, platforms and investors.
-- Source-linked generation: every selected item must include `original_url`, `source_name`, `published_at`, `category`, bilingual summaries and scoring fields.
-- Lightweight static output: Markdown, JSON, RSS and Astro pages; no database required.
-- Failure-tolerant fetching: RSS failures are logged but do not break the whole workflow.
-- Redundant idempotent scheduling: GitHub Actions gets multiple chances each morning; existing daily issues are detected and skipped.
-- Compliance principles: no paywall bypass, no full-text copying, no fake links, no test data in production briefs.
+## 中文研究阅读页
 
-## Initial registry coverage
+每条中文 item 会生成一个静态详情页：
 
-The seed registry contains more than the required baseline:
+```text
+/zh/items/YYYY-MM-DD/slug/
+```
 
-- 148 structured sources
-- 89 people
-- 62 companies and institutions
+页面包含：
 
-Key source groups include Lenny's Podcast, Peter Yang, Every, Redpoint, Sequoia, South Park Commons, Google DeepMind, No Priors, a16z AI, Latent Space, The AI Daily Brief, Y Combinator, Lex Fridman, Dwarkesh, Hard Fork, OpenAI, Anthropic, Meta AI, Microsoft AI, NVIDIA, Hugging Face, MIT Technology Review, TechCrunch, The Verge, Reuters, Bloomberg, FT, WSJ, NYT, The Information, Simon Willison, Interconnects and selected Chinese AI media.
+- 中文标题
+- 来源、发布时间、抓取时间、分类
+- 原始来源按钮
+- 一句话结论
+- 核心要点
+- 背景说明
+- 详细解读
+- 影响判断
+- 相关公司、人物、标签
+- 术语卡
+- 证据与来源
+- 质量提示
 
-## Local development
+默认页面名称是“中文研究阅读版”或“中文研究解读”，不是“全文翻译”。只有当 `content_mode=full_zh_mirror` 且 `source_license_mode` 允许时，才展示完整中文镜像模块。
+
+## 为什么首页标题跳转站内中文页
+
+首页的目标是让中文读者先完成研究阅读，而不是被迫跳到英文原文。原始链接仍然存在，保留在：
+
+1. 首页卡片的“原始来源”按钮；
+2. 中文详情页顶部的“查看原始来源 / Source”按钮；
+3. 证据与来源模块；
+4. RSS 条目链接或描述中。
+
+## 数据结构
+
+每个 item 至少应包含以下字段：
+
+```text
+title
+title_original
+title_zh
+title_en
+summary_zh
+summary_en
+insight_zh
+key_points_zh
+background_zh
+impact_zh
+terms_zh
+evidence_zh
+source_name
+source_url
+original_url
+localized_url
+slug
+source_license_mode
+content_mode
+full_text_zh
+fetched_at
+published_at
+category
+people
+companies
+tags
+importance_score
+freshness_score
+credibility_score
+duplicate_group_id
+language
+translation_status
+extraction_status
+quality_warnings
+```
+
+旧数据缺字段时，`scripts/ensure_data.py` 和 `scripts/backfill_localized_items.py` 会补齐，页面也会走 fallback，不应崩溃。
+
+## content_mode 与 source_license_mode
+
+`source_license_mode` 支持：
+
+- `summary_only`：只保存摘要、元数据、证据转述和链接。
+- `official_public`：官方公开内容，可做更详尽摘要，但默认不全文镜像。
+- `open_license`：开放许可来源。
+- `owned`：自有内容。
+- `allow_full_mirror`：允许全文镜像。
+
+`content_mode` 支持：
+
+- `research_digest`：默认模式，生成中文研究解读。
+- `full_zh_mirror`：仅在 private research 且来源许可允许时使用。
+
+启用私人研究模式：
+
+```bash
+PRIVATE_RESEARCH_MODE=true python -m latest_ai_news.pipeline.run_daily --date 2026-07-09 --force
+```
+
+## LOCALIZATION_PROVIDER
+
+默认不需要任何付费 API：
+
+```bash
+LOCALIZATION_PROVIDER=rule
+```
+
+可选启用 OpenAI 增强：
+
+```bash
+export LOCALIZATION_PROVIDER=openai
+export OPENAI_API_KEY=你的密钥
+python -m latest_ai_news.pipeline.run_daily --date 2026-07-09 --max-items 18 --language all --force
+```
+
+增强模式只发送标题、公开摘要、来源、分类和必要短文本；输出必须是 JSON；失败会自动回退规则生成。
+
+缓存位置：
+
+```text
+data/cache/localized/*.json
+```
+
+## 本地验证
 
 ```bash
 npm install
 pip install -r requirements.txt
-python -m latest_ai_news.pipeline.run_daily --date 2026-06-10
+python -m latest_ai_news.pipeline.run_daily --date 2026-07-09 --max-items 18 --language all --force
+python scripts/backfill_localized_items.py --date 2026-07-09
 python scripts/validate_daily.py
-npm run dev
 npm run build
 ```
 
-`npm run build` runs the Python pipeline first, then builds Astro, so a fresh clone can generate `data/index/latest.json`, daily Markdown, RSS and archive files before the static build.
+日常开发：
 
-## Manual daily generation
+```bash
+npm run dev
+npm run build
+npm run validate
+npm run backfill -- --date 2026-07-09
+```
+
+## 手动生成某天内容
 
 ```bash
 python -m latest_ai_news.pipeline.run_daily \
-  --date 2026-06-10 \
+  --date 2026-07-09 \
   --max-items 18 \
   --language all
 ```
 
-Optional flags:
+可选参数：
 
-- `--source-date YYYY-MM-DD`: reserved for future source-date backfill logic.
-- `--force`: force regeneration.
-- `--dry-run`: print generated brief without writing files.
-- `--max-items`: maximum selected items.
-- `--language`: `all`, `zh`, or `en`.
+- `--force`：强制重新生成当天内容。
+- `--dry-run`：只打印结果，不写文件。
+- `--max-items N`：限制入选条数。
+- `--language all|zh|en`：兼容旧参数。
+
+## 回填历史中文标题与详情页
+
+回填单日：
+
+```bash
+python scripts/backfill_localized_items.py --date 2026-07-09
+```
+
+预览不写入：
+
+```bash
+python scripts/backfill_localized_items.py --date 2026-07-09 --dry-run
+```
+
+回填全部历史：
+
+```bash
+python scripts/backfill_localized_items.py --all
+```
+
+强制重写中文字段：
+
+```bash
+python scripts/backfill_localized_items.py --all --force
+```
+
+## 正文抽取策略
+
+新增轻量抽取模块：
+
+```text
+latest_ai_news/fetchers/article_page.py
+latest_ai_news/pipeline/content_enrichment.py
+```
+
+优先使用：
+
+- `requests`
+- `BeautifulSoup`
+- `trafilatura`
+- `readability-lxml`
+- `html2text`
+
+抽取失败不会中断 daily pipeline，只会写入 `extraction_status` 和 `quality_warnings`。X、YouTube、播客、付费媒体等难以抽取正文的来源，会自动降级为元数据摘要。
 
 ## GitHub Actions
 
-### Daily AI News
-
-`.github/workflows/daily-news.yml` uses multi-point redundant scheduling:
+`.github/workflows/daily-news.yml` 保持多时点冗余调度：
 
 ```yaml
-cron: '18 22 * * *'  # 06:18 Beijing/Taipei time, primary run
-cron: '33 22 * * *'  # 06:33 compensation check
-cron: '48 22 * * *'  # 06:48 compensation check
-cron: '3 23 * * *'   # 07:03 compensation check
-cron: '18 23 * * *'  # 07:18 compensation check
-cron: '33 23 * * *'  # 07:33 compensation check
-cron: '48 23 * * *'  # 07:48 compensation check
-cron: '3 0 * * *'    # 08:03 compensation check
-cron: '18 0 * * *'   # 08:18 compensation check
-cron: '33 0 * * *'   # 08:33 compensation check
-cron: '48 0 * * *'   # 08:48 compensation check
-cron: '3 1 * * *'    # 09:03 compensation check
-cron: '18 1 * * *'   # 09:18 compensation check
-cron: '33 1 * * *'   # 09:33 final compensation check
+cron: '18 22 * * *'  # 06:18 Beijing/Taipei primary
+cron: '33 22 * * *'  # 06:33 compensation
+cron: '48 22 * * *'  # 06:48 compensation
+cron: '3 23 * * *'   # 07:03 compensation
+cron: '18 23 * * *'  # 07:18 compensation
+cron: '33 23 * * *'  # 07:33 compensation
+cron: '48 23 * * *'  # 07:48 compensation
+cron: '3 0 * * *'    # 08:03 compensation
+cron: '18 0 * * *'   # 08:18 compensation
+cron: '33 0 * * *'   # 08:33 compensation
+cron: '48 0 * * *'   # 08:48 compensation
+cron: '3 1 * * *'    # 09:03 compensation
+cron: '18 1 * * *'   # 09:18 compensation
+cron: '33 1 * * *'   # 09:33 final compensation
 ```
 
-This means the project no longer has only one daily chance. The 06:18 run attempts generation first; later runs check whether the current Beijing/Taipei date already has `data/daily/YYYY-MM-DD.json`, `content/zh/daily/YYYY-MM-DD.md` and `content/en/daily/YYYY-MM-DD.md`. If all exist and `force` is not enabled, the run exits cleanly without generating or committing duplicate content.
+跳过条件现在不仅检查当天 JSON 和 Markdown 是否存在，还检查 `data/daily/YYYY-MM-DD.json` 是否已经包含 `localized_url`。如果旧格式内容已经存在但尚未中文化，补偿任务不会误跳过。
 
-The workflow also uses `concurrency` with `cancel-in-progress: false`, so redundant runs are serialized rather than racing each other. Before the idempotency gate, it pulls the latest `main` so a compensation run sees content committed by an earlier run.
+## 验证规则
 
-The workflow supports manual `workflow_dispatch` with `publish_date`, `source_date`, `force`, `dry_run`, `max_items` and `language`.
-
-Main steps:
-
-1. checkout
-2. pull latest branch state
-3. resolve Beijing/Taipei publish date
-4. skip if today's issue already exists, unless forced
-5. setup Python and Node
-6. install dependencies
-7. run daily pipeline
-8. validate generated data
-9. build Astro site
-10. commit generated content and push to `main`
-
-### Build
-
-`.github/workflows/build.yml` runs the daily generator, validation, source checks and `npm run build` on push and pull request.
-
-## Environment variables
-
-Core flow does not require paid APIs.
-
-- `SITE_URL`: canonical deployed site URL.
-- `TIMEZONE`: default `Asia/Shanghai`.
-- `YOUTUBE_API_KEY`: optional future YouTube enrichment; RSS works without it.
-- `X_BEARER_TOKEN`: optional future X API fetching; without it X accounts remain metadata-only.
-- `OPENAI_API_KEY`: optional future high-quality summarization; without it rule-based summaries are generated.
-- `GITHUB_TOKEN`: automatically provided by GitHub Actions.
-
-## Data layout
-
-Generated by the pipeline:
-
-```text
-data/sources/sources.json
-data/sources/last_seen.json
-data/entities/people.json
-data/entities/companies.json
-data/daily/YYYY-MM-DD.json
-data/index/latest.json
-data/index/archive.json
-content/zh/daily/YYYY-MM-DD.md
-content/en/daily/YYYY-MM-DD.md
-public/rss.xml
+```bash
+python scripts/validate_daily.py
 ```
 
-Seeded in code:
+会检查：
 
-```text
-latest_ai_news/registry.py
-```
+- 必需字段是否齐全；
+- `localized_url` 是否以 `/zh/items/` 开头；
+- 中文标题是否大面积英文；
+- 中文摘要是否残留“围绕”“重点：”“Focus:”等模板；
+- 原始 URL 是否存在且以 http 开头；
+- 同日 URL 是否重复；
+- 跨期 URL 是否重复；
+- 是否出现 mock / lorem ipsum 测试数据；
+- 动态详情页路由是否存在。
 
-## Adding sources
+`quality_warnings` 只打印，不作为失败条件。
 
-Add or edit source records after generation under `data/sources/sources.json`, then back-port stable additions into `latest_ai_news/registry.py` or replace the compressed registry through the pipeline tools. Required fields include `name`, `type`, `url`, `rss`, `language`, `priority`, `paywall`, `fetch_method` and `tags`.
+## 部署
 
-Prefer official RSS, podcast RSS or YouTube RSS. For media behind paywalls, keep only title, public metadata and outbound links.
+静态部署适用于 GitHub Pages、Cloudflare Pages、Netlify。
 
-## Deployment
-
-The repository is static and can deploy to GitHub Pages, Cloudflare Pages or Netlify.
-
-Recommended build command:
+推荐构建命令：
 
 ```bash
 npm install && npm run build
 ```
 
-Output directory:
+输出目录：
 
 ```text
 dist
 ```
 
-## Copyright and compliance
+## 合规与来源说明
 
-- Do not copy full media articles.
-- Do not save full podcast transcripts or video captions as public content.
-- Do not bypass paywalls.
-- Always link to the original source.
-- Clearly distinguish official announcements, media reports, rumors and analysis.
-- Use cautious language for policy, financing, markets, medicine, law and public-company topics.
+- 不伪造来源。
+- 不保存不可验证来源。
+- 不绕过付费墙。
+- 默认不公开完整全文镜像。
+- 公开站点只保存标题、摘要、必要证据转述、元数据和原始链接。
+- 对政策、融资、上市公司、医疗、法律等高风险内容使用克制表述。
 
-## Troubleshooting
+## 故障排查
 
-- If no RSS candidates are found, the pipeline publishes a source-index brief rather than inventing news.
-- If one source fails, the workflow logs it in `failures` and continues.
-- If the first scheduled run is missed by GitHub, the compensation schedule checks again every 15 minutes until 09:33 Beijing/Taipei time.
-- If a daily issue already exists, compensation runs skip cleanly and do not duplicate the date.
-- Run `python scripts/validate_daily.py` before build to catch missing URLs, missing fields, duplicate URLs or insufficient registry size.
-- Run `python scripts/check_sources.py` to inspect source coverage by type.
+- 如果没有 RSS 候选，pipeline 会发布未展示过的来源索引，不会制造假新闻。
+- 如果单个来源失败，记录到 `failures`，不会中断整期生成。
+- 如果中文字段缺失，运行 `python scripts/backfill_localized_items.py --date YYYY-MM-DD`。
+- 如果首页标题仍直连外部，检查 item 是否有 `localized_url`，并运行回填脚本。
+- 如果构建失败，先运行 `python scripts/validate_daily.py` 定位字段、URL 或模板残留问题。
