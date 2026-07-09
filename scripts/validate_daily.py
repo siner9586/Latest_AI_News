@@ -8,7 +8,21 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 errors: list[str] = []
+warnings: list[str] = []
 TRACKING_PARAMS = {"utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "utm_id", "ref", "ref_src", "fbclid", "gclid"}
+REQUIRED_ITEM_FIELDS = [
+    "title", "title_original", "title_zh", "title_en", "summary_zh", "summary_en", "insight_zh",
+    "key_points_zh", "background_zh", "impact_zh", "terms_zh", "evidence_zh", "source_name",
+    "source_url", "original_url", "localized_url", "slug", "source_license_mode", "content_mode",
+    "fetched_at", "published_at", "category", "people", "companies", "tags", "importance_score",
+    "freshness_score", "credibility_score", "duplicate_group_id", "language", "translation_status",
+    "extraction_status", "quality_warnings",
+]
+BANNED_SUMMARY_BITS = ["围绕“", "围绕\"", "Focus:", "key discussion", "new AI-related development around", "重点：", "lorem ipsum"]
+LICENSE_MODES = {"summary_only", "official_public", "open_license", "owned", "allow_full_mirror"}
+CONTENT_MODES = {"research_digest", "full_zh_mirror"}
+TRANSLATION_STATUS = {"success", "fallback", "failed"}
+EXTRACTION_STATUS = {"success", "partial", "failed"}
 
 
 def canonical_url(url: str) -> str:
@@ -34,6 +48,13 @@ def load(path: Path):
         errors.append(f"missing {path.relative_to(ROOT)}")
         return None
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def mostly_english(text: str) -> bool:
+    cjk = len(re.findall(r"[\u4e00-\u9fff]", text or ""))
+    alpha = len(re.findall(r"[A-Za-z]", text or ""))
+    return alpha > max(18, cjk * 1.8)
+
 
 latest = load(ROOT / "data" / "index" / "latest.json")
 sources = load(ROOT / "data" / "sources" / "sources.json")
@@ -72,24 +93,51 @@ if latest:
             errors.append(f"missing latest field {key}")
     urls: set[str] = set()
     titles: set[str] = set()
+    d = latest.get("date")
     for idx, item in enumerate(latest.get("items", [])):
-        for key in ["title", "source_name", "source_url", "original_url", "published_at", "category", "summary_zh", "summary_en", "importance_score", "freshness_score", "credibility_score", "duplicate_group_id"]:
-            if item.get(key) in [None, ""]:
+        for key in REQUIRED_ITEM_FIELDS:
+            if item.get(key) in [None, ""] and key != "full_text_zh":
                 errors.append(f"item {idx} missing {key}")
         url = item.get("original_url")
         canonical = canonical_url(str(url or ""))
-        tkey = title_key(str(item.get("title", "")))
+        tkey = title_key(str(item.get("title_original") or item.get("title") or ""))
         if canonical in urls:
             errors.append(f"duplicate url: {url}")
         urls.add(canonical)
         if tkey in titles:
-            errors.append(f"duplicate title: {item.get('title')}")
+            errors.append(f"duplicate title: {item.get('title_original') or item.get('title')}")
         titles.add(tkey)
         if url and not str(url).startswith("http"):
             errors.append(f"bad item url: {url}")
-        if re.search(r"\b(mock|lorem ipsum)\b", item.get("title", ""), re.I):
+        if re.search(r"\b(mock|lorem ipsum)\b", str(item.get("title", "")), re.I):
             errors.append(f"item {idx} looks like test data")
-    d = latest.get("date")
+        localized = str(item.get("localized_url") or "")
+        if not localized.startswith("/zh/items/"):
+            errors.append(f"item {idx} bad localized_url: {localized}")
+        if d and not localized.startswith(f"/zh/items/{d}/"):
+            errors.append(f"item {idx} localized_url date mismatch: {localized}")
+        if mostly_english(str(item.get("title_zh") or "")):
+            errors.append(f"item {idx} title_zh looks English: {item.get('title_zh')}")
+        summary = str(item.get("summary_zh") or "")
+        if mostly_english(summary):
+            errors.append(f"item {idx} summary_zh looks English: {summary[:80]}")
+        if any(bit in summary for bit in BANNED_SUMMARY_BITS):
+            errors.append(f"item {idx} summary_zh has template residue: {summary[:100]}")
+        if item.get("source_license_mode") not in LICENSE_MODES:
+            errors.append(f"item {idx} bad source_license_mode: {item.get('source_license_mode')}")
+        if item.get("content_mode") not in CONTENT_MODES:
+            errors.append(f"item {idx} bad content_mode: {item.get('content_mode')}")
+        if item.get("translation_status") not in TRANSLATION_STATUS:
+            errors.append(f"item {idx} bad translation_status: {item.get('translation_status')}")
+        if item.get("extraction_status") not in EXTRACTION_STATUS:
+            errors.append(f"item {idx} bad extraction_status: {item.get('extraction_status')}")
+        if not isinstance(item.get("key_points_zh"), list) or len(item.get("key_points_zh") or []) < 3:
+            errors.append(f"item {idx} key_points_zh too short")
+        if not isinstance(item.get("evidence_zh"), list) or not item.get("evidence_zh"):
+            errors.append(f"item {idx} missing evidence_zh")
+        for w in item.get("quality_warnings") or []:
+            warnings.append(f"item {idx} warning: {w}")
+
     for path in [
         ROOT / "data" / "daily" / f"{d}.json",
         ROOT / "content" / "zh" / "daily" / f"{d}.md",
@@ -97,6 +145,7 @@ if latest:
         ROOT / "data" / "index" / "archive.json",
         ROOT / "public" / "rss.xml",
         ROOT / "public" / "robots.txt",
+        ROOT / "src" / "pages" / "zh" / "items" / "[date]" / "[slug].astro",
     ]:
         if not path.exists():
             errors.append(f"missing generated artifact {path.relative_to(ROOT)}")
@@ -108,13 +157,17 @@ if latest:
         except Exception:
             continue
         old_urls = {canonical_url(str(x.get("original_url", ""))) for x in old.get("items", [])}
-        old_titles = {title_key(str(x.get("title", ""))) for x in old.get("items", [])}
+        old_titles = {title_key(str(x.get("title_original") or x.get("title", ""))) for x in old.get("items", [])}
         overlap_urls = sorted(urls & old_urls)
         overlap_titles = sorted(titles & old_titles)
         if overlap_urls:
             errors.append(f"latest reuses historical urls from {old_path.name}: {overlap_urls[:3]}")
         if overlap_titles:
             errors.append(f"latest reuses historical titles from {old_path.name}: {overlap_titles[:3]}")
+
+if warnings:
+    print("warnings:")
+    print("\n".join(warnings[:40]))
 
 if errors:
     print("\n".join(errors))
