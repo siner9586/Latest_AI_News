@@ -14,9 +14,10 @@ jobs:
           python-version: '3.11'
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version-file: '.nvmrc'
+          cache: 'npm'
       - run: pip install -r requirements.txt
-      - run: npm install
+      - run: npm ci
       - name: Generate latest brief
         run: python -m latest_ai_news.pipeline.run_daily --max-items 18
         env:
