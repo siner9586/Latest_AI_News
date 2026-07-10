@@ -18,7 +18,7 @@ on:
     - cron: '3 1 * * *'
     - cron: '18 1 * * *'
     - cron: '33 1 * * *'
-  # Safety guard: when the daily pipeline/workflow itself is repaired on main,
+  # Safety guard: when the daily pipeline/workflow/runtime itself is repaired on main,
   # run once immediately. The idempotency gate below prevents duplicate issues.
   push:
     branches:
@@ -28,6 +28,10 @@ on:
       - 'latest_ai_news/**'
       - 'scripts/**'
       - 'requirements.txt'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.nvmrc'
+      - '.node-version'
   workflow_dispatch:
     inputs:
       publish_date:
