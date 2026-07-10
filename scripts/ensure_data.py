@@ -10,6 +10,7 @@ sys.path.insert(0, str(ROOT))
 
 from latest_ai_news.pipeline.localize import ensure_localized_brief
 from latest_ai_news.pipeline.run_daily import run
+from scripts.write_daily_index import write_daily_index
 
 latest = ROOT / "data" / "index" / "latest.json"
 
@@ -25,8 +26,10 @@ if latest.exists():
             print("data exists; localized fields patched")
         else:
             print("data exists; skip generation")
+        write_daily_index()
     except Exception as exc:
-        print(f"data exists but localization check failed: {exc}; skip generation")
+        print(f"data exists but localization/index check failed: {exc}; skip generation")
 else:
     run(date.today().isoformat(), 18, False)
+    write_daily_index()
     print("generated initial data")
