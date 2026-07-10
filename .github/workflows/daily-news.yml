@@ -18,6 +18,16 @@ on:
     - cron: '3 1 * * *'
     - cron: '18 1 * * *'
     - cron: '33 1 * * *'
+  # Safety guard: when the daily pipeline/workflow itself is repaired on main,
+  # run once immediately. The idempotency gate below prevents duplicate issues.
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/daily-news.yml'
+      - 'latest_ai_news/**'
+      - 'scripts/**'
+      - 'requirements.txt'
   workflow_dispatch:
     inputs:
       publish_date:
@@ -47,7 +57,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: daily-ai-news-${{ github.ref }}
+  group: latest-ai-news-daily-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -99,7 +109,7 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
 
           if [ "$SKIP" = "true" ]; then
-            echo "Localized daily issue for ${DATE} already exists. Skip this redundant schedule run."
+            echo "Localized daily issue for ${DATE} already exists. Skip this redundant run."
           fi
 
       - uses: actions/setup-python@v5
@@ -110,12 +120,13 @@ jobs:
       - uses: actions/setup-node@v4
         if: ${{ steps.gate.outputs.skip != 'true' }}
         with:
-          node-version: '20'
+          node-version-file: '.nvmrc'
+          cache: 'npm'
 
       - run: pip install -r requirements.txt
         if: ${{ steps.gate.outputs.skip != 'true' }}
 
-      - run: npm install
+      - run: npm ci
         if: ${{ steps.gate.outputs.skip != 'true' }}
 
       - name: Generate brief
@@ -156,5 +167,10 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add data content public/rss.xml public/robots.txt
-          git diff --cached --quiet && echo "No content changes" || git commit -m "chore: update daily AI news"
+          if git diff --cached --quiet; then
+            echo "No content changes"
+            exit 0
+          fi
+          git commit -m "chore: update daily AI news"
+          git pull --rebase origin "${GITHUB_REF_NAME:-main}" || true
           git push
