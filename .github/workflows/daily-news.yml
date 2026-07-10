@@ -160,6 +160,10 @@ jobs:
         if: ${{ steps.gate.outputs.skip != 'true' && steps.gate.outputs.dry_run != 'true' }}
         run: python scripts/backfill_localized_items.py --date "${{ steps.gate.outputs.date }}"
 
+      - name: Rebuild static daily index
+        if: ${{ steps.gate.outputs.skip != 'true' && steps.gate.outputs.dry_run != 'true' }}
+        run: python scripts/write_daily_index.py
+
       - run: python scripts/validate_daily.py
         if: ${{ steps.gate.outputs.skip != 'true' && steps.gate.outputs.dry_run != 'true' }}
 
