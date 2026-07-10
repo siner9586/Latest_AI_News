@@ -1,12 +1,7 @@
 ---
 import Base from '../../../../layouts/Base.astro';
 import { categoryLabel } from '../../../../utils/data';
-
-const modules = import.meta.glob('../../../../../data/daily/*.json', { eager: true });
-
-function moduleData(mod: any) {
-  return mod.default || mod;
-}
+import { allDailyBriefs } from '../../../../utils/dailyData';
 
 function fallbackSlug(item: any) {
   return item?.slug || String(item?.duplicate_group_id || item?.title_original || item?.title || 'item')
@@ -17,11 +12,15 @@ function fallbackSlug(item: any) {
 
 export function getStaticPaths() {
   const paths: any[] = [];
-  for (const mod of Object.values(modules)) {
-    const brief: any = moduleData(mod);
-    const date = brief?.date;
+  const seen = new Set<string>();
+  for (const brief of allDailyBriefs()) {
+    const date = String(brief?.date || '').trim();
+    if (!date) continue;
     for (const item of brief?.items || []) {
       const slug = fallbackSlug(item);
+      const key = `${date}/${slug}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
       paths.push({ params: { date, slug }, props: { brief, item } });
     }
   }
