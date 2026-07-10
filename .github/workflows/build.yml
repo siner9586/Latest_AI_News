@@ -29,6 +29,8 @@ jobs:
           set -euo pipefail
           DATE=$(python -c 'import json; print(json.load(open("data/index/latest.json"))["date"])')
           python scripts/backfill_localized_items.py --date "$DATE"
+      - name: Rebuild static daily index
+        run: python scripts/write_daily_index.py
       - run: python scripts/check_sources.py
       - run: python scripts/validate_daily.py
       - run: npm run build
