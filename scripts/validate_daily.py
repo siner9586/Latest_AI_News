@@ -56,10 +56,41 @@ def mostly_english(text: str) -> bool:
     return alpha > max(18, cjk * 1.8)
 
 
+def require_path(path: Path, label: str | None = None) -> None:
+    if not path.exists():
+        errors.append(f"missing {label or path.relative_to(ROOT)}")
+
+
+def validate_redirects() -> None:
+    path = ROOT / "public" / "_redirects"
+    require_path(path)
+    if not path.exists():
+        return
+    text = path.read_text(encoding="utf-8")
+    required = [
+        "/daily/* /daily/index.html 200",
+        "/zh/items/* /zh/item/index.html 200",
+    ]
+    for line in required:
+        if line not in text:
+            errors.append(f"missing redirect rule: {line}")
+
+
+def validate_no_fragile_dynamic_routes() -> None:
+    banned = [
+        ROOT / "src" / "pages" / "daily" / "[date].astro",
+        ROOT / "src" / "pages" / "zh" / "items" / "[date]" / "[slug].astro",
+    ]
+    for path in banned:
+        if path.exists():
+            errors.append(f"fragile getStaticPaths route must not exist: {path.relative_to(ROOT)}")
+
+
 latest = load(ROOT / "data" / "index" / "latest.json")
 sources = load(ROOT / "data" / "sources" / "sources.json")
 people = load(ROOT / "data" / "entities" / "people.json")
 companies = load(ROOT / "data" / "entities" / "companies.json")
+daily_index = load(ROOT / "data" / "index" / "daily_index.json")
 
 if isinstance(sources, list):
     if len(sources) < 80:
@@ -86,6 +117,12 @@ if isinstance(companies, list):
             errors.append(f"bad company url: {rec}")
 else:
     errors.append("companies registry must be a list")
+
+if isinstance(daily_index, dict):
+    if "briefs" not in daily_index or not isinstance(daily_index.get("briefs"), list):
+        errors.append("daily_index.briefs must be a list")
+else:
+    errors.append("daily_index must be an object")
 
 if latest:
     for key in ["date", "items", "source_count", "candidate_count", "selected_count", "title_zh", "title_en"]:
@@ -143,12 +180,17 @@ if latest:
         ROOT / "content" / "zh" / "daily" / f"{d}.md",
         ROOT / "content" / "en" / "daily" / f"{d}.md",
         ROOT / "data" / "index" / "archive.json",
+        ROOT / "data" / "index" / "daily_index.json",
         ROOT / "public" / "rss.xml",
         ROOT / "public" / "robots.txt",
-        ROOT / "src" / "pages" / "zh" / "items" / "[date]" / "[slug].astro",
+        ROOT / "src" / "pages" / "daily" / "index.astro",
+        ROOT / "src" / "pages" / "zh" / "item" / "index.astro",
+        ROOT / "public" / "_redirects",
     ]:
-        if not path.exists():
-            errors.append(f"missing generated artifact {path.relative_to(ROOT)}")
+        require_path(path)
+    validate_redirects()
+    validate_no_fragile_dynamic_routes()
+
     for old_path in (ROOT / "data" / "daily").glob("*.json"):
         if old_path.name == f"{d}.json":
             continue
