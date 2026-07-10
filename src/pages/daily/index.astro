@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import { latestBrief } from '../../utils/data';
+import { allDailyBriefs } from '../../utils/dailyData';
+
+const briefs = allDailyBriefs();
+const payload = JSON.stringify({ latest: latestBrief, briefs });
+---
+<Base title="AI 新闻简报归档 · Latest AI News" description="AI 新闻简报归档页面">
+  <section class="hero">
+    <p class="eyebrow">Daily Archive</p>
+    <h1 id="daily-title">AI 新闻简报归档</h1>
+    <p id="daily-overview">正在读取归档内容。</p>
+  </section>
+  <section class="card" id="daily-content">
+    <p class="muted">若页面没有自动跳转，请返回 <a href="/archive/">Archive</a>。</p>
+  </section>
+  <script type="application/json" id="daily-payload" set:html={payload}></script>
+  <script is:inline>
+    const payloadEl = document.getElementById('daily-payload');
+    const payload = JSON.parse(payloadEl?.textContent || '{}');
+    const parts = window.location.pathname.split('/').filter(Boolean);
+    const requestedDate = parts[0] === 'daily' && parts[1] ? parts[1] : '';
+    const brief = (payload.briefs || []).find((b) => b.date === requestedDate) || payload.latest || (payload.briefs || [])[0];
+    const titleEl = document.getElementById('daily-title');
+    const overviewEl = document.getElementById('daily-overview');
+    const contentEl = document.getElementById('daily-content');
+    if (brief) {
+      document.title = `AI 新闻简报 · ${brief.date}`;
+      titleEl.textContent = `AI 新闻简报 · ${brief.date}`;
+      overviewEl.textContent = brief.overview_zh || brief.overview_en || '';
+      const items = brief.items || [];
+      contentEl.innerHTML = items.length
+        ? items.map((item) => {
+            const href = item.localized_url || item.original_url || '#';
+            const title = item.title_zh || item.title || item.title_original || '未命名情报';
+            const summary = item.summary_zh || item.insight_zh || item.summary_en || '';
+            const source = item.source_name || 'Source';
+            return `<article class="item"><p class="eyebrow small">${source}</p><h3><a href="${href}">${title}</a></h3><p>${summary}</p></article>`;
+          }).join('')
+        : '<p class="muted">该日期暂未找到完整条目，请返回归档页查看最新内容。</p>';
+    }
+  </script>
+</Base>
