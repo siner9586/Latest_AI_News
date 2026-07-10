@@ -1,26 +1,26 @@
 import latest from '../../data/index/latest.json';
 import archive from '../../data/index/archive.json';
+import dailyIndex from '../../data/index/daily_index.json';
 
-const dailyModules = import.meta.glob('../../data/daily/*.json', { eager: true });
-
-function moduleData(mod: unknown): any {
-  return (mod as any)?.default || mod;
-}
-
-function dateFromPath(path: string) {
-  return path.match(/(\d{4}-\d{2}-\d{2})\.json$/)?.[1] || '';
-}
-
-const dailyByDate = new Map<string, any>();
-
-for (const [path, mod] of Object.entries(dailyModules)) {
-  const brief = moduleData(mod);
-  const d = String(brief?.date || dateFromPath(path)).trim();
-  if (d) dailyByDate.set(d, brief);
+function briefDate(brief: any) {
+  return String(brief?.date || '').trim();
 }
 
 const latestAny: any = latest;
 const archiveAny: any = archive;
+const dailyIndexAny: any = dailyIndex;
+
+const dailyByDate = new Map<string, any>();
+
+for (const brief of dailyIndexAny?.briefs || []) {
+  const d = briefDate(brief);
+  if (d && !dailyByDate.has(d)) dailyByDate.set(d, brief);
+}
+
+const latestDate = briefDate(latestAny);
+if (latestDate && !dailyByDate.has(latestDate)) {
+  dailyByDate.set(latestDate, latestAny);
+}
 
 export function dailyArchiveRows() {
   const rows = Array.isArray(archiveAny?.items) && archiveAny.items.length
@@ -30,13 +30,25 @@ export function dailyArchiveRows() {
 }
 
 export function dailyBriefByDate(date: string) {
-  return dailyByDate.get(String(date)) || latestAny;
+  const d = String(date);
+  if (dailyByDate.has(d)) return dailyByDate.get(d);
+  const row = dailyArchiveRows().find((item: any) => String(item.date) === d);
+  return {
+    date: d,
+    title_zh: row?.title || `AI 新闻简报 · ${d}`,
+    title_en: `English AI News Brief · ${d}`,
+    overview_zh: '该归档日期缺少完整 JSON，当前仅保留归档入口。下一次日更会自动重建静态索引。',
+    overview_en: 'This archive entry is missing its full JSON payload; the static index will be rebuilt by the next daily run.',
+    source_count: row?.source_count || 0,
+    candidate_count: row?.candidate_count || 0,
+    skipped_history_count: row?.skipped_history_count || 0,
+    selected_count: row?.selected_count || 0,
+    categories: [],
+    items: [],
+    failures: [],
+  };
 }
 
 export function allDailyBriefs() {
-  const briefs = Array.from(dailyByDate.values()).filter((brief: any) => brief?.date);
-  if (!briefs.some((brief: any) => brief.date === latestAny.date)) {
-    briefs.push(latestAny);
-  }
-  return briefs.sort((a: any, b: any) => String(b.date).localeCompare(String(a.date)));
+  return Array.from(dailyByDate.values()).sort((a: any, b: any) => String(b.date).localeCompare(String(a.date)));
 }
