@@ -1,7 +1,166 @@
 {
-  "updated_at": "2026-07-10T23:14:49.715235+00:00",
-  "count": 32,
+  "updated_at": "2026-07-11T23:12:35.901456+00:00",
+  "count": 33,
   "briefs": [
+    {
+      "date": "2026-07-12",
+      "title_zh": "AI 新闻简报 · 2026-07-12",
+      "title_en": "English AI News Brief · 2026-07-12",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 142 条，入选 2 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 142 previously displayed items excluded, and 2 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 144,
+      "skipped_history_count": 142,
+      "selected_count": 2,
+      "categories": [
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "🧠 Community Wisdom: Negative network effects, managing overconfident colleagues, developers sidestepping design decisions, keeping stakeholder meetings on track, and more",
+          "title_original": "🧠 Community Wisdom: Negative network effects, managing overconfident colleagues, developers sidestepping design decisions, keeping stakeholder meetings on track, and more",
+          "title_en": "🧠 Community Wisdom: Negative network effects, managing overconfident colleagues, developers sidestepping design decisions, keeping stakeholder meetings on track, and more",
+          "summary_zh": "Community Wisdom 193",
+          "summary_en": "Community Wisdom 193",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/community-wisdom-negative-network",
+          "published_at": "Sat, 11 Jul 2026 16:40:58 GMT",
+          "fetched_at": "2026-07-11T23:12:34.685640+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "215e3868769e",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🧠 Community Wisdom: Negative network effects, managing overconfident colleagues, developers sidestepping design decisions, keeping stakeholder meetings on",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-negative-network"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Community Wisdom 193",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-negative-network"
+            }
+          ],
+          "slug": "community-wisdom-negative-network-effects-managing-overconfident-colleag-215e3868",
+          "localized_url": "/zh/items/2026-07-12/community-wisdom-negative-network-effects-managing-overconfident-colleag-215e3868/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The AI Picbreeder Experiment: Can AI agents be creative when nobody tells them what to create?",
+          "title_original": "The AI Picbreeder Experiment: Can AI agents be creative when nobody tells them what to create?",
+          "title_en": "The AI Picbreeder Experiment: Can AI agents be creative when nobody tells them what to create?",
+          "summary_zh": "Sakana AI Blog 披露了AI 代理工程与工具调用能力，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/picbreeder-ai/",
+          "published_at": "2026-07-10T00:00:00+09:00",
+          "fetched_at": "2026-07-11T23:12:34.685640+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "eca2d5167348",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "The AI Picbreeder Experiment: Can AI agents be creative when nobody tells them what to create?",
+          "extracted_text_for_analysis": "（＊日本語は英文の後に） In our new GECCO 2026 paper, “In Search of the Ingredients of Open-Endedness: Replicating Picbreeder with Large Vision-Language Models”, in collaboration with MIT and NYU, we revisit Picbreeder, a lost website where people collaboratively evolved images without any predefined objective. Users simply selected images they found interesting, allowing unexpected forms such as faces, animals, vehicles, and skulls to emerge gradually across many generations and many different people. We recreated this process using vision-language model agents. The agents explore a shared archive, choose images to branch from, evolve new candidates, publish their favorites, and evaluate the creations of other agents. There is no target image and no explicit definition of what counts as progress. The results reveal both the promise and current limitations of AI-driven open-ended discovery. Compared with humans, VLM agents tend to keep circling back to the same kinds of images and concepts. They repeatedly select similar parents, make smaller conceptual leaps, and often refine an existing idea rather than abandoning it in search of something genuinely unexpected. However, introducing a diverse population of agent personalities substantially improves exploration. In some runs, diverse agent populations approached or matched the human archive on measures of semantic diversity and produced more balanced evolutionary trees. We also find intriguing evidence that open-ended evolution can produce more robust representations. A skull evolved by the agents changes smoothly when its underlying neural representation is perturbed, less fractured than a skull directly optimized with gradient descent, although still less cleanly disentangled than one evolved collectively by humans. But perhaps the most interesting result is the gap that remains. Humans appear better at turning fortunate accidents into sustained creative discoveries: recognizing when something unexpected is worth pursuing, refining it, and then making a larger conceptual leap. The AI agents often notice interesting patterns too, but are more likely to become trapped in them. We still do not fully understand what enables humans to navigate open-ended search in this way, or what ingredient(s) current AI systems are missing. For now, the results suggest that there remains something important about human creativity that AI agents have not yet learned to reproduce. This paper will be presented at GECCO 2026 and is nominated for a best paper award! Please check out the interactive blog and technical paper for more details! Japanese VLMは人間のような創造性を持てるか？ ケネス・スタンレー教授らの『目標という幻想（Why Greatness Cannot Be Planned）』は、明確な目標を設定することが、かえって真に偉大な発見を遠ざけてしまうという逆説を論じた書籍です。その議論の中核にあったのが「PicBreeder」の実験でした。 PicBreeder では、ユーザーが「面白い」と感じた画像を選び、それを少しずつ進化させていきます。事前に決められたゴールはなく、人々が「なんとなく良い」と思ったものを選び続けるだけで、顔や動物、乗り物、頭蓋骨といった予期しない形が、何世代もかけて、多くの人の手を経て自然と現れます。スタンレー教授らは、こうした「オープンエンド」、つまり目標をあらかじめ定めない探索こそが人間の創造性の根幹にあると考えたのです。 では、このオープンエンドな探索を、AIは再現できるのでしょうか。 MIT・NYUとの共同研究として発表する「In Search of the Ingredients of Open-Endedness: Replicating Picbreeder with Large Vision-Language Models」では、視覚言語モデル（VLM）エージェントによる再現を試みました。エージェントたちは共有アーカイブを探索し、画像を選んで進化させ、気に入ったものを公開し、他のエージェントの作品を評価します。目標となる画像も「進歩」の定義も与えられていません。 その結果、AIによるオープンエンドな発見の可能性と限界の両方が浮かび上がりました。VLMエージェントは特定の見た目や意味に引き寄せられやすく、既存のアイデアを捨てて予期せぬ何かを探すよりも、手元にあるものを洗練させることに留まりがちでした。一方で、多様な人格を持つエージェント集団を導入すると探索は大きく改善され、生成されたアーカイブの意味的な幅広さは、人間が作ったアーカイブに迫る水準にまで達しました。 しかし、VLMでは届かなかった点もありました。人間は、偶然の産物を持続的な創造へとつなげることに長けています。あるものを見つけたとき、その価値を感じ取り、それを追いかけることで、より大きな概念的飛躍を達成できます。AIエージェントも興味深いパターンに気づくことはできても、そのパターンに囚われてしまう傾向がみられました。 なぜ人間は、本研究のVLMにはできなかったオープンエンドな探索を進められるのか。現在のAIシステムに何が欠けているのか。私たちはまだ十分に理解できていません。ここには、当社が探求するAI駆動型科学研究にも通じる大きな問いが残っています。Sakana AIは今後も、オープンエンドな知性の探求を深めていきます。",
+          "title_zh": "Sakana AI Blog 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI Blog，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The AI Picbreeder Experiment: Can AI agents be creative when nobody tells them what to create?",
+              "source_url": "https://sakana.ai/picbreeder-ai/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/picbreeder-ai/"
+            }
+          ],
+          "slug": "the-ai-picbreeder-experiment-can-ai-agents-be-creative-when-nobody-tells-87fc4097",
+          "localized_url": "/zh/items/2026-07-12/the-ai-picbreeder-experiment-can-ai-agents-be-creative-when-nobody-tells-87fc4097/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": [
+        {
+          "source": "Peter Yang",
+          "error": "Remote end closed connection without response"
+        }
+      ]
+    },
     {
       "date": "2026-07-11",
       "title_zh": "AI 新闻简报 · 2026-07-11",
