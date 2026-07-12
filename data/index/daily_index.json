@@ -1,7 +1,163 @@
 {
-  "updated_at": "2026-07-11T23:12:35.901456+00:00",
-  "count": 33,
+  "updated_at": "2026-07-12T23:11:12.031243+00:00",
+  "count": 34,
   "briefs": [
+    {
+      "date": "2026-07-13",
+      "title_zh": "AI 新闻简报 · 2026-07-13",
+      "title_en": "English AI News Brief · 2026-07-13",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 142 条，入选 2 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 142 previously displayed items excluded, and 2 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 144,
+      "skipped_history_count": 142,
+      "selected_count": 2,
+      "categories": [
+        "company-industry",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)",
+          "title_original": "How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)",
+          "title_en": "How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about",
+          "published_at": "Sun, 12 Jul 2026 12:32:14 GMT",
+          "fetched_at": "2026-07-12T23:11:10.964967+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3453698be755",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)",
+              "source_url": "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about"
+            }
+          ],
+          "slug": "how-tech-workers-actually-feel-about-ai-in-2026-annual-ai-sentiment-surv-3453698b",
+          "localized_url": "/zh/items/2026-07-13/how-tech-workers-actually-feel-about-ai-in-2026-annual-ai-sentiment-surv-3453698b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Seedream 5.0 Pro is now available on AI Gateway",
+          "title_original": "Seedream 5.0 Pro is now available on AI Gateway",
+          "title_en": "Seedream 5.0 Pro is now available on AI Gateway",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Seedream 5.0 Pro is now available on AI Gateway . Seedream 5.0 Pro is an image generation and editing model. It generates images from text, rendering text without spelling errors and following typographic rules, and produces dense infographics with charts,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/seedream-5-0-pro-is-now-available-on-ai-gateway",
+          "published_at": "2026-07-11T00:00:00.000Z",
+          "fetched_at": "2026-07-12T23:11:10.964967+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "5c1b48883be6",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "limited_extracted_text"
+          ],
+          "extracted_title": "Seedream 5.0 Pro is now available on AI Gateway - Vercel",
+          "extracted_excerpt": "Seedream 5.0 Pro from Bytedance is now available on Vercel AI Gateway at list price with no markups.",
+          "extracted_text_for_analysis": "import { generateImage } from 'ai'; const result = await generateImage({ model: 'bytedance/seedream-5.0-pro', prompt: 'Design an 8-bit diagram outlining the 2026 world cup stadium locations in black and white.',});AI Gateway: Track top AI models by usage The AI Gateway model leaderboard tracks the most popular models over time, ranking them by the total volume of tokens processed across all Gateway traffic. View the leaderboard",
+          "title_zh": "Vercel AI 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Seedream 5.0 Pro is now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/seedream-5-0-pro-is-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Seedream 5.0 Pro is now available on AI Gateway . Seedream 5.0 Pro is an image generation and editing model. It generates images from text, rendering text without spelling errors and following typographic rules, and",
+              "source_url": "https://vercel.com/changelog/seedream-5-0-pro-is-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "seedream-5-0-pro-is-now-available-on-ai-gateway-5c1b4888",
+          "localized_url": "/zh/items/2026-07-13/seedream-5-0-pro-is-now-available-on-ai-gateway-5c1b4888/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": [
+        {
+          "source": "Peter Yang",
+          "error": "Remote end closed connection without response"
+        }
+      ]
+    },
     {
       "date": "2026-07-12",
       "title_zh": "AI 新闻简报 · 2026-07-12",
