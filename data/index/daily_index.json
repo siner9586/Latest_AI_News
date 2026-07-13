@@ -1,7 +1,764 @@
 {
-  "updated_at": "2026-07-12T23:11:12.031243+00:00",
-  "count": 34,
+  "updated_at": "2026-07-13T23:15:18.080356+00:00",
+  "count": 35,
   "briefs": [
+    {
+      "date": "2026-07-14",
+      "title_zh": "AI 新闻简报 · 2026-07-14",
+      "title_en": "English AI News Brief · 2026-07-14",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 133 条，入选 11 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 133 previously displayed items excluded, and 11 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 144,
+      "skipped_history_count": 133,
+      "selected_count": 11,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "Getting started with ChatGPT",
+          "title_original": "Getting started with ChatGPT",
+          "title_en": "Getting started with ChatGPT",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/academy/getting-started",
+          "published_at": "Fri, 10 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-13T23:15:14.829113+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2c539797fe26",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Getting started with ChatGPT",
+          "extracted_excerpt": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+          "extracted_text_for_analysis": "Getting started with ChatGPT Learn the basics of using ChatGPT and how to begin your first conversation. ChatGPT is a conversational AI assistant that helps you think, write, and solve problems by understanding natural language and generating human-like responses in real time. ChatGPT is built on large language models, enabling it to assist with a wide range of tasks. Learn more about large language models in What is AI. Use Chat when you want a quick answer, explanation, brainstorm, rewrite, or short draft. Use Work when you want ChatGPT to complete a larger task with a clear, reviewable output, like a brief, analysis, deck, spreadsheet, or recurring update. You can start simple in Chat, then move to Work when the task needs more context, tools, or follow-through. To get started, simply enter a prompt. A prompt is the question or instruction you type or share with ChatGPT to start a conversation. It is usually text, but it can also be an image, audio, file. Your prompt guides the model so it can generate a helpful reply. Not sure where to begin? Copy and paste this prompt to see what ChatGPT can do for you (replace the brackets with more information about yourself): Tell me how I can use ChatGPT to make my life easier. I’m a [description of you or your job]. Give me 5 things I can do right now, and a prompt for each one. Read the response, then refine it by asking follow-up questions or adding more detail. A good way to find useful ChatGPT use cases is to start with work you already do in chat form: writing a draft, brainstorming ideas, summarizing something long, turning rough notes into a clearer message, or thinking through a problem. These are good early use cases because they are easy to try, low risk, and immediately useful. If ChatGPT helps you get to a better first draft faster, organize your thinking, or reduce time spent staring at a blank page, that is usually a strong signal that the task is a good fit. From there, stronger use cases tend to be the ones that repeat often, involve multiple steps, or need context over time. That is where tools like Projects, custom GPTs, or Skills become more useful: they help you organize source materials, keep instructions consistent, and turn one-off prompts into repeatable workflows. A good rule of thumb is to start with simple chat tasks, notice what you do more than once, and then build toward more structured setups for work you want to do faster, more consistently, or at a higher quality. Speaking is often faster than typing, and listening can make interactions more natural and hands‑free. Voice features save time during busy days, support accessibility, and unlock new workflows like brainstorming on the go, drafting documents while multitasking, or practicing presentations aloud. Voice in ChatGPT allows you to speak directly to ChatGPT and hear responses out loud, or use dictation to convert your spoken words into text. Using the icons on your chat window, you can choose between Voice Mode (a two‑way conversation where you talk and listen in real time) or Dictation (speak and see your words appear as text for further refinement). For example, you might ask a question aloud and ChatGPT responds conversationally, or dictate meeting notes to quickly generate a written summary. Audio and video clips from your voice chats are stored alongside the transcription in your chat history and are retained as long as the chat remains in your history. Learn more in the OpenAI Help Center: Voice Mode FAQ(opens in a new window) Take the AI Foundations course(opens in a new window) to learn more about how AI works, where it can help, and how to use it responsibly. It’s a good next step if you’re new to ChatGPT or want a stronger grounding before exploring more advanced workflows.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Getting started with ChatGPT",
+              "source_url": "https://openai.com/academy/getting-started"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+              "source_url": "https://openai.com/academy/getting-started"
+            }
+          ],
+          "slug": "getting-started-with-chatgpt-2c539797",
+          "localized_url": "/zh/items/2026-07-14/getting-started-with-chatgpt-2c539797/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Apple’s lawsuit against OpenAI makes serious claims. Will they matter?",
+          "title_original": "Apple’s lawsuit against OpenAI makes serious claims. Will they matter?",
+          "title_en": "Apple’s lawsuit against OpenAI makes serious claims. Will they matter?",
+          "summary_zh": "OpenAI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Apple usually tangles with companies after they ship a product, now it's going after a pre-product, former partner.",
+          "source_name": "Big Technology Podcast",
+          "source_url": "https://www.bigtechnology.com/",
+          "original_url": "https://www.bigtechnology.com/p/apples-lawsuit-against-openai-makes",
+          "published_at": "Mon, 13 Jul 2026 22:24:43 GMT",
+          "fetched_at": "2026-07-13T23:15:14.829113+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "tech-media",
+            "ai",
+            "interview"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "84c68bbce98a",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：tech-media、ai、interview。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Apple’s lawsuit against OpenAI makes serious claims. Will they matter?",
+              "source_url": "https://www.bigtechnology.com/p/apples-lawsuit-against-openai-makes"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Apple usually tangles with companies after they ship a product, now it's going after a pre-product, former partner.",
+              "source_url": "https://www.bigtechnology.com/p/apples-lawsuit-against-openai-makes"
+            }
+          ],
+          "slug": "apples-lawsuit-against-openai-makes-serious-claims-will-they-matter-84c68bbc",
+          "localized_url": "/zh/items/2026-07-14/apples-lawsuit-against-openai-makes-serious-claims-will-they-matter-84c68bbc/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🎙️ How I AI: GPT-5.6 review, How a solo builder runs 24/7 local AI, and What an agent harness is and how to build one",
+          "title_original": "🎙️ How I AI: GPT-5.6 review, How a solo builder runs 24/7 local AI, and What an agent harness is and how to build one",
+          "title_en": "🎙️ How I AI: GPT-5.6 review, How a solo builder runs 24/7 local AI, and What an agent harness is and how to build one",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-56-review-how-a-solo",
+          "published_at": "Mon, 13 Jul 2026 15:02:17 GMT",
+          "fetched_at": "2026-07-13T23:15:14.829113+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b745838ed92f",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🎙️ How I AI: GPT-5.6 review, How a solo builder runs 24/7 local AI, and What an agent harness is and how to build one",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-56-review-how-a-solo"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-56-review-how-a-solo"
+            }
+          ],
+          "slug": "how-i-ai-gpt-5-6-review-how-a-solo-builder-runs-24-7-local-ai-and-what-a-b745838e",
+          "localized_url": "/zh/items/2026-07-14/how-i-ai-gpt-5-6-review-how-a-solo-builder-runs-24-7-local-ai-and-what-a-b745838e/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "This solo builder runs 24/7 local AI on his own hardware | Alex Finn",
+          "title_original": "This solo builder runs 24/7 local AI on his own hardware | Alex Finn",
+          "title_en": "This solo builder runs 24/7 local AI on his own hardware | Alex Finn",
+          "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local",
+          "published_at": "Mon, 13 Jul 2026 12:05:20 GMT",
+          "fetched_at": "2026-07-13T23:15:14.829113+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3a69f674a774",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "This solo builder runs 24/7 local AI on his own hardware | Alex Finn",
+              "source_url": "https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local"
+            }
+          ],
+          "slug": "this-solo-builder-runs-24-7-local-ai-on-his-own-hardware-alex-finn-3a69f674",
+          "localized_url": "/zh/items/2026-07-14/this-solo-builder-runs-24-7-local-ai-on-his-own-hardware-alex-finn-3a69f674/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Open-weight models surge to 29% of volume, price per token flattens",
+          "title_original": "Open-weight models surge to 29% of volume, price per token flattens",
+          "title_en": "Open-weight models surge to 29% of volume, price per token flattens",
+          "summary_zh": "Vercel AI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "AI Gateway Production Index — July 2026 Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs, giving us a view of what AI usage actually looks like in today’s enterprise. We publish that view here. See the",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
+          "published_at": "2026-07-13T07:00:00.000Z",
+          "fetched_at": "2026-07-13T23:15:14.829113+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a7f66136ab49",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Open-weight models surge to 29% of volume, price per token flattens",
+          "extracted_excerpt": "The AI Gateway production index covering data from June 2026: Open-weight models increased to a third of all token volume; Anthropic continues to dominate spend with 61%",
+          "extracted_text_for_analysis": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs, giving us a view of what AI usage actually looks like in today’s enterprise. We publish that view here. See the Production Index reports published in May and June. The July index reports on AI Gateway data collected in June 2026. AI Gateway token volume grew 29% month over month and spend grew 27%. The price per token was flat after rising almost 20% in May. Open-weight models ran 29% of gateway tokens, up from 11% in April, on under 4% of spend. DeepSeek reached 22.6% of token volume, in third place and less than two points behind Google, and GLM 5.2 broke into the gateway's top models by volume two weeks after release. Anthropic took 61% of gateway spend on 32% of tokens, and captured 72% or more of spend in every high-stakes use case. Each modality has a different leader. OpenAI's GPT Image generated 53% of images, ahead of Google's Nano Banana at 39%. Chinese labs took two-thirds of video spend, while xAI's Grok Imagine generated 42% of videos, the most of any model. Claude Fable 5 was released June 9 and reached 22% of Opus 4.8's request volume in four days. A US export-control directive suspended access for the rest of the month. Copy link to headingAI investment kept climbing, and the average token price went flat In June, token volume and spend grew at nearly the same rate, 29% and 27%, while the price per token remained steady. The month before, spend had grown more than twice as fast as volume, driving the average token cost up by almost 20%. The market spent more overall, but not more per token. Since April, open-weight models have climbed from a ninth of all token volume to nearly a third, at about a tenth of the average token price on the gateway. That alone should have pulled the price per token down. But as cheap volume rose in June, so too did closed-weight frontier prices, up about 12% per token. They offset each other, so the average price per token was flat. This is evidence of the routing discipline June's report documented, now visible in the aggregate: high-volume work goes to low-cost models, high-risk work stays on the frontier. Investment in AI is still growing quickly, and companies are getting more strategic about balancing that spend across models. Usage and spend rose in June; the price per token, up almost 20% in May, held flat Open-weight models ran 29% of gateway tokens in June on just under 4% of spend. That is nearly a third of the tokens for one twenty-fifth of the dollars. Open-weight token share has almost tripled since April. Most of that volume comes from the continued growth of DeepSeek, now the third-largest source of tokens on the gateway at 22.6%, behind Anthropic and Google. Google's share of token volume slipped to 24% as its April surge unwound, leaving DeepSeek within two points of second place. Roughly one in eight enterprise customers now runs an open-weight model in production. And on current trajectories, an open-weight lab will soon be the second-largest by volume on AI Gateway. DeepSeek reached 22.6% of gateway tokens in June, less than two points behind Google The newest entrant shows the pattern accelerating. Z.ai released GLM 5.2, an MIT-licensed open-weight model aimed at long-horizon agentic work at approximately a fifth of Opus 4.8 pricing. From its June 16 API availability through month end, its daily token volume grew about 50x. It ranked #11 on AI Gateway by tokens in the final week, and as high as #7 on single days. It took 76% of its family's June tokens in barely two weeks. Gemini 3.1 Pro, the fastest in-family migration we had previously charted, took until its second month to reach a similar share. GLM 5.2's customer count grew far faster than its token usage in the two weeks after launch The top four frontier US labs took 95% of AI Gateway spend in June. Anthropic alone took 61% of spend on 32% of tokens, down from 65% in May, but in line with April. It also took 72% or more of spend in the most consequential use cases, where mistakes are costly: coding agents, back-office agents, and app generation. OpenAI’s token share fell from 12.5% to 10.3% while its spend share rose from 13.3% to 16.1%, driving its cost per token up about 50% relative to the market in one month. In contrast to DeepSeek, customers sent OpenAI less volume but costlier work, a divergence that only shows up in production data. Anthropic took 61% of June spend; DeepSeek, prominent in the volume chart, is negligible here Image generation is a two-lab race on AI Gateway. OpenAI's GPT Image family generated 53% of images and took 52% of image spend in June. Google's Nano Banana generated almost 39% of images and took 43% of spend. No other family cleared 5% of either. Two families generated 92% of the gateway's June images: OpenAI's GPT Image models at 53% and Google's Nano Banana models at 39% Video is the one modality where Chinese labs currently hold the premium tier. ByteDance's Seedance led spend at 49% with only a third of videos generated. xAI's Grok Imagine generated 42% of videos on 19% of spend, the same volume-discount position DeepSeek holds in text. The Chinese labs together, Seedance, Kling, and Alibaba's Wan, took roughly two-thirds of video dollars. The category is early, so we expect these shares to fluctuate. xAI's Grok Imagine generated the most videos on 19% of video spend; ByteDance's Seedance led spend on 34% of the volume Anthropic leads text, OpenAI leads images, xAI leads video volume, and ByteDance leads video spend. Running the leading model in every modality requires routing across at least three labs. Copy link to headingUS export controls suspended Claude Fable 5 only days after launch Anthropic released Claude Fable 5 on June 9, and it was adopted rapidly. In only four days, Fable usage rose to 22 requests for every 100 sent to Opus 4.8. Over its first four days, Fable 5 drew 22% of Opus 4.8's requests On June 12, a US export-control directive took effect covering Fable 5, and Anthropic suspended access to comply. The model stayed offline for the rest of the month. Controls lifted on June 30 and access resumed July 1. Back-office agents are the most expensive workload per token on the gateway, running 5% of total tokens on 14% of total spend. B2B use cases drove 46% of June tokens but 60% of spend; B2C the reverse, at 43% of tokens and 26% of spend. Google's volume concentrates in consumer-shaped workloads. It ran 57% of personal-assistant tokens and 54% of education tokens in June, but less than 2% of coding agent tokens. This analysis is based on anonymized, aggregate routing data from the Vercel AI Gateway through June 2026. A few notes on measurement: Spend uses market-rate pricing (published list price) to provide a normalized view across teams that bring their own API keys. Volume counts tokens routed through AI Gateway. B2C, B2B, and use-case classifications are aggregate. No individual team or",
+          "title_zh": "Vercel AI 推进开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Open-weight models surge to 29% of volume, price per token flattens",
+              "source_url": "https://vercel.com/blog/ai-gateway-production-index-july-2026"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI Gateway Production Index — July 2026 Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs, giving us a view of what AI usage actually looks like in today’s",
+              "source_url": "https://vercel.com/blog/ai-gateway-production-index-july-2026"
+            }
+          ],
+          "slug": "open-weight-models-surge-to-29-of-volume-price-per-token-flattens-a7f66136",
+          "localized_url": "/zh/items/2026-07-14/open-weight-models-surge-to-29-of-volume-price-per-token-flattens-a7f66136/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Smart Cellular Bricks: Towards Collective Intelligence for the Physical World",
+          "title_original": "Smart Cellular Bricks: Towards Collective Intelligence for the Physical World",
+          "title_en": "Smart Cellular Bricks: Towards Collective Intelligence for the Physical World",
+          "summary_zh": "Sakana AI Blog 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Collections of hundreds of physical 3D cellular bricks, simple modular hardware units that run identical local Neural Cellular Automata without any global knowledge, collaboratively infer their overall shape class.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/smart-cellular-bricks/",
+          "published_at": "2026-07-13T00:00:00+09:00",
+          "fetched_at": "2026-07-13T23:15:14.829113+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "796777b28e7d",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "Smart Cellular Bricks: Towards Collective Intelligence for the Physical World",
+          "extracted_text_for_analysis": "Collections of hundreds of physical 3D cellular bricks, simple modular hardware units that run identical local Neural Cellular Automata without any global knowledge, collaboratively infer their overall shape class. （＊日本語は英文の後に） At Sakana AI, a recurring theme in our research is collective intelligence: the observation that sophisticated, robust behavior can arise from many simple parts following local rules, with no central controller, as it does in a colony, a tissue, or a brain. Until now, we have explored this idea in simulated systems, such as getting several frontier models to reason together and build on one another’s attempts, coordinating them so that many models act as one, or having agents with partial, overlapping views negotiate along their shared boundaries to converge on a globally consistent solution. Today, we are happy to share that a paper extending this line of work into physical hardware has been accepted for publication in Nature Communications. The system is a collection of simple cubic bricks, each running the same small neural network and communicating only with the bricks it is physically connected to. No brick is told its position or which shape it is part of, yet from these purely local exchanges the collective converges on the correct global shape and can locate where modules are missing or damaged. For us, this is a first step toward taking our work on collective intelligence beyond software and into the physical world. We wanted to ask whether the same decentralized principles hold up when communication is noisy and modules fail. They largely do. Hundreds of bricks classify a range of 3D shapes, still recognize shapes with variations they were not trained on, and keep converging correctly even when a fraction of their modules go silent. Using the same framework, the collective can also flag structural damage and guide a step-by-step recovery. The work is a collaboration between researchers at IT University of Copenhagen, Sakana AI, and Autodesk. Read the full paper in Nature Communications: https://www.doi.org/10.1038/s41467-026-75166-7 Explore the code on GitHub: https://github.com/rmorenoga/cube3D Introduction Many biological systems exhibit a remarkable capacity to determine their own anatomical structure. Through local communication and self-organization, groups of cells can assess whether they have correctly formed a target shape, such as an organ, and can actively remodel body parts following injury. A salamander can regenerate a damaged tail that transforms into a functional leg, and simple organisms like Hydra and Planaria can fully restore their morphology regardless of which part is lost. This ability to classify general anatomical features, rather than match a fixed target shape, is what enables variability among individuals while enhancing the robustness of the process. The overall function and design of an organ may be consistent across a species, even as its specific shape, size, or scale differs from one individual to the next. Artificial systems composed of many physically distributed modules that can autonomously infer their structural class, without centralized control, would represent a significant step toward more adaptable, intelligent artificial collectives. Such systems could enable powerful applications in smart materials and reconfigurable robotics, where global knowledge must emerge from local sensing and communication. Motivated by the scalability and resilience of biological collective intelligence, we introduce a fully decentralized system in which hundreds of physically embodied “cellular” bricks collectively classify their global shape and detect local damage, with no central controller and no module ever knowing its own position. Neural cellular automata for shape classification. (A) A cellular brick module. (B) Bricks assembled into four different shapes. (C) Each cell takes in local information from its connecting neighbors and its own hidden channels; information is aggregated locally, enabling the object to recognize its particular shape over multiple iterations. (D) The local update rules are encoded with a neural cellular automaton, a deep neural network. The collective intelligence algorithm we developed builds on the framework of differentiable Neural Cellular Automata (NCA) and self-classifying collective systems, extended to operate in 3D and implemented on physical modular hardware. NCAs generalize traditional cellular automata, in which the local update rules are typically hand-crafted, by instead learning these rules. Unlike traditional CAs that operate with discrete cell states, NCAs use continuous-valued cell states, enabling end-to-end differentiability and compatibility with gradient descent. On a high level, each cell in our system is tasked with determining which type of shape it is a part of, based solely on communication with its local neighbors and its own memory state. The update rules are parameterized by a deep neural network built from 3D convolutional layers, whose outputs are added to the state of each cell. Here, the collective is tasked to distinguish between objects resembling planes, chairs, cars, tables, houses, guitars, and boats, trained with a cross-entropy loss to predict the class label through gradient-based optimization. Rather than matching against a single, predefined configuration, our system generalizes across entire classes of shapes, such as different planes or different tables. This shift from precise self-recognition to high-level shape classification enables greater flexibility and tolerance to variation. The system can also detect structural inconsistencies caused by missing or faulty modules, using only local interactions and without requiring any actuation or centralized sensing. Results Each cellular brick is a small printed-circuit-board cube with electrical connectors on all six faces, a microcontroller, an LED to display its current class guess, and the electronics to power itself. Bricks stack together into arbitrary objects and communicate purely locally over a custom digital serial protocol, iterating until the collective converges on a single shape label. We ran large-scale experiments with more than 500 bricks in simulation and almost 200 physical bricks. In simulation the approach reaches 98.97% accuracy. Transferring the simulation-trained NCA directly onto hardware, we built four distinct shapes ranging from 26 bricks (a guitar) to 197 (a round table); the bricks reached correct consensus on a plane, a guitar, a boat, and a table, with 100% success rate across all four. In hardware, the collective converges in fewer than 60 update cycles, about three minutes of real time. Robustness to faulty cells and shape variation Biological systems are remarkably robust to damage, noise, and faulty components, thanks to their local, distributed decision-making. To test whether our system inherits this property, we disabled subsets of bricks in hardware,",
+          "title_zh": "Sakana AI Blog 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI Blog，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Smart Cellular Bricks: Towards Collective Intelligence for the Physical World",
+              "source_url": "https://sakana.ai/smart-cellular-bricks/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Collections of hundreds of physical 3D cellular bricks, simple modular hardware units that run identical local Neural Cellular Automata without any global knowledge, collaboratively infer their overall shape class.",
+              "source_url": "https://sakana.ai/smart-cellular-bricks/"
+            }
+          ],
+          "slug": "smart-cellular-bricks-towards-collective-intelligence-for-the-physical-w-267c5c60",
+          "localized_url": "/zh/items/2026-07-14/smart-cellular-bricks-towards-collective-intelligence-for-the-physical-w-267c5c60/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Manage Vercel Flags targeting rules from the CLI",
+          "title_original": "Manage Vercel Flags targeting rules from the CLI",
+          "title_en": "Manage Vercel Flags targeting rules from the CLI",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now manage targeting rules for Vercel Flags through the Vercel CLI . With the vercel flags rules command, you and your agents can add new rules, move existing ones, and inspect the current ordering without leaving your terminal. Rules you create from",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/manage-vercel-flags-targeting-rules-from-the-cli",
+          "published_at": "2026-07-13T00:00:00.000Z",
+          "fetched_at": "2026-07-13T23:15:14.829113+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "09ea4203f89e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "limited_extracted_text"
+          ],
+          "extracted_title": "Manage Vercel Flags targeting rules from the CLI - Vercel",
+          "extracted_excerpt": "Manage Vercel Flags targeting rules from the CLI. Map conditions to a single variant, a weighted split, or a staged rollout without leaving the terminal.",
+          "extracted_text_for_analysis": "vercel flags rules add checkout-redesign \\ --environment production \\ --condition \"user.country:in:DE,FR,ES\" \\ --variant new-checkoutAdding a rule in production that serves the new-checkout variant to users in Germany, France, and Spain. vercel flags rules add checkout-redesign \\ --environment production \\ --condition \"user.country:in:DE,FR,ES\" \\ --variant new-checkoutAdding a rule in production that serves the new-checkout variant to users in Germany, France, and Spain.",
+          "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Manage Vercel Flags targeting rules from the CLI",
+              "source_url": "https://vercel.com/changelog/manage-vercel-flags-targeting-rules-from-the-cli"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now manage targeting rules for Vercel Flags through the Vercel CLI . With the vercel flags rules command, you and your agents can add new rules, move existing ones, and inspect the current ordering without",
+              "source_url": "https://vercel.com/changelog/manage-vercel-flags-targeting-rules-from-the-cli"
+            }
+          ],
+          "slug": "manage-vercel-flags-targeting-rules-from-the-cli-09ea4203",
+          "localized_url": "/zh/items/2026-07-14/manage-vercel-flags-targeting-rules-from-the-cli-09ea4203/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Configure which sources can create deployments with Deployment Policies",
+          "title_original": "Configure which sources can create deployments with Deployment Policies",
+          "title_en": "Configure which sources can create deployments with Deployment Policies",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Deployment Policies are now available and enable teams to restrict which mechanisms, organizations, and repositories are allowed to create deployments. Each policy can be configured per environment at the team and project level, allowing flexible combinations",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/configure-which-sources-can-create-deployments-with-deployment-policies",
+          "published_at": "2026-07-13T00:00:00.000Z",
+          "fetched_at": "2026-07-13T23:15:14.829113+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ec9bf9e78a74",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "limited_extracted_text"
+          ],
+          "extracted_title": "Configure which sources can create deployments with Deployment Policies - Vercel",
+          "extracted_excerpt": "Deployment Policies are a set of rules that control which Git sources and deployment mechanisms can create deployments for your team and projects. You can define default rules for a team, and override these as neccesary per project.",
+          "extracted_text_for_analysis": "Deployment Policies are now available and enable teams to restrict which mechanisms, organizations, and repositories are allowed to create deployments. Each policy can be configured per environment at the team and project level, allowing flexible combinations of rules. Learn more about Deployment Policies .",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Configure which sources can create deployments with Deployment Policies",
+              "source_url": "https://vercel.com/changelog/configure-which-sources-can-create-deployments-with-deployment-policies"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Deployment Policies are now available and enable teams to restrict which mechanisms, organizations, and repositories are allowed to create deployments. Each policy can be configured per environment at the team and",
+              "source_url": "https://vercel.com/changelog/configure-which-sources-can-create-deployments-with-deployment-policies"
+            }
+          ],
+          "slug": "configure-which-sources-can-create-deployments-with-deployment-policies-ec9bf9e7",
+          "localized_url": "/zh/items/2026-07-14/configure-which-sources-can-create-deployments-with-deployment-policies-ec9bf9e7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Gateway leaderboards, now with open data and shareable charts",
+          "title_original": "AI Gateway leaderboards, now with open data and shareable charts",
+          "title_en": "AI Gateway leaderboards, now with open data and shareable charts",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "The AI Gateway leaderboards show how AI is used in production. They rank the models, labs, apps, and providers running on AI Gateway by production traffic, aggregated daily across trillions of tokens, so you can see what gets adopted and how that changes over",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/open-data-and-shareable-charts-for-ai-gateway-leaderboards",
+          "published_at": "2026-07-13T00:00:00.000Z",
+          "fetched_at": "2026-07-13T23:15:14.829113+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "438dacf89a57",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Gateway leaderboards, now with open data and shareable charts",
+              "source_url": "https://vercel.com/changelog/open-data-and-shareable-charts-for-ai-gateway-leaderboards"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The AI Gateway leaderboards show how AI is used in production. They rank the models, labs, apps, and providers running on AI Gateway by production traffic, aggregated daily across trillions of tokens, so you can see",
+              "source_url": "https://vercel.com/changelog/open-data-and-shareable-charts-for-ai-gateway-leaderboards"
+            }
+          ],
+          "slug": "ai-gateway-leaderboards-now-with-open-data-and-shareable-charts-438dacf8",
+          "localized_url": "/zh/items/2026-07-14/ai-gateway-leaderboards-now-with-open-data-and-shareable-charts-438dacf8/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Web Analytics and Speed Insights are now more cost-efficient",
+          "title_original": "Web Analytics and Speed Insights are now more cost-efficient",
+          "title_en": "Web Analytics and Speed Insights are now more cost-efficient",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Web Analytics and Speed Insights are now almost 10% more cost-efficient for all Pro and Enterprise teams. Infrastructure and event-processing improvements reduced cost across both products, so page views, referrers, top routes, and Core Web Vitals are now",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/web-analytics-and-speed-insights-are-now-more-cost-efficient",
+          "published_at": "2026-07-13T00:00:00.000Z",
+          "fetched_at": "2026-07-13T23:15:14.829113+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ecfb630377c0",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Web Analytics and Speed Insights are now more cost-efficient",
+              "source_url": "https://vercel.com/changelog/web-analytics-and-speed-insights-are-now-more-cost-efficient"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Web Analytics and Speed Insights are now almost 10% more cost-efficient for all Pro and Enterprise teams. Infrastructure and event-processing improvements reduced cost across both products, so page views, referrers, top",
+              "source_url": "https://vercel.com/changelog/web-analytics-and-speed-insights-are-now-more-cost-efficient"
+            }
+          ],
+          "slug": "web-analytics-and-speed-insights-are-now-more-cost-efficient-ecfb6303",
+          "localized_url": "/zh/items/2026-07-14/web-analytics-and-speed-insights-are-now-more-cost-efficient-ecfb6303/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
+          "title_original": "Verifying Rust cryptography in SymCrypt, from standards to code",
+          "title_en": "Verifying Rust cryptography in SymCrypt, from standards to code",
+          "summary_zh": "Microsoft 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves. The post Verifying Rust cryptography in",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
+          "published_at": "Mon, 13 Jul 2026 16:00:00 +0000",
+          "fetched_at": "2026-07-13T23:15:14.829113+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "35de7256d027",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Verifying Rust cryptography in SymCrypt, from standards to code",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves. The",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/"
+            }
+          ],
+          "slug": "verifying-rust-cryptography-in-symcrypt-from-standards-to-code-5a030d66",
+          "localized_url": "/zh/items/2026-07-14/verifying-rust-cryptography-in-symcrypt-from-standards-to-code-5a030d66/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": [
+        {
+          "source": "Peter Yang",
+          "error": "Remote end closed connection without response"
+        }
+      ]
+    },
     {
       "date": "2026-07-13",
       "title_zh": "AI 新闻简报 · 2026-07-13",
