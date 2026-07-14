@@ -1,7 +1,893 @@
 {
-  "updated_at": "2026-07-13T23:15:18.080356+00:00",
-  "count": 35,
+  "updated_at": "2026-07-14T23:12:58.857837+00:00",
+  "count": 36,
   "briefs": [
+    {
+      "date": "2026-07-15",
+      "title_zh": "AI 新闻简报 · 2026-07-15",
+      "title_en": "English AI News Brief · 2026-07-15",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 128 条，入选 13 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 128 previously displayed items excluded, and 13 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 144,
+      "skipped_history_count": 128,
+      "selected_count": 13,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "How to manage AI investments in the agentic era",
+          "title_original": "How to manage AI investments in the agentic era",
+          "title_en": "How to manage AI investments in the agentic era",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+          "published_at": "Tue, 14 Jul 2026 10:00:00 GMT",
+          "fetched_at": "2026-07-14T23:12:55.086572+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "92ab1f77dd8c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How to manage AI investments in the agentic era",
+          "extracted_excerpt": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+          "extracted_text_for_analysis": "OpenAI’s goal is to make AI more accessible, capable and affordable over time. From GPT‑4 to GPT‑5.4, the price per million tokens fell 97%. GPT‑5.6 continues that progress, delivering better performance in the Artificial Analysis Coding Agent Index with 54% fewer output tokens and 57% less time per task. But token price alone does not show whether AI is creating value. Leaders should look at useful work per dollar: tasks completed, time saved, decisions improved, and workflows ready to scale. As teams move from chat to longer-running workflows, admins need clearer visibility into demand, spend, and risk. Here are five ways to invest with confidence. Enterprise leaders need a plain view of AI usage: who is using it, which products or models they are using, how much capacity they are consuming, and what kind of work that usage supports. Without that visibility, a growing bill is hard to interpret. It could reflect waste, productive experimentation, or a workflow that is starting to become business-critical. ChatGPT Work supports longer, multi-step tasks, so usage can vary widely by workflow. Admins need to see the work behind that usage, not just the credits consumed. This is possible thanks to a shared view of demand across ChatGPT. Updated usage analytics and spend controls in the Admin Console(opens in a new window) help admins see adoption, credit usage, and spend by user, product, and model; track trends over time; identify emerging patterns; and understand when usage reflects broad adoption, a power-user workflow, or a recurring business process that may deserve more investment. Insights at different altitudes help guide investment and enablement decisions: - Workspace: Are adoption and spend moving together? - Team and user: Where is demand growing, and who may need more support? - Product and model: Where is more expensive intelligence being used, and is that demand sustained? Together, these views help admins decide where to invest, coach, or set limits. The lowest token price does not always produce the lowest total cost. A cheaper model may fail, retry, or create work that needs correction. A more capable model may cost more per token but reach an acceptable result faster, with fewer attempts and less review. Evaluate models on the work they need to perform. Use evals that reflect real tasks, including edge cases, and define “good enough” before testing. Then measure the full cost of reaching that standard: model and tool usage, attempts, completion rate, latency, and human review. For priority workflows, track cost per accepted outcome. In customer support, that might be a resolved case. In engineering, it might be a tested change that passes review. Pair that cost with business value such as time saved, cycle time reduced, revenue protected, risk avoided, or capacity created. Model choice is only part of the equation. Clear instructions, focused tools, reusable context, and explicit stopping conditions can reduce loops and wasted spend. The goal is to match the model and workflow to the task: use smaller or faster models when they meet the quality bar, and reserve frontier intelligence for complex, ambiguous, or high-stakes work. Enterprise leaders should treat governance as the operating layer that determines which AI work can scale. The practical work is to define what context ChatGPT can use, which tools it can access, what actions it can take, who approves higher-risk steps, and how additional capacity is granted when teams find valuable workflows. This becomes more important as teams adopt plugins, connectors, Computer Use, and other frontier capabilities that can operate across enterprise systems. ChatGPT Work gives admins centralized controls for access, approved context, connected tools, permitted actions, usage, and spend. Spend controls such as workspace defaults, group limits, individual overrides, and review requests with project context help leaders support high-value work without raising limits broadly. For priority deployments, OpenAI’s AI Deployment Engineers(opens in a new window) can work directly with customers on evals, architecture, latency, reliability, and workflow design to improve both performance and cost efficiency. Privacy and governance should be part of that work from the start: sensitive workflows need the right access controls, retention posture, compliance visibility, and approval paths before they scale. Where applicable, OpenAI’s enterprise privacy controls, including Zero Data Retention(opens in a new window) options, can help customers deploy AI in high-trust environments. Enterprise leaders should manage AI investments as a portfolio: broad access for everyday productivity, function-specific workflows that improve repeatable work, and a smaller number of strategic bets built around proprietary company context. The strongest candidates are workflows that repeat at meaningful scale, have clear ownership, and can be measured for quality, risk, and business value. Funding should follow maturity. Exploration should test whether the model can handle the task; validation should test representative cases against a clear quality bar; production funding should support the integrations, controls, reliability, and change management required to scale. Shared capabilities such as identity, trusted connectors, curated knowledge, evaluations, observability, model routing, and reusable agent patterns should be funded centrally so each new workflow becomes easier and safer to launch. Once a workflow proves its value, leaders should match the product, capacity, and support model to its demand. ChatGPT Work provides ready-made capabilities for chat, coding, agentic workflows, connectors, plugins, Computer Use, and administration. Companies can extend that foundation with proprietary data, permissions, evaluations, and workflow logic where those elements create differentiated value. For production workloads, the commercial structure should match usage patterns: Guaranteed Capacity for production systems and agents that need access certainty, Scale Tier for predictable high-volume API workloads, and Batch API(opens in a new window), Flex processing(opens in a new window), or Prompt Caching for asynchronous work or repeated context. For larger strategic deployments, OpenAI Frontier and Deployment Company(opens in a new window) can help enterprises build, deploy, and manage AI coworkers across enterprise systems. This approach lets leaders scale proven work with the right product, capacity, and support model instead of making each workflow rebuild its own infrastructure.",
+          "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How to manage AI investments in the agentic era",
+              "source_url": "https://openai.com/index/managing-ai-investments-in-agentic-era"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+              "source_url": "https://openai.com/index/managing-ai-investments-in-agentic-era"
+            }
+          ],
+          "slug": "how-to-manage-ai-investments-in-the-agentic-era-92ab1f77",
+          "localized_url": "/zh/items/2026-07-15/how-to-manage-ai-investments-in-the-agentic-era-92ab1f77/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How data science teams use ChatGPT Work",
+          "title_original": "How data science teams use ChatGPT Work",
+          "title_en": "How data science teams use ChatGPT Work",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+          "published_at": "Tue, 14 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-14T23:12:55.086572+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cca00ce68781",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How data science teams use ChatGPT Work",
+          "extracted_excerpt": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+          "extracted_text_for_analysis": "How data science teams use ChatGPT Work See how data science teams can use ChatGPT Work to turn questions, dashboards, and raw data into review-ready analysis assets. With ChatGPT Work, data science teams can turn scattered inputs into usable analysis assets faster. Starting from dashboards, metric definitions, exports, experiment notes, and business context, ChatGPT Work helps assemble a first draft of the deliverable—including charts, caveats, source links, and review questions—so teams can validate the work and share it with confidence. Note: This webinar was recorded when these workflows lived in the former Codex app. You can now follow along using ChatGPT Work at chatgpt.com or in the ChatGPT desktop app.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How data science teams use ChatGPT Work",
+              "source_url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex"
+            },
+            {
+              "label": "公开摘要",
+              "text": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+              "source_url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex"
+            }
+          ],
+          "slug": "how-data-science-teams-use-chatgpt-work-cca00ce6",
+          "localized_url": "/zh/items/2026-07-15/how-data-science-teams-use-chatgpt-work-cca00ce6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How sales teams use ChatGPT Work",
+          "title_original": "How sales teams use ChatGPT Work",
+          "title_en": "How sales teams use ChatGPT Work",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+          "published_at": "Tue, 14 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-14T23:12:55.086572+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "248b5ff06999",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How sales teams use ChatGPT Work",
+          "extracted_excerpt": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+          "extracted_text_for_analysis": "How sales teams use ChatGPT Work Explore how sales teams can use ChatGPT Work to turn account context, customer conversations, and deal signals into pipeline briefs, meeting packs, forecast reviews, and account plans. Sales work often lives across CRM fields, call notes, email threads, Slack discussions, decks, customer docs, and account signals. ChatGPT Work helps pull that context together and produce the first usable version of the artifact, whether that is a prioritized account brief, meeting prep packet, forecast risk review, account strategy pack, or stalled-deal diagnosis. Sellers and managers still own the relationship strategy and judgment; ChatGPT Work helps get the working draft in front of the team faster. Note: This webinar was recorded when these workflows lived in the former Codex app. You can now follow along using ChatGPT Work at chatgpt.com or in the ChatGPT desktop app. The ChatGPT Work sales plugin helps sales teams bring customer context into the work that moves deals forward. Sales teams can find high-priority accounts and signals, prepare for customer meetings, complete follow-ups, update customer records, build close plans, and review deals at risk using tools like Salesforce, HubSpot, Slack, Outreach, Clay, Rox, and Actively. Already have ChatGPT Work installed? Click here(opens in a new window) to install the Sales plugin.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How sales teams use ChatGPT Work",
+              "source_url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex"
+            },
+            {
+              "label": "公开摘要",
+              "text": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+              "source_url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex"
+            }
+          ],
+          "slug": "how-sales-teams-use-chatgpt-work-248b5ff0",
+          "localized_url": "/zh/items/2026-07-15/how-sales-teams-use-chatgpt-work-248b5ff0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
+          "title_original": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
+          "title_en": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Enterprises have plenty of powerful models to choose from. The real test is whether the AI an enterprise builds uniquely addresses the needs of the business: improving workflows, tapping into domain knowledge and exceeding standards for accuracy and trust.",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/",
+          "published_at": "Tue, 14 Jul 2026 16:45:13 +0000",
+          "fetched_at": "2026-07-14T23:12:55.086572+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a9eb2494bb72",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
+          "extracted_excerpt": "Learn how NVIDIA Nemotron open models help enterprises build specialized AI they can trust, control and customize with accuracy, efficiency and flexibility.",
+          "extracted_text_for_analysis": "Editor’s note: This post is part of the Nemotron Labs blog series, which explores how the latest open models, datasets and training techniques help businesses build specialized AI systems and applications on NVIDIA platforms. Each post highlights practical ways to use an open stack to deliver real value in production — from transparent research copilots to scalable AI agents. Enterprises have plenty of powerful models to choose from. The real test is whether the AI an enterprise builds uniquely addresses the needs of the business: improving workflows, tapping into domain knowledge and exceeding standards for accuracy and trust. Increasingly, competitive AI advantage comes from how organizations build with available models, more than which one they choose. Open models like NVIDIA Nemotron are built for customization — helping enterprises and nations build AI that’s controllable, trustworthy and tailored to their needs. From Using AI to Owning Intelligence Specialized AI, such as autonomous agents and applications, are built with customized open models. These agents are built to do a defined task well, as the models used are tuned on proprietary knowledge and evaluated against real business outcomes. That requires access to the model itself. Closed models advance what’s possible and continue to push forward the frontier of general intelligence, but also set a ceiling on what enterprises can inspect, tune and improve. Open models remove that barrier — providing complete ownership and control. The most effective agentic AI applications are systems of models where open models work alongside leading frontier models, each fulfilling the job it does best. High-performance reasoning models can handle complex planning while smaller models execute on specialized tasks. This lets enterprises right-size inference costs, improve accuracy on specific tasks and maintain flexibility as workflows evolve. Customization Enterprises Can Trust Open models give enterprises something closed models cannot: full control to customize, inspect and improve AI against business needs. Public benchmarks measure general capability — but business-specific evaluation lets teams test against their own data, workflows and definition of accuracy — then improve from there. For example, the cost of a wrong answer is high for industries like healthcare and legal, where teams handle sensitive data and face strict accuracy requirements. Organizations in these sectors must have visibility into how a model was trained, how it performs and the ability to improve it when necessary. With open models, teams can inspect their applications, run private evaluations against their own criteria and stand up reinforcement learning environments tuned to their own workflows. No routing of their proprietary data through a third party is required. Companies across industries are already specializing Nemotron for their domains: - Abridge is customizing Nemotron to build the first foundation model purpose-built for clinical conversations. - Glean built Waldo, an agentic search model that pairs Nemotron with larger closed models to deliver enterprise search at significantly lower latency and with fewer tokens. - H Company built Holotron 3 Nano by post-training Nemotron 3 Nano Omni on proprietary computer-use data, achieving higher than 76% accuracy on OSWorld-Verified — a benchmark on computer tasks — and matching other leading frontier models at a fraction of the cost. - Harvey post-trained Nemotron 3 Ultra on its legal benchmark and reached frontier-class accuracy — matching leading closed models on complex legal tasks at at least 10x lower cost per run. - Heidi Health is delivering frontier-quality outcomes in clinical documentation without needing frontier-scale compute. - YTL AI Labs post-trained a Nemotron model for the Malaysian language, putting locally customized AI in the hands of Malaysia’s developer community to further its AI capabilities. Fine-Tuning Environments and Optimal Run Costs Customization improves accuracy. When models are tuned for a specific harness or domain, they run more efficiently too. The NVIDIA NeMo suite of open libraries accelerates model customization and evaluation, in addition to agent optimization and governance. Partners like Prime Intellect and Unsloth are already enabling AI customization for enterprises building post-training pipelines on Nemotron, making it practical to run specialized AI at scale. LangChain tuned its Deep Agents harness for Nemotron 3 Ultra — adjusting prompts, tools and middleware, with no model retraining — and achieved top agent accuracy among open models at approximately 10x lower cost per run than leading closed alternatives. Those cost advantages extend to infrastructure for optimal scalability. By post-training Nemotron on the NVIDIA Blackwell platform, Arcee AI achieved inference costs of roughly 90 cents per million output tokens — approximately 20x cheaper than comparable closed frontier models — while ranking second on PinchBench and remaining fully open weight. Cost savings enable broader experimentation, more deployments and faster iteration. Ecosystem Building on an Open Foundation The shift from AI adoption to AI ownership is underway. The NVIDIA Nemotron Coalition is helping turn open model development into an ecosystem effort, bringing model builders and developers together to improve Nemotron through shared data, evaluations and domain expertise. In addition, hackathon submissions and community contributions generate reusable proof assets across industries. Builders are adding Nemotron to their AI systems, proving value and sharing what works. The foundation is entirely open. Learn more about NVIDIA Nemotron open models and try them at build.nvidia.com.",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
+              "source_url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Enterprises have plenty of powerful models to choose from. The real test is whether the AI an enterprise builds uniquely addresses the needs of the business: improving workflows, tapping into domain knowledge and",
+              "source_url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize/"
+            }
+          ],
+          "slug": "nemotron-labs-how-open-models-give-enterprises-and-nations-ai-they-can-t-9d5925e1",
+          "localized_url": "/zh/items/2026-07-15/nemotron-labs-how-open-models-give-enterprises-and-nations-ai-they-can-t-9d5925e1/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+          "title_original": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+          "title_en": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/",
+          "published_at": "Tue, 14 Jul 2026 15:00:20 +0000",
+          "fetched_at": "2026-07-14T23:12:55.086572+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a730da9e2dc4",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+          "extracted_excerpt": "From benchmark to production, NVIDIA Blackwell NVL72 delivers the highest performance per watt to maximize revenue and the lowest token cost to maximize profit margins.",
+          "extracted_text_for_analysis": "Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that can’t be gamed, only earned through real-world results — is the foundation for AI factories. As agentic AI drives token demand higher, the infrastructure decisions organizations make today will determine who scales and who doesn’t in a power-constrained world. Virtually every frontier AI model today runs on a mixture-of-experts (MoE) architecture. Serving these large-scale models efficiently means GPU domain size — the number of GPUs connected over an ultrafast, scale-up interconnect — matters, and bigger is better. While the NVIDIA Hopper generation set the standard with an eight-GPU domain, the scale of frontier AI today has outgrown it. Serving MoE with a 72-GPU domain demands full-stack codesign and the operational depth earned from running these models under real production load. With the NVIDIA Blackwell NVL72 platform, that foundation is already built and proven, delivering the highest performance per watt to maximize revenues and the lowest token cost to maximize profit margins. It’s this foundation that the NVIDIA Vera Rubin platform builds upon next to further elevate rack-scale energy efficiency. Maximizing Performance per Watt for Frontier AI Each new generation of frontier models brings architectural changes that unlock greater intelligence while demanding new optimizations to run efficiently at scale. Across the newest generation of leading open models, NVIDIA GB300 NVL72 delivers up to 25x performance per watt compared with the NVIDIA Hopper generation — showcasing that MoE performance improves when moving from an 8-GPU to 72-GPU domain size. These numbers reflect where Blackwell stands today, a starting point that continues to improve. Any single number only tells part of the story. Different workloads demand different operating points: some optimize for latency, others for throughput and cost — and most need to move between the two. To best represent these operating points, NVIDIA showcases Pareto curves for each model rather than a single point and provides tools such as DynoSim to help teams find their optimal point on the Pareto frontier before spending a single GPU-hour on validation. The performance per watt NVIDIA Blackwell delivers is a result of extreme codesign: every component of the rack-scale system, from silicon to software, designed together to maximize token throughput for AI inference workloads. That codesign touches every layer of the stack. For example, NVIDIA NVLink Switch, critical for rack-scale performance, is purpose-built to unlock massive scale-up GPU domains, not adapted from general-purpose networking. Now in its sixth generation with the Vera Rubin platform, its capabilities are designed specifically for AI workloads such as SHARP, which performs in-network computing directly in the switch, offloading work from the GPUs themselves. NVIDIA’s inference software stack, including NVIDIA Dynamo and TensorRT LLM, as well as SGLang and vLLM, is built to run the full range of optimizations: NVFP4 quantization, disaggregated serving, large-scale expert parallelism, KV-aware routing, KV cache offloading and more. These stack together to multiply the performance each GPU delivers. Moreover, software keeps improving performance over time: On DeepSeek V4, performance per watt improved by up to 5x in a single month. In AI factories, power lost to cooling and rack-level inefficiencies can mean only about 60% of the electricity pulled from the grid turns into useful AI work. NVIDIA DSX MaxLPS, the power-and-efficiency software in the NVIDIA DSX platform, closes that gap by shifting power between GPUs and racks in real time, supporting warm-water liquid cooling and using techniques like power steering to wring more performance. This enables operators to run up to 40% more GPUs within the same power budget. Production Is Where It Counts Rack-scale reliability at AI factory scale is hard-won. Rack-scale systems introduce failure modes that single-node deployments never encounter, and handling them requires engineering rigor and time in production. NVIDIA Blackwell NVL72 systems continues to set the standard across a diverse range of models and production use cases delivering sustained performance, rack-level reliability and economics that hold under real traffic day after day. That’s why leading AI labs such as Anthropic and OpenAI use NVIDIA Blackwell NVL72 systems to run inference. In addition, a variety of inference service providers and AI natives use the Blackwell platform to deploy open models in production. CoreWeave has deployed Kimi K2.6 on NVIDIA GB300 NVL72, combining NVFP4 quantization and EAGLE3 speculative decoding to maximize inference performance. Perplexity runs Qwen3 235B and post-trained Qwen3.5-397B-A17B on NVIDIA GB200 NVL72 for its AI agent platform, serving millions of queries daily with the latency and reliability that consumers need. Fireworks AI deploys GLM 5.2 on the NVIDIA Blackwell platform, enabling production deployments for customers including Cursor and Factory AI. This accumulated production experience, built across generations of frontier models and real-world deployments, is what gives NVIDIA Vera Rubin its head start. Learn more about the NVIDIA Vera Rubin platform in this technical blog and find details on the NVIDIA DSX AI factory-scale platform and DSX MaxLPS.",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
+              "source_url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Power is AI infrastructure’s inescapable constraint. How many tokens an AI factory can generate within a fixed power budget determines its revenue and profitability. Because of this, performance per watt — a metric that",
+              "source_url": "https://blogs.nvidia.com/blog/performance-per-watt-ai-infrastructure-efficiency/"
+            }
+          ],
+          "slug": "why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-ef-43be431c",
+          "localized_url": "/zh/items/2026-07-15/why-performance-per-watt-is-the-ultimate-metric-for-ai-infrastructure-ef-43be431c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??",
+          "title_original": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??",
+          "title_en": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??",
+          "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
+          "published_at": "Tue, 14 Jul 2026 01:22:27 GMT",
+          "fetched_at": "2026-07-14T23:12:55.086572+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ac1def651d7c",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??",
+              "source_url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months"
+            },
+            {
+              "label": "公开摘要",
+              "text": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
+              "source_url": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months"
+            }
+          ],
+          "slug": "ainews-codex-usage-up-10x-in-6-months-to-7m-users-1m-in-the-past-day-did-ac1def65",
+          "localized_url": "/zh/items/2026-07-15/ainews-codex-usage-up-10x-in-6-months-to-7m-users-1m-in-the-past-day-did-ac1def65/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Empowering India’s next generation of innovators with ATL Saathi",
+          "title_original": "Empowering India’s next generation of innovators with ATL Saathi",
+          "title_en": "Empowering India’s next generation of innovators with ATL Saathi",
+          "summary_zh": "Gemini 的新访谈把焦点放在教育场景中的 AI 实用技能培训，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+          "published_at": "Mon, 13 Jul 2026 12:37:28 +0000",
+          "fetched_at": "2026-07-14T23:12:55.086572+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "77ccb073c59f",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "AI in Indian Education: Atal Innovation Mission and Google launch ATL Saathi â Google DeepMind",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "Leveraging Gemini as the underlying intelligence Powering the ATL Saathi, the Gemini model provides the underlying intelligence to transform tinkering labs into AI-augmented discovery environments. Its ability to create concise instructional materials, including AI infographics, video overviews, and interactive quizzes for core curriculum modules, helps teachers easily navigate complex training materials and seamlessly adopt micro-learning content. Our latest Gemini 3.5 Flash model instantly generates grade-appropriate, curriculum-aligned project ideas to spark student curiosity and provides educators with step-by-step assembly instructions, wiring diagrams, and safety precautions for unique problem statements brought forward by students. Looking ahead to the future We are rolling out ATL Saathi to an initial cohort of 100 pilot schools across the country. By adopting AI-assisted tools and micro-learning formats, we hope for teachers to report significant reductions in their administrative load, higher efficiency, and an increased readiness and comfort level to help students tinker and innovate. By shifting the burden of administrative overhead and curriculum translation onto AI, we are freeing our educators to do what they do best: mentor, inspire, and guide. Together, let's tinker and build the future.",
+          "title_zh": "Gemini 讨论教育场景中的 AI 实用技能培训",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在教育场景中的 AI 实用技能培训。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Empowering India’s next generation of innovators with ATL Saathi",
+              "source_url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+              "source_url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/"
+            }
+          ],
+          "slug": "empowering-indias-next-generation-of-innovators-with-atl-saathi-66188580",
+          "localized_url": "/zh/items/2026-07-15/empowering-indias-next-generation-of-innovators-with-atl-saathi-66188580/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Plugin now available in VS Code and GitHub Copilot CLI",
+          "title_original": "Vercel Plugin now available in VS Code and GitHub Copilot CLI",
+          "title_en": "Vercel Plugin now available in VS Code and GitHub Copilot CLI",
+          "summary_zh": "Vercel 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "The Vercel Plugin is now available in VS Code and the GitHub Copilot CLI. GitHub Copilot now has Vercel platform knowledge on demand, with skills for Next.js, AI SDK, Vercel Functions, and more. The Vercel plugin also helps Copilot stay up to date with the",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-plugin-now-available-in-vs-code-and-github-copilot-cli",
+          "published_at": "2026-07-14T00:00:00.000Z",
+          "fetched_at": "2026-07-14T23:12:55.086572+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e3343a62d1da",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Vercel Plugin now available in VS Code and GitHub Copilot CLI - Vercel",
+          "extracted_excerpt": "Vercel Plugin is available in VS Code. GitHub Copilot and other agents can draw on Vercel platform knowledge for Next.js, the AI SDK, and Vercel Functions, catching deprecated patterns as you code.",
+          "extracted_text_for_analysis": "The Vercel Plugin is now available in VS Code and the GitHub Copilot CLI. GitHub Copilot now has Vercel platform knowledge on demand, with skills for Next.js, AI SDK, Vercel Functions, and more. The Vercel plugin also helps Copilot stay up to date with the latest Vercel APIs and recommended patterns. To install it for Copilot Chat, search for @agentPlugins vercel in the Extensions panel in VS Code. Select Install to add it to your editor. To install it for the GitHub Copilot CLI, run npx plugins add vercel/vercel-plugin.",
+          "title_zh": "Vercel 发布开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Plugin now available in VS Code and GitHub Copilot CLI",
+              "source_url": "https://vercel.com/changelog/vercel-plugin-now-available-in-vs-code-and-github-copilot-cli"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The Vercel Plugin is now available in VS Code and the GitHub Copilot CLI. GitHub Copilot now has Vercel platform knowledge on demand, with skills for Next.js, AI SDK, Vercel Functions, and more. The Vercel plugin also",
+              "source_url": "https://vercel.com/changelog/vercel-plugin-now-available-in-vs-code-and-github-copilot-cli"
+            }
+          ],
+          "slug": "vercel-plugin-now-available-in-vs-code-and-github-copilot-cli-e3343a62",
+          "localized_url": "/zh/items/2026-07-15/vercel-plugin-now-available-in-vs-code-and-github-copilot-cli-e3343a62/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Blob now supports consistent reads on private storage",
+          "title_original": "Vercel Blob now supports consistent reads on private storage",
+          "title_en": "Vercel Blob now supports consistent reads on private storage",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Blob now supports consistent reads on private storage. Pass useCache: false to get() or presignUrl() for a read that reflects the latest write. A blob written to a fresh pathname has no existing cached entry, so reads reflect the latest write",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-blob-now-supports-consistent-reads-on-private-storage",
+          "published_at": "2026-07-14T00:00:00.000Z",
+          "fetched_at": "2026-07-14T23:12:55.086572+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4f91c9ec472a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Blob now supports consistent reads on private storage",
+              "source_url": "https://vercel.com/changelog/vercel-blob-now-supports-consistent-reads-on-private-storage"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Blob now supports consistent reads on private storage. Pass useCache: false to get() or presignUrl() for a read that reflects the latest write. A blob written to a fresh pathname has no existing cached entry, so",
+              "source_url": "https://vercel.com/changelog/vercel-blob-now-supports-consistent-reads-on-private-storage"
+            }
+          ],
+          "slug": "vercel-blob-now-supports-consistent-reads-on-private-storage-4f91c9ec",
+          "localized_url": "/zh/items/2026-07-15/vercel-blob-now-supports-consistent-reads-on-private-storage-4f91c9ec/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Node.js 20 is being deprecated on October 1, 2026",
+          "title_original": "Node.js 20 is being deprecated on October 1, 2026",
+          "title_en": "Node.js 20 is being deprecated on October 1, 2026",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Following the Node.js 20 end of life on April 30, 2026, we are deprecating Node.js 20 for Builds and Functions on October 1, 2026. How can I see which of my projects are affected? You can see which of your projects are affected by this deprecation with: Will",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/node-js-20-is-being-deprecated",
+          "published_at": "2026-07-14T00:00:00.000Z",
+          "fetched_at": "2026-07-14T23:12:55.086572+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "7a2dd83a70ab",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Node.js 20 is being deprecated on October 1, 2026",
+              "source_url": "https://vercel.com/changelog/node-js-20-is-being-deprecated"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Following the Node.js 20 end of life on April 30, 2026, we are deprecating Node.js 20 for Builds and Functions on October 1, 2026. How can I see which of my projects are affected? You can see which of your projects are",
+              "source_url": "https://vercel.com/changelog/node-js-20-is-being-deprecated"
+            }
+          ],
+          "slug": "node-js-20-is-being-deprecated-on-october-1-2026-7a2dd83a",
+          "localized_url": "/zh/items/2026-07-15/node-js-20-is-being-deprecated-on-october-1-2026-7a2dd83a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Endform joins the Vercel Marketplace",
+          "title_original": "Endform joins the Vercel Marketplace",
+          "title_en": "Endform joins the Vercel Marketplace",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Endform is now available on the Vercel Marketplace . It runs your Playwright tests in parallel, so your suite finishes in the time of your slowest test. Key capabilities: Run every test on its own isolated machine, so they don't interfere Bring your existing",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/endform-joins-the-vercel-marketplace",
+          "published_at": "2026-07-14T00:00:00.000Z",
+          "fetched_at": "2026-07-14T23:12:55.086572+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "09edfe650ae8",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Endform joins the Vercel Marketplace",
+              "source_url": "https://vercel.com/changelog/endform-joins-the-vercel-marketplace"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Endform is now available on the Vercel Marketplace . It runs your Playwright tests in parallel, so your suite finishes in the time of your slowest test. Key capabilities: Run every test on its own isolated machine, so",
+              "source_url": "https://vercel.com/changelog/endform-joins-the-vercel-marketplace"
+            }
+          ],
+          "slug": "endform-joins-the-vercel-marketplace-09edfe65",
+          "localized_url": "/zh/items/2026-07-15/endform-joins-the-vercel-marketplace-09edfe65/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AgentMail joins the Vercel Marketplace",
+          "title_original": "AgentMail joins the Vercel Marketplace",
+          "title_en": "AgentMail joins the Vercel Marketplace",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now provision and manage AgentMail directly from the Vercel Marketplace. Your AI agents can send, receive, and respond to email from a real inbox. AgentMail handles the mail servers and deliverability. Key capabilities: Provision inboxes and custom",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/agentmail-vercel-marketplace",
+          "published_at": "2026-07-14T00:00:00.000Z",
+          "fetched_at": "2026-07-14T23:12:55.086572+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "08dfcdbcef10",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AgentMail joins the Vercel Marketplace",
+              "source_url": "https://vercel.com/changelog/agentmail-vercel-marketplace"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now provision and manage AgentMail directly from the Vercel Marketplace. Your AI agents can send, receive, and respond to email from a real inbox. AgentMail handles the mail servers and deliverability. Key",
+              "source_url": "https://vercel.com/changelog/agentmail-vercel-marketplace"
+            }
+          ],
+          "slug": "agentmail-joins-the-vercel-marketplace-08dfcdbc",
+          "localized_url": "/zh/items/2026-07-15/agentmail-joins-the-vercel-marketplace-08dfcdbc/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Chat SDK adds X adapter support",
+          "title_original": "Chat SDK adds X adapter support",
+          "title_en": "Chat SDK adds X adapter support",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Chat SDK now supports X, extending its single-codebase approach to Slack, Discord, GitHub, Teams, Telegram, and WhatsApp with the new X adapter . Teams can build bots that reply to public mentions and hold direct message conversations through the X API v2 and",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/chat-sdk-adds-x-adapter-support",
+          "published_at": "2026-07-14T00:00:00.000Z",
+          "fetched_at": "2026-07-14T23:12:55.086572+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "831bc2bb28cb",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 更新开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Chat SDK adds X adapter support",
+              "source_url": "https://vercel.com/changelog/chat-sdk-adds-x-adapter-support"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Chat SDK now supports X, extending its single-codebase approach to Slack, Discord, GitHub, Teams, Telegram, and WhatsApp with the new X adapter . Teams can build bots that reply to public mentions and hold direct",
+              "source_url": "https://vercel.com/changelog/chat-sdk-adds-x-adapter-support"
+            }
+          ],
+          "slug": "chat-sdk-adds-x-adapter-support-831bc2bb",
+          "localized_url": "/zh/items/2026-07-15/chat-sdk-adds-x-adapter-support-831bc2bb/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": [
+        {
+          "source": "Peter Yang",
+          "error": "Remote end closed connection without response"
+        }
+      ]
+    },
     {
       "date": "2026-07-14",
       "title_zh": "AI 新闻简报 · 2026-07-14",
