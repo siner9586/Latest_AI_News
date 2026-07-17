@@ -1,7 +1,702 @@
 {
-  "updated_at": "2026-07-16T23:12:40.649825+00:00",
-  "count": 38,
+  "updated_at": "2026-07-17T23:10:54.297933+00:00",
+  "count": 39,
   "briefs": [
+    {
+      "date": "2026-07-18",
+      "title_zh": "AI 新闻简报 · 2026-07-18",
+      "title_en": "English AI News Brief · 2026-07-18",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 133 条，入选 10 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 133 previously displayed items excluded, and 10 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 144,
+      "skipped_history_count": 133,
+      "selected_count": 10,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+          "title_original": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+          "title_en": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+          "summary_zh": "NVIDIA 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+          "published_at": "Fri, 17 Jul 2026 15:57:54 GMT",
+          "fetched_at": "2026-07-17T23:10:52.559631+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a0bbc2c6e6f2",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+          "extracted_excerpt": "A Blog post by NVIDIA on Hugging Face",
+          "extracted_text_for_analysis": "Diffusion models power some of the most exciting open-source releases of the last two years — such as FLUX.1-dev for text-to-image and Wan 2.1 and HunyuanVideo for text-to-video. The 🤗 Diffusers library has become the de facto home for these models, giving researchers and builders a single, consistent interface for inference, adaptation, and pipeline composition. In addition, training and fine-tuning diffusion models are also on the rise, requiring utilities that offer memory-efficient sharding, latent caching, multiresolution bucketing, and configurations that scale gracefully from one GPU to hundreds. To cater to these technical demands, we offer the NVIDIA NeMo Automodel open-source library. Today, we're highlighting the collaboration between NVIDIA and Hugging Face that brings production-grade, distributed diffusion training to any Diffusers-format model on the Hugging Face Hub — with no checkpoint conversion and no model rewrites for any new model. The integration is documented in the Diffusers training guide and is fully open source under Apache 2.0. - What is NeMo Automodel? - Supported diffusion models - What this collaboration unlocks - A look at the fine-tuning workflow - Other Finetuned/LoRA examples - Try it today - Coming next: Pythonic recipe APIs - Resources NeMo Automodel is an open-source PyTorch DTensor-native training library, part of the NVIDIA NeMo framework, built around two design principles that matter for the Diffusers ecosystem: - Hugging Face native. Point pretrained_model_name_or_pathat any Diffusers model ID on the Hub and start training. NeMo Automodel uses Diffusers model classes (e.g.WanTransformer3DModel) for loading and Diffusers pipelines (WanPipeline) for generation. Checkpoints round-trip cleanly back into the Diffusers ecosystem. - One program, any scale. The recipes and training scripts can be easily modified to suit training at any scale. Parallelism is a configuration choice, not a code rewrite — switch between FSDP2, tensor parallel, expert parallel, context parallel, and pipeline parallel by declaring configurations, not rewriting models. AutoModel currently supports flow-matching models only. Under the hood, it uses flow matching as the training objective, with latent-space training (via pre-encoded VAE outputs) and multiresolution bucketed dataloading to accelerate throughput. NeMo Automodel integration ships with ready-to-use fine-tuning recipes for the open diffusion models below. The list reflects the recipes currently in examples/diffusion/finetune. For Diffusers users, the practical gains break down into a few concrete capabilities. No checkpoint conversion. Pretrained weights from the Hub work out of the box. There's no separate \"training format\" to convert to, then convert back. Your fine-tuned checkpoint loads directly into a DiffusionPipeline for inference, or back to the Hub for sharing. Downstream tools — quantization, compilation, LoRA adapters, custom samplers — all keep working. Fast path to new model support. When a new diffusion model lands in Diffusers, enabling it in NeMo Automodel takes a small, contained code addition — a data preprocessing handler and a model adapter — rather than a full custom training script. The rest of the recipe stack (FSDP2, bucketed dataloading, checkpointing, generation) carries over unchanged, and the same YAML-driven workflow applies. Full and parameter-efficient fine-tuning. Both full fine-tuning and LoRA-style PEFT are supported, so you can choose between maximum quality (full FT on a large cluster) or maximum efficiency (LoRA on a single node). The same recipe structure handles both. Scalable training that goes beyond what built-in scripts offer. NeMo Automodel adds sharding schemes such as FSDP2, tensor, context, and pipeline parallelisms, multi-node orchestration (SLURM today, Kubernetes coming), and multiresolution bucketing. These capabilities make training larger models like FLUX.1-dev (12B) and HunyuanVideo (13B) possible. In this section, we walk through the typical workflow for fine-tuning any of the supported models. The recommended way to install Automodel is the NeMo Automodel Docker container (nvcr.io/nvidia/nemo-automodel:26.06), which ships with PyTorch, TransformerEngine, and other CUDA-compiled dependencies pre-built. Alternatively, install with pip3 install nemo-automodel or from source (pip3 install git+https://github.com/NVIDIA-NeMo/Automodel.git); see the installation guide for all options. This guide walks through a full-transformer fine-tune of FLUX.1-dev on the 78-card Rider–Waite tarot dataset, then generating from the resulting checkpoint. It reuses the checked-in YAML configs and applies run-specific settings as command-line overrides, so no new config files are required. The diffusion recipe consumes cached VAE latents and text embeddings instead of encoding source images during every training step. Stream the 78 Rider–Waite images directly from Hugging Face and distribute preprocessing across all visible GPUs: uv run --locked --no-default-groups \\ --extra diffusion \\ --extra diffusion-media \\ python -m tools.diffusion.preprocessing_multiprocess image \\ --dataset_name multimodalart/1920-raider-waite-tarot-public-domain \\ --dataset_media_column image \\ --dataset_caption_column caption \\ --dataset_streaming \\ --max_images 78 \\ --output_dir /cache/flux_tarot \\ --processor flux \\ --model_name black-forest-labs/FLUX.1-dev \\ --max_pixels 245760 The captions already contain the trtcrd trigger token. With this pixel budget and the dataset's portrait aspect ratio, preprocessing assigns the samples to the 384×640 bucket used by the showcase run. For image training, preprocessing produces .pt cache files and sharded metadata: /cache/flux_tarot/ ├── 384x640/ │ ├── .pt │ └── ... ├── metadata_shard_0000.json ├── metadata.json └── _hf_dataset/ └── images/ Use examples/diffusion/finetune/flux_t2i_flow.yaml directly. The YAML already selects FLUX.1-dev, full transformer fine-tuning, the FLUX flow-matching adapter, an effective batch size of 32, and eight-way FSDP2. Supply the tarot-specific paths and settings as command-line overrides: uv run --locked --no-default-groups --extra diffusion \\ torchrun --nproc-per-node=8 \\ examples/diffusion/finetune/finetune.py \\ -c examples/diffusion/finetune/flux_t2i_flow.yaml \\ --model.transformer_engine_fp8 false \\ --data.dataloader.cache_dir /cache/flux_tarot \\ --data.dataloader.base_resolution '[384,640]' \\ --lr_scheduler.lr_decay_style constant \\ --lr_scheduler.lr_warmup_steps 20 \\ --step_scheduler.max_steps 200 \\ --step_scheduler.ckpt_every_steps 50 \\ --checkpoint.checkpoint_dir /tmp/flux_tarot/checkpoints/full \\ --checkpoint.save_consolidated true \\ --seed 2026 The run produces checkpoints at steps 50, 100, 150, and 200. The final checkpoint is labeled epoch_66_step_199; the label is zero-based even though it represents the completed 200th optimizer step. Use the existing FLUX generation YAML and point model.checkpoint at",
+          "title_zh": "NVIDIA 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 NVIDIA 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+              "source_url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel"
+            },
+            {
+              "label": "公开摘要",
+              "text": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel"
+            }
+          ],
+          "slug": "fine-tune-video-and-image-models-at-scale-with-nvidia-nemo-automodel-and-a0bbc2c6",
+          "localized_url": "/zh/items/2026-07-18/fine-tune-video-and-image-models-at-scale-with-nvidia-nemo-automodel-and-a0bbc2c6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "A scorecard for the AI age",
+          "title_original": "A scorecard for the AI age",
+          "title_en": "A scorecard for the AI age",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+          "published_at": "Fri, 17 Jul 2026 10:00:00 GMT",
+          "fetched_at": "2026-07-17T23:10:52.559631+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3ebda52fc80e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "A scorecard for the AI age",
+          "extracted_excerpt": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+          "extracted_text_for_analysis": "The question I hear from CFOs everywhere is simple: how do we get more value from our AI spend? For years, the market measured the success of software through adoption: seats purchased, users active, licenses renewed. Understanding the value of AI demands a more powerful measure: work accomplished. The basic economic question facing CFOs and other business leaders is whether the value of the work AI completes grows faster than the cost of producing it. Answering that question requires looking more deeply than a metric such as cost per token. A lower-cost model may have cheaper tokens, but getting great results may require more attempts, more time, or more human review. A more capable model may have more expensive tokens, but complete the same task in one pass. What matters is the full cost of producing a successful outcome, measured against the value that outcome creates. The ultimate scorecard for the age of AI could be looked at as “Useful Intelligence per Dollar.” This metric answers four key questions: - Is AI completing work that matters? - What does each successful task cost? - Can people depend on the result? - Does each AI dollar produce more value as usage grows? Start with the work itself. How many customer issues did AI help resolve? How many code changes did it help ship? How many contracts did it review? How much time did it give back to people? How many decisions improved because the right context was available at the right moment? Tokens create value when they transform into work people can use. As models become more capable, they can take on longer and more complex tasks: maintaining context, reasoning through multiple steps, working across tools, and adapting as they go. The best place to begin is with one workflow. Define what “done” means and measure that outcome in the system where the work happens. For a support team, “done” might mean a customer issue resolved. For an engineering team, it might mean a code change that passes its tests. For a legal team, it might mean a contract reviewed accurately and on time. Consider a finance team preparing for a forecast review. Much of the work happens before a final decision is made: finding the latest forecast, moving data into Excel or Sheets, identifying changes, reconciling tabs, rebuilding slides, and checking that everything adds up perfectly. ChatGPT Work can take on much of that process, giving the team more time to focus on the questions that matter: What changed? Why? What should we do next? That is useful intelligence per dollar in practice. More work gets completed, faster, while people spend more of their time applying judgment, creativity, and expertise. The next question is what it costs to complete that work well. AI tasks vary widely. A quick answer may require little compute. A coding, research, or financial workflow may involve deeper reasoning, tool use, and many actions. Those more complex tasks can require more compute, but they can create much more value. At the model level, cost per successful task depends on price, the amount of compute used, and the likelihood of reaching the right result. For a business, the full cost also includes employee time, human review, retries, and rework. The calculation is straightforward: - Add the full cost of completing the work. - Count the tasks that met the required quality bar. - Divide the full cost by the number of successful tasks. This is why the lowest price per token does not always produce the lowest cost per outcome. A frontier model may deliver the best value even for a routine request if it produces the right answer in one pass, reducing retries, latency, review, and total compute. A tiered model family gives customers more ways to optimize this equation. GPT‑5.6, which we released last week, has three tiers: Sol is our flagship; Terra balances performance and cost; Luna is our fastest and most affordable model. These tiers provide useful starting points. The economics of the full task should ultimately determine the right model. A customer might use Luna for a fast, high-volume workflow, Terra for work requiring greater depth, or Sol when stronger reasoning delivers the best result with fewer attempts. We trained GPT‑5.6 to get more useful work from every token. On the Artificial Analysis Coding Agent Index, GPT‑5.6 Sol with max reasoning set a new state of the art while using 54% fewer output tokens than another leading model. The chart below illustrates the comparison. Across the GPT‑5.6 family, the goal is the same: more successful work per dollar. Greater efficiency makes existing tasks more affordable. Greater capability makes entirely new kinds of work possible. Each new model generation should improve both sides of that equation. Customers should be able to accomplish more valuable work while, at the same time, the cost of completing each task continues to fall. The third measure is dependability. AI adoption tends to deepen in stages. First, AI helps draft. Then it finds context and reasons across tools and data. Over time, it begins taking action, handling exceptions, and completing workflows, with people providing judgment and control where needed. Each step creates more value and asks more of the system. Dependability has direct economic value. When results are accurate, well-sourced, consistent, and escalated appropriately, people spend less time reviewing, correcting, and repeating the work. Successful tasks cost less, and organizations gain the confidence to use AI in more important workflows. Teams can make this concrete by tracking three outcomes: - Ready to use: The result met the quality bar as delivered. - Needs correction: The result required another attempt or human edits. - Needs escalation: A person needed to step in and finish the work. These measures tell a richer story than model accuracy alone. They show whether AI is genuinely reducing the work involved in completing the project. Dependability also requires clear boundaries. Before AI moves from drafting to taking action, organizations should define: - What data the system can access. - What systems it can use or change. - When a person should review or approve an action. Safety, security, privacy, and control create the foundation for deeper use. People need to understand how the system behaves, how their data is handled, and how its actions are governed. ChatGPT Work builds on the security, privacy, compliance, and workspace-management foundation of ChatGPT Enterprise. This allows organizations to give AI more context and access to more valuable workflows while maintaining appropriate oversight. Capability earns first use. Dependability makes AI part of how work gets done. The final question is whether the economics improve at scale. Companies can measure this by following the same workflow over time. Track how many tasks met the quality bar, the total cost of completing them, and the cost per successful task. If completed work grows faster than total cost",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "A scorecard for the AI age",
+              "source_url": "https://openai.com/index/a-scorecard-for-the-ai-age"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+              "source_url": "https://openai.com/index/a-scorecard-for-the-ai-age"
+            }
+          ],
+          "slug": "a-scorecard-for-the-ai-age-3ebda52f",
+          "localized_url": "/zh/items/2026-07-18/a-scorecard-for-the-ai-age-3ebda52f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Model Prices Are Falling At The Worst Moment For The U.S. Frontier Labs",
+          "title_original": "AI Model Prices Are Falling At The Worst Moment For The U.S. Frontier Labs",
+          "title_en": "AI Model Prices Are Falling At The Worst Moment For The U.S. Frontier Labs",
+          "summary_zh": "OpenAI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The price war is on. What happens to the OpenAI and Anthropic?",
+          "source_name": "Big Technology Podcast",
+          "source_url": "https://www.bigtechnology.com/",
+          "original_url": "https://www.bigtechnology.com/p/ai-model-prices-are-falling-at-the",
+          "published_at": "Fri, 17 Jul 2026 22:30:52 GMT",
+          "fetched_at": "2026-07-17T23:10:52.559631+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Anthropic"
+          ],
+          "tags": [
+            "tech-media",
+            "ai",
+            "interview"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "792ecefb0591",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：tech-media、ai、interview。",
+            "涉及公司或机构：OpenAI、Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Model Prices Are Falling At The Worst Moment For The U.S. Frontier Labs",
+              "source_url": "https://www.bigtechnology.com/p/ai-model-prices-are-falling-at-the"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The price war is on. What happens to the OpenAI and Anthropic?",
+              "source_url": "https://www.bigtechnology.com/p/ai-model-prices-are-falling-at-the"
+            }
+          ],
+          "slug": "ai-model-prices-are-falling-at-the-worst-moment-for-the-u-s-frontier-lab-792ecefb",
+          "localized_url": "/zh/items/2026-07-18/ai-model-prices-are-falling-at-the-worst-moment-for-the-u-s-frontier-lab-792ecefb/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
+          "title_original": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
+          "title_en": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
+          "published_at": "Fri, 17 Jul 2026 15:00:14 +0000",
+          "fetched_at": "2026-07-17T23:10:52.559631+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "90347e0f0d7b",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
+          "extracted_excerpt": "Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
+          "extracted_text_for_analysis": "Think of a professional athlete. What separates elite performers is what happens between games: continuous refinement, adjusting to new opponents and sharpening skills based on what the last game exposed. Agentic AI works the same way. A model is no longer asked for an answer. It’s given a goal and has to keep adapting as environments shift, edge cases emerge and tools change. Unlike a generative model responding to a prompt, an agentic model must plan, use different tools and recover from problems it encounters mid-run. That’s why post-training, the phase that refines a model after initial training on raw data, is no longer a one-time finishing step. It’s continuous, because the environment that agentic models operate in shifts fast. The tools an agent uses can change week to week. Edge cases surface in production that no test set anticipated. Each deployment brings its own codebase, policies and environment. Post-training runs loop back from production as new problems surface. The compute footprint grows not because any single run is larger, but because the runs never stop. Agentic AI introduces a new compute pattern for post-training, making it the central workload of the agentic era and the primary driver of intelligence per dollar. The goal of post-training is to maximize intelligence per dollar by maximizing the yield of every forward and backward pass in the continuous learning cycle. The forward pass — inference — is measured in cost per token. That means that every improvement to cost per token flows directly into intelligence per dollar. Agentic Post-Training Demystified Post-training is where intelligence is built. In pretraining, the model learns to predict the next token, which gives it fluency but not intelligence. Post-training is where it learns to write code, plan a multistep task, use a search tool and recover when something goes wrong. Inference is what comes after: the model working on the job, priced in cost per token. Because there’s no answer key to memorize, only a reward, the model learns by reinforcement learning (RL) techniques. When given a task, it writes out an attempt — the forward pass — the same work it does on the job. The attempt is scored, and the lesson updates the model’s weights — the backward pass. Across millions of attempts, intelligence grows. Each step is compute intensive, and running this loop at scale is an orchestration problem: thousands of environments generating rollouts in parallel, rewards being verified and updated weights flowing back into training with accelerators fully utilized. NVIDIA NeMo open libraries, such as NeMo Gym for training environments and NeMo RL for distributed post-training, turn post-training from bespoke research code into repeatable infrastructure. Why Intelligence per Dollar Extends Cost per Token If inference is the revenue engine, post-training is the multiplier: the more capable the model, the higher the value of every token served. Cost per token is the key metric for the inference factory: the all-in cost of delivering 1 million tokens. Intelligence per dollar sits one layer up, answering a different question: what does it cost to build a model worth serving, and keep it worth serving as its environment changes? The two are nested, not competing. AI infrastructure that lowers cost per token also lowers the cost of every point of intelligence built into the model. And every point of intelligence built in raises the value of every token the inference factory serves. In other words, cost per token measures operating yield; intelligence per dollar measures whether the investment in model intelligence is paying off. Maximizing Intelligence per Dollar: Post-Training Nemotron 3 Ultra NVIDIA Nemotron 3 Ultra — an open weight, 550-billion-parameter mixture-of-experts (MoE) model, offers verifiable benchmarks and a fully disclosed post-training recipe run on NeMo RL. It scored 71.7% on a standard real-world coding benchmark, SWE-bench verified, where it produced a working fix for roughly seven in 10 real software bugs from open source projects, each one checked against the project’s own tests. The NVIDIA Blackwell platform lowers cost per run and makes the frequent post-training the agentic era demands economically viable. That intelligence is reaped across every token served. The NVIDIA Vera Rubin platform extends the trajectory further, training the largest models with one-fourth the GPUs of the Blackwell generation. It was codesigned from end to end to maximize intelligence per dollar for the agentic post-training load: more rollouts per run, more environments in play and post-training cycles that never stop. Post-Training Workflows in Action Prime Intellect’s Lab continuously post-trains frontier open models on NVIDIA Blackwell and uses NVIDIA Dynamo for inference orchestration. With Vera Rubin, Prime Intellect plans to scale reinforcement learning environments, generate more rollouts per run and accelerate training-to-inference iteration loops to maximize intelligence per dollar for businesses. Prime Intellect has optimized its sandbox infrastructure to integrate with NVIDIA Vera CPUs, enabling low-latency, energy-efficient reinforcement learning. Open source tools and models such as NVIDIA Nemotron and NVIDIA NeMo Gym are also integrated into its software stack. When comparing realistic RL sandbox workloads against alternative x86 architectures, Prime Intellect found that Vera delivers, on average, 30% greater throughput per CPU. Perplexity’s RL post-training stack runs asynchronously across hundreds of NVIDIA GPUs, with an RDMA-based weight transfer engine that syncs trillion-parameter models in under two seconds between training and inference compute nodes. The resulting post-trained Qwen3 235B models are then served on NVIDIA GB200 NVL72 systems. Together AI provides post-training as a service, including supervised fine-tuning, RL and direct preference optimization. The service is delivered via a feature-rich application programming interface and software development kit that supports the full range of post-training on its AI Native Cloud platform. It has been running on NVIDIA’s platform and optimized kernel libraries, and is looking to harness the Vera Rubin platform next. Learn more about NVIDIA Vera Rubin, the platform for AI factories to maximize intelligence per dollar across workloads. And explore NVIDIA’s full-stack platform for training frontier models.",
+          "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
+              "source_url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lowest cost per token from extreme codesign maximizes intelligence per dollar for post-training in the agentic era.",
+              "source_url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/"
+            }
+          ],
+          "slug": "nvidia-vera-rubin-maximizes-intelligence-per-dollar-for-post-training-wo-3cc85d0a",
+          "localized_url": "/zh/items/2026-07-18/nvidia-vera-rubin-maximizes-intelligence-per-dollar-for-post-training-wo-3cc85d0a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The Future of AI Infrastructure with CoreWeave",
+          "title_original": "The Future of AI Infrastructure with CoreWeave",
+          "title_en": "The Future of AI Infrastructure with CoreWeave",
+          "summary_zh": "CoreWeave 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "As AI applications become more complex, the infrastructure powering them needs to evolve. Corey Sanders, SVP of Product at CoreWeave, joins Chris to discuss why AI requires a fundamentally different approach than traditional cloud computing. They explore",
+          "source_name": "Practical AI",
+          "source_url": "https://changelog.com/practicalai",
+          "original_url": "https://share.transistor.fm/s/01c30767",
+          "published_at": "Fri, 17 Jul 2026 05:00:00 -0400",
+          "fetched_at": "2026-07-17T23:10:52.559631+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "CoreWeave"
+          ],
+          "tags": [
+            "ml",
+            "engineering",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "53041813e353",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "CoreWeave 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 CoreWeave，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、engineering、podcast。",
+            "涉及公司或机构：CoreWeave。"
+          ],
+          "background_zh": "这条内容来自 Practical AI，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The Future of AI Infrastructure with CoreWeave",
+              "source_url": "https://share.transistor.fm/s/01c30767"
+            },
+            {
+              "label": "公开摘要",
+              "text": "As AI applications become more complex, the infrastructure powering them needs to evolve. Corey Sanders, SVP of Product at CoreWeave, joins Chris to discuss why AI requires a fundamentally different approach than",
+              "source_url": "https://share.transistor.fm/s/01c30767"
+            }
+          ],
+          "slug": "the-future-of-ai-infrastructure-with-coreweave-53041813",
+          "localized_url": "/zh/items/2026-07-18/the-future-of-ai-infrastructure-with-coreweave-53041813/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+          "title_original": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+          "title_en": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "a great week for open models continues.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+          "published_at": "Fri, 17 Jul 2026 01:46:36 GMT",
+          "fetched_at": "2026-07-17T23:10:52.559631+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "08f77354ddc3",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+              "source_url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest"
+            },
+            {
+              "label": "公开摘要",
+              "text": "a great week for open models continues.",
+              "source_url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest"
+            }
+          ],
+          "slug": "ainews-kimi-k3-2-8t-a50b-the-largest-open-model-ever-released-opus-4-8-c-08f77354",
+          "localized_url": "/zh/items/2026-07-18/ainews-kimi-k3-2-8t-a50b-the-largest-open-model-ever-released-opus-4-8-c-08f77354/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GLM 5.2 is 35% off via Novita on AI Gateway",
+          "title_original": "GLM 5.2 is 35% off via Novita on AI Gateway",
+          "title_en": "GLM 5.2 is 35% off via Novita on AI Gateway",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "GLM 5.2 is 35% off on AI Gateway through July 24 when routed through Novita. To get the discounted rate, set the model to zai/glm-5.2 in the AI SDK and route requests through Novita: After July 24, the model stays available at standard provider rates with no",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/glm-5-2-is-35-off-via-novita-on-ai-gateway",
+          "published_at": "2026-07-17T00:01:00.000Z",
+          "fetched_at": "2026-07-17T23:10:52.559631+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ee4d7b061a1f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "limited_extracted_text"
+          ],
+          "extracted_title": "GLM 5.2 is 35% off via Novita on AI Gateway - Vercel",
+          "extracted_excerpt": "GLM 5.2, the open-weights coding model from Z.ai, is 35% off on AI Gateway through July 24 when routed through Novita. After the discount ends, it stays at standard provider rates with no markup.",
+          "extracted_text_for_analysis": "GLM 5.2 is 35% off on AI Gateway through July 24 when routed through Novita. To get the discounted rate, set the model to zai/glm-5.2 in the AI SDK and route requests through Novita: Routing GLM 5.2 requests to Novita with the gateway provider options After July 24, the model stays available at standard provider rates with no markup. Try GLM 5.2 in the model playground .",
+          "title_zh": "Vercel AI 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GLM 5.2 is 35% off via Novita on AI Gateway",
+              "source_url": "https://vercel.com/changelog/glm-5-2-is-35-off-via-novita-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GLM 5.2 is 35% off on AI Gateway through July 24 when routed through Novita. To get the discounted rate, set the model to zai/glm-5.2 in the AI SDK and route requests through Novita: After July 24, the model stays",
+              "source_url": "https://vercel.com/changelog/glm-5-2-is-35-off-via-novita-on-ai-gateway"
+            }
+          ],
+          "slug": "glm-5-2-is-35-off-via-novita-on-ai-gateway-ee4d7b06",
+          "localized_url": "/zh/items/2026-07-18/glm-5-2-is-35-off-via-novita-on-ai-gateway-ee4d7b06/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Optimized CDN caching and deploying of immutable static assets",
+          "title_original": "Optimized CDN caching and deploying of immutable static assets",
+          "title_en": "Optimized CDN caching and deploying of immutable static assets",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel now reuses static files across deployments for frameworks that output content-addressed assets. It's zero-config: Vercel uses Framework-defined infrastructure to manage these immutable files alongside your code changes, handling the hard parts like",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/optimized-cdn-caching-and-deploying-of-immutable-static-assets",
+          "published_at": "2026-07-17T00:00:00.000Z",
+          "fetched_at": "2026-07-17T23:10:52.559631+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "122ee1a47499",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Optimized CDN caching and deploying of immutable static assets - Vercel",
+          "extracted_excerpt": "Vercel now supports reusing static files across deployments for frameworks that output content-addressed assets.",
+          "extracted_text_for_analysis": "Vercel now reuses static files across deployments for frameworks that output content-addressed assets. It's zero-config: Vercel uses Framework-defined infrastructure to manage these immutable files alongside your code changes, handling the hard parts like hash collisions, file lifecycles, and efficient routing. This brings several benefits: Lower costs and improved cache hit rates — For frameworks using query-parameter-based Skew Protection (such as Next.js), we saw 17% fewer CDN requests and 24% fewer bytes transferred for static content. Faster Deployments — Deployments complete up to 30% faster on average. Faster Time to First Byte — Immutable assets can remain cached across deployments, giving frequently deployed projects a 60%+ global TTFB reduction. Vercel's supported frameworks will automatically take advantage of this optimization, even for projects without Skew Protection enabled. Next.js 16.3 preview and later already have it enabled out of the box, and support for additional frameworks (including Nitro) is coming soon. No configuration is required: upgrading to a supported framework version is all you need to do. If you're a framework author and want to implement this in your own toolchain, see the immutable static files section of the Build Output API docs.",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Optimized CDN caching and deploying of immutable static assets",
+              "source_url": "https://vercel.com/changelog/optimized-cdn-caching-and-deploying-of-immutable-static-assets"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel now reuses static files across deployments for frameworks that output content-addressed assets. It's zero-config: Vercel uses Framework-defined infrastructure to manage these immutable files alongside your code",
+              "source_url": "https://vercel.com/changelog/optimized-cdn-caching-and-deploying-of-immutable-static-assets"
+            }
+          ],
+          "slug": "optimized-cdn-caching-and-deploying-of-immutable-static-assets-122ee1a4",
+          "localized_url": "/zh/items/2026-07-18/optimized-cdn-caching-and-deploying-of-immutable-static-assets-122ee1a4/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Plugin now available in Kimi Code CLI",
+          "title_original": "Vercel Plugin now available in Kimi Code CLI",
+          "title_en": "Vercel Plugin now available in Kimi Code CLI",
+          "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "The Vercel Plugin is now available in the Kimi Code CLI . Kimi Code can now draw on Vercel platform knowledge on demand, with skills for Next.js, AI SDK, Vercel Functions, and more. The Vercel Plugin also helps Kimi Code stay up to date with the latest Vercel",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-plugin-now-available-in-kimi-code-cli",
+          "published_at": "2026-07-17T00:00:00.000Z",
+          "fetched_at": "2026-07-17T23:10:52.559631+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "21a5edd1cf61",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Plugin now available in Kimi Code CLI",
+              "source_url": "https://vercel.com/changelog/vercel-plugin-now-available-in-kimi-code-cli"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The Vercel Plugin is now available in the Kimi Code CLI . Kimi Code can now draw on Vercel platform knowledge on demand, with skills for Next.js, AI SDK, Vercel Functions, and more. The Vercel Plugin also helps Kimi",
+              "source_url": "https://vercel.com/changelog/vercel-plugin-now-available-in-kimi-code-cli"
+            }
+          ],
+          "slug": "vercel-plugin-now-available-in-kimi-code-cli-21a5edd1",
+          "localized_url": "/zh/items/2026-07-18/vercel-plugin-now-available-in-kimi-code-cli-21a5edd1/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Chat SDK adds native Slack agent support",
+          "title_original": "Chat SDK adds native Slack agent support",
+          "title_en": "Chat SDK adds native Slack agent support",
+          "summary_zh": "Vercel AI 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Chat SDK's Slack adapter now supports the agent messaging experience Slack introduced on June 30 . Agents built with Chat SDK could already talk in channels and DMs and stream replies token-by-token. This update adds the Agent badge, agent conversations in",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/chat-sdk-adds-native-slack-agent-support",
+          "published_at": "2026-07-17T00:00:00.000Z",
+          "fetched_at": "2026-07-17T23:10:52.559631+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "604b021b141e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 更新AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Chat SDK adds native Slack agent support",
+              "source_url": "https://vercel.com/changelog/chat-sdk-adds-native-slack-agent-support"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Chat SDK's Slack adapter now supports the agent messaging experience Slack introduced on June 30 . Agents built with Chat SDK could already talk in channels and DMs and stream replies token-by-token. This update adds",
+              "source_url": "https://vercel.com/changelog/chat-sdk-adds-native-slack-agent-support"
+            }
+          ],
+          "slug": "chat-sdk-adds-native-slack-agent-support-604b021b",
+          "localized_url": "/zh/items/2026-07-18/chat-sdk-adds-native-slack-agent-support-604b021b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": [
+        {
+          "source": "Anthropic News",
+          "error": "The read operation timed out"
+        }
+      ]
+    },
     {
       "date": "2026-07-17",
       "title_zh": "AI 新闻简报 · 2026-07-17",
