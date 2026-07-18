@@ -1,7 +1,158 @@
 {
-  "updated_at": "2026-07-17T23:10:54.297933+00:00",
-  "count": 39,
+  "updated_at": "2026-07-18T23:12:51.542018+00:00",
+  "count": 40,
   "briefs": [
+    {
+      "date": "2026-07-19",
+      "title_zh": "AI 新闻简报 · 2026-07-19",
+      "title_en": "English AI News Brief · 2026-07-19",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 142 条，入选 2 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 142 previously displayed items excluded, and 2 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 144,
+      "skipped_history_count": 142,
+      "selected_count": 2,
+      "categories": [
+        "company-industry",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "🧠 Community Wisdom: Syncing Claude Code and Claude Design, earning trust when customers assume you vibe coded it, co-founder fallout lessons, personal CRMs, and more",
+          "title_original": "🧠 Community Wisdom: Syncing Claude Code and Claude Design, earning trust when customers assume you vibe coded it, co-founder fallout lessons, personal CRMs, and more",
+          "title_en": "🧠 Community Wisdom: Syncing Claude Code and Claude Design, earning trust when customers assume you vibe coded it, co-founder fallout lessons, personal CRMs, and more",
+          "summary_zh": "Community Wisdom 194",
+          "summary_en": "Community Wisdom 194",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/community-wisdom-syncing-claude-code",
+          "published_at": "Sat, 18 Jul 2026 17:04:04 GMT",
+          "fetched_at": "2026-07-18T23:12:50.371429+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c956ad49706b",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🧠 Community Wisdom: Syncing Claude Code and Claude Design, earning trust when customers assume you vibe coded it, co-founder fallout lessons, personal CRMs,",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-syncing-claude-code"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Community Wisdom 194",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-syncing-claude-code"
+            }
+          ],
+          "slug": "community-wisdom-syncing-claude-code-and-claude-design-earning-trust-whe-c956ad49",
+          "localized_url": "/zh/items/2026-07-19/community-wisdom-syncing-claude-code-and-claude-design-earning-trust-whe-c956ad49/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Data downloaded by Vercel Sandbox is now free",
+          "title_original": "Data downloaded by Vercel Sandbox is now free",
+          "title_en": "Data downloaded by Vercel Sandbox is now free",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Sandbox no longer bills for data it downloads from the internet. Installing packages, cloning a Git repository, or pulling artifacts and datasets from an external source does not count toward Sandbox Data Transfer usage. Traffic received on a Sandbox's",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/data-downloaded-by-vercel-sandbox-is-now-free",
+          "published_at": "2026-07-17T07:01:00.000Z",
+          "fetched_at": "2026-07-18T23:12:50.371429+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2f4424136ed9",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "limited_extracted_text"
+          ],
+          "extracted_title": "Data downloaded by Vercel Sandbox is now free - Vercel",
+          "extracted_excerpt": "Data that Vercel Sandbox downloads from the internet — packages, Git repos, artifacts, datasets — no longer counts toward Sandbox Data Transfer usage. Traffic received on exposed ports remains billable.",
+          "extracted_text_for_analysis": "Vercel Sandbox no longer bills for data it downloads from the internet. Installing packages, cloning a Git repository, or pulling artifacts and datasets from an external source does not count toward Sandbox Data Transfer usage. Traffic received on a Sandbox's exposed ports is still billable, as is outbound traffic the Sandbox sends to the internet. Pricing for Active CPU, Provisioned Memory, Snapshot Storage, and Sandbox Creations is unchanged.",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Data downloaded by Vercel Sandbox is now free",
+              "source_url": "https://vercel.com/changelog/data-downloaded-by-vercel-sandbox-is-now-free"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Sandbox no longer bills for data it downloads from the internet. Installing packages, cloning a Git repository, or pulling artifacts and datasets from an external source does not count toward Sandbox Data",
+              "source_url": "https://vercel.com/changelog/data-downloaded-by-vercel-sandbox-is-now-free"
+            }
+          ],
+          "slug": "data-downloaded-by-vercel-sandbox-is-now-free-2f442413",
+          "localized_url": "/zh/items/2026-07-19/data-downloaded-by-vercel-sandbox-is-now-free-2f442413/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-07-18",
       "title_zh": "AI 新闻简报 · 2026-07-18",
