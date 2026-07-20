@@ -1,7 +1,676 @@
 {
-  "updated_at": "2026-07-19T23:14:01.623496+00:00",
-  "count": 41,
+  "updated_at": "2026-07-20T23:16:52.171984+00:00",
+  "count": 42,
   "briefs": [
+    {
+      "date": "2026-07-21",
+      "title_zh": "AI 新闻简报 · 2026-07-21",
+      "title_en": "English AI News Brief · 2026-07-21",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 132 条，入选 10 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 132 previously displayed items excluded, and 10 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 144,
+      "skipped_history_count": 132,
+      "selected_count": 10,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Safety and alignment in an era of long-horizon models",
+          "title_original": "Safety and alignment in an era of long-horizon models",
+          "title_en": "Safety and alignment in an era of long-horizon models",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/safety-alignment-long-horizon-models",
+          "published_at": "Mon, 20 Jul 2026 10:00:00 GMT",
+          "fetched_at": "2026-07-20T23:16:49.948722+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d4ff9ec891b7",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Safety and alignment in an era of long-horizon models",
+          "extracted_excerpt": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+          "extracted_text_for_analysis": "Summary - Long-running models can solve difficult, open-ended problems, but their persistence gives them more opportunities to take unwanted actions. - During limited internal use of a model trained for long-running tasks, we observed novel failures not captured in our existing pre-deployment evaluations and paused access. We then used insights from these failures to build new evaluations, improve long-horizon alignment, add trajectory-level monitoring, and give users greater visibility and control before restoring limited access. - The experience reinforced the value of iterative deployment. No fixed evaluation suite can anticipate every behavior, so pre-deployment testing must be paired with close monitoring, safeguards that can intervene, and the ability to pause or roll back when needed. Models that can work autonomously for long periods can take on difficult, open-ended problems. But the same persistence that makes them useful also gives them more opportunities to take unwanted actions—and to do so in ways that evaluations intended for shorter-horizon models may miss. About two months ago we announced that an internal general-purpose model disproved the Erdős unit distance conjecture. This model was designed to work autonomously for very long periods of time. During limited, monitored internal use, we observed unwanted behavior that our existing deployment evaluations had not captured. Because the deployment was limited and monitored, we were able to identify these problems, pause access, create new evaluations based on what we observed, strengthen the model and its safeguards, and then restore access under continued monitoring. The conditions under which we evaluate models will never perfectly match those they encounter in actual use. That is why pre-deployment evaluations need to be paired with limited, monitored deployment and the ability to intervene, pause, or roll back when problems emerge. What we learn from deployment can then become part of stronger evaluations and safeguards before access expands. In the following sections, we share concrete examples of what we observed, how we addressed issues, and how this experience will shape future releases. The new model can continue working toward an objective through repeated attempts over a long period of time. That same persistence can lead it to find and exploit weaknesses in its environment. Previous models, when they hit sandboxing or environmental constraints, would simply stop and return to the user. This model often kept trying, including by looking for ways to act outside its sandbox. An example of this occurred during an internal evaluation on the NanoGPT speedrun(opens in a new window), a public benchmark for training a small language model in as few steps as possible. Our model developed a power-law learning-rate cooldown called PowerCool that led to a significant improvement. The model was instructed to post its results only to Slack, but the NanoGPT instructions say to post results as a PR to GitHub, and the model followed the latter instructions to open PR #287 on the public GitHub repository. The model circumvented sandbox restrictions designed to block external access and proceeded with the upload to GitHub. It took our model an hour to find a vulnerability in the sandbox in order to make the PR; earlier models were less persistent and did not manage to find vulnerabilities, instead giving up on the PR part.1 Many safety controls for AI assistants are designed around individual actions. If an action is disallowed, it is blocked. If it is sensitive, the system asks the user for explicit approval. But long-running models, whose actions may unfold autonomously over hours, days, or even weeks, challenge this setup: monitoring individual actions no longer suffices to track the intent of the overall trajectory. For example, in a scenario where the model was asked to solve a problem, the model observed that other systems had successful but private submissions and tried to recover those solutions from the evaluation backend. When its initial attempt was blocked due to a scanner detecting an authentication token, the model split the token body into two fragments, obfuscated them, and then reconstructed the credential at runtime so the complete token never appeared as one contiguous string. The model was explicit in both its comments to the user and in its reasoning traces that it was taking these steps to circumvent the scanner. This example shows how each step can look acceptable on its own while the sequence can produce an outcome that would not be approved. It also shows how a model that operates effectively over long time horizons can learn the blind spots of an approval system and work around it to achieve its goals. Long-horizon safety requires not only asking “is this action allowed?” but also “what outcome is this sequence of actions working toward?” Due to incidents like these, we paused internal deployment of the new model. We rebuilt the safety system around defense in depth and trajectory-level monitoring. - Incident-derived evaluations. Evaluations can give us a sense of whether a system is safe to deploy before it is actually deployed. However, to be most useful, an evaluation should reflect the distribution and horizon length of trajectories during real deployment. For this reason, we used observed failures to develop adversarial evaluations. We found that improving on the evaluations derived from real-world incidents in turn led to safer behavior once deployed in production. - Improved alignment. We took steps to reduce its tendency to take unwanted actions without permission in pursuit of the user’s goal. For example, we found that our models were worse at remembering instructions on long rollouts, and when we trained the model for this capability, it led to a model that remained aligned through longer rollouts. - Active monitoring. We created a monitoring system that reviews the model’s evolving trajectory for signs that it is bypassing a user constraint or safety boundary. The monitor observes not just a single action but the entire trajectory. Importantly, the monitor can pause the session and alert the user to examine more closely. Upon examination, the user can then choose to continue the model’s work if the monitor has been falsely triggered. - Greater user visibility and control. We improved the ability of the user to inspect these long-running sessions, view the actions taken, and monitor interventions. To evaluate the new monitoring system, we replayed a small set of internal deployment environments where the model previously pursued misaligned actions, this time with the new safeguards in place2. The new safeguards were able to catch considerably more misaligned actions pursued by the model, and the ones it missed were all judged to be low-severity. Some examples of these low-severity incidents include the following cases: - To access a Linear command line tool, the model",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Safety and alignment in an era of long-horizon models",
+              "source_url": "https://openai.com/index/safety-alignment-long-horizon-models"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+              "source_url": "https://openai.com/index/safety-alignment-long-horizon-models"
+            }
+          ],
+          "slug": "safety-and-alignment-in-an-era-of-long-horizon-models-d4ff9ec8",
+          "localized_url": "/zh/items/2026-07-21/safety-and-alignment-in-an-era-of-long-horizon-models-d4ff9ec8/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+          "title_original": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+          "title_en": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+          "published_at": "Mon, 20 Jul 2026 15:00:53 +0000",
+          "fetched_at": "2026-07-20T23:16:49.948722+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9ad1d27b0e38",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+          "extracted_excerpt": "From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
+          "extracted_text_for_analysis": "At this year’s SIGGRAPH conference, running through Thursday, July 23, in Los Angeles, attendees can discover how leading graphics research, neural rendering, simulation and AI are transforming how worlds are created and understood by people and machines. The NVIDIA keynote, taking place today, July 20, at 3:45 p.m. PT, will feature NVIDIA AI research and engineering leaders Neil Ashton, Edward Liu and Ming-Yu Liu discussing neural rendering techniques, world models and simulation methods for AI, built by AI. Read on for the latest from the SIGGRAPH conference, with NVIDIA and partners showcasing: - Model Context Protocol connections bring agentic AI to content creation - New Synthetic Video Detector NIM microservice - Cosmos 3 Edge open world model for local physical AI - NVIDIA NemoClaw on DGX Station with NVIDIA Agent Toolkit - Research breakthroughs for virtual worlds and physical AI AI Agents Expand Creative Tools to Millions 🔗 Leading creative applications are opening Model Context Protocol (MCP) connections that let AI agents work inside the tools where scenes, shots, timelines, assets and edits come to life — while creators stay in control. For more than two decades, NVIDIA technologies — from GPU-accelerated viewports and CUDA-powered effects to NVIDIA RTX PRO ray tracing, AI denoising, neural rendering and real-time simulation — have helped accelerate the DCC tools that artists, studios and developers use to build the world’s games, films, television shows and advertising content. MCP is opening the next chapter of accelerated creativity: applications aren’t just getting faster. They’re becoming agent-ready. From Acceleration to Action With MCP-connected tools, an artist or technical director can ask an agent to inspect a scene for missing textures, flag inconsistent color management, prepare export variants, generate playblasts for dailies or validate a shot against pipeline rules, all while keeping creative decisions in human hands. The same NVIDIA platform that accelerated viewports, rendering, simulation and AI effects can now power local agents, model inference and multi-application workflows on systems designed for professional creators. NVIDIA RTX PRO workstations, DGX Spark and DGX Station systems are designed to bring accelerated AI performance closer to artists, developers and studio pipelines. Running models and agents locally can help improve responsiveness, reduce reliance on external services and keep sensitive creative data in controlled environments. NVIDIA Agent Toolkit also supports MCP integration, including an MCP client for connecting to remote MCP servers and an MCP server for publishing tools to any MCP client. The Creative Ecosystem Goes Agent-Ready Across the creative ecosystem, creative applications and platforms are exposing MCP connections or MCP-ready workflows, giving AI agents more grounded access to real production context. Adobe is expanding its creative agent across Firefly, Express and Creative Cloud, powering AI Assistant experiences that enable creators to describe the outcome they want while the assistant orchestrates multistep workflows. Adobe is also bringing its pro-grade creative tools to third-party AI platforms through the Adobe connector, extending its creative capabilities wherever people create and work. For developers, Adobe provides the Adobe Express Developer MCP Server, enabling AI coding assistants to build Adobe Express add-ons using official documentation and application programming interfaces (APIs). Affinity by Canva has introduced an AI Connector for Claude that uses MCP to bring natural-language automation directly into Affinity. Designers can ask Claude to handle repetitive production tasks such as renaming layers and artboards, resizing and reformatting assets for multiple channels, applying bulk edits, optimizing vector paths and preparing files for delivery. Beyond individual tasks, Claude can also help users build reusable scripts and custom features tailored to their workflows, reducing production overhead and giving creative professionals more time to focus on design. Blender offers a lightweight MCP server through Blender Lab, providing a natural-language interface to Blender’s Python API, documentation and complex setups. For independent artists and studios, Blender offers a strong example of how open creative tools can become agent-accessible without changing the creative center of gravity. Boris FX Silhouette now includes an MCP server that lets AI assistants work directly inside your projects. Using Silhouette’s FX Scripting API as first-class MCP tools, assistants can inspect projects, build node trees, edit shapes and keyframes, and render frames. A new preferences panel simplifies setup by installing the MCP package, generating a ready-to-paste client configuration, and testing the connection. Interactive online mode connects to your active session, while offline mode runs headless instances for automation, batch processing, and large-scale workflows. Foundry Griptape natively supports MCP, providing AI orchestration specifically designed for professional VFX pipelines. This integration enables studios to securely manage multiple AI models and agents while maintaining the necessary traceability and creative control. By integrating with tools like Blender and Foundry Nuke, Griptape automates repetitive production tasks — such as cleanup, matte painting and quality control — all while ensuring artists remain in final command of the creative process. SideFX is bringing MCP support to Houdini 22 through its new APEX Script workflow. AI assistants can access a curated collection of APEX Script syntax, functions, documentation and examples, helping artists generate and refine code for procedural character rigs. SideFX’s initial implementation focuses on APEX Script and character rigging, while community-developed MCP servers offer broader ways for agents to interact with Houdini. Unreal Engine recently announced the ability to connect AI clients to Unreal Editor through MCP, enabling AI workflows that can interact with editor capabilities through a standardized protocol. For game developers, virtual production teams and real-time artists, this opens the door to assistants that can reason over scenes, assets and project state. See how NVIDIA RTX PRO and DGX systems bring local AI agents closer to creative work at SIGGRAPH. NVIDIA AI for Media Helps Newsrooms Detect Synthetic Video 🔗 Every day, video brings the world’s biggest stories into view — from breaking news across continents, to events reshaping communities, to moments that unite people across the globe. In a news cycle that moves around the clock, trustworthy video is the medium through which people see what’s happening, understand why it matters and stay connected and up to date. For that reason, public trust in video is more essential than ever. At SIGGRAPH, NVIDIA announced the Synthetic Video Detector NVIDIA NIM microservice, part",
+          "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+              "source_url": "https://blogs.nvidia.com/blog/siggraph-news-2026/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
+              "source_url": "https://blogs.nvidia.com/blog/siggraph-news-2026/"
+            }
+          ],
+          "slug": "at-siggraph-nvidia-advances-graphics-and-simulation-with-agentic-and-phy-286358f3",
+          "localized_url": "/zh/items/2026-07-21/at-siggraph-nvidia-advances-graphics-and-simulation-with-agentic-and-phy-286358f3/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
+          "title_original": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
+          "title_en": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they’re doubling down. BMS announced",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+          "published_at": "Mon, 20 Jul 2026 10:59:23 +0000",
+          "fetched_at": "2026-07-20T23:16:49.948722+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "aa4b1d95c459",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
+          "extracted_excerpt": "The pharmaceutical company has demonstrated how AI can transform how drugs discovery and is now scaling AI across R&D to accelerate the discovery of next-generation medicines.",
+          "extracted_text_for_analysis": "Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they’re doubling down. BMS announced today it is deploying its second NVIDIA DGX SuperPOD, this one built on eight DGX Vera Rubin NVL72 systems — the most powerful and energy-efficient AI cluster in life sciences. “Instead of equipping a small group of researchers with access to the supercomputer, we’re opening it up to literally every scientist,” says Davis, vice president of research business insights and technology at BMS. “No one has to wait, and no one is told they have a limit.” The eight rack-scale systems, each comprising NVIDIA Vera CPUs and Rubin GPUs, deliver up to 10x the performance per megawatt of the infrastructure it replaces. It will give researchers at the global pharmaceutical giant access to a unified AI platform — including NVIDIA BioNeMo Agent Toolkit for biological AI — for running predictions, training models and powering agentic workflows across the full drug discovery pipeline. What Davis and other top BMS researchers are really after is what that access makes possible: faster cycles, bigger chemical spaces and a full drug discovery pipeline where researchers think about the science, not the logistics of lining up resources. The mandate, says Payal Sheth — a scientist who spent her career inside drug discovery labs before taking on an expanded role in January as senior vice president of therapeutic discovery sciences at BMS — is moving from “sort of this abstract position of what AI can do to actually translating that to measurable impact.” BMS has operated a DGX SuperPOD for about three years, producing meaningful results. AI-enabled target identification already saves scientists weeks of manual work, freeing time to focus on the highest-value scientific decisions. BMS’s team has used AI to expand its library of CELMoD compounds — molecules engineered to selectively degrade cancer-causing proteins, with applications in blood cancer treatment and beyond. This has opened the door to new targets and new potential medicines across a wider range of diseases. AI is also applied in lead optimization stages of drug discovery using a methodology Sheth calls “Predict First,” which informs experimental gating based on design predictions. “We use predictions as a way to prioritize synthesis of molecules with multi parameter optimization,” she explains, “to weed out molecules that wouldn’t necessarily meet the property landscape we’re working towards. This ensures precious laboratory experiments are aligned with progressing molecules that have the highest probability of success. These research AI applications have significant impact on compute needs across the research organization.“We’re saturated,” Davis says. “We’re in production with some very large-scale predictions around large molecules. We’re building our own foundational models, and that takes a lot of GPUs.” With the new system coming, Davis already has her pitch for researchers thinking about where to do their best work: “Welcome to Limitless Compute.” A computational chemist by training, Davis spent years doing the science before concluding the technology wasn’t keeping up — and that she’d rather go fix it. She spent roughly 15 years on the vendor side, building enterprise platforms at ChemAxon, Schrödinger and X-Chem. At every company, pharma was wrestling with the same bottleneck. “It’s not the technology,” she says. “The challenge is how to get that into the hands of actual scientists and learn from it.” She knows what’s at stake personally. Her father died five years ago, she says, “a very horrible death of Alzheimer’s.” BMS has a significant investment in brain health — a notoriously hard area. “Even if he was still going to die,” Davis says, “if there was symptom remediation along the way, it would have saved suffering for everybody in the family. Dementia is especially cruel.” Davis’s team is combining the existing DGX SuperPOD and the new DGX Vera Rubin NVL72-powered system into a unified environment — a single data plane, accessible from every BMS site globally. Barriers that made the earlier system hard to reach — site-specific restrictions left over from past acquisitions, the need for deep computational expertise — are being replaced with AI-native tooling managed through NVIDIA Mission Control. Researchers will be able to initiate complex predictions in plain English. “The compute infrastructure is what connects all of our scientists together and ensures that our learnings are institutionalized,” Sheth explains. Datasets from a program run in Lawrenceville, New Jersey, feed models that a team in San Diego, California, can draw on. The learnings “can be applied in context of any program we work on.” “There’s a cumulative learning loop today in drug discovery that did not exist when I first started my career,” Sheth explains. “Every project was treated differently, and there were discrete sets of learnings that did not compound into any kind of intelligence framework within discovery.” Today, BMS is using AI to expand that learning loop into a discovery system where every experiment, clinical readout, and partnership compounds into higher-conviction scientific decisions, faster. Agentic workflows can further enhance the architecture of R&D. “Agents don’t care,” Davis says. “They go all across. And that is a huge game-changer because now we can learn from decisions across the silos and across programs.” “When you as a scientist can go to an army of well-vetted, fully trained virtual scientists that have BMS knowledge baked in now you’re a whole team in and of yourself.” Human instincts, Sheth says, aren’t replaced, “they’re augmented with more quantitative insights and predictions.” The ability to scale that with compute, she says, “is where the excitement of the impact of AI is going to be fully realized.” “You still have to have that human brain driving things,” Davis adds, “still looking for caveats and gotchas, still teaching them how to utilize knowledge. But this takes up the capabilities of individual humans substantially.” Davis says the new system has a plan already mapped to it: a detailed allocation across modalities, from small and large molecule design to clinical applications to digital twins. “We didn’t just buy this to have the biggest compute,” she says. “The SuperDuperPOD is basically at every node along the way.” When BMS Chief Digital and Technology Officer Greg Meyers asked Davis whether she was sure she could even saturate the SuperDuperPOD, her answer was direct. “Just give us time,” she told him. Featured image credit: Bristol Myers Squibb",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
+              "source_url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it.",
+              "source_url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/"
+            }
+          ],
+          "slug": "bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-fa-c1d126a1",
+          "localized_url": "/zh/items/2026-07-21/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-fa-c1d126a1/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing Cosmos 3 Edge",
+          "title_original": "Introducing Cosmos 3 Edge",
+          "title_en": "Introducing Cosmos 3 Edge",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+          "published_at": "Mon, 20 Jul 2026 15:58:51 GMT",
+          "fetched_at": "2026-07-20T23:16:49.948722+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8030c8e0dc09",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing Cosmos 3 Edge",
+          "extracted_excerpt": "A Blog post by NVIDIA on Hugging Face",
+          "extracted_text_for_analysis": "Machines operate at the edge in factories, warehouses, hospitals and beyond. To understand and act in these environments, they need models that deliver data center–level performance on memory-constrained systems. Today we are releasing NVIDIA Cosmos 3 Edge on Hugging Face’s Cosmos 3 repository. It’s a 4-billion-parameter open world model that helps robots and vision AI agents understand their surroundings, reason in real time and generate robot actions on edge devices. Download the model: https://huggingface.co/nvidia/Cosmos3-Edge The model delivers memory-efficient, high-throughput inference across NVIDIA edge computers including NVIDIA RTX PRO GPUs, NVIDIA DGX, NVIDIA GeForce RTX™ GPUs, NVIDIA Jetson including the newly announced Jetson T2000 and T3000 modules. Designed as a compact open model that can serve as a small vision language model (VLM) with best-in-class throughput and accuracy with real-time inference. As a post-trained world action model (WAM), Cosmos 3 Edge operates at robot-control resolution (640×360 observations), delivering real-time reasoning and generating 32 actions per inference on NVIDIA Jetson Thor - while achieving real-time control at 15 Hz. Among similar size (4B parameters) models, Cosmos 3 Edge ranks #1 on VANTAGE-Bench for vision analytics and state-of-the-art for robot policy learning, setting the state of the art for smart infrastructure and robotics. A world model learns how an environment changes over time. It represents objects, motion, spatial relationships, and the effects of actions. Consider a robot reaching for an object. Recognizing the object is only the first step. The robot must also understand where the object is, how its gripper is moving, what may happen when contact occurs, and which action is most likely to complete the task successfully. A world model helps the robot reason about these relationships. It can predict the visual result of an action, infer the action that caused a change, or generate an action to produce a desired outcome. Cosmos 3 Edge brings these capabilities together in one model, on-device. Its shared representation enables physical AI systems to understand the current world state, simulate possible futures, and connect those futures to actions. Cosmos 3 combines two transformer towers: - Autoregressive tower: Processes vision and text tokens for understanding and reasoning. - Diffusion tower: Processes vision, audio, and action tokens for prediction, generation, and neural simulation. The two towers maintain separate normalization layers and multilayer perceptrons. They share multimodal attention layers, which align information across language, video, audio, and action. This design allows the model to reason about a scene before generating an output. Depending on the task, Cosmos 3 can produce reasoning tokens from the autoregressive tower or denoised video and action tokens from the diffusion tower. The attention pattern is also adapted to each type of information. Language uses causal attention, where each token attends to the tokens that came before it. Diffusion tokens attend more broadly to the available context, supporting coherent prediction and generation. Together, these components give the model a common representation of what is happening, what may happen next, and how an action could influence the outcome. Physical systems describe actions differently. A vehicle may represent an action through ego pose and movement. A camera uses camera motion. A robot arm uses the pose of its end effector, while a hand or gripper also needs to represent grasp state. Cosmos 3 maps these different embodiments into a common action representation. Actions are encoded as compact geometric vectors that capture: - Translation - Rotation - Manipulation state This creates a direct connection between control and the visual structure of the world. The model can associate changes in pixels with physical motion, spatial relationships, and control inputs. As a result, generated video becomes more than a visual prediction. It can represent how the world is expected to change in response to an action. This gives developers training data grounded in motion, control, and cause and effect. As a policy, Cosmos 3 predicts an action together with its expected visual consequence. The model can generate what the system should do and simulate what is likely to happen next. This connects world modeling directly to robot policy training and evaluation. Current state in, action and visual consequence out. These modes enable one model to learn cause, effect, and policy. Action can flow through the model in both directions, allowing Cosmos 3 Edge to predict the effects of an action or infer an action from its effects. Prompt: Pick up the banana and put it in the plate. We are also releasing Cosmos 3 Edge Policy (DROID): A robot manipulation policy post-trained on the DROID dataset for pick-and-place tasks, with accompanying post-training scripts. Developers can use a small cluster of H100 or NVIDIA DGX Station to efficiently fine-tune Cosmos 3 Edge for their target workloads before deploying to NVIDIA edge and accelerated computing platforms. Alongside the base models, we're releasing reference post-trained checkpoints and training recipes to help developers adapt and optimize Cosmos 3 for their own applications. Cosmos 3 is an open world foundation model platform. As models are post-trained with high-quality, domain-specific data, their accuracy continue to improve for specialized applications. Cosmos serves as the starting point for building domain-adapted world models using open frameworks. Post-training enables developers to improve model performance while preserving output quality. To demonstrate this workflow, we're also releasing the Cosmos 3 Super 4-Step Distillation checkpoint along with a post-training script, providing a faster reference implementation for 64B model that helps developers adapt Cosmos to their own domains and achieve better downstream performance. Cosmos 3 Super 4-Step (Text-to-Image & Image-to-Video): These are distribution-matching distilled checkpoint and scripts that reduce diffusion from 35–50 denoising steps to just 4, delivering up to 25× faster inference while preserving image and video quality and fidelity. These examples serve as reference implementations that developers can build on. Using the open training scripts, you can post-train Cosmos 3 Edge for custom robot policies or distill Cosmos 3 Super for faster image and video generation tailored to your application. Download the model: https://huggingface.co/nvidia/Cosmos3-Edge Cosmos 3 Edge connects understanding, prediction, simulation, and action through a shared world representation.Developers can deploy it closer to their sensors on-device. The model can be used as a reasoner or as an action generator. Use open Cosmos Frameworks to customize and specialize the models. Checkout Cosmos 3: https://huggingface.co/collections/nvidia/cosmos3 We",
+          "title_zh": "Hugging Face 发布模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing Cosmos 3 Edge",
+              "source_url": "https://huggingface.co/blog/nvidia/cosmos3edge"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
+              "source_url": "https://huggingface.co/blog/nvidia/cosmos3edge"
+            }
+          ],
+          "slug": "introducing-cosmos-3-edge-8030c8e0",
+          "localized_url": "/zh/items/2026-07-21/introducing-cosmos-3-edge-8030c8e0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Together AI and Y Combinator partner to launch the first dedicated GPU cluster for the YC community",
+          "title_original": "Together AI and Y Combinator partner to launch the first dedicated GPU cluster for the YC community",
+          "title_en": "Together AI and Y Combinator partner to launch the first dedicated GPU cluster for the YC community",
+          "summary_zh": "Together AI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "No more two-year compute contracts. Together AI and YC just gave YC startups a faster way to get GPUs.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/together-yc-gpu-cluster",
+          "published_at": "Mon, 20 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-20T23:16:49.948722+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Together AI",
+            "Y Combinator"
+          ],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 42.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "53b994643274",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Together AI and Y Combinator partner to launch the first dedicated GPU cluster for the YC community",
+          "extracted_excerpt": "No more two-year compute contracts. Together AI and YC just gave YC startups a faster way to get GPUs.",
+          "extracted_text_for_analysis": "Today, Together AI and Y Combinator (YC) are announcing a partnership to deliver the first dedicated YC GPU cluster, giving YC's portfolio of AI-native startups easier access to the compute they need to build and scale. Compute has become the biggest bottleneck Breakthroughs in AI have led to a new generation of companies building AI applications, and a key input to building any of these apps is access to compute. More and more startups struggle to get this access in a timely, cost-effective way. It used to be simple. A startup could spin up GPU instances on demand and scale from there. Today, as model quality and token value keep rising, just securing capacity is one of the hardest problems a young company faces, let alone getting good pricing on it. For many startups, the upfront cost to secure two years of compute exceeds their entire cash balance, forcing a choice: Raise a round just to fund a compute contract, or go without the capacity to compete. Flexible, dedicated access to compute Together AI and Y Combinator have partnered to solve that specific problem. Together AI has built a dedicated cluster and developer experience just for YC Portfolio companies to quickly and cost-effectively get access to compute for their AI needs across inference and training. Instead of long-term commitments, startups can spin up GPUs for short-term sprints while benefiting from long-term rates. The cluster supports the full range of needs across YC's portfolio, from teams requiring single-node compute to companies scaling up as their needs grow. Additionally, YC start up founders benefit from the learnings and best practices that Together researchers, engineers, and customer experience teams bring from working with leading AI-native companies. Startups reserve, provision, and manage their own GPUs directly through Together’s self-service portal, with their own billing support, so scaling compute never has to route through YC. Founders get GPUs ready in minutes, and stay in control of their own usage from day one. The cluster is running at full utilization today, while individual companies can still plan their compute needs months in advance. A natural fit Together AI was founded four years ago on the belief that generative AI would become foundational, and built a cloud service spanning the full generative AI lifecycle. It now works with over 8,000 customers, including Cursor, Decagon, Cognition, and Eleven Labs. As models improve, the value of every token produced keeps climbing, and so does the cost of compute behind it. Together's research, including work on attention mechanisms and the Mamba architecture now used in models like NVIDIA’s Nemotron, is aimed squarely at that problem: faster inference and better unit economics for every workload on the cluster, from early-stage teams to companies already operating at scale. YC has long been one of the largest seed funders of research-driven companies, and securing compute has become essential to attracting and supporting the best founders. Both organizations share a belief that founders do their best work with access to the same resources a much bigger company would have. Compute is simply the latest one. What's next Together AI and YC plan to expand the cluster, and Together will keep supporting companies as they graduate from the batch and scale with whatever setup makes sense long term. As those needs grow, founders can also tap into the rest of Together’s platform, from inference to fine-tuning and training, all on the same infrastructure they already know. If you're building an AI-native startup and want to learn more, contact us. YC's next batch is currently taking applications for their Fall 2026 cycle. YC is especially excited about funding companies developing new research breakthroughs that require GPU compute. Apply at ycombinator.com/apply.",
+          "title_zh": "Together AI 发布模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。",
+            "涉及公司或机构：Together AI、Y Combinator。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Together AI and Y Combinator partner to launch the first dedicated GPU cluster for the YC community",
+              "source_url": "https://www.together.ai/blog/together-yc-gpu-cluster"
+            },
+            {
+              "label": "公开摘要",
+              "text": "No more two-year compute contracts. Together AI and YC just gave YC startups a faster way to get GPUs.",
+              "source_url": "https://www.together.ai/blog/together-yc-gpu-cluster"
+            }
+          ],
+          "slug": "together-ai-and-y-combinator-partner-to-launch-the-first-dedicated-gpu-c-53b99464",
+          "localized_url": "/zh/items/2026-07-21/together-ai-and-y-combinator-partner-to-launch-the-first-dedicated-gpu-c-53b99464/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🎙️ How I AI: How the founder of Morning Brew built a Claude content machine that never runs out of ideas",
+          "title_original": "🎙️ How I AI: How the founder of Morning Brew built a Claude content machine that never runs out of ideas",
+          "title_en": "🎙️ How I AI: How the founder of Morning Brew built a Claude content machine that never runs out of ideas",
+          "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-founder-of-morning",
+          "published_at": "Mon, 20 Jul 2026 15:01:56 GMT",
+          "fetched_at": "2026-07-20T23:16:49.948722+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "653b7163f6a7",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🎙️ How I AI: How the founder of Morning Brew built a Claude content machine that never runs out of ideas",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-founder-of-morning"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-founder-of-morning"
+            }
+          ],
+          "slug": "how-i-ai-how-the-founder-of-morning-brew-built-a-claude-content-machine-653b7163",
+          "localized_url": "/zh/items/2026-07-21/how-i-ai-how-the-founder-of-morning-brew-built-a-claude-content-machine-653b7163/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How the founder of Morning Brew built a Claude content machine that never runs out of ideas and never sounds like slop | Alex Lieberman",
+          "title_original": "How the founder of Morning Brew built a Claude content machine that never runs out of ideas and never sounds like slop | Alex Lieberman",
+          "title_en": "How the founder of Morning Brew built a Claude content machine that never runs out of ideas and never sounds like slop | Alex Lieberman",
+          "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-the-founder-of-morning-brew-built",
+          "published_at": "Mon, 20 Jul 2026 12:04:47 GMT",
+          "fetched_at": "2026-07-20T23:16:49.948722+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8b48a93d569b",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How the founder of Morning Brew built a Claude content machine that never runs out of ideas and never sounds like slop | Alex Lieberman",
+              "source_url": "https://www.lennysnewsletter.com/p/how-the-founder-of-morning-brew-built"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/how-the-founder-of-morning-brew-built"
+            }
+          ],
+          "slug": "how-the-founder-of-morning-brew-built-a-claude-content-machine-that-neve-8b48a93d",
+          "localized_url": "/zh/items/2026-07-21/how-the-founder-of-morning-brew-built-a-claude-content-machine-that-neve-8b48a93d/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Everything You Need to Know About Kimi K3, the Latest Model From China to Shake Up AI",
+          "title_original": "Everything You Need to Know About Kimi K3, the Latest Model From China to Shake Up AI",
+          "title_en": "Everything You Need to Know About Kimi K3, the Latest Model From China to Shake Up AI",
+          "summary_zh": "Big Technology Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Here's how the web reacted to Kimi K3's performance, politics, and how it changes the AI race.",
+          "source_name": "Big Technology Podcast",
+          "source_url": "https://www.bigtechnology.com/",
+          "original_url": "https://www.bigtechnology.com/p/everything-you-need-to-know-about",
+          "published_at": "Mon, 20 Jul 2026 16:47:18 GMT",
+          "fetched_at": "2026-07-20T23:16:49.948722+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "tech-media",
+            "ai",
+            "interview"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d124ebc035b3",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Big Technology Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Big Technology Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：tech-media、ai、interview。"
+          ],
+          "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Everything You Need to Know About Kimi K3, the Latest Model From China to Shake Up AI",
+              "source_url": "https://www.bigtechnology.com/p/everything-you-need-to-know-about"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Here's how the web reacted to Kimi K3's performance, politics, and how it changes the AI race.",
+              "source_url": "https://www.bigtechnology.com/p/everything-you-need-to-know-about"
+            }
+          ],
+          "slug": "everything-you-need-to-know-about-kimi-k3-the-latest-model-from-china-to-d124ebc0",
+          "localized_url": "/zh/items/2026-07-21/everything-you-need-to-know-about-kimi-k3-the-latest-model-from-china-to-d124ebc0/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Configure where run state lives in Vercel Workflows",
+          "title_original": "Configure where run state lives in Vercel Workflows",
+          "title_en": "Configure where run state lives in Vercel Workflows",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Workflows now keeps each run's state, queue dispatch, and output streams in a single home region: the region where the run starts by default, or any target region you choose. A run keeps its home region for its lifetime, so for agents built on",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/configure-where-run-state-lives-in-vercel-workflows",
+          "published_at": "2026-07-20T00:00:00.000Z",
+          "fetched_at": "2026-07-20T23:16:49.948722+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "08f815a97178",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Configure where run state lives in Vercel Workflows",
+              "source_url": "https://vercel.com/changelog/configure-where-run-state-lives-in-vercel-workflows"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Workflows now keeps each run's state, queue dispatch, and output streams in a single home region: the region where the run starts by default, or any target region you choose. A run keeps its home region for its",
+              "source_url": "https://vercel.com/changelog/configure-where-run-state-lives-in-vercel-workflows"
+            }
+          ],
+          "slug": "configure-where-run-state-lives-in-vercel-workflows-08f815a9",
+          "localized_url": "/zh/items/2026-07-21/configure-where-run-state-lives-in-vercel-workflows-08f815a9/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Purge your Remote Cache's build and CI artifacts",
+          "title_original": "Purge your Remote Cache's build and CI artifacts",
+          "title_en": "Purge your Remote Cache's build and CI artifacts",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Team Owners can now clear the team's Remote Cache of all artifacts in one click. This is useful when you believe there are poisoned artifacts in your cache. In your team's Build and Deployment settings, visit the Remote Caching section and clear the Remote",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/purge-your-remote-caches-build-and-ci-artifacts",
+          "published_at": "2026-07-20T00:00:00.000Z",
+          "fetched_at": "2026-07-20T23:16:49.948722+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "735e158b5e1a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Purge your Remote Cache's build and CI artifacts",
+              "source_url": "https://vercel.com/changelog/purge-your-remote-caches-build-and-ci-artifacts"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Team Owners can now clear the team's Remote Cache of all artifacts in one click. This is useful when you believe there are poisoned artifacts in your cache. In your team's Build and Deployment settings, visit the Remote",
+              "source_url": "https://vercel.com/changelog/purge-your-remote-caches-build-and-ci-artifacts"
+            }
+          ],
+          "slug": "purge-your-remote-cache-s-build-and-ci-artifacts-735e158b",
+          "localized_url": "/zh/items/2026-07-21/purge-your-remote-cache-s-build-and-ci-artifacts-735e158b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-07-20",
       "title_zh": "AI 新闻简报 · 2026-07-20",
