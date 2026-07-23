@@ -1,7 +1,1040 @@
 {
-  "updated_at": "2026-07-22T23:17:30.482672+00:00",
-  "count": 44,
+  "updated_at": "2026-07-23T23:13:42.573947+00:00",
+  "count": 45,
   "briefs": [
+    {
+      "date": "2026-07-24",
+      "title_zh": "AI 新闻简报 · 2026-07-24",
+      "title_en": "English AI News Brief · 2026-07-24",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 127 条，入选 15 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 127 previously displayed items excluded, and 15 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 144,
+      "skipped_history_count": 127,
+      "selected_count": 15,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+          "title_original": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+          "title_en": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the students, researchers and faculty",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/",
+          "published_at": "Thu, 23 Jul 2026 02:00:46 +0000",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "podcasts-interviews",
+          "people": [
+            "Jensen Huang"
+          ],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 66.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "45fb4c88b602",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+          "extracted_excerpt": "NVIDIA founder and CEO Jensen Huang joined school leadership in Monterey, California, to commission the system, which will fuel AI education and research at the US military’s premier technical graduate university.",
+          "extracted_text_for_analysis": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the students, researchers and faculty at the U.S. military’s flagship graduate university. “Our nation depends on our men and women who fight on the front lines. Nothing is more valuable to you than information and insight, and information and insight in a timely way, and to understand its impact and consequence,” Huang said at the event. “I can’t imagine anything more important.” The DGX GB300 supercomputer with NVIDIA Mission Control software gives NPS’s more than 1,500 in-resident students and 600 faculty on-premises access to large-scale AI computing, including model training and inference capability for applications spanning weather prediction, cybersecurity, and disaster resilience and response planning. The commissioning, which took place during the school’s three-day Converge @ NPS event, marks the latest chapter in an ongoing collaboration to develop AI-based technologies at NPS for education and real-world applications. It’s built based on an NVIDIA AI Technology Center on the Monterey campus — a dedicated hub for AI research and graduate instruction, now anchored by the DGX GB300. “As we modernize our technology, we must also modernize how we educate our leaders,” said Admiral Samuel Paparo, commander of the U.S. Pacific Command. “Access to advanced computing capability means NPS students and faculty understand the opportunities and responsibilities that come with these technologies.” Training Leaders to Build With AI NPS educates active-duty officers and international partners across disciplines — from space operations to ocean science — awarding graduate degrees while centering each program on applied research with direct relevance to real-world problems. “Leadership is about being in service of something else. You’re in service of your team. You’re in service of your country. You’re in service of your mission,” Huang said to attendees. “And all of this technology is just tools to help you.” The DGX GB300 gives those programs new technical depth: the ability to train foundation models in house, run high-fidelity simulations at scale and develop AI tools with immediate applicability. Huang told attendees that even if they aren’t experts in computer science, today’s computers running AI make it easy. “The most important advice that I would give to someone is to engage the technology,” Huang said. “It’s not as hard as you think it is, and the reason for that is because, on first principles, technology is supposed to get smarter and smarter over time.” NVIDIA has also expanded the collaboration through its Deep Learning Institute, putting instructor toolkits in the hands of NPS faculty so AI is woven through graduate curricula across departments. “Many of you will command in AI-enabled environments. Information will move at lightning speeds, compressing response times,” Paparo said. “Our advantage will come from leaders, like you, who can use the technology to see, understand, decide and act faster while exercising the judgment, experience and leadership that machines cannot provide. That education is happening here at NPS.” From Ocean Models to Digital Twins NPS runs a regular cadence of hackathons that have produced advances in autonomy, ocean research and operations planning — applied work that demands serious computing to scale. Researchers are using AI to model sea conditions, predict atmospheric changes and build digital twins of complex environments — work that feeds directly into the scientific domains where NPS has deep expertise. The DGX GB300 will now power these workloads on campus. Through the school’s partnership with MITRE, a nonprofit organization, NPS has developed a framework built on NVIDIA Omniverse libraries that provides high-fidelity digital twin environments for simulating real-world navigation and decision-making under uncertain conditions. To learn more, watch NPS and NVIDIA researchers present on AI modeling and simulation at NVIDIA GTC Washington, D.C. NVIDIA Partner Ecosystem Brings AI Infrastructure to Life The DGX GB300 at NPS didn’t come together in isolation. DDN, VAST and Vertiv joined the effort as hardware and systems integration partners. DDN contributed high-performance data infrastructure to help researchers efficiently access, manage, protect and scale data for demanding AI workloads. VAST Data provided a unified data platform to enable secure data access and management across edge, core and cloud environments. Vertiv provided the racks, cooling and power infrastructure needed to bring the system online, as well as installation sequencing, testing and commissioning support, and fluid management and monitoring. Learn more about NVIDIA’s collaboration with NPS and explore the NVIDIA DGX GB300.",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+              "source_url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for",
+              "source_url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer/"
+            }
+          ],
+          "slug": "nvidia-ai-supercomputer-comes-online-at-naval-postgraduate-school-6479bbc6",
+          "localized_url": "/zh/items/2026-07-24/nvidia-ai-supercomputer-comes-online-at-naval-postgraduate-school-6479bbc6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+          "title_original": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+          "title_en": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/ntt-data",
+          "published_at": "Wed, 22 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ce627deb9928",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+          "extracted_excerpt": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+          "extracted_text_for_analysis": "9,000 Active Codex users -99.3% Codex completed an incident analysis in 30 minutes that had previously taken five engineers 3 days NTT DATA Group is a Japan based global IT services company spanning consulting, systems development, and operations. As AI reshapes the business environment, the company is evolving its growth model from expanding revenue by adding headcount to creating greater value through AI. To support this transformation, NTT DATA Group rolled out ChatGPT Enterprise across the company and introduced programs that help employees make AI part of their daily work. Building on that foundation, the company has expanded Codex to approximately 9,000 employees. Teams across technical and nontechnical roles now use AI not only to explore ideas through conversation, but also to carry out clearly defined tasks. After beginning a global strategic partnership with OpenAI in May 2025, NTT DATA Group moved to deploy ChatGPT Enterprise across the company. It established an internal OpenAI Center of Excellence, or CoE, to support adoption through license distribution, technical validation, events, use case development, usage monitoring, knowledge resources, and the systems employees need to get the most from AI. As a result, ChatGPT Enterprise has become one of the primary AI tools supporting daily work across NTT DATA Group. In an internal survey, more than 96% of respondents said they were satisfied with ChatGPT Enterprise, and more than 95% reported productivity gains. Through everyday use, employees built experience working with AI for research, writing, and content creation. Those habits and skills prepared the organization for the next step: delegating clearly defined tasks to Codex. One of the first successes to demonstrate the potential of Codex was the automation of a complex incident analysis for a critical system. The work had previously required five experienced engineers and taken three days to complete. With Codex, the full process was completed in 30 minutes. The result quickly gained attention from senior leaders and became an early proof point for what Codex could make possible. More than a coding assistant, Codex can independently investigate, execute, test, and revise based on an instruction. That agentic capability helped build momentum across the company. “Codex has changed how people across the company think about AI,” says Hiroaki Sato of NTT DATA Group’s AI Technology Department. “The idea that AI can take the lead in carrying out work has had an impact similar to the arrival of ChatGPT.” Since that early success, teams across NTT DATA Group have continued to identify new use cases that draw on the distinctive capabilities of Codex. “Codex is about more than helping developers write code faster. As ChatGPT Enterprise has become part of how our employees think, explore ideas, and solve problems, Codex opens the door to a new way of working. By enabling AI to research, organize, execute, and validate work, it empowers every employee to transform how they approach their role.” The potential demonstrated in incident analysis extends beyond software development. Under their “Client Zero” approach, NTT DATA Group treats their own organization as the first customer and encourages employees to test AI in their daily work. As a result, Codex adoption is expanding beyond engineers to nontechnical employees across a wide range of functions. “Through our Client Zero approach, we actively promote the use of AI within our own organization,” Sato explains. “Codex has significant potential, and employees across many departments are finding ways to apply it to their own work.” Nontechnical employees are already using Codex to build lightweight tools, organize large volumes of files, analyze data in Excel, summarize documents, and script repetitive processes. These are often tasks that people want to automate but that would be too time consuming to handle manually. For example, employees use Codex to extract transportation expenses from credit card statements and transfer them into travel expense forms. Codex can work across multiple files, understand the structure and entry rules of each sheet, and help verify the completed transfer, streamlining work that was previously manual and cumbersome. Another important shift is that nontechnical employees can now complete work that once required support from engineers. Creating an analytical report, for example, previously required preparing data in a business intelligence tool and building a dashboard. With Codex, employees can analyze raw data directly and create the reports they need, improving efficiency while reducing dependence on specialized tools and skills. In this way, Codex is doing more than supporting software development. It is lowering the barrier to work that once required specialized expertise and enabling employees without development experience to create practical outputs they can use in their roles. To expand the use of Codex across the organization, rather than limiting it to individual teams or employees, NTT DATA Group recognized the need for an environment where everyone can use it safely and with confidence. This foundation is important not only for its own employees, but also for customers across the wide range of industries the company supports. To prepare Codex for enterprise use, the OpenAI CoE has developed and rolled out security guidelines alongside practical guidance for adoption. These guidelines clarify what data can be used, which systems Codex can connect to, how network traffic is managed, which sandbox mode to apply, what level of automation is appropriate, and where human review is required. This has created an environment where employees across technical and nontechnical roles can confidently explore new ways to use Codex. With this foundation of security and governance in place, Codex adoption is moving beyond a small number of advanced use cases. Today, Codex is steadily becoming part of the daily work of approximately 9,000 employees. “Creating a secure and well governed environment is essential for employees to use Codex with confidence. Our vision is for Codex to become more than a tool for engineers. We want it to be a natural part of everyday work for every employee, including those in nontechnical roles, helping people turn their expertise and ideas into greater impact.” Codex adoption at NTT DATA Group has moved beyond experimentation and is already delivering tangible results across the organization. - Completed in 30 minutes a complex incident analysis that previously took five experienced engineers three days - Increased weekly active Codex users by 1.4 times after publishing a usage guide and conducting hands on training - Automated internal system operations using Playwright, reducing time spent on routine daily tasks, and enabled organization-wide adoption by packaging the automation as Skills NTT DATA Group’s experience highlights five lessons for embedding",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+              "source_url": "https://openai.com/index/ntt-data"
+            },
+            {
+              "label": "公开摘要",
+              "text": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+              "source_url": "https://openai.com/index/ntt-data"
+            }
+          ],
+          "slug": "ntt-data-group-cuts-incident-analysis-to-30-minutes-with-codex-ce627deb",
+          "localized_url": "/zh/items/2026-07-24/ntt-data-group-cuts-incident-analysis-to-30-minutes-with-codex-ce627deb/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Launching Health in ChatGPT",
+          "title_original": "Launching Health in ChatGPT",
+          "title_en": "Launching Health in ChatGPT",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/health-in-chatgpt",
+          "published_at": "Thu, 23 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "7569338ee0d3",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Launching Health in ChatGPT",
+          "extracted_excerpt": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+          "extracted_text_for_analysis": "Health in ChatGPT is launching to U.S. users. You can choose to securely connect Apple Health and supported medical records so ChatGPT can help you understand your information in context, keep track of what has changed, and have more informed, personalized conversations. The experience builds on feedback from early testers and gives you control over what you connect and when ChatGPT can use it. Every week, more than 300 million people turn to ChatGPT with health-related questions—from understanding a lab result and preparing for an appointment to making sense of what a doctor said and building a healthier routine. But the context behind those questions is often scattered across patient portals, medical records, apps, and wearables, making it difficult to see and act on the complete picture. With your permission, ChatGPT can now draw on relevant information you’ve connected in Health to help you compare a new result with prior tests, summarize changes since your last appointment, or explore how sleep, activity, and workouts relate to your routine. This can reduce the need to repeatedly gather, upload, or explain the same details, helping you feel more informed, ask better questions, and take a more active role in your health while supporting, not replacing, the care you receive from medical professionals. We’re continuing to improve the models behind health conversations so ChatGPT can reason more carefully across complex details, explain health information clearly, ask for missing context, and recognize when professional care may be needed. GPT‑5.5 Instant brought frontier health intelligence to all free users. GPT‑5.6 Sol builds on that progress with even stronger performance on more complex questions. Health is built with layered privacy and security safeguards. Connected medical records and Apple Health information, and conversations that use it, are not used to train our foundation models or target ads. We’re beginning to roll out Health to logged-in ChatGPT users 18 and older in the U.S. on web and iOS across Free, Go, Plus, and Pro plans today. Open Health from the sidebar in ChatGPT to get started. Health is not yet available in Codex. “The most useful part has been turning scattered medical history into something I can actually understand and explain. I have multiple overlapping issues and ChatGPT helped connect those pieces into a clear timeline, explain the medical terms in plain English, and create summaries I could share with a physical therapist or trainer. This has helped me feel less lost in my own health history. Instead of just seeing disconnected diagnoses, imaging results, and surgery notes, I could understand the bigger pattern. It made the information more usable and gave me better language to advocate for myself with providers and trainers.” Earlier this year, we introduced a dedicated health experience to a limited group of users that required visiting a separate space in ChatGPT to get the full benefit. Early testing showed that health questions often arose naturally in the course of conversations. For example, while planning meals or looking for recipes, someone might want ChatGPT to take a food allergy or dietary restriction into account. Among people with access, more than 70% of health-related conversations took place outside the dedicated health experience. Moving to a separate space added an unnecessary step. Based on that feedback, you can now choose to let ChatGPT draw on relevant information you’ve connected in Health across your conversations, without needing to start within Health. With your permission, ChatGPT can consider relevant information you have connected, such as medications, lab results, recent visits, sleep, and activity, alongside the goals and context you share. This added context can make everyday conversations more useful. For example, ChatGPT can consider a dietary restriction when helping you choose a restaurant, or a recent injury when planning lower-impact weekend activities with your family. You can ask follow-up questions, add context, or correct information that is incomplete or out of date. Health, in the left sidebar, remains your home base for connecting and managing your information, seeing recent data and trends, exploring suggested prompts, browsing synced records, and returning to past health conversations. We use dedicated training to improve the models behind health conversations in ChatGPT. GPT‑5.5 Instant, available to users on the Free plan, has made meaningful gains in recognizing when urgent care may be needed, asking for relevant context, explaining uncertainty, and making complex information easier to understand. On our most challenging health evaluations, it performed at a level comparable to our frontier Thinking models at the time of evaluation. Learn more about those results and our work with physicians. GPT‑5.6 Sol, available to paid users, is our strongest model yet for health. It builds on our progress with stronger performance on tasks that require reasoning across complex details, clear communication, and careful judgment. It can help explain a visit note in plain language, understand how lab results have changed over time, consider the factors across options a doctor discussed, or prepare questions for a follow-up appointment. To measure progress, we work with hundreds of physicians around the world to develop realistic health scenarios and detailed rubrics that define what a strong response should do. These evaluations assess qualities including accuracy, safety, communication, context awareness, completeness, and appropriate escalation. Every GPT‑5.6 model outperformed GPT‑5.5 on HealthBench Professional(opens in a new window), an evaluation of AI performance on challenging health tasks. Finally, physicians extensively tested Health in ChatGPT before release, helping us measure and improve real-world model performance and safety with connected health data. While these results represent meaningful progress and we are continuously improving our models, ChatGPT can still make mistakes and does not replace the care and judgment of qualified medical professionals. We encourage people to verify important information and discuss medical decisions with their healthcare provider. Health is built with layered privacy and security safeguards. All ChatGPT conversations are encrypted at rest and in transit, and information connected in Health receives additional encryption protections. The information connected in Health is not used to train our foundation models or target ads. Connected medical records and Apple Health information, and conversations that use it, are not used to train our foundation models or target ads, regardless of the model-training setting you choose for ChatGPT. Conversations that do not use this data follow your standard ChatGPT model-training setting choices, which you can change at any time in Settings > Data Controls. You decide when ChatGPT can use the information",
+          "title_zh": "OpenAI 发布模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Launching Health in ChatGPT",
+              "source_url": "https://openai.com/index/health-in-chatgpt"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+              "source_url": "https://openai.com/index/health-in-chatgpt"
+            }
+          ],
+          "slug": "launching-health-in-chatgpt-7569338e",
+          "localized_url": "/zh/items/2026-07-24/launching-health-in-chatgpt-7569338e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud",
+          "title_original": "GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud",
+          "title_en": "GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lock in and load up the cloud. GFN Thursday brings fresh updates and new adventures, all ready to play without waiting for downloads. Set sail in Path of Exile: Curse of the Allflame and charge in Battlefield 6 Season 4 both launching major content for",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame/",
+          "published_at": "Thu, 23 Jul 2026 13:00:16 +0000",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8242b84b5ac0",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud",
+          "extracted_excerpt": "Plus, ‘Battlefield 6’ updates, Capcom classics, ‘Halo: Campaign Evolved Advanced Access’ and nine new games arrive on the cloud this week.",
+          "extracted_text_for_analysis": "Lock in and load up the cloud. GFN Thursday brings fresh updates and new adventures, all ready to play without waiting for downloads. Set sail in Path of Exile: Curse of the Allflame and charge in Battlefield 6 Season 4 both launching major content for members this week. Then revisit Capcom legends like Breath of Fire IV, Dino Crisis and Dino Crisis 2, jump into Halo: Campaign Evolved Advanced Access and discover nine titles arriving on GeForce NOW. The Curse Calls Prepare to brave the unforgiving waters of Wraeclast. Path of Exile: Curse of the Allflame launches Friday, July 24, sending Exiles into the perilous Frozen Seas. Guided by formidable corsair captain Valerie and her cursed navigator Vesper, gamers must piece together scattered treasure charts, board the legendary vessel — the Sovereign — and chart a course into the abyss. Descend into the depths using Allflame Lanterns to uncover valuable relics while surviving the dangers lurking beneath the waves. The update introduces sweeping changes, including a complete rework of sockets and links. The Scion also gains the all-new Luminary Ascendancy, the Mercenaries of Trarthus return alongside mysterious Atlas Anomalies, and the preexisting Abyss, Legion and Talisman mechanics receive revitalized gameplay and exclusive rewards. GeForce NOW members can dive in the moment it launches across their devices, no downloads needed. Learn more about the latest additions on the Path of Exile website. Rise Through the Ranks Battlefield 6 takes the fight further with Season 4, bringing new battlegrounds, expanded progression and new ways to play. Take to the land, air and sea with the massive Tsuru Reef and the return of the fan-favorite Wake Island, coming in phase two. Both feature aircraft carriers with operational flight decks, new naval vehicles and a dynamic wave system that helps move every match. The update also introduces Custom Lobbies and Spectator Mode, delivering more ways to play. From large-scale multiplayer battles to intense vehicle combat, GeForce NOW lets members deploy across nearly any device. Ultimate members can stream with GeForce RTX 5080-powered performance across PCs, Macs, handhelds, mobile devices, TVs and more. Whether returning to the frontlines or enlisting for the first time, members can leap into the latest Battlefield update the moment it arrives on GeForce NOW — without waiting for patches. Dragons and Dinosaurs — on Any Device Three iconic Capcom adventures arrive on GeForce NOW this week, ready for longtime fans to revisit and new players to discover. Journey through the rich fantasy world of Breath of Fire IV, a role-playing game following the intertwining stories of Ryu and Fou-Lu. Master an array of skills and magic to unlock strategic victories in battle and go head to head with unique enemies using powerful Dragon Transformations. Raw instinct takes over in Dino Crisis and Dino Crisis 2, the survival-horror series that combines pulse-pounding action, resource management and thrilling dinosaur encounters. Pursued by a relentless prehistoric terror, players fight to survive from the facility to the world of the Cretaceous Period. Whether reliving unforgettable moments or discovering these legendary titles for the first time, gamers on GeForce NOW can experience gaming history on supported devices like Chromebooks, Fire TV and Steam Deck — no legacy hardware required. Spartans — Start Early Spartans don’t have to wait. Players who prepurchase the Premium Edition of Halo: Campaign Evolved can suit up for Advanced Access before the game’s global launch on Tuesday, July 28. Start the weekend with all the new games arriving on GeForce NOW: - ZeroSpace (New release on Steam, available July 20) - The Life and Suffering of Prince Jerian (New release on Steam, available July 20) - The Planet Crafter (New release on Xbox, available on Game Pass July 21) - Carnival Hunt (New release on Steam, available July 23) - Dinoblade (New release on Steam, available on July 23) - Breath of Fire IV (Steam) - CloverPit (Xbox, available on Game Pass) - Dino Crisis (Steam) - Dino Crisis 2 (Steam) The last word goes to the Community Corner. One GeForce NOW member recently shared they found themselves back on GeForce NOW Ultimate because they missed the flexibility of gaming across devices like Steam Deck. Their post sparked a discussion about why members tap into cloud gaming, whether as a backup, a travel companion or their primary way to play. What are you planning to play this weekend? Let us know on X or in the comments below.",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud",
+              "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lock in and load up the cloud. GFN Thursday brings fresh updates and new adventures, all ready to play without waiting for downloads. Set sail in Path of Exile: Curse of the Allflame and charge in Battlefield 6 Season 4",
+              "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame/"
+            }
+          ],
+          "slug": "geforce-now-sets-sail-with-path-of-exile-curse-of-the-allflame-joining-t-7c941d34",
+          "localized_url": "/zh/items/2026-07-24/geforce-now-sets-sail-with-path-of-exile-curse-of-the-allflame-joining-t-7c941d34/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+          "title_original": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+          "title_en": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+          "summary_zh": "Hugging Face Blog 更新了推理容量与成本控制方案，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/nunchaku-diffusers",
+          "published_at": "Thu, 23 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "37c9890bc32e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+          "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "extracted_text_for_analysis": "Most of these backends are weight-only. This means that they store the weights in low precision and dequantize them back to high precision at compute time. This reduces memory usage significantly, but it usually does not make inference faster, and can even add a small latency overhead. SVDQuant, the quantization method behind the popular Nunchaku inference engine, takes a different approach. It runs the main transformer layers with 4-bit weights and activations (W4A4), reducing memory while also speeding up the denoising loop. The details are covered below, but until now, using these checkpoints required a separate inference library. With current Diffusers, loading a Nunchaku checkpoint is as simple as calling from_pretrained(), with no local CUDA compilation required thanks to the kernels package. In addition, the companion diffuse-compressor toolkit lets you quantize new architectures yourself and publish them as regular Diffusers repositories. - Getting started with Nunchaku Lite - Background: SVDQuant and Nunchaku - Introducing Nunchaku Lite - Native loading in Diffusers - Getting more speed and lower memory - Benchmarks - Quantizing your own model - Ready-to-use checkpoints - Conclusion - Acknowledgements First, install the requirements. You need a recent version of Diffusers and the Hugging Face kernels package: pip install -U diffusers transformers accelerate kernels bitsandbytes Then load a pre-quantized pipeline like any other Diffusers model: import torch from diffusers import ErnieImagePipeline pipe = ErnieImagePipeline.from_pretrained( \"lite-infer/ERNIE-Image-Turbo-nunchaku-lite-nvfp4_r32-bnb4-text-encoder\", torch_dtype=torch.bfloat16, ).to(\"cuda\") image = pipe( prompt=\"A cinematic portrait of a red fox in a misty forest at sunrise, \" \"detailed fur, volumetric light\", height=1024, width=1024, num_inference_steps=8, guidance_scale=1.0, generator=torch.Generator(\"cuda\").manual_seed(42), ).images[0] image.save(\"output.png\") No custom pipeline class or separate inference engine is needed, and there is nothing to compile locally. The NVFP4 kernels are downloaded from the Hub through the Nunchaku Lite kernels page the first time they are used. This checkpoint pairs a Nunchaku NVFP4 transformer with a bitsandbytes NF4 text encoder, and generates a 1024x1024 image in about 1.7 seconds on an RTX 5090 with a peak memory usage of about 12 GB, compared with about 24 GB for the BF16 pipeline. You can find more details about the Nunchaku Lite checkpoint format in the official Diffusers documentation. NVFP4 checkpoints require an NVIDIA Blackwell GPU (RTX 50 series, RTX PRO 6000, B200). For earlier generations, use the INT4 variants. See the hardware support table below for details. SVDQuant is the quantization method behind Nunchaku, its reference CUDA inference engine. Standard 4-bit quantization is difficult for diffusion transformers because both weights and activations contain large outliers. SVDQuant handles this by moving activation outliers into the weights, representing the hardest part of each weight matrix with a small 16-bit low-rank branch, and quantizing the remaining residual to 4 bits. Nunchaku makes this fast with fused kernels for the 4-bit path and the low-rank branch. The original Nunchaku engine gets much of its speed from model-specific fused execution paths, such as fused QKV projections and fused GELU/MLP kernels. Those optimizations are tied to each architecture's module layout and checkpoint format, so supporting a new model family usually requires model-specific integration work. Nunchaku Lite is the new integration path in Diffusers. With it, Diffusers can load Nunchaku-style checkpoints without a custom pipeline or a separate inference engine. Under the hood, Nunchaku Lite patches the relevant nn.Linear modules of a stock Diffusers model with runtime SVDQ/AWQ linear layers before the checkpoint is loaded. The CUDA kernels come from the Hub through the kernels package. Two kernel families are used: - svdq_w4a4: 4-bit weights and activations with the SVDQuant low-rank correction. This layer is used for the transformer's attention and MLP projections, where nearly all of the compute is spent, and is available in INT4 and NVFP4 variants. - awq_w4a16: 4-bit weights with 16-bit activations, used for adaptive normalization and modulation projections such as FLUX- adanorm_single/- adanorm_zeroor Qwen-Image modulation layers. These layers are memory-bound and precision-sensitive, making AWQ a good fit to preserve precision while still saving memory and space. The trade-off is that, without architecture-specific fused kernels and modules, Nunchaku Lite cannot match the speedup of the original Nunchaku engine. However, the bare-bones implementation still delivers around 30% speedup while retaining the same level of VRAM reduction. If you have used bitsandbytes or torchao in Diffusers, the mechanics will feel familiar. A Nunchaku Lite model repository is an ordinary Diffusers repository. The only special part is a quantization_config block inside the transformer's config.json: \"quantization_config\": { \"quant_method\": \"nunchaku_lite\", \"compute_dtype\": \"bfloat16\", \"svdq_w4a4\": { \"precision\": \"nvfp4\", \"group_size\": 16, \"rank\": 32, \"targets\": [ \"layers.0.self_attention.to_q\", \"layers.0.self_attention.to_k\", \"...\" ] }, \"awq_w4a16\": { \"precision\": \"int4\", \"group_size\": 64, \"targets\": [ \"adaLN_modulation.1\", \"...\" ] } } This config tells Diffusers which modules were quantized, which scheme they use, and which Nunchaku Lite runtime layer to instantiate (SVDQW4A4Linear or AWQW4A16Linear). Because the quantized model keeps the exact module structure of the dense one, everything downstream (schedulers, LoRA loading hooks, offloading, torch.compile) sees a normal Diffusers model. Nunchaku Lite uses different kernel variants depending on the GPU generation and checkpoint precision: Volta and Hopper GPUs are currently not supported by the 4-bit kernels. The quantizer validates the GPU's CUDA capability at load time and raises a clear error instead of producing incorrect outputs. Nunchaku Lite can be combined with other Diffusers memory and speed optimizations. torch.compile. Compiling the transformer improves the end-to-end speedup from 1.35x to 1.8x: pipe.transformer.compile(fullgraph=True) # or compile_repeated_blocks() for faster compilation pipe.transformer.compile_repeated_blocks(fullgraph=True) Quantized text encoders. The transformer is not the only component with a large memory footprint. Text encoders such as T5 or Qwen3 can occupy several gigabytes on their own. Further quantizing the text encoder with bitsandbytes NF4 reduces peak VRAM by about 22% in our benchmark. Offloading. Diffusers offloading helpers such as enable_model_cpu_offload() and enable_sequential_cpu_offload() work as usual if you need to fit the pipeline onto a smaller GPU. All numbers below were measured on an NVIDIA RTX PRO 6000 (Blackwell) at 1024x1024 using",
+          "title_zh": "Hugging Face 推进推理容量与成本控制方案",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+              "source_url": "https://huggingface.co/blog/nunchaku-diffusers"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/nunchaku-diffusers"
+            }
+          ],
+          "slug": "bringing-nunchaku-4-bit-diffusion-inference-to-diffusers-37c9890b",
+          "localized_url": "/zh/items/2026-07-24/bringing-nunchaku-4-bit-diffusion-inference-to-diffusers-37c9890b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
+          "title_original": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
+          "title_en": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "a quiet day lets us highlight a new neolab win.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper",
+          "published_at": "Thu, 23 Jul 2026 05:18:47 GMT",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "43429d78e14c",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
+              "source_url": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper"
+            },
+            {
+              "label": "公开摘要",
+              "text": "a quiet day lets us highlight a new neolab win.",
+              "source_url": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper"
+            }
+          ],
+          "slug": "ainews-laguna-s-2-1-released-cheaper-than-deepseek-v4-flash-better-than-43429d78",
+          "localized_url": "/zh/items/2026-07-24/ainews-laguna-s-2-1-released-cheaper-than-deepseek-v4-flash-better-than-43429d78/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Inside the Model Factory — Eiso Kant, Poolside AI",
+          "title_original": "Inside the Model Factory — Eiso Kant, Poolside AI",
+          "title_en": "Inside the Model Factory — Eiso Kant, Poolside AI",
+          "summary_zh": "Latent Space 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Poolside's co-CEO on how his small team of top researchers built a model factory capable of training Laguna S - a 118B MOE beating Thinky's ~1T open weights model... and this is just the beginning.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/poolside",
+          "published_at": "Thu, 23 Jul 2026 05:09:14 GMT",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "332d880765de",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Inside the Model Factory — Eiso Kant, Poolside AI",
+              "source_url": "https://www.latent.space/p/poolside"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Poolside's co-CEO on how his small team of top researchers built a model factory capable of training Laguna S - a 118B MOE beating Thinky's ~1T open weights model... and this is just the beginning.",
+              "source_url": "https://www.latent.space/p/poolside"
+            }
+          ],
+          "slug": "inside-the-model-factory-eiso-kant-poolside-ai-332d8807",
+          "localized_url": "/zh/items/2026-07-24/inside-the-model-factory-eiso-kant-poolside-ai-332d8807/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GitHub tools are now an installable eve extension",
+          "title_original": "GitHub tools are now an installable eve extension",
+          "title_en": "GitHub tools are now an installable eve extension",
+          "summary_zh": "Vercel 披露了AI 代理工程与工具调用能力，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "You can now add GitHub tools to your eve agent as an extension . Add the package, drop one file in agent/extensions/ , and your agent gets all 42 tools with Vercel Connect auth, presets, and approval rules built in. Install @github-tools/eve-extension : Then",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/github-tools-eve-extension",
+          "published_at": "2026-07-23T00:00:00.000Z",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "aeeb612d7fa6",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "limited_extracted_text"
+          ],
+          "extracted_title": "GitHub tools are now an installable eve extension - Vercel",
+          "extracted_excerpt": "Add GitHub tools to your eve agent as an installable extension. One file registers 42 tools with Vercel Connect auth, presets, and approval rules.",
+          "extracted_text_for_analysis": "pnpm add @github-tools/eve-extensionagent/extensions/github.ts import githubExtension from '@github-tools/eve-extension' export default githubExtension({ connector: 'github/my-connector', preset: 'code-review', requireApproval: { addPullRequestComment: ({ toolInput }) => toolInput?.owner !== 'vercel-labs', },}) One file registers the code-review toolset, with approval required before commenting outside your own org.",
+          "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GitHub tools are now an installable eve extension",
+              "source_url": "https://vercel.com/changelog/github-tools-eve-extension"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now add GitHub tools to your eve agent as an extension . Add the package, drop one file in agent/extensions/ , and your agent gets all 42 tools with Vercel Connect auth, presets, and approval rules built in.",
+              "source_url": "https://vercel.com/changelog/github-tools-eve-extension"
+            }
+          ],
+          "slug": "github-tools-are-now-an-installable-eve-extension-aeeb612d",
+          "localized_url": "/zh/items/2026-07-24/github-tools-are-now-an-installable-eve-extension-aeeb612d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Surviving the New Economics of a Post-Agentic World",
+          "title_original": "Surviving the New Economics of a Post-Agentic World",
+          "title_en": "Surviving the New Economics of a Post-Agentic World",
+          "summary_zh": "Practical AI 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The agentic transformation isn’t coming. It has already begun. Companies are deploying thousands — and sometimes tens of thousands — of AI agents. Enterprise software giants are watching their old economic moats erode. Capital is moving, productivity is being",
+          "source_name": "Practical AI",
+          "source_url": "https://changelog.com/practicalai",
+          "original_url": "https://share.transistor.fm/s/8a2e4fc0",
+          "published_at": "Thu, 23 Jul 2026 05:00:00 -0400",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "engineering",
+            "podcast"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "89410cf49273",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Practical AI 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Practical AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、engineering、podcast。"
+          ],
+          "background_zh": "这条内容来自 Practical AI，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Surviving the New Economics of a Post-Agentic World",
+              "source_url": "https://share.transistor.fm/s/8a2e4fc0"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The agentic transformation isn’t coming. It has already begun. Companies are deploying thousands — and sometimes tens of thousands — of AI agents. Enterprise software giants are watching their old economic moats erode.",
+              "source_url": "https://share.transistor.fm/s/8a2e4fc0"
+            }
+          ],
+          "slug": "surviving-the-new-economics-of-a-post-agentic-world-89410cf4",
+          "localized_url": "/zh/items/2026-07-24/surviving-the-new-economics-of-a-post-agentic-world-89410cf4/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The production platform for open-weight AI inference",
+          "title_original": "The production platform for open-weight AI inference",
+          "title_en": "The production platform for open-weight AI inference",
+          "summary_zh": "Together AI Blog 更新了推理容量与成本控制方案，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Run open models in production with full control over performance, cost, and quality. Deploy in minutes, roll out safely, and scale to your SLOs.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/the-production-platform-for-open-weight-ai-inference",
+          "published_at": "Thu, 23 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "c80cfd4ef2eb",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Together AI Blog 推进推理容量与成本控制方案",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI Blog 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI Blog，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The production platform for open-weight AI inference",
+              "source_url": "https://www.together.ai/blog/the-production-platform-for-open-weight-ai-inference"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Run open models in production with full control over performance, cost, and quality. Deploy in minutes, roll out safely, and scale to your SLOs.",
+              "source_url": "https://www.together.ai/blog/the-production-platform-for-open-weight-ai-inference"
+            }
+          ],
+          "slug": "the-production-platform-for-open-weight-ai-inference-c80cfd4e",
+          "localized_url": "/zh/items/2026-07-24/the-production-platform-for-open-weight-ai-inference-c80cfd4e/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Evaluation metrics for Vercel Flags",
+          "title_original": "Evaluation metrics for Vercel Flags",
+          "title_en": "Evaluation metrics for Vercel Flags",
+          "summary_zh": "Vercel 推进了模型评测与研究方法，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Flags now shows a live evaluation view on each flag's detail page. You can see evaluations per minute charted over time, with each flag version marked in the chart so you can tie evaluation shifts to specific configuration changes. You can group and",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags",
+          "published_at": "2026-07-23T00:00:00.000Z",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "15f53509bf47",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 披露模型评测与研究方法",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Evaluation metrics for Vercel Flags",
+              "source_url": "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Flags now shows a live evaluation view on each flag's detail page. You can see evaluations per minute charted over time, with each flag version marked in the chart so you can tie evaluation shifts to specific",
+              "source_url": "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags"
+            }
+          ],
+          "slug": "evaluation-metrics-for-vercel-flags-15f53509",
+          "localized_url": "/zh/items/2026-07-24/evaluation-metrics-for-vercel-flags-15f53509/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Connect to and manage Sandboxes from the dashboard",
+          "title_original": "Connect to and manage Sandboxes from the dashboard",
+          "title_en": "Connect to and manage Sandboxes from the dashboard",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now connect to any running Sandbox from the Vercel dashboard. Run commands, browse the filesystem, upload and download files, and inspect open ports without leaving the browser. From the same view, you can also manage the sandbox lifecycle: take",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard",
+          "published_at": "2026-07-23T00:00:00.000Z",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "79b4737be404",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Connect to and manage Sandboxes from the dashboard",
+              "source_url": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now connect to any running Sandbox from the Vercel dashboard. Run commands, browse the filesystem, upload and download files, and inspect open ports without leaving the browser. From the same view, you can also",
+              "source_url": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard"
+            }
+          ],
+          "slug": "connect-to-and-manage-sandboxes-from-the-dashboard-79b4737b",
+          "localized_url": "/zh/items/2026-07-24/connect-to-and-manage-sandboxes-from-the-dashboard-79b4737b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Inspect feature flag history with Vercel CLI",
+          "title_original": "Inspect feature flag history with Vercel CLI",
+          "title_en": "Inspect feature flag history with Vercel CLI",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Flags version history can now be inspected from the Vercel CLI with the new vercel flags versions command. Run vercel flags versions to print the full revision history for a flag, with each revision's author, message, timestamp, and changed",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli",
+          "published_at": "2026-07-23T00:00:00.000Z",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "93370845f7ef",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Inspect feature flag history with Vercel CLI",
+              "source_url": "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Flags version history can now be inspected from the Vercel CLI with the new vercel flags versions command. Run vercel flags versions to print the full revision history for a flag, with each revision's author,",
+              "source_url": "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli"
+            }
+          ],
+          "slug": "inspect-feature-flag-history-with-vercel-cli-93370845",
+          "localized_url": "/zh/items/2026-07-24/inspect-feature-flag-history-with-vercel-cli-93370845/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Ling 3.0 Flash is now available on AI Gateway",
+          "title_original": "Ling 3.0 Flash is now available on AI Gateway",
+          "title_en": "Ling 3.0 Flash is now available on AI Gateway",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Ling 3.0 Flash from Ant Group is now available on AI Gateway. The model is free to use for the next three weeks, through August 3rd. Ling 3.0 Flash is a Mixture-of-Experts model with 124B total parameters and about 5.1B active per token. It has a 256K token",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway",
+          "published_at": "2026-07-23T00:00:00.000Z",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "123313b48d82",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Ling 3.0 Flash is now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Ling 3.0 Flash from Ant Group is now available on AI Gateway. The model is free to use for the next three weeks, through August 3rd. Ling 3.0 Flash is a Mixture-of-Experts model with 124B total parameters and about 5.1B",
+              "source_url": "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "ling-3-0-flash-is-now-available-on-ai-gateway-123313b4",
+          "localized_url": "/zh/items/2026-07-24/ling-3-0-flash-is-now-available-on-ai-gateway-123313b4/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel MCP can now deploy code",
+          "title_original": "Vercel MCP can now deploy code",
+          "title_en": "Vercel MCP can now deploy code",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "The Vercel MCP server can now deploy code directly to a new or existing project. When your AI assistant finishes building something, it can ship it to Vercel and hand back a shareable URL without leaving the chat. Point the deploy_to_vercel tool at your files",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code",
+          "published_at": "2026-07-23T00:00:00.000Z",
+          "fetched_at": "2026-07-23T23:13:40.184991+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f834153d5064",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel MCP can now deploy code",
+              "source_url": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The Vercel MCP server can now deploy code directly to a new or existing project. When your AI assistant finishes building something, it can ship it to Vercel and hand back a shareable URL without leaving the chat. Point",
+              "source_url": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code"
+            }
+          ],
+          "slug": "vercel-mcp-can-now-deploy-code-f834153d",
+          "localized_url": "/zh/items/2026-07-24/vercel-mcp-can-now-deploy-code-f834153d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": [
+        {
+          "source": "Anthropic News",
+          "error": "The read operation timed out"
+        }
+      ]
+    },
     {
       "date": "2026-07-23",
       "title_zh": "AI 新闻简报 · 2026-07-23",
