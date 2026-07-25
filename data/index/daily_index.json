@@ -1,7 +1,164 @@
 {
-  "updated_at": "2026-07-24T23:18:12.154089+00:00",
-  "count": 46,
+  "updated_at": "2026-07-25T23:15:03.570289+00:00",
+  "count": 47,
   "briefs": [
+    {
+      "date": "2026-07-26",
+      "title_zh": "AI 新闻简报 · 2026-07-26",
+      "title_en": "English AI News Brief · 2026-07-26",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 142 条，入选 2 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 142 previously displayed items excluded, and 2 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 144,
+      "skipped_history_count": 142,
+      "selected_count": 2,
+      "categories": [
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+          "title_original": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+          "title_en": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+          "summary_zh": "Anthropic 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "ain't nobody beats Anthropic at distilling Fable!",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+          "published_at": "Sat, 25 Jul 2026 07:25:38 GMT",
+          "fetched_at": "2026-07-25T23:15:03.398854+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "801eea5287d8",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Anthropic 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+              "source_url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level"
+            },
+            {
+              "label": "公开摘要",
+              "text": "ain't nobody beats Anthropic at distilling Fable!",
+              "source_url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level"
+            }
+          ],
+          "slug": "ainews-claude-opus-5-fable-level-performance-at-opus-price-half-fable-801eea52",
+          "localized_url": "/zh/items/2026-07-26/ainews-claude-opus-5-fable-level-performance-at-opus-price-half-fable-801eea52/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🧠 Community Wisdom: Staying on a client’s radar during pilot purgatory, pairing Linear with a discovery tool, the limits of what AI can automate, whether Techstars is worth it, and more",
+          "title_original": "🧠 Community Wisdom: Staying on a client’s radar during pilot purgatory, pairing Linear with a discovery tool, the limits of what AI can automate, whether Techstars is worth it, and more",
+          "title_en": "🧠 Community Wisdom: Staying on a client’s radar during pilot purgatory, pairing Linear with a discovery tool, the limits of what AI can automate, whether Techstars is worth it, and more",
+          "summary_zh": "Community Wisdom 194",
+          "summary_en": "Community Wisdom 194",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/community-wisdom-staying-on-a-clients",
+          "published_at": "Sat, 25 Jul 2026 16:01:44 GMT",
+          "fetched_at": "2026-07-25T23:15:03.398854+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "fa3c8fe85e80",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🧠 Community Wisdom: Staying on a client’s radar during pilot purgatory, pairing Linear with a discovery tool, the limits of what AI can automate, whether",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-staying-on-a-clients"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Community Wisdom 194",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-staying-on-a-clients"
+            }
+          ],
+          "slug": "community-wisdom-staying-on-a-clients-radar-during-pilot-purgatory-pairi-fa3c8fe8",
+          "localized_url": "/zh/items/2026-07-26/community-wisdom-staying-on-a-clients-radar-during-pilot-purgatory-pairi-fa3c8fe8/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-07-25",
       "title_zh": "AI 新闻简报 · 2026-07-25",
