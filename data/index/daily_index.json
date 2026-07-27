@@ -1,7 +1,984 @@
 {
-  "updated_at": "2026-07-26T23:14:03.275515+00:00",
-  "count": 48,
+  "updated_at": "2026-07-27T23:28:59.241901+00:00",
+  "count": 49,
   "briefs": [
+    {
+      "date": "2026-07-28",
+      "title_zh": "AI 新闻简报 · 2026-07-28",
+      "title_en": "English AI News Brief · 2026-07-28",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 128 条，入选 14 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 128 previously displayed items excluded, and 14 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 144,
+      "skipped_history_count": 128,
+      "selected_count": 14,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+          "title_original": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+          "title_en": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+          "summary_zh": "NVIDIA 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+          "published_at": "Mon, 27 Jul 2026 09:32:20 GMT",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9101339b1ac2",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+          "extracted_excerpt": "A Blog post by NVIDIA on Hugging Face",
+          "extracted_text_for_analysis": "World foundation models offer a different path. Instead of manually authoring every object and physical interaction, they learn visual dynamics directly from synchronized video and robot kinematics. NVIDIA's Cosmos-H-Surgical-Simulator demonstrated this approach by generating future surgical video from an initial scene and a sequence of robot actions. It enabled faster-than-physical evaluation and synthetic data generation across the Open-H-Embodiment ecosystem. Today, we are introducing the next step: Cosmos-H-Dreams, a real-time, action-conditioned generative simulator for surgical robotics. Cosmos-H-Dreams distills the capabilities of Cosmos-H-Surgical-Simulator into a causal, few-step student model and serves it through FlashDreams, NVIDIA's accelerated streaming-inference library. Running on a single NVIDIA RTX PRO 6000 GPU, the result is an interactive environment that a person or a learned policy can control in a closed loop. Cosmos-H-Surgical-Simulator is an action-conditioned world foundation model built on NVIDIA Cosmos-Predict2.5-2B and post-trained on the Open-H-Embodiment dataset. Given a surgical context frame and a future robot trajectory, it generates video showing the likely visual consequences of those actions. This makes it useful for offline policy evaluation and synthetic data generation. A recorded or policy-generated trajectory can be sent to the model, the corresponding rollout can be generated, and the result can be inspected or scored without repeatedly executing the motion on a physical robot. Cosmos-H-Dreams moves the model into the real-time regime. Starting from the multi-embodiment surgical priors learned by Cosmos-H-Surgical-Simulator, we specialize the model for da Vinci Research Kit (dVRK) tabletop suturing and distill it into a causal student that generates the scene autoregressively. The released model receives an initial RGB frame and a live stream of robot kinematics, then produces the next chunk of frames before continuing with the following action block. We have also demonstrated the versatility of Cosmos-H-Dreams by collaborating with CMR Surgical and Cambridge Consultants to integrate it with the Versius surgeon controller, enabling real-time operation on the Versius platform. The key challenge is preserving useful surgical dynamics while reducing the cost of generation. Cosmos-H-Dreams uses a teacher-to-student training pipeline designed for long, autoregressive rollouts. The bidirectional teacher begins from the Cosmos-H-Surgical-Simulator Open-H checkpoint, which uses a unified 44-dimensional action representation. For the released dVRK tabletop model, the dual-arm dVRK action content, consisting of relative end-effector translation, rotation, and gripper state, is mapped into this common representation. The teacher is then fine-tuned on the JHU dVRK tabletop mixture, including successful demonstrations as well as failure and out-of-distribution episodes such as needle drops, missed throws, and unsuccessful knot ties. These failures are important: a simulator intended to evaluate policies must reproduce the consequences of poor actions, not only ideal demonstrations. To improve stability during long rollouts, the training process progressively increases the teacher's temporal horizon. We start training on a 12-frame horizon and progressively increase this number until 72 frames. At each horizon bump, we initialize the warmed-up model with pretrained weights. The teacher's denoising trajectories are first precomputed and cached. A causal student is initialized from the teacher and trained to imitate these cached trajectories. This warmup stage teaches the student to operate with causal attention and a streaming key/value cache before it begins learning from its own generated history. Autoregressive models face a familiar problem: during training they may see clean, ground-truth context, while during deployment they must condition on their own imperfect outputs. Small errors can therefore compound over time. Cosmos-H-Dreams addresses this mismatch with self-forcing distillation. During training, the student rolls forward using its own generated context. Distribution-matching supervision from the frozen teacher then guides those self-generated rollouts toward realistic surgical video. This prepares the student for the same conditions it will encounter during interactive inference. The resulting model supports few-step diffusion, with as few as two denoising steps per latent frame, rather than the many-step process used by the full teacher. It combines the teacher's surgical priors with the causal structure needed for streaming. Model distillation is only part of the real-time story. Cosmos-H-Dreams is served through FlashDreams, an accelerated inference library for autoregressive world and video models. FlashDreams turns the distilled student into a low-latency streaming system through several complementary optimizations, such as streaming KV cache, CUDA Graph capturing, or model compilation. Together, these techniques bring the distilled surgical world model fine-tune from the roughly ten-frames-per-second regime of standard Cosmos-H-Surgical-Simulator inference to interactive operation (~160 frames per second) on a single NVIDIA RTX PRO 6000. Cosmos-H-Dreams also provides the human-machine interfaces that turn generation into interaction. A browser client can send keyboard commands and receive generated frames over WebRTC. A Meta Quest client can map tracked controller motion into robot actions and display the synthesized scene through WebXR. The same model can also be connected to a learned surgical policy, with generated observations and predicted actions exchanged inside a closed loop. While Cosmos-H-Dreams includes a pre-trained checkpoint for tabletop suturing, the system is designed to be extensible to your specific embodiment. To train a real-time student model for your own dataset, we provide a complete recipe for teacher fine-tuning and self-forcing distillation in our step-by-step guide. Cosmos-H-Dreams opens a new frontier for surgical simulation: environments learned from real robot data that are responsive enough to be inhabited. The immediate next step is to evaluate more than visual quality. A useful surgical simulator must respond correctly to actions, preserve instrument and scene structure over long rollouts, and support conclusions that transfer to the physical robot. This motivates a new family of closed-loop benchmarks: tool-tip reach and pose accuracy, gripper-cycle fidelity, idle stability, counterfactual action diversity, long-horizon drift, and agreement between simulated and real policy outcomes. Real-time world models can also become active partners in surgical policy development. They can generate rare failures on demand, provide scalable environments for reinforcement or imitation learning, and enable rapid evaluation of new policies without tying every experiment to scarce robotic hardware.",
+          "title_zh": "NVIDIA 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 NVIDIA 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+              "source_url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams"
+            },
+            {
+              "label": "公开摘要",
+              "text": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams"
+            }
+          ],
+          "slug": "nvidia-cosmos-h-dreams-bringing-real-time-generative-simulation-to-surgi-9101339b",
+          "localized_url": "/zh/items/2026-07-28/nvidia-cosmos-h-dreams-bringing-real-time-generative-simulation-to-surgi-9101339b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How AI is expanding what people do at work",
+          "title_original": "How AI is expanding what people do at work",
+          "title_en": "How AI is expanding what people do at work",
+          "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+          "published_at": "Mon, 27 Jul 2026 03:30:00 GMT",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f143efbfe201",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How AI is expanding what people do at work",
+          "extracted_excerpt": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+          "extracted_text_for_analysis": "How AI is expanding what people do at work OpenAI Economic Research’s new Work at the Frontier series shows how workers cross over into work beyond the traditional boundaries of their roles. AI changes the work that people do. In an analysis of more than 800,000 messages from U.S. ChatGPT users, our new research suggests that 16.8% of work-related messages and 43.5% of occupation-specific messages are about tasks associated with another occupation. A small-business owner can independently draft copy, review a contract, or perform basic financial analysis. A salesperson can use AI to explore a customer dataset that might once have gone to an analyst. A marketer can troubleshoot a website without waiting for a developer. In each case, AI changes not just how work gets done, but who does what. Our new report, Work at the Frontier: How AI is Expanding What People Do at Work, studies this shift. We call the resulting pattern task crossover: work historically associated with one occupation appearing in the AI use of people in another. In our AI Jobs Transition Framework(opens in a new window), we argue that many jobs are likely to reorganize: these are jobs whose day-to-day tasks could change substantially. This report is the first in our new Work at the Frontier series, which explores how AI is changing work in real time. Using our unique window into how the world of work is changing, we will offer regular data-driven insights based on evidence to guide policy and practice. Many studies of AI and work begin with a fixed list of tasks associated with a given occupation and ask whether models can perform them. Our evidence suggests that AI is also changing who takes on which tasks. To measure task crossover, we first separate work that is associated with an occupation from work that appears across many jobs. Some activities, such as writing, summarizing, and scheduling, are shared too broadly across occupations to be evidence of crossover. We classify these as generic. For the remaining messages, we ask whether the task falls inside or outside the user’s own occupation. Among non-generic messages, 43.5% fall outside of the user’s occupation, offering an early window into how AI may be reshaping the task content of jobs before those changes appear in job descriptions or titles. This suggests that a substantial part of work-related ChatGPT use is from users expanding their role. The pattern is especially pronounced in several groups. Once generic work is excluded, outside-occupation tasks account for: - 77% of occupation-specific messages from customer experience workers - 75% from designers - 69% from human resources workers - 56% from legal workers - 53% from marketers These occupations are “borrowing” these tasks from other roles. The evidence points to a changing division of work: some activities that once required a handoff can now be done by the person who first encounters the need. The heatmap below shows task crossover by asking which occupation’s job each non-generic message most closely resembles. Marketing and engineering tasks travel farthest, frequently showing up in messages from workers outside those fields. Task crossover is not evenly distributed when we zoom in from occupations to specific tasks. Financial calculation and technology troubleshooting each appear among the three most common outside tasks in all seven other occupation groups in the analysis. Marketing work also travels broadly: creating marketing materials appears across five other groups and is especially prominent among design users. Looking at broader task bundles reveals two distinct directions of crossover. Some jobs bring in many tasks from other occupations. Others supply tasks that appear across many different jobs. Design illustrates the first pattern. About 35.2% of messages from designers involve work usually associated with another occupation, while design tasks account for only 1.7% of messages from workers in other fields. Designers draw heavily on outside tasks, but design work itself rarely appears elsewhere. Engineering is closer to the reverse. Only 18.5% of engineering messages involve tasks from other fields, but engineering tasks account for 7.4% of messages among workers in other occupations. Engineering is an important source of work that people elsewhere take on, from troubleshooting software to working with technical systems. Marketing stands out in both directions. Marketers devote 24.3% of their messages to tasks associated with other occupations, while marketing tasks account for 8.9% of messages among workers in other fields—the highest outward share in the sample. Marketing workers combine tasks from multiple domains, and marketing work also spreads widely across the organization. The size and structure of a business shapes how AI changes work. In a large company, employees may have access to specialized teams, established workflows, and internal services. In a smaller organization, the worker closest to the problem is more likely to take on the problem rather than delegate. Among average users, the outside-occupation task share falls from 18.9% for users in workspaces with 2–5 seats to 16.3% for users in workspaces with over 100 seats. Among the heaviest users, we do not see the same monotonic pattern. One possible explanation is that moderate users in smaller organizations turn to AI when they encounter work that would otherwise require another function. Heavy users may instead have developed stable AI-supported workflows that look more similar across organizations, or may use AI more intensively within their core occupation. AI may be especially useful as a generalist tool where specialist resources are scarce. AI usage data like this is an indicator of where work is shifting. It allows us to see how AI lets workers experiment with new combinations of activities before firms rewrite job descriptions or create new job titles. In that sense, usage patterns may provide an early signal of occupational change that conventional labor-market statistics will capture only later.",
+          "title_zh": "OpenAI 更新模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How AI is expanding what people do at work",
+              "source_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
+            },
+            {
+              "label": "公开摘要",
+              "text": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+              "source_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
+            }
+          ],
+          "slug": "how-ai-is-expanding-what-people-do-at-work-f143efbf",
+          "localized_url": "/zh/items/2026-07-28/how-ai-is-expanding-what-people-do-at-work-f143efbf/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "DeepsecBench: evaluating model performance in finding cybersecurity vulnerabilities",
+          "title_original": "DeepsecBench: evaluating model performance in finding cybersecurity vulnerabilities",
+          "title_en": "DeepsecBench: evaluating model performance in finding cybersecurity vulnerabilities",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Last week, OpenAI evaluated two models on an exploit benchmark within an isolated sandbox. Guardrails were reduced for testing, and the models found a vulnerability in their environment, accessed the internet, and reached Hugging Face's production database.",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities",
+          "published_at": "2026-07-27T04:00:00.000Z",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Hugging Face",
+            "Benchmark"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f35b70fded4e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "DeepsecBench: evaluating model performance in finding cybersecurity vulnerabilities",
+          "extracted_excerpt": "Today we're releasing DeepsecBench, a benchmark that evaluates how well different models find security vulnerabilities in application code.",
+          "extracted_text_for_analysis": "Copy link to headingHow the benchmark works Copy link to headingThe cost of capable analysis is falling Copy link to headingBuilding a scanning program across multiple models Copy link to headingRunning the benchmark on one endpoint pnpm deepsec process --project-id my-app --agent pi --model xai/grok-4.5Use AI Gateway to balance model power and cost for different deepsec security scans. Copy link to headingFind your vulnerabilities first Run a security scan with deepsec Build a security scanning program with deepsec and AI Gateway. Get started",
+          "title_zh": "OpenAI 披露政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI、Hugging Face、Benchmark。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "benchmark",
+              "explanation": "用于衡量模型能力的任务集合或评测体系。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "DeepsecBench: evaluating model performance in finding cybersecurity vulnerabilities",
+              "source_url": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Last week, OpenAI evaluated two models on an exploit benchmark within an isolated sandbox. Guardrails were reduced for testing, and the models found a vulnerability in their environment, accessed the internet, and",
+              "source_url": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities"
+            }
+          ],
+          "slug": "deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulne-f35b70fd",
+          "localized_url": "/zh/items/2026-07-28/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulne-f35b70fd/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "WebSocket support for OpenAI Responses API live on AI Gateway",
+          "title_original": "WebSocket support for OpenAI Responses API live on AI Gateway",
+          "title_en": "WebSocket support for OpenAI Responses API live on AI Gateway",
+          "summary_zh": "OpenAI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "AI Gateway now supports WebSocket mode for the OpenAI Responses API. You can keep a persistent connection open and continue each turn by sending only new input items plus previous_response_id , instead of re-sending the full context over a fresh HTTP request",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/websocket-support-for-openai-responses-api-live-on-ai-gateway",
+          "published_at": "2026-07-27T00:01:00.000Z",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f6d3c8fd7f07",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "WebSocket support for OpenAI Responses API live on AI Gateway - Vercel",
+          "extracted_excerpt": "AI Gateway now supports WebSocket mode for the OpenAI Responses API, with persistent connections, previous_response_id continuation, and realtime voice sessions.",
+          "extracted_text_for_analysis": "Copy link to headingRoute Responses API traffic over WebSocket import WebSocket from 'ws';const ws = new WebSocket('wss://ai-gateway.vercel.sh/v1/responses', { headers: { Authorization: `Bearer ${process.env.AI_GATEWAY_API_KEY}` },});ws.on('open', () => ws.send(JSON.stringify({ type: 'response.create', model: 'openai/gpt-5.6-sol', store: false, input: 'Pick a gemstone.',})));ws.on('message', (data) => { const event = JSON.parse(data); if (event.type === 'response.completed') { ws.send(JSON.stringify({ type: 'response.create', model: 'openai/gpt-5.6-sol', store: false, previous_response_id: event.response.id, input: 'Which gemstone did you pick?', })); }});",
+          "title_zh": "OpenAI 更新开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "WebSocket support for OpenAI Responses API live on AI Gateway",
+              "source_url": "https://vercel.com/changelog/websocket-support-for-openai-responses-api-live-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI Gateway now supports WebSocket mode for the OpenAI Responses API. You can keep a persistent connection open and continue each turn by sending only new input items plus previous_response_id , instead of re-sending the",
+              "source_url": "https://vercel.com/changelog/websocket-support-for-openai-responses-api-live-on-ai-gateway"
+            }
+          ],
+          "slug": "websocket-support-for-openai-responses-api-live-on-ai-gateway-f6d3c8fd",
+          "localized_url": "/zh/items/2026-07-28/websocket-support-for-openai-responses-api-live-on-ai-gateway-f6d3c8fd/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+          "title_original": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+          "title_en": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Open source software is a critical pillar of the global economy. It underpins cloud computing, financial services, manufacturing, telecommunications, government and internet services by making technology accessible and observable to communities of experts.",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+          "published_at": "Mon, 27 Jul 2026 09:00:07 +0000",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c87b2e5fb45e",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+          "extracted_excerpt": "NVIDIA and founding members form new alliance to build and share open tools that promote responsible use of and trust in AI.",
+          "extracted_text_for_analysis": "Open source software is a critical pillar of the global economy. It underpins cloud computing, financial services, manufacturing, telecommunications, government and internet services by making technology accessible and observable to communities of experts. Cybersecurity is among the top three beneficiaries of open source software. The Open Secure AI Alliance — building on the leadership of the Linux Foundation’s Akrites initiative and OpenSSF community work — will work to remediate and disclose vulnerabilities using open technologies. Just as open source created a shared foundation for software, the United States and its partners now face a choice in AI security: whether the defenses that protect our infrastructure will sit inside a few opaque systems or be built on open models, harnesses and tools that any defender can study, adapt and deploy. The world needs both closed and open models. For cybersecurity, open models and open harnesses are essential because they democratize defensive capabilities, increase transparency for defenders, enable cyber defense while protecting data, and complement frontier closed models with customizable, localized controls. Open source enables massively distributed community-driven and self-controlled defense – with no single point of failure. Open models, like any powerful technology, can be misused — including through attempts to weaken safeguards or repurpose capabilities for cyber attacks — but those risks are not unique to open systems, and they must be managed wherever advanced AI is deployed. The recent Hugging Face security incident delivered a clear reminder: cyber defenders need open, frontier agentic systems for self-defense. When closed AI tools — unable to distinguish attackers from defenders — blocked essential forensic analysis, Hugging Face ran the open-weight GLM 5.2 model on its own infrastructure to analyze more than 17,000 actions and contain the intrusion. That incident showed a practical truth: when defenders cannot inspect, adapt and run advanced AI on their own infrastructure, their ability to respond is constrained at exactly the moment speed matters most. Companies and countries need open frontier defensive tools and techniques so critical industries can build security systems across a multi-vendor ecosystem and avoid single points of failure. That is the mission of the Open Secure AI Alliance: to ensure defenders everywhere have open, frontier tools they can trust and control. Leaders across cloud computing, cybersecurity, enterprise software, open source foundations and AI research — including NVIDIA, Adobe, Cadence, Capital One, Cisco, Cloudera, Cloudflare, Cognition, CrowdStrike, Databricks, Dell Technologies, DoorDash, Elastic, HPE, Hugging Face, IBM, LangChain, the Linux Foundation, Microsoft, NAVER, NetApp, Nous Research, OpenClaw, Palantir, Palo Alto Networks, Red Hat, Reflection AI, Salesforce, SAP, ServiceNow, Siemens, SK Telecom, Snowflake, SpacexAI, Synopsys, Thinking Machines Lab and TrendAI are inaugural partners in the Open Secure AI Alliance, a movement to develop and share open technologies, techniques and tools to safeguard software and agents in the age of AI. Some argue that open models are inherently less safe because they can be misused for cyberattacks or modified to remove guardrails. Those risks are real, but they do not disappear in closed systems, and simply keeping weights closed does not prevent determined attackers from seeking or exploiting powerful AI. The right response is not to deny defenders access to capable open systems. It is to pair openness with strong safeguards, clear rules against malicious misuse, rigorous evaluation and rapid remediation. In cybersecurity, the safer path is the one that gives more defenders the ability to test, verify and strengthen the systems on which society relies. Defenders need both frontier closed models and frontier open models, working together, so they can choose the right system for the job and ensure that transparency, adaptation and sovereign control are available wherever security demands them. Open Research Enhances Cybersecurity and AI Safety An AI agent isn’t just a language model. It is a complex system built from models, harnesses and guardrails. Real AI safety and security depend on the full agent stack — identity, permissions, harnesses, guardrails, logs and evaluation — not just on whether model weights are open or closed. Open harnesses and tools make those controls easier for many defenders to inspect, test and improve. NVIDIA is contributing open models, model weights, data and new agent harness research to the Open Secure AI Alliance to speed the development of new cybersecurity tools and techniques. The new open source NVIDIA Labs Object-Oriented Agent (NOOA) project is now available on GitHub to make advanced AI safety capabilities more accessible for agent harnesses. The NOOA research framework enables harnesses to better integrate with models to make agent behavior easier to test, trace, audit and govern. Across the Alliance, contributors are building an open defense stack for agents — from identity and isolation to safe model formats, multi-model scanning and secure coding workflows. HPE contributes to SPIFFE/SPIRE, which creates zero-trust identity framework standards and methods that can cryptographically verify AI agents and services to ensure only authorized workloads communicate and access enterprise resources. Hugging Face has offered Safetensors — a safe format to store AI model weights, providing transparency and guarantees of no remote code execution — to the PyTorch Foundation. IBM and Red Hat’s Lightwell extends security across the open source supply chain with digitally signed patches. Microsoft’s MDASH multi-model agentic scanning harness orchestrates specialized AI agents to discover, debate and prove exploitable bugs. SpaceXAI has open sourced the Grok Build terminal-based AI coding agent to promote trust, transparency and new capabilities, and plans to open source the weights of the Grok line of models to support the developer and research communities. A Call to Policymakers and Regulators As policymakers and regulators grapple with AI safety, it will be crucial to recognize open models, harnesses and security tooling as defensive assets, not liabilities, in AI and cybersecurity policy. Blanket restrictions on open frontier AI systems would weaken defensive capacity and risk concentrating power, dependence and vulnerability in a few closed providers. Companies and governments should invest in shared open infrastructure for AI defense — datasets, evaluation frameworks, attack simulators and red-teaming tools — much as past generations invested in open source software. The Future We Should Build The age of AI agents can be one of resilience and shared security. With the right choices, open secure AI systems can give defenders the tools they need, strengthen competition, extend technological leadership and",
+          "title_zh": "NVIDIA 讨论政府与国家安全合作原则",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "open source",
+              "explanation": "可公开查看、使用或修改的代码与模型资源。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+              "source_url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Open source software is a critical pillar of the global economy. It underpins cloud computing, financial services, manufacturing, telecommunications, government and internet services by making technology accessible and",
+              "source_url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/"
+            }
+          ],
+          "slug": "industry-leaders-unite-in-open-secure-ai-alliance-for-ai-safety-and-secu-338eb622",
+          "localized_url": "/zh/items/2026-07-28/industry-leaders-unite-in-open-secure-ai-alliance-for-ai-safety-and-secu-338eb622/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
+          "title_original": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
+          "title_en": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsys to optimize",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/vera-cpu-eda/",
+          "published_at": "Mon, 27 Jul 2026 00:45:42 +0000",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "11897ce0eef9",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
+          "extracted_excerpt": "The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsys to optimize",
+          "extracted_text_for_analysis": "The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsys to optimize critical electronic design automation (EDA) applications for the NVIDIA Vera CPU. NVIDIA is now deploying Vera across EDA workflows used to develop its next generation of CPUs and GPUs, demonstrating how high-performance CPU architecture can help accelerate some of the industry’s most demanding engineering workloads. Accelerating Critical EDA Workloads What’s at stake is the pace of chip production. In turn, the tempo of industry technologies that stand to benefit from boosted EDA workloads, driving development momentum. Simulation, verification and implementation technologies play a central role in semiconductor development. Long before a chip reaches manufacturing, engineers spend years validating behavior, identifying corner cases and refining designs through thousands of iterations. While GPUs and AI have accelerated many aspects of chip design, several critical EDA workloads remain heavily dependent on CPU performance. Logic simulation, formal verification and portions of digital implementation often depend on fast individual cores, efficient memory systems and strong overall throughput. That makes CPU architecture an important factor in determining how quickly engineering teams can validate designs, explore alternatives and move products toward tapeout. Highlighting Early Results With Cadence and Synopsys NVIDIA’s initial testing includes several leading EDA applications. The results highlight Vera’s ability to accelerate two of the most compute-intensive stages of modern chip design. Early testing on selected production-class workflows shows promising results. Cadence Jasper, a formal verification platform, uses smart proof technology and machine learning to find and fix bugs and improve verification productivity early in the design cycle. Synopsys VCS, a high-performance functional verification solution used to simulate and validate complex chip designs before fabrication, used the same number of cores in the test. Both applications showed up to 1.5x higher performance on selected workloads. Beyond benchmark results, NVIDIA is working closely with both companies on application profiling, software optimization and system-level tuning designed to improve engineering productivity across a broader range of workflows over time. Bringing Vera to the Design Process NVIDIA is deploying Vera throughout the EDA workflows used to create future NVIDIA processors. Vera combines 88 custom NVIDIA Olympus CPU cores with a high-efficiency LPDDR5X memory subsystem and second generation NVIDIA Scalable Coherent Fabric designed to deliver strong per-core performance, high memory bandwidth and consistent low latency for demanding engineering applications. These capabilities are particularly important for workloads that mix latency-sensitive jobs with large-scale regression testing across compute farms. Faster execution can shorten individual verification runs, while greater throughput enables engineers to evaluate more design alternatives and complete more validation within the same development window. Going From RTL to Silicon After defining a processor’s architecture and microarchitecture, engineers describe much of its behavior at the register-transfer level (RTL). Multiple verification and implementation technologies then work together to transform that design into manufacturable silicon. These workflows span logic simulation, formal verification, regression testing and digital implementation, helping engineers validate functionality, identify corner cases and transform designs into manufacturable silicon. Because these stages are interconnected, improvements in verification throughput can help organizations identify issues earlier and reduce costly downstream design iterations. Building Future NVIDIA Chips With NVIDIA CPUs The deployment of Vera across NVIDIA’s own engineering workflows reflects a broader strategy: accelerate each workload with the compute architecture best suited to the task. In EDA, GPUs and AI continue to speed many algorithms, while high-performance CPUs remain essential for critical simulation, verification and implementation workloads. Together, they help improve the performance of the overall design cycle. Looking ahead, NVIDIA plans to build on Vera with the next-generation Rosa CPU, powered by the NVIDIA Rigel core, while continuing to optimize leading EDA applications across its CPU roadmap. By using NVIDIA CPUs to help design future NVIDIA CPUs and GPUs, the company is creating a continuous feedback loop between silicon design, software optimization and systems engineering, with each generation helping build the next. Learn more about NVIDIA at DAC 2026.",
+          "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
+              "source_url": "https://blogs.nvidia.com/blog/vera-cpu-eda/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry",
+              "source_url": "https://blogs.nvidia.com/blog/vera-cpu-eda/"
+            }
+          ],
+          "slug": "nvidia-harnesses-vera-cpu-to-speed-up-design-of-next-generation-cpus-and-974f35f6",
+          "localized_url": "/zh/items/2026-07-28/nvidia-harnesses-vera-cpu-to-speed-up-design-of-next-generation-cpus-and-974f35f6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🎙️ How I AI: Claude Opus 5 Review + Browser use in Codex + How Cursor and a Raspberry Pi makes AI fun",
+          "title_original": "🎙️ How I AI: Claude Opus 5 Review + Browser use in Codex + How Cursor and a Raspberry Pi makes AI fun",
+          "title_en": "🎙️ How I AI: Claude Opus 5 Review + Browser use in Codex + How Cursor and a Raspberry Pi makes AI fun",
+          "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser",
+          "published_at": "Mon, 27 Jul 2026 15:03:21 GMT",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "5e7463ad324d",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🎙️ How I AI: Claude Opus 5 Review + Browser use in Codex + How Cursor and a Raspberry Pi makes AI fun",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser"
+            }
+          ],
+          "slug": "how-i-ai-claude-opus-5-review-browser-use-in-codex-how-cursor-and-a-rasp-5e7463ad",
+          "localized_url": "/zh/items/2026-07-28/how-i-ai-claude-opus-5-review-browser-use-in-codex-how-cursor-and-a-rasp-5e7463ad/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "From zero coding background to hardware hacker: How Cursor + a Raspberry Pi makes AI fun",
+          "title_original": "From zero coding background to hardware hacker: How Cursor + a Raspberry Pi makes AI fun",
+          "title_en": "From zero coding background to hardware hacker: How Cursor + a Raspberry Pi makes AI fun",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在代码评测可靠性问题，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware",
+          "published_at": "Mon, 27 Jul 2026 12:04:34 GMT",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a9ecd38c5614",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论代码评测可靠性问题",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "From zero coding background to hardware hacker: How Cursor + a Raspberry Pi makes AI fun",
+              "source_url": "https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware"
+            }
+          ],
+          "slug": "from-zero-coding-background-to-hardware-hacker-how-cursor-a-raspberry-pi-a9ecd38c",
+          "localized_url": "/zh/items/2026-07-28/from-zero-coding-background-to-hardware-hacker-how-cursor-a-raspberry-pi-a9ecd38c/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Run Claude Managed Agents with Chat SDK",
+          "title_original": "Run Claude Managed Agents with Chat SDK",
+          "title_en": "Run Claude Managed Agents with Chat SDK",
+          "summary_zh": "Claude 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "You can now run Claude Managed Agents with Chat SDK . Claude Managed Agents handles the agent loop server-side, including the model, tools, session state, and sandboxed web research. Chat SDK gives that agent a chat interface through a single type-safe",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/claude-managed-agents-with-chat-sdk",
+          "published_at": "2026-07-27T00:00:00.000Z",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "518dff66d6df",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Claude 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Run Claude Managed Agents with Chat SDK",
+              "source_url": "https://vercel.com/changelog/claude-managed-agents-with-chat-sdk"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now run Claude Managed Agents with Chat SDK . Claude Managed Agents handles the agent loop server-side, including the model, tools, session state, and sandboxed web research. Chat SDK gives that agent a chat",
+              "source_url": "https://vercel.com/changelog/claude-managed-agents-with-chat-sdk"
+            }
+          ],
+          "slug": "run-claude-managed-agents-with-chat-sdk-518dff66",
+          "localized_url": "/zh/items/2026-07-28/run-claude-managed-agents-with-chat-sdk-518dff66/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Kimi K3 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+          "title_original": "Kimi K3 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+          "title_en": "Kimi K3 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+          "summary_zh": "Together AI Blog 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "We ran 904 DeepSWE rollouts on Kimi K3 and GPT-5.6 Sol. Sol leads pass@1; Kimi K3 wins pass@4 at 2.8x the solves per dollar, and routing between them reaches ~85.6%.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/kimi-k3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
+          "published_at": "Sun, 26 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "8543674f5db5",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Together AI Blog 推进代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI Blog 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI Blog，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Kimi K3 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+              "source_url": "https://www.together.ai/blog/kimi-k3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We ran 904 DeepSWE rollouts on Kimi K3 and GPT-5.6 Sol. Sol leads pass@1; Kimi K3 wins pass@4 at 2.8x the solves per dollar, and routing between them reaches ~85.6%.",
+              "source_url": "https://www.together.ai/blog/kimi-k3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing"
+            }
+          ],
+          "slug": "kimi-k3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing-8543674f",
+          "localized_url": "/zh/items/2026-07-28/kimi-k3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing-8543674f/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Regional inference now available on AI Gateway",
+          "title_original": "Regional inference now available on AI Gateway",
+          "title_en": "Regional inference now available on AI Gateway",
+          "summary_zh": "Vercel AI 推进了推理容量与成本控制方案，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "AI Gateway now supports regional inference . Set inferenceRegion on a request to pin it to the US or EU. Every model provider that supports the selected region handles it the same way. Inference runs there, and any data the provider keeps is stored there. AI",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway",
+          "published_at": "2026-07-27T19:00:00.000Z",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f5decee344cd",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布推理容量与成本控制方案",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Regional inference now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI Gateway now supports regional inference . Set inferenceRegion on a request to pin it to the US or EU. Every model provider that supports the selected region handles it the same way. Inference runs there, and any data",
+              "source_url": "https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "regional-inference-now-available-on-ai-gateway-f5decee3",
+          "localized_url": "/zh/items/2026-07-28/regional-inference-now-available-on-ai-gateway-f5decee3/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "eve adds new Slack event hooks and session controls",
+          "title_original": "eve adds new Slack event hooks and session controls",
+          "title_en": "eve adds new Slack event hooks and session controls",
+          "summary_zh": "Vercel AI 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "eve agents on Slack can now keep replying in a thread without repeated mentions, cancel an in-progress response or reset a conversation entirely, and react to any event your Slack app subscribes to. Continue conversations without repeated mentions Mentions no",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/eve-adds-new-slack-event-hooks-and-session-controls",
+          "published_at": "2026-07-27T17:00:00.000Z",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c421e27f23a9",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "eve adds new Slack event hooks and session controls",
+              "source_url": "https://vercel.com/changelog/eve-adds-new-slack-event-hooks-and-session-controls"
+            },
+            {
+              "label": "公开摘要",
+              "text": "eve agents on Slack can now keep replying in a thread without repeated mentions, cancel an in-progress response or reset a conversation entirely, and react to any event your Slack app subscribes to. Continue",
+              "source_url": "https://vercel.com/changelog/eve-adds-new-slack-event-hooks-and-session-controls"
+            }
+          ],
+          "slug": "eve-adds-new-slack-event-hooks-and-session-controls-c421e27f",
+          "localized_url": "/zh/items/2026-07-28/eve-adds-new-slack-event-hooks-and-session-controls-c421e27f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Nuxt July 2026 security advisory",
+          "title_original": "Nuxt July 2026 security advisory",
+          "title_en": "Nuxt July 2026 security advisory",
+          "summary_zh": "Vercel AI 推进了政府与国家安全合作原则，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "The Nuxt team has released Nuxt 4.5.1 and 3.21.10, along with @nuxt/devtools 3.3.1, to address eight security advisories, including a high-severity server-side remote code execution vulnerability. Vulnerabilities addressed Vulnerability Severity Advisory",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/nuxt-july-2026-security-advisory",
+          "published_at": "2026-07-27T00:00:00.000Z",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2c36966cc6bb",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进政府与国家安全合作原则",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Nuxt July 2026 security advisory",
+              "source_url": "https://vercel.com/changelog/nuxt-july-2026-security-advisory"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The Nuxt team has released Nuxt 4.5.1 and 3.21.10, along with @nuxt/devtools 3.3.1, to address eight security advisories, including a high-severity server-side remote code execution vulnerability. Vulnerabilities",
+              "source_url": "https://vercel.com/changelog/nuxt-july-2026-security-advisory"
+            }
+          ],
+          "slug": "nuxt-july-2026-security-advisory-2c36966c",
+          "localized_url": "/zh/items/2026-07-28/nuxt-july-2026-security-advisory-2c36966c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Kimi K3 and Kimi K3 Fast with ZDR and US-based providers now on AI Gateway",
+          "title_original": "Kimi K3 and Kimi K3 Fast with ZDR and US-based providers now on AI Gateway",
+          "title_en": "Kimi K3 and Kimi K3 Fast with ZDR and US-based providers now on AI Gateway",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Kimi K3 from Moonshot AI and its faster serving path, Kimi K3 Fast , are now available from US-based providers on AI Gateway, including Baseten and Fireworks. Zero Data Retention (ZDR) is also supported for both models. Running Kimi K3 on US-based providers",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/kimi-k3-and-kimi-k3-fast-on-ai-gateway",
+          "published_at": "2026-07-27T00:00:00.000Z",
+          "fetched_at": "2026-07-27T23:28:56.818470+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d616d3170b1c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Kimi K3 and Kimi K3 Fast with ZDR and US-based providers now on AI Gateway",
+              "source_url": "https://vercel.com/changelog/kimi-k3-and-kimi-k3-fast-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Kimi K3 from Moonshot AI and its faster serving path, Kimi K3 Fast , are now available from US-based providers on AI Gateway, including Baseten and Fireworks. Zero Data Retention (ZDR) is also supported for both models.",
+              "source_url": "https://vercel.com/changelog/kimi-k3-and-kimi-k3-fast-on-ai-gateway"
+            }
+          ],
+          "slug": "kimi-k3-and-kimi-k3-fast-with-zdr-and-us-based-providers-now-on-ai-gatew-d616d317",
+          "localized_url": "/zh/items/2026-07-28/kimi-k3-and-kimi-k3-fast-with-zdr-and-us-based-providers-now-on-ai-gatew-d616d317/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-07-27",
       "title_zh": "AI 新闻简报 · 2026-07-27",
