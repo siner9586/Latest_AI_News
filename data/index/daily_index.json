@@ -1,7 +1,851 @@
 {
-  "updated_at": "2026-07-27T23:28:59.241901+00:00",
-  "count": 49,
+  "updated_at": "2026-07-28T23:17:17.579687+00:00",
+  "count": 50,
   "briefs": [
+    {
+      "date": "2026-07-29",
+      "title_zh": "AI 新闻简报 · 2026-07-29",
+      "title_en": "English AI News Brief · 2026-07-29",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 131 条，入选 12 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 131 previously displayed items excluded, and 12 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 144,
+      "skipped_history_count": 131,
+      "selected_count": 12,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Scientific computing in the age of agentic AI",
+          "title_original": "Scientific computing in the age of agentic AI",
+          "title_en": "Scientific computing in the age of agentic AI",
+          "summary_zh": "OpenAI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/scientific-computing-agentic-ai",
+          "published_at": "Tue, 28 Jul 2026 17:00:00 GMT",
+          "fetched_at": "2026-07-28T23:17:15.983624+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "df22037e3e0f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Scientific computing in the age of agentic AI",
+          "extracted_excerpt": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+          "extracted_text_for_analysis": "Scientific computing in the age of agentic AI A field report shows how scientists are using coding agents to modernize scientific software for genomics and other data-rich fields. Scientific computing is a core pillar of modern research across academia and industry. Yet the software needed to analyze scientific information has struggled to keep pace with the rapid rate of data generation. Many widely used research tools began as code accompanying a research paper, built by small academic teams with limited engineering experience and minimal time for packaging, testing, optimization, or long-term support. The result is scientific infrastructure that often depends on slow, fragile workflows requiring constant maintenance. These constraints impede the pace of discovery. AI agents are beginning to change that equation. By lowering the costs of engineering work and taking on tedious implementation tasks, they can help researchers prototype ideas more quickly, pursue projects that were previously impractical, and more easily maintain software over the long term. As a result, scientific software becomes more efficient and better maintained, freeing researchers to spend more time on discovery. We’re sharing an exploratory field report of eight agent-assisted scientific computing projects primarily in the life sciences; five using Codex alone, and three using a combination of Codex and Claude Code. The report brings together case studies written by the teams behind each project and identifies recurring themes. The projects range from routine maintenance and targeted optimization to large-scale language migrations and GPU-native redesigns. Contributors report that agents significantly accelerated software development and maintenance, in some cases helping small teams take on work that would otherwise have required far more time or specialized engineering support. But they also highlight the persistent challenge of establishing clear, long-term responsibility and stewardship of the resulting tools. Contributors consistently describe a shift in the researchers’ role from implementation to verification and orchestration: specifying what to build, defining how to measure correctness, and deciding when a project is ready to ship. In this emerging model, the researchers remain in control of the scientific direction and quality bar, but with velocity uplift provided by agentic assistance Modernized a widely used library for parsing genomic data cyvcf2 is a Python library for reading and writing genomic variant files. GPT‑5.5 replaced the library’s legacy build and packaging system with a modern, unified process designed to make the library easier to install, test, and release. With coding agents, it's quite easy to go fast; for now, to go far in science, there's still a need for expert guidance, understanding, taste, and care. —Brent Pedersen Though the projects varied widely in scope, they demonstrated that coding agents are making engineering labor and expertise less of a constraint in scientific computing. Now, the bottleneck is validating an AI agent’s output, which still depends on human judgement. Across case studies, agents handled specific, well-scoped requests effectively but could not reliably judge whether their work was scientifically valid or met expectations. Indeed, agents often expressed confidence even when their work contained clear errors. Human reviewers therefore needed to find reliable ways to validate the results. The strongest approaches used an external reference or measurable acceptance target such as exact output agreement, parity with an existing tool, appropriate statistical behavior, or answers established in advance using simulated data. Another recurring theme was that the projects generally proceeded in stages using feedback-driven iterations rather than as one-shot approaches. Contributors broke down broad goals into smaller changes, then used intermediate benchmarks and test systems to evaluate and refine the agents’ work. Agents often produced initial implementations quickly, but resolving edge cases and subtle numerical differences took much longer. Completing the “last mile” of an implementation often took the most work. Overall, these case studies suggest that agents are enabling researchers to spend less time on implementation and more time directing the scientific work. People define the goal, break down complex projects into manageable chunks, and judge whether results are scientifically valid. By easing longstanding engineering constraints, agents expand what researchers can build while freeing them to focus on the scientific questions and decisions that matter most. The maintenance gap in research software has long slowed iteration and limited reproducibility and reliability. Published studies of “research code(opens in a new window)” and omics tools(opens in a new window) have found that published software often fails to properly install in a fresh computing setup or run as documented, forcing researchers to spend substantial time on configuration and debugging. Even routine improvements can save researchers time and reduce computing demands, while performance-based refactoring and rewrites can deliver larger gains. But lower implementation costs also make it easier to produce many similar rewrites, fragmenting users and spreading the expert attention required to keep any one tool reliable. That makes long-term stewardship and attribution essential. Mature scientific software carries undocumented conventions, compatibility requirements, and user trust that translating the source code alone cannot reproduce. The case studies illustrate several possible paths forward. Changes to MHCflurry and cyvcf2 were incorporated into their original upstream projects, while rustar-aligner moved under new community stewardship because the original project had been abandoned. Where coordination with existing maintainers is available, it should begin as early as possible. When a separate implementation is necessary, it needs a clear owner and a credible maintenance plan. Without that, today’s modern rewrite can become tomorrow’s abandoned code rather than reliable scientific infrastructure. This field report is retrospective and exploratory, but the case studies point to a practical shift in how scientific software is developed. Coding agents such as Codex can significantly lower the cost of maintenance, migration, optimization, and new implementations. Their long-term scientific value still depends on human decisions around what to build, how to verify it, and who will maintain it. The deeper change is not simply that researchers can produce more software, but that they can focus more of their effort on defining, validating, and stewarding the tools. These case studies show that agents can already accelerate the pace of iteration in scientific computing. As coding agents improve, researchers will be able to spend less time keeping analysis pipelines",
+          "title_zh": "OpenAI 推进代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Scientific computing in the age of agentic AI",
+              "source_url": "https://openai.com/index/scientific-computing-agentic-ai"
+            },
+            {
+              "label": "公开摘要",
+              "text": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+              "source_url": "https://openai.com/index/scientific-computing-agentic-ai"
+            }
+          ],
+          "slug": "scientific-computing-in-the-age-of-agentic-ai-df22037e",
+          "localized_url": "/zh/items/2026-07-29/scientific-computing-in-the-age-of-agentic-ai-df22037e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
+          "title_original": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
+          "title_en": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
+          "summary_zh": "OpenAI 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/chatgpt-work",
+          "published_at": "Tue, 28 Jul 2026 15:26:30 GMT",
+          "fetched_at": "2026-07-28T23:17:15.983624+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "358e404db86d",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
+              "source_url": "https://www.latent.space/p/chatgpt-work"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice.",
+              "source_url": "https://www.latent.space/p/chatgpt-work"
+            }
+          ],
+          "slug": "codex-from-0-to-10m-users-building-chatgpt-work-akshay-nathan-openai-358e404d",
+          "localized_url": "/zh/items/2026-07-29/codex-from-0-to-10m-users-building-chatgpt-work-akshay-nathan-openai-358e404d/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
+          "title_original": "Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
+          "title_en": "Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在开发者接口与平台能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "As a discerning AI investor who values style and substance, Sarah Guo knows this season’s standout accessory isn’t the latest designer purse — but what’s inside it. In a recent video, Guo, founder of AI-native venture capital firm Conviction and co-host of",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
+          "published_at": "Tue, 28 Jul 2026 15:00:19 +0000",
+          "fetched_at": "2026-07-28T23:17:15.983624+00:00",
+          "category": "podcasts-interviews",
+          "people": [
+            "Sarah Guo"
+          ],
+          "companies": [
+            "NVIDIA",
+            "Conviction"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6075f78d718a",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
+          "extracted_excerpt": "The NVIDIA Jetson platform for edge AI and robotics gives busy developers both power and portability in one agentic-ready AI platform.",
+          "extracted_text_for_analysis": "As a discerning AI investor who values style and substance, Sarah Guo knows this season’s standout accessory isn’t the latest designer purse — but what’s inside it. In a recent video, Guo, founder of AI-native venture capital firm Conviction and co-host of the AI podcast No Priors, highlighted how the NVIDIA Jetson platform for edge AI and robotics gives busy developers both power and portability in one agentic-ready AI platform built for the physical world — and every industry. The best part? It all fits in one handbag. Compact enough to carry in a bag, yet powerful enough to take on the toughest problems, NVIDIA Jetson modules and developer kits power robots, autonomous machines and real-world AI projects in classrooms, labs and makerspaces — wherever inspiration strikes — enabling developers to build using industry-transforming frontier open models at the highest standard of safety and security. Whether for a student running their first robotics project on Jetson Orin Nano Super, a professor bringing cutting-edge AI to their curriculum on Jetson AGX Orin or a researcher pushing the limits of autonomous systems with Jetson AGX Thor, the platform enables building, learning and launching the next generation of intelligent robots — in every classroom, every lab and every country. As Guo shows: bring the bag, Jetson brings the robot brain. Check back here throughout the week for a series of examples — beginning with the Jetson Orin Nano Super below — to help developers navigate the NVIDIA Jetson platform and get started on their next robotics breakthroughs. NVIDIA Jetson Orin Nano Super: Ideal for Building a First AI Robot Robots deserve a real brain and, apparently, an incredibly chic commute. When Guo popped the Jetson Orin Nano Super into her Jacquemus Mini, she gained the entire AI stack right at her fingertips — now with a cute handle: clutch! Jetson Orin Nano Super brings desktop-class generative AI to a handbag-friendly developer kit, offering first-time builders a practical path to learning computer vision, building AI agents, prototyping edge AI and more. With 67 trillion operations per second (TOPS) of AI performance, Jetson Orin Nano Super helps developers get started on the problems they’ve always wanted to solve. To help builders move from inspiration to implementation, NVIDIA Jetson Device Skills and Jetson BSP Skills give students, researchers and developers an easier way to harness coding AI agents to create, optimize and deploy real-world AI at the edge. Robot builders can get inspired to start their first — or next — dream project with these innovative examples of Jetson Orin Nano Super in action: Self Driving My EV Car | Model SidewalkPilot A custom SidewalkPilot AI model autonomously executes maneuvers in a toy electric vehicle using Jetson Orin Nano Super. Reachy Mini Jetson Assistant Reachy Mini Jetson Assistant is a low-latency, fully on-device voice and vision assistant for Reachy Mini Lite powered by NVIDIA Jetson Orin Nano Super. Everything runs locally with GPU acceleration — no cloud, no API keys, no internet required at runtime. Get started here. Building My First AI Robot From Scratch Coding with Lewis constructed an AI-powered robot using Mistral — an open-weight model — showing that first time robotics developers can build from the ground up using Jetson Orin Nano Super. Robotics AI Podcast Using Jetson Orin Nano Super, Asier Arnaz built a Yocto-powered Robotics AI video podcast featuring two AI models discussing topics in real-time and highlighting what makers are creating at the edge. Inspired yet? Get started by joining our livestream series. Across three modules, developers can learn to run generative AI, build claw agents and bring vision-language and vision-language-action models to power real-world physical AI applications — all on NVIDIA Jetson. Tomorrow, learn how Jetson AGX Orin helps bring powerful AI to real-world machines.",
+          "title_zh": "NVIDIA 讨论开发者接口与平台能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA、Conviction。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
+              "source_url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "As a discerning AI investor who values style and substance, Sarah Guo knows this season’s standout accessory isn’t the latest designer purse — but what’s inside it. In a recent video, Guo, founder of AI-native venture",
+              "source_url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/"
+            }
+          ],
+          "slug": "powerful-compute-so-compact-its-clutch-build-ai-anywhere-with-nvidia-jet-543fd515",
+          "localized_url": "/zh/items/2026-07-29/powerful-compute-so-compact-its-clutch-build-ai-anywhere-with-nvidia-jet-543fd515/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+          "title_original": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+          "title_en": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+          "summary_zh": "Hugging Face Blog 更新了推理容量与成本控制方案，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+          "published_at": "Tue, 28 Jul 2026 16:27:42 GMT",
+          "fetched_at": "2026-07-28T23:17:15.983624+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "92e866603de3",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+          "extracted_excerpt": "A Blog post by Ai2 on Hugging Face",
+          "extracted_text_for_analysis": "The OlmoEarth models are our family of Earth observation foundation models, pretrained on roughly 10 terabytes of multimodal satellite data. Governments, NGOs, and other mission-driven organizations are already adapting OlmoEarth for applications including deforestation monitoring, food security, and wildfire risk. At Ai2, we know how to train and release powerful open models, and for organizations with strong engineering teams, an open model is all they need to run with. But most organizations in the environmental space – the ones best placed to apply these models – don't have the infrastructure or engineering teams that can manage the full lifecycle: labeling data, fine-tuning models, and running large-scale inference. We’ve spent more than a decade operating platforms like Skylight and EarthRanger, software that users around the world rely on every day, so it has to work every day. That experience taught us what delivering impact takes: running models cost-effectively at the right time and place, monitoring performance, turning raw outputs into actionable insights, and verifying those outputs drive the outcomes partners want. That’s why we built the OlmoEarth Platform: infrastructure for taking geospatial models from fine-tuning and evaluation to large-scale inference. Inference at this scale presents its own set of challenges. Satellite imagery must be found and accessed across multiple providers, aligned across projections and resolutions, and processed efficiently. Results then have to be stitched into geographically consistent maps while the infrastructure recovers from the routine failures of distributed computing. Today, the platform can run inference across continent-scale areas in roughly a day, processing dozens of terabytes of imagery at a cost of fractions of a penny per square kilometer. Developing it meant confronting a series of engineering challenges that others working on large-scale geospatial systems are likely to encounter as well. This post walks through those challenges and the solutions we arrived at. A recent wildfire risk map generated on the OlmoEarth Platform, with statistics. Most ML models take in a few megabytes of data and produce a result in under a second—think LLMs processing a paragraph of text or computer vision models analyzing a photo from a smartphone. Earth observation inference operates at a very different scale—a single job fine-tuning a foundation model for maximum performance can move terabytes of data and run for hours. The inputs may span multiple spectral bands, sensor types, and time steps across a large geographic area. They can come from several providers, each using different projections and resolutions, and may include observations that are missing or obscured by clouds. The output is itself a map, so every prediction must remain precisely aligned with the same projection and coordinate grid as the areas around it. Even acquiring the data can be a major challenge. Prediction jobs often spend more time downloading and preparing imagery than running the model itself, making efficient data pipelines critical. Those pipelines must handle high-volume I/O while providing the compute needed to reproject and resample imagery. Because data acquisition and preparation often dominate an inference job’s runtime, assigning that work to GPUs would leave the system’s most expensive hardware doing tasks better suited to CPUs. We therefore divide each job into three stages, each matched to a distinct hardware profile: - Data acquisition and preprocessing (CPU, high I/O): Fetch, reproject, align, and normalize imagery, then write it in a format optimized for fast loading during inference. - Inference (GPU): Run the model’s forward pass and write minimally processed outputs directly to storage. - Postprocessing (CPU): Stitch the per-window outputs together, apply masks or rescaling, and export them in user-friendly formats such as Zarr, GeoTIFF, or GeoJSON. The OlmoEarth Platform distributes these stages across many machines while keeping GPUs fully utilized. Multiprocess data loaders continuously feed each GPU, while completed outputs stream directly to blob storage. OlmoEarth Run, the platform’s execution layer for large-scale inference jobs, divides the geographic region covered by each job into partitions sized for individual compute instances (workers), then subdivides those partitions into smaller windows that the OlmoEarth models process. Because each window can be handled independently in a separate forward pass, work on one part of the map does not need to wait for another. In practice, a state-sized area might become a hundred or so partitions, while a continent-scale run can become thousands. Adjacent partitions overlap slightly, and we reconcile that overlap when the outputs are assembled so no seam appears in the final raster. Because the partitions are independent, the same stage can run across thousands of compute instances at once. We recently used this approach to generate a wildfire-risk map covering all of North America. At peak, the run used roughly 19,600 CPUs and 994 GPUs in parallel, with network throughput exceeding 168 GB/s. That level of parallelism reduced an estimated 4,737 hours of serial compute to about 30.5 hours of wall-clock time—a 155× speedup. Fan-out is not unbounded, though. More workers push against cloud quotas, so parallelism is a per-run knob, one of several that we can adjust on individual jobs. Output resolution trades data volume and compute for detail; model size trades GPU time for accuracy; caching raw imagery trades storage for speed across repeated runs over the same area. The right setting depends on the task – and budget – at hand. Given a geographic region and time range, the platform first has to determine which satellite scenes should feed the model. That means identifying what was captured, where, and when across providers with different catalogs, formats, and publication delays. The selection criteria also depend on the source: for optical imagery such as Sentinel-2, we generally want the least-cloudy scenes available, while for synthetic aperture radar, the available polarization channels may matter more. We rely on public STAC catalogs and open standards wherever possible. But a large inference job can generate thousands of metadata queries at once—far more than external services such as ESA’s or Microsoft Planetary Computer’s STAC APIs are designed to handle concurrently. To avoid overwhelming those services, the OlmoEarth Platform maintains its own metadata index, updated as new imagery is published. For datasets hosted through AWS Open Data, we receive an SNS notification for each new scene. When a provider does not offer a change stream, we poll its upstream index every few minutes. As a result, our requests to external services follow the steady pace of new publications rather than the sudden burst generated by a large inference job. Each index entry stores scene",
+          "title_zh": "Hugging Face 推进推理容量与成本控制方案",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+              "source_url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure"
+            }
+          ],
+          "slug": "the-olmoearth-platform-geospatial-inference-at-planetary-scale-92e86660",
+          "localized_url": "/zh/items/2026-07-29/the-olmoearth-platform-geospatial-inference-at-planetary-scale-92e86660/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+          "title_original": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+          "title_en": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+          "summary_zh": "Hugging Face Blog 更新了推理容量与成本控制方案，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+          "published_at": "Tue, 28 Jul 2026 15:01:45 GMT",
+          "fetched_at": "2026-07-28T23:17:15.983624+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "85dd02699b25",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+          "extracted_excerpt": "A Blog post by Liquid AI on Hugging Face",
+          "extracted_text_for_analysis": "Here's what you get: - Strong for their size: match or beat larger encoders on GLUE, SuperGLUE, and multilingual tasks. - 8,192-token context with latency that grows slowly as inputs get longer. - Fast on CPU: about 3.7× faster than ModernBERT-base at long context. With these, you can build intent routers, policy linters, PII detectors, and text classifiers that run cheaply, all day. See the live demos below. Last month we released LFM2.5-Retrievers, built for multilingual search. LFM2.5-Encoders come from the same family but serve a broader purpose. They're pre-trained with a masked-language objective, so you can fine-tune them for classification, token-level tasks, and search alike. Search is just one thing an encoder enables. That's why we built a general-purpose model instead of reusing the retrievers. Encoders power many modern production NLP applications: classifiers, intent routers, safety filters. These jobs run all day, usually on CPU, on ever-longer inputs. BERT established this class of model, and recently ModernBERT pushed its accuracy, speed, and context further. LFM2.5-Encoders take the next step on the LFM2 architecture, where cost grows slowly as inputs grow. We initialize the encoders from their respective LFM2 decoder backbones: LFM2.5-230M and LFM2.5-350M. Then we turn each causal decoder into a bidirectional encoder with a few changes: - Bidirectional attention mask: each token now sees the tokens on both sides, not just the ones before it. - Non-causal short convolutions: we pad them symmetrically so each token's convolution mixes in its neighbors on both sides. - Masked language modeling: we mask 30% of the tokens during training. We train both models in two stages: - General language competence: a short-context masked-language objective on a large web corpus at a 1,024-token context. - Long-context adaptation: extending context to 8,192 tokens on the full data mix, strengthening factual, legal, and multilingual competence. We fine-tune each model fully on every task and report the resulting score. Across the table, that's 14 models on 17 tasks pulled from GLUE, SuperGLUE, and multilingual classification. We report the mean across five held-out seeds, so the numbers are stable run to run. The full framework and raw results are open-sourced. LFM2.5-Encoder-350M ranks fourth of the 14 models. The three ahead of it are all larger, including a 3.5B model nearly 10 times its size. LFM2.5-Encoder-230M beats ModernBERT-base and every EuroBERT model, while being smaller than most of them. Both also score well above our own LFM2.5-Retrievers here. Our encoders inherit the LFM2 backbone's fast inference. Since both our encoders and ModernBERT support an 8,192-token context, we measure speed across the full range. Our encoders show their biggest edge on CPU. Here, LFM2.5-Encoder-230M is the fastest at every sequence length (even faster than the smaller ModernBERT-base for short inputs). With increasing input length, throughput decreases sharply for ModernBERT, while our LFM2.5-Encoders rise into the mid-range before tapering. At 8,192 tokens, ModernBERT-base takes over a minute and a half per forward pass versus about 28s for LFM2.5-Encoder-230M. This is about 3.7x faster. For developers, that means you can scan or classify a full contract, transcript, or long support thread in under 30 seconds on a laptop CPU. On GPU, a similar pattern holds with a smaller margin: ModernBERT-base leads below ~1K tokens on the Apple GPU. Our encoders take the lead from about 2K tokens. This shows that for long inputs, LFM2.5-Encoders are the faster choice, and if you're running on CPU, dramatically so. We built the demos below from fine-tuned LFM2.5-Encoders. Each one runs in a CPU-only Hugging Face space: - Zero-shot prompt routing: define your own routing lanes as free text. The model scores the whole prompt against every lane in one pass. - Zero-shot policy linting: check text against your company's rules, written as free text. It scores every token against every rule in one pass. - Spell checking: correct misspellings token by token. - PII detection: spot and remove 40 kinds of personal information across 16 languages. - Masked-diffusion text generation (bonus): run the encoder as a chatbot that generates text by iteratively unmasking instead of left to right. Reach for an LFM2.5-Encoder when you have a high-volume understanding task, such as classification, routing, extraction, or scoring, that runs constantly and has to stay cheap and fast. For jobs like these, a fine-tuned encoder is smaller, faster, and far cheaper to run than a generative LLM, and it fits on the CPUs you already have. Between the two encoder sizes: - LFM2.5-Encoder-350M: choose it when accuracy matters most. - LFM2.5-Encoder-230M: choose it for tighter hardware or higher throughput. You can start in a few lines. Load a model with transformers. Then run it directly for masked-token prediction, or attach your own head and fine-tune it for your task. Install the latest version of transformers: pip install -U transformers Run masked-token prediction: from transformers import AutoModelForMaskedLM, AutoTokenizer import torch model_id = \"LiquidAI/LFM2.5-Encoder-230M\" # or \"LiquidAI/LFM2.5-Encoder-350M\" tok = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True) mlm = AutoModelForMaskedLM.from_pretrained(model_id, trust_remote_code=True) text = f\"The capital of France is {tok.mask_token}.\" enc = tok(text, return_tensors=\"pt\") with torch.no_grad(): logits = mlm(**enc).logits pos = (enc[\"input_ids\"][0] == tok.mask_token_id).nonzero()[0].item() print([tok.decode([t]).strip() for t in logits[0, pos].topk(5).indices.tolist()]) # -> ['Paris', 'Strasbourg', 'Paris', 'Lyon', 'Versailles'] For downstream tasks, load the encoder body and attach your own head (classification, token classification, regression, retrieval): from transformers import AutoModel body = AutoModel.from_pretrained(model_id, trust_remote_code=True) If your GPU supports it, use Flash Attention 2 for the highest efficiency: pip install flash-attn A base encoder gives you general-purpose representations, not task outputs. So you fine-tune it for each task. Our fine-tuning tutorial walks through fine-tuning on long legal documents with an 8k context. Both encoders are open-weight and available on Hugging Face today: - Download: LFM2.5-Encoder-230M and LFM2.5-Encoder-350M on Hugging Face. - Try: run the demos above in your browser, no setup needed. - Fine-tune: adapt an encoder to your task with our fine-tuning tutorial. We can't wait to see what you build. If you use this work, please cite the release blog: @article{liquidAI2026Encoders, author = {Liquid AI}, title = {LFM2.5-Encoders: Fast at Long Context, Even on CPU}, journal = {Liquid AI Blog}, year = {2026}, note = {www.liquid.ai/blog/lfm2-5-encoders}, }",
+          "title_zh": "Hugging Face 推进推理容量与成本控制方案",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+              "source_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders"
+            }
+          ],
+          "slug": "lfm2-5-encoders-for-fast-long-context-inference-on-cpu-85dd0269",
+          "localized_url": "/zh/items/2026-07-29/lfm2-5-encoders-for-fast-long-context-inference-on-cpu-85dd0269/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+          "title_original": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+          "title_en": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+          "summary_zh": "Hugging Face Blog 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+          "published_at": "Mon, 27 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-28T23:17:15.983624+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8ff67d77127c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+          "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "extracted_text_for_analysis": "We are publishing this level of detail because the technique matters more than the incident, as it reveals the emerging attack capabilities of the frontier agents, how they could be used by rogue actors, and how everyone should be prepared as defenders. ▶ Watch the interactive replay - a step-by-step visualization of the 4.5-day campaign: the attack chain across trust boundaries, phase activity, and the commands as they were recorded. Over roughly two and a half days inside our infrastructure, an autonomous AI agent driven by a combination of OpenAI models ran an end-to-end intrusion against our platform: it was thousands of small, automated decisions, executed at machine speed across short-lived sandbox environments, with command-and-control staged on ordinary public web services. The agent was running an OpenAI cyber-capability evaluation harness called ExploitGym, an evaluation benchmark that tasks an AI agent with finding and exploiting software vulnerabilities. As far as we were able to infer, across the course of being evaluated on this benchmark, the agent inferred that Hugging Face may host that benchmark's models, datasets, and reference solutions. We believe the entire intrusion was, from the agent's point of view, an attempt to cheat the evaluation: reach our production systems and steal the test solutions rather than solve the challenge on its own. Our forensic reconstruction covers ~17,600 attacker actions that we were able to recover, grouped into ~6,280 clusters, between 2026-07-09 02:28 UTC and 2026-07-13 14:14 UTC. We reconstructed these actions from the agent's logs on a code sandbox used by the agent (see below) and were able to map them to shell commands as well as evaluation submissions and correlate actions with our own platform logs, in particular from the dataset processor nodes, API, and pod. Using open-weights models, in particular zai-org/GLM-5.2, we were able to decipher most of the agent payloads (see below) that were encrypted via chunking and key encryption. The campaign, as we were able to reconstruct it, had two stages: - Stage 1: reaching a launchpad by chaining through other parties' infrastructure. As documented in OpenAI's blog post (https://openai.com/index/hugging-face-model-evaluation-security-incident/), during an internal capability evaluation on OpenAI's platform, the agent escaped its sandbox by exploiting a zero-day in the package registry cache proxy, one of its primary permitted network egress with internet, then abused a public code-evaluation external sandbox hosted on a third-party provider's infrastructure. It was able to run commands as root/admin on that external sandbox and used it as a control, staging, and egress base for the entire campaign: it acted as an external launchpad for the agent. That compromised external sandbox had no direct network path to our cluster; however, during our counter-intervention to stop the intrusion, we were able to retrieve some of the agent logs from this external launchpad. We used those to reconstruct the present forensic analysis. - Stage 2: the intrusion into Hugging Face infrastructure. From that external launchpad, the agent abused our dataset-processing pipeline via two injection vectors, both targeting the same config-driven data loader within our production Kubernetes pods. The first vector was an HDF5 external raw storage dataset read that returned the contents of local files: it handed the agent the pod's environment (secrets and tokens) and the worker's own source. The second vector was a Jinja2 template injection that executed arbitrary code, giving the agent a foothold inside our perimeter. Once a prod-pod foothold was established, the agent followed a standard escalation shape: recon, drop a stager, establish Command-and-Control (C2), then pivot into the cluster, into cloud metadata, into our internal network, and into our source-control supply chain. Output from the commands run inside our pod was sent back to the agent via the HF API and attacker-controlled dead-drop datasets, which the agent then read from that sandbox. While the intrusion did reach Hugging Face's internal infrastructure, the only customer content accessed was the set of ExploitGym/CyberGym challenge solutions stored in five datasets. No other customer-facing models, datasets, Spaces, or packages were affected, and the only customer records read were operational metadata tied to search queries against the dataset server. The full attack chain across trust boundaries. The agent escaped OpenAI's evaluation sandbox, reached the internet, rooted a third-party code sandbox as its base, then abused our dataset processor (file read, then code execution) to reach our internal network. Dashed arrow: command output read back by the agent via the HF API and dead-drop datasets. Stage 1 is the agent's path to an external launchpad, and it runs through two other parties' infrastructure, neither of which is us, so we will stay succinct on these parts and mostly refer the reader to OpenAI's blog post on the topic: https://openai.com/index/hugging-face-model-evaluation-security-incident/ As OpenAI shared in this blog post, during an internal capability evaluation on OpenAI's platform, the agent happened to escape via a 0-day exploit from the package proxy cache to access the internet. From there, it found and penetrated an unsecured public code-evaluation sandbox hosted on a third-party provider's infrastructure (a CyberGym-style harness) and used this external sandbox as its control, staging, and egress base, running commands as admin/root and using it as its attack launchpad. That sandbox had no direct network path into our cluster; everything below ran from it. On this external sandbox, the agent abused an existing CyberGym execution harness (the one used in the SunBlaze-UCB/exploitgym benchmark), a harness specifically designed for evaluating AI agents at vulnerability discovery. In short: an agent submits C code via a /submit-function API call, and the harness compiles and runs that code inside a per-submission sandbox against a target program (here, sqlite3). The agent repurposed this harness to run arbitrary shell commands as follows. The sandbox compiles a submitted src/main.c and links it against a target that calls sqlite3_initialize(). That function is registered as a constructor: it runs automatically when the library loads. The agent simply redefined it: // attacker-supplied src/main.c (illustrative) #include int sqlite3_initialize(void) { system(\"id; echo ZZROOTSTART; cat /proc/self/mountinfo\"); return 0; } That alone yields code execution. But the agent went further and abused the submission metadata itself. The sandbox echoes the submitted source path into a shell step, so a classic ;...;# injection in the path field turned the build into arbitrary commands: path = src/main.c;echo ZZROOTSTART;cat /proc/self/mountinfo; ... ;false;# Both routes converged on the same result: arbitrary shell as uid=0",
+          "title_zh": "Hugging Face 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+              "source_url": "https://huggingface.co/blog/agent-intrusion-technical-timeline"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/agent-intrusion-technical-timeline"
+            }
+          ],
+          "slug": "anatomy-of-a-frontier-lab-agent-intrusion-a-technical-timeline-of-the-ju-8ff67d77",
+          "localized_url": "/zh/items/2026-07-29/anatomy-of-a-frontier-lab-agent-intrusion-a-technical-timeline-of-the-ju-8ff67d77/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "#499 – Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee",
+          "title_original": "#499 – Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee",
+          "title_en": "#499 – Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee",
+          "summary_zh": "Lex Fridman Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Gary Gallagher is a historian of the American Civil War. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep499-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript:",
+          "source_name": "Lex Fridman Podcast",
+          "source_url": "https://lexfridman.com/podcast/",
+          "original_url": "https://lexfridman.com/gary-gallagher/?utm_source=rss&utm_medium=rss&utm_campaign=gary-gallagher",
+          "published_at": "Tue, 28 Jul 2026 20:06:06 +0000",
+          "fetched_at": "2026-07-28T23:17:15.983624+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "interview",
+            "agi",
+            "research"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1f702ce75075",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lex Fridman Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lex Fridman Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：interview、agi、research。"
+          ],
+          "background_zh": "这条内容来自 Lex Fridman Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "#499 – Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee",
+              "source_url": "https://lexfridman.com/gary-gallagher/?utm_source=rss&utm_medium=rss&utm_campaign=gary-gallagher"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Gary Gallagher is a historian of the American Civil War. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep499-sc See below for timestamps, transcript, and to give feedback, submit",
+              "source_url": "https://lexfridman.com/gary-gallagher/?utm_source=rss&utm_medium=rss&utm_campaign=gary-gallagher"
+            }
+          ],
+          "slug": "499-gary-gallagher-american-civil-war-slavery-lincoln-grant-lee-a269ad04",
+          "localized_url": "/zh/items/2026-07-29/499-gary-gallagher-american-civil-war-slavery-lincoln-grant-lee-a269ad04/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
+          "title_original": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
+          "title_en": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
+          "summary_zh": "Runway 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Runway, Higgsfield, Waking Up, Brain.fm, Customer.io, Resend, Pangram, Mercury Personal, Supercut, Readwise, and Jam are joining Product Pass today, all included with Annual and Insider memberships",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch",
+          "published_at": "Tue, 28 Jul 2026 15:54:24 GMT",
+          "fetched_at": "2026-07-28T23:17:15.983624+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Runway"
+          ],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4010f6b11572",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Runway 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Runway，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。",
+            "涉及公司或机构：Runway。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
+              "source_url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Runway, Higgsfield, Waking Up, Brain.fm, Customer.io, Resend, Pangram, Mercury Personal, Supercut, Readwise, and Jam are joining Product Pass today, all included with Annual and Insider memberships",
+              "source_url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch"
+            }
+          ],
+          "slug": "11-products-i-love-free-for-a-yearthe-biggest-product-pass-expansion-in-4010f6b1",
+          "localized_url": "/zh/items/2026-07-29/11-products-i-love-free-for-a-yearthe-biggest-product-pass-expansion-in-4010f6b1/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Much ado about Open Weights",
+          "title_original": "[AINews] Much ado about Open Weights",
+          "title_en": "[AINews] Much ado about Open Weights",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Everyone is writing a lot, but only Kimi K3 shipped today",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-much-ado-about-open-weights",
+          "published_at": "Tue, 28 Jul 2026 06:20:13 GMT",
+          "fetched_at": "2026-07-28T23:17:15.983624+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "abde6a421348",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Much ado about Open Weights",
+              "source_url": "https://www.latent.space/p/ainews-much-ado-about-open-weights"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Everyone is writing a lot, but only Kimi K3 shipped today",
+              "source_url": "https://www.latent.space/p/ainews-much-ado-about-open-weights"
+            }
+          ],
+          "slug": "ainews-much-ado-about-open-weights-abde6a42",
+          "localized_url": "/zh/items/2026-07-29/ainews-much-ado-about-open-weights-abde6a42/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Configuring Dedicated Model Inference",
+          "title_original": "Configuring Dedicated Model Inference",
+          "title_en": "Configuring Dedicated Model Inference",
+          "summary_zh": "Together AI 更新了推理容量与成本控制方案，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/configuring-dedicated-model-inference",
+          "published_at": "Wed, 29 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-28T23:17:15.983624+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Together AI"
+          ],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "2e7cc2c11b64",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Together AI 推进推理容量与成本控制方案",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。",
+            "涉及公司或机构：Together AI。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Configuring Dedicated Model Inference",
+              "source_url": "https://www.together.ai/blog/configuring-dedicated-model-inference"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The three-part resource model behind Together AI Dedicated Model Inference—endpoints, deployments, configs—and how capacity-aware routing ties them together.",
+              "source_url": "https://www.together.ai/blog/configuring-dedicated-model-inference"
+            }
+          ],
+          "slug": "configuring-dedicated-model-inference-2e7cc2c1",
+          "localized_url": "/zh/items/2026-07-29/configuring-dedicated-model-inference-2e7cc2c1/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Sandbox supports forking",
+          "title_original": "Vercel Sandbox supports forking",
+          "title_en": "Vercel Sandbox supports forking",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Sandbox now supports forking with Sandbox.fork() . The fork starts from the source's current snapshot and inherits its config and environment variables. If the source is running, it forks the latest saved state, not the live in-memory state. If the",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-sandbox-supports-forking",
+          "published_at": "2026-07-28T04:00:00.000Z",
+          "fetched_at": "2026-07-28T23:17:15.983624+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6c420a6769c7",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Sandbox supports forking",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-supports-forking"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Sandbox now supports forking with Sandbox.fork() . The fork starts from the source's current snapshot and inherits its config and environment variables. If the source is running, it forks the latest saved state,",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-supports-forking"
+            }
+          ],
+          "slug": "vercel-sandbox-supports-forking-6c420a67",
+          "localized_url": "/zh/items/2026-07-29/vercel-sandbox-supports-forking-6c420a67/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Sandstone grew 40x in 147 days on Vercel",
+          "title_original": "How Sandstone grew 40x in 147 days on Vercel",
+          "title_en": "How Sandstone grew 40x in 147 days on Vercel",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Sandstone on Vercel 1,000+ legal requests managed daily across customer teams 7-app turborepo monorepo deployed seamlessly to multiple Vercel projects Multi-step agentic legal workflows built end-to-end with AI SDK When in-house legal teams get a request from",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/how-sandstone-grew-40x-in-147-days-on-vercel",
+          "published_at": "2026-07-27T14:00:00.000Z",
+          "fetched_at": "2026-07-28T23:17:15.983624+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "baf08209f49e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Sandstone grew 40x in 147 days on Vercel",
+              "source_url": "https://vercel.com/blog/how-sandstone-grew-40x-in-147-days-on-vercel"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sandstone on Vercel 1,000+ legal requests managed daily across customer teams 7-app turborepo monorepo deployed seamlessly to multiple Vercel projects Multi-step agentic legal workflows built end-to-end with AI SDK When",
+              "source_url": "https://vercel.com/blog/how-sandstone-grew-40x-in-147-days-on-vercel"
+            }
+          ],
+          "slug": "how-sandstone-grew-40x-in-147-days-on-vercel-baf08209",
+          "localized_url": "/zh/items/2026-07-29/how-sandstone-grew-40x-in-147-days-on-vercel-baf08209/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-07-28",
       "title_zh": "AI 新闻简报 · 2026-07-28",
