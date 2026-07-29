@@ -1,7 +1,1047 @@
 {
-  "updated_at": "2026-07-28T23:17:17.579687+00:00",
-  "count": 50,
+  "updated_at": "2026-07-29T23:16:25.932561+00:00",
+  "count": 51,
   "briefs": [
+    {
+      "date": "2026-07-30",
+      "title_zh": "AI 新闻简报 · 2026-07-30",
+      "title_en": "English AI News Brief · 2026-07-30",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 128 条，入选 15 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 128 previously displayed items excluded, and 15 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 144,
+      "skipped_history_count": 128,
+      "selected_count": 15,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+          "title_original": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+          "title_en": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+          "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+          "published_at": "Wed, 29 Jul 2026 15:00:00 GMT",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Benchmark"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cc8e132c6199",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+          "extracted_excerpt": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+          "extracted_text_for_analysis": "When we first saw GPT‑5.6 Sol’s low scores on the ARC-AGI-3(opens in a new window) benchmark, we were puzzled. GPT‑5.6 Sol has solved longstanding open problems in mathematics like the cycle double cover conjecture(opens in a new window) and beaten games like Pokémon FireRed. But on ARC-AGI-3, a benchmark of 2D puzzle games, GPT‑5.6 Sol scored just 7.8%, and GPT‑5.5 could barely play the games at all, scoring a paltry 0.4%. Were 2D puzzle games unusually difficult for our models? Or was something else going on? Benchmarks rarely measure AI models in isolation. They also measure less visible choices about API settings, harness design, and prompting. In the case of ARC-AGI-3, we discovered that turning on two API settings we use in ChatGPT and Codex—retained reasoning and compaction—tripled scores and cut output tokens by 6x on the public task set. ARC-AGI-3 is a benchmark designed to measure how well AI agents learn and reason. Agents explore unfamiliar 2D games and infer how they work without explicit instructions. You can play 25 demo games at arcprize.org/tasks(opens in a new window). ARC-AGI-3 uses an intentionally generic harness, without tools or special features. ARC’s reasoning was that a simple harness makes model shortcomings more visible and makes model comparisons more fair. Commercial developers, by contrast, optimize harnesses for each model’s features and quirks. In gaming, GPT‑5.6 Sol has beaten Pokémon FireRed with a vision-only harness (as streamed by GPT_Plays_Pokemon(opens in a new window)), Slay the Spire with Codex computer use (as streamed by EpochAI(opens in a new window)), and the first stages of Baba Is You (as shared by Piotr Migdał & Piotr Grabowski(opens in a new window)). What was so different about ARC-AGI-3? Inspired by ARC’s analysis of GPT‑5.5’s shortcomings(opens in a new window), we examined some of the GPT‑5.6 Sol’s attempts. Like ARC, we saw that the model didn’t appear too bright. It dwelled a long time on each action and struggled to make progress. But as we looked deeper, we discovered much of the model’s confusion was not inherent to the model itself, but due to settings in the harness. First, we noticed that after each game action, all private reasoning was discarded. This meant that with each action, GPT‑5.6 Sol was asked to figure out the game anew, unable to remember its past thinking. The model could still see a record of past moves and brief accompanying notes, but it could not see the plans, insights, or thoughts that led to them. Second, we saw that the harness used a rolling truncation window, causing older actions to become invisible as the history grew. So not only was GPT‑5.6 Sol unable to remember its past thinking, it was losing memory of its past actions too. Together, these two features of the harness—discarding reasoning and rolling truncation—helped explain why GPT‑5.6 Sol was struggling to learn over time. Our models are trained to think with private reasoning messages before they output replies or tool calls. These private thinking messages are retained as part of the conversation history. If a conversation grows too long, we summarize it and continue. This is how our models are trained, and also how they are deployed in ChatGPT and Codex. To better match our production setup, we implemented the ARC-AGI-3 harness with our Responses API(opens in a new window). Our API makes it easy to manage context: for GPT‑5.6, passing the previous response ID automatically retains reasoning across tool calls and turns. With reasoning retained, we noticed two big changes. First, GPT‑5.6 Sol spent less time thinking before each action, because it no longer had to interpret the game from scratch every turn. Second, when it was able to remember its past thoughts, GPT‑5.6 Sol was much better at learning over time and employing coherent strategies. The next improvement came from replacing rolling truncation with compaction(opens in a new window), another setting in the Responses API. The ARC-AGI-3 harness addresses context limits with rolling truncation. When the conversation context exceeds 175,000 characters, the oldest messages are discarded. Rolling truncation has two drawbacks. First, the model loses earlier observations and actions. Second, it spends much of the tasks operating with a fuller context window, which can slightly impair performance. When we enabled compaction on ARC-AGI-3, GPT‑5.6 Sol was better able to preserve what it had learned about each game across longer runs, and achieved a higher score with fewer output tokens. To illustrate the effect of retaining reasoning and enabling compaction, here’s an animation showing GPT‑5.6 Sol’s 175K context window as it solves a series of ARC-AGI-3 puzzles with each harness. Together, retaining reasoning and compaction allow GPT‑5.6 Sol (max) to achieve roughly 3x the score with 6x fewer output tokens. We hope these experiments serve as a reminder that evals rarely measure models in isolation—they also measure a bundle of less visible choices about API settings, harness design, and prompting. This isn’t the first time we’ve been surprised by low scores on a public benchmark and then discovered that the eval runner was using a generic harness that dropped reasoning messages. If you’re an API developer trying to maximize performance, we recommend using the same settings that we deploy in our own products: - Use our Responses API, not our legacy Chat Completions API - Retain reasoning - Use compaction And if you’re comparing models, we recommend relying on evals that use the settings above, which best match real-world use in ChatGPT and Codex. We are grateful to ARC for their years of creative work on AGI evaluation, and for their analysis that inspired us to take a closer look here.",
+          "title_zh": "OpenAI 披露模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI、Benchmark。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "benchmark",
+              "explanation": "用于衡量模型能力的任务集合或评测体系。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+              "source_url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores"
+            },
+            {
+              "label": "公开摘要",
+              "text": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+              "source_url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores"
+            }
+          ],
+          "slug": "how-enabling-two-settings-tripled-our-scores-on-the-arc-agi-3-benchmark-cc8e132c",
+          "localized_url": "/zh/items/2026-07-30/how-enabling-two-settings-tripled-our-scores-on-the-arc-agi-3-benchmark-cc8e132c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+          "title_original": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+          "title_en": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+          "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/chatgpt-for-academic-researchers",
+          "published_at": "Wed, 29 Jul 2026 10:00:00 GMT",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "14fd05ad34f9",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+          "extracted_excerpt": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+          "extracted_text_for_analysis": "Accelerating scientific discovery with ChatGPT for Academic Researchers We’re putting our frontier models and tools in the hands of 100,000 scientists, mathematicians, and engineers—at no cost. We believe the benefits of frontier AI should not be concentrated in a few companies and well-resourced labs. Scientific progress depends on researchers asking the right questions, testing new ideas, and building on what others have discovered. Our role is to put powerful tools in their hands—and work alongside them to design models that accelerate their research while keeping them in control. We’re introducing ChatGPT for Academic Researchers, a program that will give 100,000 researchers at selected academic institutions free access to our frontier models. The program will help researchers across the sciences, mathematics, and engineering take on advanced problems, accelerate discovery, and improve productivity, from preparing grant applications to testing hypotheses. We’re starting with 10,000 researchers this summer, with access already available at institutions such as the Institute for Advanced Study (IAS) and École normale supérieure (ENS). We plan to expand to 100,000 researchers through 2027. Participants will have access to our frontier models, including GPT‑5.6 Sol Pro at launch, and can invite up to four collaborators from their institution. Workspaces include business-grade privacy and security protections, and data is not used to train our models by default. Researchers can use tools and skills to support work ranging from genomic analysis and protein modeling to literature reviews, grant writing, and publishing. The program also includes training, hands-on support, and opportunities to learn from other researchers and share feedback with us. For institutions with ChatGPT Edu, free access granted through this program will be coordinated through the institution's workspace. Learn more about ChatGPT Edu and how OpenAI supports higher education. ChatGPT for Academic Researchers is part of a commitment of more than $250 million through 2027 to support external scientific research and discovery. That includes NextGenAI, our $50 million initiative supporting research institutions, and our work with the Department of Energy’s Genesis Mission to bring frontier AI to researchers at national laboratories and universities. Together, these efforts reflect our belief that scientific progress accelerates when more researchers have the tools to pursue their own ideas. AI is becoming a more capable research tool faster than many expected. Each week, roughly 1.3 million people use ChatGPT for advanced science and mathematics, generating about 8.4 million messages. The shift is especially visible in mathematics. In the past six months, AI has moved from occasional use on isolated problems to a more regular part of mathematical research. A growing number of papers now acknowledge ChatGPT’s contribution, reflecting how quickly researchers are adopting these tools in their work. Researchers use ChatGPT and Codex across nearly every stage of scientific work. ChatGPT helps researchers interrogate ideas, acquire knowledge, generate hypotheses, and communicate their findings. Codex supports research execution and formal analysis, including writing code and analyzing results. These patterns are showing up in research. Physicist Rogerio Jorge and his team are using AI to develop open-source fusion research software used by industry and national laboratories to design fusion energy devices. In theoretical computer science, researchers Barna Saha, Yinzhan Xu, and Christopher Ye used GPT‑5.5 Pro to develop a proof establishing new limits on how efficiently computers can solve high-dimensional geometry problems, then validated and refined the results themselves. Researchers using these tools most intensively are also taking on more ambitious work. Those in the top 20% of AI usage within their field are almost twice as likely as their peers to ask AI to take on tasks estimated to require four hours or more: nearly 7% of their requests, compared with 3.5% among other researchers in the same field. Our strategy is not to decide which scientific problems deserve attention or try to solve them all ourselves. It is to put capable tools in the hands of the research community and let researchers pursue the questions they know best. Participants will receive free access to our frontier models across ChatGPT, ChatGPT Work, and Codex, including the GPT‑5.6 family of models at launch. They will also have expanded deep research, higher usage limits, and larger context windows. Together, these capabilities support scientific reasoning, agentic execution, and research workflows across disciplines. GPT‑5.6 Terra balances capability and efficiency for everyday research, GPT‑5.6 Luna provides faster responses for lighter-weight tasks, and GPT‑5.6 Sol tackles the most difficult scientific and mathematical problems. On FrontierMath Tier 4, which measures research-level mathematical reasoning, GPT‑5.6 Sol scores 83%, compared with 72.5% for GPT‑5.5. On GeneBench Pro, which evaluates complex biological data analysis and scientific reasoning, GPT‑5.6 Sol Pro solves 31.5% of tasks. Researchers can use more than 75 life science skills(opens in a new window) spanning genetics, genomics, sequencing, single-cell analysis, protein modeling, and drug discovery. Connectors support research across disciplines, providing access to scientific literature, public genomic and clinical databases, satellite imagery, computational notebooks, data platforms, and reference managers. Codex can help write and debug code, analyze datasets, and build reproducible workflows. ChatGPT Work can support longer projects such as finding funding opportunities, preparing grant applications, reviewing literature, drafting manuscripts, and creating materials to communicate results. Researchers will have different starting points with AI. Some may be using these tools for the first time; others may be developing advanced applications in their fields. The program will offer training tailored to different levels of experience, from getting started and improving workflows to advanced research applications. Participants will have access to specialists familiar with research workflows, including help integrating these tools into their work. As we see what researchers discover, we plan to create more opportunities for researchers to share practical approaches, learn from one another, and highlight uses across disciplines. Their feedback will help us understand where our models are useful, where they fall short, and how to make them more valuable to the research community. The initial program is open to qualifying researchers at selected academic institutions. Eligible institutions(opens in a new window) must be recognized, degree-granting colleges or universities with a high level of research activity. Applicants will need to verify their institutional",
+          "title_zh": "OpenAI 推进模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+              "source_url": "https://openai.com/index/chatgpt-for-academic-researchers"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+              "source_url": "https://openai.com/index/chatgpt-for-academic-researchers"
+            }
+          ],
+          "slug": "accelerating-scientific-discovery-with-chatgpt-for-academic-researchers-14fd05ad",
+          "localized_url": "/zh/items/2026-07-30/accelerating-scientific-discovery-with-chatgpt-for-academic-researchers-14fd05ad/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+          "title_original": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+          "title_en": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+          "published_at": "Wed, 29 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6d964f10c333",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+          "extracted_excerpt": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+          "extracted_text_for_analysis": "We designed the GPT‑5.6 model family to balance capability and cost across the spectrum of tasks people use our models for. Our flagship model, GPT‑5.6 Sol, with max reasoning outperforms Claude Fable 5 on the Artificial Analysis Coding Agent Index at less than half of the cost. Terra performs as well as GPT‑5.5 on intelligence benchmarks at half the price, and Luna is our fastest and most affordable model, priced 80% less than the cost of Sol. To deliver these efficiencies, our research and technical teams have made significant optimizations at every major layer of our stack. These improvements span our models, inference (how we run models to generate output), and our agentic harness, which is used by both Codex and ChatGPT Work. As we’ve scaled our models to 1 billion active users and more than 2 million businesses over the past four years, efficiency has been central to distributing the benefits of intelligence to everyone. Our mission is to ensure that artificial general intelligence benefits all of humanity. Over these years, we’ve worked to continuously unlock greater optimizations across our stack in order to offer the most performant models at every point in the cost-intelligence curve. We achieved our greatest intelligence-per-token efficiency yet through GPT‑5.6, which is trained to achieve more work per token. In training, we optimize for both task success and efficiency, shaping the model to take a more direct path through a task. This post looks beyond our models to share how we designed for efficiency through advancements in two other major parts of the stack, including 1) inference, by optimizing processes such as load balancing, speculative decoding, caching, and kernel optimization, to get more output from the same hardware, and 2) our agentic harness, including better managing context bloat, tool usage, and repeated work. We’ll also share the role of GPT‑5.6 Sol in landing several of these gains autonomously. While any isolated improvement may seem limited, these wins compound to allow us to deliver on the frontier of both intelligence and efficiency. In a compute-constrained world where model demand is growing faster than capacity, efficiency is core to every system design. That’s especially true in our inference stack, which runs trained models to generate responses. Our primary objective is to serve more tokens with the same hardware, while preserving the intelligence, latency, availability, and reliability users expect. Achieving this requires optimizing the entire system. A model can be highly efficient in isolation, but still be expensive to serve if requests are distributed poorly, hardware sits idle, or data movement slows down computation. Improvements at every layer compound, with gains coming from optimizations in routing (where requests are sent), scheduling (when requests are sent), kernels (software that runs on GPUs), caching (saved and reused work), and model implementation (the ordering of GPU code). GPT‑5.6 Sol in Codex played an instrumental role in all of these optimizations. The first important example is load balancing. Globally, we route requests based on factors such as geography, available capacity, and accelerator type (the type of GPU or specialized chip running the model). Within a cluster, we distribute work across model instances based on load, context length, cache availability, and other request properties. Within each instance, work must then be partitioned efficiently across accelerators, the model’s sub-networks, and computing cores. GPT‑5.6 Sol in Codex helps us analyze production traffic, identify previously overlooked sources of imbalance, test new routing strategies, and constantly tune these heuristics. These load balancing improvements alone dramatically reduced the cost of serving our models. We also used GPT‑5.6 Sol to optimize the model’s forward pass: the computation that transforms inputs into next-token predictions. Even when individual operations are fast, excess memory movement, synchronization, and inefficient data layouts can leave GPUs idle. To avoid this, GPT‑5.6 Sol found work that could be precomputed, avoided, or parallelized. With Codex, GPT‑5.6 Sol autonomously rewrote and optimized our production kernels, the core code that executes the mathematical operations that make up the model. This worked in part because we’ve trained GPT‑5.6 to be effective at writing and improving kernels in Triton(opens in a new window) and Gluon(opens in a new window), two open-source GPU programming languages maintained by OpenAI. These efforts, combined with broader kernel advancements from GPT‑5.6 Sol, reduced end-to-end serving costs by 20%. We’ve also heavily invested in verification tooling, such as the open-source tool FpSan(opens in a new window) (Floating-Point Sanitizer), to help validate the correctness of the kernels written by GPT‑5.6 Sol. Speculative decoding is another lever for improving speed and efficiency. The technique involves running a smaller draft (or “speculator”) model alongside the primary model, proposing several tokens for the primary model to verify in parallel. When those proposals are accepted, the system can produce multiple output tokens from a single primary-model pass, reducing the amount of expensive sequential computation. GPT‑5.6 Sol improved its own draft model by designing and running hundreds of experiments on its architecture, testing changes in size, structure, and features. Additionally, GPT‑5.6 Sol launched and monitored the speculator training process, autonomously intervening when issues arose, including hardware failures and training instability. The resulting improvements increased token-generation efficiency by more than 15%. When processing uncached input tokens, the model builds the key-value (KV) cache in one compute-intensive pass; when generating output, it repeatedly reads from and extends that cache. The optimal configuration for serving, such as batching, sharding, and KV management, depends heavily on the workload—prompt and output length, batch size, cache hit rate, query characteristics, and more. However, the configuration space was previously too large to tune systematically, forcing engineers to rely on broad heuristics. With GPT‑5.6 Sol in Codex, we were able to analyze production workloads, generate and evaluate candidate configurations, and hyper-optimize how the engine and model are configured for each scenario. This makes a new level of workload-specific optimization practical, extracting more useful inference from the same hardware. Inference optimization is a continuous feedback loop. We measure production behavior, identify the largest gaps, implement changes, and verify that they improve the whole system rather than an isolated benchmark. GPT‑5.6 Sol and Codex accelerate every part of that loop. This means our team can explore more ideas, respond faster to changing workloads, and create an inference stack with lower latency, more capacity,",
+          "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+              "source_url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+              "source_url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency"
+            }
+          ],
+          "slug": "how-gpt-5-6-fuses-frontier-intelligence-with-frontier-efficiency-6d964f10",
+          "localized_url": "/zh/items/2026-07-30/how-gpt-5-6-fuses-frontier-intelligence-with-frontier-efficiency-6d964f10/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
+          "title_original": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
+          "title_en": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
+          "summary_zh": "OpenAI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The Big Pause is coming.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
+          "published_at": "Wed, 29 Jul 2026 00:46:52 GMT",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Anthropic"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "21bb05a89075",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：OpenAI、Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
+              "source_url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The Big Pause is coming.",
+              "source_url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic"
+            }
+          ],
+          "slug": "ainews-fearing-rsi-openai-anthropic-gdm-meta-thinky-cosign-letter-to-pac-21bb05a8",
+          "localized_url": "/zh/items/2026-07-30/ainews-fearing-rsi-openai-anthropic-gdm-meta-thinky-cosign-letter-to-pac-21bb05a8/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Together AI announces strategic partnership with Moonshot AI to natively serve Kimi models",
+          "title_original": "Together AI announces strategic partnership with Moonshot AI to natively serve Kimi models",
+          "title_en": "Together AI announces strategic partnership with Moonshot AI to natively serve Kimi models",
+          "summary_zh": "Together AI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Together AI has a release or product update that may affect model capability, developer tooling or AI adoption.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/together-ai-announces-strategic-partnership-with-moonshot-ai-to-natively-serve-kimi-models",
+          "published_at": "Wed, 29 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Together AI"
+          ],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 42.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "d69bf57e9b71",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Together AI announces strategic partnership with Moonshot AI to natively serve Kimi models",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "Today we're announcing a strategic partnership with Moonshot AI, one of the leading model labs pushing the open source frontier with large-scale MoE architectures. Under this partnership, Together AI becomes a launch platform for Moonshot's model releases, starting with Kimi K3 and extending to every open weights model Moonshot ships going forward. For developers building on open models, this means day zero access to Moonshot's frontier releases through Together AI’s US-hosted infrastructure, pricing model, and tooling, while ensuring zero data retention and compliant access to models and data. Developers can also post train these models with their own data to deliver the quality and performance for their app. Frontier performance, open weights Kimi K3 is the largest open model released to date: a 2.8T parameter sparse Mixture-of-Experts model with native vision support and a 1M token context window. Moonshot built it around two new architectural components: - Kimi Delta Attention (KDA), which changes how information flows across sequence length and delivers significantly faster decoding at long context lengths. - Attention Residuals (AttnRes), which improves how representations are retrieved across model depth, adding meaningful training efficiency at minimal extra compute cost. Layered on top are a set of optimizer refinements, including per-head Muon and quantile-based expert load balancing, that Moonshot says combine to deliver roughly 2.5x better scaling efficiency compared to Kimi K2. The result is a model built for long-horizon coding, agentic workflows, game development, and knowledge-intensive tasks, with benchmark results that put it in direct competition with the leading proprietary systems on the market today. Production Inference Platform Kimi models are available across Together AI Inference products – including Serverless, Provisioned Throughput and Dedicated Inference. Developers can go from trying these models to applying them to their production use cases with SLA-backed products and autoscaling. With Provisioned Throughput, teams can use reserved inference capacity for frontier open models with token-based pricing and a 99% uptime SLA. It’s the reserved-capacity guarantee developers already expect from closed-model providers, now available for open weights. No GPU-hour math, just guaranteed throughput at a predictable price. For teams looking for more control with all the benefits of a production-ready platform, they can use Dedicated Model Inference with fast deployment, better token economics and continuous research innovations shipped into the product. Post Training Developers can also post train Kimi models to deliver better quality for their target use case. With custom training, including full-weight and LoRA reinforcement learning as well as advanced supervised fine-tuning, developers can configure training through the Python SDK and granular primitives, and run multiple LoRA experiments concurrently on dedicated capacity. Custom training connects experimentation directly to production. When a checkpoint is ready to evaluate, it can be deployed natively to inference, with no separate handoff between training and serving and no rebuilding. What this partnership unlocks for developers - Day zero availability: Kimi K3 is available on Together AI with the highest model quality and performance, validated by Moonshot. Future Moonshot releases will also ship on Together at launch. - Proven scale with production-ready infrastructure: Together AI's research-optimized inference stack is tuned for large sparse MoE models like K3, so developers get the performance the architecture promises rather than a generic deployment. Together’s inference stack already serves production traffic for companies like Cursor, Y Combinator and Decagon, deploying coding and agentic workloads at scale. - One integration, the full Moonshot lineup: As Moonshot ships new models, they'll land in the same Together AI Models library, behind the same API you're already calling. No new SDKs, no separate account, no re-plumbing your app each time a new Kimi model drops. - Day zero post training: Together customers can use Kimi models as their base model for fine-tuning, with the flexibility to remove the attribution required in the MIT license. - Open weights, your choice of control: Because Kimi K3 is open-weight, you can run it serverless on Together for speed of iteration, or move to Provisioned Throughput or Dedicated Model Inference as your usage scales, without being locked into a single provider's roadmap. Join the conversation Want to hear directly from the team behind Moonshot AI and Together AI? Join Feihu Tang from the Moonshot AI team and Jue Wang and Zain Hasan from Together AI to talk through the technical decisions behind Kimi K3, how to actually run it on Together, and what's coming next. Bring your questions.",
+          "title_zh": "Together AI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。",
+            "涉及公司或机构：Together AI。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Together AI announces strategic partnership with Moonshot AI to natively serve Kimi models",
+              "source_url": "https://www.together.ai/blog/together-ai-announces-strategic-partnership-with-moonshot-ai-to-natively-serve-kimi-models"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Together AI has a release or product update that may affect model capability, developer tooling or AI adoption.",
+              "source_url": "https://www.together.ai/blog/together-ai-announces-strategic-partnership-with-moonshot-ai-to-natively-serve-kimi-models"
+            }
+          ],
+          "slug": "together-ai-announces-strategic-partnership-with-moonshot-ai-to-natively-d69bf57e",
+          "localized_url": "/zh/items/2026-07-30/together-ai-announces-strategic-partnership-with-moonshot-ai-to-natively-d69bf57e/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+          "title_original": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+          "title_en": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+          "summary_zh": "DeepMind 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+          "published_at": "Wed, 29 Jul 2026 16:02:10 +0000",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "42b77c184ced",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control.",
+          "extracted_excerpt": "Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’r…",
+          "extracted_text_for_analysis": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control. Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’re rolling it out today in Google Flow Music, where we want to help you create songs you love, with creative control. Here's what’s new: - Improved musicality: Create richer, more complex melodic structures that sound more natural. - Enhanced lyrics: Generate higher quality lyrics with improved prompt adherence and structural awareness. - Improved vocals: Bring more expression and emotion to your songs with more realistic and emotionally nuanced vocals, plus improved pronunciation. - Creative control: More easily control the tempo and duration of your outputs. Try it today in Flow Music.",
+          "title_zh": "DeepMind 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 DeepMind，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+              "source_url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/"
+            }
+          ],
+          "slug": "were-launching-lyria-3-5-in-google-flow-music-with-advances-across-music-705bd6c0",
+          "localized_url": "/zh/items/2026-07-30/were-launching-lyria-3-5-in-google-flow-music-with-advances-across-music-705bd6c0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Why compute might get 10x+ more expensive in coming years",
+          "title_original": "Why compute might get 10x+ more expensive in coming years",
+          "title_en": "Why compute might get 10x+ more expensive in coming years",
+          "summary_zh": "Dwarkesh Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "If a human-level software engineer that could run on an H100 equivalent, at current market rates for software engineers, that H100 should rent for over $250k a year. That’s 15x today’s spot price.",
+          "source_name": "Dwarkesh Podcast",
+          "source_url": "https://www.dwarkeshpatel.com/",
+          "original_url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive",
+          "published_at": "Wed, 29 Jul 2026 15:01:35 GMT",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "agi",
+            "economics",
+            "interview"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "eb1db950a66c",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Dwarkesh Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Dwarkesh Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：agi、economics、interview。"
+          ],
+          "background_zh": "这条内容来自 Dwarkesh Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Why compute might get 10x+ more expensive in coming years",
+              "source_url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive"
+            },
+            {
+              "label": "公开摘要",
+              "text": "If a human-level software engineer that could run on an H100 equivalent, at current market rates for software engineers, that H100 should rent for over $250k a year. That’s 15x today’s spot price.",
+              "source_url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive"
+            }
+          ],
+          "slug": "why-compute-might-get-10x-more-expensive-in-coming-years-eb1db950",
+          "localized_url": "/zh/items/2026-07-30/why-compute-might-get-10x-more-expensive-in-coming-years-eb1db950/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Sign in with ChatGPT is now available on Vercel",
+          "title_original": "Sign in with ChatGPT is now available on Vercel",
+          "title_en": "Sign in with ChatGPT is now available on Vercel",
+          "summary_zh": "Vercel 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Sign in with ChatGPT adds your ChatGPT account as an authentication option for Vercel. It is available when adding the Vercel plugin to ChatGPT and when signing in to Vercel or v0. When you add the Vercel plugin to ChatGPT, you can easily sign in to Vercel",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/sign-in-with-chatgpt-is-now-available-on-vercel",
+          "published_at": "2026-07-29T00:00:00.000Z",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "08d41baffcac",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sign in with ChatGPT is now available on Vercel - Vercel",
+          "extracted_excerpt": "Sign in with ChatGPT adds your ChatGPT account as an authentication option for Vercel, both when connecting the Vercel plugin in ChatGPT and when signing in to Vercel or v0.",
+          "extracted_text_for_analysis": "Sign in with ChatGPT adds your ChatGPT account as an authentication option for Vercel. It is available when adding the Vercel plugin to ChatGPT and when signing in to Vercel or v0. When you add the Vercel plugin to ChatGPT, you can easily sign in to Vercel and grant team and project permissions without leaving ChatGPT. \"Continue with ChatGPT\" also appears as a sign-in option on the Vercel and v0 sign-in and sign-up pages. Team requirements like 2FA and SSO still apply. You can re-authenticate or disconnect the ChatGPT sign-in method in your account Authentication settings.",
+          "title_zh": "Vercel 发布模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Sign in with ChatGPT is now available on Vercel",
+              "source_url": "https://vercel.com/changelog/sign-in-with-chatgpt-is-now-available-on-vercel"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sign in with ChatGPT adds your ChatGPT account as an authentication option for Vercel. It is available when adding the Vercel plugin to ChatGPT and when signing in to Vercel or v0. When you add the Vercel plugin to",
+              "source_url": "https://vercel.com/changelog/sign-in-with-chatgpt-is-now-available-on-vercel"
+            }
+          ],
+          "slug": "sign-in-with-chatgpt-is-now-available-on-vercel-08d41baf",
+          "localized_url": "/zh/items/2026-07-30/sign-in-with-chatgpt-is-now-available-on-vercel-08d41baf/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Dreaming in Voxels: How AI is Generating Playable Minecraft Worlds",
+          "title_original": "Dreaming in Voxels: How AI is Generating Playable Minecraft Worlds",
+          "title_en": "Dreaming in Voxels: How AI is Generating Playable Minecraft Worlds",
+          "summary_zh": "Sakana AI Blog 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/dream-cubed/",
+          "published_at": "2026-07-29T00:00:00+09:00",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "98804545a1f6",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Sakana AI Blog 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI Blog，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Dreaming in Voxels: How AI is Generating Playable Minecraft Worlds",
+              "source_url": "https://sakana.ai/dream-cubed/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/dream-cubed/"
+            }
+          ],
+          "slug": "dreaming-in-voxels-how-ai-is-generating-playable-minecraft-worlds-f01f3b56",
+          "localized_url": "/zh/items/2026-07-30/dreaming-in-voxels-how-ai-is-generating-playable-minecraft-worlds-f01f3b56/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation at Scale",
+          "title_original": "ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation at Scale",
+          "title_en": "ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation at Scale",
+          "summary_zh": "Together AI Blog 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "ThunderAgent is a program-aware scheduler for agentic inference. By treating each agent workflow as a schedulable program, it eliminates KV cache thrashing to deliver more than 2x single-node throughput and near-linear multi-node scaling.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/thunderagent",
+          "published_at": "Wed, 29 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "62018fe96b55",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Together AI Blog 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI Blog 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI Blog，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            },
+            {
+              "term": "throughput",
+              "explanation": "单位时间内可处理的请求或 token 数，是推理基础设施的重要指标。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation at Scale",
+              "source_url": "https://www.together.ai/blog/thunderagent"
+            },
+            {
+              "label": "公开摘要",
+              "text": "ThunderAgent is a program-aware scheduler for agentic inference. By treating each agent workflow as a schedulable program, it eliminates KV cache thrashing to deliver more than 2x single-node throughput and near-linear",
+              "source_url": "https://www.together.ai/blog/thunderagent"
+            }
+          ],
+          "slug": "thunderagent-2x-faster-agentic-inference-for-synthetic-data-generation-a-62018fe9",
+          "localized_url": "/zh/items/2026-07-30/thunderagent-2x-faster-agentic-inference-for-synthetic-data-generation-a-62018fe9/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Edge Config is now Global Config",
+          "title_original": "Edge Config is now Global Config",
+          "title_en": "Edge Config is now Global Config",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Edge Config is now Global Config . This rename better reflects that it is a globally replicated data store with ~1ms reads in every region, built for the configuration that applications read at runtime, such as feature flags, redirects, and experimentation",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/edge-config-is-now-global-config",
+          "published_at": "2026-07-29T00:00:00.000Z",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d4bbf2732c37",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Edge Config is now Global Config",
+              "source_url": "https://vercel.com/changelog/edge-config-is-now-global-config"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Edge Config is now Global Config . This rename better reflects that it is a globally replicated data store with ~1ms reads in every region, built for the configuration that applications read at runtime, such as feature",
+              "source_url": "https://vercel.com/changelog/edge-config-is-now-global-config"
+            }
+          ],
+          "slug": "edge-config-is-now-global-config-d4bbf273",
+          "localized_url": "/zh/items/2026-07-30/edge-config-is-now-global-config-d4bbf273/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Gateway adds unified fast mode support",
+          "title_original": "AI Gateway adds unified fast mode support",
+          "title_en": "AI Gateway adds unified fast mode support",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "AI Gateway has a unified fast mode abstraction, now in beta. You can now request fast mode the same way for every model on AI Gateway. Set speed to fast , and the gateway serves the fast tier when it's available and falls back to standard speed when it isn't.",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ai-gateway-adds-unified-fast-mode-support",
+          "published_at": "2026-07-29T00:00:00.000Z",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "39ac0574f8ec",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 更新开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Gateway adds unified fast mode support",
+              "source_url": "https://vercel.com/changelog/ai-gateway-adds-unified-fast-mode-support"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI Gateway has a unified fast mode abstraction, now in beta. You can now request fast mode the same way for every model on AI Gateway. Set speed to fast , and the gateway serves the fast tier when it's available and",
+              "source_url": "https://vercel.com/changelog/ai-gateway-adds-unified-fast-mode-support"
+            }
+          ],
+          "slug": "ai-gateway-adds-unified-fast-mode-support-39ac0574",
+          "localized_url": "/zh/items/2026-07-30/ai-gateway-adds-unified-fast-mode-support-39ac0574/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Additional custom environments can now be purchased",
+          "title_original": "Additional custom environments can now be purchased",
+          "title_en": "Additional custom environments can now be purchased",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Pro and Enterprise teams can now purchase additional custom environment capacity without contacting sales. Custom environments let you model your team's release process on Vercel. You can add staging , qa , or any named stage between preview and production ,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/additional-custom-environments-can-now-be-purchased",
+          "published_at": "2026-07-29T00:00:00.000Z",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e92adffdcdad",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Additional custom environments can now be purchased",
+              "source_url": "https://vercel.com/changelog/additional-custom-environments-can-now-be-purchased"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Pro and Enterprise teams can now purchase additional custom environment capacity without contacting sales. Custom environments let you model your team's release process on Vercel. You can add staging , qa , or any named",
+              "source_url": "https://vercel.com/changelog/additional-custom-environments-can-now-be-purchased"
+            }
+          ],
+          "slug": "additional-custom-environments-can-now-be-purchased-e92adffd",
+          "localized_url": "/zh/items/2026-07-30/additional-custom-environments-can-now-be-purchased-e92adffd/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Discover and install eve integrations from the CLI",
+          "title_original": "Discover and install eve integrations from the CLI",
+          "title_en": "Discover and install eve integrations from the CLI",
+          "summary_zh": "Vercel AI 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now discover and install integrations for eve agents directly from the eve CLI. Integrations come from the official eve catalog and third-party sources. Run eve add from your eve project to install an integration: Integrations write their files",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/discover-and-install-eve-integrations-from-the-cli",
+          "published_at": "2026-07-29T00:00:00.000Z",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "257ab808d5c6",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Discover and install eve integrations from the CLI",
+              "source_url": "https://vercel.com/changelog/discover-and-install-eve-integrations-from-the-cli"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now discover and install integrations for eve agents directly from the eve CLI. Integrations come from the official eve catalog and third-party sources. Run eve add from your eve project to install an",
+              "source_url": "https://vercel.com/changelog/discover-and-install-eve-integrations-from-the-cli"
+            }
+          ],
+          "slug": "discover-and-install-eve-integrations-from-the-cli-257ab808",
+          "localized_url": "/zh/items/2026-07-30/discover-and-install-eve-integrations-from-the-cli-257ab808/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Connect now supports Custom Environments",
+          "title_original": "Vercel Connect now supports Custom Environments",
+          "title_en": "Vercel Connect now supports Custom Environments",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Connect now lets you link a connector to a Custom Environment so deployments there can request provider tokens and receive forwarded webhooks. Custom Environments appear alongside Production, Preview, and Development when you add or edit a project on a",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-connect-now-supports-custom-environments",
+          "published_at": "2026-07-28T00:00:00.000Z",
+          "fetched_at": "2026-07-29T23:16:23.577038+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "37ad6a46e55c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Connect now supports Custom Environments",
+              "source_url": "https://vercel.com/changelog/vercel-connect-now-supports-custom-environments"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Connect now lets you link a connector to a Custom Environment so deployments there can request provider tokens and receive forwarded webhooks. Custom Environments appear alongside Production, Preview, and",
+              "source_url": "https://vercel.com/changelog/vercel-connect-now-supports-custom-environments"
+            }
+          ],
+          "slug": "vercel-connect-now-supports-custom-environments-37ad6a46",
+          "localized_url": "/zh/items/2026-07-30/vercel-connect-now-supports-custom-environments-37ad6a46/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-07-29",
       "title_zh": "AI 新闻简报 · 2026-07-29",
