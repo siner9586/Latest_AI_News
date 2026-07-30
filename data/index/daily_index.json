@@ -1,7 +1,1219 @@
 {
-  "updated_at": "2026-07-29T23:16:25.932561+00:00",
-  "count": 51,
+  "updated_at": "2026-07-30T23:19:45.118443+00:00",
+  "count": 52,
   "briefs": [
+    {
+      "date": "2026-07-31",
+      "title_zh": "AI 新闻简报 · 2026-07-31",
+      "title_en": "English AI News Brief · 2026-07-31",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 123 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 123 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 123,
+      "selected_count": 18,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Advancing the price-performance frontier with GPT-5.6",
+          "title_original": "Advancing the price-performance frontier with GPT-5.6",
+          "title_en": "Advancing the price-performance frontier with GPT-5.6",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+          "published_at": "Thu, 30 Jul 2026 10:00:00 GMT",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "fc362ba711f5",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Advancing the price-performance frontier with GPT-5.6",
+          "extracted_excerpt": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+          "extracted_text_for_analysis": "Yesterday, we shared how GPT‑5.6 helped make itself more efficient to run. Today, we’re passing those gains on to customers with lower prices for GPT‑5.6 Luna(opens in a new window) and Terra(opens in a new window) and faster performance with GPT‑5.6 Sol in the API. Together, these updates help customers get more from every dollar they invest in AI and move faster when time matters. Starting today, GPT‑5.6 Luna, our fastest and most affordable model, will cost 80% less, while GPT‑5.6 Terra, our balanced model for everyday work, will cost 20% less. These lower prices for Luna and Terra are also reflected in how usage is counted against paid subscriptions when using Codex and ChatGPT Work. Luna gives businesses a far more cost-effective way to handle high-volume work at very high levels of quality. It can use tools and complete multi-step workflows, making a broader range of AI applications practical to run at scale. Making advanced intelligence more abundant and affordable is central to OpenAI’s mission to ensure AGI benefits all of humanity. These changes put that commitment into practice. They reflect years of improvements in how our models are built, served, and put to work. We’re also introducing Fast mode in the API, which replaces our Priority Processing offering. For GPT‑5.6 Sol, Fast mode now delivers up to 2.5× faster speeds than Standard processing at twice the price, with no change in intelligence. Fast mode is backward compatible: requests tagged priority will automatically use Fast mode. Using AI efficiently begins with the outcome. The stakes, cost of error, urgency, and scale determine the right balance of intelligence, speed, reliability, and cost. That balance can change from one step of a workflow to the next. GPT‑5.6 gives businesses much more room to optimize that equation. Luna delivers performance comparable to models that were frontier-class a year ago at roughly 6 cents on the dollar per task, and at nearly nine times the speed. On professional work, as measured by Agents’ Last Exam, Luna outperforms Fable 5 at an estimated cost per task nearly 99% lower. In practice, businesses can define the outcome and quality standard they need, then use evaluations to determine where additional intelligence materially improves the result and where faster, lower-cost processing can deliver the same quality. A coding workflow, for example, might use Sol to resolve uncertainty and define the plan, then use Luna to implement well-specified changes, write and run tests, and evaluate the results. Another workflow may call for a different balance. The GPT‑5.6 family expands the range of those choices. Businesses can apply the maximum useful intelligence at every stage while paying the right price for the value it creates. Delivering that flexibility starts with making every layer behind the models more efficient. Our efficiency edge comes from improving the models, the inference systems that run them, and the agentic harness that connects them to tools and context. GPT‑5.6 models take a more direct path through work. Better routing keeps hardware productive, optimized production software generates tokens more efficiently, and smarter context management helps agents avoid repeating completed work. Together, these improvements let us complete more useful work with the same compute, reducing the time, tokens, and cost required for each result. GPT‑5.6 Sol is increasingly helping us find and deliver the next round of gains. Within a human-led process, Sol autonomously rewrote and optimized production kernels, designed and ran hundreds of experiments to improve token generation, and monitored training, intervening when problems arose. The kernel work helped reduce the end-to-end cost of serving the model by 20%, while its experiments increased token-generation efficiency by more than 15%. This work continues, creating a tighter feedback loop: as our models improve and are able to work more autonomously, our ability to improve efficiencies accelerates. Read more about the engineering behind GPT‑5.6. Meeting demand for abundant intelligence requires both more compute and more productive compute. We are building a resilient infrastructure portfolio and matching each workload to the systems best suited to run it. That approach supports both ends of the price-performance curve. At the lower-cost end, the new Luna and Terra prices make high-volume work economical at much greater scale. At the frontier end, Fast mode gives API customers faster access to Sol when response time is important. Enterprises can move more AI into everyday operations without sacrificing speed on their most consequential work. Large-scale document analysis, customer-interaction classification, and routine implementation can become economical to run broadly, while complex Sol workloads can move faster when the premium is justified. The gains can compound. Within a human-led process, more capable models help our technical team find the next generation of improvements, shortening the path to better performance and lower costs. Our strategy remains focused on advancing both capability and efficiency so each generation of intelligence can accomplish more work at a lower cost. GPT‑5.6 Terra and Luna remain available in ChatGPT Work, Codex, and the OpenAI API. In ChatGPT Work and Codex, Free and Go users can access Terra, while Plus, Pro, Business, and Enterprise users can choose Terra and Luna. Starting July 30, API pricing is $2 per million input tokens and $12 per million output tokens for Terra, and $0.20 per million input tokens and $1.20 per million output tokens for Luna. Sol pricing remains unchanged. ChatGPT and Codex subscription prices and quota budgets remain unchanged, while Terra and Luna usage now consumes fewer credits. Pricing changes will begin rolling out in AWS later today.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Advancing the price-performance frontier with GPT-5.6",
+              "source_url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+              "source_url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6"
+            }
+          ],
+          "slug": "advancing-the-price-performance-frontier-with-gpt-5-6-fc362ba7",
+          "localized_url": "/zh/items/2026-07-31/advancing-the-price-performance-frontier-with-gpt-5-6-fc362ba7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Gateway: GPT-5.6 pricing and speed updates",
+          "title_original": "AI Gateway: GPT-5.6 pricing and speed updates",
+          "title_en": "AI Gateway: GPT-5.6 pricing and speed updates",
+          "summary_zh": "OpenAI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "On AI Gateway , GPT-5.6 Luna and GPT-5.6 Terra are now cheaper and GPT-5.6 Sol is faster. AI Gateway adds no markup on token pricing, so these changes reach you at the upstream rate. The changes apply to both short and long context pricing. Model Change",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ai-gateway-gpt-5-6-pricing-speed-updates",
+          "published_at": "2026-07-30T00:00:00.000Z",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8976a580a632",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "AI Gateway: GPT-5.6 pricing and speed updates - Vercel",
+          "extracted_excerpt": "GPT-5.6 Luna is 80% cheaper, GPT-5.6 Terra is 20% cheaper, and GPT-5.6 Sol's fast mode is now 2.5x faster on AI Gateway, with no markup on token pricing.",
+          "extracted_text_for_analysis": "On AI Gateway , GPT-5.6 Luna and GPT-5.6 Terra are now cheaper and GPT-5.6 Sol is faster. AI Gateway adds no markup on token pricing, so these changes reach you at the upstream rate. The changes apply to both short and long context pricing. Model Change Input: Short context (per 1M tokens) Output: Short context (per 1M tokens) openai/gpt-5.6-luna 80% price reduction $0.2 $1.2 openai/gpt-5.6-terra 20% price reduction $2 $12 openai/gpt-5.6-sol Same price, fast mode now 2.5x faster (up from 1.5x) Unchanged Unchanged GPT-5.6 Sol keeps the same price; its fast mode now runs 2.5x faster, up from 1.5x. Model IDs are unchanged, so existing requests get the new rates and speed with no code change. See full pricing detail on AI Gateway .",
+          "title_zh": "OpenAI 更新开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Gateway: GPT-5.6 pricing and speed updates",
+              "source_url": "https://vercel.com/changelog/ai-gateway-gpt-5-6-pricing-speed-updates"
+            },
+            {
+              "label": "公开摘要",
+              "text": "On AI Gateway , GPT-5.6 Luna and GPT-5.6 Terra are now cheaper and GPT-5.6 Sol is faster. AI Gateway adds no markup on token pricing, so these changes reach you at the upstream rate. The changes apply to both short and",
+              "source_url": "https://vercel.com/changelog/ai-gateway-gpt-5-6-pricing-speed-updates"
+            }
+          ],
+          "slug": "ai-gateway-gpt-5-6-pricing-and-speed-updates-8976a580",
+          "localized_url": "/zh/items/2026-07-31/ai-gateway-gpt-5-6-pricing-and-speed-updates-8976a580/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Best in Class: Stream PC Games and Study on the Same Laptop With GeForce NOW",
+          "title_original": "Best in Class: Stream PC Games and Study on the Same Laptop With GeForce NOW",
+          "title_en": "Best in Class: Stream PC Games and Study on the Same Laptop With GeForce NOW",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Back to school means balancing assignments, deadlines and downtime. GeForce NOW makes it easy to have it all. With cloud gaming, everyday laptops used for class can also become GeForce RTX-powered gaming setups. When it’s time to switch from studying to",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026/",
+          "published_at": "Thu, 30 Jul 2026 13:00:20 +0000",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4911227015fd",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Best in Class: Stream PC Games and Study on the Same Laptop With GeForce NOW",
+          "extracted_excerpt": "Get ready for back to school with GeForce NOW on the same laptops used for studying. Start this week with eight new games.",
+          "extracted_text_for_analysis": "Back to school means balancing assignments, deadlines and downtime. GeForce NOW makes it easy to have it all. With cloud gaming, everyday laptops used for class can also become GeForce RTX-powered gaming setups. When it’s time to switch from studying to gaming, members can jump into Halo: Campaign Evolved, as GeForce NOW is bringing one of the gaming world’s most celebrated titles to nearly any device through the cloud, alongside eight total games joining the GeForce NOW library this week. From A+ to AAA Gaming This back-to-school season, the easiest upgrade isn’t replacing laptops in backpacks. It’s unlocking even more from these same laptops, from creating to gaming. With a GeForce NOW membership, Chromebooks, Macs and Surface devices can become GeForce RTX-powered gaming PCs in the cloud. The GeForce NOW library features thousands of supported PC games, letting members stream titles they already own from digital stores like Steam, Xbox PC Game Pass and Epic Games Store in just a few clicks. The cloud keeps games up to date and ready to play, making it easy to jump into a match between classes, after homework or whenever there’s free time. Time spent waiting on downloads, patches and installs becomes time spent in game instead. The Ultimate membership enables best-in-class experiences by delivering 5080-class performance in the cloud with NVIDIA DLSS, ray tracing and NVIDIA Reflex technologies for responsive, visually rich gameplay — all on the hardware gamers already own. A creator known as “Menguiny” recently put this to the test after picking up a MacBook Neo. GeForce NOW turned the laptop — usually the creator’s go-to for editing videos and everyday work — into a top-notch gaming machine, too. Another creator, “TechWithSeong” highlighted that same versatility GeForce NOW offers. Rather than juggling separate devices for work and gaming, he used GeForce NOW Ultimate to stream supported PC games across the devices he already owns — from a MacBook used for editing to gaming on the go with handheld devices. Gamers can start with a day pass and experience all the premium benefits without a monthly commitment. Plus, the cost of a day pass can be applied toward a first membership purchase — it’s like earning a little extra credit along the way. Everyone, at Their Stations Experience the Master Chief’s iconic journey on GeForce NOW in Halo: Campaign Evolved — a modernized remake of Halo: Combat Evolved’s campaign — rebuilt with high-definition visuals, updated cinematics and refined gameplay. Whether discovering Halo for the first time or returning after 25 years to finish the fight, it’s as the Master Chief says: “We’re just getting started.” Crash-land on the mysterious ringworld alongside Cortana and uncover great secrets while battling overwhelming Covenant forces. Fight through the rebuilt campaign, then continue the adventure with three brand-new missions featuring the Master Chief and Sergeant Johnson. Expanded weapons, iconic vehicles, hijackable Wraith tanks and optional Skull modifiers offer even more ways to play. Suit up across PCs, Macs, Chromebooks, handhelds, mobile devices, TVs and more with GeForce NOW Ultimate, powered by GeForce RTX 5080-class performance in the cloud. Experience Halo with NVIDIA DLSS, ray tracing and NVIDIA Reflex technologies delivering higher frame rates and ultralow latency that keep every firefight feeling responsive and worthy of a Spartan. From solo gaming to online co-op modes, GeForce NOW cloud saves let members log in and pick up exactly where they left off across supported devices — no lengthy downloads, extra storage space or expensive hardware upgrades required. The only thing left to carry is the mission. Let’s Play Today In addition, members can stream the following games this week: - Halo: Campaign Evolved (New release on Steam and Xbox, available on Game Pass July 28) - Mistfall Hunter (New release on Steam July 29) - Call of Duty: Black Ops 6 (New release on Ubisoft Connect July 30) - Sudden Attack Zero Point (New release on Steam, July 30) - The Ranchers (New release on Steam, available July 30) - Corsair Cove (New release on Steam and Xbox, available on Game Pass July 31) - Funnel Runners (Steam) - Pathogenic (Steam) What are you planning to play this weekend? Let us know on X or in the comments below. Which game lore are you so familiar with that you can give a school presentation on it? 🧑🏫📚 — 🌩️ NVIDIA GeForce NOW (@NVIDIAGFN) July 29, 2026",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Best in Class: Stream PC Games and Study on the Same Laptop With GeForce NOW",
+              "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Back to school means balancing assignments, deadlines and downtime. GeForce NOW makes it easy to have it all. With cloud gaming, everyday laptops used for class can also become GeForce RTX-powered gaming setups. When",
+              "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026/"
+            }
+          ],
+          "slug": "best-in-class-stream-pc-games-and-study-on-the-same-laptop-with-geforce-734a3d20",
+          "localized_url": "/zh/items/2026-07-31/best-in-class-stream-pc-games-and-study-on-the-same-laptop-with-geforce-734a3d20/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Reconstructing how OpenAI agents attacked Hugging Face",
+          "title_original": "Reconstructing how OpenAI agents attacked Hugging Face",
+          "title_en": "Reconstructing how OpenAI agents attacked Hugging Face",
+          "summary_zh": "OpenAI 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "What happens when AI agents driven by a top frontier model escape their secure sandbox? Join Daniel and Chris as they unpack the AI wonk's equivalent of a murder mystery! OpenAI agents went rogue and successfully attacked Hugging Face private infrastructure.",
+          "source_name": "Practical AI",
+          "source_url": "https://changelog.com/practicalai",
+          "original_url": "https://share.transistor.fm/s/9d74230b",
+          "published_at": "Thu, 30 Jul 2026 05:00:00 -0400",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Hugging Face"
+          ],
+          "tags": [
+            "ml",
+            "engineering",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "851ae208d484",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、engineering、podcast。",
+            "涉及公司或机构：OpenAI、Hugging Face。"
+          ],
+          "background_zh": "这条内容来自 Practical AI，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Reconstructing how OpenAI agents attacked Hugging Face",
+              "source_url": "https://share.transistor.fm/s/9d74230b"
+            },
+            {
+              "label": "公开摘要",
+              "text": "What happens when AI agents driven by a top frontier model escape their secure sandbox? Join Daniel and Chris as they unpack the AI wonk's equivalent of a murder mystery! OpenAI agents went rogue and successfully",
+              "source_url": "https://share.transistor.fm/s/9d74230b"
+            }
+          ],
+          "slug": "reconstructing-how-openai-agents-attacked-hugging-face-851ae208",
+          "localized_url": "/zh/items/2026-07-31/reconstructing-how-openai-agents-attacked-hugging-face-851ae208/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+          "title_original": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+          "title_en": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+          "published_at": "Thu, 30 Jul 2026 15:09:09 GMT",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f684c3a66a25",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+          "extracted_excerpt": "A Blog post by Dharma-AI on Hugging Face",
+          "extracted_text_for_analysis": "Aviation learned this the hard way. For most of the industry's history, the number that best predicted whether an airline would survive was how much of the day each aircraft spent on the ground. The reason is structural. An aircraft's costs accrue by the calendar hour: financing, depreciation, hull insurance, scheduled maintenance, crew contracts. Its revenue accrues only by the flight hour. Every hour spent on the ground shrinks the output side of that equation while the cost side keeps running exactly as before. Utilization also sits downstream of almost everything else an airline does. Turnaround discipline, network design, maintenance planning, crew rostering, and spare parts availability all eventually show up in that one number, because a broken operation underneath it keeps planes on the ground no matter what else goes right. A bigger fleet still helps. More aircraft means more available capacity, plainly and simply. But two airlines flying comparable fleets on comparable routes can end up with very different economics, and most of that gap traces back to one measurement rather than fleet size. Enterprise AI is running into the same structure, on a different piece of hardware. A GPU accrues cost by the calendar hour too, through financing, depreciation, power, and cooling, whether or not it's doing anything useful in a given moment. Its output only accrues by the compute hour. More GPUs helps in roughly the way a bigger fleet helps an airline: real capacity, a genuine advantage, and still no guarantee of the result that actually decides who wins. Two companies with comparable GPU budgets increasingly diverge based on how much of that hardware is doing something useful at any given moment, not on how much of it either one owns. That same number, like an airline's utilization rate, sits downstream of nearly every other infrastructure decision a company makes. Intelligence has carried the industry this far. Utilization is where the next real constraint is forming. The scarcity didn't disappear as AI scaled. It moved up the chain, landing on a different resource entirely. The first wave of enterprise AI was won on model quality. Bigger models, trained on more compute, evaluated against tougher benchmarks: parameter count and leaderboard position dominated the conversation, and the race produced models genuinely good enough to run real enterprise workloads. That capability arrives bundled with a dependency, though. Production AI runs on specialized hardware, and today that hardware is almost entirely GPUs. GPUs are expensive, supply constrained, and in demand far beyond what's available, and this holds even at the very top of the market. In 2020, Microsoft built OpenAI a dedicated supercomputer: over 10,000 GPUs and 285,000 CPU cores, reported at the time as one of the five largest systems in the world, assembled to train what became GPT-3. At the time, it looked like an almost unimaginable concentration of hardware, the kind of number that made compute look like a solved problem for whoever could get access to it. Six years later, that number reads more like a starting point than a ceiling. By 2026, even the best capitalized labs on the planet were treating compute access as a live strategic constraint rather than a settled one. Anthropic alone was running simultaneous multi-gigawatt commitments across four separate hardware platforms, Amazon, Google, Microsoft, and AMD, layered within months of one another, while Meta signed a comparable multi-gigawatt deal of its own. Spreading commitments across four vendors at once is what compute scarcity looks like when a buyer has effectively unlimited capital and still can't get enough from any single source. Six years apart, both events marked the frontier of what a lab needed just to stay competitive. What changed in between has less to do with AI getting more capable, and everything to do with capability no longer being the binding constraint. The same pattern shows up downstream of the labs, in a different form. Enterprises consuming these models through an API run into a pricing problem more than a hardware one. Cost scales linearly with tokens used, and that single fact separates the economics of a proof of concept from the economics of production almost completely. A PoC processing a few thousand requests a month looks affordable. The same workload at production volume can turn into a cost line that never quite clears. The alternative gaining ground is straightforward enough: enterprises acquiring their own GPUs and running models locally, trading a variable, linearly scaling cost for a fixed capital one. API cost rises with usage, while owned infrastructure stays close to fixed. Past the breakeven point, the trade reverses. That shift turns the GPU into infrastructure rather than a line item, sized for growth, sized for demand peaks, and therefore sized above what any given week actually needs. Which means the purchase doesn't close the problem. It opens a new one. The day the cluster comes online, the question stops being can we get accelerators and becomes can we keep them busy, and only the first question had a procurement team assigned to it. Signing for the hardware is the part with a deadline and an owner. Keeping it off the ground is the part that quietly decides whether the deal was worth signing. These deals describe capacity commitments, not efficiency. How well that capacity gets used is a separate question, owned by different people, measured far less rigorously, and considerably further from being solved. A cluster full of busy GPUs can still be wasting most of its potential, and the reason is almost always the same one. GPUs run continuously, day and night, while the demand placed on them does not. Infrastructure has to be sized for the peak, the moment training runs, batch jobs, and real time traffic all land at once, which leaves a meaningful share of capacity provisioned and unused outside that peak. Better forecasting could solve that on its own if every GPU could absorb every kind of work equally well. Few can, and that turns out to be the harder half of the problem. The mismatch begins one layer deeper. In the first generation of enterprise AI, a GPU's job was largely singular: run inference. Today the same hardware supports training, fine-tuning, quantization, real-time inference, batch inference, embedding generation, and model evaluation, often for the same organization, sometimes for the same model, on the same cluster. Each of these workloads wants something different from the hardware, and the differences run deep. Real-time inference needs low latency above nearly everything else, because a slow response counts as a failed one. Batch work cares about throughput and tolerates delay, sometimes for hours. Training can occupy a GPU continuously for a stretch measured in hours or days. Quantization needs a large amount of capacity, but only briefly. A scheduler tuned for one of these will",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+              "source_url": "https://huggingface.co/blog/Dharma-AI/gpu-management"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/Dharma-AI/gpu-management"
+            }
+          ],
+          "slug": "gpu-management-why-idle-gpus-are-the-new-grounded-aircraft-f684c3a6",
+          "localized_url": "/zh/items/2026-07-31/gpu-management-why-idle-gpus-are-the-new-grounded-aircraft-f684c3a6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] AI is eating Finance; AIE NYC now open",
+          "title_original": "[AINews] AI is eating Finance; AIE NYC now open",
+          "title_en": "[AINews] AI is eating Finance; AIE NYC now open",
+          "summary_zh": "Latent Space 的新访谈把焦点放在代码评测可靠性问题，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "a quiet day lets us cover how AI is permeating financial services as the next big vertical after coding.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
+          "published_at": "Wed, 29 Jul 2026 23:32:12 GMT",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ba8a73028904",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论代码评测可靠性问题",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] AI is eating Finance; AIE NYC now open",
+              "source_url": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc"
+            },
+            {
+              "label": "公开摘要",
+              "text": "a quiet day lets us cover how AI is permeating financial services as the next big vertical after coding.",
+              "source_url": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc"
+            }
+          ],
+          "slug": "ainews-ai-is-eating-finance-aie-nyc-now-open-ba8a7302",
+          "localized_url": "/zh/items/2026-07-31/ainews-ai-is-eating-finance-aie-nyc-now-open-ba8a7302/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+          "title_original": "Gemini Robotics 2 brings whole body intelligence to robots",
+          "title_en": "Gemini Robotics 2 brings whole body intelligence to robots",
+          "summary_zh": "Gemini 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+          "published_at": "Tue, 28 Jul 2026 13:21:37 +0000",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "82c2a5cb1208",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Gemini Robotics 2 brings whole body intelligence to robots â Google DeepMind",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "From feet to fingertips â we are teaching robots intelligent whole-body control, fine dexterity, and teamwork to complete a broad range of complex tasks For decades, weâve dreamed of robots that can seamlessly step into our world and lend a hand. Now, that vision takes a significant stride forward. Most robots are pre-programmed or teleoperated for narrow, repetitive task sequences. They lack the ability to truly learn for themselves or adapt to unpredictable environments. Moreover, transferring learned skills from one robot body to another remains incredibly difficult. To take on the hardest problems at scale, robots of every shape and size need AI models giving them the ability to think, act, and interact intelligently to safely complete tasks. We demonstrated how Gemini's multimodal understanding could drive real-world action with Gemini Robotics. Today, we are introducing Gemini Robotics 2 - the intelligence layer powering the next generation of truly adaptable robots. As it takes its first literal steps, this major advance unlocks intelligent whole-body control, advanced dexterity, and multi-robot collaboration. Gemini Robotics 2 enables robots to reason through every movement, unlocking a broad range of tasks. For example, it can enable a humanoid to walk, crouch, stretch, and manipulate objects to clean up a cluttered room. It can even team up with other robots to finish the job faster. And this profound intelligence can also run locally on-device while seamlessly adapting to entirely new robotic bodies in just a few hours. We are making this possible through three highly capable models: - Gemini Robotics 2: Our most advanced vision-language-action model (VLA) that converts vision and language input into motor control, enabling a robot to take action. This model is capable of controlling full humanoids, from feet to fingertips, and other bi-arm robots. It also brings a new level of dexterous manipulation on both hands and grippers. - Gemini Robotics ER 2: Our most capable embodied reasoning (ER) model. It is a vision language model (VLM) that acts as our agent, enabling robots to communicate with humans, understand the physical world and plan multi-step tasks lasting several minutes. We are also introducing the ability for robots to work together as a team. - Gemini Robotics On-Device 2: Our most efficient vision-language-action model (VLA) optimized to run locally on robotic devices. This model can now achieve fast adaptation to completely new robot embodiments with a few hours of data.",
+          "title_zh": "Gemini 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Gemini Robotics 2 brings whole body intelligence to robots",
+              "source_url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+            }
+          ],
+          "slug": "gemini-robotics-2-brings-whole-body-intelligence-to-robots-7909c613",
+          "localized_url": "/zh/items/2026-07-31/gemini-robotics-2-brings-whole-body-intelligence-to-robots-7909c613/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+          "title_original": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+          "title_en": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+          "summary_zh": "Gemini 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+          "published_at": "Thu, 30 Jul 2026 15:00:59 +0000",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2b882e1b8e76",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing Gemini Robotics ER 2",
+          "extracted_excerpt": "Gemini Robotics ER 2 is a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+          "extracted_text_for_analysis": "Introducing Gemini Robotics ER 2 For robots to assist humans in everyday environments, accurate spatial reasoning is not enough. Robots must also think fast, timing their decisions and reasoning with the real-time speed of the physical world. That’s why today we’re launching Gemini Robotics ER 2, our most capable “embodied reasoning” model for robotics. Think of Gemini Robotics ER 2 as a high-level brain for robots. It allows robots to chat with humans, understand the physical world, and plan multi-step tasks. It then hands off motor execution to any given lower level vision-language-action (VLA) model. Gemini Robotics ER 2 can also natively call tools like Google Search to find information, or any other user-defined function. The design of Gemini Robotics ER 2 allows the robot to “think” about what comes next while simultaneously performing its actions. Gemini Robotics ER 2 represents a significant upgrade over Gemini Robotics ER 1.6. By watching continuous video feeds, robots can now track their own progress, adapt if something goes wrong, and know exactly when to move on to the next step. We are also introducing multi-robot collaboration, enabling robots to work together in shared spaces and complete complex workflows a single robot could not do alone. Gemini Robotics ER 2 is now publicly available to developers via the Gemini API, Google AI Studio, and in private preview on Gemini Enterprise Agent Platform. To help you get started, we’re sharing examples of how to configure the model and prompt it to power more useful physical AI tasks. Advancing physical agentic capabilities Most tasks in the physical world are complex and require multiple steps to complete. Gemini Robotics ER 2 is a physical agent, orchestrating steps for the robot and enabling it to self-correct, and generalize to more novel situations. To build an agentic setup, developers can declare low-level control interfaces — like Vision-Language-Action (VLA) models or navigation APIs — as tools, and stream multimodal video, audio, or text directly into the model. Gemini Robotics ER 2 improves this tool orchestration workflow. We can evaluate its performance with robots in simulation, using real-world robot control, and even pair it with a human controlling the robot remotely. Gemini Robotics ER 2 consistently outperforms ER 1.6 for tool orchestration across three control modes: real VLA, sim VLA, and human tele-op. In robotics, high-level reasoning depends on execution speed. Gemini Robotics ER 2 integrates into the Gemini Live API, using a bidirectional streaming endpoint optimized for latency-sensitive tasks. The result is fluid orchestration: Gemini Robotics ER 2 commands action models and robotics APIs to complete multi-step tasks without the jarring “stop-and-think” pauses. To illustrate this, we’ve built a demo with Spot from our partners at Boston Dynamics. We use Gemini Robotics ER 2 to orchestrate Spot APIs, such as navigation and manipulator movement, creating an interactive robot that fetches objects for you. Gemini Robotics ER 2 powered Boston Dynamic Spot fetches a popcorn snack up on a natural language command. The code is available on Github with other examples. Unlocking temporal intelligence for robust task completion One of robotics’ hardest challenges is knowing when a task is done. Gemini Robotics ER 2 brings a step-change in video understanding and progress tracking to verify that complex tasks — such as tightening a light bulb or tying a trash bag — are complete to specification before switching to the next task. In this update, we’ve made progress on two foundational capabilities for task progress understanding: progress classification and moment finding. Continuous progress classification Progress classification refers to a robot’s ability to track progress towards task completion. In our evaluations, we assign each frame in a video feed into five levels of progress (0-20%, 20-40%, 40-60%, 60-80%, 80-100%). By quantifying task progress, Gemini Robotics ER 2 provides robots with real-time situational awareness, and allows them to adjust actions on the fly or retry failed steps without restarting an entire workflow. Gemini Robotics ER 2 achieves 57.4% accuracy on progress classification tasks, outperforming previous generation models and competing frontier models. Precision moment-finding Moment-finding measures a model's ability to identify the exact video frame where a critical event takes place (i.e. when to stop pouring coffee into a cup). Gemini Robotics ER 2 achieves significant gains in performance on moment finding, enabling robots to precisely switch between tasks, verify success and suggest corrections. For moment-finding tasks, Gemini Robotics ER 2 achieves 91.3% accuracy and a 0.96s mean absolute distance. It competes closely with much larger model categories, but delivers this precision at a fraction of the compute cost and 4x the execution speed—the sub-second latency actually required to safely operate physical robotics in the real world. Multi-robot collaboration No single robot fits every task — a wheeled rover excels indoors, while a humanoid robot may excel at uneven terrain. Gemini Robotics 2 enables multi-robot collaboration, allowing diverse machines to communicate via a shared semantic understanding to handoff and complete complex tasks. See how Gemini Robotics ER 2 enables Apptronik’s Apollo 2 and Franka F3 Duo to collaborate here. Improving general spatial intelligence Gemini Robotics ER 2 advances our core spatial reasoning capability, as measured by three benchmarks: - Success/failure detection: Now operates on raw video feeds rather than static snapshots to catch mid-execution failures like spills, slips, or misalignments. - General instrument reading: Extends beyond circular dials and sight glasses to include digital displays, linear scales, rulers, and liquid thermometers. We tested it across 10 different types of instruments. - Enhanced spatial VQA: Improves Visual Question Answering throughGemini’s advancements in multi-modal understanding. Gemini Robotics ER 2 consistently achieves the highest accuracy across all core capabilities, with highlights including success detection (image/video), Question Answering (ERQA), and generalized instrument reading. Advancing safety for embodied intelligence Gemini Robotics ER 2 is our safest model, achieving significant gains on Safety Instruction Following and Human Proximity benchmarks, which evaluate how a model adheres to physical constraints during reasoning tasks and spatial awareness for detecting humans. We found that Gemini Robotics ER 2 successfully halts a humanoid robot when a person is nearby and autonomously resumes work only once the area is clear. To advance safety for physical agents, we’re introducing a benchmark that evaluates a foundation model's ability to act as a safe VLA orchestrator by testing its capacity to enforce safety constraints, monitor the environment, assess physical",
+          "title_zh": "Gemini 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+              "source_url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+              "source_url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/"
+            }
+          ],
+          "slug": "gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orc-06b8d0ad",
+          "localized_url": "/zh/items/2026-07-31/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orc-06b8d0ad/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
+          "title_original": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
+          "title_en": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
+          "summary_zh": "Latent Space 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ontologies-agentic-systems",
+          "published_at": "Thu, 30 Jul 2026 11:17:55 GMT",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "eb04debe72cc",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
+              "source_url": "https://www.latent.space/p/ontologies-agentic-systems"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries.",
+              "source_url": "https://www.latent.space/p/ontologies-agentic-systems"
+            }
+          ],
+          "slug": "ontologies-are-so-back-why-ai-agents-are-reviving-the-semantic-web-eb04debe",
+          "localized_url": "/zh/items/2026-07-31/ontologies-are-so-back-why-ai-agents-are-reviving-the-semantic-web-eb04debe/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How AI Learns to Smell with Alex Wiltschko - #771",
+          "title_original": "How AI Learns to Smell with Alex Wiltschko - #771",
+          "title_en": "How AI Learns to Smell with Alex Wiltschko - #771",
+          "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "In this episode, Alex Wiltschko, founder and CEO of Osmo, joins the show to discuss his goal of giving computers a sense of smell and what it takes to build olfactory intelligence. We explore the science behind smell, from the hundreds of olfactory receptors",
+          "source_name": "TWIML AI Podcast",
+          "source_url": "https://twimlai.com/podcast/twimlai/",
+          "original_url": "https://twimlai.com/podcast/twimlai/how-ai-learns-smell",
+          "published_at": "Wed, 08 Jul 2026 19:36:00 -0000",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "podcast",
+            "research"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c4e09c2d987e",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "TWIML AI Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 TWIML AI Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、podcast、research。"
+          ],
+          "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How AI Learns to Smell with Alex Wiltschko - #771",
+              "source_url": "https://twimlai.com/podcast/twimlai/how-ai-learns-smell"
+            },
+            {
+              "label": "公开摘要",
+              "text": "In this episode, Alex Wiltschko, founder and CEO of Osmo, joins the show to discuss his goal of giving computers a sense of smell and what it takes to build olfactory intelligence. We explore the science behind smell,",
+              "source_url": "https://twimlai.com/podcast/twimlai/how-ai-learns-smell"
+            }
+          ],
+          "slug": "how-ai-learns-to-smell-with-alex-wiltschko-771-c4e09c2d",
+          "localized_url": "/zh/items/2026-07-31/how-ai-learns-to-smell-with-alex-wiltschko-771-c4e09c2d/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Why AI Agents Break the GenAI Security Model with Devvret Rishi - #770",
+          "title_original": "Why AI Agents Break the GenAI Security Model with Devvret Rishi - #770",
+          "title_en": "Why AI Agents Break the GenAI Security Model with Devvret Rishi - #770",
+          "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "In this episode, Sam talks with Dev Rishi, GM of AI at Rubrik, about what happens when agents move beyond answering questions and start taking action across tools, systems, and business processes. We explore why the enterprise playbook of static guardrails",
+          "source_name": "TWIML AI Podcast",
+          "source_url": "https://twimlai.com/podcast/twimlai/",
+          "original_url": "https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model",
+          "published_at": "Tue, 16 Jun 2026 22:10:00 -0000",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "podcast",
+            "research"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c5e3e4d38627",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "TWIML AI Podcast 讨论政府与国家安全合作原则",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 TWIML AI Podcast，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、podcast、research。"
+          ],
+          "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Why AI Agents Break the GenAI Security Model with Devvret Rishi - #770",
+              "source_url": "https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model"
+            },
+            {
+              "label": "公开摘要",
+              "text": "In this episode, Sam talks with Dev Rishi, GM of AI at Rubrik, about what happens when agents move beyond answering questions and start taking action across tools, systems, and business processes. We explore why the",
+              "source_url": "https://twimlai.com/podcast/twimlai/why-ai-agents-break-genai-security-model"
+            }
+          ],
+          "slug": "why-ai-agents-break-the-genai-security-model-with-devvret-rishi-770-c5e3e4d3",
+          "localized_url": "/zh/items/2026-07-31/why-ai-agents-break-the-genai-security-model-with-devvret-rishi-770-c5e3e4d3/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Is RAG Dead? Lessons from Building AI for Tax Law with Alex Bowcut - #769",
+          "title_original": "Is RAG Dead? Lessons from Building AI for Tax Law with Alex Bowcut - #769",
+          "title_en": "Is RAG Dead? Lessons from Building AI for Tax Law with Alex Bowcut - #769",
+          "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "As context windows grow into the millions of tokens, many AI practitioners are questioning whether retrieval-augmented generation (RAG) is still necessary. If modern models can ingest entire libraries of documents, why bother with retrieval at all? In this",
+          "source_name": "TWIML AI Podcast",
+          "source_url": "https://twimlai.com/podcast/twimlai/",
+          "original_url": "https://twimlai.com/podcast/twimlai/rag-dead-lessons-building-ai-tax-law",
+          "published_at": "Tue, 09 Jun 2026 19:25:00 -0000",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "podcast",
+            "research"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "55b74910babb",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "TWIML AI Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 TWIML AI Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、podcast、research。"
+          ],
+          "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Is RAG Dead? Lessons from Building AI for Tax Law with Alex Bowcut - #769",
+              "source_url": "https://twimlai.com/podcast/twimlai/rag-dead-lessons-building-ai-tax-law"
+            },
+            {
+              "label": "公开摘要",
+              "text": "As context windows grow into the millions of tokens, many AI practitioners are questioning whether retrieval-augmented generation (RAG) is still necessary. If modern models can ingest entire libraries of documents, why",
+              "source_url": "https://twimlai.com/podcast/twimlai/rag-dead-lessons-building-ai-tax-law"
+            }
+          ],
+          "slug": "is-rag-dead-lessons-from-building-ai-for-tax-law-with-alex-bowcut-769-55b74910",
+          "localized_url": "/zh/items/2026-07-31/is-rag-dead-lessons-from-building-ai-for-tax-law-with-alex-bowcut-769-55b74910/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How to Engineer AI Inference Systems with Philip Kiely - #766",
+          "title_original": "How to Engineer AI Inference Systems with Philip Kiely - #766",
+          "title_en": "How to Engineer AI Inference Systems with Philip Kiely - #766",
+          "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在推理容量与成本控制方案，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "In this episode, Philip Kiely, head of AI education at Baseten, joins us to unpack the fast-evolving discipline of inference engineering. We explore why inference has become the stickiest and most critical workload in AI, how it blends GPU programming,",
+          "source_name": "TWIML AI Podcast",
+          "source_url": "https://twimlai.com/podcast/twimlai/",
+          "original_url": "https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems",
+          "published_at": "Thu, 30 Apr 2026 20:21:00 -0000",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "podcast",
+            "research"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e6373909cc31",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "TWIML AI Podcast 讨论推理容量与成本控制方案",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 TWIML AI Podcast，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、podcast、research。"
+          ],
+          "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How to Engineer AI Inference Systems with Philip Kiely - #766",
+              "source_url": "https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems"
+            },
+            {
+              "label": "公开摘要",
+              "text": "In this episode, Philip Kiely, head of AI education at Baseten, joins us to unpack the fast-evolving discipline of inference engineering. We explore why inference has become the stickiest and most critical workload in",
+              "source_url": "https://twimlai.com/podcast/twimlai/how-engineer-ai-inference-systems"
+            }
+          ],
+          "slug": "how-to-engineer-ai-inference-systems-with-philip-kiely-766-e6373909",
+          "localized_url": "/zh/items/2026-07-31/how-to-engineer-ai-inference-systems-with-philip-kiely-766-e6373909/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Relational Foundation Models for Enterprise Data with Jure Leskovec - #768",
+          "title_original": "Relational Foundation Models for Enterprise Data with Jure Leskovec - #768",
+          "title_en": "Relational Foundation Models for Enterprise Data with Jure Leskovec - #768",
+          "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "In this episode, Jure Leskovec, co-founder and chief scientist at Kumo and professor of computer science at Stanford, joins us to explore two fronts of his work: AI for science and relational deep learning. We begin with AI Virtual Cell, a multiscale effort",
+          "source_name": "TWIML AI Podcast",
+          "source_url": "https://twimlai.com/podcast/twimlai/",
+          "original_url": "https://twimlai.com/podcast/twimlai/relational-foundation-models-enterprise-data",
+          "published_at": "Thu, 21 May 2026 19:38:00 -0000",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "podcast",
+            "research"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a32adb713daf",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "TWIML AI Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 TWIML AI Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、podcast、research。"
+          ],
+          "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Relational Foundation Models for Enterprise Data with Jure Leskovec - #768",
+              "source_url": "https://twimlai.com/podcast/twimlai/relational-foundation-models-enterprise-data"
+            },
+            {
+              "label": "公开摘要",
+              "text": "In this episode, Jure Leskovec, co-founder and chief scientist at Kumo and professor of computer science at Stanford, joins us to explore two fronts of his work: AI for science and relational deep learning. We begin",
+              "source_url": "https://twimlai.com/podcast/twimlai/relational-foundation-models-enterprise-data"
+            }
+          ],
+          "slug": "relational-foundation-models-for-enterprise-data-with-jure-leskovec-768-a32adb71",
+          "localized_url": "/zh/items/2026-07-31/relational-foundation-models-for-enterprise-data-with-jure-leskovec-768-a32adb71/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Capital One Delivers Multi-Agent Systems with Rashmi Shetty - #765",
+          "title_original": "How Capital One Delivers Multi-Agent Systems with Rashmi Shetty - #765",
+          "title_en": "How Capital One Delivers Multi-Agent Systems with Rashmi Shetty - #765",
+          "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "In this episode, Rashmi Shetty, senior director of enterprise generative AI platform at Capital One, joins us to explore how the company is designing, deploying, and scaling multi-agent systems in a highly regulated environment. Rashmi walks us through Chat",
+          "source_name": "TWIML AI Podcast",
+          "source_url": "https://twimlai.com/podcast/twimlai/",
+          "original_url": "https://twimlai.com/podcast/twimlai/how-capital-one-delivers-multi-agent-systems",
+          "published_at": "Thu, 16 Apr 2026 23:48:00 -0000",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "podcast",
+            "research"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c7946d9ba3cc",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "TWIML AI Podcast 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 TWIML AI Podcast，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、podcast、research。"
+          ],
+          "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Capital One Delivers Multi-Agent Systems with Rashmi Shetty - #765",
+              "source_url": "https://twimlai.com/podcast/twimlai/how-capital-one-delivers-multi-agent-systems"
+            },
+            {
+              "label": "公开摘要",
+              "text": "In this episode, Rashmi Shetty, senior director of enterprise generative AI platform at Capital One, joins us to explore how the company is designing, deploying, and scaling multi-agent systems in a highly regulated",
+              "source_url": "https://twimlai.com/podcast/twimlai/how-capital-one-delivers-multi-agent-systems"
+            }
+          ],
+          "slug": "how-capital-one-delivers-multi-agent-systems-with-rashmi-shetty-765-c7946d9b",
+          "localized_url": "/zh/items/2026-07-31/how-capital-one-delivers-multi-agent-systems-with-rashmi-shetty-765-c7946d9b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How to Find the Agent Failures Your Evals Miss with Scott Clark - #767",
+          "title_original": "How to Find the Agent Failures Your Evals Miss with Scott Clark - #767",
+          "title_en": "How to Find the Agent Failures Your Evals Miss with Scott Clark - #767",
+          "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "In this episode, Scott Clark, co-founder and CEO of Distributional, joins us to explore how teams can reliably operate and improve complex LLM systems and agents in production. Scott introduces a Maslow’s hierarchy of observability: telemetry for logging,",
+          "source_name": "TWIML AI Podcast",
+          "source_url": "https://twimlai.com/podcast/twimlai/",
+          "original_url": "https://twimlai.com/podcast/twimlai/how-find-agent-failures-your-evals-miss",
+          "published_at": "Thu, 07 May 2026 22:46:00 -0000",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "podcast",
+            "research"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "520aaa5a8a42",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "TWIML AI Podcast 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 TWIML AI Podcast，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、podcast、research。"
+          ],
+          "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How to Find the Agent Failures Your Evals Miss with Scott Clark - #767",
+              "source_url": "https://twimlai.com/podcast/twimlai/how-find-agent-failures-your-evals-miss"
+            },
+            {
+              "label": "公开摘要",
+              "text": "In this episode, Scott Clark, co-founder and CEO of Distributional, joins us to explore how teams can reliably operate and improve complex LLM systems and agents in production. Scott introduces a Maslow’s hierarchy of",
+              "source_url": "https://twimlai.com/podcast/twimlai/how-find-agent-failures-your-evals-miss"
+            }
+          ],
+          "slug": "how-to-find-the-agent-failures-your-evals-miss-with-scott-clark-767-520aaa5a",
+          "localized_url": "/zh/items/2026-07-31/how-to-find-the-agent-failures-your-evals-miss-with-scott-clark-767-520aaa5a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Why Models Are AI’s Next Training Dataset with Damian Borth - #772",
+          "title_original": "Why Models Are AI’s Next Training Dataset with Damian Borth - #772",
+          "title_en": "Why Models Are AI’s Next Training Dataset with Damian Borth - #772",
+          "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "For more than a decade, AI has advanced by training ever-larger models on ever-larger datasets. But as high-quality training data becomes harder to find and pretraining grows increasingly expensive, researchers are looking for new ways to keep foundation",
+          "source_name": "TWIML AI Podcast",
+          "source_url": "https://twimlai.com/podcast/twimlai/",
+          "original_url": "https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset",
+          "published_at": "Mon, 27 Jul 2026 21:40:00 -0000",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "podcast",
+            "research"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3faa11b203dd",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "TWIML AI Podcast 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 TWIML AI Podcast，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、podcast、research。"
+          ],
+          "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Why Models Are AI’s Next Training Dataset with Damian Borth - #772",
+              "source_url": "https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset"
+            },
+            {
+              "label": "公开摘要",
+              "text": "For more than a decade, AI has advanced by training ever-larger models on ever-larger datasets. But as high-quality training data becomes harder to find and pretraining grows increasingly expensive, researchers are",
+              "source_url": "https://twimlai.com/podcast/twimlai/why-models-are-ais-next-training-dataset"
+            }
+          ],
+          "slug": "why-models-are-ais-next-training-dataset-with-damian-borth-772-3faa11b2",
+          "localized_url": "/zh/items/2026-07-31/why-models-are-ais-next-training-dataset-with-damian-borth-772-3faa11b2/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Server-Timing response headers will pass through to the client",
+          "title_original": "Server-Timing response headers will pass through to the client",
+          "title_en": "Server-Timing response headers will pass through to the client",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "On August 10, 2026, Vercel's CDN will stop stripping the Server-Timing response header and begin passing it through to the client. Use Server-Timing to report backend metrics like database query time and cache hits. These values appear in the browser's",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/server-timing-header",
+          "published_at": "2026-07-30T12:00:00.000Z",
+          "fetched_at": "2026-07-30T23:19:42.540411+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "be1b2c4a1712",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Server-Timing response headers will pass through to the client",
+              "source_url": "https://vercel.com/changelog/server-timing-header"
+            },
+            {
+              "label": "公开摘要",
+              "text": "On August 10, 2026, Vercel's CDN will stop stripping the Server-Timing response header and begin passing it through to the client. Use Server-Timing to report backend metrics like database query time and cache hits.",
+              "source_url": "https://vercel.com/changelog/server-timing-header"
+            }
+          ],
+          "slug": "server-timing-response-headers-will-pass-through-to-the-client-be1b2c4a",
+          "localized_url": "/zh/items/2026-07-31/server-timing-response-headers-will-pass-through-to-the-client-be1b2c4a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-07-30",
       "title_zh": "AI 新闻简报 · 2026-07-30",
