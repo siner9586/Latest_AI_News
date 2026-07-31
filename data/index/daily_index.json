@@ -1,7 +1,1246 @@
 {
-  "updated_at": "2026-07-30T23:19:45.118443+00:00",
-  "count": 52,
+  "updated_at": "2026-07-31T23:17:10.309353+00:00",
+  "count": 53,
   "briefs": [
+    {
+      "date": "2026-08-01",
+      "title_zh": "AI 新闻简报 · 2026-08-01",
+      "title_en": "English AI News Brief · 2026-08-01",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 134 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 134 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 134,
+      "selected_count": 18,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+          "title_original": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+          "title_en": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/avatarin",
+          "published_at": "Thu, 30 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9146ff1756af",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+          "extracted_excerpt": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+          "extracted_text_for_analysis": "Results 30,000 shoppers engaged during a two-week public experience Results 92% of post-use survey responses were positive Japan’s home-appliance retailers face a persistent challenge: extending expert sales support beyond store hours while staffing remains tight. avatarin, an AI customer service company spun out of ANA Holdings, partnered with Yamada Holdings to turn experienced associates’ knowledge into a 24/7 multilingual shopping agent. Built on OpenAI’s GPT‑Realtime, the Kurashi-Marugoto AI Agent supports natural voice conversations and guides shoppers from product discovery to purchase decisions. In a two-week public campaign on Yamada Denki’s online store, approximately 30,000 people used the agent; 92% of survey responses were positive. “This is not an extension of the conventional chatbot. It is an attempt to expand what customer service can be with AI. We see it as the beginning of an ‘interface revolution’ in retail.” avatarin had worked with OpenAI well before the Yamada Denki project, using the OpenAI API for speech recognition, inquiry analysis, and employee training. Those earlier efforts helped the team understand what it takes to apply AI in practice. The shopping agent was its first major opportunity to bring those lessons directly to customers. For Fukabori, one of the key advantages of GPT‑Realtime was the ability to bring voice, text, and visual understanding together within a single conversational experience. “For us, the performance of a single model went beyond what we had seen from specialized speech recognition systems. It can work across speech, text, and images with low latency. That is why we chose GPT‑Realtime. Instead of asking people to adapt to the rules of a machine, the technology can adapt much more naturally to the way people communicate.” A conventional chatbot waits for the right keyword. avatarin’s agent listens for context instead. It can respond to a shopper’s uncertainty, changing preferences, and the details that turn a generic answer into a useful recommendation. Fukabori describes the difference with an everyday shopping problem. “Customers do not want a chatbot. They want intelligence. ‘I need a refrigerator for a family of four, but my kitchen is small. Which one should I choose?’ Real customer service means being able to answer that question.” avatarin designed the agent around three essential qualities: - Keeping product information accurate without slowing the conversation.A retrieval-augmented generation system grounds the agent’s responses in product information, while GPT‑Realtime keeps the interaction responsive. This allows shoppers to have a fluid voice conversation while still receiving information based on relevant product data. - Translating Yamada Denki’s sales expertise into conversation design.The information a sales associate needs to gather varies significantly by product category. avatarin incorporated Yamada Denki’s customer service knowledge into the agent’s conversation flows and prompting. The system is designed to adapt when customers change their requirements or move temporarily off topic, while guardrails help keep the conversation focused on the shopping experience. - Designing an agent that asks, rather than only answers.Many traditional chatbot experiences wait for the customer to provide the next instruction. avatarin took a more proactive approach. The agent asks follow-up questions to uncover the customer’s actual needs, helping move the conversation from a simple question-and-answer exchange toward guided product discovery. OpenAI worked with avatarin to structure complex prompts, optimize API costs for always-on voice service, and share implementation best practices. That support helped avatarin focus on translating Yamada Denki’s service model into an experience that felt accurate, responsive, and distinctly on-brand. “I’m excited by how naturally it understands our intentions,” Fukabori says, “and by glimpses of intelligence that sometimes go beyond what people can do.” The public campaign made the impact visible in just two weeks: - Approximately 30,000 users - 24/7 multilingual support by voice and text - 92% positive survey responses The most important discovery was not the scale alone. Every conversation revealed what shoppers cared about, why they hesitated, and what might help them decide. “With conventional online shopping, those insights were difficult to see,” Fukabori explains. “With an AI agent, they become part of the conversation.” The service also opened new moments for retail. Customers could ask questions after stores closed and speak candidly about budgets or uncertainty without feeling sales pressure. Each conversation ended with a short voice survey, making feedback a natural continuation of the shopping experience. Customers described the agent as “easier to talk to than an actual sales associate” and appreciated being able to ask questions again without feeling stressed. For avatarin, the implication reaches beyond the sale. A better conversation can also reveal how to improve service, marketing, and the next customer experience. avatarin envisions a world where a single AI agent serves customers seamlessly across the web, phone, and physical stores. Instead of separate systems for each channel, the same intelligence carries the customer’s context forward. The result is continuity: one customer, one conversation, and one brand, wherever the interaction takes place. For Yamada Holdings, whose businesses span home appliances, housing, financial services, and more, that vision could make AI a trusted companion across everyday life. The ambition is not just to connect channels, but to create AI that embodies the company’s brand and spirit of hospitality. OpenAI’s technology is helping accelerate that vision. “AI has clearly shifted into a higher gear,” Fukabori says. “I can’t wait to see what we can build with this extraordinary intelligence.” But avatarin does not want every company to sound the same. “We want people to experience one intelligence that embodies each company’s identity and brand across every interface. That is what we mean by ‘One Intelligence. One Brand. Every interface.’ The era of single purpose AI is over. I believe OpenAI will lead the next era of general purpose, multimodal intelligence.”",
+          "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+              "source_url": "https://openai.com/index/avatarin"
+            },
+            {
+              "label": "公开摘要",
+              "text": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+              "source_url": "https://openai.com/index/avatarin"
+            }
+          ],
+          "slug": "how-avatarin-built-a-24-7-retail-agent-with-gpt-realtime-9146ff17",
+          "localized_url": "/zh/items/2026-08-01/how-avatarin-built-a-24-7-retail-agent-with-gpt-realtime-9146ff17/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Advancing responsible AI across Europe",
+          "title_original": "Advancing responsible AI across Europe",
+          "title_en": "Advancing responsible AI across Europe",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+          "published_at": "Fri, 31 Jul 2026 15:00:00 GMT",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b86dc435d64a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Advancing responsible AI across Europe",
+          "extracted_excerpt": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+          "extracted_text_for_analysis": "Every day, millions of people across Europe use OpenAI’s tools to learn, create, work and manage everyday tasks. Our tools also support businesses of all sizes and governments across the region. We believe responsible AI can help drive Europe’s competitiveness and prosperity. As the EU AI Act enters its next phase, we’re sharing how we have strengthened our approach to safety, security, transparency and provenance in line with the EU framework—and how we will continue to evolve our practices as AI advances. Our mission is to ensure that artificial general intelligence benefits all of humanity. That mission carries with it an ongoing responsibility to maximize AI’s benefits, broaden access, and manage risks. That is why, for years, we have developed governance approaches and supported workable rules that help people benefit from AI safely, an objective which is central to the EU AI Act. Such rules must be pragmatic, proportionate and risk-based in order to advance governance while supporting innovation. With these principles in mind, we contributed to and endorsed two Codes of Practice: the EU’s General-Purpose AI [GPAI] Code of Practice(opens in a new window) and the Code of Practice on Transparency of AI-Generated Content(opens in a new window), both of which were developed through extensive multi-stakeholder processes and build on work we have advanced across safety, security, transparency, accountability, and provenance. The GPAI Code creates a shared framework for transparency, safety, and security for general-purpose AI models. Our work to support that framework rests on both internal governance and collaboration with external experts, governments, and peer organizations. For years, we have extensively tested our models prior to releasing them, published system cards(opens in a new window) with major releases, brought outside experts into model testing through our Red Teaming Network, and maintained the public Model Spec(opens in a new window) as a window into how we shape model behavior. We have also continued to strengthen the governance frameworks behind this work. Our Preparedness Framework, in place since 2023 and updated in 2025, sets out how we identify, evaluate, and manage serious risks from advanced AI systems. Our Frontier Governance Framework builds on that foundation and explains how our safety and security practices align with emerging legal requirements, including the EU AI Act’s GPAI Code. Together, these frameworks help translate responsible AI principles into practical decisions about risk assessment, safeguards, model reporting, security, incident response, external expert input, and ongoing updates. Responsible AI governance also requires work beyond any one company. Through the Frontier Model Forum, collaborations with US CAISI and UK AISI, and work on third-party evaluation practices, we have supported shared safety research, external testing, and clearer evaluation standards across the ecosystem. Our support for the Code of Practice on Transparency of AI-Generated Content builds on years of research, product development, and collaboration to improve provenance for AI-generated media. People should have better context about the content they see online, including whether it was created or edited with AI. OpenAI’s approach to provenance relies on two systems that reinforce each other: Content Credentials (C2PA(opens in a new window)) help content carry detailed context; while SynthID watermarks help preserve a signal when metadata does not survive. We are expanding that work to include audio outputs in addition to images. Consistent with our commitments under the Code, we are working to expand provenance measures for OpenAI’s systems across modalities, including text, as standards and tooling continue to mature. We also aim to support customers and developers building with our models by providing signals, tools, and guidance they can use in meeting their own transparency obligations. Provenance is still an evolving field: metadata can be lost, labels can fail to travel across platforms, and no single signal is perfect. That is why we support a layered approach and continued cooperation across the wider ecosystem. Cybersecurity is one area where dynamic and practical governance is especially important. The same capabilities that can help defenders identify and remediate vulnerabilities can also create new misuse risks. Our approach is to reduce misuse while helping legitimate defenders use AI through our Trusted Access for Cyber (TAC) program(opens in a new window), in order to strengthen collective resilience. We worked to deploy these advanced capabilities and support defenders in Europe. Since launching OpenAI EU Cyber Action Plan in early May 2026, we have worked with EU and national cyber agencies, private sector partners, and critical infrastructure operators, to equip them with the most advanced cyber models, and ultimately strengthen cyber resilience across the continent. This approach aligns with the European Commission’s Action Plan on Cybersecurity and Artificial Intelligence(opens in a new window), which calls for a coordinated approach to address the risks of advanced AI while harnessing its potential to strengthen cyber resilience, including through secure access to advanced AI systems for cybersecurity purposes. As implementation of the EU AI Act continues, we will keep strengthening our compliance approach and learning from regulators and the broader ecosystem. As the technology advances, rules must remain flexible enough to adapt and enable people, businesses and organizations to benefit. A pragmatic, proportionate and risk-based approach will be essential if Europe is to realise the benefits of the Intelligence Age. To support customers and developers preparing for the EU AI Act’s implementation, we provide practical resources including model documentation, system cards, safety information, usage policies and guidance on provenance and verification tools. We will continue updating these resources as implementation evolves. For more information, please see our Help Center article(opens in a new window) on OpenAI’s approach to the EU AI Act and our guidance to customers.",
+          "title_zh": "OpenAI 推进政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Advancing responsible AI across Europe",
+              "source_url": "https://openai.com/index/advancing-responsible-ai-across-europe"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+              "source_url": "https://openai.com/index/advancing-responsible-ai-across-europe"
+            }
+          ],
+          "slug": "advancing-responsible-ai-across-europe-b86dc435",
+          "localized_url": "/zh/items/2026-08-01/advancing-responsible-ai-across-europe-b86dc435/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Building abundant intelligence",
+          "title_original": "Building abundant intelligence",
+          "title_en": "Building abundant intelligence",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/building-abundant-intelligence",
+          "published_at": "Fri, 31 Jul 2026 15:00:00 GMT",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6e145b017b5a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Building abundant intelligence",
+          "extracted_excerpt": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+          "extracted_text_for_analysis": "AI infrastructure is not valuable because it is large. It is valuable because of what it makes possible: more capable intelligence, available to more people, at a lower cost. That is how I think about abundance. It is both embedded in our mission—ensuring that artificial general intelligence benefits all of humanity—and in the economic engine that drives our business. When the cost of useful intelligence falls, more work becomes worth doing. When models become more capable, that work creates more value. As adoption grows, we gain the revenue, real-world feedback, and visibility into demand to keep investing in the next generation of research and infrastructure. Better intelligence drives broader adoption. Broader adoption supports more investment. More investment improves intelligence and efficiency. That is the cycle we are building. Our recent pricing announcement shows how that cycle quickly benefits customers. Yesterday, we reduced the price of GPT‑5.6 Luna by 80 percent and GPT‑5.6 Terra by 20 percent. Luna now costs $0.20 per million input tokens and $1.20 per million output tokens; Terra costs $2 and $12, respectively. For GPT‑5.6 Sol, Fast mode delivers up to 2.5 times the speed of standard processing at twice the price, with no change in intelligence. These are not simply changes to a price list. They expand the range of work that becomes practical and give customers more flexibility to balance intelligence, speed, reliability, and cost. The right question is not which model belongs to which task. It is how much intelligence the outcome demands for the required result, how quickly the intelligence is needed, and what the intelligence should cost to achieve. That balance may change several times within the same workflow. Customers do not buy tokens for their own sake. They want the support issue resolved, the software shipped, the contract reviewed, or the scientific question answered. The right measure is the cost of a successful outcome, including the time, retries, oversight, and errors required to get there. A stronger model that completes the work correctly and efficiently can, at the end, be more economical than a cheaper model that requires repeated attempts or extensive human intervention. Conversely, a lower-cost model can dramatically expand access when it meets the same quality bar. The opportunity is to apply the maximum useful intelligence at the right price. Delivering that value requires more than building additional data centers. It requires making every unit of compute more productive. Our recent engineering work illustrates what that looks like. Working with our technical teams, GPT‑5.6 Sol helped optimize the production software used to serve our models, reducing end-to-end serving costs by 20 percent. It also helped improve speculative decoding, increasing token-generation efficiency by more than 15 percent. Just as important, efficiency is not determined by the model alone. The system surrounding it matters. Better routing keeps hardware productive. Smarter context management prevents agents from repeating work. Stronger tools and product design reduce the number of steps required to complete a task. In a recent benchmark analysis, improvements to retained reasoning and context management raised GPT‑5.6 Sol’s score on the public ARC-AGI-3 task set from 13.3 percent to 38.3 percent while using six times fewer output tokens. The model did not change. The surrounding system did. These gains compound. More capable models help our teams discover new efficiencies. Those efficiencies lower the cost of serving customers and expand the work we can support with the same infrastructure. That, in turn, makes the next generation of intelligence more accessible. The advantage of building across infrastructure, models, platform, and products is not simply that we participate in each layer. It is that each layer makes the others better. Real-world product use shows us where customers find value and where they encounter friction. That feedback helps shape our research. Research improvements strengthen our products and lower the cost of serving them. Demand across ChatGPT, ChatGPT Work, Codex, and the API helps us make better decisions about where to add capacity. The scale of that learning matters. Our models now reach more than one billion active users and more than two million businesses. As people gain confidence in the technology, they use it more deeply. Six months after signing up, people send roughly 50 percent more messages each day and use ChatGPT for about twice as many kinds of work. ChatGPT Work is changing what it means to be a knowledge worker, moving beyond answering questions to completing complex, multistep work—“asking” to “doing.” Across OpenAI, agentic work through Codex now accounts for 99.8% of weekly output tokens, with Finance among the teams that have made agentic tools a primary part of how they work. Inside organizations, the pattern is similar. A company may begin with one team or one workflow. As the quality and economics improve, adoption spreads across functions and AI becomes part of how the business operates. That creates a valuable feedback loop between demand, product improvement, efficiency, and infrastructure planning. It does not require owning every asset or building every component ourselves. We can own, partner, or buy depending on what best serves the customer and makes the most economic sense. What matters is coordinating the system and learning across it. AI infrastructure must be planned years before it is needed, while models, products, and customer demand evolve much faster. That mismatch makes discipline essential. We base our investment decisions on evidence: user and workload growth, enterprise commitments, API consumption, utilization, revenue, and progress in model capability and efficiency. Technical and commercial milestones help determine when projects advance. Long-term partnerships bring together the financing, infrastructure, and operating expertise required to deliver at scale. Product revenue, private capital, and commercial partnerships play different roles in supporting that growth. The objective is not to build the most infrastructure. It is to deploy the right capacity, at the right time, against credible demand. For me, the key questions are straightforward: How quickly does new capacity become productive? How efficiently is it used? What customer demand does it support? How rapidly can technical progress lower the cost of delivering useful intelligence? Those questions connect long-term ambition to operating discipline. We are still early. More capable systems will complete longer projects, coordinate across tools, and handle more of the work between an idea and a finished result. Individuals and small businesses will gain capabilities once available only to much larger organizations. Enterprises will apply intelligence more broadly across their operations. Our goal is not simply more",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Building abundant intelligence",
+              "source_url": "https://openai.com/index/building-abundant-intelligence"
+            },
+            {
+              "label": "公开摘要",
+              "text": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+              "source_url": "https://openai.com/index/building-abundant-intelligence"
+            }
+          ],
+          "slug": "building-abundant-intelligence-6e145b01",
+          "localized_url": "/zh/items/2026-08-01/building-abundant-intelligence-6e145b01/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Univé builds an AI-ready workforce",
+          "title_original": "Univé builds an AI-ready workforce",
+          "title_en": "Univé builds an AI-ready workforce",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/unive",
+          "published_at": "Fri, 31 Jul 2026 07:00:00 GMT",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "487981959078",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Univé builds an AI-ready workforce",
+          "extracted_excerpt": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+          "extracted_text_for_analysis": "97% ChatGPT Enterprise licenses activated 85% Weekly active users of ChatGPT Enterprise ~1,500 Custom GPTs created by employees hours → minutes Pet insurance claims prepared for decision in minutes instead of hours As one of the Netherlands’ largest cooperative insurers, Univé(opens in a new window) serves millions of members across insurance, mortgages, financial services, and risk prevention. Its mission has always been to help people prevent problems before they happen—and as AI began reshaping knowledge work, the organization saw an opportunity to rethink how employees could better deliver on that mission. Rather than approaching AI as another technology deployment, Univé viewed it as a major organizational transformation. The objective wasn’t simply to introduce new tools, but to build AI capability across the workforce so every employee could use AI safely, responsibly, and effectively. OpenAI became a key part of that strategy, with ChatGPT Enterprise providing a secure platform that employees could adopt quickly within Univé’s governance framework. Univé’s transformation began with leadership. Instead of treating AI as an IT initiative, the company brought its entire management community together for dedicated AI leadership sessions. Rather than focusing on product demonstrations, these sessions challenged leaders to rethink how work itself would change and what role they would play in enabling that transformation. Managers moved beyond approving AI initiatives to creating the conditions for responsible innovation across their teams. “Most organisations try to scale AI by building more solutions. We chose to scale AI by creating more builders.” Univé also recognized that adoption at scale would only happen if employees trusted the platform they were using. Governance wasn’t something added after deployment—it was designed into the rollout from day one. Enterprise authentication, connector permission inheritance, privacy assessments, governance processes, security reviews, responsible AI principles, continuous monitoring, and clear human accountability created the confidence employees needed to experiment responsibly. Permissions always follow the underlying enterprise systems, to prevent AI from getting access beyond what employees are already authorised to see. By establishing strong guardrails early, Univé was able to encourage experimentation with explicit safeguards for security, privacy, and accountability. Governance became an accelerator for innovation, not a barrier to it. With leadership providing direction and governance providing confidence, employees became the driving force behind adoption. Rather than requiring detailed business cases for every new idea, Univé gave employees permission, structure, and dedicated time to rethink their own work. Across the organization, employees collectively spend hundreds of hours every week redesigning work with ChatGPT Enterprise, building custom GPTs, experimenting with Workspace Agents, and sharing successful approaches with colleagues. Today, ChatGPT Enterprise supports knowledge work across virtually every business function—from claims and underwriting to finance, HR, legal, IT, customer service, and management. Approximately 1,500 custom GPTs have been created to solve internal challenges, reflecting a culture where employees increasingly improve the organization themselves instead of waiting for centralized development projects. “Our competitive advantage is not that we use AI. It is that thousands of employees are learning how to reinvent their own work every single week.” One of the clearest examples of AI in action is pet insurance claims. A Workspace Agent can assemble the claim file, review veterinary invoices, check policy conditions, identify missing information, highlight anomalies, and prepare a traceable recommendation before the claims handler begins their assessment. Work that previously took hours to prepare can now be ready for decision in minutes. Rather than spending time gathering, reading, and structuring evidence, claims professionals begin with a well-prepared case and can focus on applying their expertise. Importantly, the trained claims professional remains fully accountable for every final decision. AI prepares the work; people make the decision. Underwriting is another high-value application. Before an underwriter starts the day, a Workspace Agent reviews the incoming work queue, combines information from approved enterprise sources, identifies missing documentation, flags risk indicators, and highlights cases requiring priority attention. When the underwriter logs in, the work queue is already structured. Each case includes the relevant context, the evidence behind recommendations, and the specific areas where professional judgement is needed. Instead of spending valuable time searching for information and assembling files, underwriters can focus on making better, faster decisions. While today’s use cases focus primarily on supporting employees during individual tasks, Univé is actively exploring the next phase of enterprise AI through Workspace Agents. These agentic workflows are designed to proactively prepare recurring work across approved enterprise systems—bringing together information, surfacing relevant context, and creating evidence-based starting points before employees begin their day. As these capabilities evolve, every new application continues to be evaluated within the company’s governance framework to ensure security, accountability, and responsible AI remain central to adoption. - 97% of ChatGPT Enterprise licences activated, demonstrating broad adoption across the organisation. - 85% of licensed users are active every week, reflecting sustained engagement across the workforce. - Employees average 40 prompts per active user each week, showing AI has become part of everyday work. - Employees have created approximately 1,500 custom GPTs tailored to internal workflows. - Pet insurance claims that previously took hours to prepare can now be ready for decision in minutes, while claims professionals retain full accountability for every final decision. - AI adoption now spans virtually every knowledge-based function across the organization. - Underwriters begin their day with prepared work queues, allowing them to spend less time gathering information and more time making high-quality decisions. - Employees increasingly solve operational challenges themselves instead of relying on lengthy software projects or scarce specialist resources. - Internal conversations have shifted from “Should we use AI?” to “What should we build next?” - Treat AI as an organizational capability—not another IT implementation. - Treat governance as an accelerator, not a gatekeeper. Strong guardrails allow innovation to scale responsibly. - Invest in leaders as much as technology. Leadership creates the conditions for transformation. - Give employees permission, time, and structure to redesign",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Univé builds an AI-ready workforce",
+              "source_url": "https://openai.com/index/unive"
+            },
+            {
+              "label": "公开摘要",
+              "text": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+              "source_url": "https://openai.com/index/unive"
+            }
+          ],
+          "slug": "unive-builds-an-ai-ready-workforce-48798195",
+          "localized_url": "/zh/items/2026-08-01/unive-builds-an-ai-ready-workforce-48798195/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Disrupting a Criminal Scam Operation",
+          "title_original": "Disrupting a Criminal Scam Operation",
+          "title_en": "Disrupting a Criminal Scam Operation",
+          "summary_zh": "OpenAI 更新了融资与资本投入信号，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+          "published_at": "Fri, 31 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c5ad624a6ffb",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Disrupting a Criminal Scam Operation",
+          "extracted_excerpt": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+          "extracted_text_for_analysis": "Disrupting a Criminal Scam Operation OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes. Introduction Earlier this year, we disrupted a Cambodia-based scam operation that used ChatGPT to support investment, romance, gambling, and law enforcement impersonation schemes. We began investigating this activity following a lead from our peers at WhatsApp and have since shared additional threat signals with industry partners and relevant authorities. The operation illustrates an important reality about modern scam networks: organized criminal groups rarely restrict themselves to a single type of scam. Instead, they opportunistically employ whatever narratives, personas, and tactics they think will be most effective to deceive victims. In our investigations we routinely observe actors moving between scam types, or combining multiple scam techniques within a single operation. Some users in the network also generated content suggesting links to human trafficking and forced criminality. These observations are consistent with extensive public reporting(opens in a new window) describing(opens in a new window) organized crime groups in Southeast Asia that recruit workers with promises of legitimate employment before trapping them in systems of debt bondage and coercion. While we cannot independently determine the circumstances of every individual involved, the activity serves as a reminder that the people conducting scams can themselves be victims of exploitation. Actor We banned a coordinated network of ChatGPT accounts that very likely originated in Cambodia, and was likely operating in or around Poipet, a city in Banteay Meanchey province that public reporting(opens in a new window) has repeatedly(opens in a new window) linked(opens in a new window) to online scam compounds and trafficking operations. The network used our models to create and support the operation of fake online personas, generate and translate messages sent to scam targets, create promotional content for their fraudulent schemes, and assist with day-to-day operations. As with past(opens in a new window) scam networks we have disrupted, a subset of users also employed ChatGPT for administrative work, including drafting internal announcements, translating messages between staff, and documenting matters that appeared related to recruitment, immigration status, working conditions, and employee discipline. Behavior The network simultaneously conducted multiple types of scams, often blending elements from different schemes. For instance, operators used dating personas to build trust before introducing fraudulent investment opportunities involving cryptocurrencies and spot gold trading. Other users engaged in lengthy romantic conversations with targets using fictitious identities, posed as representatives of online gambling platforms offering fake bonuses and winnings, or impersonated law enforcement agencies to tell targets they needed to pay fines for committing serious criminal offenses. Although the narratives varied, users across the network consistently displayed the same underlying pattern of deceptive behavior. For example, they created and operated fake dating profiles, fictitious investment experts, and fraudulent law enforcement personas. They also generated images of forged documents, including passports, legal notices, stock-purchase confirmations, and gambling platform interfaces. As we’ve highlighted in(opens in a new window) previous(opens in a new window) reports(opens in a new window), the scammers followed a common pattern in their interactions with targets, which we think of as the ping (outreach), the zing (generate emotion), and the sting (extract money). - The ping: The network used ChatGPT to translate and generate conversations with targets on messaging platforms such as WhatsApp and Telegram. Scammers also created social media content and researched dating profile material to support their fake personas. - The zing: Scammer messages frequently relied on emotional pressure and trust-building techniques. Examples included promises of guaranteed returns and “risk-free” investments, romantic language, instructions to keep conversations secret, and urgent requests for action before fictional bonuses expired. - The sting: The scammers instructed victims to make deposits to unlock purported rewards, pay activation fees, settle fictitious fines, and then provide screenshots of transfers or account information as proof of payment. Human Trafficking Indicators In addition to scams, some users generated content suggesting involvement in other violative activities that we detect and disrupt, such as human trafficking or forced labor. This included creating social-media advertisements for “chatter” jobs in Poipet that promised flights, accommodation, meals, visas, and work permits. Other activity appeared to relate to the administration of workers inside the operation. Users maintained records of employee debts, salary deductions, disciplinary fines, and loan repayments, and translated discussions about immigration status, work permits, visa overstays, and recruitment incentives. Some conversations also referenced apparent detention, escape attempts, and potential criminal liability for people who had been trafficked and forced to work in scam operations. While these conversations do not allow us to determine the circumstances of any particular individual, they are consistent with extensive public reporting(opens in a new window) describing(opens in a new window) the activities of organized crime groups in Southeast Asia. Impact We banned the ChatGPT accounts associated with this operation, shared relevant indicators with industry partners and relevant authorities, and took steps to make it harder for these actors to regain access to our products and services. The full scale of financial losses associated with the network is unknown, but based on the scammers’ own communications, the operation may have interacted with hundreds of targets across multiple scam types. User conversations referenced individual victims losing thousands of dollars, although we are unable to independently verify those claims. More broadly, this case reinforces two trends. First, organized scam networks can be highly diversified, operating multiple fraud schemes simultaneously rather than narrowly adhering to a single scam type. Second, the boundaries between online fraud, organized crime, and human trafficking are often blurred. Effective disruption therefore requires targeting not just the victim-facing scam activity, but also the criminal organizations that orchestrate and profit from it.",
+          "title_zh": "OpenAI 推进融资与资本投入信号",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在融资与资本投入信号。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Disrupting a Criminal Scam Operation",
+              "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+              "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation"
+            }
+          ],
+          "slug": "disrupting-a-criminal-scam-operation-c5ad624a",
+          "localized_url": "/zh/items/2026-08-01/disrupting-a-criminal-scam-operation-c5ad624a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Sakana AI防衛・インテリジェンスチーム、「DIVER OSINT CTF 2026」で5位入賞 Fuguを活用したOSINTエージェントの可能性",
+          "title_original": "Sakana AI防衛・インテリジェンスチーム、「DIVER OSINT CTF 2026」で5位入賞 Fuguを活用したOSINTエージェントの可能性",
+          "title_en": "Sakana AI防衛・インテリジェンスチーム、「DIVER OSINT CTF 2026」で5位入賞 Fuguを活用したOSINTエージェントの可能性",
+          "summary_zh": "Sakana AI 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/diver-osint/",
+          "published_at": "2026-07-30T00:00:00+09:00",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [
+            "Sakana AI"
+          ],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9cb356c1c3ba",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "limited_extracted_text"
+          ],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "Sakana AI防衛・インテリジェンスチーム、「DIVER OSINT CTF 2026」で5位入賞 Fuguを活用したOSINTエージェントの可能性",
+          "extracted_text_for_analysis": "Sakana AI の防衛・インテリジェンスチーム有志は、公開情報収集・分析のコンペティションである「Diver OSINT CTF 2026」に参加し、850以上の参加チームの中で5位となりました。 本大会では、ドメインエキスパートとエンジニアが協働し、Fugu-ultra 1.1を活用したOSINT分析エージェントを構築して 競技に臨みました。人間の専門知とAIエージェントを組み合わせるアプローチが防衛・安全保障の文脈でも有効であることを示唆する結果となりました。 競技を通じて得られた知見をもとに、エージェントを実務向けにさらに改善し、日本の防衛・インテリジェンスへの貢献につなげてまいります。",
+          "title_zh": "Sakana AI 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。",
+            "涉及公司或机构：Sakana AI。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Sakana AI防衛・インテリジェンスチーム、「DIVER OSINT CTF 2026」で5位入賞 Fuguを活用したOSINTエージェントの可能性",
+              "source_url": "https://sakana.ai/diver-osint/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/diver-osint/"
+            }
+          ],
+          "slug": "sakana-aidiver-osint-ctf-20265-fuguosint-a63e532b",
+          "localized_url": "/zh/items/2026-08-01/sakana-aidiver-osint-ctf-20265-fuguosint-a63e532b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "From Japan, Products the World Will Use: An Interview with Sakana AI’s Head of Product Development",
+          "title_original": "From Japan, Products the World Will Use: An Interview with Sakana AI’s Head of Product Development",
+          "title_en": "From Japan, Products the World Will Use: An Interview with Sakana AI’s Head of Product Development",
+          "summary_zh": "Sakana AI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Sakana AI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/product-development-interview/",
+          "published_at": "2026-07-31T00:00:00+09:00",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Sakana AI"
+          ],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "62ac40dd3ba0",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "From Japan, Products the World Will Use: An Interview with Sakana AI's Head of Product Development",
+          "extracted_text_for_analysis": "日本語版はこちら Sakana AI, a Tokyo-based AI company, has released four products in rapid succession: starting with Sakana Chat in March 2026, followed by Sakana Marlin, Sakana Fugu, and Sakana Translate. Why is a company long known for research and development shipping products at this pace? And what vision lies beyond it? We spoke with Sota Omura, who leads the product team as head of product development. The conversation ranged from how the team came into being, to the reasons behind the unusual release pace, a vision of a future in which humans and AI make decisions together, and an organizational philosophy of turning diversity into strength. Interviewee From Consulting and a Startup to an “Industry That Leans Forward” — To start, could you walk us through your career so far? My career began in consulting. I joined Deloitte Tohmatsu Consulting straight out of university, on a team serving companies that provide services close to everyday life — supermarkets, railway companies, and the like. Most of my work involved projects to rebuild aging IT systems. As I gained experience as an IT consultant, I wanted to know what it really means to build and grow a product with my own hands. So I moved to Coincheck, a company that operates an exchange app for buying and selling crypto assets such as Bitcoin. Everything was developed in-house: product managers, designers, engineers, and customer support worked as one to refine a single service. Eventually I came to lead the entire product as head of the business. — What led you from there to Sakana AI? My time at Coincheck coincided with the period when the blockchain industry suddenly captured the world’s attention. The prices of Bitcoin and other crypto assets swung between surges and crashes; NFTs and Web3 filled the news day after day. Debates over regulation moved forward, and large corporations entered the space one after another. We were in the middle of society deciding, in real time, how to receive this technology. Money and talent were pouring in, and the whole industry was racing to claim a future several years ahead of its time. “There are views you can only see by placing yourself in an industry that leans forward.” My boss at the time told me that, and it proved true. Inside an industry swaying between what a technology makes possible and how society responds, there was a fascination you could find nowhere else. Those words remain my compass whenever I think about where to go next. In 2025, when I had time to step back and look at my career, I reconsidered where to base myself next. Measured against my old boss’s words, the industry leaning furthest forward was, without question, generative AI. — There are plenty of AI companies. Why Sakana AI? There were many reasons, but one deciding factor was that the headquarters is in Japan. At the Japan office of a foreign tech company, a division of roles tends to emerge with the home country, where the decisions are made — and the work tends to center on delivering products that already exist, through sales and marketing. When a customer says, “We’d like it to work more like this,” you can find yourself escalating the request to headquarters and spending a long time coordinating. Sakana AI, by contrast, is run from Japan, so the core of its product-making is entirely here. For someone based in Japan competing in the global market, I saw a company born in Japan as a major advantage. A Product Team Born from Members’ Grassroots Discussions — We understand you initially joined the Applied team. How did the product team come about? At the time, Sakana AI had two main teams: the Research team, which studies a wide range of technologies including the development of foundational AI models, and the Applied team, which puts those results to work solving problems for enterprise customers. I joined the Applied team; a product team did not yet exist. The Applied team’s work — walking closely alongside each client, one company at a time — creates value nothing else can. At the same time, from the Applied team’s earliest days there had been a discussion: couldn’t a product deliver the value of the same technology to many more customers at once? So from around the summer of 2025, I reached out to younger members of the Applied team who were interested in building products, and on our own initiative we set up sessions to discuss what shape product work could take at this company. Amid all this, Ren Ito, our co-founder and chairman, approached me: he wanted to discuss how to treat model development as part of our own business. I presented a plan for growing a product business, model development included. As a result, the effort began moving as a partly independent offshoot of the Applied team. When the release of Sakana Chat was decided, we became a fully independent team to make the lines of responsibility clear, and I have led it since February 2026. Sakana AI, which began as a research and development company, is coming to wear the face of a product company as well. I feel I am standing at that turning point. — How do the three teams — Research, Applied, and Product — relate to one another? The basic division of labor is that the Research team creates new technology, and the product team delivers those results to customers as products and monetizes them. On top of that, the two teams are in everyday contact. Sometimes we tell Research, “This is the kind of model the business front lines are asking for”; sometimes a request arrives from Research: “We’d like this used in such-and-such a way.” That is exactly what happened when the model Sakana Fugu was born. It is the same with the Applied team. From the customer’s point of view, both are services of the same Sakana AI. If an Applied customer takes an interest in Sakana Marlin, we provide it; if a customer who came in through a product wants more hands-on support, we pass the baton to the Applied team. Four Products in Rapid Succession: “Standard Practice for the AI Era” Sakana Chat is a chat service powered by Namazu, our flagship model. It aims to be a chat AI from Japan that feels as natural to use as ChatGPT or Claude. Sakana Translate is a translation service, also powered by Namazu, and a sister product to Sakana Chat. Sakana Fugu is a model built on “orchestration,” a technology that has multiple AI models work in concert. It handles tasks with higher performance than entrusting them to any single model. It is currently offered to developers through an API. Sakana Marlin is a service for high-quality research, built on AB-MCTS, a technique for deep reasoning over extended time. We aim to grow it into an AI service that serves as a sounding board for management — a virtual CSO (chief strategy officer). — Sakana Chat launched in March 2026, followed by Sakana Marlin, Sakana Fugu, and Sakana Translate. Compared with the usual approach — rounds of market research and user interviews before releasing a single product — this pace is",
+          "title_zh": "Sakana AI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Sakana AI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。",
+            "涉及公司或机构：Sakana AI。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "From Japan, Products the World Will Use: An Interview with Sakana AI’s Head of Product Development",
+              "source_url": "https://sakana.ai/product-development-interview/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://sakana.ai/product-development-interview/"
+            }
+          ],
+          "slug": "from-japan-products-the-world-will-use-an-interview-with-sakana-ais-head-70359595",
+          "localized_url": "/zh/items/2026-08-01/from-japan-products-the-world-will-use-an-interview-with-sakana-ais-head-70359595/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
+          "title_original": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
+          "title_en": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Distillation is all you need!",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
+          "published_at": "Fri, 31 Jul 2026 04:40:54 GMT",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3ecd81bf402a",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
+              "source_url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Distillation is all you need!",
+              "source_url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80"
+            }
+          ],
+          "slug": "ainews-gpt-5-6-price-cut-by-20-80-cost-of-gpt-5-4-intelligence-dropped-1-3ecd81bf",
+          "localized_url": "/zh/items/2026-08-01/ainews-gpt-5-6-price-cut-by-20-80-cost-of-gpt-5-4-intelligence-dropped-1-3ecd81bf/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "When Artificial Intelligence Is Too Valuable To Sell",
+          "title_original": "When Artificial Intelligence Is Too Valuable To Sell",
+          "title_en": "When Artificial Intelligence Is Too Valuable To Sell",
+          "summary_zh": "Big Technology Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Just because the AI labs have sold models on a meter until now doesn't mean they'll always do so.",
+          "source_name": "Big Technology Podcast",
+          "source_url": "https://www.bigtechnology.com/",
+          "original_url": "https://www.bigtechnology.com/p/when-artificial-intelligence-is-too",
+          "published_at": "Fri, 31 Jul 2026 19:30:17 GMT",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "tech-media",
+            "ai",
+            "interview"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c5472812ece2",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Big Technology Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Big Technology Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：tech-media、ai、interview。"
+          ],
+          "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "When Artificial Intelligence Is Too Valuable To Sell",
+              "source_url": "https://www.bigtechnology.com/p/when-artificial-intelligence-is-too"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Just because the AI labs have sold models on a meter until now doesn't mean they'll always do so.",
+              "source_url": "https://www.bigtechnology.com/p/when-artificial-intelligence-is-too"
+            }
+          ],
+          "slug": "when-artificial-intelligence-is-too-valuable-to-sell-c5472812",
+          "localized_url": "/zh/items/2026-08-01/when-artificial-intelligence-is-too-valuable-to-sell-c5472812/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Autoscaling endpoints for LLM inference",
+          "title_original": "Autoscaling endpoints for LLM inference",
+          "title_en": "Autoscaling endpoints for LLM inference",
+          "summary_zh": "Together AI Blog 更新了推理容量与成本控制方案，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/autoscaling-endpoints-for-llm-inference",
+          "published_at": "Fri, 31 Jul 2026 00:00:00 GMT",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "5c826e8114e6",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Together AI Blog 推进推理容量与成本控制方案",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI Blog 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI Blog，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Autoscaling endpoints for LLM inference",
+              "source_url": "https://www.together.ai/blog/autoscaling-endpoints-for-llm-inference"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPU utilization can read healthy while your queue backs up, and a new replica takes minutes to warm. Here's how to pick autoscaling metrics, tune scale-up/down windows, and budget for cold starts on dedicated inference.",
+              "source_url": "https://www.together.ai/blog/autoscaling-endpoints-for-llm-inference"
+            }
+          ],
+          "slug": "autoscaling-endpoints-for-llm-inference-5c826e81",
+          "localized_url": "/zh/items/2026-08-01/autoscaling-endpoints-for-llm-inference-5c826e81/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Gateway now supports team and project spend budgets",
+          "title_original": "AI Gateway now supports team and project spend budgets",
+          "title_en": "AI Gateway now supports team and project spend budgets",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "AI Gateway spend budgets can now be scoped to a team or a project, in addition to individual API keys. Set a dollar limit on a scope, and the gateway meters spend against it and stops further requests once the limit is reached, until the budget resets or you",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts",
+          "published_at": "2026-07-31T17:00:00.000Z",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f9c813232088",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 更新开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Gateway now supports team and project spend budgets",
+              "source_url": "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI Gateway spend budgets can now be scoped to a team or a project, in addition to individual API keys. Set a dollar limit on a scope, and the gateway meters spend against it and stops further requests once the limit is",
+              "source_url": "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts"
+            }
+          ],
+          "slug": "ai-gateway-now-supports-team-and-project-spend-budgets-f9c81323",
+          "localized_url": "/zh/items/2026-08-01/ai-gateway-now-supports-team-and-project-spend-budgets-f9c81323/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "DeepSeek V4 Flash now runs updated weights on AI Gateway",
+          "title_original": "DeepSeek V4 Flash now runs updated weights on AI Gateway",
+          "title_en": "DeepSeek V4 Flash now runs updated weights on AI Gateway",
+          "summary_zh": "Vercel AI 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "DeepSeek V4 Flash now runs on updated weights by default on AI Gateway, with notably stronger agentic capabilities. On Terminal-Bench, it scores 82.7, up 25.8 points from 56.9 in the April preview. Requests to deepseek/deepseek-v4-flash pick up the new",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway",
+          "published_at": "2026-07-31T07:00:00.000Z",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1e05bcab8411",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 更新AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "DeepSeek V4 Flash now runs updated weights on AI Gateway",
+              "source_url": "https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "DeepSeek V4 Flash now runs on updated weights by default on AI Gateway, with notably stronger agentic capabilities. On Terminal-Bench, it scores 82.7, up 25.8 points from 56.9 in the April preview. Requests to",
+              "source_url": "https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway"
+            }
+          ],
+          "slug": "deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway-1e05bcab",
+          "localized_url": "/zh/items/2026-08-01/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway-1e05bcab/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel MCP now supports the 2026-07-28 MCP specification",
+          "title_original": "Vercel MCP now supports the 2026-07-28 MCP specification",
+          "title_en": "Vercel MCP now supports the 2026-07-28 MCP specification",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel MCP now supports the 2026-07-28 MCP specification, giving newer clients a stateless request model and updated authorization behavior without any change on the client side. Clients built for the 2025 protocol keep working exactly as before, and clients",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification",
+          "published_at": "2026-07-31T00:00:00.000Z",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c01743000e2c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel MCP now supports the 2026-07-28 MCP specification",
+              "source_url": "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel MCP now supports the 2026-07-28 MCP specification, giving newer clients a stateless request model and updated authorization behavior without any change on the client side. Clients built for the 2025 protocol keep",
+              "source_url": "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification"
+            }
+          ],
+          "slug": "vercel-mcp-now-supports-the-2026-07-28-mcp-specification-c0174300",
+          "localized_url": "/zh/items/2026-08-01/vercel-mcp-now-supports-the-2026-07-28-mcp-specification-c0174300/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Expanded search for workflow runs in Vercel Observability",
+          "title_original": "Expanded search for workflow runs in Vercel Observability",
+          "title_en": "Expanded search for workflow runs in Vercel Observability",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "The runs list for Vercel Workflows in Observability now has structured search, giving you more ways to find and investigate runs. Structured filters: Filter runs by workflow, environment, deployment ID, region , or any custom run attribute. Paste a run ID to",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability",
+          "published_at": "2026-07-31T00:00:00.000Z",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ae789ae5d22f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Expanded search for workflow runs in Vercel Observability",
+              "source_url": "https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The runs list for Vercel Workflows in Observability now has structured search, giving you more ways to find and investigate runs. Structured filters: Filter runs by workflow, environment, deployment ID, region , or any",
+              "source_url": "https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability"
+            }
+          ],
+          "slug": "expanded-search-for-workflow-runs-in-vercel-observability-ae789ae5",
+          "localized_url": "/zh/items/2026-08-01/expanded-search-for-workflow-runs-in-vercel-observability-ae789ae5/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "10x more capacity for Laguna S 2.1 on AI Gateway",
+          "title_original": "10x more capacity for Laguna S 2.1 on AI Gateway",
+          "title_en": "10x more capacity for Laguna S 2.1 on AI Gateway",
+          "summary_zh": "Vercel 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Laguna S 2.1 from Poolside now has 10x more capacity on AI Gateway. The increase applies to the paid version, poolside/laguna-s-2.1 , and the free version, poolside/laguna-s-2.1-free , so you can send far more requests, good for high-volume agentic coding and",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/10x-more-capacity-for-laguna-s-2-1-on-ai-gateway",
+          "published_at": "2026-07-31T00:00:00.000Z",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [
+            "Vercel AI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "337163c05c30",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Vercel AI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "10x more capacity for Laguna S 2.1 on AI Gateway",
+              "source_url": "https://vercel.com/changelog/10x-more-capacity-for-laguna-s-2-1-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Laguna S 2.1 from Poolside now has 10x more capacity on AI Gateway. The increase applies to the paid version, poolside/laguna-s-2.1 , and the free version, poolside/laguna-s-2.1-free , so you can send far more requests,",
+              "source_url": "https://vercel.com/changelog/10x-more-capacity-for-laguna-s-2-1-on-ai-gateway"
+            }
+          ],
+          "slug": "10x-more-capacity-for-laguna-s-2-1-on-ai-gateway-337163c0",
+          "localized_url": "/zh/items/2026-08-01/10x-more-capacity-for-laguna-s-2-1-on-ai-gateway-337163c0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Passport is now generally available",
+          "title_original": "Vercel Passport is now generally available",
+          "title_en": "Vercel Passport is now generally available",
+          "summary_zh": "Microsoft 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Passport is now generally available. Passport allows you to protect your Vercel deployments with your own identity provider. Visitors authenticate through Okta, Microsoft Entra ID, or any OIDC provider before viewing a protected deployment, and Vercel",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-passport-generally-available",
+          "published_at": "2026-07-31T00:00:00.000Z",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "af395d93336c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 发布AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Passport is now generally available",
+              "source_url": "https://vercel.com/changelog/vercel-passport-generally-available"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Passport is now generally available. Passport allows you to protect your Vercel deployments with your own identity provider. Visitors authenticate through Okta, Microsoft Entra ID, or any OIDC provider before",
+              "source_url": "https://vercel.com/changelog/vercel-passport-generally-available"
+            }
+          ],
+          "slug": "vercel-passport-is-now-generally-available-af395d93",
+          "localized_url": "/zh/items/2026-08-01/vercel-passport-is-now-generally-available-af395d93/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Echoverse: Deep, evolving environments for computer-use agents",
+          "title_original": "Echoverse: Deep, evolving environments for computer-use agents",
+          "title_en": "Echoverse: Deep, evolving environments for computer-use agents",
+          "summary_zh": "Microsoft 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the tasks, tests, and environments evolve.",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
+          "published_at": "Thu, 30 Jul 2026 17:00:00 +0000",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "0d30391f59a1",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Echoverse: Deep, evolving environments for computer-use agents",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Computer-use AI agents struggle with multi-step workflows like email and customer support. Echoverse trains agents in realistic environments rather than simply providing more training tasks, helping them improve as the",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/"
+            }
+          ],
+          "slug": "echoverse-deep-evolving-environments-for-computer-use-agents-9125598d",
+          "localized_url": "/zh/items/2026-08-01/echoverse-deep-evolving-environments-for-computer-use-agents-9125598d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "EvoLib: Turning experience into evolving knowledge",
+          "title_original": "EvoLib: Turning experience into evolving knowledge",
+          "title_en": "EvoLib: Turning experience into evolving knowledge",
+          "summary_zh": "Microsoft 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience into evolving",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
+          "published_at": "Thu, 30 Jul 2026 16:00:00 +0000",
+          "fetched_at": "2026-07-31T23:17:06.344786+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "5632af334a32",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "EvoLib: Turning experience into evolving knowledge",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/"
+            }
+          ],
+          "slug": "evolib-turning-experience-into-evolving-knowledge-12f3d41f",
+          "localized_url": "/zh/items/2026-08-01/evolib-turning-experience-into-evolving-knowledge-12f3d41f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-07-31",
       "title_zh": "AI 新闻简报 · 2026-07-31",
