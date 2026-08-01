@@ -1,7 +1,294 @@
 {
-  "updated_at": "2026-07-31T23:17:10.309353+00:00",
-  "count": 53,
+  "updated_at": "2026-08-01T23:13:23.465190+00:00",
+  "count": 54,
   "briefs": [
+    {
+      "date": "2026-08-02",
+      "title_zh": "AI 新闻简报 · 2026-08-02",
+      "title_en": "English AI News Brief · 2026-08-02",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 148 条，入选 4 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 148 previously displayed items excluded, and 4 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 148,
+      "selected_count": 4,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Ten advances in mathematics and theoretical computer science",
+          "title_original": "Ten advances in mathematics and theoretical computer science",
+          "title_en": "Ten advances in mathematics and theoretical computer science",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/ten-advances-in-mathematics",
+          "published_at": "Sat, 01 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-01T23:13:22.090876+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6d58997b466c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Ten advances in mathematics and theoretical computer science",
+          "extracted_excerpt": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+          "extracted_text_for_analysis": "We want to empower scientists and mathematicians with tools that accelerate discovery. That is why we recently announced ChatGPT for Academic Researchers, an initiative providing 100,000 scientists and mathematicians with free access to our best ChatGPT models. We also continue to evaluate our models on open research problems during development. In May, we shared an AI-generated disproof of the Erdős unit-distance conjecture, discovered while evaluating an unreleased model. This work has already inspired further developments in mathematics and theoretical computer science1. Today, we are sharing a selection of ten results to problems that have been open and have seen no progress on the main result for at least a decade, and in most cases much longer. These problems span high-dimensional geometry, coding theory, arithmetic circuit complexity, group theory, operator algebras, quantum complexity, lattice cryptography and extremal combinatorics. All of these problems are of substantial interest to their respective mathematical communities, and several are of broad interest across mathematics as a whole. We provide new results for the following problems. The results were achieved by an internal version of Astra, our next major model. The total number of tokens needed to find solutions to these problems would cost roughly $2,000 at Sol API rates. These arguments were then prepared into manuscripts by humans with the same model. Afterward, the model formalized each argument in a Lean certificate(opens in a new window). We are also releasing for each solution a model’s narration of its thinking process. - High-dimensional sphere packing. New upper bounds on sphere-packing density down to the Cohn–Elkies threshold. - Binary and spherical codes: Exponentially improved bounds on the maximum size of binary codes at any prescribed minimum distance, with analogous results for high-dimensional spherical codes. - Non-sofic groups. A construction establishing the existence of non-sofic groups, addressing a central open question in group theory. - Connes’s rigidity conjecture. Disproof of a longstanding conjecture that certain groups are uniquely determined by their von Neumann algebras. - Arithmetic circuit complexity. New lower bounds for computing the permanent using arithmetic circuits and formulas, including an arithmetic-formula lower bound of order n4/log n. - Quantum parallel repetition. An exponential parallel repetition theorem for general two-player quantum games, extending a foundational principle from classical complexity theory. - Closest vector problem. Polynomial-factor hardness of approximation for the closest vector problem, a foundational lattice question related to post-quantum cryptography. - Ehrhart’s volume conjecture. Determining, in every dimension, the maximum possible volume of a convex body whose centroid is its only interior lattice point. - Multicolor Ramsey numbers. A superexponential lower bound for multicolor triangle Ramsey numbers, resolving Erdős problem 183. - Extremal number conjectures. Results on the compactness and degeneracy conjectures in extremal graph theory, resolving Erdős problems 146 and 180. The emergence of systems capable of contributing to mathematical research raises questions that cannot be answered by a technology company alone. There are many views as to the role of AI in mathematics, and we have deep respect and understanding for those concerned with its impact, including the signers of the Leiden declaration on AI and Mathematics(opens in a new window). We believe attribution should honestly reflect how a result was produced: claiming human authorship for a proof generated entirely by an AI system would misrepresent both the system’s contribution and the nature of genuine human intellectual work. We helped prepare the manuscripts and formalize the proofs in Lean, and we take responsibility for their correctness, while the mathematical arguments themselves were generated by our system. We hope the mathematical community will engage deeply with these results, place them in context, and bring the ideas behind them to life through new research and discovery. As AI systems evolve into more sophisticated research collaborators, ensuring widespread access is fundamental to supporting scientists and mathematicians as they navigate and define the future of their disciplines during this transformative era.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Ten advances in mathematics and theoretical computer science",
+              "source_url": "https://openai.com/index/ten-advances-in-mathematics"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+              "source_url": "https://openai.com/index/ten-advances-in-mathematics"
+            }
+          ],
+          "slug": "ten-advances-in-mathematics-and-theoretical-computer-science-6d58997b",
+          "localized_url": "/zh/items/2026-08-02/ten-advances-in-mathematics-and-theoretical-computer-science-6d58997b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🧠 Community Wisdom: Getting started with open source models, making a U.S. business trip worth it, preparing for a possible layoff, when marketing can’t keep up with product, and more",
+          "title_original": "🧠 Community Wisdom: Getting started with open source models, making a U.S. business trip worth it, preparing for a possible layoff, when marketing can’t keep up with product, and more",
+          "title_en": "🧠 Community Wisdom: Getting started with open source models, making a U.S. business trip worth it, preparing for a possible layoff, when marketing can’t keep up with product, and more",
+          "summary_zh": "Community Wisdom 195",
+          "summary_en": "Community Wisdom 195",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-started",
+          "published_at": "Sat, 01 Aug 2026 17:25:18 GMT",
+          "fetched_at": "2026-08-01T23:13:22.090876+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bfafd157dc65",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "open source",
+              "explanation": "可公开查看、使用或修改的代码与模型资源。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🧠 Community Wisdom: Getting started with open source models, making a U.S. business trip worth it, preparing for a possible layoff, when marketing can’t keep",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-started"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Community Wisdom 195",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-started"
+            }
+          ],
+          "slug": "community-wisdom-getting-started-with-open-source-models-making-a-u-s-bu-bfafd157",
+          "localized_url": "/zh/items/2026-08-02/community-wisdom-getting-started-with-open-source-models-making-a-u-s-bu-bfafd157/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Chat SDK now supports reactions and ephemeral messages on Teams",
+          "title_original": "Chat SDK now supports reactions and ephemeral messages on Teams",
+          "title_en": "Chat SDK now supports reactions and ephemeral messages on Teams",
+          "summary_zh": "Microsoft 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Chat SDK's Microsoft Teams adapter now supports reactions and ephemeral messages through the same API as other adapters. Bots can add and remove reactions on Teams messages, and call thread.postEphemeral() or channel.postEphemeral() to send native, targeted",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/chat-sdk-reactions-and-ephemeral-messages-on-teams",
+          "published_at": "2026-07-31T00:00:00.000Z",
+          "fetched_at": "2026-08-01T23:13:22.090876+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "5ae541606741",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Chat SDK now supports reactions and ephemeral messages on Teams - Vercel",
+          "extracted_excerpt": "Chat SDK's Microsoft Teams adapter now supports message reactions and native ephemeral messages, plus author emails via Microsoft Graph and custom token factories.",
+          "extracted_text_for_analysis": "Chat SDK's Microsoft Teams adapter now supports reactions and ephemeral messages through the same API as other adapters. Bots can add and remove reactions on Teams messages, and call thread.postEphemeral() or channel.postEphemeral() to send native, targeted messages that only the intended user sees, like permission prompts. import { Chat, emoji } from \"chat\";import { createTeamsAdapter } from \"@chat-adapter/teams\"; const bot = new Chat({ userName: \"mybot\", adapters: { teams: createTeamsAdapter(), },}); bot.onSubscribedMessage(async (thread, message) => { // Acknowledge with a reaction, then clear it when done const sent = await thread.post(\"Working on it...\"); await sent.addReaction(emoji.check); await sent.removeReaction(emoji.check); // Reply so only the message author sees it await thread.postEphemeral(message.author, \"Only you can see this\", { fallbackToDM: true, });}); This release also adds: - Author emails: Incoming Teams messages include the author's Microsoft Graph email, with their user principal name as a fallback. - Custom token factory: Pass a token function in TeamsAdapterConfig to supply your own access tokens, so bots on runtimes without Azure IMDS can authenticate without a static client secret. - Native DM status: Progress messages now show as a native Teams status in direct messages. - Conversation routing: Group conversations are no longer misidentified as direct messages, so they're always handled correctly. - Mention conversion: Email addresses, @handles inside URLs, and mentions inside code spans are no longer turned into Teams mentions. Read the Teams adapter documentation to get started, or learn more about ephemeral messages and reactions. Special thanks to onmax for their contributions to this release.",
+          "title_zh": "Microsoft 更新开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Chat SDK now supports reactions and ephemeral messages on Teams",
+              "source_url": "https://vercel.com/changelog/chat-sdk-reactions-and-ephemeral-messages-on-teams"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Chat SDK's Microsoft Teams adapter now supports reactions and ephemeral messages through the same API as other adapters. Bots can add and remove reactions on Teams messages, and call thread.postEphemeral() or",
+              "source_url": "https://vercel.com/changelog/chat-sdk-reactions-and-ephemeral-messages-on-teams"
+            }
+          ],
+          "slug": "chat-sdk-now-supports-reactions-and-ephemeral-messages-on-teams-5ae54160",
+          "localized_url": "/zh/items/2026-08-02/chat-sdk-now-supports-reactions-and-ephemeral-messages-on-teams-5ae54160/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Gateway logs now have a dedicated page",
+          "title_original": "AI Gateway logs now have a dedicated page",
+          "title_en": "AI Gateway logs now have a dedicated page",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "AI Gateway now has a dedicated Logs page listing every request your team sends through the gateway, newest first, with cost, token counts, duration, and the model, provider, and region that served it. Open any request to see how it was routed. It's available",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ai-gateway-logs",
+          "published_at": "2026-07-31T00:00:00.000Z",
+          "fetched_at": "2026-08-01T23:13:22.090876+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "179f4fe13fc2",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "AI Gateway logs now have a dedicated page - Vercel",
+          "extracted_excerpt": "The AI Gateway logs page now lists every request with cost, tokens, and routing details, plus filtering, a live tail, per-request inspection with the full fallback path, and CSV or JSON export",
+          "extracted_text_for_analysis": "AI Gateway now has a dedicated Logs page listing every request your team sends through the gateway, newest first, with cost, token counts, duration, and the model, provider, and region that served it. Open any request to see how it was routed. It's available at the team scope and per project. Copy link to headingFilter and search Filter by provider, model, modality, credentials, or status, or search by model, provider, or request ID to jump straight to one request. Every filter is stored in the URL, so you can share a filtered view by copying the address. A chart above the table shows request counts over the selected range, and you can drag across it to zoom into a narrower window. You can also export the current view as CSV or JSON, with your filters applied. Copy link to headingDrill into a request Click any row to open its details next to the list: total cost, a token breakdown across input, output, reasoning, and cache reads and writes, duration, time to first token, and whether Zero Data Retention and region restrictions were applied. The fallback path lists every provider attempt for the request in order. Each attempt shows the model, provider, status code, credentials, and how long it took, and failed attempts include the reason, such as a provider timeout or an exhausted routing budget. To learn more about AI Gateway logs, read the documentation.",
+          "title_zh": "Vercel AI 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Gateway logs now have a dedicated page",
+              "source_url": "https://vercel.com/changelog/ai-gateway-logs"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI Gateway now has a dedicated Logs page listing every request your team sends through the gateway, newest first, with cost, token counts, duration, and the model, provider, and region that served it. Open any request",
+              "source_url": "https://vercel.com/changelog/ai-gateway-logs"
+            }
+          ],
+          "slug": "ai-gateway-logs-now-have-a-dedicated-page-179f4fe1",
+          "localized_url": "/zh/items/2026-08-02/ai-gateway-logs-now-have-a-dedicated-page-179f4fe1/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-01",
       "title_zh": "AI 新闻简报 · 2026-08-01",
