@@ -1,7 +1,164 @@
 {
-  "updated_at": "2026-08-01T23:13:23.465190+00:00",
-  "count": 54,
+  "updated_at": "2026-08-02T23:14:24.413185+00:00",
+  "count": 55,
   "briefs": [
+    {
+      "date": "2026-08-03",
+      "title_zh": "AI 新闻简报 · 2026-08-03",
+      "title_en": "English AI News Brief · 2026-08-03",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 150 条，入选 2 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 150 previously displayed items excluded, and 2 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 150,
+      "selected_count": 2,
+      "categories": [
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
+          "title_original": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
+          "title_en": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
+          "published_at": "Sun, 02 Aug 2026 12:32:02 GMT",
+          "fetched_at": "2026-08-02T23:14:23.557763+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a3e0c8b82b57",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
+              "source_url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management"
+            }
+          ],
+          "slug": "this-cpo-regrets-that-product-management-exists-tom-verrilli-cpo-of-what-a3e0c8b8",
+          "localized_url": "/zh/items/2026-08-03/this-cpo-regrets-that-product-management-exists-tom-verrilli-cpo-of-what-a3e0c8b8/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Kimi K3: The Complete Developer Guide",
+          "title_original": "Kimi K3: The Complete Developer Guide",
+          "title_en": "Kimi K3: The Complete Developer Guide",
+          "summary_zh": "Together AI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/kimi-k3-guide",
+          "published_at": "Sat, 01 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-02T23:14:23.557763+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Together AI",
+            "Benchmark"
+          ],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "efb91d192265",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Kimi K3: The Complete Developer Guide",
+          "extracted_excerpt": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
+          "extracted_text_for_analysis": "- What is Kimi K3, and what makes it different? - What is under the hood: KDA, Attention Residuals, and the Stable LatentMoE architecture - How do you use reasoning effort, streaming, tools, vision, and 1M context? - How do you take it from a first API call to production? - How does Kimi K3 compare to the frontier on coding and agentic benchmarks? - How much does Kimi K3 cost on Together AI? Kimi K3 is Moonshot AI's most capable model to date: a 2.8-trillion-parameter model and the world's first open-source model in the 3-trillion-parameter class. It is designed for frontier intelligence work like long-horizon coding, end-to-end knowledge work, and deep reasoning. It is also the first open-weights model competing at the GPT 5.6 Sol and Claude Fable 5 tier, and Together AI is working directly with the Moonshot team to serve it. The largest open-weight model released The Kimi team is deeply committed to scaling, and it shows: in nine of the twelve months from July 2025 to July 2026, Kimi models set the upper bound of open-model scale. At 2.8 trillion parameters, K3 is now the largest open-weight model ever released. What is under the hood Two architectural updates form K3's backbone, both designed to help information flow more easily through longer sequences and deeper into the network: - Kimi Delta Attention (KDA): a hybrid linear attention mechanism that provides an efficient foundation for scaling attention across very long contexts. This is the first Kimi model to support a 1M context length. - Attention Residuals (AttnRes): selectively retrieves representations across model depth rather than accumulating them uniformly. On top of that, Moonshot pushed Mixture-of-Experts sparsity further with the Stable LatentMoE framework, efficiently activating 16 of 896 experts. At this level of sparsity, roughly 2% of experts activated per token, routing and optimization become first-order challenges, so several supporting techniques enable stable training at 2.8T scale: - Quantile Balancing: derives expert allocation directly from router-score quantiles, eliminating heuristic updates and a sensitive balancing hyperparameter. - Per-Head Muon: extends the Muon optimizer to optimize attention heads independently for more adaptive learning at scale. - Sigmoid Tanh Unit (SiTU): improves activation control. - Gated MLA: improves attention selectivity. How to use Kimi K3 on Together AI The API is OpenAI-compatible. The snippets below target Together AI and use the official Together Python SDK. Thinking effort K3 can be configured with the top-level reasoning_effort field. Three levels are supported: low, high, and max, with max as the default. On Together, thinking can also be switched off via the standard reasoning={\"enabled\": False} toggle. Streaming Streaming responses deliver separate reasoning_content (the thinking trace) and final-answer content deltas. Vision input Multiple images can be provided as input. Moonshot has also released a visual reasoning benchmark, Perception Bench. Vision limits: - No limit on the number of images, but the whole request body must stay under 100 MB. - Recommended maxima: 4K (4096x2160) for images. Higher resolutions cost processing time and tokens without improving understanding. - Token cost scales with resolution. Structured output Use response_format with json_schema and strict: true to constrain the final message.content. The looser {\"type\": \"json_object\"} mode also works on Together when you only need syntactically valid JSON. Either way, keep max_tokens generous: the whole thinking trace is spent before the first schema-constrained token is emitted, so a tight cap truncates the JSON rather than the reasoning. Tools and tool_choice K3 keeps the standard tool-choice constraints. The standard loop: declare functions in tools; when the model returns tool_calls, append the complete assistant message to history, then append one tool message with the matching tool_call_id for each call, then call again. Use tool_choice=\"required\" on a first turn to force at least one tool call, and switch back to \"auto\" afterward. Changing tool_choice does not invalidate the prefix cache. Dynamic tool loading You can place a complete tool definition (full name, description, and parameters) inside a system message that carries a tools field and no content. The tool becomes available from that message's position onward. Key rules: - Dynamic declarations use exactly the same format as the top-level tools field. - They apply per request and are not retained by the server, so keep the message in later request history yourself. Keeping it preserves both the tool's availability and the cached prefix; dropping it means the model can no longer call that tool and the changed prefix may miss the cache. - Appending a dynamic declaration to the end of messages does not affect the cached prefix; removing or modifying an earlier declaration may hurt cache hits after the point of change. Recommended pattern for large tool catalogs: - Conversation start: declare only a single search_tools function (implemented by your backend) plus a few core tools, and advertise searchable domain tags in the system prompt. - First turn: set tool_choice: \"required\" to force retrieval before answering. - Inject on demand: insert the full definitions of matching tools via a system message based on retrieval results. - Call directly: the model uses the loaded tools in subsequent generations. - Cost trade-off: decide reasoning_effort before the conversation starts. Code Example: 1M context and automatic caching Together supports the full 1M context length, and context caching is automatic. Keep your long prefix (system prompt, knowledge base, repo dump) byte-stable across requests so later calls can hit the cache. Moonshot recommends placing fixed bulk context (knowledge documents) at the very beginning of the messages array, ahead of the system message, then appending questions and replies after it. Sampling parameters The sampling parameters are fixed and you should omit them from requests. The model was trained using these params and does not support setting alternatives: - temperature = 1.0 - top_p = 0.95 - n = 1 - presence_penalty = 0 - frequency_penalty = 0 Preserved thinking K3 was trained in preserved thinking history mode, so the trace is the state the next turn depends on. Use the following to preserve thinking tokens from the previous turn and forward them to future turns. Drop the reasoning_content line and the same call answers with a different freshly-invented number every time. In real code you never hand-write the trace; you replay what the model produced, which is the one-liner from the tool loop: Kimi K3 pricing Kimi K3 is priced per token, with a cache-hit input tier that rewards stable prefixes: Two cost aspects to internalize: - The cache is your lever. With a >90% hit rate in coding workloads, effective input cost trends toward the \\$0.30 floor, but only if you keep prefixes",
+          "title_zh": "Together AI 推进模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。",
+            "涉及公司或机构：Together AI、Benchmark。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "benchmark",
+              "explanation": "用于衡量模型能力的任务集合或评测体系。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Kimi K3: The Complete Developer Guide",
+              "source_url": "https://www.together.ai/blog/kimi-k3-guide"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Kimi K3 is the first open 3T-class model. See how it benchmarks, what it costs, and how to call it on the Together AI API, with copy-paste code examples.",
+              "source_url": "https://www.together.ai/blog/kimi-k3-guide"
+            }
+          ],
+          "slug": "kimi-k3-the-complete-developer-guide-efb91d19",
+          "localized_url": "/zh/items/2026-08-03/kimi-k3-the-complete-developer-guide-efb91d19/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-02",
       "title_zh": "AI 新闻简报 · 2026-08-02",
