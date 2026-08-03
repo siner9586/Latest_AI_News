@@ -1,7 +1,777 @@
 {
-  "updated_at": "2026-08-02T23:14:24.413185+00:00",
-  "count": 55,
+  "updated_at": "2026-08-03T23:28:38.459233+00:00",
+  "count": 56,
   "briefs": [
+    {
+      "date": "2026-08-04",
+      "title_zh": "AI 新闻简报 · 2026-08-04",
+      "title_en": "English AI News Brief · 2026-08-04",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 141 条，入选 11 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 141 previously displayed items excluded, and 11 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 141,
+      "selected_count": 11,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "How we built a realtime system for responsive voice AI in six months",
+          "title_original": "How we built a realtime system for responsive voice AI in six months",
+          "title_en": "How we built a realtime system for responsive voice AI in six months",
+          "summary_zh": "OpenAI 更新了实时语音交互模型能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+          "published_at": "Mon, 03 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-03T23:28:36.406646+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d04cc35bd3cc",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How we built a realtime system for responsive voice AI in six months",
+          "extracted_excerpt": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+          "extracted_text_for_analysis": "For voice AI, knowing when to speak is harder than it sounds. Human speakers effortlessly hand off to each other in a fraction of a second, but previous voice AI systems couldn’t keep up with this rhythm. Their turn-based architecture relied on tiny models known as turn detectors, which faced an unenviable task: guess too soon, and the user gets cut off; guess too late, and the response feels sluggish. Only after the detector made its decision could the much larger LLM get to work. GPT‑Live, our third-generation voice system, removes the turn detector from the audio path. Its voice model is full-duplex, which means it can listen and speak at the same time. That eliminates the need for a separate detector and makes conversation feel more immediate and natural. When deeper reasoning or tool use is needed, GPT‑Live can also consult our frontier models, such as GPT‑5.5, without interrupting the flow of the conversation. Together, these capabilities give GPT‑Live an unprecedented combination of conversational responsiveness and intelligence. Delivering this experience at scale required a new system architecture optimized for low latency. Unlike typical request-response inference, our system streams incoming audio into the voice model and outbound speech back to the user, while handling delegation on a separate asynchronous path. Over the last six months, we reworked model inference, context management, and media transport to keep speech flowing smoothly from end to end. The architecture also creates a clean boundary between the core voice path and application logic. This makes it easy to customize application behavior without affecting responsiveness. This foundation powers a growing range of capabilities in ChatGPT Voice, including the newly launched ability to control your computer and coordinate your agents in the ChatGPT desktop app. In this post, we’ll explain why earlier turn-based systems couldn’t meet our needs and how we engineered the new system for responsiveness at every layer. We’ll cover stateful inference, dynamic context management, asynchronous delegation, and protocol-level optimization, all working together to make GPT‑Live feel truly live. Earlier voice architectures inherited the turn-based nature of text LLMs, but with each turn represented as a discrete audio blob rather than text. In cascaded systems, speech-to-text, the LLM, and text-to-speech each ran in series. This sequencing added latency and ignored cues such as tone and pacing. Speech-to-speech models improved on this approach by processing audio directly. Training the model to natively understand and generate speech allowed it to preserve details lost in transcription and respond more quickly. But the system still relied on the turn detector to decide when inference could begin. The model handled more of the interaction, but the interaction remained turn-based. GPT‑Live puts the voice model in control of the conversation: audio flows in and out of the model, while deeper reasoning and tool use happen asynchronously. The system’s primary job is to sustain an uninterrupted media loop. Other work, such as invoking frontier models and persisting the conversation, happens off the live path. Keeping this media loop uninterrupted is not always straightforward. Any delay in transport, processing, or inference can become an audible pause or artifact. A previous turn-based system could tolerate some variation in when an audio blob arrived. However, a live media system needs to deliver every audio frame on schedule. Earlier work on ChatGPT Voice and the Realtime API gave us an important foundation. We had already rebuilt our voice infrastructure to stream audio and video directly in and out of our systems with lower and more predictable latency. GPT‑Live pushed that design further, streaming media all the way to the model through a new stateful inference system built for continuous conversation. Streaming inference was only part of the solution though. To make it work well in production, we also had to ensure reliable audio delivery from the client to the inference stack and deal with the challenges of statefulness. An early decision we made was to specifically separate media flow from application and business logic. Audio moves between the client and the voice model on a dedicated fast path. Delegation, tool use, and other application work happen behind an asynchronous RPC boundary. A slow tool call or backend service can delay its own result, but cannot stall the flow of media. This separation also gives the system a clean boundary for customization. Applications can change their tools, policies, and backend behavior without affecting the media frontend responsible for keeping audio moving. The live path stays small, predictable, and focused on the work that must happen in real time. We wrote the media frontend and inference logic in Go, replacing a previous Python asyncio implementation. This significantly improved the smoothness of frame delivery, with the new system’s p95 matching the previous system’s p50. WebRTC provides the transport foundation. It’s designed for low-latency media, and can continue operating through packet loss, clock drift, and client connection changes. If packets arrive late, WebRTC can subtly stretch audio to prevent gaps, and then briefly accelerate playback to catch back up to real time. By minimizing buffering and blocking throughout the system, we can deliver the sub-second responsiveness that humans expect from conversation. Stateful inference has its own operational tradeoffs. A voice session may remain active for a long time, but its context continuously grows, and model instances spin up and down based on demand. To address these concerns, we built a seamless handoff mechanism across model instances. When a transition is needed, we can warm a replacement model instance alongside the existing one, prefill it with the current session context, run inference against both in parallel, and cut over when the new instance is fully ready. The same basic mechanism also supports dynamic context compaction. As a conversation goes on, its accumulated context can eventually exceed the model’s context limit. Compaction can reduce the context size to fit within the limit, but the operation takes time. And because it changes past context, it also invalidates the model’s key-value (KV) cache, which stores attention keys and values from previously processed tokens. Rebuilding that state requires a new prefill, introducing additional delay. Instead, we treat compaction as another managed transition. While the original model instance keeps chatting, the system compacts the context and prepares a replacement model instance with the new context. Once that instance is ready, we can switch over without any media interruption. This allows the system to support long-running calls, compacting whenever necessary. The heavy lifting stays off the live path, so even during a handoff, the",
+          "title_zh": "OpenAI 推进实时语音交互模型能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How we built a realtime system for responsive voice AI in six months",
+              "source_url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+              "source_url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
+            }
+          ],
+          "slug": "how-we-built-a-realtime-system-for-responsive-voice-ai-in-six-months-d04cc35b",
+          "localized_url": "/zh/items/2026-08-04/how-we-built-a-realtime-system-for-responsive-voice-ai-in-six-months-d04cc35b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🎙️ How I AI: ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+          "title_original": "🎙️ How I AI: ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+          "title_en": "🎙️ How I AI: ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+          "summary_zh": "OpenAI 的新访谈把焦点放在实时语音交互模型能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-i-ai-chatgpt-codex-voice-browser",
+          "published_at": "Mon, 03 Aug 2026 15:02:21 GMT",
+          "fetched_at": "2026-08-03T23:28:36.406646+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6955e8ae4fe9",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论实时语音交互模型能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🎙️ How I AI: ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-chatgpt-codex-voice-browser"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-chatgpt-codex-voice-browser"
+            }
+          ],
+          "slug": "how-i-ai-chatgpt-codex-voice-browser-sites-an-experts-ai-workflow-nick-b-6955e8ae",
+          "localized_url": "/zh/items/2026-08-04/how-i-ai-chatgpt-codex-voice-browser-sites-an-experts-ai-workflow-nick-b-6955e8ae/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+          "title_original": "ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+          "title_en": "ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+          "summary_zh": "OpenAI 的新访谈把焦点放在实时语音交互模型能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "OpenAI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/chatgpt-codex-voice-browser-sites",
+          "published_at": "Mon, 03 Aug 2026 12:04:26 GMT",
+          "fetched_at": "2026-08-03T23:28:36.406646+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c2fa0476184d",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论实时语音交互模型能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+              "source_url": "https://www.lennysnewsletter.com/p/chatgpt-codex-voice-browser-sites"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/chatgpt-codex-voice-browser-sites"
+            }
+          ],
+          "slug": "chatgpt-codex-voice-browser-sites-an-experts-ai-workflow-nick-baumann-op-c2fa0476",
+          "localized_url": "/zh/items/2026-08-04/chatgpt-codex-voice-browser-sites-an-experts-ai-workflow-nick-baumann-op-c2fa0476/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+          "title_original": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+          "title_en": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+          "summary_zh": "Latent Space 的新访谈把焦点放在推理容量与成本控制方案，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/inference-eng",
+          "published_at": "Mon, 03 Aug 2026 21:44:03 GMT",
+          "fetched_at": "2026-08-03T23:28:36.406646+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a8f46de4b51b",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论推理容量与成本控制方案",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+              "source_url": "https://www.latent.space/p/inference-eng"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
+              "source_url": "https://www.latent.space/p/inference-eng"
+            }
+          ],
+          "slug": "the-inference-engineering-masterclass-philip-kiely-ali-taha-baseten-a8f46de4",
+          "localized_url": "/zh/items/2026-08-04/the-inference-engineering-masterclass-philip-kiely-ali-taha-baseten-a8f46de4/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Why smarter AI models could drive up compute prices 10x",
+          "title_original": "Why smarter AI models could drive up compute prices 10x",
+          "title_en": "Why smarter AI models could drive up compute prices 10x",
+          "summary_zh": "Dwarkesh Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The end of cheap compute?",
+          "source_name": "Dwarkesh Podcast",
+          "source_url": "https://www.dwarkeshpatel.com/",
+          "original_url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video",
+          "published_at": "Mon, 03 Aug 2026 17:32:13 GMT",
+          "fetched_at": "2026-08-03T23:28:36.406646+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "agi",
+            "economics",
+            "interview"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8eb370e2a9a3",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Dwarkesh Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Dwarkesh Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：agi、economics、interview。"
+          ],
+          "background_zh": "这条内容来自 Dwarkesh Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Why smarter AI models could drive up compute prices 10x",
+              "source_url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The end of cheap compute?",
+              "source_url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video"
+            }
+          ],
+          "slug": "why-smarter-ai-models-could-drive-up-compute-prices-10x-8eb370e2",
+          "localized_url": "/zh/items/2026-08-04/why-smarter-ai-models-could-drive-up-compute-prices-10x-8eb370e2/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Qwen 3.8 Max now available on Vercel AI Gateway",
+          "title_original": "Qwen 3.8 Max now available on Vercel AI Gateway",
+          "title_en": "Qwen 3.8 Max now available on Vercel AI Gateway",
+          "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Qwen 3.8 Max is now available on AI Gateway. Qwen 3.8 Max handles text-only and vision-language work in one model, with 2.4 trillion parameters and a context window of up to 1 million tokens. The model is suited for software engineering and office",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway",
+          "published_at": "2026-08-02T00:00:00.000Z",
+          "fetched_at": "2026-08-03T23:28:36.406646+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [
+            "Vercel AI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "61a5584a351c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Qwen 3.8 Max now available on Vercel AI Gateway - Vercel",
+          "extracted_excerpt": "Call Alibaba's Qwen 3.8 Max through Vercel AI Gateway with one API key: no provider account, automatic fallbacks, spend tracking, and traces on every request.",
+          "extracted_text_for_analysis": "Qwen 3.8 Max is now available on AI Gateway. Qwen 3.8 Max handles text-only and vision-language work in one model, with 2.4 trillion parameters and a context window of up to 1 million tokens. The model is suited for software engineering and office productivity, along with visual work like turning screenshots or design files into working pages, captioning video, and answering questions grounded in an image. To use Qwen 3.8 Max, set model to alibaba/qwen3.8-max. import { streamText } from 'ai'; const result = streamText({ model: 'alibaba/qwen3.8-max', prompt: 'Add pagination to the results endpoint.',}); Try Qwen 3.8 Max in the model playground. To use it in a coding agent, run vercel ai-gateway coding-agents setup to connect Claude Code, Codex, OpenCode, or Pi, then select alibaba/qwen3.8-max inside the agent. AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more. AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests. AI Gateway: Track top AI models by usage The AI Gateway model leaderboard tracks the most popular models over time, ranking them by the total volume of tokens processed across all Gateway traffic. View the leaderboard",
+          "title_zh": "Vercel 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Vercel AI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Qwen 3.8 Max now available on Vercel AI Gateway",
+              "source_url": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Qwen 3.8 Max is now available on AI Gateway. Qwen 3.8 Max handles text-only and vision-language work in one model, with 2.4 trillion parameters and a context window of up to 1 million tokens. The model is suited for",
+              "source_url": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway"
+            }
+          ],
+          "slug": "qwen-3-8-max-now-available-on-vercel-ai-gateway-61a5584a",
+          "localized_url": "/zh/items/2026-08-04/qwen-3-8-max-now-available-on-vercel-ai-gateway-61a5584a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Sakana AI、日本語特化のLLM API「Sakana Namazu」を提供開始",
+          "title_original": "Sakana AI、日本語特化のLLM API「Sakana Namazu」を提供開始",
+          "title_en": "Sakana AI、日本語特化のLLM API「Sakana Namazu」を提供開始",
+          "summary_zh": "Sakana AI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/namazu-api/",
+          "published_at": "2026-08-03T00:00:00+09:00",
+          "fetched_at": "2026-08-03T23:28:36.406646+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Sakana AI"
+          ],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "238bfe9accaa",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "Sakana AI、日本語特化のLLM API「Sakana Namazu」を提供開始",
+          "extracted_text_for_analysis": "（English Announcement Below.） Sakana AIは本日、これまでSakana Chatに搭載してきた大規模言語モデル「Namazu」をアップデートし、API「Sakana Namazu（サカナ・ナマズ）」として提供を開始しました。日本語と日本の商習慣に特化したLLMで、Web検索とコード実行のビルトインツールを備えています。OpenAI互換APIを利用している既存コードであれば、base_urlを書き換え、APIキーを設定するだけで、そのままご利用いただけます。 👉 詳細はこちら：https://sakana.ai/namazu Sakana Namazuとは Sakana Namazuは、Sakana AIが提供する日本語特化のLLM APIです。Moonshot AIが公開するオープンモデル「Kimi K2.6」をベースに、社内独自のデータで日本語と日本の業務文脈への適合を進め、あわせて、特定の話題での応答回避や出力の偏りを抑えるチューニングを施しました。Sakana Chatで提供してきたモデルを、さらに強化したものにあたります。 Sakana Chatでの提供開始時からモデルを更新しており、日本語での応答品質とエージェントとしての実行能力の双方で、これまでのバージョンを上回ります。Sakana Chat公開時の技術的な背景については、こちらのブログをご覧ください。 開発の背景 Sakana Chatの公開以来、「このモデルを自社のプロダクトやワークフローからAPI経由で使いたい」という声を数多くいただいてきました。 一方で、日本語で業務に使えるLLM APIの選択肢は、まだ限られているのが現状です。フロンティアモデルはコストが高く、オープンモデルをそのまま使う場合には、品質やデータの取り扱いに対する不安が残ります。 Sakana Namazuは、その間を埋める選択肢として開発しました。日本語と日本の業務文脈に適合させたモデルを、扱いやすい価格とOpenAI互換のAPIで提供します。料金の詳細は 料金ページ をご覧ください。 ベンチマーク評価 Sakana Namazuの強みは、高度な推論・問題解決能力と、日本語・日本固有の文脈における高い性能の2点です。 1つ目の推論・問題解決能力は、数学的推論を測るAIME26、幅広い知識と推論力を評価するMMLU-Pro、コーディング能力を測るLiveCodeBench v6で評価しています。Sakana Namazuは、ベースモデルであるKimi K2.6の高い性能を維持しながらチューニングを行っています。これにより、複雑な課題を理解し、推論しながら解決へ導く高いタスク遂行能力を確認できます。 2つ目は、日本語および日本固有の文脈に対する高い理解力です。日本語での指示追従性能を測るJFBench、日本固有の名詞や敬語等を考慮した日英翻訳タスク、特定の国の価値観に偏らない回答の中立性を測るFairPoliticsQAのすべてで、ベースモデルを上回りました（※）。特にFairPoliticsQAでは34.10%から56.30%へと大幅に向上しており、一般的な日本語能力に加え、日本固有の知識や文脈を踏まえて回答する能力が強化されています。 （※）JFBenchは、Preferred Networks社が開発した日本語における指示追従能力を測るためのベンチマークです。本評価では、制約数1,2,4,8のそれぞれから200サンプルをサンプリングし、評価を実施しました。日英翻訳タスクとFairPoliticsQAは社内で構築した独自ベンチマークです。 Sakana Namazu APIを使って何ができるか Sakana Namazuの使いどころを、3つのユースケースで紹介します。 1つ目は、市場調査レポートの自動生成です。毎週月曜の朝に届くレポートを、調査計画の立案からWeb検索の繰り返し、情報の突き合わせ、レポートの執筆まで、人手を介さず自律的に完走して作成します。この長い多段階のワークフローを支えるのは、ベースモデル由来の高いエージェント能力と、標準搭載のWeb検索ツールです。 2つ目は、カスタマーサポートの自動化と受注データの分析です。日本語に特化したモデルを、問い合わせ対応から受注データの集計・分析まで一気通貫で活用できます。低い利用単価で提供するため、全社に点在する小さなAI利用をまとめても、コストを抑えて運用できます。 3つ目は、魚群ライトショーの自動演出です。「海の世界」というお題をひとつ渡すだけで、次にどんなモチーフを見せるかをモデル自身が決め、題材となる参考画像をWeb検索で収集し、約1,000匹の魚群をどう動かせばその形になるかを組み立てて指示します。このデモを支えるのは、OpenAI 互換の function calling と画像認識能力です。各ステップで水槽のスクリーンショットを画像として受け取りながら、「見て・決めて・動かす」ループを自律的に回し続けます。業務の自動化と同じエージェント能力が、こうした創造的な演出にまで届くことを示すデモです。 おわりに Sakana Namazuは、Moonshot AIが開発・公開するKimi K2.6をはじめとする、オープンなAIエコシステムの上に成り立っています。優れたモデルを公開し続けるAIコミュニティに、深く敬意を表します。 Sakana Namazuは、API Consoleから本日よりご利用いただけます。詳細はプロダクトページおよびスタートガイドをご覧ください。 また、エンタープライズ用途に向けた展開も視野に入れています。ご関心のある方はこちらからお問い合わせください。 Sakana AIは、日本でのAIの未来を私たちと一緒に切り拓いてくださる方を募集しています。当社の採用情報をご覧ください。 English Announcement Sakana Namazu: An LLM API with Japanese-vibes! Today we are releasing Sakana Namazu, an API powered by an updated version of the large language model that has been running inside Sakana Chat. It is an LLM specialized for the Japanese language and for the way business is done in Japan, with web search and code execution available as built-in tools. If you already have code written against an OpenAI-compatible API, rewriting base_url is all it takes to start using it. 👉 Sakana Namazu API: https://sakana.ai/namazu What Sakana Namazu is Sakana Namazu is a Japanese-specialized LLM API from Sakana AI. It is built on Kimi K2.6, the open model published by Moonshot AI. Using our own in-house data, we adapted the model to Japanese and to Japanese business contexts, and we also tuned it to reduce unnecessary refusals on certain topics and to limit bias in its outputs. It is a further strengthened version of the model we have offered through Sakana Chat. We have kept updating the model since Sakana Chat first launched, and this version improves on earlier ones both in the quality of its Japanese responses and in its ability to carry out work as an agent. For the technical background at the time of the Sakana Chat release, see this blog. Why we built it Ever since Sakana Chat launched, we have heard the same request many times over: people wanted to use this model from their own products and workflows through an API. At the same time, the choice of LLM APIs that can handle real work in Japanese is still limited. Frontier models are costly, and using an open model as it comes leaves open questions about quality and about how data is handled. We developed Sakana Namazu as an option that sits between the two. It offers a model adapted to Japanese and to Japanese business contexts, at a price that is easy to work with, through an OpenAI-compatible API. See the pricing page for details. Benchmark Evaluation Sakana Namazu is strong in two areas: advanced reasoning and problem solving, and high performance in Japanese and in contexts specific to Japan. For the first, we evaluated reasoning and problem solving on AIME26 for mathematical reasoning, MMLU-Pro for broad knowledge and reasoning, and LiveCodeBench v6 for coding ability. Sakana Namazu preserves the strong performance of its base model, Kimi K2.6, through tuning. The results confirm a model that can take in a complex task and reason its way through to a solution. Sakana Namazu has two core strengths: advanced reasoning and problem-solving, and strong performance in Japanese and Japan-specific contexts. The second is its understanding of Japanese and of context specific to Japan. It outperformed the base model on all of the following: JFBench, which measures instruction following in Japanese; a Japanese-English translation task that accounts for Japan-specific proper nouns and honorific language; and FairPoliticsQA, which measures whether answers stay neutral rather than leaning toward the values of any one country.（※） The gain on FairPoliticsQA is especially large, rising from 34.10% to 56.30%, showing that on top of general Japanese ability, the model is better able to answer with Japan-specific knowledge and context in mind. （※）JFBench is a benchmark developed by Preferred Networks for measuring instruction-following ability in Japanese. For this evaluation, we sampled 200 items from each of the constraint counts 1, 2, 4, and 8. The Japanese-English translation task and FairPoliticsQA are internal benchmarks we built ourselves. What You Can Do with the Sakana Namazu API Here are three use cases that show where Sakana Namazu fits. The first is generating market research reports automatically. A report lands every Monday morning, and the model runs the entire job on its own, from drawing up the research plan through repeated web searches, cross-checking what it finds, and writing the report itself. What supports this long, multi-stage workflow is the strong agentic ability inherited from the base model, together with the web search tool that comes as standard. The second is automating customer support and analyzing order data. A model specialized for Japanese can handle everything end to end, from answering inquiries to aggregating and analyzing order data. Because we offer it at a low unit price, you can consolidate all the small pockets of AI use scattered across a company and still keep running costs down. The third is a fish light show that directs itself. Hand the model a single theme, in",
+          "title_zh": "Sakana AI 推进开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Sakana AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Sakana AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。",
+            "涉及公司或机构：Sakana AI。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Sakana AI、日本語特化のLLM API「Sakana Namazu」を提供開始",
+              "source_url": "https://sakana.ai/namazu-api/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/namazu-api/"
+            }
+          ],
+          "slug": "sakana-aillm-apisakana-namazu-03cc1976",
+          "localized_url": "/zh/items/2026-08-04/sakana-aillm-apisakana-namazu-03cc1976/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel WAF for Blob is now generally available",
+          "title_original": "Vercel WAF for Blob is now generally available",
+          "title_en": "Vercel WAF for Blob is now generally available",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel WAF for Blob is now generally available and supported for production use on all plans. If you protected a store during the beta , nothing has changed: your rules and setup carry over exactly as they are. Vercel WAF protects a Blob store with custom",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-generally-available",
+          "published_at": "2026-08-03T17:00:00.000Z",
+          "fetched_at": "2026-08-03T23:28:36.406646+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f80637838058",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Vercel WAF for Blob is now generally available - Vercel",
+          "extracted_excerpt": "Vercel WAF for Blob is now generally available. Protect Blob stores with your Vercel WAF rules on all plans.",
+          "extracted_text_for_analysis": "Vercel WAF for Blob is now generally available and supported for production use on all plans. If you protected a store during the beta, nothing has changed: your rules and setup carry over exactly as they are. Vercel WAF protects a Blob store with custom rules, the same kind you use to guard your deployments. Rules that match on properties like IP address, country, and path can deny, challenge, or rate limit requests to your stored objects. This requires no changes to your code, your blob URLs, or how you use @vercel/blob. Rules are evaluated at Vercel's edge, so a denied request is turned away before any data transfer occurs. Unwanted traffic to AI-generated media, user uploads, or paid downloads never reaches your store and never generates a bill. To enable protection, open your Blob store's Settings tab, and in the Firewall section select Protect your store, then Enable firewall. This connects the store to a dedicated team-wide project where your Blob firewall rules live, shared by every store you protect. Read the Blob security documentation to protect a store.",
+          "title_zh": "Vercel 发布AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel WAF for Blob is now generally available",
+              "source_url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-generally-available"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel WAF for Blob is now generally available and supported for production use on all plans. If you protected a store during the beta , nothing has changed: your rules and setup carry over exactly as they are. Vercel",
+              "source_url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-generally-available"
+            }
+          ],
+          "slug": "vercel-waf-for-blob-is-now-generally-available-f8063783",
+          "localized_url": "/zh/items/2026-08-04/vercel-waf-for-blob-is-now-generally-available-f8063783/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Factory scaled its cloud backend to tens of millions of daily requests on Vercel",
+          "title_original": "How Factory scaled its cloud backend to tens of millions of daily requests on Vercel",
+          "title_en": "How Factory scaled its cloud backend to tens of millions of daily requests on Vercel",
+          "summary_zh": "Vercel 推进了政府与国家安全合作原则，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Factory on Vercel Tens of millions of backend API requests served daily 350ms p95 response time Scaled backend, internal tooling, and security without a dedicated infrastructure team Factory's mission is to bring autonomy to every phase of the software",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-tens-of-millions-of-daily-requests",
+          "published_at": "2026-08-03T04:00:00.000Z",
+          "fetched_at": "2026-08-03T23:28:36.406646+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0da67e751471",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进政府与国家安全合作原则",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Factory scaled its cloud backend to tens of millions of daily requests on Vercel",
+              "source_url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-tens-of-millions-of-daily-requests"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Factory on Vercel Tens of millions of backend API requests served daily 350ms p95 response time Scaled backend, internal tooling, and security without a dedicated infrastructure team Factory's mission is to bring",
+              "source_url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-tens-of-millions-of-daily-requests"
+            }
+          ],
+          "slug": "how-factory-scaled-its-cloud-backend-to-tens-of-millions-of-daily-reques-0da67e75",
+          "localized_url": "/zh/items/2026-08-04/how-factory-scaled-its-cloud-backend-to-tens-of-millions-of-daily-reques-0da67e75/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Share Vercel Container Registry repositories across teams",
+          "title_original": "Share Vercel Container Registry repositories across teams",
+          "title_en": "Share Vercel Container Registry repositories across teams",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Container Registry now lets you share a repository with other Vercel teams to grant read access to its images. Sharing is read-only and covers the whole repository. Recipients can pull and use every image, but cannot push, delete, or re-share. You can",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/share-vercel-container-registry-repositories-across-teams",
+          "published_at": "2026-08-03T00:00:00.000Z",
+          "fetched_at": "2026-08-03T23:28:36.406646+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bd54a38b2338",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Share Vercel Container Registry repositories across teams",
+              "source_url": "https://vercel.com/changelog/share-vercel-container-registry-repositories-across-teams"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Container Registry now lets you share a repository with other Vercel teams to grant read access to its images. Sharing is read-only and covers the whole repository. Recipients can pull and use every image, but",
+              "source_url": "https://vercel.com/changelog/share-vercel-container-registry-repositories-across-teams"
+            }
+          ],
+          "slug": "share-vercel-container-registry-repositories-across-teams-bd54a38b",
+          "localized_url": "/zh/items/2026-08-04/share-vercel-container-registry-repositories-across-teams-bd54a38b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Orchard: An open framework for scalable agentic AI",
+          "title_original": "Orchard: An open framework for scalable agentic AI",
+          "title_en": "Orchard: An open framework for scalable agentic AI",
+          "summary_zh": "Microsoft 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure. The post",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
+          "published_at": "Mon, 03 Aug 2026 16:00:00 +0000",
+          "fetched_at": "2026-08-03T23:28:36.406646+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "d968a40ec642",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Orchard: An open framework for scalable agentic AI",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/"
+            }
+          ],
+          "slug": "orchard-an-open-framework-for-scalable-agentic-ai-c3fb403d",
+          "localized_url": "/zh/items/2026-08-04/orchard-an-open-framework-for-scalable-agentic-ai-c3fb403d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-03",
       "title_zh": "AI 新闻简报 · 2026-08-03",
