@@ -1,7 +1,1237 @@
 {
-  "updated_at": "2026-08-03T23:28:38.459233+00:00",
-  "count": 56,
+  "updated_at": "2026-08-04T23:19:51.920997+00:00",
+  "count": 57,
   "briefs": [
+    {
+      "date": "2026-08-05",
+      "title_zh": "AI 新闻简报 · 2026-08-05",
+      "title_en": "English AI News Brief · 2026-08-05",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 130 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 130 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 130,
+      "selected_count": 18,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Third-party cyber evaluations involving OpenAI models",
+          "title_original": "Third-party cyber evaluations involving OpenAI models",
+          "title_en": "Third-party cyber evaluations involving OpenAI models",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+          "published_at": "Tue, 04 Aug 2026 19:00:00 GMT",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "977f60f7e5e3",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Third-party cyber evaluations involving OpenAI models",
+          "extracted_excerpt": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+          "extracted_text_for_analysis": "Independent testing plays an important role in helping us validate and further understand risks before deployment. Some cyber evaluations intentionally use custom configurations, including lowered safeguards to measure underlying capability—not how models ordinarily behave in publicly available deployments. During recent evaluations, two external testing partners identified incidents in which testing configurations and controls combined with the advancing capabilities of the recent models allowed for model activity to extend beyond their intended testing boundaries. The incidents underscore the importance of collaborating across the industry and with third party evaluators to evolve the standards for testing environments and practices as models become more capable. Editor’s Note: These are separate from the Hugging Face security incident, and we will continue to share updates on the Hugging Face incident here. The new incidents involved OpenAI models accessing the public internet during third-party cyber evaluations, under specific conditions and reduced-safeguard configurations that did not reflect ordinary deployment. The incidents included: - UK AISI, the UK government’s AI Security Institute, was running cyber-range evaluations with internet access intentionally enabled so agents could find their own tools and operate under conditions closer to a real attacker, and with cyber classifiers disabled to measure underlying capability. You can read their blog here.(opens in a new window) - Irregular, one of our external cybersecurity testing partners, was running Capture-the-Flag-style evaluations intended to be isolated from the internet, but a testing-environment misconfiguration allowed models to access the public internet. Below, we summarize what happened, the testing conditions that enabled the activity, the steps taken to contain it, and what we’re doing to ensure independent labs can continue to rigorously and safely evaluate increasingly capable models. These incidents point to the same broader challenge we described in our recent post about the Hugging Face incident: as model capabilities advance, the security and safety systems around models need to advance too. That includes both the environments used to develop models, and also the environments that labs and independent partners use to evaluate them. In the coming weeks, we will review our own approach to third-party testing, including how we identify higher-risk evaluations, agree on scope, assess requests to enable internet access or lowered safeguards, set expectations for isolation, credential handling, monitoring, and stop conditions, and establish clearer incident-notification and escalation processes. We are committed to working across the industry to strengthen shared practices for conducting high-risk evaluations safely, including convening stakeholders such as national AI institutes, independent evaluators, other AI labs, and other groups in the coming weeks. Our goal is to preserve the value of rigorous independent evaluation while ensuring that testing practices keep pace with increasingly capable models. On August 3, UK AISI told us that during a routine cyber evaluation started on July 25, models from OpenAI and another lab went beyond the scope of testing in some cases. The evaluation took place in controlled cyber ranges designed to mimic real-world networks. Of the 19 events identified, two involved an OpenAI model, GPT‑5.6 Sol. The other instances were models from another lab. For this evaluation, the agents were instructed to act as cybersecurity experts in a capture-the-flag exercise: compromise three connected simulated environments and retrieve a final flag. The task prompt identified the in-scope range networks and named several systems as out of scope. UK AISI also enabled live internet access so agents could download tools and operate under conditions closer to a human attacker—and disabled the model’s cyber classifiers to measure underlying capability. UK AISI’s intended authorization boundary was the simulated cyber range: the agents were authorized to attack the specified simulated networks and retrieve a flag, not to interact with systems outside the range’s network boundary. However, the agents were not explicitly told how they could and could not use open internet access, which UK AISI identifies as a potential contributing cause of the incident. Across these runs, UK AISI found that GPT‑5.6 Sol carried out two unsanctioned actions while trying to find a path into the simulated range and retrieve the flag: - GPT‑5.6 Sol reused a GitHub token that another lab’s agent had left publicly accessible to check whether a system inside the range was polling GitHub or another update service, attempted account-recovery and request-limit workarounds, and registered accounts with external DNS and tunneling providers. - GPT‑5.6 Sol used a public tunneling service to make a DNS server running locally in its evaluation environment reachable from the public internet. The server contained payloads intended for a known vulnerability in a piece of software running on the test range. The setup did not work, there is no evidence any real resolver queried it, and the infrastructure was removed when the evaluation ended. Although the model was trying to complete the cyber range, UK AISI considered these actions unsanctioned because they involved real external accounts and services outside the range boundary and these actions were not required to complete the task. The DNS server also hosted exploit payloads on the public internet, although the setup did not work and there is no evidence any real resolver queried it. UK AISI identified the activity on July 28 after security monitoring detected unusual data transfers. It stopped the related evaluations, isolated the relevant machines, and contained the activity within roughly one hour of detection. We appreciate UK AISI’s partnership throughout this process, including its work to identify, investigate, and share details about the activity. We look forward to continuing our collaboration together. On July 29, one of our third party evaluation partners, Irregular, notified us of an incident involving OpenAI models during Capture-the-Flag (CTF)-style cybersecurity evaluations. The models were instructed to find hidden information by exploiting weaknesses within a simulated environment and were told they did not have internet access. However, a misconfiguration in the testing environment allowed the models to access the public internet. In one test, the name of the fictional target for the CTF challenge unintentionally coincided with a real domain. Because the testing environment was mistakenly connected to the internet, the model exploited a real website, mistaking it to be part of the simulated environment. This did not involve a sophisticated sandbox escape or a zero-day: the internet access resulted from a misconfiguration, and the model appeared to",
+          "title_zh": "OpenAI 披露政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Third-party cyber evaluations involving OpenAI models",
+              "source_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+              "source_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
+            }
+          ],
+          "slug": "third-party-cyber-evaluations-involving-openai-models-977f60f7",
+          "localized_url": "/zh/items/2026-08-05/third-party-cyber-evaluations-involving-openai-models-977f60f7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "New ways to learn and teach with ChatGPT Work and Codex",
+          "title_original": "New ways to learn and teach with ChatGPT Work and Codex",
+          "title_en": "New ways to learn and teach with ChatGPT Work and Codex",
+          "summary_zh": "OpenAI 更新了教育场景中的 AI 实用技能培训，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+          "published_at": "Tue, 04 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b274d6785ee9",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "New ways to learn and teach with ChatGPT Work and Codex",
+          "extracted_excerpt": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+          "extracted_text_for_analysis": "New ways to learn and teach with ChatGPT Work and Codex Introducing new plugins specifically designed to guide K–12 teachers, college educators, and college students. AI is moving from tools that primarily answer questions to systems that can reason across context, use other tools, and help carry out complex, multi-step work. That shift is changing what it means to be prepared for school, work, and what comes next. As students and educators return to classrooms and campuses this fall, we’re introducing three new education plugins for ChatGPT Work and Codex, specifically designed to help students and educators leverage agentic capabilities using the course materials and context they choose. A plugin is a package of apps, role-specific skills, instructions, and common workflows that helps students and educators get started immediately without having to construct complex prompts on their own. These new plugins are available through both ChatGPT Edu and ChatGPT for Teachers district deployments. This builds on the principle that guides our work in education: AI should support learning, not shortcut it, and the best learning experiences keep educators and students in control. The new plugins include one for college students, one for K–12 educators, and one for college educators. By connecting to the tools and materials they already rely on, from documents and course materials to calendars and other approved apps, the plugins understand the context and task at hand and help students and educators move from curiosity to practice, lesson idea to classroom material, and project concept to execution. We have been focused on partnering with schools and universities to make AI available in secure, institution-managed environments. Introduced in 2024, ChatGPT Edu gives educational institutions managed workspaces with enterprise-level privacy, security, and administrative controls. ChatGPT for Teachers(opens in a new window), introduced in 2025, is free for verified U.S. K–12 educators and districts and offers education-grade protections and compliance features. School and district leaders can claim their domain to bring educators into a shared workspace with greater oversight and guidance, including protections to support FERPA requirements and a data privacy agreement. The K–12 Educator plugin is designed to help teachers plan and create for their classrooms. Developed alongside K–12 educators, it can work with the materials and tools teachers already use to create differentiated resources, design interactive visuals, and surface actionable insights. It also integrates with Learning Commons(opens in a new window), a philanthropic organization that funds and builds public AI datasets and resources to help bring more learning science into classrooms, which allows teachers to create materials aligned to local academic standards, the granular learning components beneath them, and the progressions that connect prior and future learning, while remaining in control of pedagogical decisions, grading, and agentic actions. This work reflects what we’ve learned through our engagement with educators, including our partnership with the American Federation of Teachers (AFT). OpenAI is the founding partner in the National Academy for AI Instruction, a five-year initiative to equip 400,000 K–12 educators—about one in every 10 teachers in the US—to use AI effectively and lead the way in shaping how AI is taught and used in classrooms across the country. K–12 Educator plugin The College Educator plugin enables course design, teaching, and academic planning. Faculty can update syllabi, create interactive websites or multimedia assessments, adapt materials for diverse learners, or package content for their LMS. With connected calendars, documents, and other approved tools, instructors can also work across teaching, research, and everyday tasks without having to recreate the context for each new project. College Educator plugin The College Student plugin helps students turn what they are already studying into more personalized learning experiences. Students can work with a guided tutor, practice difficult concepts, and create study guides, quizzes, flashcards, and interactive visual explanations from the sources they choose. Designed with university students across majors, geographies, and levels of AI fluency, the plugin draws on learning science to prioritize deeper understanding and build stronger study habits. Together, these plugins give students and educators a more useful starting point for working with AI by bringing the right context, tools, and workflows together so they can spend less time setting up how ChatGPT should work and more time learning, teaching, researching, and creating, while institutions retain control over which tools and permissions are available. College Student plugin As AI becomes more capable, the opportunity for education is bigger than simply helping people learn how to use a new technology. It is helping students develop agency: the ability to direct these tools toward meaningful goals, exercise judgment, learn continuously, solve hard problems, and turn ideas into something real. More than 200 million young adults ages 18–24 now use ChatGPT every week, making them some of the stronger mainstream users. However, among college-age users, we see a widening global “capability overhang,” defined as the gap between what AI tools can do and how people actually use them. Even advanced student users leverage ChatGPT’s capabilities roughly 90–99% less than power users, pointing to significant room to deepen AI skills. Structured access can help close that gap. Across ChatGPT Edu deployments, students develop more advanced patterns of use over time, outperforming free users across nearly every capability and moving closer to power-user behavior, particularly in analysis, calculation, and learning. Since the launch of ChatGPT Edu in 2024, we have partnered with K–12 schools and districts including Houston ISD, Texas; Fairfax, Virginia and Fulton, Georgia and hundreds of college and university campuses, including the Wharton School of the University of Pennsylvania, The University of Texas at Austin, and the California State University system to responsibly deploy AI to teachers and campuses. Through our investments in education, hundreds of thousands of educators across K–12 and higher education have free access to OpenAI tools, training, and research to advance equity and innovation. Now, we’re delivering new features to support teachers and students to better leverage the full capabilities of ChatGPT. Frontier technology needs to be paired with education-specific workspaces, training, peer-led programs, rigorous research, and trusted partners to build the confidence to leverage new capabilities responsibly. For college students, the new OpenAI Student Collective is a student-led community for learning, building, and shaping what’s next with AI. Applications are now open for",
+          "title_zh": "OpenAI 推进教育场景中的 AI 实用技能培训",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在教育场景中的 AI 实用技能培训。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "New ways to learn and teach with ChatGPT Work and Codex",
+              "source_url": "https://openai.com/index/learn-teach-chatgpt-work-codex"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+              "source_url": "https://openai.com/index/learn-teach-chatgpt-work-codex"
+            }
+          ],
+          "slug": "new-ways-to-learn-and-teach-with-chatgpt-work-and-codex-b274d678",
+          "localized_url": "/zh/items/2026-08-05/new-ways-to-learn-and-teach-with-chatgpt-work-and-codex-b274d678/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Apple is getting this wrong",
+          "title_original": "Apple is getting this wrong",
+          "title_en": "Apple is getting this wrong",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/apple-is-getting-this-wrong",
+          "published_at": "Mon, 03 Aug 2026 22:00:00 GMT",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2163b413300d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Apple is getting this wrong",
+          "extracted_excerpt": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+          "extracted_text_for_analysis": "Apple is one of the greatest companies of all time, and built a reputation for obsessing over the smallest details. This careless, aggressive and oddly personal lawsuit sadly doesn’t live up to that reputation. Apple had claimed that they contacted OpenAI in February and that we didn’t respond. They now admit that their outside lawyers emailed the wrong person after confusing two Asian last names—only after we brought this to their attention. Apple also claimed they had a discussion with our General Counsel, which they now concede never happened. But they again hide the fact that they never raised the specific allegations in this lawsuit at that time, and that they in fact told us that they were “resolving any issues”. We then heard nothing for five months until they sued. In their latest filing, Apple tries hard to spin this sequence of events, but you can just read the emails for yourself here. Apple accuses Chang Liu of accessing Apple confidential information after leaving the company, but only now admits that Apple employees reached out to him and asked for his help to locate this information (you can read the messages here). Apple now tries to shift the blame to “residual access”, but they also don’t disclose that this is a common issue with Apple which is caused by them failing to properly manage system access when people leave. What that means in practice is that former employees who are trying to do the right thing when they leave still have access to Apple files—despite not wanting them or even being aware of them. Apple also accuses Tang Tan of trying to get and use their trade secrets. However, Tang has always been clear with the team that we do not want, and must not use, any confidential information from other companies. Tang served Apple for more than 24 years and was widely known as one of the most innovative leaders at the company. We wish Apple had raised these issues with us before they filed their lawsuit and would have been happy to clarify all of this with them. We have taken the allegations in the lawsuit seriously and offered to work with Apple to resolve this. Instead, they’re trying to change their narrative, including by making vague accusations about other former employees, and will likely keep repeating this tactic. Apple’s request for a preliminary injunction is both based on false information and completely unnecessary because we do not have, nor want, any of their trade secrets. We’re much more interested in building innovative products and technologies that push the frontier. Messages iMessages between Chang Liu (in blue) and Apple employees, where Chang—whose last day with Apple was January 22, 2026—is being asked by his former colleagues to help them locate files and information to assist them with their Apple work (all times UTC). Note: other individual names and Apple confidential information have been redacted. Email correspondence The following emails are between Apple’s outside counsel, Gabriel Gross; OpenAI’s General Counsel Che Chang; and Apple’s in-house legal counsel. They show that Gross emailed Che by mistake and inaccurately claimed the two had spoken. Both Gross and Apple’s in-house legal counsel subsequently confirmed that this was an error, with Gross noting they were “resolving any issues.” The specific claims in Apple’s lawsuit were never raised, and there was no further follow up prior to the lawsuit being filed five months later. Dear Mr. Chang: Please see the attached letter and let me know when you are free to discuss it. Yours, Gabriel Gross Partner Weil, Gotshal & Manges LLP Direct Mobile The information contained in this email message is intended only for use of the individual or entity named above. If the reader of this message is not the intended recipient, or the employee or agent responsible to deliver it to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this communication in error, please immediately notify us by email, and destroy the original message. Thank you. Attachments: - image001.jpg (6K) - 2026.02.23 G. Gross letter to Wang(101156327.1).pdf (225K) - Ex. A.pdf (491K) - Ex. B.pdf (91K) - Ex. C.pdf (1646K) Dear Mr. Chang: Thank you for your phone call just now and for offering your cooperation so quickly. I will be back in touch after speaking with Apple. I realize I neglected to include the three attachments when I sent you my letter, so I am re-sending it with the attachments for your records. Yours, Gabe Hi [Apple in-house legal counsel] and [Apple in-house legal counsel], This guy from Weil claims to be representing you. For some reason, he is lying about speaking with me on the phone. I don't know who he is and we have never spoken. I don't know what the point of his lie is, but could you please confirm if he is actually representing you, and if so, whether you have other counsel you can use. I don’t think interacting through him is appropriate given this behavior. If this isn’t the right Apple team, could you let me know who might be? Thank you. Che Dear Mr. Chang: I write to follow up on my email and letter from yesterday. After I emailed you around 5:53 p.m. yesterday, I inadvertently also sent you another email around 6:07 p.m. that was intended for Wang, one of the former Apple employees at issue. After we had emailed Mr. Wang yesterday about retaining Apple information, he promptly called me and offered to cooperate with Apple in resolving any issues. I then intended to email him again, but accidentally replied to my email chain with you instead. I apologize for the confusion that likely caused. Yours, Gabriel Gross Partner Weil, Gotshal & Manges LLP Direct Mobile Gabe Hi Che, Wanted to make sure to get back to you. Weil is our counsel on this matter, and I believe they should have contacted you explaining the miscommunication. Please feel free to direct any additional questions their way. Thanks, [Apple in-house legal counsel]",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Apple is getting this wrong",
+              "source_url": "https://openai.com/index/apple-is-getting-this-wrong"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+              "source_url": "https://openai.com/index/apple-is-getting-this-wrong"
+            }
+          ],
+          "slug": "apple-is-getting-this-wrong-2163b413",
+          "localized_url": "/zh/items/2026-08-05/apple-is-getting-this-wrong-2163b413/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Circles powers telco personalization with OpenAI technology",
+          "title_original": "Circles powers telco personalization with OpenAI technology",
+          "title_en": "Circles powers telco personalization with OpenAI technology",
+          "summary_zh": "OpenAI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/circles",
+          "published_at": "Mon, 03 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "54e616a32e5e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Circles powers telco personalization with OpenAI technology",
+          "extracted_excerpt": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+          "extracted_text_for_analysis": "22% increase in ARPU in Singapore from AI-driven personalization 9% reduction in churn after introducing AI recommendations 65% autonomous resolution rate for customer support with CareX 29% increase in development efficiency using Codex for design, coding assistance, and unit testing Telcos have rich customer signals across usage, billing, network activity, and location, but turning those signals into timely, personalized action remains difficult. Circles saw an opportunity to rethink the telco experience around that challenge, using OpenAI to build an AI-native telco stack that can connect support, personalization, operations, and monetization in real time. The result is a customer experience built around Circles’ AI Concierge, a conversational interface powered by OpenAI’s API platform. In Singapore, Circles’ AI-powered personalization has helped increase ARPU by 22% and reduce churn by 9%. CareX, the multi-agent architecture behind the AI Concierge, now delivers a 65% autonomous resolution rate for customer support. Founded in Singapore, Circles is a technology company whose SaaS platform helps digital telco operators launch and run AI-powered customer experiences. The company also operates Circles.Life, its own consumer telco business in Singapore. Founded in 2014, Circles works with telco operators across 14 countries and six continents. Traditional telco support is often reactive. Customers navigate menus, repeat information, and wait for help after a problem has already occurred. While operators have rich customer data across usage, billing, network activity, and location, it has remained a challenge to turn those signals into timely, personalized action. To address this, Circles built its AI Concierge on the OpenAI API, creating a conversational interface designed to deliver proactive, context-aware customer engagement. The AI Concierge brings search, account management, support, and personalized recommendations into a single experience. By understanding a customer’s real-time context, such as browsing roaming options or investigating a billing issue, it can route requests to the appropriate specialist agents, recommend relevant actions, and resolve issues without requiring customers to repeat information or navigate multiple workflows. \"AI should empower users, not force-fit them into outdated journeys. OpenAI's role has been critical in enabling Circles to scale this vision globally. With the AI concierge, we are moving beyond providing simple answers to delivering real-world outcomes, along with balancing cost and latency to maximize value for operators and customers alike.\" CareX is the proprietary multi-agent architecture that powers Circles’ AI Concierge. It combines an orchestration agent that understands each customer’s history and current activity with specialist agents for billing, subscriptions, network management, and account services. Unlike a traditional chatbot, CareX is designed to understand, act, and resolve customer requests. For example, when a customer raises a billing issue, the orchestration agent combines the customer’s app context, account history, and request before routing it to the appropriate specialist agent. The agent receives only the information needed to resolve the issue. If required, the AI agent seamlessly escalates the case to a human agent with the full context attached. The approach is already delivering measurable results. In an early deployment, one operator achieved 55% autonomous resolution within the first week. Today, CareX autonomously resolves 65% of customer service interactions across supported workflows, without human intervention. As CareX expands into real-time voice support, the platform is targeting 95% autonomous resolution across the entire workflow, including text and voice. This will extend the same AI-driven resolution capabilities to the channel many customers turn to first, while making service more natural, immediate, and accessible. Built on the OpenAI API, Xplore IQ is Circles’ AI-powered personalization engine. It combines customer behavior, account history, and real-time signals to identify the most relevant next action, from recommending a roaming pack or plan upgrade to preventing churn before it happens. By replacing broad campaigns with hyper-personalized recommendations, Xplore IQ helps operators engage customers at the right moment. In Singapore, Circles measured its impact by comparing customers who received AI-powered recommendations against those who didn’t. The AI-powered group achieved a 22% increase in ARPU through higher plan upgrades and add-on subscriptions, while timely, relevant recommendations helped reduce churn by 9%. Beyond its customer-facing AI products, Circles also uses Codex internally to improve engineering velocity across engineering, infosec, and incident management teams. Teams use Codex to accelerate design, coding assistance and testing, while keeping specialists responsible for validation and final review. Codex has delivered a 29% increase in development efficiency by involving design, coding assistance, and unit testing, allowing engineers to spend their time focusing on higher-value product innovation. Building AI for telcos requires safeguards for both customers and operators. Circles applies automated controls before customer information reaches the model layer, including identifying and encrypting personally identifiable information before it is passed to LLMs. Specialist agents are given scoped access to the information needed for a specific resolution task, rather than unrestricted access to a full customer profile. Circles also uses human escalation paths, phased rollouts, rate limits, rollback mechanisms, and commercial safeguards to help maintain operational control as AI-powered experiences scale across telco environments. Circles is expanding its AI-native telco stack with OpenAI by enhancing CareX’s observability and introducing real-time voice support, which makes customer interactions more natural and accessible. Longer term, the company envisions a conversational, context-aware telco experience that moves beyond traditional app navigation, helping operators deliver more proactive, personalized customer engagement.",
+          "title_zh": "OpenAI 推进开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Circles powers telco personalization with OpenAI technology",
+              "source_url": "https://openai.com/index/circles"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+              "source_url": "https://openai.com/index/circles"
+            }
+          ],
+          "slug": "circles-powers-telco-personalization-with-openai-technology-54e616a3",
+          "localized_url": "/zh/items/2026-08-05/circles-powers-telco-personalization-with-openai-technology-54e616a3/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US",
+          "title_original": "NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US",
+          "title_en": "NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "NVIDIA is participating in the U.S. National Science Foundation’s (NSF) State and Regional Artificial Intelligence Infrastructure Hubs program, an effort launching today to expand access to the advanced computing, data, software and expertise needed for",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/nsf-state-regional-ai-hub-program/",
+          "published_at": "Tue, 04 Aug 2026 16:00:56 +0000",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "31b4bc9f80b9",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US",
+          "extracted_excerpt": "NVIDIA is participating in the NSF's State and Regional Artificial Intelligence Infrastructure Hubs program, an effort launching today to expand access to the advanced computing, data, software and expertise needed for AI-enabled research and education.",
+          "extracted_text_for_analysis": "NVIDIA is participating in the U.S. National Science Foundation’s (NSF) State and Regional Artificial Intelligence Infrastructure Hubs program, an effort launching today to expand access to the advanced computing, data, software and expertise needed for AI-enabled research and education. Consistent with the aims of the Genesis Mission, the program will support state and multistate groups of colleges and universities working together to strengthen America’s AI ecosystem. In partnership with private industry, philanthropic organizations and state and local governments, the program will expand the AI infrastructure, software, educational resources and technical support needed by faculty, students and researchers across the country. These regional hubs will help institutions share AI computing resources, accelerate scientific discovery and innovation, and prepare students to participate in the AI economy. Expanding Access to AI Infrastructure The State and Regional AI Infrastructure Hubs program will bring shared resources closer to the institutions and communities they serve. State or regional consortia can pool expertise, focus on specific local priorities, achieve economies of scale and create pathways for institutions that might otherwise remain outside the frontier of AI-enabled research and education. Flexible approaches — including on-premises infrastructure, cloud computing or a combination — will allow consortia to design resources around their regional needs and economic priorities. The hubs will resemble the public-private partnership between NVIDIA, NVIDIA cofounder Chris Malachowsky and the University of Florida (UF) in 2020 to turn UF into the country’s first true AI university and provide AI compute access to all Florida public universities. That initiative now serves as a national model. Since launching its university-wide initiative in 2020, UF has grown to more than 300 AI-focused faculty and embedded AI education and research across all 16 colleges. And since 2017, UF faculty and units have received more than $511 million in AI research awards. NVIDIA has also expanded academic compute access in other ways, including as a leading contributor to the NSF-led National Artificial Intelligence Research Resource (NAIRR) pilot program on which today’s announcement is built. Through NAIRR, NVIDIA partnered with university research teams across the country to turn computing resources into usable scientific capacity — giving researchers the infrastructure, tools and expertise needed to move from idea to experiment to discovery. The resources also facilitated meaningful educational opportunities that gave students critical real-world skills for the AI economy. Preparing the AI Workforce AI infrastructure alone is not enough. A successful national AI strategy must include efforts to build a workforce that can use advanced computing, data resources and AI tools in real scientific and industry settings. That means pairing infrastructure with clear learning pathways. Universities, community colleges and regional partners can build degree programs, short-form certificates and stackable credentials that help learners move from foundational AI literacy into applied skills. Those pathways will help students, faculty, working adults and technical professionals use AI, including open source models and technologies, in fields like physical AI and automation, healthcare, energy, agriculture, manufacturing, quantum computing and cybersecurity. NVIDIA can support this work by providing training resources, educator enablement, applied learning content, technical guidance, partner platforms and access to tools that help institutions move from awareness to hands-on capability. As NVIDIA’s education and training offerings evolve, the goal remains the same: help institutions build repeatable, openly available programs that prepare learners to use AI systems, accelerated computing and data workflows responsibly and effectively. This is how regional hubs become more than infrastructure projects. Students gain practical experience. Faculty expand their ability to teach and apply AI across disciplines. Working professionals can earn new skills without leaving the workforce. And institutions can connect training to local employer needs, research priorities and the economic opportunities that matter most to their communities. Connecting Research, Workforce and Regional Growth For policymakers and leaders, the hubs offer an opportunity to connect regional research and educational infrastructure with regional priorities and broader workforce and economic-development strategies. Institutions can cultivate talent for local needs, support research connected to regional industries and build stronger relationships among universities, community colleges, employers and government. These connections will help translate AI leadership into scientific progress, new businesses and high-quality jobs. No single organization can build this capacity alone. Sustained collaboration among government, higher education, philanthropic organizations and private industry is essential to ensure that advanced AI resources are broadly available and effectively used. Private-sector contributions can complement public investment with technology, implementation expertise and workforce development programs. Public institutions, in turn, can help direct those capabilities toward scientific, educational and economic priorities that advance regional needs and national interest. Learn more about the NSF State and Regional AI Infrastructure Hubs program and how NVIDIA is helping expand access to AI research and education.",
+          "title_zh": "NVIDIA 更新政府与国家安全合作原则",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US",
+              "source_url": "https://blogs.nvidia.com/blog/nsf-state-regional-ai-hub-program/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "NVIDIA is participating in the U.S. National Science Foundation’s (NSF) State and Regional Artificial Intelligence Infrastructure Hubs program, an effort launching today to expand access to the advanced computing, data,",
+              "source_url": "https://blogs.nvidia.com/blog/nsf-state-regional-ai-hub-program/"
+            }
+          ],
+          "slug": "nvidia-joins-nsf-state-and-regional-ai-hubs-program-to-expand-ai-researc-8eba6f14",
+          "localized_url": "/zh/items/2026-08-05/nvidia-joins-nsf-state-and-regional-ai-hubs-program-to-expand-ai-researc-8eba6f14/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+          "title_original": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+          "title_en": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "For robotaxis and other autonomous vehicles (AVs), the hardest problems aren’t the everyday scenarios. They’re the rare, complex situations that are difficult to anticipate and train for. Handling these long‑tail events takes more than just object detection",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
+          "published_at": "Tue, 04 Aug 2026 15:00:49 +0000",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c0f46ed800c9",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+          "extracted_excerpt": "Open commercial licensing, benchmark‑leading reasoning and inspectable decisions bring autonomous vehicles, including robotaxis, closer to production and widescale deployment.",
+          "extracted_text_for_analysis": "For robotaxis and other autonomous vehicles (AVs), the hardest problems aren’t the everyday scenarios. They’re the rare, complex situations that are difficult to anticipate and train for. Handling these long‑tail events takes more than just object detection and motion prediction. AVs must understand the situation, reason about cause and effect, choose the right action and turn that decision into a safe, comfortable path — all in real time and in a way developers can inspect, validate and trust. NVIDIA Alpamayo 2 Super, available now for commercial use, is part of the Alpamayo family, the most-adopted open reasoning models for autonomous driving on Hugging Face, supporting a wide range of AV-relevant capabilities within a single foundation model. Built on NVIDIA Cosmos 3 Super Reasoner and post‑trained with reinforcement learning, the model advances the AV ecosystem on two fronts: open commercial licensing and leading multitask capabilities for autonomous driving. Alpamayo 2 Super is part of NVIDIA’s growing collection of open models, datasets and tools for autonomous driving, expanding access, strengthening competition, giving developers greater control and supporting safer, more transparent AV deployment. Open Licensing for Production AVs Alpamayo 2 Super is available on Hugging Face under OpenMDW‑1.1, the Linux Foundation’s permissive license for open AI model distributions. The license covers fine‑tuning, derivative models and commercial redistribution, allowing AV developers, automakers, truckmakers and suppliers to adapt Alpamayo to their own data, driving policies and deployment strategies. This openness lets AV researchers and companies keep control of their own data and infrastructure, as well as own the value they create through specialized models and accumulated know‑how. Such control is essential for workflows involving proprietary fleets and safety. Earlier Alpamayo releases were initially introduced for R&D. The OpenMDW license is now being applied across the entire Alpamayo model family so developers can deploy any of the models commercially without requiring additional permissions. This creates a direct path from adaptation to deployment. Open weights make that path economically viable. Teams can build on advanced reasoning without re‑training every foundation capability from scratch or paying frontier‑model costs for every task, matching the right model to the right job at the right cost. Alpamayo 2 Super enables frontier-scale reasoning in cloud-based development workflows, where developers can generate high-quality reasoning traces, synthetic training data and teacher outputs for model distillation. Within the Alpamayo model family, Alpamayo 2 Super delivers the highest reasoning and driving performance for multimodal autonomous driving development, while Alpamayo 1.5 and Alpamayo 1 provide more cost-efficient options for cloud-based development and model distillation. The resulting distilled models can then be optimized for efficient, real-time inference in production vehicles. Together, the Alpamayo model family provides a cloud-to-car workflow that combines frontier-scale reasoning with scalable deployment across commercial AV fleets. For AV programs, that means frontier‑scale reasoning in the cloud and efficient, specialized models in the vehicle — a more sustainable way to scale safe autonomy into commercial fleets. Benchmark-Leading Reasoning at Frontier Scale Alpamayo 2 Super ranks first on LingoQA, an autonomous driving reasoning benchmark, among nearly 40 models evaluated. In NVIDIA testing using the Lingo‑Judge metric, it outperformed Qwen2.5‑VL 72B by 17.0 points, Gemini 2.5 Pro by 15.1 points and GPT‑4o by 23.2 points, demonstrating state‑of‑the‑art reasoning for driving‑centric scenarios. Alpamayo 2 Super also ranks first across all autonomous driving benchmarks evaluated by NVIDIA, underscoring its leading performance across a broad range of AV capabilities. Alpamayo 2 Super offers 3x the scale of the 10‑billion‑parameter NVIDIA Alpamayo 1.5 and Alpamayo 1 models. The added capacity helps the model better generalize reasoning from sparse examples — a critical capability for the rare, multi‑agent interactions where conventional systems often struggle. The model reasons over full‑surround camera coverage, fusing views from the vehicle’s front, sides and rear. This 360‑degree context enables richer understanding of lane changes, merges, unprotected turns and complex intersections, where risks commonly arise. A Multitask Foundation Model for Robotaxis and Autonomous Driving For each driving situation, Alpamayo 2 Super can produce five tightly coupled outputs: - A trajectory describing the vehicle’s planned path. - A chain‑of‑causation (CoC) trace that explains the reasoning behind the decision. - A meta‑action (e.g., yield, lane changes, stops) that captures the model’s intent. - Reasoning auto-labels that generate CoC annotations for training and validation data. - Visual question answering responses with 2D visual grounding that link the model’s answers to specific regions in camera images. Together, these outputs offer insight into the model’s decision-making process. Developers can tie what the model observed to the action it selected, making decisions easier to understand, critique and validate. CoC traces integrate with NVIDIA Halos safety‑validation workflows and support AI safety aligned with ISO/PAS 8800 requirements, providing a stronger foundation for AV safety engineering. Alpamayo 2 Super can also be deployed as an autolabeler to generate CoC labels and perform visual question answering with 2D grounding on proprietary fleet data. By linking its reasoning to specific regions in camera images, the model can transform raw driving clips into richer training data, compressing annotation cycles from months to days. Beyond planning and auto-labeling, Alpamayo 2 Super supports scene understanding, model critiquing and knowledge distillation. These multitask capabilities enable developers to use a single foundation model across more of the development stack, simplifying tooling and accelerating iteration. An Open Ecosystem for Reasoning‑Based AVs Alpamayo 2 Super is part of a broader family of open models, frameworks and datasets for AV development. Other tools in the family include: - NVIDIA AlpaSim, which provides closed‑loop simulation. - NVIDIA AlpaGym, which enables high‑throughput reinforcement learning. - NVIDIA Physical AI Open Datasets, which supply data for training and testing. - Open training recipes and an autolabeling pipeline to accelerate model development, training and validation. Alpamayo has already surpassed 500,000 downloads on Hugging Face, reinforcing its position as the most-adopted open reasoning model family for autonomous driving on the platform. Download NVIDIA Alpamayo 2 Super on Hugging Face to explore the model, evaluate its reasoning capabilities and start building the next generation of robotaxis and",
+          "title_zh": "NVIDIA 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+              "source_url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "For robotaxis and other autonomous vehicles (AVs), the hardest problems aren’t the everyday scenarios. They’re the rare, complex situations that are difficult to anticipate and train for. Handling these long‑tail events",
+              "source_url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/"
+            }
+          ],
+          "slug": "nvidia-alpamayo-2-super-the-frontier-open-model-for-robotaxis-and-autono-bac8cf8c",
+          "localized_url": "/zh/items/2026-08-05/nvidia-alpamayo-2-super-the-frontier-open-model-for-robotaxis-and-autono-bac8cf8c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "As AI Increases Demands on Memory, Storage Steps Up",
+          "title_original": "As AI Increases Demands on Memory, Storage Steps Up",
+          "title_en": "As AI Increases Demands on Memory, Storage Steps Up",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Surging AI demands are driving the need for massive datasets and context windows that burst past the confines of system memory. But rising needs aren’t met by simply adding more storage capacity. What’s needed is useful, grounded insights from AI factories",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/ai-storage-fms/",
+          "published_at": "Tue, 04 Aug 2026 15:00:47 +0000",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "33604144a555",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "As AI Increases Demands on Memory, Storage Steps Up",
+          "extracted_excerpt": "At FMS, NVIDIA shows how accelerated computing enables AI applications to access storage directly — fast enough to act like memory and secure by design.",
+          "extracted_text_for_analysis": "Surging AI demands are driving the need for massive datasets and context windows that burst past the confines of system memory. But rising needs aren’t met by simply adding more storage capacity. What’s needed is useful, grounded insights from AI factories and efficient, secure storage architectures that enable those insights. At this week’s Future of Memory and Storage (FMS) conference, NVIDIA is unveiling new storage advancements and showcasing how the next leap in AI depends as much on the storage infrastructure feeding accelerated computing as on the computing power itself. The pressure on that infrastructure is intensifying as AI agents consume massive amounts of data — and GPUs can now initiate storage requests directly, generating thousands of concurrent operations. To serve those requests, storage systems must continuously encrypt, compress, verify and reconstruct data. These critical data services can become bottlenecks when thousands of agents access storage simultaneously. Benchmarks highlighted in this NVIDIA technical blog show that the NVIDIA Vera CPU, part of NVIDIA Vera BlueField-4 STX, delivers up to 3.21x higher throughput than an x86 CPU in a two-stage compression and encryption pipeline. This means that with Vera, storage platforms can absorb the flood of AI data more efficiently — delivering greater throughput with significantly less compute infrastructure. With accelerated computing, storage stops being a passive place to keep data and becomes an active part of the data path. This upends the old economics of determining when data belongs in memory (where applications can fetch it faster) versus on a storage drive (where it can be held in cheap and plentiful space). The tradeoff was first framed 40 years ago, when the answer was measured in accessing that data in minutes. On today’s GPUs, paired with AI storage solutions from NVIDIA and partners, the same tradeoff now plays out in microseconds. Closing the gap between AI’s needs and memory shortage depends on extreme codesign across the whole ecosystem, from memory and storage manufacturers to the software built on them. Open Source NVIDIA cuFile APIs Enable Interoperability for Storage Solutions At FMS, NVIDIA announced it is open sourcing its cuFile application programming interfaces (APIs) — and the vertical storage software stack underneath them — which let GPUs, not just CPUs, read from and write to storage directly. cuFile is an open source component of NVIDIA GPUDirect Storage. Using hundreds of thousands of GPU threads, fast high-bandwidth memory and other methodologies, cuFile enables securely accessing data from storage in just microseconds. This represents how the industry is unifying a security-first storage stack based on Linux best practices, providing interoperability between GPUs and data. In addition, fast, secure access to data and storage is a foundational element to powering preventive and detective cybersecurity measures. Making cuFile openly available will help make security context, data and storage accessible at the speed AI-powered defenses need. Such open technologies support initiatives such as the new Open Secure AI Alliance. This site is the new home for APIs that are open to contributions — with Google, Intel, NVIDIA and Meta as inaugural maintainers — and can be optimized for use across various software and hardware platforms, driving innovation and efficiency for developers and enterprises. NVIDIA and Industry Leaders Advance New Frontier of AI Storage In addition, NVIDIA and storage industry leaders are optimizing memory and storage solutions through an initiative called Storage-Next. The NVIDIA-driven initiative brings together storage makers, controller vendors, thermal design, cooling and orchestration operators, and standards bodies to align on how GPU-driven storage should behave — then turn these advancements into interoperable, open industry standards. Storage-Next includes over 40 leading storage and flash vendors — including DDN, KIOXIA and Micron — each contributing to the next generation of AI storage technologies with NVIDIA. The initiative is grounded in accelerated data access for large AI datasets. To support this, NVIDIA offers SCADA — short for scaled, accelerated data access — a framework that lets massively parallel GPUs pull only the data necessary for the application directly from storage into their own high-speed memory. For example, DDN is integrating SCADA with Infinia, its software-defined, AI-native data intelligence platform built to eliminate storage bottlenecks at scale. “AI success will be defined not by how much infrastructure organizations own, but by how productively they use it,” said Sven Oehme, chief technology officer at DDN. “Our collaboration with NVIDIA is helping create a more direct, efficient connection between GPUs and data — keeping accelerated computing resources productive, speeding time to insight and enabling customers to achieve stronger business and financial returns from their AI investments.” Storage-Next and SCADA extend NVIDIA’s longstanding work on AI storage infrastructure, including on NVIDIA Vera BlueField-4 STX — a modular, rack-scale foundation powered by the NVIDIA Vera Rubin platform, NVIDIA Vera BlueField-4 storage processors and NVIDIA Spectrum-X Ethernet networking. Defining a new class of AI-native data platforms, NVIDIA STX uses the unified NVIDIA DOCA security stack to let enterprises enable continuous policy enforcement in the AI data path. Plus, NVIDIA CMX Context Memory Storage provides an AI‑native context tier for long‑context, multi‑turn, agentic AI inference, built on NVIDIA STX. SCADA Enables Fast AI Storage That Stays Secure Speed at the storage layer comes with a catch. Letting an application talk straight to a drive is quick, but done carelessly, it can scribble over other processes’ memory — a security hole, not a feature. NVIDIA SCADA uses a safe, robust method to achieve scaled direct access by splitting the job in two: - The user parts of an application that need raw speed stay outside the trusted computing base. - A separate, privileged component configures protected access between the user application and its approved storage at setup, adhering to standard Linux protocols for security enforcement while efficiently safeguarding data. It’s all part of how advancements in fast, massively parallel, efficient, secure AI storage infrastructure can feed better data to applications and AI factories — so they can produce more useful, accurate, grounded intelligence at scale. Join NVIDIA sessions at FMS, running Aug. 4-6 in Santa Clara, California, and learn more about NVIDIA AI storage. See notice regarding software product information.",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "As AI Increases Demands on Memory, Storage Steps Up",
+              "source_url": "https://blogs.nvidia.com/blog/ai-storage-fms/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Surging AI demands are driving the need for massive datasets and context windows that burst past the confines of system memory. But rising needs aren’t met by simply adding more storage capacity. What’s needed is",
+              "source_url": "https://blogs.nvidia.com/blog/ai-storage-fms/"
+            }
+          ],
+          "slug": "as-ai-increases-demands-on-memory-storage-steps-up-caaa8a69",
+          "localized_url": "/zh/items/2026-08-05/as-ai-increases-demands-on-memory-storage-steps-up-caaa8a69/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
+          "title_original": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
+          "title_en": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Linux Foundation today shared a Request",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/",
+          "published_at": "Tue, 04 Aug 2026 13:00:47 +0000",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "83875c3da0b1",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
+          "extracted_excerpt": "Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Linux Foundation today shared a Request",
+          "extracted_text_for_analysis": "Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Linux Foundation today shared a Request for Comments on Shared AI Findings Exchange (SAFE), a proposed set of guidelines designed to turn agentic cybersecurity incidents into shared protection for the entire ecosystem. The SAFE guidelines are being drafted by an Open Secure AI Alliance working group. NVIDIA, Cisco, CrowdStrike, Hugging Face and Red Hat are among Open Secure AI Alliance members working with the Linux Foundation to contribute to the initial proposal. The SAFE guidelines include proposals to confidentially collect and analyze AI incidents and near misses, inform those impacted, identify recurring control failures and publish evidence-based operating recommendations that reduce systemic risk. Cybersecurity is a race without a finish line. Every major technology shift has created new potential attack surfaces. Defenders must move now at agent speed to respond rapidly to protect infrastructure and intellectual property — and the best way to do that is together. When trusted ecosystems share threat intelligence openly, collective defense becomes a force multiplier. Open Secure AI Alliance Delivers More Tools for AI Cybersecurity The SAFE framework adds to technology contributions Open Secure AI Alliance members are making to build and share open, inspectable tools across the full AI security stack. An AI agent isn’t just a model. It’s a system — identity controls, harnesses, guardrails, logs and evaluation — and securing it requires more than vulnerability scanning. Security has always been strongest in the layers — and in the community’s willingness to share what it knows. The hardest problems get solved when defenders learn from each other, openly and at speed. Full Stack of Open NVIDIA Cybersecurity Software and Models NVIDIA’s contributions run the length of the stack, starting with the NVIDIA Labs Object-Oriented Agent (NOOA) research harness, on GitHub — which makes agent behavior easier to test, trace, audit and govern. The NVIDIA OpenShell runtime restricts what an agent can see, touch and do — enforcing security and privacy controls at the agent level, so an agent can’t reach what it shouldn’t. NVIDIA’s open model families — NVIDIA Nemotron for agentic AI, NVIDIA Cosmos for physical AI, NVIDIA Isaac GR00T for robotics, NVIDIA BioNeMo for healthcare and life sciences, and NVIDIA Alpamayo, the world’s largest model for autonomous vehicles licensed for commercial use — ship with open weights, datasets and training techniques. NVIDIA open source verified agent skills extend that trust to the capability layer. Each skill provides portable instruction sets — cataloged, scanned for risks such as prompt injection and tools poisoning, cryptographically signed and documented with a skill card. Defenders know exactly what an agent skill does, where it came from and whether it was modified after publication. NeMo Guardrails, NeMo Anonymizer and NeMo Safe Synthesizer help enforce safety policies, protect sensitive data and generate privacy-safe synthetic data. And Garak, NVIDIA’s open source LLM vulnerability scanner, lets security teams check models for data leaks, prompt injections and jailbreak scenarios before they ship. Alliance Members Expand Tools for Open Ecosystem Development Other members of the Open Secure AI Alliance have also been building across the full defensive stack, spanning identity and permissions, harnesses, runtime guardrails, security AI models, observability and evaluation, data security and privacy, availability and resilience, and more. Some of the latest contributions across different layers of the stack are highlighted below, with more continuing to arrive. Identity and Permissions — Who Gets to Act You can’t secure what you can’t identify. Okta is developing reference implementations for agent identity and access, showing how Cross App Access (XAA), an open protocol, enables AI agents operating in OpenShell sandbox environments to securely connect to enterprise applications. Palo Alto Networks has contributed open source tools from Idira, its next-generation identity security platform, including Agent Guard and Agent Watch. These tools help developers and agent builders apply identity security best practices and safe guards such as securely retrieving secrets for agentic workflows. A new open source project founded by Red Hat, asago takes an organization’s custom governance requirements — such as those referenced in NIST, OWASP and the EU AI Act — and maps them directly to what agents are allowed to do at runtime, with a single audit trail from policy clause to live control. Harnesses and Tooling — How Security Work Gets Orchestrated AI agents are more than a model – they tap into systems of open and closed models, harnesses, tools and runtimes to get work done. If a model is the agent’s brain, the harness is the body that takes action by using tools. The harness surrounding the model acts like an orchestrator that determines how agents are deployed, coordinated and constrained. Alliance members are contributing tooling, harnesses and supporting technologies across this emerging layer of the AI security stack. Amazon, which today became one of the newest members of the Open Secure AI Alliance, contributes Strands Agents, an open source toolkit for building AI agents that is open at every layer, giving developers full visibility into agent behavior and the ability to evaluate agentic systems in production. Amazon also contributes Cedar, an open source authorization language that enforces deterministic, verifiable boundaries on what AI agents are permitted to do, giving customers fine-grained, analyzable access controls to help ensure only authorized actions reach enterprise resources. Capital One open sourced VulnHunter for agentic AI code security. Cloudflare is offering its Vulnerability Discovery Harness as an open source skill to add security to agent systems. Microsoft AI Red Team has open sourced several tools and harnesses. PyRIT – Python Risk Identification toolkit enables AI red teamers to run automated red teaming, with built in memory, supporting common targets, as well as custom endpoints. RAMPART turns red-team findings and real-world incidents into repeatable tests that run as software changes. Clarity helps teams question design assumptions and identify potential failures before code is written. Microsoft has also open sourced Assert, which converts natural language requirements and expected AI safety and security behaviors into executable evaluations. Atlas is Wiz’s autonomous vulnerability research engine that orchestrates specialized AI agents to discover and validate security flaws across code and open source packages. Visa has also joined the Open Secure AI Alliance, contributing its open sourced",
+          "title_zh": "NVIDIA 讨论政府与国家安全合作原则",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
+              "source_url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The",
+              "source_url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/"
+            }
+          ],
+          "slug": "ai-leaders-propose-safe-guidelines-for-cybersecurity-transparency-e45661ea",
+          "localized_url": "/zh/items/2026-08-05/ai-leaders-propose-safe-guidelines-for-cybersecurity-transparency-e45661ea/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+          "title_original": "Deploy local agents everywhere with LFM2.5-2.6B",
+          "title_en": "Deploy local agents everywhere with LFM2.5-2.6B",
+          "summary_zh": "Hugging Face Blog 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+          "published_at": "Tue, 04 Aug 2026 13:58:29 GMT",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ea7f6df3de1a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Deploy local agents everywhere with LFM2.5-2.6B",
+              "source_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
+            }
+          ],
+          "slug": "deploy-local-agents-everywhere-with-lfm2-5-2-6b-ea7f6df3",
+          "localized_url": "/zh/items/2026-08-05/deploy-local-agents-everywhere-with-lfm2-5-2-6b-ea7f6df3/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Unpacking ChatGPT Work: the Agent for a Billion Users",
+          "title_original": "Unpacking ChatGPT Work: the Agent for a Billion Users",
+          "title_en": "Unpacking ChatGPT Work: the Agent for a Billion Users",
+          "summary_zh": "Latent Space 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "An external reconstruction of how Memory, Proactivity, Scheduling, Browser Use, Plugins, Skills and Tools work in the new ChatGPT Work.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/unpacking-chatgpt-work",
+          "published_at": "Tue, 04 Aug 2026 18:20:14 GMT",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9ca725e46029",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Unpacking ChatGPT Work: the Agent for a Billion Users",
+              "source_url": "https://www.latent.space/p/unpacking-chatgpt-work"
+            },
+            {
+              "label": "公开摘要",
+              "text": "An external reconstruction of how Memory, Proactivity, Scheduling, Browser Use, Plugins, Skills and Tools work in the new ChatGPT Work.",
+              "source_url": "https://www.latent.space/p/unpacking-chatgpt-work"
+            }
+          ],
+          "slug": "unpacking-chatgpt-work-the-agent-for-a-billion-users-9ca725e4",
+          "localized_url": "/zh/items/2026-08-05/unpacking-chatgpt-work-the-agent-for-a-billion-users-9ca725e4/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "What if you’re not supposed to have a long-term plan?",
+          "title_original": "What if you’re not supposed to have a long-term plan?",
+          "title_en": "What if you’re not supposed to have a long-term plan?",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The case for career emergence",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have",
+          "published_at": "Tue, 04 Aug 2026 13:02:53 GMT",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "aa1b496b1df8",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "What if you’re not supposed to have a long-term plan?",
+              "source_url": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The case for career emergence",
+              "source_url": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have"
+            }
+          ],
+          "slug": "what-if-youre-not-supposed-to-have-a-long-term-plan-aa1b496b",
+          "localized_url": "/zh/items/2026-08-05/what-if-youre-not-supposed-to-have-a-long-term-plan-aa1b496b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
+          "title_original": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
+          "title_en": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
+          "summary_zh": "Qwen is so back!",
+          "summary_en": "Qwen is so back!",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
+          "published_at": "Tue, 04 Aug 2026 03:49:14 GMT",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "228546f1ca61",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论代码评测可靠性问题",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
+              "source_url": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Qwen is so back!",
+              "source_url": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new"
+            }
+          ],
+          "slug": "ainews-qwen-3-8-max-2-4t-and-27b-new-open-weights-models-for-coding-and-228546f1",
+          "localized_url": "/zh/items/2026-08-05/ainews-qwen-3-8-max-2-4t-and-27b-new-open-weights-models-for-coding-and-228546f1/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel supports Next.js 16.3",
+          "title_original": "Vercel supports Next.js 16.3",
+          "title_en": "Vercel supports Next.js 16.3",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Yesterday the Next.js team announced the release of Next.js 16.3 , with leaner prefetching, immutable static assets, and instant navigations. As part of this release, we worked with the Next.js team to fully support 16.3 on Vercel, including better",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/vercel-supports-next-js-16-3",
+          "published_at": "2026-08-04T07:00:00.000Z",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "35c7ec064e50",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel supports Next.js 16.3",
+              "source_url": "https://vercel.com/blog/vercel-supports-next-js-16-3"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Yesterday the Next.js team announced the release of Next.js 16.3 , with leaner prefetching, immutable static assets, and instant navigations. As part of this release, we worked with the Next.js team to fully support",
+              "source_url": "https://vercel.com/blog/vercel-supports-next-js-16-3"
+            }
+          ],
+          "slug": "vercel-supports-next-js-16-3-35c7ec06",
+          "localized_url": "/zh/items/2026-08-05/vercel-supports-next-js-16-3-35c7ec06/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Skill packs are now available on skills.sh",
+          "title_original": "Skill packs are now available on skills.sh",
+          "title_en": "Skill packs are now available on skills.sh",
+          "summary_zh": "Vercel AI 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now bundle multiple agent skills into a shareable pack on skills.sh . Hand anyone a curated set via a single URL, or share it with your GitHub organization to standardize the skills your team's agents use across any project. Create a pack from",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/skill-packs-are-now-available",
+          "published_at": "2026-08-04T04:00:00.000Z",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f5eec579d421",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Skill packs are now available on skills.sh",
+              "source_url": "https://vercel.com/changelog/skill-packs-are-now-available"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now bundle multiple agent skills into a shareable pack on skills.sh . Hand anyone a curated set via a single URL, or share it with your GitHub organization to standardize the skills your team's agents use across",
+              "source_url": "https://vercel.com/changelog/skill-packs-are-now-available"
+            }
+          ],
+          "slug": "skill-packs-are-now-available-on-skills-sh-f5eec579",
+          "localized_url": "/zh/items/2026-08-05/skill-packs-are-now-available-on-skills-sh-f5eec579/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Deploys are now up to 33% faster for apps with many ISR pages",
+          "title_original": "Deploys are now up to 33% faster for apps with many ISR pages",
+          "title_en": "Deploys are now up to 33% faster for apps with many ISR pages",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Deploys are now up to 33% faster for apps using Incremental Static Regeneration (ISR). The more prerendered pages you have, the more you're likely to save. ISR combines the speed of static generation with the flexibility of dynamic rendering, letting sites",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/deploys-are-now-up-to-33-faster-for-apps-with-many-isr-pages",
+          "published_at": "2026-08-04T04:00:00.000Z",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d967e4e7208f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Deploys are now up to 33% faster for apps with many ISR pages",
+              "source_url": "https://vercel.com/changelog/deploys-are-now-up-to-33-faster-for-apps-with-many-isr-pages"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Deploys are now up to 33% faster for apps using Incremental Static Regeneration (ISR). The more prerendered pages you have, the more you're likely to save. ISR combines the speed of static generation with the",
+              "source_url": "https://vercel.com/changelog/deploys-are-now-up-to-33-faster-for-apps-with-many-isr-pages"
+            }
+          ],
+          "slug": "deploys-are-now-up-to-33-faster-for-apps-with-many-isr-pages-d967e4e7",
+          "localized_url": "/zh/items/2026-08-05/deploys-are-now-up-to-33-faster-for-apps-with-many-isr-pages-d967e4e7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Give your eve agent a browser",
+          "title_original": "Give your eve agent a browser",
+          "title_en": "Give your eve agent a browser",
+          "summary_zh": "Vercel AI 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Your eve agent can now navigate the web like a human with agent-browser . The @agent-browser/eve extension gives any eve agent a full set of browser tools: navigate pages, read content, click, fill forms, take screenshots, and inspect console and network",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/give-your-eve-agent-a-browser",
+          "published_at": "2026-08-04T04:00:00.000Z",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3704ef5de961",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Give your eve agent a browser",
+              "source_url": "https://vercel.com/changelog/give-your-eve-agent-a-browser"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Your eve agent can now navigate the web like a human with agent-browser . The @agent-browser/eve extension gives any eve agent a full set of browser tools: navigate pages, read content, click, fill forms, take",
+              "source_url": "https://vercel.com/changelog/give-your-eve-agent-a-browser"
+            }
+          ],
+          "slug": "give-your-eve-agent-a-browser-3704ef5d",
+          "localized_url": "/zh/items/2026-08-05/give-your-eve-agent-a-browser-3704ef5d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "DeepSeek V4 Flash is 90% off through Novita on AI Gateway",
+          "title_original": "DeepSeek V4 Flash is 90% off through Novita on AI Gateway",
+          "title_en": "DeepSeek V4 Flash is 90% off through Novita on AI Gateway",
+          "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "DeepSeek v4 Flash is 90% off on AI Gateway when you route to Novita. The discount is available to Vercel Pro customers through August 11. To get the discounted rate, set the model to deepseek/deepseek-v4-flash or deepseek/deepseek-v4-flash-0731 and put Novita",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita",
+          "published_at": "2026-08-04T00:00:00.000Z",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "7a75d09ae525",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "DeepSeek V4 Flash is 90% off through Novita on AI Gateway",
+              "source_url": "https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita"
+            },
+            {
+              "label": "公开摘要",
+              "text": "DeepSeek v4 Flash is 90% off on AI Gateway when you route to Novita. The discount is available to Vercel Pro customers through August 11. To get the discounted rate, set the model to deepseek/deepseek-v4-flash or",
+              "source_url": "https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita"
+            }
+          ],
+          "slug": "deepseek-v4-flash-is-90-off-through-novita-on-ai-gateway-7a75d09a",
+          "localized_url": "/zh/items/2026-08-05/deepseek-v4-flash-is-90-off-through-novita-on-ai-gateway-7a75d09a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Factory scaled its cloud backend to one billion monthly requests on Vercel",
+          "title_original": "How Factory scaled its cloud backend to one billion monthly requests on Vercel",
+          "title_en": "How Factory scaled its cloud backend to one billion monthly requests on Vercel",
+          "summary_zh": "Vercel 推进了政府与国家安全合作原则，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Factory on Vercel One billion backend API requests served daily 350ms p95 response time Scaled backend, internal tooling, and security without a dedicated infrastructure team Factory's mission is to bring autonomy to every phase of the software development",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-vercel",
+          "published_at": "2026-08-03T04:00:00.000Z",
+          "fetched_at": "2026-08-04T23:19:48.749368+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "975cd39dd0cd",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进政府与国家安全合作原则",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Factory scaled its cloud backend to one billion monthly requests on Vercel",
+              "source_url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-vercel"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Factory on Vercel One billion backend API requests served daily 350ms p95 response time Scaled backend, internal tooling, and security without a dedicated infrastructure team Factory's mission is to bring autonomy to",
+              "source_url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-vercel"
+            }
+          ],
+          "slug": "how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-975cd39d",
+          "localized_url": "/zh/items/2026-08-05/how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-975cd39d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-04",
       "title_zh": "AI 新闻简报 · 2026-08-04",
