@@ -1,7 +1,778 @@
 {
-  "updated_at": "2026-08-04T23:19:51.920997+00:00",
-  "count": 57,
+  "updated_at": "2026-08-05T23:18:48.818084+00:00",
+  "count": 58,
   "briefs": [
+    {
+      "date": "2026-08-06",
+      "title_zh": "AI 新闻简报 · 2026-08-06",
+      "title_en": "English AI News Brief · 2026-08-06",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 141 条，入选 11 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 141 previously displayed items excluded, and 11 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 141,
+      "selected_count": 11,
+      "categories": [
+        "company-industry",
+        "funding-startups",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "funding-startups": "投资与创业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "Build an AI code review bot in 30 minutes with Vercel Eve",
+          "title_original": "Build an AI code review bot in 30 minutes with Vercel Eve",
+          "title_en": "Build an AI code review bot in 30 minutes with Vercel Eve",
+          "summary_zh": "Vercel 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30",
+          "published_at": "Wed, 05 Aug 2026 12:04:01 GMT",
+          "fetched_at": "2026-08-05T23:18:46.933377+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "913d74e3f6e1",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Build an AI code review bot in 30 minutes with Vercel Eve",
+              "source_url": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30"
+            }
+          ],
+          "slug": "build-an-ai-code-review-bot-in-30-minutes-with-vercel-eve-913d74e3",
+          "localized_url": "/zh/items/2026-08-06/build-an-ai-code-review-bot-in-30-minutes-with-vercel-eve-913d74e3/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Megakernels are so dead and so back",
+          "title_original": "[AINews] Megakernels are so dead and so back",
+          "title_en": "[AINews] Megakernels are so dead and so back",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "A quiet day lets us highlight a Cursor launch and an engineering debate",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
+          "published_at": "Wed, 05 Aug 2026 01:21:47 GMT",
+          "fetched_at": "2026-08-05T23:18:46.933377+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "858744584932",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Megakernels are so dead and so back",
+              "source_url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and"
+            },
+            {
+              "label": "公开摘要",
+              "text": "A quiet day lets us highlight a Cursor launch and an engineering debate",
+              "source_url": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and"
+            }
+          ],
+          "slug": "ainews-megakernels-are-so-dead-and-so-back-85874458",
+          "localized_url": "/zh/items/2026-08-06/ainews-megakernels-are-so-dead-and-so-back-85874458/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Muse Spark 1.2 is now available on Vercel AI Gateway",
+          "title_original": "Muse Spark 1.2 is now available on Vercel AI Gateway",
+          "title_en": "Muse Spark 1.2 is now available on Vercel AI Gateway",
+          "summary_zh": "Meta 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Muse Spark 1.2 from Meta is now available on AI Gateway. It is a coding-focused update to the previous Muse Spark model. While keeping its general capabilities, 1.2 ships with improvements in code generation, complex debugging, codebase understanding, and",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/muse-spark-1-2-is-now-available-on-vercel-ai-gateway",
+          "published_at": "2026-08-05T00:00:00.000Z",
+          "fetched_at": "2026-08-05T23:18:46.933377+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [
+            "Vercel AI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6cf2318eda9d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Muse Spark 1.2 is now available on Vercel AI Gateway - Vercel",
+          "extracted_excerpt": "Muse Spark 1.1 from Meta is now available on the Vercel AI Gateway with BYOK support and no markups.",
+          "extracted_text_for_analysis": "Muse Spark 1.2 from Meta is now available on AI Gateway. It is a coding-focused update to the previous Muse Spark model. While keeping its general capabilities, 1.2 ships with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. The model is built for long-horizon work like generating whole repositories, building out large projects end to end, and sustaining iterative loops where it writes, compiles, profiles, and improves code over many rounds. To use Muse Spark 1.2, set model to meta/muse-spark-1.2 in the AI SDK: import { streamText } from 'ai'; const result = streamText({ model: 'meta/muse-spark-1.2', prompt: 'Migrate this service off the deprecated API.',}); To use Muse Spark in a coding agent, run vercel ai-gateway coding-agents setup to connect Claude Code, Codex, OpenCode, or Pi, then select meta/muse-spark-1.2 inside the agent. AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more. AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests. Try Muse Spark 1.2 in the model playground. AI Gateway: Track top AI models by usage The AI Gateway model leaderboard tracks the most popular models over time, ranking them by the total volume of tokens processed across all Gateway traffic. View the leaderboard",
+          "title_zh": "Meta 发布代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Meta，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Vercel AI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Muse Spark 1.2 is now available on Vercel AI Gateway",
+              "source_url": "https://vercel.com/changelog/muse-spark-1-2-is-now-available-on-vercel-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Muse Spark 1.2 from Meta is now available on AI Gateway. It is a coding-focused update to the previous Muse Spark model. While keeping its general capabilities, 1.2 ships with improvements in code generation, complex",
+              "source_url": "https://vercel.com/changelog/muse-spark-1-2-is-now-available-on-vercel-ai-gateway"
+            }
+          ],
+          "slug": "muse-spark-1-2-is-now-available-on-vercel-ai-gateway-6cf2318e",
+          "localized_url": "/zh/items/2026-08-06/muse-spark-1-2-is-now-available-on-vercel-ai-gateway-6cf2318e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing the new v0 API",
+          "title_original": "Introducing the new v0 API",
+          "title_en": "Introducing the new v0 API",
+          "summary_zh": "Vercel 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Today we're introducing the new v0 API : programmatic, headless access to v0's app-building agent. Send a prompt and v0 generates an app, starts a dev server in a Vercel Sandbox , and gives you a preview URL you can embed in your own UI. Each chat is an",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/introducing-the-new-v0-api",
+          "published_at": "2026-08-05T04:00:00.000Z",
+          "fetched_at": "2026-08-05T23:18:46.933377+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f135e5382878",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing the new v0 API",
+          "extracted_excerpt": "Today we're introducing the new v0 API: programmatic, headless access to v0's app-building agent. Send a prompt and v0 generates an app, starts a dev server in a Vercel Sandbox, and gives you a preview URL you can embed in your own UI.",
+          "extracted_text_for_analysis": "Today we're introducing the new v0 API: programmatic, headless access to v0's app-building agent. Send a prompt and v0 generates an app, starts a dev server in a Vercel Sandbox, and gives you a preview URL you can embed in your own UI. Each chat is an isolated workspace for one app, where v0 can read, edit, and run the files. Follow-up messages continue from the current state. v0 verifies the code running in the Sandbox, so it can catch and fix errors in your app in real time. The new API is now generally available. Copy link to headingHow it works Create a chat from a prompt, stream its work, and render the live preview, all from your own interface. First, install the v0 SDK. pnpm add v0@latest Then, create a chat. Send a prompt, and v0 generates your app. import { v0 } from 'v0' const result = await v0.chats.create({ message: 'Build an issue triage app for a support team.', }) if (result.error) { throw new Error(result.error.message) } const chatId = result.data.chat.id Create a chat and keep its ID for every later request. Send follow-up messages to the same chat to keep building. Each one continues from the current state. const message = await v0.messages.send({ chatId, message: 'Add a priority filter and an assignee column.', }) if (message.error) { throw new Error(message.error.message) } Send a follow-up; v0 edits the existing app in place. Then embed the app. Embed the app by pointing an iframe at your proxy route. A prompt goes in, a running app comes out. v0 operates the Sandbox, dev server, and preview behind it. When you're ready, deploy to Vercel in one API call. v0 manages the whole pipeline. Copy link to headingWhat this unlocks The new API lets you run v0's app builder inside your own product or pipeline. This opens use cases like: - A white-labeled app builder: Your users describe an app and get one back. - Automated app changes: Trigger v0 from a script, CI job, or webhook to generate a new app or update an existing one. - A build tool for your agents: An agent hands back a working app instead of a code snippet. Below, we break down the API primitives behind this workflow. Copy link to headingStart with a chat Each chat holds the state for one app, and a repo or Vercel project can have many. Keep each chat's ID and send its follow-up messages to that chat. Metadata lets you group chats by customer, workspace, app, or any key you already use. Learn more about messages. Copy link to headingStream the trace Your interface needs to show what happens between sending a request and seeing the updated preview. Every message includes ordered parts: text, thinking, file reads and edits, searches, bash commands, tool calls, and agent actions. The same object can drive a one-line status, a changed-files view, or the full trace. const stream = await v0.messages.sendStream({ chatId: 'chat_abc123', message: 'Add authentication and explain the files you changed.', }) for await (const update of stream.stream) { console.log(update.parts) if (update.usage) { console.log(update.usage) } } Stream a message's work; each update is a full snapshot of parts. Usage is returned with chat and message responses, so you can account for the work when it finishes. Copy link to headingChoose sync, async, or streaming Chat creation and messages support synchronous, asynchronous, and streaming responses. Use sync when the caller needs the completed response. Use async to queue the work and receive updates via webhook or poll for v0's response later. Stream the request to render v0's work as it happens. const message = 'Build an issue triage app for a support team.' // Wait for the completed response. const completed = await v0.chats.create({ message }) if (completed.error) { throw new Error(completed.error.message) } // Queue work and use the returned IDs to retrieve the result later. const queued = await v0.chats.createAsync({ message }) if (queued.error) { throw new Error(queued.error.message) } console.log(queued.data.chatId, queued.data.messageId) // Receive the agent's work as it happens. const stream = await v0.chats.createStream({ message }) Create a chat three ways: await, queue, or stream the same prompt. Copy link to headingWork from existing code You can also create a chat from a repository, ZIP archive, or set of files. const result = await v0.chats.createFromRepo({ repo: { url: 'https://github.com/acme/app', branch: 'main', }, title: 'Acme app', metadata: { source: 'github', }, }) if (result.error) { throw new Error(result.error.message) } const chatId = result.data.chat.id console.log(chatId) Create a chat from an existing repo. Copy link to headingRender the dev server preview Each chat gets a short-lived preview token. Fetch it from a server route and proxy browser requests through it, so your v0 API key never reaches the browser. When a preview is ready, traffic forwards to it; while the Sandbox spins up, requests fall back to a loading route. Point an iframe at your proxy route and cache the preview details until they expire. import { fetchPreview, v0 } from 'v0' export async function proxyPreviewRequest( request: Request, chatId: string, path: string[], ) { const result = await v0.chats.getPreview({ chatId }) if (result.error) { throw new Error(result.error.message) } return fetchPreview({ request, preview: result.data, path, fallbackUrl: `/api/v0-preview/${chatId}/loading`, }) } Proxy preview requests through a server route. Read more about Accessing Previews in the docs. Copy link to headingBring your own tools and design systems Turn on specific MCP servers for a chat, or use the defaults. Design Systems 2.0 saves a design system as a skill. Include it in a request to load its components, tokens, setup, and starter app. const designSystem = { type: 'memory', scope: 'team', skillName: 'geist-ui', } const result = await v0.chats.create({ message: 'Build an admin console with filters and charts.', skills: [ designSystem, ], }) Create a chat with a design system loaded as a skill. You can pass up to three skills per request, from team or user memory, skills.sh, or the connected repo, or let the agent pull them in for you. Copy link to headingUse v0 from agents If you're building an agent, give it v0 as a tool. When the agent needs to produce a working app, it calls v0, and gets back a running preview or deployment to hand to the user. Your agent stays in charge of everything else. There are three ways to connect it: Connect the v0 MCP server to an IDE, desktop assistant, or agent runtime that supports MCP. { \"mcpServers\": { \"v0\": { \"url\": \"https://v0.app/api/mcp\" } } } The v0 server entry for your MCP client. The first connection starts an OAuth flow. The MCP server exposes tools for creating chats, listing chats, getting chat details, listing and sending messages, resolving pending tasks, and getting preview URLs. Copy link to headingAI SDK For TypeScript agents built with AI SDK, use @v0-sdk/ai-tools to expose v0's API operations as tools in the agent's own loop.",
+          "title_zh": "Vercel 发布AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing the new v0 API",
+              "source_url": "https://vercel.com/blog/introducing-the-new-v0-api"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Today we're introducing the new v0 API : programmatic, headless access to v0's app-building agent. Send a prompt and v0 generates an app, starts a dev server in a Vercel Sandbox , and gives you a preview URL you can",
+              "source_url": "https://vercel.com/blog/introducing-the-new-v0-api"
+            }
+          ],
+          "slug": "introducing-the-new-v0-api-f135e538",
+          "localized_url": "/zh/items/2026-08-06/introducing-the-new-v0-api-f135e538/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Sakana AI、大和証券グループとの共同AIプロジェクトを本格展開フェーズへ移行 ウェルスマネジメント業務支援AIの開発を開始",
+          "title_original": "Sakana AI、大和証券グループとの共同AIプロジェクトを本格展開フェーズへ移行 ウェルスマネジメント業務支援AIの開発を開始",
+          "title_en": "Sakana AI、大和証券グループとの共同AIプロジェクトを本格展開フェーズへ移行 ウェルスマネジメント業務支援AIの開発を開始",
+          "summary_zh": "Sakana AI 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/daiwa-shoken-full-scale/",
+          "published_at": "2026-08-05T00:00:00+09:00",
+          "fetched_at": "2026-08-05T23:18:46.933377+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [
+            "Sakana AI"
+          ],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e13b24ee6f0a",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "Sakana AI、大和証券グループとの共同AIプロジェクトを本格展開フェーズへ移行 ウェルスマネジメント業務支援AIの開発を開始",
+          "extracted_text_for_analysis": "Sakana AI株式会社（以下「Sakana AI」）は、株式会社大和証券グループ本社傘下の大和証券株式会社（以下「大和証券」）との間で2025年9月に締結したパートナーシップ契約に基づき、マーケット情報の収集・分析をテーマとする技術検証を実施しました。本検証の結果、Sakana AIのAIエージェント技術が大和証券のコンサルティング業務の高度化に資する可能性を確認できたことから、2026年8月1日より、ウェルスマネジメント領域における本格導入に向けた本番開発フェーズを開始します。 背景と目的 本パートナーシップは、Sakana AIの最先端AI技術と大和証券が長年にわたり培ってきた証券ビジネスの知見を融合し、大和証券のビジネス上の課題解決および証券ビジネスの高度化を目指す長期的な取り組みです。 その第一段階となる技術検証フェーズでは、証券ビジネスの土台となるマーケット情報の収集・分析に着目しました。Sakana AIの独自技術である「AIサイエンティスト」、「AB-MCTS」等のAIエージェント技術について、コンサルティング業務への適用可能性を大和証券と共同で検証しました。 実施内容と実証結果 本プロジェクトでは、大和証券の業務を題材として、Sakana AIのAIエージェント技術の実用性を検証しました。情報収集・分析に至る一連の業務プロセスを支援するAIエージェントシステムを構築し、業務の効率化および高度化に向けた有用性を評価しました。 検証の結果、情報収集・分析業務の各工程において、Sakana AIの技術が有効に機能し、業務を支援し得ることを確認しました。また、品質および処理能力の両面において、本番開発フェーズへの移行に必要な技術的な基盤を確立しました。さらに、利用者からのフィードバックを継続的に取り込みながらAIの分析品質を向上させる仕組みについても、その実現可能性を確認しました。 今後の展望 資産形成・資産運用に関するお客様ニーズが多様化するなか、証券会社には、お客様一人ひとりの状況を深く理解し、最適なコンサルティングを提供することがこれまで以上に求められています。技術検証フェーズを通じて有用性を確認した、Sakana AIの情報収集・分析技術や、現場の知見を取り込みながら継続的に進化するAIの仕組みは、こうしたコンサルティングの高度化を実現するコア技術となることが期待されます。 こうした背景を踏まえ、本番開発フェーズではSakana AIの技術をウェルスマネジメント領域へ適用します。技術検証フェーズで確立した技術基盤をお客様への提案業務を支援するAIプロダクトへと発展させることで、大和証券のウェルスマネジメント業務の高度化を推進するとともに、大和証券内への段階的な展開を進めていきます。 Sakana AIは、AI技術を通じて大和証券がお客様と向き合う時間の創出とコンサルティング品質の向上を支援し、大和証券のウェルスマネジメント事業のさらなる高度化と持続的な成長に貢献していきます。 Sakana AI 日本でのAIの未来を、Sakana AIと一緒に切り拓いてくださる方を募集しています。当社の募集要項をご覧ください。",
+          "title_zh": "Sakana AI 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。",
+            "涉及公司或机构：Sakana AI。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Sakana AI、大和証券グループとの共同AIプロジェクトを本格展開フェーズへ移行 ウェルスマネジメント業務支援AIの開発を開始",
+              "source_url": "https://sakana.ai/daiwa-shoken-full-scale/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/daiwa-shoken-full-scale/"
+            }
+          ],
+          "slug": "sakana-aiai-ai-8ba9e2aa",
+          "localized_url": "/zh/items/2026-08-06/sakana-aiai-ai-8ba9e2aa/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Set your own project avatars",
+          "title_original": "Set your own project avatars",
+          "title_en": "Set your own project avatars",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now set a project's avatar from its settings in the Vercel dashboard. Until now, Vercel set it automatically, using the favicon from the project's production deployment. That's still the default if you haven't set one. The avatar renders across the",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/project-avatars",
+          "published_at": "2026-08-05T17:30:00.000Z",
+          "fetched_at": "2026-08-05T23:18:46.933377+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f50fcbc451a1",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Set your own project avatars - Vercel",
+          "extracted_excerpt": "Give each project its own avatar, distinct from your account or team avatar. Vercel auto-detects the project's favicon on deploy, and you can override it anytime from project settings.",
+          "extracted_text_for_analysis": "You can now set a project's avatar from its settings in the Vercel dashboard. Until now, Vercel set it automatically, using the favicon from the project's production deployment. That's still the default if you haven't set one. The avatar renders across the dashboard and on Vercel bot comments in GitHub. Microfrontend projects that share one favicon can now get distinct avatars, and backend projects with no favicon to detect can set one explicitly. You can change a project's avatar from its settings in the Vercel Dashboard, or upload one with the REST API.",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Set your own project avatars",
+              "source_url": "https://vercel.com/changelog/project-avatars"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now set a project's avatar from its settings in the Vercel dashboard. Until now, Vercel set it automatically, using the favicon from the project's production deployment. That's still the default if you haven't",
+              "source_url": "https://vercel.com/changelog/project-avatars"
+            }
+          ],
+          "slug": "set-your-own-project-avatars-f50fcbc4",
+          "localized_url": "/zh/items/2026-08-06/set-your-own-project-avatars-f50fcbc4/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "New setup page after domain checkout",
+          "title_original": "New setup page after domain checkout",
+          "title_en": "New setup page after domain checkout",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Buying a domain on Vercel now takes you to a setup page that tracks registration live, with direct paths to deploy a new project, connect an existing one, proxy or redirect a site you already run, or set up email. Registration can take a few minutes. Each",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/new-setup-page-after-domain-checkout",
+          "published_at": "2026-08-05T17:00:00.000Z",
+          "fetched_at": "2026-08-05T23:18:46.933377+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "44e98341b237",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "New setup page after domain checkout - Vercel",
+          "extracted_excerpt": "Set up a domain right after buying it on Vercel: deploy a new project, connect an existing one, proxy or redirect a site, or set up email with DNS presets.",
+          "extracted_text_for_analysis": "Buying a domain on Vercel now takes you to a setup page that tracks registration live, with direct paths to deploy a new project, connect an existing one, proxy or redirect a site you already run, or set up email. Registration can take a few minutes. Each setup action unlocks as soon as the domain is ready. If registration fails, the page shows what went wrong and the status of your refund. Copy link to headingDeploy a new project or connect an existing one Deploy something opens project creation with the domain preselected. Connect a Git repository, prompt with v0, or start from a template, and the domain is attached when the project deploys. Connect an existing project attaches the domain to a project you pick from your team. Copy link to headingProxy or redirect a site you already run Enter an origin to proxy, and traffic to the domain routes through Vercel's CDN and Firewall to your existing site. Enter a URL to redirect, and visitors are forwarded there. In both cases, Vercel creates a project to handle the routing and configures it for you. Copy link to headingSet up email with DNS presets Choose your email provider and Vercel adds the DNS records it needs. Presets are available for Google Workspace, Outlook, iCloud, Proton Mail, Zoho, Mailgun, and ImprovMX. There's also a preset for using the domain as your Bluesky handle. If you'd rather configure records yourself, Manage DNS records opens the domain's DNS records page. vercel.com/domains to get started.",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "New setup page after domain checkout",
+              "source_url": "https://vercel.com/changelog/new-setup-page-after-domain-checkout"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Buying a domain on Vercel now takes you to a setup page that tracks registration live, with direct paths to deploy a new project, connect an existing one, proxy or redirect a site you already run, or set up email.",
+              "source_url": "https://vercel.com/changelog/new-setup-page-after-domain-checkout"
+            }
+          ],
+          "slug": "new-setup-page-after-domain-checkout-44e98341",
+          "localized_url": "/zh/items/2026-08-06/new-setup-page-after-domain-checkout-44e98341/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Gateway is now available on AWS Marketplace",
+          "title_original": "AI Gateway is now available on AWS Marketplace",
+          "title_en": "AI Gateway is now available on AWS Marketplace",
+          "summary_zh": "Vercel AI 推进了推理容量与成本控制方案，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "AI Gateway is now available on AWS Marketplace . Teams can procure AI Gateway through their existing AWS account, consolidating inference spend onto their AWS bill and streamlining procurement. Purchases are available as private offers with annual contract",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ai-gateway-is-now-available-on-aws-marketplace",
+          "published_at": "2026-08-05T04:00:00.000Z",
+          "fetched_at": "2026-08-05T23:18:46.933377+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "7b9163d1fdcc",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "AI Gateway is now available on AWS Marketplace - Vercel",
+          "extracted_excerpt": "AI Gateway is now available on AWS Marketplace, so teams can procure it through their AWS account with consolidated billing and draw down on existing AWS spend commitments.",
+          "extracted_text_for_analysis": "AI Gateway is now available on AWS Marketplace. Teams can procure AI Gateway through their existing AWS account, consolidating inference spend onto their AWS bill and streamlining procurement. Purchases are available as private offers with annual contract terms, plus usage-based pricing beyond the contract. AI Gateway gives you one API to hundreds of models through a single endpoint. Reliability, cost controls, and governance, including automatic fallbacks, regional inference, and Zero Data Retention, are built in. You pay provider pricing with no markup; buying through AWS doesn't change what you pay per token. View the listing on AWS Marketplace for details.",
+          "title_zh": "Vercel AI 发布推理容量与成本控制方案",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Gateway is now available on AWS Marketplace",
+              "source_url": "https://vercel.com/changelog/ai-gateway-is-now-available-on-aws-marketplace"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI Gateway is now available on AWS Marketplace . Teams can procure AI Gateway through their existing AWS account, consolidating inference spend onto their AWS bill and streamlining procurement. Purchases are available",
+              "source_url": "https://vercel.com/changelog/ai-gateway-is-now-available-on-aws-marketplace"
+            }
+          ],
+          "slug": "ai-gateway-is-now-available-on-aws-marketplace-7b9163d1",
+          "localized_url": "/zh/items/2026-08-06/ai-gateway-is-now-available-on-aws-marketplace-7b9163d1/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute",
+          "title_original": "Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute",
+          "title_en": "Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute",
+          "summary_zh": "Vercel 释放了AI 产业与产品变化，说明资本仍在寻找可落地的模型、工具链和基础设施机会。",
+          "summary_en": "We've increased the default quotas for Vercel Sandbox on Pro and Enterprise plans: Quota Before After Concurrent sandboxes 2,000 10,000 vCPUs allocation rate 200/min (Pro), 400/min (Enterprise) Up to 5,000/min The higher vCPU allocation rate is possible",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-10-000-concurrent-sandboxes-and-5-000-vcpus-per-minute",
+          "published_at": "2026-08-05T00:00:00.000Z",
+          "fetched_at": "2026-08-05T23:18:46.933377+00:00",
+          "category": "funding-startups",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3cc3940dd568",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“投资与创业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "资本信号会影响人才、算力和生态资源流向，但仍需结合产品留存、客户付费和基础设施成本判断。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-10-000-concurrent-sandboxes-and-5-000-vcpus-per-minute"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We've increased the default quotas for Vercel Sandbox on Pro and Enterprise plans: Quota Before After Concurrent sandboxes 2,000 10,000 vCPUs allocation rate 200/min (Pro), 400/min (Enterprise) Up to 5,000/min The",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-10-000-concurrent-sandboxes-and-5-000-vcpus-per-minute"
+            }
+          ],
+          "slug": "vercel-sandbox-now-supports-10-000-concurrent-sandboxes-and-5-000-vcpus-3cc3940d",
+          "localized_url": "/zh/items/2026-08-06/vercel-sandbox-now-supports-10-000-concurrent-sandboxes-and-5-000-vcpus-3cc3940d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Search and buy domains in the dashboard",
+          "title_original": "Search and buy domains in the dashboard",
+          "title_en": "Search and buy domains in the dashboard",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now search for and purchase domains from the Vercel dashboard . Open the domain search panel from the Buy button in domain settings or the + button on the project overview. Nameservers are configured automatically for your project, so there are no DNS",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/search-and-buy-domains-in-the-dashboard",
+          "published_at": "2026-08-05T00:00:00.000Z",
+          "fetched_at": "2026-08-05T23:18:46.933377+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6629ae786f30",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Search and buy domains in the dashboard",
+              "source_url": "https://vercel.com/changelog/search-and-buy-domains-in-the-dashboard"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now search for and purchase domains from the Vercel dashboard . Open the domain search panel from the Buy button in domain settings or the + button on the project overview. Nameservers are configured",
+              "source_url": "https://vercel.com/changelog/search-and-buy-domains-in-the-dashboard"
+            }
+          ],
+          "slug": "search-and-buy-domains-in-the-dashboard-6629ae78",
+          "localized_url": "/zh/items/2026-08-06/search-and-buy-domains-in-the-dashboard-6629ae78/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Measure time between steps in Vercel Workflows",
+          "title_original": "Measure time between steps in Vercel Workflows",
+          "title_en": "Measure time between steps in Vercel Workflows",
+          "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now measure the time between any two steps in the trace viewer for Vercel Workflows and the Workflow SDK . Select a step, hold Option on macOS or Alt on Windows and Linux, then hover another step to see a measurement line between them: Between",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/measure-time-between-steps-in-vercel-workflows",
+          "published_at": "2026-08-05T00:00:00.000Z",
+          "fetched_at": "2026-08-05T23:18:46.933377+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "dfec421de99a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Measure time between steps in Vercel Workflows",
+              "source_url": "https://vercel.com/changelog/measure-time-between-steps-in-vercel-workflows"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now measure the time between any two steps in the trace viewer for Vercel Workflows and the Workflow SDK . Select a step, hold Option on macOS or Alt on Windows and Linux, then hover another step to see a",
+              "source_url": "https://vercel.com/changelog/measure-time-between-steps-in-vercel-workflows"
+            }
+          ],
+          "slug": "measure-time-between-steps-in-vercel-workflows-dfec421d",
+          "localized_url": "/zh/items/2026-08-06/measure-time-between-steps-in-vercel-workflows-dfec421d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-05",
       "title_zh": "AI 新闻简报 · 2026-08-05",
