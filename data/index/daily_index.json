@@ -1,7 +1,759 @@
 {
-  "updated_at": "2026-08-07T01:34:22.637937+00:00",
-  "count": 59,
+  "updated_at": "2026-08-07T22:57:14.014577+00:00",
+  "count": 60,
   "briefs": [
+    {
+      "date": "2026-08-08",
+      "title_zh": "AI 新闻简报 · 2026-08-08",
+      "title_en": "English AI News Brief · 2026-08-08",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 141 条，入选 11 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 141 previously displayed items excluded, and 11 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 141,
+      "selected_count": 11,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Responding to the next frontier of critical cyber capabilities",
+          "title_original": "Responding to the next frontier of critical cyber capabilities",
+          "title_en": "Responding to the next frontier of critical cyber capabilities",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+          "published_at": "Fri, 07 Aug 2026 15:20:00 GMT",
+          "fetched_at": "2026-08-07T22:57:12.040502+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "833934ee3b25",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Responding to the next frontier of critical cyber capabilities",
+          "extracted_excerpt": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+          "extracted_text_for_analysis": "Cybersecurity is rapidly changing as models become more capable in ways that can both strengthen cyberdefenses and enable attacks at unprecedented speed and scale. Our latest internal evaluations of Astra, one of our upcoming models, over the past few days indicate significant advancements in agentic coding and cybersecurity. These results, in addition to expert assessments, have led us to conclude last night that we cannot rule out critical cyber capabilities under our Preparedness Framework(opens in a new window). We are sharing this because we believe it’s important to be transparent with the public and the safety and security communities about this potential shift in capabilities. We first published our Preparedness Framework in December 2023, well before models approached biological, chemical, cybersecurity, and AI self-improvement capabilities at this level. We created it to give us a guide for identifying progress in capability and then planning what our company would do as those capabilities emerge. Previous models, including GPT‑5.6‑Sol, have been evaluated for frontier cyber capabilities and assessed at the High (rather than Critical) threshold. Under our Preparedness Framework, a model reaches the Critical cybersecurity threshold if it can identify and develop functional zero-day exploits of all severity levels in many hardened real-world critical systems without human intervention, or can devise and execute end-to-end novel strategies for cyberattacks against hardened targets given only a high level desired goal. While we continue to benchmark and assess this model, our preliminary evaluations indicate strong enough performance that we cannot rule out Critical capability level at this time. Astra is an upcoming model, and was not involved in exploiting Hugging Face. Accordingly, we have scaled up robustness testing of our safeguards and security controls so that they are appropriate for a deployment of these capabilities. Internally, we have also taken the following steps so that further development of this model happens safely and securely: - We are implementing stricter security controls for higher-capability models and associated activities, including isolated testing environments, restricted network and tool access, enhanced model weight protections and encryption, additional monitoring and detection capabilities, and sandboxed execution. - We are pausing internal activities involving Astra that do not yet meet these strengthened security control requirements. - We have implemented universal monitoring for risky actions and misalignment across all agentic applications of Astra, including training and evaluation. Monitors evaluate the model's Chain of Thought and trigger a security response to review and interrupt high risk activity. - We will work with relevant government agencies and select AI safety organizations to test the capabilities for this model. - We will be providing recommended security controls to third-party testing partners for running higher risk evaluations and workloads safely. The framework has already guided us through other capability transitions. In June 2025, as our models approached the high capability threshold for biology under the Preparedness Framework, we outlined the steps we were taking to strengthen safeguards, expand testing, work with external experts, and deploy additional security controls. We are applying the same principle here. We believe advanced cyber-capable models should help defenders identify and address vulnerabilities before attackers do. We’re committed to working alongside governments, safety institutes, and civil society to ensure that the frontier capabilities of models like Astra, and those that follow, are deployed responsibly and broadly for the benefit of all humanity.",
+          "title_zh": "OpenAI 推进政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Responding to the next frontier of critical cyber capabilities",
+              "source_url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+              "source_url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+            }
+          ],
+          "slug": "responding-to-the-next-frontier-of-critical-cyber-capabilities-833934ee",
+          "localized_url": "/zh/items/2026-08-08/responding-to-the-next-frontier-of-critical-cyber-capabilities-833934ee/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+          "title_original": "How HSP GRUPPE builds AI capabilities for tax advisory",
+          "title_en": "How HSP GRUPPE builds AI capabilities for tax advisory",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/hsp-gruppe",
+          "published_at": "Fri, 07 Aug 2026 09:00:00 GMT",
+          "fetched_at": "2026-08-07T22:57:12.040502+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2ee94000fec4",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+          "extracted_excerpt": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+          "extracted_text_for_analysis": "98.6% of employees report higher productivity 84% Weekly active usage 500,000+ ChatGPT conversations in six months (Feb 1 to Jul 14, 2026) 40,000+ Estimated annual hours of additional capacity across the firm network The usage figures in this story refer to the shared ChatGPT Enterprise workspace used by HSP GRUPPE and Kanzleipakt, covering 81 organizational groups. HSP GRUPPE itself is a network of legally independent tax advisory, auditing, and law firms. For more than two decades, HSP GRUPPE(opens in a new window) has consistently invested in digitizing and standardizing professional firm processes. Long before generative AI, the firm network standardized processes, embedded quality management, and fostered a culture of continuous improvement across the network. When ChatGPT emerged, HSP saw more than another productivity tool. It saw an opportunity to rethink how professional work itself could evolve. Rather than asking how AI could help employees write faster emails or summarize documents, leadership asked a broader question: What happens when AI becomes part of the operating model of a professional services firm? That vision led HSP to embed ChatGPT Enterprise into tax advisory, legal research, client communication, financial analysis, and knowledge sharing across the firm network. “Technology is moving faster than organizations can transform. Our challenge wasn’t introducing AI—it was helping the organization absorb it.” HSP approached AI as an organizational transformation rather than a software rollout. The organization introduced ChatGPT Enterprise with a strong focus on adoption, governance, and continuous learning. Monthly AI forums gave employees a place to share practical use cases and learn from one another. ChatGPT Enterprise’s security features provide an important technical foundation, while the use of client-related information is governed by HSP’s internal data protection, confidentiality, and governance requirements. Professional review and final responsibility always remain with the relevant tax, legal, or accounting professional. The goal wasn’t simply to encourage experimentation. It was to build an organizational capability that could scale. As Carsten Schulz puts it: “People ask me what my favorite AI feature is. I never answer that question. Individual features don’t matter. Once you understand how everything fits together, AI opens the door to a completely new world.” Across the firm network, professionals quickly found new ways to apply AI to their daily work, while the organization also began standardizing successful use cases into custom Agents. One example is AI Client Communication, a shared Agent that supports first drafts, structure, clarity, and a more consistent, client-oriented tone. Professional review and final responsibility remain with the relevant tax, legal or accounting specialist. Another is the Booking Assistant SKR03 & SKR04, which supports the preparation and classification of specific booking questions. The final professional decision remains with the employee. Together, these kinds of shared Agents reduce repetitive work while making best practices available to every employee—not just AI experts. Professionals then build on those foundations in their own work. Managing Partner Frank Heibel uses ChatGPT as a technical sparring partner to work through complex tax questions and refine client communications. “ChatGPT has become a genuine sparring partner. It completely changes the level at which you can work.” he says. Partner Magdalene Posnak reduced the time required to evaluate multiple real estate investments from nine hours to around two, allowing her to spend more time advising clients. Managing Director Marco Sell uses AI-powered dashboards to help clients explore financial scenarios together during meetings, while lawyer and tax advisor Jan-Henrik Leifelt uses ChatGPT to strengthen—not replace—his professional judgment. The common thread is simple: less time spent preparing information, and more time spent applying expertise. “An analysis of several real estate investments used to take me around nine hours. With ChatGPT, I can prepare it in about two—and use the time saved for client advisory.” HSP is already preparing for the next phase of its AI journey with ChatGPT Work. Just weeks after gaining access, the organization began piloting the platform with a small group of developers and administrators before expanding across the wider workspace. The goal is to understand how agentic AI can safely automate complex workflows while balancing governance, quality, and cost before broader rollout. For HSP, the economic benefit is not about reducing headcount. The firms in the network are already operating at capacity and managing substantial backlogs. Time saved with ChatGPT can therefore be redirected toward additional client work, shorter turnaround times, more advisory capacity, and stronger client service. For Schulz, the opportunity isn’t simply helping people complete existing tasks more quickly. It’s redesigning the workflow itself. He points to year-end accounting as an example. Today, accountants often discover missing information only when they begin preparing annual accounts months after bookkeeping has been completed. HSP is exploring how ChatGPT Work could continuously review bookkeeping, identify missing information throughout the year, and proactively request documents from clients—so that much of the preparation has already happened before an accountant even opens the file. That shift—from AI assisting people to AI orchestrating work across entire processes—represents the next stage of HSP’s transformation. “We identified 88 opportunities for automation. But I think that’s already thinking too small. The real question isn’t how we automate today’s processes. It’s how we redesign them. That’s what opens the door to a completely new world.” - Achieved 84% weekly active usage, with 755 weekly active users and 913 unique users over six months (February 1 to July 14, 2026). - During the evaluated period from February 1 to July 14, 2026, users exchanged more than 500,000 messages with ChatGPT. - 98.6% of surveyed employees reported higher productivity, while 84.6% reported improved quality of work. - 95.9% of respondents reported weekly time savings; 63.5% saved at least two hours per week, and 25.7% saved at least five hours. HSP is already seeing an operational leading indicator in its annual capacity planning, with professionals planning significantly more work than in previous years because employees recognize additional capacity created through AI-supported work. The organization expects to assess the full financial impact later this year. - 79.7% reported better client service and 78.1% reported higher job satisfaction. - A deliberately conservative internal scenario estimates approximately 40,000 hours of additional annual capacity. Around 28,000 hours could support productive, generally billable",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How HSP GRUPPE builds AI capabilities for tax advisory",
+              "source_url": "https://openai.com/index/hsp-gruppe"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+              "source_url": "https://openai.com/index/hsp-gruppe"
+            }
+          ],
+          "slug": "how-hsp-gruppe-builds-ai-capabilities-for-tax-advisory-2ee94000",
+          "localized_url": "/zh/items/2026-08-08/how-hsp-gruppe-builds-ai-capabilities-for-tax-advisory-2ee94000/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+          "title_original": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+          "title_en": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/allenai/tutormoments",
+          "published_at": "Fri, 07 Aug 2026 17:53:32 GMT",
+          "fetched_at": "2026-08-07T22:57:12.040502+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "fd5b733b3580",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+          "extracted_excerpt": "A Blog post by Ai2 on Hugging Face",
+          "extracted_text_for_analysis": "Today we're introducing a preview of TutorMoments, a framework to measure whether cutting-edge LLMs can balance one of the hardest trade-offs in education: when to step in and help a student and when to hold back and let the student do more of the work. TutorMoments is a replay-based evaluation built off real one-on-one math tutoring sessions. Experienced math teachers go through transcripts collected from a U.S. tutoring program and flag the moments where a tutor had to choose between making a problem easier to get started on and pushing the student to do more of the reasoning themselves. TutorMoments then takes the transcript up to that decision point, hands it to a language model, and has the model take over as the tutor in a simulated session – with the student played by another language model – to see what the LLM tutor does. Told only to \"tutor well,\" we find that models tend to over-help by giving too much support and rarely pushing students to do deeper thinking. Spelling out the trade-off (when to help versus when to hold back) in the tutor's prompt improves performance, but it doesn't close the gap to human tutoring that consistently fits the moment, and LLMs still differ widely in how reliably they make that call. As part of our commitment to open research, we're releasing a dataset of de-identified tutoring transcripts, the code for running our replay pipeline, and the model tutor replays of the key moments we evaluated in those transcripts for reproducibility. We hope TutorMoments gives educators, researchers, and the teams building AI tutors a sharper way to ask how a model handles the pedagogical decisions that matter most—and helps the field build tutors that adapt to each student instead of doing the work for them. Ask a good math tutor for help and you'll likely get a question back like, \"What do you know about what the problem is asking?\" That isn't unhelpfulness–part of strong teaching is diagnosing what students do know and providing the right support for them in the moment. Immediately volunteering support would rob a student of the intellectual work that helps them learn. Sometimes support is needed; other times what's most effective is a push to solidify understanding by explaining a correct answer. Language models, though, are trained to be helpful, and a helpful assistant tends to do the hard part for you—explaining the concept, laying out the steps, and guiding you to the answer. In a tutoring session, that can cut short the productive struggle—the effortful, sometimes frustrating problem-solving that learning research has long tied to stronger understanding. Most benchmarks for language models acting as tutors don't capture this tension. They tend to reward one behavior in particular – never giving away the answer to a problem, say, or always offering a hint – without accounting for whether that was the right move for where the student actually was in their understanding. But good tutoring isn't a single fixed behavior you can identify across the board. It's a judgment call: what does this student need, right now, on this problem? TutorMoments is built on real tutoring data. The dataset we're releasing, TutorMoments-Preview, is 462 de-identified, text-only transcripts of real one-on-one math tutoring with U.S. students in grades 2-7, with more than 1,500 teacher-annotated key moments and several thousand free-text annotations from 27 U.S.-based teacher annotators. The transcripts come from a high-dosage tutoring program whose students mostly attend Title I schools, shared under a research clause agreed to by parents and guardians; all data was stripped of identifying details, first by the provider and then through an additional math-aware pipeline. All annotations came from experienced math teachers, whom we asked to read the transcripts and mark key learning moments—noting what was going on, what the tutor did, and how it landed for the student. Each key moment is a decision point where the tutor had to weigh scaffolding (making a problem more accessible) against pushing for rigor (encouraging the student to do harder thinking). TutorMoments runs by pausing a transcript at one of those key moments and handing the session to a language model, which takes over as the tutor for five turns with a simulated student. We call each of these model-generated continuations a replay. An LLM-based scoring pipeline then rates each replay on three things: whether the model (1) scaffolded when the student needed support, (2) pushed for rigor when the student was ready for more challenge, and (3) avoided over-scaffolding (reducing the challenge more than the moment called for). The scoring pipeline starts from a teacher-defined ground truth: for each key moment, whether it called for scaffolding or for a push for rigor. Several teachers annotated each moment, and when they disagreed we took the majority label—if three teachers annotated a moment and two called for rigor while one called for scaffolding, the ground truth is rigor. A separate LM classifier validated against teacher annotations then decides whether the tutor's actual move matches what the moment called for—an \"appropriate\" turn means the tutor's classified action (scaffold, push for rigor, or over-scaffold) lines up with what teachers judged the moment to call for. We ran seven LLMs through TutorMoments using two prompts: a plain prompt that gives no real guidance – it only tells the model to use what it knows about good tutoring to respond to the student – and an evaluation-aware prompt that spells out the trade-off between scaffolding, over-scaffolding, and pushing for rigor. Each model was scored over key moments drawn from the tutoring transcripts, split evenly between moments where scaffolding was the right approach and moments that called for rigor. Every number in the table is a rating between 0 and 1 – the share of the relevant moments where the model did the appropriate thing – so a higher score means the model made the right call more often. A 0.50 on appropriate rigor, for instance, means the model pushed for rigor in half of the moments that called for it. A few things to keep in mind when reading the scores: Human tutors are a naturalistic reference, not a ceiling. We don't treat human tutors as a model of ideal practice—even experienced tutors make less-than-optimal choices in the moment. Scored the same way at the same decision points, the human tutors in our transcripts get 0.458 (appropriate scaffolding), 0.182 (appropriate rigor), and 0.496 (avoids over-scaffolding)—all below the models' evaluation-aware scores and around the range of their plain-prompt scores. But this isn't a claim that AI tutors outperform human teachers. Annotators specifically looked for moments where tutoring could have gone better, so the dataset concentrates on missed opportunities rather than ideal practice. The scores measure tutor behavior, not learning. Replays use a simulated \"oracle\" student,",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+              "source_url": "https://huggingface.co/blog/allenai/tutormoments"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/allenai/tutormoments"
+            }
+          ],
+          "slug": "tutormoments-do-ai-tutors-know-when-to-help-and-when-to-hold-back-fd5b733b",
+          "localized_url": "/zh/items/2026-08-08/tutormoments-do-ai-tutors-know-when-to-help-and-when-to-hold-back-fd5b733b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "8 Predictions for the Era of Continual Learning",
+          "title_original": "8 Predictions for the Era of Continual Learning",
+          "title_en": "8 Predictions for the Era of Continual Learning",
+          "summary_zh": "Dwarkesh Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Locking in AI safety regulation now is a mistake.",
+          "source_name": "Dwarkesh Podcast",
+          "source_url": "https://www.dwarkeshpatel.com/",
+          "original_url": "https://www.dwarkesh.com/p/era-of-continual-learning",
+          "published_at": "Fri, 07 Aug 2026 17:17:40 GMT",
+          "fetched_at": "2026-08-07T22:57:12.040502+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "agi",
+            "economics",
+            "interview"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2317294fb2a5",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Dwarkesh Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Dwarkesh Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：agi、economics、interview。"
+          ],
+          "background_zh": "这条内容来自 Dwarkesh Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "8 Predictions for the Era of Continual Learning",
+              "source_url": "https://www.dwarkesh.com/p/era-of-continual-learning"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Locking in AI safety regulation now is a mistake.",
+              "source_url": "https://www.dwarkesh.com/p/era-of-continual-learning"
+            }
+          ],
+          "slug": "8-predictions-for-the-era-of-continual-learning-2317294f",
+          "localized_url": "/zh/items/2026-08-08/8-predictions-for-the-era-of-continual-learning-2317294f/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] AMD buys Taalas",
+          "title_original": "[AINews] AMD buys Taalas",
+          "title_en": "[AINews] AMD buys Taalas",
+          "summary_zh": "Latent Space 的新访谈把焦点放在推理容量与成本控制方案，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The Inference Inflection is HEATING up.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-amd-buys-taalas",
+          "published_at": "Fri, 07 Aug 2026 05:13:46 GMT",
+          "fetched_at": "2026-08-07T22:57:12.040502+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2fea13078482",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论推理容量与成本控制方案",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] AMD buys Taalas",
+              "source_url": "https://www.latent.space/p/ainews-amd-buys-taalas"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The Inference Inflection is HEATING up.",
+              "source_url": "https://www.latent.space/p/ainews-amd-buys-taalas"
+            }
+          ],
+          "slug": "ainews-amd-buys-taalas-2fea1307",
+          "localized_url": "/zh/items/2026-08-08/ainews-amd-buys-taalas-2fea1307/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Seedance 2.5 now available on Vercel AI Gateway",
+          "title_original": "Seedance 2.5 now available on Vercel AI Gateway",
+          "title_en": "Seedance 2.5 now available on Vercel AI Gateway",
+          "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Seedance 2.5 from ByteDance is now available on AI Gateway. It generates up to 30 seconds in a single clip, holding camera movement and continuity without stitching shots together in post. Short clips can also be extended with character, scene, and camera",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/seedance-2-5-now-available-on-vercel-ai-gateway",
+          "published_at": "2026-08-06T00:00:00.000Z",
+          "fetched_at": "2026-08-07T22:57:12.040502+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [
+            "Vercel AI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "30285f5ab19b",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Seedance 2.5 now available on Vercel AI Gateway - Vercel",
+          "extracted_excerpt": "edance 2.5 from ByteDance is now available on Vercel AI Gateway, generating up to 30 seconds in a single clip, with multimodal reference, targeted editing, and asynchronous generation that survives serverless timeouts.",
+          "extracted_text_for_analysis": "Seedance 2.5 from ByteDance is now available on AI Gateway. It generates up to 30 seconds in a single clip, holding camera movement and continuity without stitching shots together in post. Short clips can also be extended with character, scene, and camera movement carried over. Seedance 2.5 supports text, video, image, and audio as inputs in the same request, following a subject's appearance from one asset and the motion or camera work from another. On a finished video it edits locally, swapping backgrounds, products, or characters while the frame, camera, and pacing stay put, which is how one cut becomes several versions. Prompts work in more than ten languages. Copy link to headingGenerating a video Set model to bytedance/seedance-2.5 and call generateVideo from the AI SDK: import { experimental_generateVideo as generateVideo } from 'ai';import fs from 'node:fs'; const { videos } = await generateVideo({ model: 'bytedance/seedance-2.5', prompt: 'A chicken flying into the sunset in the style of 90s anime', resolution: '1920x1080', duration: 30,}); fs.writeFileSync('output.mp4', videos[0].uint8Array); Copy link to headingImage references Pass in image URLs under referenceImages and point at them in the prompt with [Image 1], [Image 2]. const { videos } = await generateVideo({ model: 'bytedance/seedance-2.5', prompt: 'A boy from [Image 1] walking a corgi from [Image 2] through the park at sunset', resolution: '1920x1080', duration: 10, generateAudio: true, inputReferences: [ { data: boyUrl, mediaType: 'image/jpeg' }, { data: corgiUrl, mediaType: 'image/jpeg' }, ],}); Copy link to headingVideo editing and references referenceVideos is numbered separately from the images, so [Video 1] and [Image 1] can appear in the same prompt: motion from one asset, appearance from another. const { videos } = await generateVideo({ model: 'bytedance/seedance-2.5', prompt: 'Follow the camera movement and pacing of [Video 1], with the product from [Image 1]', resolution: '1920x1080', duration: 15, inputReferences: [ { data: clipUrl, mediaType: 'video/mp4' }, { data: productUrl, mediaType: 'image/jpeg' }, ],}); A reference feeds a new generation, contributing motion, camera work, or pacing to something the model builds from scratch. Editing changes a finished video in place. Mixing the two roles in one prompt gives less stable results, so be explicit about what each source asset is for. For more details, and to try Seedance 2.5 playground and API reference, go to the model page. For more video models on AI Gateway, view all video models.",
+          "title_zh": "Vercel 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Vercel AI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Seedance 2.5 now available on Vercel AI Gateway",
+              "source_url": "https://vercel.com/changelog/seedance-2-5-now-available-on-vercel-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Seedance 2.5 from ByteDance is now available on AI Gateway. It generates up to 30 seconds in a single clip, holding camera movement and continuity without stitching shots together in post. Short clips can also be",
+              "source_url": "https://vercel.com/changelog/seedance-2-5-now-available-on-vercel-ai-gateway"
+            }
+          ],
+          "slug": "seedance-2-5-now-available-on-vercel-ai-gateway-30285f5a",
+          "localized_url": "/zh/items/2026-08-08/seedance-2-5-now-available-on-vercel-ai-gateway-30285f5a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "DeepSeek-V4 Flash 0731 vs GPT-5.6 Luna on DeepSWE: Cost and Coding",
+          "title_original": "DeepSeek-V4 Flash 0731 vs GPT-5.6 Luna on DeepSWE: Cost and Coding",
+          "title_en": "DeepSeek-V4 Flash 0731 vs GPT-5.6 Luna on DeepSWE: Cost and Coding",
+          "summary_zh": "Together AI Blog 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "We ran 900 DeepSWE rollouts on DeepSeek-V4 Flash and GPT-5.6 Luna. Luna leads pass@1 by 14 points; DeepSeek delivers 4.8x the solves per dollar.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/deepseek-v4-flash-0731-vs-gpt-5-6-luna-on-deepswe-cost-and-coding",
+          "published_at": "Thu, 06 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-07T22:57:12.040502+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "cf45cea758eb",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "DeepSeek-V4 Flash 0731 vs GPT-5.6 Luna on DeepSWE: Cost and Coding",
+          "extracted_excerpt": "We ran 900 DeepSWE rollouts on DeepSeek-V4 Flash and GPT-5.6 Luna. Luna leads pass@1 by 14 points; DeepSeek delivers 4.8x the solves per dollar.",
+          "extracted_text_for_analysis": "While GPT-5.6 Luna is the stronger engineer on every quality measure, DeepSeek-V4 Flash 0731 is cheap enough that a DeepSeek-first cascade beats Luna alone on both accuracy and cost. - GPT-5.6 Luna leads DeepSWE pass@1 decisively at 67.2% vs 53.3%, a 14 point gap, and holds the lead at every equal attempt count. - DeepSeek-V4 Flash is the cheapest model on the DeepSWE board: \\$0.10 per rollout vs \\$0.61, delivering 532 solves per \\$100 against Luna's 110. - DeepSeek-V4 Flash fails more cleanly, breaking the repo's existing test suite in 9% of failures vs Luna's 15%. - Running DeepSeek-V4 Flash first and escalating to Luna only on failure solves 78.9% of tasks at \\$0.385 each: more accurate than Luna alone and 37% cheaper. DeepSeek-V4 Flash 0731 is the cheapest model on the entire DeepSWE board: about ten cents a task! GPT-5.6 Luna, a solid upper-tier flagship, runs \\$0.61 a task, roughly six times DeepSeek’s price. So the question is not which one wins the leaderboard (Luna, comfortably) but what six-times-cheaper buys you, what it costs you, and whether the two together beat either one alone. We ran DeepSeek-V4 Flash 0731 (max) against GPT-5.6 Luna (max) on all 113 DeepSWE tasks: real, long-horizon feature requests from live open-source repos, four trials each, graded pass/fail by a hidden test suite. That is 900 rollouts in total from the published per-trial records (452 on DeepSeek's side, 448 on Luna's). Every figure below comes from this run, so it can differ from other public scorecards. At a glance Luna is ~6x the cost for ~14 points more accuracy; DeepSeek uses more output tokens and steps to get less far, but at \\$0.10 it is the cheapest run in the set by a wide margin. The DeepSWE scoreboard: pass@1 and pass@k Luna wins single shot clearly: 67.2% pass@1 to DeepSeek's 53.3% under DeepSWE's official scoring, a 14 point lead, or about 26% more accurate in relative terms. At equal attempt counts Luna stays ahead at every k (81.6 vs 70.1 at two attempts, 90.3 vs 80.5 at four). On raw solving ability, this is not a close fight. But DeepSWE is exactly the kind of workload where you can fan out several attempts in parallel, and there the economics rewrite the picture. DeepSeek's pass@2 (70.1%) already edges Luna's single shot (67.2%), and two DeepSeek attempts cost about \\$0.20 to Luna's \\$0.61. If a verifier can pick the winning run, the cheap model matches the flagship's first-try quality for a third of the price, before any of the routing tricks below even come into play. Cost comparison: DeepSeek-V4 Flash vs GPT-5.6 Luna pricing - At \\$0.61 a task, Luna returns 110 solves per \\$100 to DeepSeek's 532: a 4.8x value edge for the cheap model. The cost per rollout gap is about 6x. - The one thing the cheap model does not buy you is speed, and this is the twist versus the usual \"flash\" model story: DeepSeek is the slower of the two here, taking a median 23 minutes and 148 steps to Luna's 16 minutes and 92. It grinds (and emits more output, 104k median tokens to Luna's 70k). DeepSeek's advantage is money, not time. - That wall-clock gap is partly an artifact of how new the model is; expect it to shrink as inference engines get tuned for it. Failure modes: DeepSeek fails more gracefully than the flagship The other thing the cheap model quietly wins is discipline. When DeepSeek fails, it breaks the repository's existing test suite in only 9% of failures. Luna does so in 15%: the GPT-family regression signature, the same 15 to 20% we see across Sol and the other OpenAI-lineage models. Both fail mostly by near miss (DeepSeek 69%, Luna 66%), but the more expensive model is the one more likely to disturb code that already worked. If you deploy Luna, gate it behind a full regression run; DeepSeek needs that guardrail less. DeepSeek-V4 Flash vs GPT-5.6 Luna by task domain Classify the 113 tasks by what the code actually is, and Luna wins 7 of 8 domains. Its biggest edges are exactly the reasoning-heavy work: program analysis (69 vs 33), concurrency and durability (70 vs 38), language and runtime internals (86 vs 59), roughly a 30 point gap in each. This is where model capability actually shows up, and DeepSeek falls off hard. DeepSeek holds exactly one domain, and it is a telling one: query and config languages, 78 vs 70. The SQL builders, window functions, keyset pagination, config parsers. Structured, schema-shaped, convention-following work is where the cheap model is genuinely competitive, even ahead. Everywhere the task demands holding a hard invariant across a whole system, Luna's capability separates. DeepSeek-V4 Flash vs GPT-5.6 Luna by programming language Luna wins all five, but the margins tell you where to be careful with DeepSeek. It is respectable on Rust (55 vs 60) and Go (62 vs 79), but its JavaScript is a collapse: 35 vs Luna's 60, the weakest single cell in the entire matchup, and a 25 point hole. DeepSeek's Python is also soft (49 vs 65). If your stack is JS-heavy, the cheap model is a false economy; if it is config, query, or Rust, DeepSeek closes most of the gap. How similar are DeepSeek-V4 Flash and GPT-5.6 Luna? Less than the cheap-tier pairs. Per-task correlation is 0.50, and the diversity is lopsided: they both solve 87 tasks, Luna alone gets 15, and DeepSeek alone gets only 4. Crucially, there is no task DeepSeek sweeps that Luna misses entirely (zero four-for-zero corners in DeepSeek's favor), while Luna sweeps four that DeepSeek never lands (go-critic-doc-link-checker, langchain-request-coalescing, meriyah-explicit-resource-declarations, superjson-error-stack-serialization). Their union covers 106 of 113 (93.8%), but almost all of that is Luna's own reach. As a raw diversity play, DeepSeek adds little. The portfolio play: why the cascade works anyway So the pairing should be pointless. It is not, and the reason is the price. Run DeepSeek first and escalate to Luna only when your test suite rejects the answer: 78.9% solved at \\$0.385 per task. Read that carefully. It is more accurate than Luna alone (67.2%, up 11.7 points) and cheaper than Luna alone (\\$0.61), landing at about 63% of Luna's per-task cost. The near-free first stage is the entire trick: DeepSeek clears roughly 53% of the queue for a dime each, so Luna's charge only ever touches the hard remainder, and the tasks that reach Luna get a second independent attempt on top. The cascade even beats a perfect one-shot oracle router (74.3%), because two swings beat one perfect pick. Accuracy is identical whichever model leads, but DeepSeek-first is much cheaper (\\$0.385 vs \\$0.64), so always lead with the cheap one. The pair's ceiling is 93.8%; the 7 tasks neither ever solves (including gql-incremental-graphql-delivery and bandit-structured-nosec-directives) need a stronger third model, not a better router. What it means On its own, DeepSeek-V4 Flash 0731 is a mid-pack model with one real domain (query and config), a clean failure profile, a catastrophic JavaScript weakness, and an unbeatable",
+          "title_zh": "Together AI Blog 推进代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI Blog 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI Blog，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "DeepSeek-V4 Flash 0731 vs GPT-5.6 Luna on DeepSWE: Cost and Coding",
+              "source_url": "https://www.together.ai/blog/deepseek-v4-flash-0731-vs-gpt-5-6-luna-on-deepswe-cost-and-coding"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We ran 900 DeepSWE rollouts on DeepSeek-V4 Flash and GPT-5.6 Luna. Luna leads pass@1 by 14 points; DeepSeek delivers 4.8x the solves per dollar.",
+              "source_url": "https://www.together.ai/blog/deepseek-v4-flash-0731-vs-gpt-5-6-luna-on-deepswe-cost-and-coding"
+            }
+          ],
+          "slug": "deepseek-v4-flash-0731-vs-gpt-5-6-luna-on-deepswe-cost-and-coding-cf45cea7",
+          "localized_url": "/zh/items/2026-08-08/deepseek-v4-flash-0731-vs-gpt-5-6-luna-on-deepswe-cost-and-coding-cf45cea7/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Container Registry repositories can now be made public",
+          "title_original": "Vercel Container Registry repositories can now be made public",
+          "title_en": "Vercel Container Registry repositories can now be made public",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Container Registry now lets you make a repository public, so anyone with a Vercel account can pull and use its images. Sharing already granted read access to up to 100 teams, and making a repository public opens that access to every Vercel team rather",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public",
+          "published_at": "2026-08-07T17:00:00.000Z",
+          "fetched_at": "2026-08-07T22:57:12.040502+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2d835273fec1",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Vercel Container Registry repositories can now be made public - Vercel",
+          "extracted_excerpt": "Vercel Container Registry now supports making a repository public, giving every Vercel team read-only access to pull and use its images, via the dashboard or the REST API.",
+          "extracted_text_for_analysis": "Vercel Container Registry now lets you make a repository public, so anyone with a Vercel account can pull and use its images. Sharing already granted read access to up to 100 teams, and making a repository public opens that access to every Vercel team rather than a named set. Public access is read-only, so anyone can pull and use the images but cannot push, delete, or otherwise change the repository. Repositories stay private by default. Make a repository public from the project dashboard under Images → repository → Settings → Public Access, where confirming requires typing the repository name. You can also set visibility from the Vercel CLI: vercel vcr config --public truevercel vcr config --public false Public images work like shared images in Vercel Sandbox, which accepts a team-scoped image reference in Sandbox.create(): import { Sandbox } from '@vercel/sandbox';const sandbox = await Sandbox.create({ image: 'their-team/their-project/their-repository:latest',}); Update your repository visibility from the dashboard, the CLI, or the REST API, and see the Vercel Container Registry documentation to learn more.",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Container Registry repositories can now be made public",
+              "source_url": "https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Container Registry now lets you make a repository public, so anyone with a Vercel account can pull and use its images. Sharing already granted read access to up to 100 teams, and making a repository public opens",
+              "source_url": "https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public"
+            }
+          ],
+          "slug": "vercel-container-registry-repositories-can-now-be-made-public-2d835273",
+          "localized_url": "/zh/items/2026-08-08/vercel-container-registry-repositories-can-now-be-made-public-2d835273/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Audit Log Drains now support Datadog, Splunk, and Panther",
+          "title_original": "Audit Log Drains now support Datadog, Splunk, and Panther",
+          "title_en": "Audit Log Drains now support Datadog, Splunk, and Panther",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Audit Log Drains now stream your team's audit events into Datadog , Splunk , and Panther , joining the existing custom HTTPS endpoint and Amazon S3 destinations. An Audit Log Drain forwards every event from your team's Activity Log, plus additional audit",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther",
+          "published_at": "2026-08-07T04:00:00.000Z",
+          "fetched_at": "2026-08-07T22:57:12.040502+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "32a9e6dcf430",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Audit Log Drains now support Datadog, Splunk, and Panther",
+              "source_url": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Audit Log Drains now stream your team's audit events into Datadog , Splunk , and Panther , joining the existing custom HTTPS endpoint and Amazon S3 destinations. An Audit Log Drain forwards every event from your team's",
+              "source_url": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther"
+            }
+          ],
+          "slug": "audit-log-drains-now-support-datadog-splunk-and-panther-32a9e6dc",
+          "localized_url": "/zh/items/2026-08-08/audit-log-drains-now-support-datadog-splunk-and-panther-32a9e6dc/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Free domain now included with new Pro subscriptions",
+          "title_original": "Free domain now included with new Pro subscriptions",
+          "title_en": "Free domain now included with new Pro subscriptions",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "New Pro subscriptions now include a domain free for the first year. The offer covers six TLDs: .online .site .space .store .tech .website Each team has 30 days after subscribing to claim one domain, either at checkout or later from the domain search in the",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions",
+          "published_at": "2026-08-07T00:00:00.000Z",
+          "fetched_at": "2026-08-07T22:57:12.040502+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2266e6b14444",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Free domain now included with new Pro subscriptions",
+              "source_url": "https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions"
+            },
+            {
+              "label": "公开摘要",
+              "text": "New Pro subscriptions now include a domain free for the first year. The offer covers six TLDs: .online .site .space .store .tech .website Each team has 30 days after subscribing to claim one domain, either at checkout",
+              "source_url": "https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions"
+            }
+          ],
+          "slug": "free-domain-now-included-with-new-pro-subscriptions-2266e6b1",
+          "localized_url": "/zh/items/2026-08-08/free-domain-now-included-with-new-pro-subscriptions-2266e6b1/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Give every agent in Herdr its own Vercel Sandbox",
+          "title_original": "Give every agent in Herdr its own Vercel Sandbox",
+          "title_en": "Give every agent in Herdr its own Vercel Sandbox",
+          "summary_zh": "Claude 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Terminal coding agents like Claude Code, Codex, and OpenCode can now each run in their own isolated Vercel Sandbox , orchestrated from Herdr , a tmux-style manager that runs them side by side in panes. Nothing an agent runs or edits touches your machine. When",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/give-every-agent-in-herdr-its-own-vercel-sandbox",
+          "published_at": "2026-08-06T23:01:00.000Z",
+          "fetched_at": "2026-08-07T22:57:12.040502+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a4e0b3b56309",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 推进代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Give every agent in Herdr its own Vercel Sandbox",
+              "source_url": "https://vercel.com/changelog/give-every-agent-in-herdr-its-own-vercel-sandbox"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Terminal coding agents like Claude Code, Codex, and OpenCode can now each run in their own isolated Vercel Sandbox , orchestrated from Herdr , a tmux-style manager that runs them side by side in panes. Nothing an agent",
+              "source_url": "https://vercel.com/changelog/give-every-agent-in-herdr-its-own-vercel-sandbox"
+            }
+          ],
+          "slug": "give-every-agent-in-herdr-its-own-vercel-sandbox-a4e0b3b5",
+          "localized_url": "/zh/items/2026-08-08/give-every-agent-in-herdr-its-own-vercel-sandbox-a4e0b3b5/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-07",
       "title_zh": "AI 新闻简报 · 2026-08-07",
