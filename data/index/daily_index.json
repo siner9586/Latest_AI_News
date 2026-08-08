@@ -1,7 +1,371 @@
 {
-  "updated_at": "2026-08-07T22:57:14.014577+00:00",
-  "count": 60,
+  "updated_at": "2026-08-08T22:49:15.372534+00:00",
+  "count": 61,
   "briefs": [
+    {
+      "date": "2026-08-09",
+      "title_zh": "AI 新闻简报 · 2026-08-09",
+      "title_en": "English AI News Brief · 2026-08-09",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 146 条，入选 5 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 146 previously displayed items excluded, and 5 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 146,
+      "selected_count": 5,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Grok Imagine Image 2.0 now available on Vercel AI Gateway",
+          "title_original": "Grok Imagine Image 2.0 now available on Vercel AI Gateway",
+          "title_en": "Grok Imagine Image 2.0 now available on Vercel AI Gateway",
+          "summary_zh": "Grok 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Grok Imagine Image 2.0 Preview from xAI is now available on AI Gateway. The model follows detailed instructions closely and plans typography and layout together, so dense, multi-part visuals like infographics, posters, and title screens hold their structure",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/grok-imagine-image-2-0-preview-now-available-on-vercel-ai-gateway",
+          "published_at": "2026-08-08T00:00:00.000Z",
+          "fetched_at": "2026-08-08T22:49:13.792726+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "xAI",
+            "Vercel AI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "045b7da0acd5",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Grok Imagine Image 2.0 now available on Vercel AI Gateway - Vercel",
+          "extracted_excerpt": "Grok Imagine Image 2.0 from xAI is now available on Vercel AI Gateway as a preview, an image generation and editing model that plans typography and layout together and renders small text sharply.",
+          "extracted_text_for_analysis": "Grok Imagine Image 2.0 Preview from xAI is now available on AI Gateway. The model follows detailed instructions closely and plans typography and layout together, so dense, multi-part visuals like infographics, posters, and title screens hold their structure and small text stays legible. Grok Imagine Image 2.0 Preview also supports image editing, keeping subjects and details consistent across repeated generations. Try the model out now in imagine.vercel.sh, running on AI Gateway. To use Grok Imagine Image 2.0 Preview, set model to xai/grok-imagine-image-2.0-preview and call generateImage from the AI SDK. import { generateImage } from 'ai'; const { images } = await generateImage({ model: 'xai/grok-imagine-image-2.0-preview', prompt: 'An infographic tracing letterforms from movable type to digital fonts.',}); Set resolution to 1k or 2k under providerOptions.xai to pick an output tier, and n for more than one image per call. For image editing, pass an image in prompt.images alongside the instruction, and the model changes what you asked for and leaves the rest: import { readFileSync } from 'node:fs';import { generateImage } from 'ai'; const { images } = await generateImage({ model: 'xai/grok-imagine-image-2.0-preview', prompt: { text: 'Change the title to a monospace font.', images: [readFileSync('./letterforms.png')], },}); To view all image models supported on AI Gateway, see the full list here.",
+          "title_zh": "Grok 发布开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Grok 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Grok，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：xAI、Vercel AI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Grok Imagine Image 2.0 now available on Vercel AI Gateway",
+              "source_url": "https://vercel.com/changelog/grok-imagine-image-2-0-preview-now-available-on-vercel-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Grok Imagine Image 2.0 Preview from xAI is now available on AI Gateway. The model follows detailed instructions closely and plans typography and layout together, so dense, multi-part visuals like infographics, posters,",
+              "source_url": "https://vercel.com/changelog/grok-imagine-image-2-0-preview-now-available-on-vercel-ai-gateway"
+            }
+          ],
+          "slug": "grok-imagine-image-2-0-now-available-on-vercel-ai-gateway-045b7da0",
+          "localized_url": "/zh/items/2026-08-09/grok-imagine-image-2-0-now-available-on-vercel-ai-gateway-045b7da0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
+          "title_original": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
+          "title_en": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+          "published_at": "Sat, 08 Aug 2026 10:24:54 +0000",
+          "fetched_at": "2026-08-08T22:49:13.792726+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ca6d8281d6b4",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
+          "extracted_excerpt": "The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies",
+          "extracted_text_for_analysis": "The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing and Dell Technologies high-performance AI infrastructure. Nikol Pashinyan, prime minister of the Republic of Armenia; Zhaslan Madiyev, deputy prime minister of the Republic of Kazakhstan; and David Allen, U.S. chargé d`affaires, a.i. in Armenia, attended the AI factory opening ceremony. AI factories are the foundational infrastructure for the AI era, providing the computing capacity needed to train, fine-tune and deploy AI models for every domain at scale. Building the Infrastructure to Create Intelligence at Home While AI services are available globally, countries also need the capacity to develop and run AI for their own languages, industries and national priorities. Firebird’s AI factory brings that capacity to Armenia, giving developers, startups, enterprises, universities and public institutions the compute to build and scale AI at home. Firebird plans to deploy more than 70,000 NVIDIA Rubin and Blackwell GPUs and 300 megawatts of AI infrastructure capacity in Armenia by the end of 2027, accelerating the country’s development as a center for AI research, advanced computing and innovation. At this scale, energy efficiency is essential. Built on the NVIDIA DSX platform, this AI factory integrates accelerated computing, networking, power and cooling as one codesigned system. Firebird’s AI factory is designed from the ground up to turn compute into revenue. With DSX, it can run up to 40% more GPUs on the same footprint, producing more tokens per dollar and extracting more value from every megawatt of capacity. A Magnet for Global AI, a Catalyst for Local Innovation Firebird’s ambitions extend beyond a single site. With NVIDIA’s support, the company is pursuing an approximately 2-gigawatt AI infrastructure roadmap spanning Armenia, Kazakhstan and additional markets. Firebird also announced that NVIDIA intends to invest in the company, following an earlier investment by CoreWeave this year. These investments will help Firebird expand its global infrastructure and operational footprint, and support its efforts to establish the largest and most advanced compute clusters across frontier markets. Delivered in just over six months, the Armenia AI factory demonstrates Firebird’s ability to turn ambitious infrastructure plans into operational AI capacity with exceptional speed. Schneider Electric provides the power infrastructure supporting Firebird’s AI factory in Hrazdan, helping Firebird meet its accelerated deployment schedule by rapidly delivering and setting up critical systems, including medium- and low-voltage switchgear, three-phase uninterruptible power supply systems and rack enclosures. This keeps the power buildout moving at the pace of the compute and provides a reliable foundation to bring NVIDIA accelerated computing online at scale. To support the facility’s thermal needs, Vertiv provided a cooling architecture combining chilled-water technology, advanced controls and Vertiv TrimCooler technology for efficient heat rejection. Vertiv’s iCOM CWM Chilled Water Manager centrally coordinates cooling resources, improving visibility, efficiency and responsiveness as demand shifts with AI workloads. Early demand is coming from AI-native companies including Perplexity, which is working with Firebird to access high-performance AI infrastructure for its AI agent platform and answer engine. As AI becomes essential infrastructure worldwide, Firebird’s expansion can help make the CIS region a magnet for global companies building and running AI — and a catalyst for local developers, researchers and enterprises. Powered by NVIDIA’s total AI factory platform — reference architecture, accelerated computing, networking and AI software — and deployed on Dell PowerEdge servers, the new Firebird AI factory will help Armenia’s builders turn energy into intelligence and connect their innovations to the global AI economy.",
+          "title_zh": "NVIDIA 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
+              "source_url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA",
+              "source_url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/"
+            }
+          ],
+          "slug": "firebird-launches-cis-regions-largest-ai-factory-in-armenia-831d74e9",
+          "localized_url": "/zh/items/2026-08-09/firebird-launches-cis-regions-largest-ai-factory-in-armenia-831d74e9/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🧠 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more",
+          "title_original": "🧠 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more",
+          "title_en": "🧠 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more",
+          "summary_zh": "Community Wisdom 196",
+          "summary_en": "Community Wisdom 196",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach",
+          "published_at": "Sat, 08 Aug 2026 17:08:14 GMT",
+          "fetched_at": "2026-08-08T22:49:13.792726+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bec3018399f3",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🧠 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Community Wisdom 196",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach"
+            }
+          ],
+          "slug": "community-wisdom-crafting-outreach-that-reads-as-authentic-finding-desig-bec30183",
+          "localized_url": "/zh/items/2026-08-09/community-wisdom-crafting-outreach-that-reads-as-authentic-finding-desig-bec30183/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Zawinski's Law of MultiAgents",
+          "title_original": "[AINews] Zawinski's Law of MultiAgents",
+          "title_en": "[AINews] Zawinski's Law of MultiAgents",
+          "summary_zh": "Latent Space 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "a quiet day lets us find some connections among recent themes",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents",
+          "published_at": "Sat, 08 Aug 2026 01:12:07 GMT",
+          "fetched_at": "2026-08-08T22:49:13.792726+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0430b727e0cf",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Zawinski's Law of MultiAgents",
+              "source_url": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents"
+            },
+            {
+              "label": "公开摘要",
+              "text": "a quiet day lets us find some connections among recent themes",
+              "source_url": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents"
+            }
+          ],
+          "slug": "ainews-zawinski-s-law-of-multiagents-0430b727",
+          "localized_url": "/zh/items/2026-08-09/ainews-zawinski-s-law-of-multiagents-0430b727/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent",
+          "title_original": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent",
+          "title_en": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Hermes Agent can now use Vercel AI Gateway as its inference layer and run its agent commands in an isolated Vercel Sandbox microVM. Access 200+ models through AI Gateway at no markup on tokens, and every request appears in your AI Gateway dashboard with the",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent",
+          "published_at": "2026-08-07T19:00:00.000Z",
+          "fetched_at": "2026-08-08T22:49:13.792726+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [
+            "Vercel AI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2d0efa94a276",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent - Vercel",
+          "extracted_excerpt": "Hermes, the NousResearch coding agent, now routes model requests through Vercel AI Gateway and can run agent commands in Vercel Sandbox cloud microVMs.",
+          "extracted_text_for_analysis": "Hermes Agent can now use Vercel AI Gateway as its inference layer and run its agent commands in an isolated Vercel Sandbox microVM. Access 200+ models through AI Gateway at no markup on tokens, and every request appears in your AI Gateway dashboard with the rest of your usage and spend. Copy link to headingSetup Install Hermes, then pick Vercel AI Gateway in the setup wizard: # Install Hermescurl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash # In the setup wizard: pick Vercel AI Gateway, paste your key# Pick Vercel Sandbox to run each agent command in a microVM # Already have Hermes? Update first, then switch either one:hermes updatehermes setup model # pick Vercel AI Gatewayhermes setup terminal # pick Vercel Sandbox # Verifyhermes doctor The picker pulls live model availability and current pricing from AI Gateway. For the full walkthrough, see Configuring Hermes. Copy link to headingRunning commands in Vercel Sandbox The Vercel Sandbox backend is opt-in. Commands run locally until you set terminal.backend to vercel_sandbox; with it enabled, agent commands run in a cloud microVM with a workspace root of /vercel/sandbox instead of on your machine. The backend supports node24 (default), node22, and python3.13 runtimes. For local development, use VERCEL_OIDC_TOKEN. Run vercel link and vercel env pull to get a development token. To get started, read the Hermes documentation and the Vercel Sandbox documentation, or browse AI Gateway models.",
+          "title_zh": "Vercel 发布AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Vercel AI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent",
+              "source_url": "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hermes Agent can now use Vercel AI Gateway as its inference layer and run its agent commands in an isolated Vercel Sandbox microVM. Access 200+ models through AI Gateway at no markup on tokens, and every request appears",
+              "source_url": "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent"
+            }
+          ],
+          "slug": "vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent-2d0efa94",
+          "localized_url": "/zh/items/2026-08-09/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent-2d0efa94/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-08",
       "title_zh": "AI 新闻简报 · 2026-08-08",
