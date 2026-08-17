@@ -1,7 +1,1207 @@
 {
-  "updated_at": "2026-08-13T23:04:52.074811+00:00",
-  "count": 64,
+  "updated_at": "2026-08-17T22:44:02.915774+00:00",
+  "count": 65,
   "briefs": [
+    {
+      "date": "2026-08-18",
+      "title_zh": "AI 新闻简报 · 2026-08-18",
+      "title_en": "English AI News Brief · 2026-08-18",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 121 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 121 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 121,
+      "selected_count": 18,
+      "categories": [
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "The Defender’s Window",
+          "title_original": "The Defender’s Window",
+          "title_en": "The Defender’s Window",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/the-defenders-window",
+          "published_at": "Mon, 17 Aug 2026 05:30:00 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f137d9ea2f9f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "The Defender’s Window",
+          "extracted_excerpt": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+          "extracted_text_for_analysis": "The OpenAI-Hugging Face incident(opens in a new window) was a watershed moment for cybersecurity because it gave a peek into how the capabilities of a typical threat actor will evolve in upcoming months. I’ve spoken with many organizations over the past few weeks, and one theme is clear: they know they need to fundamentally uplevel their cybersecurity practices with unprecedented speed. In this post, I’ll share what we’re doing to defend OpenAI, concrete steps other organizations can take today, and why now is the time to act. AI models developed around the world are increasingly able to automate parts of real-world cyberattacks, making longstanding security gaps—from bugs buried deep in human-written software to forgotten permissions—easier to find and exploit. The same AI capabilities give defenders new ways to find and fix those weaknesses, but they need to move now. If companies act decisively—including improving their fundamentals and superpowering their teams with AI—we can make the internet more secure than it has ever been. In the OpenAI-Hugging Face Incident, an agentic collective was able to autonomously penetrate not just OpenAI research infrastructure but also the production infrastructure of another company, chaining together vulnerabilities ranging from previously-unknown security flaws to using credentials to user accounts that had been leaked onto the internet. It is increasingly clear that the tech debt(opens in a new window) of every company masks significant flaws, and defenders need to find and fix them before attackers do. To advantage defenders relative to attackers, earlier this year we began releasing our cyber capabilities only to trusted defenders. Since then, various companies have released open weight models with cyber capabilities only a few months behind the frontier. The most recent of these models appears slated to be released(opens in a new window) at the end of August, and seems likely to significantly accelerate the threat landscape. While AI-powered attackers will soon be able to find longstanding flaws in many existing systems, AI will also make it much easier for defenders to find, prioritize, and fix those same flaws. Security is still a cat-and-mouse game, but AI may shift its economics(opens in a new window) in ways that fundamentally advantage defenders. For example, we are starting to train our models specifically to write superhumanly secure code. Our models are also incredible at mathematical proofs, which can be applied to formally verify the security of software in a way that has proven intractable for humans. After the OpenAI-Hugging Face incident, I asked ChatGPT Work (using publicly available GPT‑5.6 Sol) to assess the security of gregbrockman.com(opens in a new window). It’s a simple static site, hosted on AWS with Cloudflare as a frontdoor, so I figured there wouldn’t be much surface area for vulnerabilities. In about 15 minutes, it uncovered 13 issues, many of which probably aren’t exploitable on their own—but I could imagine them being chained together with other vulnerabilities to significant effect. I hadn’t configured my DNS records to prevent attackers from forging emails from me; my site used an insecure version of jQuery; Cloudflare was forwarding requests to AWS over unencrypted HTTP. I then asked ChatGPT Work to fix these issues, which it did over the course of an hour. It opened the Cloudflare control panel in my browser, and proceeded to click many buttons to configure DNS, TLS, and advanced security settings correctly; it dropped jQuery entirely from the site; it migrated me off of AWS and onto Cloudflare Pages; it began a phased rollout of DMARC(opens in a new window). And this was just my personal website. This is a small example of how our existing models can operate as a cyberguardian—finding the long tail of issues that a human wouldn’t have time or expertise (many of the settings it fixed are ones I’m vaguely familiar with, but wouldn’t know offhand the right way to configure them) to get to, and then fixing them with an appropriately tuned rollout plan. The Hugging Face incident showed that we underestimated the real-world cyber capabilities of our AI models. We are strengthening our safety requirements accordingly, which in turn adds even more urgency to our existing safety research and internal security work. I’m sharing a bit about our approach to securing OpenAI in this moment, in the hopes it’ll be useful to other organizations. To protect OpenAI, we are investing significantly in both foundational controls—doing the basics correctly—and empowering our defenses through frontier intelligence. There are four major pillars to this strategy. First, we are using our models to help secure our code. Codex, including our security plugin, validates code changes, identifies vulnerabilities, and helps developers fix issues before they are deployed. It is an anti-goal to simply produce more security findings that need human validation; the objective is to catch real vulnerabilities before they ship and to shorten the path from discovering an issue to safely deploying a fix. As we continue to train our models to produce increasingly secure code, our goal is to eliminate some classes of software vulnerabilities for newly-authored code. Second, we are putting our models to work defending our infrastructure continuously. Today, almost all of our initial security alerts are triaged by intelligence before humans are looped in. This helps reduce toil for defenders, improves response time, and lets humans spend time where their skills are most leveraged—in discernment, judgement, and applied expertise. We are increasingly connecting these detections to bounded automated responses, while keeping humans responsible for the highest-impact decisions. The goal is to ensure we can detect and respond to security issues at machine speed. Third, we are using frontier intelligence to continuously enumerate, probe, and identify potential attack paths. By identifying vulnerabilities, misconfiguration, overly privileged identities, or unintentional trust boundaries, we are able to quickly identify and close these gaps before they can be abused by attackers. This allows us to continuously assess, monitor, and test our security invariants—the security properties we believe to be true—across our products, infrastructure, and systems. Lastly, we are investing heavily in fundamentals at scale. We continue to invest in secure architecture and controls, embrace strategies like defense in depth and least privilege, and are designing systems that require multiple independent controls to fail simultaneously for something catastrophic to occur. Classic security controls like network isolation, workload hardening, monitoring, and safe patching and deployment will be more important than ever in the AI future. Time is of the essence, and defenders will need to pursue the steps below at turbo speed. Below I’ll mention OpenAI technology,",
+          "title_zh": "OpenAI 推进政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The Defender’s Window",
+              "source_url": "https://openai.com/index/the-defenders-window"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+              "source_url": "https://openai.com/index/the-defenders-window"
+            }
+          ],
+          "slug": "the-defenders-window-f137d9ea",
+          "localized_url": "/zh/items/2026-08-18/the-defenders-window-f137d9ea/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "OpenAI joins PORTS-Pike project",
+          "title_original": "OpenAI joins PORTS-Pike project",
+          "title_en": "OpenAI joins PORTS-Pike project",
+          "summary_zh": "OpenAI 更新了融资与资本投入信号，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/openai-joins-ports-pike-project",
+          "published_at": "Mon, 17 Aug 2026 05:00:00 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ad5623d5cc70",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "OpenAI joins PORTS-Pike project",
+          "extracted_excerpt": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+          "extracted_text_for_analysis": "OpenAI has entered into an agreement to secure approximately 8 gigawatts-IT at the PORTS-Pike Technology Campus in Pike County, Ohio, working with SB Energy, NVIDIA, and the U.S. Department of Energy. We want to develop this project as a partner to Pike County—paying its project-specific energy and infrastructure costs, using water responsibly, creating opportunities for local workers and businesses, and making long-term investments shaped by the community. The project is expected to create 35,000 construction jobs during its six-year buildout through 2032 and 2,500 long-term operating jobs. We will also invest $40 million in a community grant fund supporting priorities identified by local residents—building on SB Energy’s previously announced $40 million commitment. Separately, we are providing $84 million in Codex credits through ChatGPT, giving every Ohio college student access to the technology. Pike County helped power America’s industrial growth in the 20th century and now, with this project, it has another opportunity to play a leading role in the next era of American industrialization. We want it to be a catalyst for jobs, business growth, and investment across Southern Ohio—and to help make this a place where young people can build careers, raise families, and choose to stay. As we become part of the community, these principles will guide our work: - The project will pay its own energy and infrastructure costs. SB Energy will pay the full cost of the grid upgrades and new transmission lines needed to serve the data center. Those costs will not be shifted to Ohio or other ratepayers in the region. This investment will also strengthen the regional electricity grid and support more reliable power over time. - The data center will recirculate water to reduce ongoing demand. The data center will use closed-loop, air-cooled cooling systems that recirculate water rather than relying on cooling towers that continuously consume water for cooling. As a result, it will use significantly less water than historically used by the Portsmouth gaseous diffusion plant. Once the data center cooling system is filled, ongoing water use is expected to be comparable to an office building supporting a similar number of people, including sinks and restrooms, equipment washdown and maintenance, and landscaping. PORTS-Pike is working with the Department of Energy to leverage their existing onsite water system. We will also fund new water infrastructure in partnership with and to the benefit of local communities. Once the site design is finalized, we will publicly report the project’s expected water use. - The investment will create tangible benefits for Pike County and Southern Ohio. The PORTS-Pike Technology Data Center is expected to create 35,000 construction jobs during its six-year buildout through 2032, along with 2,500 long-term operating jobs. OpenAI and SB Energy will work to prioritize local workers, contractors, suppliers, trades, and service providers. Building on SB Energy’s existing $40 million community agreement, OpenAI will invest an additional $40 million, and this community investment will be shaped by local residents’ priorities such as schools, public safety, health care, utilities, workforce training, housing, veterans’ services, small businesses, and support for working families. The project is expected to generate hundreds of millions of dollars in state and local tax revenue over its lifetime. Local and state property tax revenues will primarily support public schools, while other state and local tax revenues will help fund schools, roads, public safety, emergency services, health care, workforce development, and other public priorities. - We will invest in good jobs and workforce pathways for local residents. PORTS-Pike Campus signed a Memorandum of Understanding with North America’s Building Trades Unions to commit to the project being built. We plan to work with the Ohio State Building and Construction Trades Council and all of its affiliated crafts, local schools, colleges, apprenticeship programs, veterans’ organizations, labor partners, and workforce groups to help residents prepare for construction, technical, and operating roles. Working together, we will create good jobs and help build a larger base of skills, businesses, and opportunity that can attract additional employers and support careers across the region for years to come. - Ohio students will receive access to tools for the next generation of work. OpenAI will make up to $84 million in credits for Codex available to approximately 844,000 eligible Ohio college, community college, and technical school students aged 18 and older during the 2026–2027 academic year. Codex is an OpenAI tool within ChatGPT that helps people build software and complete technical projects. Eligible students will receive $100 in credits through their ChatGPT accounts, giving them hands-on experience using AI to carry out complex tasks, create projects, and build practical skills for careers across engineering, manufacturing, health care, education, entrepreneurship, and the skilled trades. Together, OpenAI’s local investment and Codex credits, along with SB Energy’s community grant, represent more than $160 million in benefits for Pike County and Ohio residents. Students can learn more at chatgpt.com/codex/ohio-college-students/(opens in a new window). - We will report publicly on our progress. Each year, we will publish a report covering local hiring, community investment, water use, and project-related energy use. We will continue to meet with residents, local officials, schools, businesses, labor organizations, and community groups to help shape an Ohio Community Compact. The Compact will reflect local priorities and turn these principles into specific, public measures as the project moves forward. There is significant work ahead, and the full data center will not be built all at once. SB Energy is developing the project across private land and remediated land controlled by the Department of Energy at the former Portsmouth Gaseous Diffusion Plant. We appreciate the Trump Administration’s leadership in helping advance the redevelopment of this federal site for American AI infrastructure. This gives a site that once supported American industry and national security a new role building infrastructure for the Intelligence Era. The first 800 megawatts are expected to become available in 2028 largely using existing AEP infrastructure. Further development will require new power plants connected to the grid, including natural gas generation, as well as new transmission lines and associated infrastructure. SB Energy has published additional information about the project at portscampus.com(opens in a new window). SB Energy will build, own, and operate the data center under a 20-year lease to OpenAI and deliver capacity over time. OpenAI will be the customer and will utilize capacity at the site, which will exclusively host",
+          "title_zh": "OpenAI 推进融资与资本投入信号",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在融资与资本投入信号。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "OpenAI joins PORTS-Pike project",
+              "source_url": "https://openai.com/index/openai-joins-ports-pike-project"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+              "source_url": "https://openai.com/index/openai-joins-ports-pike-project"
+            }
+          ],
+          "slug": "openai-joins-ports-pike-project-ad5623d5",
+          "localized_url": "/zh/items/2026-08-18/openai-joins-ports-pike-project-ad5623d5/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "New policy ideas for the Intelligence Age",
+          "title_original": "New policy ideas for the Intelligence Age",
+          "title_en": "New policy ideas for the Intelligence Age",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+          "published_at": "Mon, 17 Aug 2026 03:15:00 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "96670aeff66e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "New policy ideas for the Intelligence Age",
+          "extracted_excerpt": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+          "extracted_text_for_analysis": "OpenAI is awarding grants to 14 projects led by independent organizations to promote economic opportunity and societal resilience as AI advances. The grants follow through on a commitment we made when we published Industrial Policy for the Intelligence Age in April 2026: to support others in testing, challenging, and building on the ideas we put forward to ensure that advanced AI benefits everyone. AI is quickly becoming more capable, with the potential to transform how people learn, create, and participate in the economy. Its reach is also expanding: ChatGPT is used by 1 billion people around the world, across geographies, income levels, and demographic groups. Users span every major age group; we have more adult users both under and over the age of 30 than any other frontier lab. But broad access to the technology is only part of the equation. Whether AI ultimately serves the many rather than the few will also depend on the choices societies make about how to deploy it and distribute its benefits. If the benefits of the Intelligence Age are going to be broadly shared, the policy response needs to be as ambitious as the technological change itself—and that means calling for new approaches rather than adjustments to existing policy. These choices should not be made by technology companies alone. In democratic societies, they should be shaped through democratic institutions and public debate. Independent research and policy organizations play an especially important role: they can develop and test new approaches, challenge assumptions—including ours—and serve as laboratories for ideas that governments can adapt to their own communities and circumstances. Through these new grants, researchers and practitioners will turn high-level ideas into concrete work, examining what could work, what it might cost, and how approaches could be implemented responsibly. More than 400 people and organizations responded to our call for proposals. Applicants identified an idea and proposed projects that could meaningfully contribute to public understanding and policy development. OpenAI will provide a total of $1 million in funding and up to $1 million in API credits across the selected projects. The projects span the United States, the European Union, Brazil, Singapore, and South Korea and address two broad questions: how AI can broaden economic opportunity, and how societies can build resilience as capabilities advance. Some will produce research and policy models, while others will build prototypes, datasets, and frameworks that can be tested in practice. Summaries of the selected projects are included below. American Enterprise Institute: AEI-Urban Bipartisan Commission on Artificial Intelligence and the Future of the American Workforce. The AEI-Urban bipartisan commission will develop low-, moderate-, and high-disruption scenarios for AI’s effects on employment and skills and connect observable indicators of disruption to policy playbooks. Centre for European Policy Studies—Sharing the AI Dividend. CEPS will examine how AI-driven productivity gains are distributed across workers, firms, sectors, regions, and countries in Europe, benchmarking the EU against the United States. Building on a synthesis of existing empirical evidence, the project will develop innovative policy principles for a renewed European social investment model and adaptive safety nets to ensure that AI-driven prosperity is broadly shared. The project will deliver a policy study, visualisations, and a stakeholder validation workshop. European Centre for International Political Economy: From Labour to Productive Ownership. ECIPE will examine how broader access to AI and ownership of productive assets could help people participate economically as technology becomes more capable. The project will develop a practical framework for a “Right to AI” and compare models including employee ownership, citizen investment, pension-based ownership, social wealth funds, and intellectual-property participation. It will produce a final report, shorter insights, and a public webinar. Abundance Institute: Energy Abundance, State by State. Abundance Institute will compare how US states can expand generation and transmission in response to data center demand while producing measurable local benefits. It will develop a state policy framework, historical analysis, and a public Data Center Atlas policy layer. Progressive Policy Institute: Person-based Benefits in the Age of Information. PPI will design a person-based benefits system covering retirement, health, leave, education, training, and disability across different forms of work. It will prototype “livelihood insurance” triggered by broad changes in an occupation, then identify the legislative and technical changes required to implement the model. Tax Foundation: Tax Policy in the Age of AI. Tax Foundation will analyze how AI adoption could change the balance among labor income, corporate profits, capital gains, and other sources of public revenue. A final white paper with supporting quantitative analysis will assess taxation options against neutrality, simplicity, transparency, stability, and economic efficiency, explicitly considering innovation, adoption, competition, competitiveness, and fiscal resilience. Windfall Trust: National working groups for AI economic policy. Windfall Trust will scale a network of working groups in the United States, United Kingdom, Canada, European Union, and Latin America to examine fiscal, labor-market, welfare, and competitiveness questions under different AI scenarios. It will also launch an International Working Group focused entirely on international economic preparedness and coordination. The working groups will connect economists, policy experts, pollsters, and regional partners, and Windfall Trust will produce public syntheses of the main working groups’ takeaways. Instituto de Matemática Pura e Aplicada: Building Resilient Research in the Intelligence Age. IMPA will study what research institutions need to turn AI access into meaningful scientific progress, including engineering support, training, governance, compute, and local infrastructure. Working with mathematicians in Brazil, it will develop a transferable measurement and cost framework, practical guidance for trustworthy AI use in mathematics, and a public report evaluating the Right to AI and distributed scientific discovery. Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo: People-First AI Clinical Infrastructure for Public Hospitals. HCFMUSP will conduct a controlled, pre-deployment evaluation of an AI-enabled clinical information infrastructure prototype designed to organize clinical information in Brazil’s Unified Health System, SUS. Using only synthetic or appropriately de-identified data, the project will assess whether people-first clinical AI can reduce fragmented record review, improve clinician workflows, support evidence-based care and risk",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "New policy ideas for the Intelligence Age",
+              "source_url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+              "source_url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age"
+            }
+          ],
+          "slug": "new-policy-ideas-for-the-intelligence-age-96670aef",
+          "localized_url": "/zh/items/2026-08-18/new-policy-ideas-for-the-intelligence-age-96670aef/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
+          "title_original": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
+          "title_en": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
+          "summary_zh": "OpenAI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "OpenAI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
+          "published_at": "Sun, 16 Aug 2026 12:31:42 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bdc82987dea8",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
+              "source_url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the"
+            }
+          ],
+          "slug": "openais-head-of-design-this-is-the-best-time-in-history-to-be-a-designer-bdc82987",
+          "localized_url": "/zh/items/2026-08-18/openais-head-of-design-this-is-the-best-time-in-history-to-be-a-designer-bdc82987/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Cursor's $60B acquisition by SpaceXai closes",
+          "title_original": "[AINews] Cursor's $60B acquisition by SpaceXai closes",
+          "title_en": "[AINews] Cursor's $60B acquisition by SpaceXai closes",
+          "summary_zh": "Congrats to the team!",
+          "summary_en": "Congrats to the team!",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-cursors-60b-acquisition-by",
+          "published_at": "Fri, 14 Aug 2026 06:16:00 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "xAI"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6792ce8318bf",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "xAI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 xAI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：xAI。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Cursor's $60B acquisition by SpaceXai closes",
+              "source_url": "https://www.latent.space/p/ainews-cursors-60b-acquisition-by"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Congrats to the team!",
+              "source_url": "https://www.latent.space/p/ainews-cursors-60b-acquisition-by"
+            }
+          ],
+          "slug": "ainews-cursor-s-60b-acquisition-by-spacexai-closes-6792ce83",
+          "localized_url": "/zh/items/2026-08-18/ainews-cursor-s-60b-acquisition-by-spacexai-closes-6792ce83/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GPT-5.6 Sol is 50% off on AI Gateway for the next month",
+          "title_original": "GPT-5.6 Sol is 50% off on AI Gateway for the next month",
+          "title_en": "GPT-5.6 Sol is 50% off on AI Gateway for the next month",
+          "summary_zh": "OpenAI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT-5.6 Sol , the flagship of OpenAI's GPT-5.6 series, is 50% off on AI Gateway through September 18. The discount applies on the OpenAI provider to all token types, tiers, regions, and modes, and it is available only on requests running directly through AI",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month",
+          "published_at": "2026-08-17T00:00:00.000Z",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cb6d86598f99",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "GPT-5.6 Sol is 50% off on AI Gateway for the next month - Vercel",
+          "extracted_excerpt": "GPT-5.6 Sol is 50% off on Vercel AI Gateway from August 17 through September 18 on all requests running through AI Gateway.",
+          "extracted_text_for_analysis": "GPT-5.6 Sol, the flagship of OpenAI's GPT-5.6 series, is 50% off on AI Gateway through September 18. The discount applies on the OpenAI provider to all token types, tiers, regions, and modes, and it is available only on requests running directly through AI Gateway (not BYOK). Copy link to headingPricing: 50% off The discount applies on the same terms everywhere else the model is priced: across every service tier, including fast mode, and to cached tokens, cache writes, long-context requests, and different regions. It covers requests billed through AI Gateway on the OpenAI provider. BYOK requests run on your own provider accounts and bill at whatever rate you have with them. The model ID is unchanged, so requests you already send pick up the discounted rate with no code change: import { streamText } from 'ai'; const result = streamText({ model: 'openai/gpt-5.6-sol', prompt: 'Investigate the failing tests and open a PR with a fix.',}); Sol takes a reasoning effort up to max for the hardest problems, accepts text, image, and PDF input, and carries a long context window. To use it in a coding agent, run vercel ai-gateway coding-agents setup to connect Claude Code, Codex, OpenCode, or Pi, then select openai/gpt-5.6-sol inside the agent. The 50% discount will apply there. Copy link to headingGet started Create an API key in the AI Gateway section of your dashboard, or try the model in the browser first from its playground page.",
+          "title_zh": "OpenAI 推进开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GPT-5.6 Sol is 50% off on AI Gateway for the next month",
+              "source_url": "https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT-5.6 Sol , the flagship of OpenAI's GPT-5.6 series, is 50% off on AI Gateway through September 18. The discount applies on the OpenAI provider to all token types, tiers, regions, and modes, and it is available only",
+              "source_url": "https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month"
+            }
+          ],
+          "slug": "gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month-cb6d8659",
+          "localized_url": "/zh/items/2026-08-18/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month-cb6d8659/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Securing the Infrastructure of Intelligence",
+          "title_original": "Securing the Infrastructure of Intelligence",
+          "title_en": "Securing the Infrastructure of Intelligence",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI factories require a full stack of critical",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
+          "published_at": "Mon, 17 Aug 2026 12:34:51 +0000",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b908d7945838",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Securing the Infrastructure of Intelligence",
+          "extracted_excerpt": "Land, Power and Shell: The Next Critical Resource for AI factories.",
+          "extracted_text_for_analysis": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI factories require a full stack of critical resources: advanced chips, packaging, memory, and networking — as well as land, power and shell. Just as NVIDIA has used its scale, long-term visibility and supply-chain partnerships to secure critical semiconductor resources, we are now applying that same discipline to secure LPS capacity exclusively for NVIDIA AI factories. Today, we are partnering with SB Energy to secure LPS capacity at the exceptional PORTS-Pike Technology Campus in Portsmouth, Ohio, to host NVIDIA compute. OpenAI will be the tenant. LPS: The Next Strategic Resource For the vast majority of NVIDIA customers, securing LPS has long been a part of their infrastructure strategy. The world’s largest cloud service providers and investment-grade enterprises have balance sheets, infrastructure expertise, and long-term contracts to secure LPS independently. They build and operate AI factories using NVIDIA accelerated computing, networking, systems and software. This model will continue to represent most of NVIDIA’s business. But frontier AI labs are different. Frontier AI labs have extraordinary demand for training and inference compute, but many are growing faster than their balance sheets and long-term credit profiles can support. They may have strong customer demand and rapidly growing revenue yet still lack the decades-long infrastructure contracts and investment-grade financing capacity needed to secure the AI factory infrastructure independently. Their growth is increasingly constrained not by algorithms or customer demand, but by the availability of compute. For these companies, more compute means more intelligence, more products, more users and more revenue. NVIDIA is helping provide the infrastructure that powers this flywheel. PORTS-Pike: A Site for Generations of NVIDIA Compute OpenAI will build and operate a world-class AI factory at PORTS-Pike. The AI factory will use NVIDIA’s full-stack DSX AI factory platform, including GPUs, CPUs, networking, and infrastructure software. The initial deployment is expected to provide 4.25 gigawatts of AI factory capacity. Each generation of NVIDIA AI factory systems deployed at PORTS-Pike could represent approximately 1.5 million NVIDIA GPUs, or approximately $150 billion to $200 billion in NVIDIA revenue. Over 20 years, the site can support multiple upgrade cycles. This is the essential economic point: the LPS commitment secures a long-lived AI factory site, while the NVIDIA compute inside can be upgraded repeatedly. Each new generation can deliver greater production, more intelligence and better economics. NVIDIA may also choose to extend the arrangement at PORTS-Pike beyond the initial 4.25 gigawatts to secure the remaining capacity of 3.75 gigawatts. OpenAI and NVIDIA Expanding Compute Opportunity More broadly, OpenAI has committed to substantial deployments of NVIDIA AI infrastructure through 2030. OpenAI’s existing and planned commitments represent approximately 12 gigawatts of NVIDIA compute, with an opportunity to expand to approximately 16 gigawatts if NVIDIA extends the PORTS-Pike arrangement beyond the initial 4.25 gigawatts. At these levels, the opportunity represents roughly $600 billion of NVIDIA compute through 2030. The Important Questions What is NVIDIA guaranteeing, and for how long? NVIDIA is supporting the LPS infrastructure at PORTS-Pike for approximately 4 gigawatts over a 20-year term, securing a site on which NVIDIA compute will be exclusively deployed. Our support is limited to defined portions of lease and power payments, along with a specified residual-value commitment — not the full cost of the site or all of the tenant’s obligations. The guarantee will become effective in phases as data centers are placed in service between 2028 and 2030. As OpenAI makes lease payments and capacity comes online, NVIDIA’s remaining exposure declines. Why is NVIDIA guaranteeing PORTS-Pike? LPS has become a critical constraint on AI factory deployment. NVIDIA is selectively securing exceptional sites where we can host multiple generations of NVIDIA compute and serve durable customer demand. The productive life of the site extends through multiple generations of NVIDIA systems, each capable of producing more intelligence and more revenue than the generation before. Is this circular financing? No. OpenAI will pay the lease. NVIDIA uses its scale and long-term visibility to secure PORTS-Pike to host NVIDIA compute. This is the same discipline we apply to supply-chain management: we secure critical inputs when we have visibility into customer demand and when doing so enables long-term productive capacity. What happens to PORTS-Pike if OpenAI does not use the site in the future? NVIDIA compute is versatile, fungible and broadly adopted. The capacity can be resold to another qualified tenant across NVIDIA’s global ecosystem of cloud service providers, enterprises, AI labs and startups. CUDA makes NVIDIA compute more than hardware. It gives developers and NVIDIA engineers a common platform to continually improve installed systems. CUDA makes NVIDIA compute versatile. Versatility makes it fungible. Fungibility drives utilization and durability — making NVIDIA compute a productive asset: rentable and financeable. The value of an exceptional site, like PORTS-Pike, is not limited to one customer or one generation of compute. NVIDIA’s standardized platform, broad developer ecosystem and large market of potential users support the ability to redeploy productive capacity over time. How much LPS will NVIDIA secure? It will be strategic and disciplined. Most NVIDIA customers will continue to secure their own LPS. The vast majority of LPS hosting NVIDIA compute will continue to be secured directly by CSPs, enterprises, sovereign AI builders and other customers. NVIDIA will focus selectively on exceptional sites where visible, durable demand can support multiple generations of NVIDIA compute. The Infrastructure of Intelligence PORTS-Pike represents the next step in NVIDIA’s journey. We began by building accelerated computing chips. We then expanded to systems, networking, CUDA and full-stack AI factories. Today, we are helping secure the critical infrastructure required to build these factories. NVIDIA is the full-stack AI infrastructure platform. We are investing in the long-lived foundations of AI factories so our customers can deploy the most productive compute platform in the world, generation after generation. By securing the critical resources needed to host NVIDIA compute, we can help the world’s most innovative companies build the AI factories that will power the age of intelligence.",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Securing the Infrastructure of Intelligence",
+              "source_url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI",
+              "source_url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/"
+            }
+          ],
+          "slug": "securing-the-infrastructure-of-intelligence-b10672c7",
+          "localized_url": "/zh/items/2026-08-18/securing-the-infrastructure-of-intelligence-b10672c7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
+          "title_original": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
+          "title_en": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Indonesia is taking charge of its AI future. This week, the Ministry of Communication and Digital Affairs (Komdigi), Indosat Ooredoo Hutchison (Indosat or IOH), NVIDIA and Universitas Gadjah Mada (UGM) launched the UGM Indosat NVIDIA AI Technology Center",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
+          "published_at": "Fri, 14 Aug 2026 17:13:05 +0000",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "46bec49404ca",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
+          "extracted_excerpt": "Komdigi, Universitas Gadjah Mada, Indosat and NVIDIA launch the UGM Indosat NVIDIA AI Technology Center, bringing world-class AI infrastructure to Indonesia’s researchers and students and developers.",
+          "extracted_text_for_analysis": "Indonesia is taking charge of its AI future. This week, the Ministry of Communication and Digital Affairs (Komdigi), Indosat Ooredoo Hutchison (Indosat or IOH), NVIDIA and Universitas Gadjah Mada (UGM) launched the UGM Indosat NVIDIA AI Technology Center (NVAITC) in Yogyakarta — the country’s first university-based AI technology center. Established under Indonesia’s AI Center of Excellence initiative, UGM Indosat NVAITC brings government, industry and academia together to develop AI that addresses Indonesia’s most urgent national priorities. “The Indonesia AI Center of Excellence reflects our long-term vision to position Indonesia as a nation that not only adopts AI but also develops and contributes AI innovations to the world,” said Meutya Hafid, Indonesia’s Minister of Communication and Digital Affairs. “Through initiatives like this, we are laying the foundations of Indonesia’s AI sovereignty and ensuring AI becomes a driver of economic growth, national competitiveness and solutions to Indonesia’s most pressing challenges.” “UGM is committed to supporting Indonesia’s AI ambitions through education, research, and innovation that deliver real societal impact,” said Prof. dr. Ova Emilia, Ph.D. “This initiative supports national priorities in higher education, research downstreaming and talent development by accelerating the adoption of AI and preparing future-ready Indonesian talent.” Compute That Belongs to the Country Powered by NVIDIA’s full-stack AI platform and GPU Merdeka — Indosat’s sovereign GPU-as-a-service platform — UGM Indosat NVAITC gives UGM’s researchers and students access to enterprise-grade accelerated computing, AI software, open source, pretrained models, development frameworks and technical mentorship. It also connects Indonesian researchers to a worldwide ecosystem of expertise. “At Indosat, we believe no Indonesian should be left behind in the AI era,” said Vikram Sinha, president director and CEO of Indosat Ooredoo Hutchison. “Through UGM Indosat NVAITC, we are bringing the best of global AI technologies and expertise to Indonesia, while expanding access for the ecosystem of researchers, students, startups, and innovators across the country. By strengthening AI readiness and empowering Indonesian talent, we aim to support the government’s vision for AI and help position Indonesia not only as a user of AI technologies, but as a nation that develops and contributes AI innovations to the world.” The opportunity is real. Indonesia is the world’s fourth-most populous country, with researchers and developers working on problems of scale and urgency. What they’ve historically lacked is access to the compute, models and infrastructure to move from insight to impact. “Indonesia is home to an extraordinary community of researchers, developers and innovators with the potential to shape the future of AI,” said Marc Hamilton, vice president of solutions architecture and engineering at NVIDIA. “From healthcare and agriculture to disaster preparedness, the opportunities for AI to drive real change are immense. Through UGM Indosat NVIDIA AI Technology Center, NVIDIA is committed to equipping Indonesian talent with NVIDIA Nemotron open models and expertise to turn that potential into innovation with local and global impact.” AI for Indonesian Challenges Three initial projects define what this center is for, focused on healthcare, agriculture and natural disaster response. Indonesia records over 1 million new tuberculosis (TB) cases every year. TB is curable — but it kills when it goes undetected. Detection in rural and underserved areas has depended on equipment and expertise unavailable at the community level. UGM’s Faculty of Medicine Public Health and Nursing team, led by dr. Dian Kesumapramudya Nurputra, M.Sc, Ph.D, SpA , is developing an AI-powered electronic screening technology — eNose-TB — that screens for TB by analyzing breath samples. The goal: affordable, fast, accessible screening that reaches patients in remote clinics and villages — no specialist or expensive lab required. “As researchers, we have always believed that technology developed in Indonesia can solve Indonesian challenges,” said Dian. “Through the center, access to world-class AI infrastructure and expertise will help us accelerate our research and bring us closer to our dream of developing affordable and accessible healthcare technologies that can improve lives across Indonesia.” Agriculture employs nearly 30% of Indonesia’s workforce. SmartAgri uses multimodal AI — combining satellite imagery, sensor data and local agricultural knowledge — alongside edge computing to deliver precision farming for Indonesian terrain, crops and smallholders. These AI-powered recommendations help farmers know exactly when and how to irrigate, delivering impact that compounds over time. Indonesia sits on the Pacific Ring of Fire, facing more natural disaster risk than almost anywhere on earth. Tech4Disaster is building a geospatial AI platform using NVIDIA accelerated computing to process satellite and sensor data at speed — giving communities and emergency responders earlier warning, better situational awareness and faster coordination tools when disaster strikes. Learn more about the UGM Indosat NVIDIA AI Technology Center.",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
+              "source_url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Indonesia is taking charge of its AI future. This week, the Ministry of Communication and Digital Affairs (Komdigi), Indosat Ooredoo Hutchison (Indosat or IOH), NVIDIA and Universitas Gadjah Mada (UGM) launched the UGM",
+              "source_url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/"
+            }
+          ],
+          "slug": "universitas-gadjah-mada-indosat-and-nvidia-open-indonesias-first-univers-fd1ced38",
+          "localized_url": "/zh/items/2026-08-18/universitas-gadjah-mada-indosat-and-nvidia-open-indonesias-first-univers-fd1ced38/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+          "title_original": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+          "title_en": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+          "published_at": "Mon, 17 Aug 2026 19:46:21 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b597a3d03ee7",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+              "source_url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2"
+            }
+          ],
+          "slug": "same-cluster-33-points-more-utilization-what-changed-was-the-order-b597a3d0",
+          "localized_url": "/zh/items/2026-08-18/same-cluster-33-points-more-utilization-what-changed-was-the-order-b597a3d0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "State of Open Models: Summer 2026 Observations",
+          "title_original": "State of Open Models: Summer 2026 Observations",
+          "title_en": "State of Open Models: Summer 2026 Observations",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "published_at": "Fri, 14 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d556a48bace2",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "State of Open Models: Summer 2026 Observations",
+              "source_url": "https://huggingface.co/blog/state-of-open-models-summer-2026"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/state-of-open-models-summer-2026"
+            }
+          ],
+          "slug": "state-of-open-models-summer-2026-observations-d556a48b",
+          "localized_url": "/zh/items/2026-08-18/state-of-open-models-summer-2026-observations-d556a48b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
+          "title_original": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
+          "title_en": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
+          "summary_zh": "Community Wisdom 197",
+          "summary_en": "Community Wisdom 197",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from",
+          "published_at": "Sat, 15 Aug 2026 17:01:13 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bac4b81a6006",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Community Wisdom 197",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from"
+            }
+          ],
+          "slug": "community-wisdom-recovering-from-burnout-what-airtables-sale-says-about-bac4b81a",
+          "localized_url": "/zh/items/2026-08-18/community-wisdom-recovering-from-burnout-what-airtables-sale-says-about-bac4b81a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+          "title_original": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+          "title_en": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+          "summary_zh": "Meta 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/flue-2",
+          "published_at": "Sat, 15 Aug 2026 15:46:22 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "73924d397f2f",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Meta 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Meta，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+              "source_url": "https://www.latent.space/p/flue-2"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
+              "source_url": "https://www.latent.space/p/flue-2"
+            }
+          ],
+          "slug": "react-for-agents-astro-creator-brings-hooks-to-his-meta-harness-flue-73924d39",
+          "localized_url": "/zh/items/2026-08-18/react-for-agents-astro-creator-brings-hooks-to-his-meta-harness-flue-73924d39/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
+          "title_original": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
+          "title_en": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
+          "published_at": "Mon, 17 Aug 2026 15:03:16 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bd6d7d259949",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used"
+            }
+          ],
+          "slug": "how-i-ai-how-a-solo-founder-used-codex-and-chatgpt-to-launch-a-fashion-b-bd6d7d25",
+          "localized_url": "/zh/items/2026-08-18/how-i-ai-how-a-solo-founder-used-codex-and-chatgpt-to-launch-a-fashion-b-bd6d7d25/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
+          "title_original": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
+          "title_en": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
+          "published_at": "Mon, 17 Aug 2026 12:04:02 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "10392cc33771",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
+              "source_url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and"
+            }
+          ],
+          "slug": "how-a-solo-founder-used-codex-and-chatgpt-to-launch-a-fashion-brand-with-10392cc3",
+          "localized_url": "/zh/items/2026-08-18/how-a-solo-founder-used-codex-and-chatgpt-to-launch-a-fashion-brand-with-10392cc3/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🎙️ How I AI: Build an AI code review bot in 30 minutes + Claude Code for normal people",
+          "title_original": "🎙️ How I AI: Build an AI code review bot in 30 minutes + Claude Code for normal people",
+          "title_en": "🎙️ How I AI: Build an AI code review bot in 30 minutes + Claude Code for normal people",
+          "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review",
+          "published_at": "Mon, 10 Aug 2026 15:01:49 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a1eed7fc45f6",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🎙️ How I AI: Build an AI code review bot in 30 minutes + Claude Code for normal people",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review"
+            }
+          ],
+          "slug": "how-i-ai-build-an-ai-code-review-bot-in-30-minutes-claude-code-for-norma-a1eed7fc",
+          "localized_url": "/zh/items/2026-08-18/how-i-ai-build-an-ai-code-review-bot-in-30-minutes-claude-code-for-norma-a1eed7fc/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
+          "title_original": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
+          "title_en": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
+          "summary_zh": "Claude 的新访谈把焦点放在实时语音交互模型能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
+          "published_at": "Mon, 10 Aug 2026 12:01:44 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ef8557c1177c",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 讨论实时语音交互模型能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
+              "source_url": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills"
+            }
+          ],
+          "slug": "claude-code-for-normal-people-skills-voice-mode-and-how-to-collaborate-w-ef8557c1",
+          "localized_url": "/zh/items/2026-08-18/claude-code-for-normal-people-skills-voice-mode-and-how-to-collaborate-w-ef8557c1/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+          "title_original": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+          "title_en": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+          "summary_zh": "Down, but not out!",
+          "summary_en": "Down, but not out!",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+          "published_at": "Fri, 14 Aug 2026 05:30:39 GMT",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "086ace1c21ab",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Gemini 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+              "source_url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Down, but not out!",
+              "source_url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm"
+            }
+          ],
+          "slug": "ainews-gemini-3-7-flash-brings-gdm-back-to-the-forefront-086ace1c",
+          "localized_url": "/zh/items/2026-08-18/ainews-gemini-3-7-flash-brings-gdm-back-to-the-forefront-086ace1c/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Gemini 3.7 Flash now available on AI Gateway for 50% off",
+          "title_original": "Gemini 3.7 Flash now available on AI Gateway for 50% off",
+          "title_en": "Gemini 3.7 Flash now available on AI Gateway for 50% off",
+          "summary_zh": "Gemini 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Gemini 3.7 Flash from Google is now available on AI Gateway for 50% off till December 31st, 2026. Gemini 3.7 Flash improves on prior Flash models at software engineering and agentic work. It resolves issues more reliably and spends less time stuck in failed",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/gemini-3-7-flash-now-available-on-ai-gateway-for-50-off",
+          "published_at": "2026-08-13T00:00:00.000Z",
+          "fetched_at": "2026-08-17T22:43:58.894849+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1d4dd3ef1389",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Gemini 发布AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Gemini 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Gemini 3.7 Flash now available on AI Gateway for 50% off",
+              "source_url": "https://vercel.com/changelog/gemini-3-7-flash-now-available-on-ai-gateway-for-50-off"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Gemini 3.7 Flash from Google is now available on AI Gateway for 50% off till December 31st, 2026. Gemini 3.7 Flash improves on prior Flash models at software engineering and agentic work. It resolves issues more",
+              "source_url": "https://vercel.com/changelog/gemini-3-7-flash-now-available-on-ai-gateway-for-50-off"
+            }
+          ],
+          "slug": "gemini-3-7-flash-now-available-on-ai-gateway-for-50-off-1d4dd3ef",
+          "localized_url": "/zh/items/2026-08-18/gemini-3-7-flash-now-available-on-ai-gateway-for-50-off-1d4dd3ef/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-14",
       "title_zh": "AI 新闻简报 · 2026-08-14",
