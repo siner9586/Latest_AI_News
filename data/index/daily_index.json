@@ -1,7 +1,1207 @@
 {
-  "updated_at": "2026-08-17T22:44:02.915774+00:00",
-  "count": 65,
+  "updated_at": "2026-08-19T22:44:45.414686+00:00",
+  "count": 66,
   "briefs": [
+    {
+      "date": "2026-08-20",
+      "title_zh": "AI 新闻简报 · 2026-08-20",
+      "title_en": "English AI News Brief · 2026-08-20",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 120 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 120 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 120,
+      "selected_count": 18,
+      "categories": [
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "Offering Zero Data Retention for frontier models",
+          "title_original": "Offering Zero Data Retention for frontier models",
+          "title_en": "Offering Zero Data Retention for frontier models",
+          "summary_zh": "OpenAI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+          "published_at": "Wed, 19 Aug 2026 19:00:00 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ef913e9fdabc",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Offering Zero Data Retention for frontier models",
+          "extracted_excerpt": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+          "extracted_text_for_analysis": "Zero Data Retention gives eligible API customers a clear promise: OpenAI does not retain their prompts or model responses after a request is processed. Customer content is not available to OpenAI personnel for review, and enterprise customer data is not used to train our models unless customers explicitly opt-in. As models take on longer, more complex tasks, some serious risks may only become visible across multiple interactions. Existing ZDR-compatible safety systems evaluate each interaction individually. Today, we’re previewing Private Safety Processing, which is designed to identify patterns across related interactions without giving OpenAI personnel access to the underlying content. For ZDR deployments, customer content remains on infrastructure the customer controls. We are also developing an option in which content is stored on OpenAI infrastructure, encrypted with keys controlled by the customer. In both cases, automated systems can identify potential misuse and return limited safety signals without exposing the underlying prompts or responses to OpenAI personnel. The most serious AI safety risks are not always visible in a single interaction. Often, potentially harmful intentions become clear only when multiple interactions are viewed together. Similar risks can arise when bad actors repeatedly probe safeguards, coordinate across accounts, or disguise threats as routine research. Risks can also develop over the course of an agentic task—for example, if a system becomes misaligned with the user’s intent by continuing to act after being told to stop. As AI systems take on longer and more complex tasks, this broader context becomes increasingly important for distinguishing legitimate activity from misuse and ensuring that AI agents remain within the bounds of their intended authority. Some recent frontier-model deployments have required customers to allow their AI provider to retain sensitive content for safety monitoring. For many organizations, such requirements conflict with their security obligations or commitments to the people they serve. Private Safety Processing is designed so we can continue to offer ZDR. Private Safety Processing builds on the automated protections already used in ZDR and other deployments. Existing ZDR-compatible safety systems evaluate interactions individually. Private Safety Processing extends those protections across related interactions, allowing automated systems to identify patterns without OpenAI personnel having access to retained customer content. Private Safety Processing utilizes customer content regardless of where it is stored—whether in infrastructure customers control (ZDR deployments) or in storage provided by OpenAI. With OpenAI-provided storage, customer content is encrypted using keys controlled by the customer. OpenAI personnel do not have a copy of those keys, so they cannot access the underlying content. When a risk is identified, OpenAI receives a narrowly defined signal indicating the type of activity involved, similar to our existing safety systems today. That signal can be used to determine whether enforcement is necessary. OpenAI personnel do not receive access to the customer content even when it is flagged. Customers can investigate alerts and enforcement decisions using information available in their own systems. If they want to appeal, clarify legitimate activity, or support an investigation into verified abuse, they can choose to share relevant information with OpenAI. Private Safety Processing is currently being tested with early customers. We are sharing this preview now because we’ve heard our customers loud and clear that they need predictability about how their content will be protected as AI systems become more capable. Our mission is to ensure that artificial general intelligence benefits all of humanity. Collaboration with customers and partners is essential to how we build effective safeguards. As our principles make clear, no AI lab can address emerging risks alone. Private Safety Processing reflects that approach and is being shaped by customers across industries, regions, and company sizes. The organizations we work with handle some of the most sensitive information in their sectors, including financial records, health data, confidential business plans, and proprietary research. Protecting that information is essential to meeting regulatory obligations, maintaining customer trust, and preserving their competitive advantage. Their feedback is helping us build stronger safeguards while keeping their information under their control. “Enterprise AI adoption depends solely on customer control of data, with no direct or derivative use beyond the chosen service. OpenAI’s no-training commitment and ZDR give Glean confidence to build with OpenAI. As models become more capable, OpenAI shows safety can advance without compromising the privacy and control that sustain enterprise trust.” We will continue working with customers on the technical and operational details of our approach. We plan to start rolling out Private Safety Processing, and share a technical white paper, in September. We’ll keep customers informed every step of the way, sharing updates early, explaining what they mean for existing commitments, and providing the time and support customers need to plan ahead.",
+          "title_zh": "OpenAI 推进开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Offering Zero Data Retention for frontier models",
+              "source_url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+              "source_url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+            }
+          ],
+          "slug": "offering-zero-data-retention-for-frontier-models-ef913e9f",
+          "localized_url": "/zh/items/2026-08-20/offering-zero-data-retention-for-frontier-models-ef913e9f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Replit expands access to software creation with GPT-5.6 Luna",
+          "title_original": "Replit expands access to software creation with GPT-5.6 Luna",
+          "title_en": "Replit expands access to software creation with GPT-5.6 Luna",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/replit",
+          "published_at": "Wed, 19 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Replit"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9ac0643f2427",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Replit expands access to software creation with GPT-5.6 Luna",
+          "extracted_excerpt": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+          "extracted_text_for_analysis": "Replit expands access to software creation with GPT‑5.6 Luna Replit is introducing Free Mode, powered by GPT‑5.6 Luna, so anyone can turn ideas into working software without worrying about token costs. As models become more capable, their economics are changing just as quickly. Better price performance makes advanced intelligence practical across more products, more workflows, and more moments. For software creation, that shift is narrowing the distance between having an idea and building something that works. Replit(opens in a new window) and OpenAI have long shared a goal: making software creation accessible to anyone with an idea, regardless of technical background. Replit was an early user of GPT‑3, building with OpenAI models as natural-language software development began to take shape. Now, GPT‑5.6 Luna is powering Replit Free Mode, showing how the price performance of the GPT‑5.6 series and recent OpenAI price cuts can translate into broader access at scale. “For the first time, you'll get access to an amazing experience where you can build applications, build agents, build all sorts of software in Free Mode. And that's powered by GPT-5.6 Luna.” For Replit, model cost was one of the final barriers to making software creation widely accessible. GPT‑5.6 Luna combines the capability, price performance, and reliable inference at scale needed to make Free Mode available to millions of users. “Thanks to OpenAI and the price cuts that you made recently, you made it possible for us to offer it to millions of users in Free Mode.” With Replit Free Mode, users can get fast, accurate answers, suggestions, feedback, and analysis in seconds without consuming usage. Because Agent understands the full context of a user's projects, it can help them plan, ideate, shape, optimize, and explore ideas before they move into Build Mode. That continuity matters. Instead of treating exploration as separate from creation, Replit lets anyone develop an idea in the same environment where it can become working software. When a task requires more advanced reasoning, Replit can route it to GPT‑5.6 Sol, then return to Free Mode powered by GPT‑5.6 Luna while preserving project context. For OpenAI and Replit, Free Mode is an example of what better model economics can unlock. As intelligence becomes more capable and affordable, software creation can extend beyond a small group of specialists to anyone with an idea and an internet connection. “If we can get to a world where anyone with access to the internet can build a product, build a startup, and just kind of get started and get going, I think we're going to see another renaissance-level entrepreneurial boom like we've never seen before.” That opportunity expands who can use software to solve a problem, improve a community, or make an idea real. Masad calls software \"such an empowering tool\" and says that increasing the number of people able to build by 100x would open that opportunity far more widely. By pairing GPT‑5.6 Luna with an experience built around project context, Replit is turning improved model price performance into wider access. It is a step toward the shared vision behind the partnership: anyone with an idea should be able to build.",
+          "title_zh": "OpenAI 更新模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI、Replit。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Replit expands access to software creation with GPT-5.6 Luna",
+              "source_url": "https://openai.com/index/replit"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+              "source_url": "https://openai.com/index/replit"
+            }
+          ],
+          "slug": "replit-expands-access-to-software-creation-with-gpt-5-6-luna-9ac0643f",
+          "localized_url": "/zh/items/2026-08-20/replit-expands-access-to-software-creation-with-gpt-5-6-luna-9ac0643f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "ChatGPT Ads expands across Europe",
+          "title_original": "ChatGPT Ads expands across Europe",
+          "title_en": "ChatGPT Ads expands across Europe",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+          "published_at": "Tue, 18 Aug 2026 22:00:00 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e4563871866d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "ChatGPT Ads expands across Europe",
+          "extracted_excerpt": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+          "extracted_text_for_analysis": "Next week, ChatGPT Ads will expand to 31 European countries, including Germany, France, Spain, Italy, Sweden, Norway, Denmark, the Netherlands, and Austria. Advertisers will initially be able to access ChatGPT Ads through the OpenAI Ads Solutions team, agency partners, and technology partners. Self-service access through Ads Manager will follow later this summer. Ads help advance our mission to democratize access to the best AI by supporting free and low-cost access to ChatGPT. As in our existing markets, ads will be shown only to users on the Free and Go plans. Plus, Pro, and Enterprise subscriptions will remain ad-free. This expansion gives marketers across Europe a new way to reach people while they are actively exploring, comparing, and making decisions. People come to ChatGPT with goals. They might be planning a trip, choosing software for their business, furnishing a home, learning to understand a new concept or how to start a new hobby. Instead of entering a few keywords, people can explain what they want to accomplish, what matters to them, and the constraints they face. ChatGPT Ads give marketers an opportunity to reach people across the customer journey as they explore and evaluate their options—and to be useful in the moments that spur discovery, shape decisions, and lead to purchase. Protecting the trust people place in ChatGPT is foundational to our approach to advertising. Guided by OpenAI’s ads principles, we keep conversations private from advertisers and never sell customer data. Ads in ChatGPT are always clearly labeled and separate from ChatGPT’s answers, and advertising does not influence the answers ChatGPT provides. People also have control over ad personalization, with ad-free paid plans available for those who prefer not to see ads. Our goal is straightforward: ads should be useful to people as they pursue their goals and make decisions—and effective for the businesses that advertise with us. In February, we began testing ads in ChatGPT with a pilot in the United States. Over the past six months, we have expanded to eight additional markets. The addition of 31 European markets marks our largest expansion to date. At the same time, we have continued building the ChatGPT Ads platform from the ground up: - We expanded beyond CPM and CPC bidding to support conversion optimization, helping advertisers optimize toward their business goals. - We introduced geo-targeting and custom audiences to help advertisers reach more relevant customers. - We expanded measurement beyond clicks through the OpenAI Pixel, Conversions API, and third-party measurement integrations, giving advertisers a more complete view of how ChatGPT Ads contribute to business outcomes. Tens of thousands of marketers have now advertised on ChatGPT, and we continue to improve the platform based on what we learn from people and businesses. We’ve made significant progress in six months, but we are still early in building the full potential of ChatGPT Ads. As we expand into new markets, and develop new formats, optimization tools, and measurement solutions, we’ll remain focused on broadening access to powerful AI, protecting the trust people place in ChatGPT, and helping businesses achieve their goals.",
+          "title_zh": "OpenAI 更新模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "ChatGPT Ads expands across Europe",
+              "source_url": "https://openai.com/index/chatgpt-ads-expands-across-europe"
+            },
+            {
+              "label": "公开摘要",
+              "text": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+              "source_url": "https://openai.com/index/chatgpt-ads-expands-across-europe"
+            }
+          ],
+          "slug": "chatgpt-ads-expands-across-europe-e4563871",
+          "localized_url": "/zh/items/2026-08-20/chatgpt-ads-expands-across-europe-e4563871/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Strengthening democratic oversight in national security",
+          "title_original": "Strengthening democratic oversight in national security",
+          "title_en": "Strengthening democratic oversight in national security",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+          "published_at": "Tue, 18 Aug 2026 19:00:00 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "67f37d861d34",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Strengthening democratic oversight in national security",
+          "extracted_excerpt": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+          "extracted_text_for_analysis": "Strengthening democratic oversight in national security OpenAI is launching a new initiative to help democratic oversight bodies develop the expertise and tools they need to understand and oversee government use of AI for national security. AI is changing how democratic governments protect their people. It can help stop cyberattacks, secure critical infrastructure, detect threats earlier, and give public servants a clearer picture in a crisis. Used well, these tools can strengthen national security. Democratic oversight helps ensure that uses of public power remain accountable to the people they serve. As AI makes national security work faster and more capable, the institutions responsible for overseeing that work also need to keep pace. AI can act on missing or outdated context, misconfigured objectives, or misaligned assumptions at speed and scale, making mistakes harder to detect manually before they spread. Oversight is especially important in AI use for national security because decisions may necessarily involve secrecy and can have high-stakes consequences. Guided by our National Security Principles, we approach national security deployments with safeguards, meaningful human judgment, and appropriate oversight, especially in high-stakes settings. Those principles also make it a priority to help the institutions charged with oversight build the capacity to oversee AI use at speed and scale. Government institutions already have established authorities and responsibilities for overseeing national security activities. When AI contributes to those activities, oversight may need to evolve. Traditional oversight is labor intensive and becomes nearly impossible when small teams using paper-era methods are asked to review systems operating at machine speed. OpenAI believes more capable systems require stronger oversight, and we apply that principle to ourselves. Under our Preparedness Framework, advanced models undergo rigorous review before deployment to understand their capabilities and determine whether safeguards are sufficient. That scrutiny continues after deployment through ongoing monitoring and incident review, with what we learn informing stronger safeguards and future model development. OpenAI does not perform an oversight role over the government, nor should it. That responsibility rests with elected officials and the public institutions established for the purpose. Rather, we can support oversight institutions with our technology as they carry out their existing mandates. Three principles will guide this work. First, AI should strengthen, not replace, human and institutional judgment. Decisions about whether government conduct is lawful, appropriate, and consistent with applicable rules and policies belong to authorized agencies and legally constituted oversight bodies. Second, government use of AI should be traceable and legible to authorized oversight. Reviewers should be able to understand how AI contributed to a decision while protecting classified, private, and security-sensitive information. Third, AI should be used to empower democratic oversight institutions. Manual oversight of AI use in government cannot scale. As AI is adopted in national security and other high stakes government work, it should also be used by oversight bodies in a responsible and legible manner in accordance with mandates. Over the next year, we plan to advance this initiative in the following ways: - We will work with authorized officials to identify practical opportunities where AI tools or technical support can make oversight more effective. - We will provide $5 million in training, technical support, and OpenAI credits to democratic government oversight bodies to support responsible adoption and evaluation of AI tools. - We will work with oversight institutions to pilot tools that help authorized reviewers examine the records surrounding AI-assisted government decisions including relevant inputs, outputs, and tool use, to better understand how AI affected outcomes. Tools will be interoperable or model-agnostic where feasible. Participating institutions, and not OpenAI, will retain control of the evidence, outputs, and findings, which will remain available only to authorized government officials. - We will engage civil society and technical experts so their perspectives inform how OpenAI develops these tools and approaches the responsibilities that come with them. AI can concentrate power, or it can help democratic institutions exercise and check power more effectively. Technology alone will not decide which future we get, but the choices human institutions and companies make now will. We will judge this initiative’s progress by whether authorized reviewers are better able to fulfill their obligations and the public has stronger reasons to trust that government AI systems are being used as intended. As government use of AI evolves, OpenAI will continue supporting the institutions responsible for its oversight.",
+          "title_zh": "OpenAI 推进政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Strengthening democratic oversight in national security",
+              "source_url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+              "source_url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
+            }
+          ],
+          "slug": "strengthening-democratic-oversight-in-national-security-67f37d86",
+          "localized_url": "/zh/items/2026-08-20/strengthening-democratic-oversight-in-national-security-67f37d86/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Partnering with CodeAI to prepare the first AI generation",
+          "title_original": "Partnering with CodeAI to prepare the first AI generation",
+          "title_en": "Partnering with CodeAI to prepare the first AI generation",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/partnering-with-codeai",
+          "published_at": "Tue, 18 Aug 2026 11:00:00 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9765648ad527",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Partnering with CodeAI to prepare the first AI generation",
+          "extracted_excerpt": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+          "extracted_text_for_analysis": "Today’s students will be the first generation to grow up with AI as part of everyday life. For parents and educators, the question isn’t simply whether young people will use AI, but whether they will learn to critically evaluate its outputs, understand its limitations, and use it responsibly. Right now, there’s a gap between use and understanding. The vast majority of students today are already using AI, while only 16% of high school leaders say(opens in a new window) all of their students are learning the technical knowledge to understand it in the classroom. Students see this gap too: in a survey(opens in a new window) by CodeAI, 75% of high school students say understanding AI will be more important for their futures than it is now. Young people need to understand how AI works, think critically about its outputs, and develop the skills to shape its future with access to tools that prioritize their safety and development. That’s why OpenAI and CodeAI are announcing a signature partnership to give students and educators access to tools and resources that will help them learn how to use and benefit from AI. This partnership coincides with the launch of ChatGPT for Teens, a dedicated experience designed with learning at the center to help teens think critically, deepen understanding, and use AI with confidence. It includes built-in protections for teens, including features to promote healthy use and additional controls for parents. It also builds on our ChatGPT for Teachers(opens in a new window) work to empower teachers and districts to guide AI use and our ongoing work with the American Federation of Teachers to build AI skills. Alongside the ChatGPT for Teens launch, our partnership with CodeAI focuses on the education that surrounds the technology: helping teens understand how AI works, direct it, question it, and create with it—with teachers playing a meaningful role in shaping how AI enters the classroom. “Parents and educators want young people to be ready for a future shaped by AI—and they are right to expect that to come with care,” said Dr. Allison Mishkin, Head of Child Development, OpenAI. “Our goal is not simply to help more students use AI, but to help them ask better questions, think critically about the answers they receive, and use these tools responsibly. We look forward to working alongside CodeAI, parents, and educators to learn, improve, and help young people build those skills.” “Every student should know how AI actually works and be able to question the technology, catch its mistakes, and know when to stop trusting it,” said Karim Meghji, CEO of CodeAI. “Give them that foundation, and AI becomes less a force shaping their future and instead something they can question, shape, and create on their own.” Over the next year, OpenAI and CodeAI will focus on practical programs that help students understand AI, use it with care, and explore how it can support learning and creativity. - Creating a continuous feedback loop for responsible AI innovation. OpenAI and CodeAI will establish a joint advisory council that will bring together experts and leaders on child development, youth public policy, and learning science. The council will provide ongoing guidance on emerging risks, responsible AI practices, and evolving educational needs, helping to shape the future development of ChatGPT for Teens. - Helping students build foundational AI literacy. Through the Hour of AI(opens in a new window), OpenAI and CodeAI will introduce millions of students to the basics of using AI thoughtfully and responsibly. - Inspiring the next generation of builders. Through the first-ever Builders Challenge, high school students will have the opportunity to create with AI, receive mentorship from OpenAI team members, and showcase their work on a national stage alongside the teachers who support them. - Supporting classroom learning. OpenAI’s experts in AI systems, safety, and responsible use will be a resource that CodeAI can consult as they further develop AI Foundations(opens in a new window), CodeAI’s free, year-long high school course. - Making careers with AI more accessible. Through Career Journeys, students will hear directly from OpenAI researchers, engineers, and leaders about how they work with AI to shape it, helping them see themselves as future builders, creators, and innovators. Preparing young people for a world shaped by AI is a shared responsibility. Technology companies cannot do it alone. Parents, educators, students, researchers, policymakers, and civil-society organizations all have an important role to play. Through this partnership, OpenAI and CodeAI will help more young people approach AI with curiosity and confidence—but also with judgment. We want students to learn how to create with these tools without accepting every answer at face value, and to understand that AI should support—not replace—the guidance of teachers, families, and other trusted people in their lives. That is how we can help the next generation become not only capable users of AI, but thoughtful participants in shaping its future.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Partnering with CodeAI to prepare the first AI generation",
+              "source_url": "https://openai.com/index/partnering-with-codeai"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+              "source_url": "https://openai.com/index/partnering-with-codeai"
+            }
+          ],
+          "slug": "partnering-with-codeai-to-prepare-the-first-ai-generation-9765648a",
+          "localized_url": "/zh/items/2026-08-20/partnering-with-codeai-to-prepare-the-first-ai-generation-9765648a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Pacing model development in an era of cyber-critical capabilities",
+          "title_original": "Pacing model development in an era of cyber-critical capabilities",
+          "title_en": "Pacing model development in an era of cyber-critical capabilities",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+          "published_at": "Tue, 18 Aug 2026 11:00:00 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "68c52c81310f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Pacing model development in an era of cyber-critical capabilities",
+          "extracted_excerpt": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+          "extracted_text_for_analysis": "Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: the OpenAI-Hugging Face incident and, separately, preliminary evidence that one of our upcoming models, Astra, may meet the Critical cybersecurity capability threshold under our Preparedness Framework. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containment safeguards across all stages of the training process. As models become more capable, the risks associated with developing and testing them internally also grow. Our standards for monitoring, alignment, and security must stay ahead of those risks. We wanted to take the time necessary to meet those standards, so we temporarily slowed the pace of scaling. This included a two-week pause in reinforcement learning (RL) training on our latest models intended for deployment while we further hardened and red-teamed our research environments and expanded the coverage of our monitoring systems. Our largest planned frontier RL run remains on hold while we conduct smaller-scale training and evaluations to assess model behavior, validate our safeguards, and establish more evidence of alignment before proceeding. Alignment—the work of making AI systems behave as intended and responsive to human oversight—has long been at the core of our research program. We now require stronger evidence of aligned behavior throughout all of training, building on research and evaluations already underway. Keeping increasingly capable systems aligned is a challenge the whole field will need to address. The signals we are seeing from upcoming model progress make clear that we need a broader approach—one that builds on and extends beyond the current Preparedness Framework. We think it is important to be transparent about how our approach is changing. Below, we describe the changes we have already made to our research processes and infrastructure, and the work still underway. Our approach to developing more capable models rests on three reinforcing safeguards: - Monitoring, which detects and allows us to respond to concerning behavior. - Alignment, which reduces the likelihood of harmful or unauthorized actions. - Security measures, which limit what AI systems can access or affect. We expect models to soon drive most security work, including defending against other models. This will allow all three safeguards to scale with model capability, which we see as crucial. We apply these safeguards across research and deployment, adapting them to each model’s capabilities, operating environment, and level of risk. As frontier models gain stronger cybersecurity capabilities, we are raising the security standards for the environments in which we train and evaluate them. Meeting these standards has required substantial engineering work and has incurred great cost and delays to frontier research. Immediately following the OpenAI-Hugging Face incident*, we paused frontier model inference in research clusters for runs that could execute code or use tools that could access the internet. We restored a more limited and secure path for code execution fairly quickly, then worked through each workload individually to determine whether it could safely resume. Some research workloads resumed under these new controls, while others required additional changes. Over the subsequent weeks, we have defined and started implementing stronger security requirements for frontier research workloads. For example: - Workload isolation: We now require stronger isolation (“sandboxes”) for workloads that execute model-generated or otherwise untrusted code. This also applies to software that could be compromised while processing model outputs. - Network isolation: We have implemented more controls to isolate higher-risk and untrusted workloads from the internet. We have designed these controls so that a single compromise of a workload or supporting service does not, by itself, allow for unauthorized access to the internet or other internal networks. - Continuous security testing: We have reconfigured our environment to remove potentially vulnerable shared services, reduce standing privileges, and improve security and trust boundaries. We are also improving our ability to collect and monitor security logs. Finally, we are investing in automation using our models to test these boundaries continuously against simulated attacks. Together, these controls provide defense in depth and help protect our research environment against attacks. Today, we require the strictest level of security safeguards for workloads involving Astra or cyber models, since we have determined that Astra models may have a critical level of cyber capability. These safeguards also apply to all other cyber-related workloads. While some Astra training and evaluations meet those requirements, a significant number of workloads remain paused until they are fully migrated and enhanced to meet the new security bar. We are prioritizing safety and alignment workloads for migration to these new environments first. Monitoring has long been an important part of our model development process, including monitoring for internal coding agents and long-running sessions. Our monitoring efforts were especially focused on internal deployments of frontier models and frontier RL training runs, which we considered the highest-risk workloads because they can combine advanced model capabilities with access to tools, sensitive systems, and internal or external networks. They were not applied to all inference and training runs using tools. We have revised and expanded our approach with our new monitoring setup. This new monitoring setup is multistage, starting with activation classifiers (detectors that inspect a model’s internal activity) that run at every sampled token and escalate potential concerns to increasingly sophisticated and high-compute automated investigators. Those systems examine tool actions, available reasoning, and the full sequence of activity for unauthorized access, data theft, destructive behavior, and attempts to defeat safeguards. We aim to issue an alert within 30 minutes after concerning activity is surfaced through our monitoring system. If the monitoring system identifies a likely violation of a critical security boundary, it generates a highest-priority alert. In our current implementation, the safety, security, and research teams are paged. If they cannot conclusively determine within 30 minutes that the flag is a false positive, those teams are expected to pause the activity. This monitoring is required for all RL training and evaluations involving tools for models of Sol capability or higher. Once we determined that Astra may have critical cyber capabilities on August 7, we added an additional monitoring requirement for all inference of Astra with tools (not just RL",
+          "title_zh": "OpenAI 推进政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Pacing model development in an era of cyber-critical capabilities",
+              "source_url": "https://openai.com/index/pacing-model-development-cyber-capabilities"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+              "source_url": "https://openai.com/index/pacing-model-development-cyber-capabilities"
+            }
+          ],
+          "slug": "pacing-model-development-in-an-era-of-cyber-critical-capabilities-68c52c81",
+          "localized_url": "/zh/items/2026-08-20/pacing-model-development-in-an-era-of-cyber-critical-capabilities-68c52c81/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+          "title_original": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+          "title_en": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/chatgpt-for-teens",
+          "published_at": "Tue, 18 Aug 2026 11:00:00 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "01003c6680bc",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+          "extracted_excerpt": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+          "extracted_text_for_analysis": "We’re introducing ChatGPT for Teens, an experience designed to help teens learn, think critically, deepen understanding, and use AI with confidence. It provides stronger built-in safety protections for teens, including features to promote healthy use and additional controls for parents. If our system estimates someone is under 18 or they state their age is between 13 and 17, they are automatically placed into ChatGPT for Teens. This launch builds on the foundational work to support teens on our platform including: Introducing Parental Controls, updating our Under-18 Model Spec, creating our Teen Safety Blueprint, rolling out Age-Prediction and expanding features to support learning and healthy AI use for teens. Across that work, we have been guided by four commitments: put teen safety first, encourage real-world support, treat teens like teens, and be transparent about how our systems should behave. We’re reinforcing and furthering those commitments in ChatGPT for Teens with a focus on learning and even stronger built-in protections. Built to support learning We believe AI should expand educational opportunity, which is why we designed ChatGPT for Teens to support moments outside the classroom when help is not always available, while keeping teens engaged in an active and collaborative learning process. A teen studying for a test, for example, can ask ChatGPT to explain an unfamiliar concept, work through a practice problem, and check their understanding. If they ask for a quick answer, ChatGPT for Teens can guide them toward the steps and questions that help them work through it themselves. The experience brings together: - Study Mode, which uses guiding questions and step-by-step support to help teens understand the material. - New responsible homework reminders, which can recognize when a teen appears to be trying to shortcut an assignment and redirect them toward Study Mode for step-by-step collaborative problem solving. - Quizzes and Learning Visualizations which give teens more ways to practice, test what they know, and see difficult concepts more clearly to test understanding. - And with new Study Hours, teens or parents can choose times when Study Mode is on by default, making it easier to turn better study habits into a routine. When we introduced Study Mode, it was built with teachers, scientists, and pedagogy experts and drew on longstanding research in learning science. It uses guiding questions, scaffolding, metacognitive prompts, and knowledge checks to help students work through problems step by step instead of simply receiving a solution. That design is consistent with broader research on effective learning techniques(opens in a new window) showing that active retrieval and self-explanation can support stronger comprehension and longer-term retention than passive review alone. Our own early evaluation of tools like Study Mode has also shown promising gains in student performance. AI should support learning, not shortcut it, and educators should remain in control of AI experiences in classrooms. In this spirit, ChatGPT for Teens is designed to support learning outside of the classroom while ChatGPT for Teachers continues to provide educators and school districts with secure, institution-managed access to AI and practical support for using it well. Partnering with CodeAI to prepare teens To help prepare the first AI generation of students, OpenAI and CodeAI are announcing a signature partnership to give students and educators access to tools and resources that will help them learn how to use and benefit from AI. The partnership will focus on the education that surrounds the technology: helping teens understand how AI works, direct it, question it, and create with it—with teachers playing a meaningful role in shaping how AI enters the classroom. What teens are building with AI Teens are already using AI not only to study, but to build tools, teach themselves new skills, and work on problems in their communities. Those are the kinds of uses ChatGPT for Teens is meant to foster: capable, learning-centered AI that helps young people move from understanding ideas to applying them. In Virginia, Rushil Kukreja, Arhan Menta, and Nayel Rehman developed WiFind(opens in a new window), a search-and-rescue system that uses existing Wi-Fi signals to help locate survivors trapped beneath rubble after natural disasters. The project grew out of volunteer work with a local search-and-rescue organization and a simple question about how responders could know where to look first. For the team, AI helped speed up the work of learning from research, prototyping quickly, and turning a promising concept into a tool designed for first responders. Crystal Yang in Texas used ChatGPT to help develop and scale Audemy(opens in a new window), a platform that creates audio-based educational games for blind students, to 200,000 users and 50 games. While each teen used ChatGPT in different ways, they all point to the kinds of uses we want to support: learning from complex material, building with guidance, and applying new skills to real problems. Teens should be able to explore that potential with tools that are capable, age-appropriate, and designed with clear safeguards. Stronger protections, on by default For teen users, protections are part of the default experience. For users under 18, ChatGPT for Teens applies age-appropriate safeguards designed to reduce exposure to content that may be harmful or developmentally inappropriate, while preserving the ability to learn, create, and explore. These protections are based on our Under-18 Principles in our Model Spec, which are informed by developmental science and guidance from experts. In practice, that means age-appropriate model protections and product interventions in higher-risk areas such as self-harm, violence, eating disorders, dangerous activities, and explicit sexual or graphic content. This work also builds on the family tools we introduced with parental controls and notifications. Parents with linked teen accounts can set Quiet Hours, manage selected settings, and receive safety notifications in limited high-risk situations. We are adding additional notifications related to eating disorders, while limiting what is shared and focusing on moments when offline support may matter most. Supporting healthy, balanced use We designed ChatGPT for Teens to support real-world relationships and healthy habits, with break reminders that encourage teens to step away, and product cues that consistently identify ChatGPT as AI. We’re continuing to strengthen ChatGPT’s age-appropriate behavior for users under 18. Our updated under-18 model spec(opens in a new window) goes beyond blocking romantic or sexualized roleplay: ChatGPT should not use romantic language, encourage emotional dependence, or imply that it has feelings or consciousness. These stronger protections are designed to reinforce healthy, real-world relationships. We are also adding",
+          "title_zh": "OpenAI 发布模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+              "source_url": "https://openai.com/index/chatgpt-for-teens"
+            },
+            {
+              "label": "公开摘要",
+              "text": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+              "source_url": "https://openai.com/index/chatgpt-for-teens"
+            }
+          ],
+          "slug": "introducing-chatgpt-for-teens-built-for-learning-backed-by-protections-01003c66",
+          "localized_url": "/zh/items/2026-08-20/introducing-chatgpt-for-teens-built-for-learning-backed-by-protections-01003c66/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How NVIDIA scales expertise with ChatGPT Work",
+          "title_original": "How NVIDIA scales expertise with ChatGPT Work",
+          "title_en": "How NVIDIA scales expertise with ChatGPT Work",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/nvidia/chatgpt-work",
+          "published_at": "Tue, 18 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "NVIDIA"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "dfcf73efa3a6",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How NVIDIA scales expertise with ChatGPT Work",
+          "extracted_excerpt": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+          "extracted_text_for_analysis": "16 Hours saved per week using ChatGPT Work during the GTC planning cycle 3–5 Days to create a working prototype with ChatGPT Work, compared to 2–3 weeks previously 5–8 Actionable signals surfaced per week by ChatGPT Work from 25–40 external AI updates At NVIDIA, ChatGPT Work is helping knowledge workers spend less time assembling information and more time acting on it. For teams like GTM and solutions architecture, ChatGPT has become part of how work gets organized, automated, and scaled. For GTM, it transforms recurring operational processes, while solutions architects are using it to connect fast-moving external developments with NVIDIA’s internal priorities. Will Daney helps NVIDIA’s global sales, business development, and product leaders execute and measure their strategies. One of his recurring responsibilities is supporting the field organization around GTC, NVIDIA’s global AI conference. Previously, preparing for GTC required extensive work in spreadsheets: assembling account lists, tracking registrations, and helping teams identify the actions needed to create a productive experience for customers and partners. During the lead-up to the event, Will estimates that manual analysis consumed about 40% of his time. Today, he has turned much of that work into an automated ChatGPT Work process that runs twice a week. Across the 12-week GTC planning cycle, the workflow saves about 16 hours per week. “I’m able to give time back, work with the actual field team, get to know them better, and help them figure out how to help our customers be more successful,” Will says. And because he owns the workflow, he can adapt it as the event changes without waiting for a new tool to be purchased, implemented, and maintained. He can also share the underlying process with teams in other regions. Colleagues supporting events in San Jose, Taipei, Europe, and Washington, DC have received his ChatGPT workflows and customized them for their local needs. “With ChatGPT, I think the real key is that I’m able to take a workflow I’ve already developed and I’m able to automate it event over event with little to no overhead.” Rachita Jain works on the AI operations team within NVIDIA’s marketing organization, where she builds AI workflows and helps teams adopt new tools. Her challenge is keeping pace with an industry where new models, benchmarks, and research appear every day. The information is readily available. The harder task is determining which developments matter to NVIDIA and connecting them with internal projects, conversations, and priorities. Rachita built a workflow with ChatGPT Work that reviews trusted external sources alongside internal context, identifies meaningful areas of overlap, and surfaces insights that can inform action. Each week, it distills roughly 25–40 external AI updates into 5–8 actionable signals. “ChatGPT helped me change passive reading into active intelligence,” she says. The same environment supports the broader building process. Rachita can begin with an idea, explore possible approaches, work through a codebase, debug problems, and refine the result without continually moving between disconnected tools. Initiatives that might once have remained side projects can develop into working products within days. In one case, she moved from idea to working prototype in about 3–5 days, compared with an estimated 2–3 weeks if she had built the components manually across separate tools. “I think the biggest problem I’m trying to solve is information overload, because everything is moving so fast. It’s getting harder by the day to keep track of all the changes. And with ChatGPT, it becomes much simpler.” The next opportunity is to scale what’s already working. By turning specialized knowledge into reusable workflows, teams across NVIDIA can adapt proven processes across functions, events, and regions—while keeping the people closest to the work in control of how those processes evolve. And as the AI landscape continues to change, these shared workflows can help NVIDIA connect external developments with internal priorities more quickly and extend AI-enabled ways of working to more employees. The goal is to give teams more time to interpret findings, collaborate, and focus on work that supports customers. That potential is already visible in Will’s experience. “ChatGPT has really been a force multiplier for me personally,” he says. “It feels like I have a team working for me. It’s helped me get out of the weeds and focus more on the work that matters.”",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI、NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How NVIDIA scales expertise with ChatGPT Work",
+              "source_url": "https://openai.com/index/nvidia/chatgpt-work"
+            },
+            {
+              "label": "公开摘要",
+              "text": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+              "source_url": "https://openai.com/index/nvidia/chatgpt-work"
+            }
+          ],
+          "slug": "how-nvidia-scales-expertise-with-chatgpt-work-dfcf73ef",
+          "localized_url": "/zh/items/2026-08-20/how-nvidia-scales-expertise-with-chatgpt-work-dfcf73ef/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Fish Audio models now available on Vercel AI Gateway for free",
+          "title_original": "Fish Audio models now available on Vercel AI Gateway for free",
+          "title_en": "Fish Audio models now available on Vercel AI Gateway for free",
+          "summary_zh": "Vercel 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Fish Audio 's audio models are now available on AI Gateway. To celebrate the launch, every Fish Audio model is free on AI Gateway for the next 30 days, through September 18. Capability Regular Through September 18 Text-to-speech $15.00 per million characters",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+          "published_at": "2026-08-19T00:00:00.000Z",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Vercel AI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bd8784e69d54",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 发布开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Vercel AI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Fish Audio models now available on Vercel AI Gateway for free",
+              "source_url": "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Fish Audio 's audio models are now available on AI Gateway. To celebrate the launch, every Fish Audio model is free on AI Gateway for the next 30 days, through September 18. Capability Regular Through September 18",
+              "source_url": "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free"
+            }
+          ],
+          "slug": "fish-audio-models-now-available-on-vercel-ai-gateway-for-free-bd8784e6",
+          "localized_url": "/zh/items/2026-08-20/fish-audio-models-now-available-on-vercel-ai-gateway-for-free-bd8784e6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+          "title_original": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+          "title_en": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/LiquidAI/qad",
+          "published_at": "Wed, 19 Aug 2026 13:48:49 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "22e214c52569",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+              "source_url": "https://huggingface.co/blog/LiquidAI/qad"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/LiquidAI/qad"
+            }
+          ],
+          "slug": "lfm2-5-q4-0-checkpoints-from-quantization-aware-distillation-22e214c5",
+          "localized_url": "/zh/items/2026-08-20/lfm2-5-q4-0-checkpoints-from-quantization-aware-distillation-22e214c5/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Much Memory Does Your Agent Actually Need?",
+          "title_original": "How Much Memory Does Your Agent Actually Need?",
+          "title_en": "How Much Memory Does Your Agent Actually Need?",
+          "summary_zh": "Hugging Face Blog 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+          "published_at": "Tue, 18 Aug 2026 18:09:38 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "5ce8103476b1",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Much Memory Does Your Agent Actually Need?",
+              "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm"
+            }
+          ],
+          "slug": "how-much-memory-does-your-agent-actually-need-5ce81034",
+          "localized_url": "/zh/items/2026-08-20/how-much-memory-does-your-agent-actually-need-5ce81034/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+          "title_original": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+          "title_en": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/multi-vector-encoder",
+          "published_at": "Tue, 18 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e520424e436f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+              "source_url": "https://huggingface.co/blog/multi-vector-encoder"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/multi-vector-encoder"
+            }
+          ],
+          "slug": "multi-vector-late-interaction-embedding-models-with-sentence-transformer-e520424e",
+          "localized_url": "/zh/items/2026-08-20/multi-vector-late-interaction-embedding-models-with-sentence-transformer-e520424e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Memory prices up 500% in 12 months",
+          "title_original": "[AINews] Memory prices up 500% in 12 months",
+          "title_en": "[AINews] Memory prices up 500% in 12 months",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "the Memory crunch continues - Moore’s Law reversed to 2007 levels",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+          "published_at": "Wed, 19 Aug 2026 08:44:52 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "00320f49d7cb",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Memory prices up 500% in 12 months",
+              "source_url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12"
+            },
+            {
+              "label": "公开摘要",
+              "text": "the Memory crunch continues - Moore’s Law reversed to 2007 levels",
+              "source_url": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12"
+            }
+          ],
+          "slug": "ainews-memory-prices-up-500-in-12-months-00320f49",
+          "localized_url": "/zh/items/2026-08-20/ainews-memory-prices-up-500-in-12-months-00320f49/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
+          "title_original": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
+          "title_en": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Glean CEO Arvind Jain explains why model routing helps control AI costs for organizations, and how human feedback loops at scale improve its routing systems.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/glean-model-routing",
+          "published_at": "Tue, 18 Aug 2026 21:41:10 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "39f4f37f7100",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
+              "source_url": "https://www.latent.space/p/glean-model-routing"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Glean CEO Arvind Jain explains why model routing helps control AI costs for organizations, and how human feedback loops at scale improve its routing systems.",
+              "source_url": "https://www.latent.space/p/glean-model-routing"
+            }
+          ],
+          "slug": "frontier-model-cost-and-open-weights-popularity-is-driving-demand-for-mo-39f4f37f",
+          "localized_url": "/zh/items/2026-08-20/frontier-model-cost-and-open-weights-popularity-is-driving-demand-for-mo-39f4f37f/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
+          "title_original": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
+          "title_en": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
+          "summary_zh": "Grok 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
+          "published_at": "Tue, 18 Aug 2026 21:30:31 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0bd92e9f1276",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Grok 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Grok，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
+              "source_url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor"
+            }
+          ],
+          "slug": "i-tested-grok-bot-grok-4-6-and-cursor-origin-heres-my-honest-take-0bd92e9f",
+          "localized_url": "/zh/items/2026-08-20/i-tested-grok-bot-grok-4-6-and-cursor-origin-heres-my-honest-take-0bd92e9f/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
+          "title_original": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
+          "title_en": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Where product managers, engineers, designers, and growth/marketing professionals discover high-quality open roles at tech companies",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
+          "published_at": "Tue, 18 Aug 2026 15:40:06 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b0facf8be856",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
+              "source_url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Where product managers, engineers, designers, and growth/marketing professionals discover high-quality open roles at tech companies",
+              "source_url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place"
+            }
+          ],
+          "slug": "announcing-lennys-jobs-the-best-place-in-the-world-to-find-vet-and-land-b0facf8b",
+          "localized_url": "/zh/items/2026-08-20/announcing-lennys-jobs-the-best-place-in-the-world-to-find-vet-and-land-b0facf8b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Stripe buys OpenRouter for $7B",
+          "title_original": "[AINews] Stripe buys OpenRouter for $7B",
+          "title_en": "[AINews] Stripe buys OpenRouter for $7B",
+          "summary_zh": "Latent Space 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "No GPUs, no Agents, just really, really, really good infra and distribution.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+          "published_at": "Mon, 17 Aug 2026 23:13:41 GMT",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9757553db818",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Stripe buys OpenRouter for $7B",
+              "source_url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for"
+            },
+            {
+              "label": "公开摘要",
+              "text": "No GPUs, no Agents, just really, really, really good infra and distribution.",
+              "source_url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for"
+            }
+          ],
+          "slug": "ainews-stripe-buys-openrouter-for-7b-9757553d",
+          "localized_url": "/zh/items/2026-08-20/ainews-stripe-buys-openrouter-for-7b-9757553d/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel for Platforms can now deploy from your users' GitHub repositories",
+          "title_original": "Vercel for Platforms can now deploy from your users' GitHub repositories",
+          "title_en": "Vercel for Platforms can now deploy from your users' GitHub repositories",
+          "summary_zh": "Vercel 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Teams building on Vercel for Platforms can now create deployments directly from their users' GitHub repositories, without requiring them to install the Vercel GitHub App. When creating a deployment , pass a gitAccessToken alongside gitSource . Vercel uses the",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-for-platforms-can-now-deploy-from-your-users-github-repositories",
+          "published_at": "2026-08-18T17:00:00.000Z",
+          "fetched_at": "2026-08-19T22:44:39.048409+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0cd1eaeccd32",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel for Platforms can now deploy from your users' GitHub repositories",
+              "source_url": "https://vercel.com/changelog/vercel-for-platforms-can-now-deploy-from-your-users-github-repositories"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Teams building on Vercel for Platforms can now create deployments directly from their users' GitHub repositories, without requiring them to install the Vercel GitHub App. When creating a deployment , pass a",
+              "source_url": "https://vercel.com/changelog/vercel-for-platforms-can-now-deploy-from-your-users-github-repositories"
+            }
+          ],
+          "slug": "vercel-for-platforms-can-now-deploy-from-your-users-github-repositories-0cd1eaec",
+          "localized_url": "/zh/items/2026-08-20/vercel-for-platforms-can-now-deploy-from-your-users-github-repositories-0cd1eaec/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-18",
       "title_zh": "AI 新闻简报 · 2026-08-18",
