@@ -1,7 +1,1097 @@
 {
-  "updated_at": "2026-08-22T22:41:25.565048+00:00",
-  "count": 67,
+  "updated_at": "2026-08-23T22:40:58.287347+00:00",
+  "count": 68,
   "briefs": [
+    {
+      "date": "2026-08-24",
+      "title_zh": "AI 新闻简报 · 2026-08-24",
+      "title_en": "English AI News Brief · 2026-08-24",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 136 条，入选 16 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 136 previously displayed items excluded, and 16 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 136,
+      "selected_count": 16,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
+          "title_original": "How to close $100K+ enterprise deals, step by step | Jen Abel",
+          "title_en": "How to close $100K+ enterprise deals, step by step | Jen Abel",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
+          "published_at": "Sun, 23 Aug 2026 12:31:43 GMT",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "fd00555e0f69",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How to close $100K+ enterprise deals, step by step | Jen Abel",
+              "source_url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by"
+            }
+          ],
+          "slug": "how-to-close-100k-enterprise-deals-step-by-step-jen-abel-fd00555e",
+          "localized_url": "/zh/items/2026-08-24/how-to-close-100k-enterprise-deals-step-by-step-jen-abel-fd00555e/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "ベースモデルに依存しないオーケストレーションに向けて：Gemma 4版 Sakana Fuguの検証",
+          "title_original": "ベースモデルに依存しないオーケストレーションに向けて：Gemma 4版 Sakana Fuguの検証",
+          "title_en": "ベースモデルに依存しないオーケストレーションに向けて：Gemma 4版 Sakana Fuguの検証",
+          "summary_zh": "ベースモデルに依存しないオーケストレーションに向けて：Gemma 4版 Sakana Fuguの検証",
+          "summary_en": "Sakana AIは、Sakana Fuguの指揮者モデルをGemma 4ベースで訓練し、従来と同等のオーケストレーション性能が出ることを確認しました。モデルプールに加えて指揮者モデルの多様化・モジュール化を図ることで、国内のさまざまな用途で求められるソブリン性の要件に応じたオーケストレーション技術を開発し、提供していきます。",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/fugu-gemma4/",
+          "published_at": "2026-08-10T08:00:00+09:00",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [
+            "Sakana AI"
+          ],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1a6c877c2967",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "ベースモデルに依存しないオーケストレーションに向けて：Gemma 4版 Sakana Fuguの検証",
+          "extracted_text_for_analysis": "Sakana AIは、Sakana Fuguの指揮者モデルをGemma 4ベースで訓練し、従来と同等のオーケストレーション性能が出ることを確認しました。モデルプールに加えて指揮者モデルの多様化・モジュール化を図ることで、国内のさまざまな用途で求められるソブリン性の要件に応じたオーケストレーション技術を開発し、提供していきます。 背景：Sakana Fuguの二層構造 Sakana Fuguは、マルチエージェントのオーケストレーションシステムを一つの基盤モデルとして提供するプロダクトです。ユーザーが一つのエンドポイントにリクエストを送ると、Sakana Fugu自身が処理の仕方を判断し、必要に応じて高性能なモデル群を動的に呼び出して、その成果を一つの答えにまとめます。この設計はICLR 2026で発表したTrinityとConductorの研究を基盤としています。 Sakana Fuguは二つの層からなります。 - 指揮者モデル（オーケストレーターモデル）：モデル間の「協調の仕方」をSakana AIが学習させた小規模な言語モデル。 - モデルプール：実際の処理を担うモデル群。数百Bクラスのフロンティアモデルを含む。設計上、何を入れるか・何と入れ替えるかを自由に構成できる。 Sakana Fuguは、モデル間の「協調の仕方」をSakana AIが学習させた小規模な言語モデルである指揮者モデルと、実際の処理を担うモデルプールからなる。 指揮者モデルに求められるのは、あらゆる知識を自分の重みに抱えることではなく、どのモデルにどう任せるかを判断することです。知識や推論の重い部分はプール側のモデルが担うため、指揮者モデル自身は小さくてよく、だからこそ現実的なコストで訓練を繰り返し、ベースモデルを載せ替えて検証することもできます。 モデルプールの側は、当初から入れ替え可能であることを前提に設計してきました。標準構成では最高性能を基準にモデルを選定していますが、用途によっては選定基準そのものを変えたいという要望があります。コストを優先したい場合、モデルの提供元の所在地を限定したい場合、実行環境を限定したい場合などです。この選定基準は構成側で選べるようにしており、その一環として先日のNVIDIAとの提携によりNemotronを利用できるようにする取り組みを開始しました。 検証：Gemma 4ベースの指揮者モデル 一方で、指揮者モデル自身のベースモデルの多様性はこれまで担保できていませんでした。そこで私たちは、これまでとは別系統のオープンモデルであるGemma 4（Apache 2.0ライセンス）をベースに、同じ訓練手法で指揮者モデルを訓練しました。同規模のモデルであれば、系統が違っても同じ手法が通用するのかを確かめることが目的です。 検証には、当社が独自に構築した評価用設問セット（知識を問う問題、コード修正、コード生成、大学院水準の科学の設問からなる）を用いました（これらの設問は訓練にも、訓練途中の候補選定にも使用せず、テスト時のみ一度だけ使用）。指揮者モデルのベースにはGemma 4 E2Bを用い、Fuguと同様の訓練を行いました。「ランダムな振り分け」は、訓練を行わず、モデルプールから無作為に送り先を選んだ場合です。その結果、Gemma 4ベースの指揮者モデルにおいて、下図のとおり既存の指揮者モデルと遜色ない性能と、同等のコスト削減効果が確認できました。 当社の評価セットにおける、指揮者モデルの正答率とコスト。「ランダムな振り分け」は訓練前の無作為初期値による一例。コストは、ランダムな振り分けを1とした相対値。 今後の展望 これまでのSakana Fuguの指揮者モデルは、Qwenをベースに訓練したものを用いていました。今回の検証は、モデルプールのみならず指揮者モデルもモジュール化可能であり、多様な選択肢があることを示すものです。私たちは今後、自社開発モデルをベースとした指揮者モデルの訓練にも取り組み、お客様が求めるソブリン性の要件に応じて指揮者モデルを国産モデル（事前学習から国内で構築されたモデル）ベースに切り替えて提供できる体制を整えていきます。海外の最高性能のAI能力にアクセスし続けることと、求められるソブリン性を確保することの二つを両立させるための開発を、引き続き進めていきます。 Sakana AI Sakana AIは、AIの未来を私たちと一緒に切り拓いてくださる方を募集しています。当社の募集要項をご覧ください。",
+          "title_zh": "Sakana AI 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。",
+            "涉及公司或机构：Sakana AI。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "ベースモデルに依存しないオーケストレーションに向けて：Gemma 4版 Sakana Fuguの検証",
+              "source_url": "https://sakana.ai/fugu-gemma4/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AIは、Sakana Fuguの指揮者モデルをGemma 4ベースで訓練し、従来と同等のオーケストレーション性能が出ることを確認しました。モデルプールに加えて指揮者モデルの多様化・モジュール化を図ることで、国内のさまざまな用途で求められるソブリン性の要件に応じたオーケストレーション技術を開発し、提供していきます。",
+              "source_url": "https://sakana.ai/fugu-gemma4/"
+            }
+          ],
+          "slug": "gemma-4-sakana-fugu-cdbdbc3b",
+          "localized_url": "/zh/items/2026-08-24/gemma-4-sakana-fugu-cdbdbc3b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Why Image Generation Needs More Than Bigger Models with Fatih Porikli - #773",
+          "title_original": "Why Image Generation Needs More Than Bigger Models with Fatih Porikli - #773",
+          "title_en": "Why Image Generation Needs More Than Bigger Models with Fatih Porikli - #773",
+          "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Text-to-image models have become remarkably good at producing realistic images. But realism isn’t the same as correctness. Ask for several distinct people, a specific composition, or a high-resolution image generated locally, and today’s models still struggle",
+          "source_name": "TWIML AI Podcast",
+          "source_url": "https://twimlai.com/podcast/twimlai/",
+          "original_url": "https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models",
+          "published_at": "Wed, 12 Aug 2026 22:18:00 -0000",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "podcast",
+            "research"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2d6af6b27c8b",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "TWIML AI Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 TWIML AI Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、podcast、research。"
+          ],
+          "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Why Image Generation Needs More Than Bigger Models with Fatih Porikli - #773",
+              "source_url": "https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Text-to-image models have become remarkably good at producing realistic images. But realism isn’t the same as correctness. Ask for several distinct people, a specific composition, or a high-resolution image generated",
+              "source_url": "https://twimlai.com/podcast/twimlai/why-image-generation-needs-more-than-bigger-models"
+            }
+          ],
+          "slug": "why-image-generation-needs-more-than-bigger-models-with-fatih-porikli-77-2d6af6b2",
+          "localized_url": "/zh/items/2026-08-24/why-image-generation-needs-more-than-bigger-models-with-fatih-porikli-77-2d6af6b2/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "DeepSeek V4 Pro 0813 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+          "title_original": "DeepSeek V4 Pro 0813 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+          "title_en": "DeepSeek V4 Pro 0813 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+          "summary_zh": "Together AI Blog 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "We ran 904 DeepSWE rollouts on DeepSeek V4 Pro 0813 and GPT-5.6 Sol. Sol leads pass@1 by 10 points at 35x the cost; Pro wins pass@4, and a Pro-first cascade hits 83.0%.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
+          "published_at": "Tue, 18 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "711ba373d2aa",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "DeepSeek V4 Pro 0813 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+          "extracted_excerpt": "We ran 904 DeepSWE rollouts on DeepSeek V4 Pro 0813 and GPT-5.6 Sol. Sol leads pass@1 by 10 points at 35x the cost; Pro wins pass@4, and a Pro-first cascade hits 83.0%.",
+          "extracted_text_for_analysis": "Don't pick one. Run DeepSeek V4 Pro 0813 first, escalate to GPT-5.6 Sol when the tests fail. That cascade solves 83.0% of DeepSWE tasks at \\$3.35 each. Sol alone solves 72.7% at \\$8.37. Ten points better, 60% cheaper. - Sol wins the early attempts. 72.7% pass@1 vs 62.8%, and it holds the lead at pass@2 (81.0% vs 78.5%). - Pro wins the last one. 88.5% pass@4 vs 85.8%. Given four tries, the cheap model finds more of the board. - The price gap is 35x. \\$0.24 per rollout vs \\$8.37. Per \\$100 spent, Pro solves 261 tasks and Sol solves 9. - Sol is faster and steadier. 17 minutes and 53 steps per rollout vs Pro's 35 and 146, and 61 tasks solved four-for-four vs 35. - Sol's failures are messier. 20% of them break tests that already passed, vs 11% for Pro. Gate Sol's output on regressions. In our DeepSeek V4 Pro 0813 vs GPT-5.6 Sol comparison on DeepSWE, a benchmark that tests a model's software engineering ability across many task types and programming languages, GPT-5.6 Sol is the best single-shot engineer on the board, and DeepSeek V4 Pro 0813 costs one-thirty-fifth as much. The interesting question is not which is more accurate on the first try (Sol, clearly) but what that 35x price gap actually buys, and whether the lower-cost model's ceiling closes it. We ran DeepSeek V4 Pro 0813 (max) against GPT-5.6 Sol (max) on all 113 DeepSWE tasks, four trials each, from the published per-trial records: 904 rollouts in total (452 each). Sol is the precision flagship; Pro is the value outlier. Every figure below comes from this run, so it can differ from other public DeepSeek V4 Pro 0813 vs GPT-5.6 Sol scorecards. The DeepSWE scoreboard: pass@1 and pass@k Single shot, Sol leads clearly: 72.7% pass@1 to Pro's 62.8% (official scoring). But the gap narrows with every retry and then inverts: at two attempts Pro is already close (78.5 vs 81.0), and at four Pro's 88.5% pass@4 passes Sol's 85.8%. The lower-cost model has the wider reach; it needs more than one attempt, and its attempts are nearly free. If your workload lets you run best-of-k, the accuracy argument for Sol largely disappears. Cost comparison: DeepSeek V4 Pro 0813 vs GPT-5.6 Sol pricing At \\$0.24 a rollout, DeepSeek V4 Pro 0813 is 35x cheaper than Sol (\\$8.37), which in value terms is 260 solves per \\$100 against Sol's 9. What the lower price does not buy is speed or brevity: Pro takes a median 146 steps and 35 minutes and emits 101k output tokens, versus Sol's tight 53 steps, 17 minutes, and 59k tokens. Sol is the fast, concise specialist; Pro reaches similar coverage the long way around. If a human is waiting, Sol earns its premium on latency alone; if a budget or a queue is waiting, nothing here is close to Pro. Coverage vs reliability: precision vs reach Decompose pass@1 into coverage and reliability and the split is clean. Sol is the precision corner: 84.5% reliability and 61 tasks solved four-for-four, the marks of a model that nails what it touches. DeepSeek V4 Pro 0813 trades to the other axis: wider coverage (88.5% vs 85.8%) but far lower reliability (71.0%) and fewer solid tasks (35 vs 61). That is the pass@4 crossover seen from the side: Pro touches more of the benchmark than Sol but converts each touch less often per shot. Failure modes: how each model gets it wrong The failure profiles differ sharply. Sol breaks the repository's existing test suite in 20% of its failures, the GPT-family regression signature. DeepSeek V4 Pro 0813 is far more conservative at 11%; when it fails, it usually fails with a near miss and the baseline intact. So the cheaper model is also the safer one to accept unreviewed: put a full regression gate around Sol before you take its diff, and Pro needs that guardrail less. Where each wins, by task type Sol's quality edge is broad: it wins 6 of 8 domains, led by data modeling and serialization at 92% (28 points over Pro), plus query/config (80), concurrency (72), build/ops (73), program analysis (64), and protocol conformance (59). The two it does not take are narrow: language and runtime internals is a 75-75 tie, and DeepSeek V4 Pro 0813 edges stateful reactivity (66 vs 64), its one domain win. Everywhere the task demands nailing an exact serialization contract, Sol pulls away. DeepSeek V4 Pro 0813 vs GPT-5.6 Sol by programming language Sol sweeps four of five (Python 74, Go 79, TypeScript 66, JavaScript 75), and the margins are wide on Python and Go. The exception is Rust, where DeepSeek V4 Pro 0813 edges ahead 65 to 60: the one language Sol underperforms its class and the one Pro wins outright. If your stack is Python or Go, this is Sol's board by a comfortable margin; if it is Rust, Pro is fractionally better and vastly cheaper. How different are DeepSeek V4 Pro 0813 and GPT-5.6 Sol? Moderately. Per-task correlation is 0.54, the closest of the DeepSeek-Pro pairings. They both solve 90 tasks; Pro alone gets 10, Sol alone gets 7, and 6 defeat both. Their union covers 107 of 113 (94.7%). One asymmetry matters for a portfolio: DeepSeek V4 Pro 0813 sweeps no task that Sol misses entirely, while Sol goes four-for-four on two tasks that Pro never solves (pebble-durability-wait-apis, textual-kitty-key-phases). So Pro does not add much new reach on top of Sol; what it adds is the ability to clear the shared tasks at minimal cost. Routing between them: the portfolio play Which is exactly why the cascade wins. Run DeepSeek V4 Pro 0813 first and escalate to Sol only when your test suite rejects the answer: 83.0% solved at \\$3.35 per task. That is ten points above Sol alone (72.7%) for less than half of Sol's own per-task price (\\$8.37). The near-free first stage clears most of the queue, so Sol's premium price applies only to the hard remainder, and the tasks that reach Sol get a second independent attempt on top. The cascade even beats a perfect one-shot oracle router (80.8%), because two independent attempts beat one perfect pick. Accuracy is the same whichever model leads, but Pro-first is far cheaper (\\$3.35 vs \\$8.44), so always lead with the lower-cost model. What it means GPT-5.6 Sol is the single-model pick when correctness and latency both matter on the first try: highest pass@1, highest reliability, fastest and most concise, and six of eight domains. You pay 35x DeepSeek V4 Pro 0813 for that, and you must guardrail its 20% regression rate. DeepSeek V4 Pro 0813 is the value and best-of-k pick: near-flagship coverage, the higher four-shot ceiling, a cleaner failure profile, at \\$0.24 a rollout. But the sharpest use of the pair is neither alone, it is Pro as Sol's front-end. A low-cost first stage that clears most of the work turns Sol into a cost you only pay on the tasks that need it, and buys flagship-beating coverage for under half of Sol's price. Data table: DeepSeek V4 Pro 0813 vs GPT-5.6 Sol, full results FAQs Is DeepSeek V4 Pro 0813 better than GPT-5.6 Sol? It depends on the metric. GPT-5.6 Sol wins single-attempt quality on DeepSWE (pass@1 72.7% vs 62.8%), solves more tasks",
+          "title_zh": "Together AI Blog 推进代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI Blog 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI Blog，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "DeepSeek V4 Pro 0813 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+              "source_url": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We ran 904 DeepSWE rollouts on DeepSeek V4 Pro 0813 and GPT-5.6 Sol. Sol leads pass@1 by 10 points at 35x the cost; Pro wins pass@4, and a Pro-first cascade hits 83.0%.",
+              "source_url": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing"
+            }
+          ],
+          "slug": "deepseek-v4-pro-0813-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing-711ba373",
+          "localized_url": "/zh/items/2026-08-24/deepseek-v4-pro-0813-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing-711ba373/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "DeepSeek V4 Pro 0813 vs Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
+          "title_original": "DeepSeek V4 Pro 0813 vs Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
+          "title_en": "DeepSeek V4 Pro 0813 vs Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
+          "summary_zh": "Claude 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "We ran 904 DeepSWE rollouts on DeepSeek V4 Pro 0813 and Claude Fable 5. Fable leads pass@1 at 90x the cost; Pro wins pass@4, and a Pro-first cascade hits 82.7%.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-claude-fable-5-on-deepswe-cost-coding-and-routing",
+          "published_at": "Mon, 17 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "bedb183defd7",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "DeepSeek V4 Pro 0813 vs Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
+          "extracted_excerpt": "We ran 904 DeepSWE rollouts on DeepSeek V4 Pro 0813 and Claude Fable 5. Fable leads pass@1 at 90x the cost; Pro wins pass@4, and a Pro-first cascade hits 82.7%.",
+          "extracted_text_for_analysis": "Run DeepSeek V4 Pro 0813 first, escalate to Claude Fable 5 only when it fails. That cascade solves 82.7% of DeepSWE tasks at \\$8.28 each. Fable alone solves 69.7% at \\$21.63. Thirteen points better, 62% cheaper. - Fable wins the first try. 69.7% pass@1 vs 62.8%, a 7-point lead. - Pro wins every try after. Level at pass@2 (78.5% vs 77.1%), ahead at pass@4 (88.5% vs 84.1%). - The price gap is 90x. \\$0.24 per rollout vs \\$21.63. Per \\$100 spent, Pro solves 260 tasks and Fable solves 3. - They fail on different tasks. 0.39 per-task correlation, the most divergent pair we have measured. Between them they cover 107 of 113 tasks. That disagreement is the whole reason routing works. In our DeepSeek V4 Pro 0813 vs Claude Fable 5 comparison on DeepSWE, a benchmark that tests a model's software engineering ability across many task types and programming languages, the two models sit at opposite ends of the price sheet. Claude Fable 5 is the most expensive rollout on the DeepSWE board. DeepSeek V4 Pro 0813 is one of the cheapest. Fable is seven points more accurate on the first try and costs ninety times as much per rollout, so the real question is not which model is better, but what that 90x premium actually buys and when it is worth paying. We ran DeepSeek V4 Pro 0813 (max) against Claude Fable 5 (max) on all 113 DeepSWE tasks, four trials each, from the published per-trial records: 904 rollouts in total (452 each). Fable is the expensive craftsman; Pro is the value outlier. The two also disagree more than any other pairing in this set, which turns out to be the most interesting thing about them. Every figure below comes from this run, so it can differ from other public DeepSeek V4 Pro 0813 vs Claude Fable 5 scorecards. The DeepSWE scoreboard: pass@1 and pass@k Single shot, Fable leads: 69.7% pass@1 to Pro's 62.8% (official scoring). But the lead is fragile. At two attempts Pro pulls level (78.5 vs 77.1), and at four Pro's 88.5% pass@4 clears Fable's 84.1% by more than four points. For a model that costs ninety times as much, Fable neither owns the ceiling nor holds its first-shot edge under retries. The lower-cost model has both the wider reach and the higher best-of-k. Cost comparison: DeepSeek V4 Pro 0813 vs Claude Fable 5 pricing At \\$0.24 a rollout, DeepSeek V4 Pro 0813 is 90x cheaper than Fable (\\$21.63): 260 solves per \\$100 against Fable's 3. This is the widest cost gap of any pairing we have measured, and Fable is the single most expensive config on the board. And unusually, the lower price does not come with the speed penalty you would expect: Fable's median rollout is 31 minutes to Pro's 35, roughly even, because Fable is by far the most verbose model on the board (115k output tokens) even though it takes fewer steps (79 vs 146). Pro takes more steps; Fable writes more per step. Neither model is notably faster. Failure modes: how each model gets it wrong Both are disciplined about not breaking things: DeepSeek V4 Pro 0813 and Fable each regress the existing test suite in only 11% of failures, well below the GPT-family's 20%. The difference is in the other direction: Fable carries the largest big-miss share here (18% vs Pro's 10%), meaning when Fable is wrong it is more often badly wrong, a solution far off the mark rather than one edge case short. Pro fails closer to correct more often (66% near miss vs Fable's 57%). So both are safe to accept without heavy regression gating, but Fable's misses are the more expensive kind to debug. Where each wins, by task type Fable's craftsmanship shows in the reasoning-heavy, exact-contract domains: it wins 6 of 8, led by data modeling and serialization at 88% (24 points over Pro) and language internals (78). But DeepSeek V4 Pro 0813 takes two, and both are significant: stateful reactivity (66 vs 64) and, tellingly, concurrency and durability (58 vs 45): a 13-point edge in exactly Fable's worst domain. Fable's 45% on concurrency is its weakest cell and the one domain where the lower-cost model is simply the better engineer, not just the cheaper one. DeepSeek V4 Pro 0813 vs Claude Fable 5 by programming language Fable wins four of five languages, but the number that justifies its price is Rust: 85% to Pro's 65, a 20-point margin and the widest single gap in the matchup. Fable is clearly the serialization and Rust specialist. Elsewhere it is closer than the price implies (Python 70 vs 60, Go 71 vs 67, JavaScript 75 vs 65), and DeepSeek V4 Pro 0813 actually takes TypeScript (61 vs 57). Outside Rust and serialization, the case for paying 90x is hard to make. How different are DeepSeek V4 Pro 0813 and Claude Fable 5? Here is the redeeming feature. Per-task correlation is just 0.39, the lowest of any DeepSeek-Pro pairing, so these two genuinely disagree. They both solve 88 tasks; Pro alone gets 12, Fable alone gets 7, and only 6 defeat both. Their union covers 107 of 113 (94.7%), and the disagreements go both ways: DeepSeek V4 Pro 0813 sweeps awilix-async-container-initialization four-for-four while Fable never lands it, and Fable four-for-fours four tasks Pro zeros (including koota-query-predicates and testem-bail-on-test-failure). This is real complementarity, not redundancy. Routing between them: the portfolio play That diversity plus the price makes the cascade compelling. Run DeepSeek V4 Pro 0813 first and escalate to Fable only when your test suite rejects the answer: 82.7% solved at \\$8.28 per task. That is thirteen points above Fable alone (69.7%) for well under half of Fable's own per-task price (\\$21.63). The low-cost first stage clears most of the queue, so Fable's premium price applies only to the hard remainder, and those tasks get a second independent attempt on top. The cascade beats a perfect one-shot oracle router (78.8%) too. The order is not optional: Pro-first costs \\$8.28, Fable-first costs \\$21.71, for the same accuracy. What it means Fable 5 is the hardest single model on this board to justify as a default: the most expensive rollout by far, a first-shot lead that retries erase, and no four-shot ceiling advantage. Buy it for exactly two things, Rust (85%) and serialization-heavy work (88%), where its quality genuinely justifies the price. DeepSeek V4 Pro 0813 is the opposite profile: near-Fable accuracy on the first try, a higher ceiling, an equal or better failure profile, and 90x cheaper, though it cedes Rust and the exact-contract domains. And because the two are the most diverse pair we have measured, the best use of Fable is not as a default but as a selective escalation behind a low-cost Pro first stage, paid only on the handful of tasks that actually need a Rust or serialization specialist. Data table: DeepSeek V4 Pro 0813 vs Claude Fable 5, full results FAQs Is DeepSeek V4 Pro 0813 better than Claude Fable 5? It depends on the metric. Claude Fable 5 wins single-attempt quality on DeepSWE (pass@1 69.7% vs 62.8%) and solves more tasks four-for-four (56 vs 35). DeepSeek V4 Pro 0813 pulls level at pass@2 and",
+          "title_zh": "Claude 推进代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Claude 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "DeepSeek V4 Pro 0813 vs Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
+              "source_url": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-claude-fable-5-on-deepswe-cost-coding-and-routing"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We ran 904 DeepSWE rollouts on DeepSeek V4 Pro 0813 and Claude Fable 5. Fable leads pass@1 at 90x the cost; Pro wins pass@4, and a Pro-first cascade hits 82.7%.",
+              "source_url": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-claude-fable-5-on-deepswe-cost-coding-and-routing"
+            }
+          ],
+          "slug": "deepseek-v4-pro-0813-vs-claude-fable-5-on-deepswe-cost-coding-and-routin-bedb183d",
+          "localized_url": "/zh/items/2026-08-24/deepseek-v4-pro-0813-vs-claude-fable-5-on-deepswe-cost-coding-and-routin-bedb183d/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "A/B test models in production",
+          "title_original": "A/B test models in production",
+          "title_en": "A/B test models in production",
+          "summary_zh": "Together AI Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Shadow traffic proves a candidate is operationally sound. It can't tell you if users like it better. Run the split at the endpoint instead of in your app code.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/a-b-test-models-in-production",
+          "published_at": "Mon, 17 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "03370ff5f0a1",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "A/B test models in production",
+          "extracted_excerpt": "Shadow traffic proves a candidate is operationally sound. It can't tell you if users like it better. Run the split at the endpoint instead of in your app code.",
+          "extracted_text_for_analysis": "A/B experiments allow you to split an endpoint's live traffic into fixed cohorts of one control and up to 20 variants, each with a percentage split of the traffic. This allows you to measure how a candidate model performs with real users at an exposure level you choose. Ramping up a variant can also be done with one call where you can promote the winner using a blue-green rollout. Deleting the experiment returns 100% of traffic to the control without the need to make any client-side or routing logic changes to unwind afterwards. Below we'll run an experiment on a live endpoint where we create at 95%/5%, ramp to 80%/20% and 50%/50%, then delete and check the observed traffic shares at every stage. Implementing A/B testing for LLMs in production Sooner or later every team wants to answer the same question: is the new model actually better for our users compared to the current model? Not better on a benchmark but rather better on retention, thumbs-up rate, task completion, whatever your product actually measures. Shadow traffic can't answer that question. Shadowing tells you the candidate is operationally sound with respect to latency, errors, throughput, but its responses are discarded; no user ever acts on them. Quality questions need real exposure to end users where a cut of your users get model B, and you compare what happens. Typically teams build this themselves in the application layer using some combination of: - A feature flag or a hash-mod-100 on user ID in the client code. - Two endpoints (or two hardcoded model strings) the client switches between. - A spreadsheet somewhere explaining what group A vs B means. It works, but it entangles your experiment with your infrastructure in ways that hurt later: the routing logic ships with your application, the cohort split can drift as clients cache decisions, and even after the experiment \"ends\" the branching code lives on long afterward because nobody's sure it's safe to remove. The Together AI platform allows you to run A/B experiment logic at the endpoint level. How it works An A/B experiment attaches to an endpoint and declares members with exactly one control and one or more variants, each pointing at a deployment, each with a percent setting, that must sum to 100, controlling traffic routing. How the endpoint router works is that whenever the base traffic sends a request to the control the experiment re-samples it among the arms and redistributes such that 95% stays on the control, 5% goes to the variant. To be precise about the mechanism: the experiment subdivides the control's share of the base traffic split. Routing first resolves a request through the weight split; when the winner is the control of an A/B experiment, the request is re-sampled among the experiment's arms by their percents. With the control as the only entrypoint in the split member percents therefore are absolute traffic shares. Also worth noting is that a control whose split weight is zero gives the experiment nothing to subdivide and as a result the whole experiment receives no traffic. Importantly variant deployments must not be in the endpoint's traffic split, the platform requires variants to carry zero weight; only the control lives in the base split. The experiment will own traffic routed to the variant entirely; its percentage is its traffic share. If a variant could also draw capacity-weighted traffic from the split, your measurements would be quietly wrong. One way to think about it is that you should set up the variant like a shadow deployment: created, READY, weight zero and then let the experiment percentage setting route to it. Another important point here is that A/B percents are true fixed traffic shares summing to 100% and are independent of replica counts. We made this deliberately different from traffic-split weights (which are per-ready-replica and follow capacity). An experiment is a measurement instrument; you want the split to be constant while you measure and not drift with autoscaling. Creating a 95/5 experiment: Your clients won’t notice this experiment because on the surface the same endpoint name, API and keys persist. On the backend 5% of requests will now be answered by the variant candidate. Under the hood: ramping, measuring, ending Ramping is resending the member set There's no separate \"ramp\" API, an update will replace the full member list, which keeps the mental model simple (the experiment is always exactly what its members say) and makes every ramp an explicit reviewable change: Updates are guarded by an etag because if a teammate ramped the experiment while you were composing your update, yours will be rejected instead of silently overwriting theirs. With this API design you still need to make the common exposure choice of how much traffic to route to group B: With up to 20 variant members you can also run multi-way tests, lets say for example you want to try out a full-precision endpoint along with three other quantized variants (V1, V2, V3). This will work as expected as long as the percents still sum to 100% and there's exactly one control. Measuring: join platform metrics with your product metrics Every request is served by a specific deployment, and every platform metric is available per deployment — so the infra side of the comparison (latency, errors, throughput per cohort) is a filter, not a project. The product side is yours: log which deployment served each response (it's in the response metadata) alongside your quality signals — ratings, retries, task completions — and the join key is just the deployment ID. The platform deliberately doesn't guess at your quality metrics; it makes the attribution trivial so your analytics can do the judging. Ending: promote, then delete Suppose the experiment shows the variant wins. Ending it is a two-step process: - Promote via rollout. Run a blue-green rollout from the control deployment to the variant deployment. Health gates, propagation waits, and rollback safety all apply. - Delete the experiment. All experiment routing disappears and 100% of the traffic then follows the endpoint's base traffic split which, post-rollout, points to your winner. And if the variant loses, you can just delete the experiment and traffic will return entirely to the control. On the backend the variant deployment scales to zero or gets deleted. Edge cases The variant degrades mid-experiment. What's the blast radius? Only its cohort. Deployments are independently monitored and independently autoscaled, which means that a struggling variant won’t drag the control down. To fix this you can resend the member set without the sick variant and its users will be back on control within a certain propagation time. This is also why starting at 5% is a good idea. Do the observed shares actually match the configured percents? Over meaningful volume, yes! For an example of this in action check out the experiment below. Over small windows you can expect sampling noise: a 5% share of 1,000",
+          "title_zh": "Together AI Blog 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI Blog 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI Blog，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "A/B test models in production",
+              "source_url": "https://www.together.ai/blog/a-b-test-models-in-production"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Shadow traffic proves a candidate is operationally sound. It can't tell you if users like it better. Run the split at the endpoint instead of in your app code.",
+              "source_url": "https://www.together.ai/blog/a-b-test-models-in-production"
+            }
+          ],
+          "slug": "a-b-test-models-in-production-03370ff5",
+          "localized_url": "/zh/items/2026-08-24/a-b-test-models-in-production-03370ff5/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GLM-5.3 vs. GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+          "title_original": "GLM-5.3 vs. GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+          "title_en": "GLM-5.3 vs. GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+          "summary_zh": "Together AI Blog 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "We ran 904 DeepSWE rollouts on GLM-5.3 and GPT-5.6 Sol. Sol leads pass@1 by 3.7 points; GLM-5.3 wins pass@4 at half the cost, and a GLM-first cascade hits 85.9%.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/glm-5-3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
+          "published_at": "Fri, 21 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "c00ce7b9015f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "GLM-5.3 vs. GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+          "extracted_excerpt": "We ran 904 DeepSWE rollouts on GLM-5.3 and GPT-5.6 Sol. Sol leads pass@1 by 3.7 points; GLM-5.3 wins pass@4 at half the cost, and a GLM-first cascade hits 85.9%.",
+          "extracted_text_for_analysis": "Don't pick one. Run GLM-5.3 first, escalate to GPT-5.6 Sol when the tests fail. That cascade solves 85.9% of DeepSWE tasks at \\$6.61 each. Sol alone solves 72.7% at \\$8.37. Thirteen points better, 21% cheaper. - Sol wins the single shot, narrowly. 72.7% pass@1 against GLM-5.3's 69.0%, a 3.7 point gap that sits inside a couple of standard deviations. - GLM-5.3 wins every retry after that. It ties Sol at pass@2 (81.1 vs. 81.0) and leads pass@4 (87.6% vs. 85.8%). - The price gap is 2.1x. \\$3.99 per rollout against \\$8.37. Per \\$100 spent, GLM-5.3 solves 17 tasks and Sol solves 9. - Sol is faster and steadier: 19 minutes and 61 steps per rollout against GLM's 35 and 124, with 61 tasks solved four for four against 48. - GLM-5.3's failures are cleaner. It breaks tests that already passed in 11% of its failures, against 20% for Sol. Gate Sol's diffs on regressions. - The two diverge (0.43 per-task correlation) and cover 106 of 113 tasks between them, which is what makes the cascade work. We ran GLM-5.3 (max) against GPT-5.6 Sol (max) on all 113 DeepSWE tasks, four trials each, from the published per-trial records: 904 rollouts in total, 452 per side. Sol is the precision flagship. GLM-5.3 is the open-weight challenger that closed the gap. Every figure below comes from this run, so it can differ from other public GLM-5.3 vs. GPT-5.6 Sol scorecards. GPT-5.6 Sol still holds the single-shot crown on DeepSWE, a benchmark that tests a model's software engineering ability across many task types and programming languages. GLM-5.3 arrives less than four points behind it at half the price and pulls ahead the moment you allow more than one attempt. This is the closest the open tier has come to the frontier, and the question worth answering is what Sol's remaining premium actually buys. The DeepSWE scoreboard: pass@1 and pass@k Single shot, Sol edges ahead: 72.7% pass@1 to GLM-5.3's 69.0% under DeepSWE's official scoring. Allow retries and the order flips. At two attempts GLM-5.3 (81.1%) already ties Sol (81.0%); at four, GLM-5.3's 87.6% pass@4 leads 85.8%. The open model has the wider reach, so in any best-of-k setting it is the more accurate choice, and its extra attempts cost half of Sol's. Cost comparison: GLM-5.3 vs. GPT-5.6 Sol pricing At \\$3.99 a rollout, GLM-5.3 is 2.1x cheaper than Sol (\\$8.37), which in value terms is 17 solves per \\$100 against Sol's 9. Sol buys that premium back on latency: an average 19 minutes and 61 steps against GLM's 35 minutes and 124 steps, with 60k output tokens to GLM's 80k. The tradeoff is unusually clean. Sol is the faster, terser worker; GLM-5.3 is the lower-cost one that takes the long route. If a human is waiting, Sol earns its premium on latency alone. If a budget or a batch queue is waiting, GLM-5.3 is the better buy. Coverage vs. reliability: precision vs. reach Decompose pass@1 and pass@4 into coverage (tasks solved at least once across four tries) and reliability (tasks solved on all four), and the split is clean. Sol is the precision corner: 84.5% reliability and 61 tasks solved four for four, the marks of a model that lands what it touches. GLM-5.3 trades to the other axis: wider coverage at 87.6% against 85.8%, but lower reliability at 78.8% and fewer solid tasks, 48 against 61. That coverage edge is the same fact as its pass@4 lead. GLM-5.3 touches more of the benchmark than Sol and converts each touch a little less often per shot. Failure modes: how each model gets it wrong The failure profiles differ sharply, and the split favors the open model. Sol breaks the repository's existing test suite in 20% of its failures, the GPT-family regression signature. GLM-5.3 does so in 11%; when it misses, it usually misses forward, a near miss with the baseline intact, at a 61% near-miss rate against Sol's 54%. So the lower-cost model is also the safer one to accept without a heavy regression gate. Put a full regression run around Sol before you take its diff. GLM-5.3 needs that guardrail less. Where each wins, by task type The domain map splits evenly, four each. Sol takes data modeling and serialization (92%), build and ops tooling (73%), concurrency and durability (72%), and protocol conformance (59%), which is the exact-contract, systems-heavy work. GLM-5.3 takes query and config languages (88%, the highest single cell on the board), language and runtime internals (83%), stateful reactivity (73%), and program analysis, a 64 to 64 tie it holds on volume. That is the structured, interpreter-style work. GLM-5.3's one clear hole is protocol conformance at 44%, 15 points behind Sol. Sol has no single weak domain; it is simply strong across the board. Task types here were classified by an LLM from each benchmark prompt. GLM-5.3 vs. GPT-5.6 Sol by programming language GLM-5.3's standout is JavaScript at 90%, 15 points clear of Sol's 75 and the best JS number of any model on the board. It also takes Rust, 70 to 60. Sol answers with Python (74 to 66), Go (79 to 76), and TypeScript (66 to 61). The routing rule is simple: JavaScript and Rust to GLM-5.3, the rest to Sol, with GLM-5.3 a lower-cost and close second almost everywhere. How different are GLM-5.3 and GPT-5.6 Sol? Different enough to route on. Per-task correlation is 0.43, real disagreement for two models this close on aggregate. They both solve 90 tasks; GLM-5.3 alone gets 9, Sol alone gets 7, and 7 defeat both. Their union covers 106 of 113 tasks (93.8%), and the hard disagreements run one way: GLM-5.3 sweeps two tasks four for four that Sol never lands (koota-pair-relation-tracking, participle-grammar-conflict-analysis), while Sol sweeps none that GLM-5.3 zeros. The open model reaches places the flagship does not. Routing between them: the portfolio play That divergence plus the price makes the cascade the best row on the board. Run GLM-5.3 first and escalate to Sol only when your test suite rejects the answer: 85.9% solved at \\$6.61 per task. That is thirteen points above Sol alone (72.7%) and still cheaper than one Sol rollout (\\$8.37), because the open model clears most of the queue at half of Sol's price and the hard remainder gets a second independent attempt. The cascade also beats a perfect one-shot oracle router (83.8%), because two independent attempts beat one perfect pick. Expected accuracy is the same whichever model leads, but GLM-first is cheaper (\\$6.61 against \\$9.47), so lead with the lower-cost model. What it means GPT-5.6 Sol keeps the single-shot crown and the things that come with it: the highest first-try rate, the highest reliability, and by far the fastest and most concise runs. You pay roughly double for that, and you must guardrail its 20% regression rate. GLM-5.3 is the value and best-of-k pick: within four points on the first shot, ahead on pass@2, pass@4, and coverage, at half the price, with a cleaner failure profile and the best JavaScript on the board. Its real weaknesses against Sol are protocol conformance and raw speed. And because the two genuinely",
+          "title_zh": "Together AI Blog 推进代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI Blog 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI Blog，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GLM-5.3 vs. GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+              "source_url": "https://www.together.ai/blog/glm-5-3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We ran 904 DeepSWE rollouts on GLM-5.3 and GPT-5.6 Sol. Sol leads pass@1 by 3.7 points; GLM-5.3 wins pass@4 at half the cost, and a GLM-first cascade hits 85.9%.",
+              "source_url": "https://www.together.ai/blog/glm-5-3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing"
+            }
+          ],
+          "slug": "glm-5-3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing-c00ce7b9",
+          "localized_url": "/zh/items/2026-08-24/glm-5-3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing-c00ce7b9/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GLM-5.3 vs. Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
+          "title_original": "GLM-5.3 vs. Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
+          "title_en": "GLM-5.3 vs. Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
+          "summary_zh": "Claude 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "We ran 904 DeepSWE rollouts on GLM-5.3 and Claude Fable 5. A tie on pass@1, but GLM-5.3 wins pass@4 and costs 5.4x less: \\$3.99 per rollout vs. \\$21.63.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/glm-5-3-vs-claude-fable-5-on-deepswe-cost-coding-and-routing",
+          "published_at": "Fri, 21 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "0ecbe8ea8375",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "GLM-5.3 vs. Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
+          "extracted_excerpt": "We ran 904 DeepSWE rollouts on GLM-5.3 and Claude Fable 5. A tie on pass@1, but GLM-5.3 wins pass@4 and costs 5.4x less: \\$3.99 per rollout vs. \\$21.63.",
+          "extracted_text_for_analysis": "GLM-5.3 and Claude Fable 5 finish within noise of each other on DeepSWE accuracy, but GLM-5.3 costs a fifth as much per task and wins every multi-attempt metric. When two models are this close on quality, the price gap becomes the entire decision. - The first attempt is level. Fable 5 posts 69.7% pass@1 and GLM-5.3 posts 69.0%, a 0.7 point gap that sits inside the error bars on both sides. - GLM-5.3 owns the retries. It leads pass@2 (81.1% vs. 77.1%) and pass@4 (87.6% vs. 84.1%), so it has the higher ceiling as well as the lower price. - The cost gap is 5.4x. \\$3.99 per rollout vs. \\$21.63. Per \\$100 spent, GLM-5.3 solves 17 tasks and Fable solves 3. - They are near-substitutes. Per-task correlation is 0.65, the highest agreement in this set, so running both adds little coverage. Keep the lower-cost model and escalate to Fable only for Rust and serialization work. In our GLM-5.3 vs. Claude Fable 5 comparison on DeepSWE, a benchmark that tests a model's software engineering ability across many task types and programming languages, the two models are almost impossible to separate on quality. Fable 5 leads pass@1 by 0.7 points. It also costs 5.4x more per rollout and is the single most expensive configuration on the DeepSWE board. That combination makes the interesting question a narrow one: what does the premium buy when the accuracy is the same? We ran GLM-5.3 (max) against Claude Fable 5 (max) on all 113 DeepSWE tasks, four trials each, from the published per-trial records: 904 rollouts in total, 452 per model. Both belong to the disciplined, low-regression school, which is why they behave so much alike. Every figure below comes from this run, so it can differ from other public GLM-5.3 vs. Claude Fable 5 scorecards. The DeepSWE scoreboard: pass@1 and pass@k Single shot it is a tie. Fable 5 solves 69.7% of tasks on the first try under DeepSWE's official scoring, GLM-5.3 solves 69.0%, a gap well inside the noise band. The models separate once you allow retries, and they separate in GLM's favor. At two attempts GLM-5.3 leads 81.1% to 77.1%. At four it leads 87.6% to 84.1%. The open model matches Fable's first-shot accuracy at a fraction of the price, and it also holds the higher ceiling once retries are allowed. There is no attempt count at which paying 5.4x for Fable buys more coverage. Cost comparison: GLM-5.3 vs. Claude Fable 5 pricing At $3.99 a rollout, GLM-5.3 is 5.4x lower-cost than Fable at \\$21.63: 17 solves per \\$100 against Fable's 3. Fable is the most expensive configuration on the board, and the price does not come with a speed penalty for GLM. GLM-5.3 averages 35 minutes per rollout against Fable's 34, roughly even. The token profile explains the shape of the run. GLM-5.3 is the less verbose model (80k output tokens to Fable's 114k) despite taking more steps (124 vs. 85). Fable writes more per step, GLM takes more and lower-cost steps. Neither is faster, but only one costs a fifth as much. Coverage vs. reliability: where GLM-5.3 and Fable 5 differ Decompose pass@1 into coverage (tasks solved at least once) and reliability (pass rate on those tasks) and the two land near the same corner of the plane, with GLM reaching slightly further. GLM-5.3 has the higher coverage at 87.6% against Fable's 84.1%. Fable is marginally steadier per attempt at 82.0% reliability against 78.8%, and solves more tasks four-for-four (56 vs. 48). In practice both behave like disciplined generalists, with GLM trading a sliver of per-shot reliability for meaningfully wider reach across the benchmark. Failure modes: how each model gets it wrong This is where the family resemblance is clearest. Both models regress the existing test suite in only 11% of failures, far below the GPT-family's 20%, so both are safe to accept without heavy regression gating. The differences are small. Fable carries the larger big-miss share (18% vs. GLM's 16%), meaning that when it is wrong it is slightly more often badly wrong. GLM fails by near miss a little more often (61% vs. 57%). Broadly, these two fail the same disciplined way, which is exactly why their results are so correlated. Where each wins, by task type Despite the tie on pass@1, the domain maps are not identical. GLM-5.3 takes the structured, interpreter-style work: query and config (88 vs. 72), language and runtime internals (83 vs. 78), stateful reactivity (73 vs 64), concurrency and durability (62 vs 45), and program analysis (64 vs 56). That concurrency result is a 17-point gap in Fable's weakest domain. Fable answers with the exact-contract domains: data modeling and serialization (88 vs. 79), build and ops (71 vs. 68), and protocol conformance (55 vs. 44), which is GLM's weakest area. GLM wins five domains to Fable's three, and Fable's 45% on concurrency is the one lane to keep it out of entirely. GLM-5.3 vs. Claude Fable 5 by programming language Fable's case rests almost entirely on one language. Its Rust is 85% to GLM's 70, a 15-point margin and the widest single-language gap in the matchup. Serialization-heavy work is the natural companion to that strength. GLM answers with the best JavaScript on the board (90 vs 75), near-parity on Go (76 vs 71), and TypeScript (61 vs 57). Fable holds Python (70 vs 66). Outside Rust and serialization-heavy work, there is no language where Fable's 5.4x premium buys a meaningful accuracy edge. How similar are GLM-5.3 and Claude Fable 5? Here is the catch for anyone hoping to run both. Per-task correlation between GLM-5.3 and Fable is 0.65, the highest agreement of any pairing in this set. Both solve 88 tasks. GLM alone gets 11, Fable alone gets 7, and 7 defeat both, with no four-for-zero disagreements in either direction. Their union covers 106 of 113 tasks (93.8%), but because they succeed and fail on largely the same tasks, pairing them adds less diversity than pairing either with a GPT-family model. They are near-substitutes, and when two models substitute, you keep the lower-cost one. Routing between them: the portfolio play If you do run both, the order and the economics still favor the open model as the front-end. Run GLM-5.3 first and escalate to Fable only when your test suite rejects the answer: 81.1% solved at \\$10.74 per task. That is eleven points above Fable alone (69.7%) for half of Fable's own per-task price (\\$21.63). Given the 0.65 correlation, the honest recommendation is simpler: for most work GLM-5.3 alone captures nearly everything Fable would, at a fifth of the cost, and Fable is worth escalating to only for its Rust and serialization specialties. What it means Fable 5 and GLM-5.3 are a statistical tie on first-shot accuracy, and that is where the parity ends. GLM-5.3 is 5.4x lower-cost, higher on pass@2, pass@4, and coverage, less verbose, equally disciplined on regressions, and it wins five of eight domains plus the best JavaScript on the board. Fable is the most expensive model measured here and, against GLM, wins only three domains plus a genuine Rust and serialization",
+          "title_zh": "Claude 推进代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Claude 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GLM-5.3 vs. Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
+              "source_url": "https://www.together.ai/blog/glm-5-3-vs-claude-fable-5-on-deepswe-cost-coding-and-routing"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We ran 904 DeepSWE rollouts on GLM-5.3 and Claude Fable 5. A tie on pass@1, but GLM-5.3 wins pass@4 and costs 5.4x less: \\$3.99 per rollout vs. \\$21.63.",
+              "source_url": "https://www.together.ai/blog/glm-5-3-vs-claude-fable-5-on-deepswe-cost-coding-and-routing"
+            }
+          ],
+          "slug": "glm-5-3-vs-claude-fable-5-on-deepswe-cost-coding-and-routing-0ecbe8ea",
+          "localized_url": "/zh/items/2026-08-24/glm-5-3-vs-claude-fable-5-on-deepswe-cost-coding-and-routing-0ecbe8ea/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Deployment Storage keeps your deployments rollback-ready",
+          "title_original": "Deployment Storage keeps your deployments rollback-ready",
+          "title_en": "Deployment Storage keeps your deployments rollback-ready",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Every deployment produces a set of files, including the pages, functions, and assets Vercel serves. Deployment Storage keeps those files available so you can inspect previous deployments and roll back when needed. Instantly roll back to previous deployments",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/deployment-storage-keeps-your-deployments-rollback-ready",
+          "published_at": "2026-08-21T05:00:00.000Z",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "06e863219670",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Deployment Storage keeps your deployments rollback-ready",
+              "source_url": "https://vercel.com/changelog/deployment-storage-keeps-your-deployments-rollback-ready"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Every deployment produces a set of files, including the pages, functions, and assets Vercel serves. Deployment Storage keeps those files available so you can inspect previous deployments and roll back when needed.",
+              "source_url": "https://vercel.com/changelog/deployment-storage-keeps-your-deployments-rollback-ready"
+            }
+          ],
+          "slug": "deployment-storage-keeps-your-deployments-rollback-ready-06e86321",
+          "localized_url": "/zh/items/2026-08-24/deployment-storage-keeps-your-deployments-rollback-ready-06e86321/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel CLI expands support for DNS, domains, and project commands",
+          "title_original": "Vercel CLI expands support for DNS, domains, and project commands",
+          "title_en": "Vercel CLI expands support for DNS, domains, and project commands",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "The Vercel CLI now provides dedicated commands for managing DNS records, domains, and projects. This brings more of the functionality available through the Vercel dashboard and API to the terminal, where it can be used interactively, in scripts, or by agents.",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-cli-expands-support-for-dns-domains-and-project-commands",
+          "published_at": "2026-08-21T00:00:00.000Z",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "084c45658e59",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel CLI expands support for DNS, domains, and project commands",
+              "source_url": "https://vercel.com/changelog/vercel-cli-expands-support-for-dns-domains-and-project-commands"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The Vercel CLI now provides dedicated commands for managing DNS records, domains, and projects. This brings more of the functionality available through the Vercel dashboard and API to the terminal, where it can be used",
+              "source_url": "https://vercel.com/changelog/vercel-cli-expands-support-for-dns-domains-and-project-commands"
+            }
+          ],
+          "slug": "vercel-cli-expands-support-for-dns-domains-and-project-commands-084c4565",
+          "localized_url": "/zh/items/2026-08-24/vercel-cli-expands-support-for-dns-domains-and-project-commands-084c4565/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway",
+          "title_original": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway",
+          "title_en": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "DeepSeek V4 Flash with vision is now available on AI Gateway. This model is an experimental version that accepts images alongside text. You can ask it to describe a picture, read text out of a screenshot, or work through a chart in the same request as your",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway",
+          "published_at": "2026-08-21T00:00:00.000Z",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1c4006ddea3c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "DeepSeek V4 Flash with vision is now available on AI Gateway. This model is an experimental version that accepts images alongside text. You can ask it to describe a picture, read text out of a screenshot, or work",
+              "source_url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "deepseek-v4-flash-vision-experimental-now-available-on-ai-gateway-1c4006dd",
+          "localized_url": "/zh/items/2026-08-24/deepseek-v4-flash-vision-experimental-now-available-on-ai-gateway-1c4006dd/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Connect v0 apps to Slack, Google, and 100+ other services",
+          "title_original": "Connect v0 apps to Slack, Google, and 100+ other services",
+          "title_en": "Connect v0 apps to Slack, Google, and 100+ other services",
+          "summary_zh": "Google 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Apps and agents built in v0 can now securely connect to 100+ third-party services , including Slack, Google, Notion, GitHub, and Salesforce, through Vercel Connect . Prompt v0 to connect your app to a service, and it walks you through setting up a connector",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/connect-v0-apps-to-slack-google-and-100-other-services",
+          "published_at": "2026-08-21T00:00:00.000Z",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cc41a8d8496a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Google 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Google，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Connect v0 apps to Slack, Google, and 100+ other services",
+              "source_url": "https://vercel.com/changelog/connect-v0-apps-to-slack-google-and-100-other-services"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Apps and agents built in v0 can now securely connect to 100+ third-party services , including Slack, Google, Notion, GitHub, and Salesforce, through Vercel Connect . Prompt v0 to connect your app to a service, and it",
+              "source_url": "https://vercel.com/changelog/connect-v0-apps-to-slack-google-and-100-other-services"
+            }
+          ],
+          "slug": "connect-v0-apps-to-slack-google-and-100-other-services-cc41a8d8",
+          "localized_url": "/zh/items/2026-08-24/connect-v0-apps-to-slack-google-and-100-other-services-cc41a8d8/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Manage Vercel Toolbar comments from the CLI",
+          "title_original": "Manage Vercel Toolbar comments from the CLI",
+          "title_en": "Manage Vercel Toolbar comments from the CLI",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now use the Vercel CLI to manage Vercel Toolbar comments. vercel comments covers the full triage loop: List and filter unresolved comments for the linked project, scoped to your current Git branch Inspect a full thread with every message and its IDs",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/manage-vercel-toolbar-comments-from-the-cli",
+          "published_at": "2026-08-20T18:03:00.000Z",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "33fa81b4620b",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Manage Vercel Toolbar comments from the CLI",
+              "source_url": "https://vercel.com/changelog/manage-vercel-toolbar-comments-from-the-cli"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now use the Vercel CLI to manage Vercel Toolbar comments. vercel comments covers the full triage loop: List and filter unresolved comments for the linked project, scoped to your current Git branch Inspect a full",
+              "source_url": "https://vercel.com/changelog/manage-vercel-toolbar-comments-from-the-cli"
+            }
+          ],
+          "slug": "manage-vercel-toolbar-comments-from-the-cli-33fa81b4",
+          "localized_url": "/zh/items/2026-08-24/manage-vercel-toolbar-comments-from-the-cli-33fa81b4/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
+          "title_original": "MindTopo reveals VLMs’ spatial reasoning abilities",
+          "title_en": "MindTopo reveals VLMs’ spatial reasoning abilities",
+          "summary_zh": "Microsoft 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals VLMs’ spatial reasoning abilities appeared",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
+          "published_at": "Wed, 12 Aug 2026 16:00:00 +0000",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Benchmark"
+          ],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "e8e7671fcde2",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。",
+            "涉及公司或机构：Benchmark。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "benchmark",
+              "explanation": "用于衡量模型能力的任务集合或评测体系。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "MindTopo reveals VLMs’ spatial reasoning abilities",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "A path, a fence, a knot. MindTopo sets a new benchmark for testing how AI understands topological relationships and highlights new opportunities to strengthen spatial reasoning and planning. The post MindTopo reveals",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/"
+            }
+          ],
+          "slug": "mindtopo-reveals-vlms-spatial-reasoning-abilities-0377a19f",
+          "localized_url": "/zh/items/2026-08-24/mindtopo-reveals-vlms-spatial-reasoning-abilities-0377a19f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+          "title_original": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+          "title_en": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+          "summary_zh": "Microsoft 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation. The post Introducing CARE-X: Towards Clinically Useful",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
+          "published_at": "Tue, 11 Aug 2026 16:00:00 +0000",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "296b95d62f19",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation. The post",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/"
+            }
+          ],
+          "slug": "introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxilia-daffd14d",
+          "localized_url": "/zh/items/2026-08-24/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxilia-daffd14d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Broadening access to Skala creates a faster path to predictive DFT",
+          "title_original": "Broadening access to Skala creates a faster path to predictive DFT",
+          "title_en": "Broadening access to Skala creates a faster path to predictive DFT",
+          "summary_zh": "Microsoft 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to track computational performance. The post",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
+          "published_at": "Thu, 20 Aug 2026 16:00:00 +0000",
+          "fetched_at": "2026-08-23T22:40:54.857308+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Benchmark"
+          ],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "ed976920bb98",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。",
+            "涉及公司或机构：Benchmark。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "benchmark",
+              "explanation": "用于衡量模型能力的任务集合或评测体系。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Broadening access to Skala creates a faster path to predictive DFT",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry ecosystem, and a living benchmark to",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/"
+            }
+          ],
+          "slug": "broadening-access-to-skala-creates-a-faster-path-to-predictive-dft-6dd0bcee",
+          "localized_url": "/zh/items/2026-08-24/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft-6dd0bcee/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-23",
       "title_zh": "AI 新闻简报 · 2026-08-23",
