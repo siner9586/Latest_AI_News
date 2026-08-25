@@ -1,7 +1,1219 @@
 {
-  "updated_at": "2026-08-24T22:46:51.771522+00:00",
-  "count": 69,
+  "updated_at": "2026-08-25T22:47:57.124525+00:00",
+  "count": 70,
   "briefs": [
+    {
+      "date": "2026-08-26",
+      "title_zh": "AI 新闻简报 · 2026-08-26",
+      "title_en": "English AI News Brief · 2026-08-26",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 129 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 129 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 129,
+      "selected_count": 18,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "The full stack behind abundant intelligence",
+          "title_original": "The full stack behind abundant intelligence",
+          "title_en": "The full stack behind abundant intelligence",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+          "published_at": "Tue, 25 Aug 2026 07:05:00 GMT",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "829e237a888d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "The full stack behind abundant intelligence",
+          "extracted_excerpt": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+          "extracted_text_for_analysis": "Progress in AI compounds fastest when the entire system improves together. That is how I think about OpenAI’s compute strategy: one integrated system spanning data centers and chips, frontier models, our developer platform, consumer and enterprise products, and AI-native devices, with each layer strengthening the next. Better software makes hardware more productive. Hardware designed for our workloads improves speed and efficiency. More capable models unlock better products, which generate more demand, usage, and learning. Those signals flow back through the system and help us improve it again. Today, we shared the first measured performance results from Jalapeño, OpenAI’s first custom inference chip. On InferenceX, a public benchmark using GPT‑OSS 120B, Jalapeño delivered more peak throughput per kilowatt and lower token latency than the commercial systems in the comparison. It also performed strongly on DeepSeek R1 and Kimi K2, showing that its gains extend across model families. Jalapeño gives us greater control over how our models run and over the economics of serving them. By developing the model, serving software, chip, memory, and network together, we can improve throughput, latency, energy efficiency, and cost as one system. It creates a credible first-party path alongside the accelerators we use from other partners, expanding our ability to match each workload to the strongest system at the right economics. We now have working first-party silicon with measured results, and future generations are already underway. Different workloads place different demands on the system. Frontier training, high-volume inference, and always-on agents have different requirements across chips, software, networks, power, and latency. Our goal is to stay on the Pareto frontier: continually seeking the strongest mix of capability, speed, reliability, efficiency, and cost for each workload. Different chips and providers lead on different dimensions, and the frontier keeps moving. Our portfolio gives us the range to meet those needs. Microsoft’s compute and NVIDIA’s chips have been foundational to OpenAI’s growth. Today, our portfolio also includes AWS, AMD, Broadcom, Cerebras, CoreWeave, Oracle, SB Energy and SoftBank. Each brings different strengths across cloud infrastructure, accelerated computing, low-latency inference, data-center development, and energy delivery. We actively manage this portfolio for both capability and economics. We use premium systems where capability matters most and optimize for efficiency where scale and cost matter more. Preserving credible choice across providers, hardware, and deployment models lets us direct demand toward the strongest performance per dollar, maintain pricing discipline as market conditions change, and move with the frontier as stronger technology emerges. Direct control adds leverage where tighter integration can improve the entire system. We partner where the ecosystem helps us move faster and build where co-design creates a meaningful advantage. Data centers create another point of leverage. Project Camellia in Georgia shows how we can design facilities around customer workloads while creating jobs, supporting local businesses, covering project infrastructure and energy costs, conserving water through a closed-loop system, and subjecting its commitments to an annual independent public audit. The value of this system is measured by what it produces: more useful intelligence from every unit of compute. Better models reach the right answer with fewer attempts. Smarter routing and context management reduce wasted work. Optimized software and purpose-built hardware improve speed and energy efficiency. On the Artificial Analysis Coding Agent Index, GPT‑5.6 Sol with max reasoning reached a new high while using 54% fewer output tokens than another leading model. For customers, improvements like these mean faster results, more dependable products, fewer retries, agents that complete longer workflows, and a lower total cost for successful work. The best economics come from useful intelligence per dollar. As useful intelligence becomes more capable and affordable, more work becomes economically practical. A company can provide tailored analysis to every customer, review every contract, run live financial scenarios, and help engineers test more ideas. This is Jevons paradox: greater efficiency makes more uses worthwhile, expanding consumption and creating new economic activity through more work completed, better decisions, more products launched, and more revenue generated. More productive compute and a more competitive supply base help us serve more customers at lower cost and carry those efficiency gains through to users. Growth funds continued investment in research, infrastructure, and safety. That is OpenAI’s compounding advantage: better technology creates better economics, better economics fund the next wave of progress, and every gain makes the whole system stronger.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The full stack behind abundant intelligence",
+              "source_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+              "source_url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence"
+            }
+          ],
+          "slug": "the-full-stack-behind-abundant-intelligence-829e237a",
+          "localized_url": "/zh/items/2026-08-26/the-full-stack-behind-abundant-intelligence-829e237a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "title_original": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "title_en": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "summary_zh": "OpenAI 更新了推理容量与成本控制方案，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/jalapeno-first-results",
+          "published_at": "Tue, 25 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9ad99bb5f40a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "extracted_excerpt": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+          "extracted_text_for_analysis": "Since announcing Jalapeño, OpenAI’s first custom inference chip, we have been testing the chip and the system built around it. The results show a significant performance advance: Jalapeño can serve more AI work per unit of power while also returning responses more quickly. Jalapeño delivers both higher throughput and lower latency with one architecture, where existing hardware systems often have to make a tradeoff between the two. For customers, that can mean faster responses, more responsive agents, and more reliable access as demand grows. Our mission is to ensure that artificial general intelligence benefits all of humanity. These gains will help make increasingly capable AI more affordable and more broadly available. OpenAI models also accelerated Jalapeño’s development. Earlier generations helped the team design and bring up the chip, while our latest models are accelerating how we optimize and program it. Jalapeño’s performance extends across GPT‑OSS 120B, DeepSeek R1, and Kimi K2.5 1T, showing that the architecture works across models developed both inside and outside OpenAI. Across all three, Jalapeño delivered 1.5 to 1.9 times more AI work per watt at peak throughput and 1.7 to 3.6 times lower end-to-end latency than the comparison systems. For highly interactive workloads, it delivered 2.1 to 4.1 times higher performance. Jalapeño is also evidence of a broader full-stack advantage. OpenAI can design models, products, serving software, chips, memory, networking, and systems together, using what we learn from real workloads to improve every layer of the stack. Jalapeño is working first-party silicon with measured results, and it is the beginning of a multigenerational platform. In the months ahead, we will ramp Jalapeño to deliver faster, more capable, and more efficient products for our customers. We evaluate performance at a matched user experience, measuring how much useful AI work each system can complete per unit of power while meeting the latency customers and interactive agents require. This matters especially for agents, which need to complete many steps in sequence, so delays can compound across an entire task. To understand how Jalapeño performs in practice, we tested it on InferenceX, a public benchmark from SemiAnalysis that measures the full process of serving an AI request. We compared Jalapeño with leading commercially available AI systems across the tested operating range, from high-throughput serving to highly interactive, low-latency use. Jalapeño delivered a better combination of throughput, power efficiency, and latency. Although performance is sometimes reported per chip, we believe the more useful standard is performance per unit of power. Across all three public models, Jalapeño delivered a better combination of performance per watt and latency across the tested operating range, placing it on the Pareto frontier. To compare the systems consistently, we normalized the results using each accelerator’s published chip power rating. Jalapeño is rated at 700 watts, although its measured sustained power remained at or below 550 watts on the workloads tested. Jalapeño performed strongly across GPT‑OSS 120B, DeepSeek R1 670B, and Kimi K2.5 1T. On Kimi, the largest public model we tested, it delivered approximately 1.5 times higher peak performance per watt and 3.4 times lower end-to-end latency than the comparison system. In our internal testing, Jalapeño’s advantage widened further on frontier OpenAI models, suggesting that the architecture becomes more valuable as workloads grow larger and more demanding. Jalapeño was designed from the start by asking: what hardware would we build if its primary job were serving modern and future language models, especially interactive agents? Jalapeño’s gains come from designing the chip, memory, network, software, and rack-scale system together around real language-model workloads. Language-model inference moves through several distinct phases with different bottlenecks. Prefill, when the system processes a prompt, is compute-intensive, while decode, when the system generates the response token by token, is constrained more by memory bandwidth. Communication can also add latency when data must move between cores and chips, leaving some processing units idle while they wait. A system that excels at one phase can lose that advantage while waiting for data or moving model state between different resources. We designed Jalapeño to minimize data movement and communication delays. This means that model state, including the KV cache used while generating a response, can be explicitly placed and kept local while the system activates the right combination of compute, memory, and networking for each inference phase. The network is integral to the architecture. Its large domain allows the entire workload to remain within one connected system, minimizing data movement and helping the complete request stay fast and efficient from beginning to end. The result is a balanced and fungible accelerator that can support changing model architectures, excel at both prefill and decode, and adapt as the balance between them changes, a defining feature of agentic workloads. AI played a direct role in Jalapeño’s development, enabling the team to move from initial design to tapeout in nine months by exploring implementations, shortening design, measurement, and verification loops, and continuously iterating on model workloads. AI also helped optimize the chip’s arithmetic circuits, allowing the team to fit more compute performance into the chip on schedule. Jalapeño was designed as a clear, predictable programming target for both humans and AI. Engineers can describe work through local tensors, explicit communication, and predictable synchronization. AI can then optimize how that work is mapped, placed, scheduled, and coordinated across the system. That clear, predictable structure gives AI a tractable way to tackle the traditionally difficult problem of parallel programming. Supporting each new model family still requires new kernels and model-specific optimizations. Using Codex with GPT‑Astra, the team brought three open-weight models that were not part of Jalapeño’s original production plan to high performance within two months. This demonstrated both the flexibility of the architecture and the speed at which AI can help us program it. For selected GPT‑OSS attention and mixture-of-experts blocks, AI-generated implementations ran 1.5 to 1.8 times faster than the existing human-expert-written implementations. Those figures apply to the selected blocks, not the full model, but they point toward a powerful new development loop. AI infrastructure is valuable because of the useful real-world work it enables. By producing more useful work from the same power and hardware, Jalapeño can help us serve more demand and lower the cost of delivering a successful result. For OpenAI, that can improve operating leverage by allowing useful work and",
+          "title_zh": "OpenAI 推进推理容量与成本控制方案",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            },
+            {
+              "term": "throughput",
+              "explanation": "单位时间内可处理的请求或 token 数，是推理基础设施的重要指标。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+              "source_url": "https://openai.com/index/jalapeno-first-results"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+              "source_url": "https://openai.com/index/jalapeno-first-results"
+            }
+          ],
+          "slug": "jalapenos-first-results-show-industry-leading-speed-and-efficiency-in-ai-9ad99bb5",
+          "localized_url": "/zh/items/2026-08-26/jalapenos-first-results-show-industry-leading-speed-and-efficiency-in-ai-9ad99bb5/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Disrupting a new covert influence campaign from Russia",
+          "title_original": "Disrupting a new covert influence campaign from Russia",
+          "title_en": "Disrupting a new covert influence campaign from Russia",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+          "published_at": "Tue, 25 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "da55f7d7bd9d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Disrupting a new covert influence campaign from Russia",
+          "extracted_excerpt": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+          "extracted_text_for_analysis": "Our mission is to ensure that artificial general intelligence benefits all of humanity. We advance this mission by deploying our innovations to build AI tools that help people solve hard problems. This includes building tools that enable us to detect, investigate, disrupt and expose covert influence operations (IO): deceptive attempts to manipulate public opinion or influence political outcomes without revealing the true identity or intentions of the actors behind them. We recently banned a cluster of ChatGPT accounts originating in Russia that were being used to promote the International Burke Institute (IBI), a self-described “expert community” based in Israel. What began as an investigation into AI-generated social media posts led us to a much broader influence operation, built around a website containing copied and misattributed academic work, a “sovereignty” index that cast Russia in a favourable light, and efforts to disguise the operators’ Russian origins. Although the campaign appears to have reached relatively small audiences, its elaborate construction distinguishes it from other Russia-linked(opens in a new window) influence(opens in a new window) operations(opens in a new window) we have disrupted(opens in a new window) since the start of the war in Ukraine. This report explains how the operation worked, where ChatGPT fit into it, and what we did to disrupt it. We banned a cluster of ChatGPT accounts that very likely originated in Russia. The operators prompted in Russian to generate social media comments that were posted on Substack, Telegram, X, Facebook and LinkedIn. Most of the comments they generated were in English, and the operators instructed ChatGPT to hide any linguistic clues that they were Russian. As we do not allow access to our models from Russia, they used VPNs to access our platform. Much of the generated content was to promote a self-described “expert community” called the International Burke Institute (IBI). The IBI brand was associated with a website which was registered in February 2025. This site claimed that the Institute was based in Israel. Articles published on the site were not generated from our models. Many were copied from real academic writings, sometimes with false attribution; some appear to have been drafted by a Slavic speaker and machine translated. As an example, the screenshot below from the IBI website uses an unnatural phrase that is most readily explained as a literal machine translation from a Slavic language. This is, to the best of our knowledge, a new and previously unreported covert influence campaign. Its most notable feature is its creation of the “sovereignty index” promoted by the ostensible “think tank” to praise Russia and denigrate Western countries. This is the first time we have disrupted an influence operation tied to Russia that went to such elaborate lengths. The operation’s main use of ChatGPT was to generate social media posts that promoted articles on the IBI website. We identified these posts on X, LinkedIn, Facebook, Substack and Telegram. Some were posted by accounts that bore the IBI name and logo; others appeared to come from everyday users (likely inauthentic) whose main activity consisted of posting IBI articles. Alongside these proactive posts, the operators also generated replies to posts by real Substack users on a range of topics. These replies typically included a request to follow the IBI channel, and were posted on Substack by the IBI account. As well as generating content about IBI, one of the operators generated German-language posts that were posted on a Telegram channel called “Lahme Ente” (“lame duck”). These posts routinely criticized Ukraine, the EU and the German government, and advocated for better relations with Russia. A second operator, alongside their IBI-related content, generated logos for a dozen Telegram channels (including Lahme Ente) focused on Germany, the USA, France, Poland and Türkiye. Some of these channels sometimes posted about IBI, or shared IBI’s own posts. The second operator also repeatedly asked for Russian-language summaries of these channels’ activity. One of the US-focused channels, posing as an American outlet, featured a bio that included multiple indicators of non-native language. The core of this operation appeared to be the International Burke Institute (IBI), although the activity we disrupted was focused on social media content promoting or linking to the website rather than content hosted directly on its website. The site presented itself as an “expert community” with a street address in Israel. As of 17 July, its website claimed a wide range of world-class experts, including luminaries such as Francis Fukuyama and Noam Chomsky, and published a wide array of research. However, in a review of a sample of 36 articles linked to experts on the IBI website and published between September 2025 and May 2026, 34 of the articles were copied from elsewhere on the internet. Some of these articles were years old; others were attributed to the wrong authors. For example, one article on the China-Pakistan Economic Corridor appears to have been copied from a Cambridge University Press original, but incorrectly attributed to a professor at the University of Nottingham whose expertise is in South Asian politics. Another article on migration governance appears to have been copied from the Migration Policy Institute, but misattributed to an Australian professor of food science. This behavior suggests a desire to make the IBI website look more legitimate by stocking it with authentic content while obfuscating that content’s actual source. Alongside these articles, the IBI website included reports on different countries and their sovereignty, as measured by the institute’s index. These were not generated using our models. Some of these reports were pitched as comparisons between two countries. Others focused on single countries, especially those which criticize Russia’s war on Ukraine such as France and Germany, and the European Union. The operation promoted similar narratives about the United States. These reports were typically critical, veering into the polemic; samples include: - France(opens in a new window): “Ten years of Macronism produced exactly the result that a manager who came to the Elysée Palace from the Rothschild Bank must have given: France was opened like a safe with historical capital, and now it is being sold off in parts.” - USA(opens in a new window): “Trump arrived [in Beijing] with the No. 1 sovereignty index in the world and left after taking a number of steps that [...] can be qualified as a voluntary reduction in autonomy.” - Germany(opens in a new window): “Germany needs an industrial policy that protects jobs, not just stock prices. The country needs an honest discussion about identity, without taboos and hysteria. It needs real military sovereignty, not dependence on American bases. And she needs politicians whose first loyalty is",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Disrupting a new covert influence campaign from Russia",
+              "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+              "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
+            }
+          ],
+          "slug": "disrupting-a-new-covert-influence-campaign-from-russia-da55f7d7",
+          "localized_url": "/zh/items/2026-08-26/disrupting-a-new-covert-influence-campaign-from-russia-da55f7d7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+          "title_original": "Introducing the Admin plugin for ChatGPT Work and Codex",
+          "title_en": "Introducing the Admin plugin for ChatGPT Work and Codex",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/introducing-admin-plugin",
+          "published_at": "Tue, 25 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cfc376addf8c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+          "extracted_excerpt": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+          "extracted_text_for_analysis": "We’re introducing the Admin plugin for ChatGPT Work(opens in a new window) and Codex(opens in a new window)—a faster, easier way to analyze workspace information, update settings, and act on requests. In one conversation, admins can ask a question, explore the details, make an authorized change, and confirm the result—without writing complex prompts or switching between tools. Managing a growing workspace often means moving between analytics, settings, and reports to understand issues and take action. This makes routine admin work slower and harder to complete consistently. By bringing admin analytics and supported actions together, the Admin plugin helps teams keep growing workspaces secure, productive, and within budget. With the Admin plugin, admins can complete their day-to-day tasks directly from ChatGPT Work and Codex, including but not limited to: - Understand adoption and usage. Review activity and credit usage across ChatGPT Work and Codex, identify where additional enablement may help and when members or groups are approaching credit limits. - Manage members and groups. Add or remove members, update groups, and complete routine onboarding, offboarding, and team changes. - Manage access and permissions. Review effective permissions, diagnose access issues, and control feature or model access by role or group. - Manage usage limits and spending requests. Adjust limits for members groups, and workspaces, review requests against current usage, and approve or deny them with context. Admins can also use the Admin plugin to automate recurring checks and high-volume requests—without custom engineering. These automations reduce manual monitoring, apply policies more consistently, and let admins focus on decisions that require their judgment. For example, the plugin can route pending usage requests to Slack or Microsoft Teams, where authorized reviewers can approve or deny them within the tools they already use. It can also monitor feature-access requests and automatically grant access when they meet predefined criteria, while routing exceptions for review. Admins remain in control throughout, and each workflow confirms when requested changes have been applied. The Admin plugin works within each user’s existing role and permissions; it does not grant broader access. Behind each request, the plugin maps the admin’s instructions to the appropriate supported read or write action and returns a structured result. It makes Admin Console capabilities available to ChatGPT Work and Codex as permission-aware tools, while honoring workspace policies and approval requirements. For each change, admins can see what they requested, whether the action completed, and what changed. They can review actions with broader impact before those actions are applied. At OpenAI, the Admin plugin changes the first step of workspace administration for the IT team. With the plugin, the team can simply ask questions to drill into the data, and generate reports and insights. “The value is far beyond faster reporting. The Admin plugin connects the question to the next supported action, whether that is checking someone’s effective permissions, updating a group, changing a usage limit, or reviewing a spending request. It gives admins a faster way to understand what is happening and take action, while preserving the same permissions and controls we already use.” The Admin plugin is one example of a broader shift in how OpenAI’s IT team uses ChatGPT Work and Codex. OpenAI’s IT team uses these tools to bring the relevant context and workflows into one place. - In Slack, a ChatGPT Work agent handles employee IT requests, triages and actions support tickets, retrieves context, checks approved policies, completes supported tasks, and escalates exceptions. At the time of reporting, deployed workflows resolved about ~45% of ticket volume - ChatGPT Work made it possible to turn support ticket data and history into operational health dashboards, giving IT continuous visibility into service performance. That visibility helped eliminate the backlog and changed how the team operates. Instead of reacting to service issues, the team now uses live data to set priorities and plan for demand, even as support volume roughly doubled. Getting started with the plugin in a few simple steps. First, enable the plugin in ChatGPT workspace settings, then install it from the Plugins directory in ChatGPT Work on the web or desktop app. Once installed, admins can manage day-to-day workspace tasks faster and more consistently.",
+          "title_zh": "OpenAI 发布模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing the Admin plugin for ChatGPT Work and Codex",
+              "source_url": "https://openai.com/index/introducing-admin-plugin"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+              "source_url": "https://openai.com/index/introducing-admin-plugin"
+            }
+          ],
+          "slug": "introducing-the-admin-plugin-for-chatgpt-work-and-codex-cfc376ad",
+          "localized_url": "/zh/items/2026-08-26/introducing-the-admin-plugin-for-chatgpt-work-and-codex-cfc376ad/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+          "title_original": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+          "title_en": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+          "summary_zh": "Hugging Face 更新了推理容量与成本控制方案，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face shares research or evaluation work, with attention to metrics, findings and practical limits.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/pwc-search",
+          "published_at": "Fri, 21 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Hugging Face"
+          ],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bcd3314d2ba2",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+          "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "extracted_text_for_analysis": "Of course, making AI research accessible requires a powerful search engine, so that humans and agents can quickly find relevant and related work, either through the website or the pwc search CLI command, which agents can use via the Skill. It's important to note that searching for research is not quite the same as searching for regular text. A useful paper search engine should find an exact title or arXiv identifier, but it should also understand a query such as “small language models for code generation” even when those words do not appear together in a paper. It needs to recognize that “the original BERT paper” is a navigational request, tolerate an incomplete title or typos, and still respond quickly when a model service is cold or temporarily unavailable. For Papers with Code, we built this as a hybrid search system. This is also based on our prior experience at ML6, where we developed RAG-based systems for clients. It turned out that hybrid search typically outperforms keyword- and vector-based search systems, as it combines the best of both worlds (see also this blog for more info). Keyword search finds exact mentions, whereas vector search finds more fuzzy, semantically similar terms. Note that rerankers (also called cross-encoders) can further improve the results, although they also come with additional overhead and latency. Papers with Code relies on a PostgreSQL database, hence its full-text search capabilities provide a fast lexical baseline. For dense embeddings, pgvector is used to add semantic recall, and the reciprocal rank fusion (RRF) algorithm combines the two. Three Hugging Face services are used for the dense embeddings: - Hugging Face Jobs gives us burstable GPU compute for embedding the paper corpus. - Hugging Face Storage Buckets provides the durable handoff between our database, experiments, and Jobs. - Hugging Face Inference Endpoints serves low-latency embeddings for live queries and incremental updates. Today, the system maintains embeddings for more than 110,000 current papers sourced from arXiv and Daily Papers. This post explains the architecture, the design decisions behind it, and the lessons we learned while taking it to production. We deliberately split search into an offline corpus build and an online search service: The expensive, throughput-oriented work runs as Jobs. Durable artifacts live in a Bucket. Only the small query-embedding step sits on the request path, behind a protected Inference Endpoint, to power the online search. If that endpoint is cold, busy, or unhealthy, search immediately falls back to full-text retrieval. This separation makes the system both powerful and fast. Embedding pipelines often fail in subtle ways: a model revision changes, query and document prompts are mixed up, vectors are truncated differently, or an updated abstract no longer matches its stored vector. We avoid this by treating the embedding format as a versioned API. Every paper is encoded as: normalized title + \"\\n\\n\" + normalized abstract For each vector generation, we record: - the model repository and exact revision; - the output dimension; - the input-format version; - whether the input is a query or a document; - the normalization method; - a content hash for the source title and abstract. Our production generation uses Qwen/Qwen3-Embedding-0.6B, pinned to an exact revision, with 256-dimensional L2-normalized vectors. We selected the model with help from the MTEB leaderboard, the go-to benchmark for comparing embedding models. Note that newer embedding models like Qwen3 allow for 2 new features: - one can specify a dynamic embedding size, which allows to trade-off quality with speed/storage costs. Qwen models call this \"MRL\" which is short for Matryoshka Representation Learning. You can learn all about it here. We chose an embedding size of 256 to make the search fast. - one can provide an instruction prompt. Qwen embedding models support a document prompt (which we use to embed the papers) and live searches use theirquery prompt (to embed the user query). This contract follows an embedding from export, through GPU inference, into PostgreSQL, and finally into online retrieval. Full-corpus embedding is a classic batch workload. It needs a GPU for a relatively short period, benefits from high throughput, and should not consume resources between runs. Hugging Face Jobs fits that shape well: a Job is defined by a command, a hardware flavor, and optionally a Docker image, and can run uv scripts with their dependencies declared inline. Our corpus build starts by exporting the latest version of every paper from a repeatable-read PostgreSQL snapshot. The exporter streams rows rather than loading the catalog into memory, writes bounded JSONL shards, and creates a manifest containing row counts and SHA-256 checksums. We sync that immutable run directory to a private Storage Bucket and mount the Bucket directly (using hf-mount) into an l4x1 Job (an NVIDIA L4 GPU, which has 24GB of VRAM). From the worker's perspective it is simply a filesystem: hf jobs uv run \\ --flavor l4x1 \\ --timeout 6h \\ --volume hf://buckets/OWNER/pwc-paper-embeddings:/bucket \\ embed_papers_job.py \\ --input /bucket/runs/RUN_ID/input \\ --output /bucket/runs/RUN_ID/output \\ --model Qwen/Qwen3-Embedding-0.6B \\ --revision MODEL_REVISION \\ --dimensions 256 \\ --allow-matryoshka The worker: - verifies the input manifest and every shard checksum; - loads the pinned model revision; - sorts texts by length to reduce padding; - calls encode_document in batches (as noted in the model card); - reduces the batch size automatically if the GPU runs out of memory; - truncates the Matryoshka representation to 256 dimensions and normalizes it; - writes float16 Parquet shards atomically; and - records throughput, package versions, hardware, peak VRAM, row counts, and output checksums. Each completed shard has its own marker, so a restarted Job can skip verified work. This is useful for a large corpus: retrying should just resume work rather than overwriting existing embeddings. In our 5,000-paper pilot, the Qwen Job encoded about 75 papers per second at 1024 dimensions on an L4 GPU. The same pass could be deterministically materialized at 512 and 256 dimensions, so we could compare the storage and retrieval trade-offs without paying for more inference. Storage Buckets are mutable, S3-like object storage on the Hub, optimized for AI workloads. They can be accessed through hf://buckets/... paths and mounted read-write in Jobs without building a separate storage integration. For us, the Bucket is more than a place to put vectors. It is the boundary between three systems with different lifecycles: - the production database exports source records; - ephemeral Jobs consume those records and produce vectors; - the importer validates the results before touching the search index. We organize artifacts under immutable run prefixes: runs/ / ├── input/ │ ├── manifest.json │ └── papers-*.jsonl └── output/ ├──",
+          "title_zh": "Hugging Face 推进推理容量与成本控制方案",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。",
+            "涉及公司或机构：Hugging Face。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+              "source_url": "https://huggingface.co/blog/pwc-search"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face shares research or evaluation work, with attention to metrics, findings and practical limits.",
+              "source_url": "https://huggingface.co/blog/pwc-search"
+            }
+          ],
+          "slug": "how-hugging-face-inference-endpoints-jobs-and-buckets-power-search-on-pa-bcd3314d",
+          "localized_url": "/zh/items/2026-08-26/how-hugging-face-inference-endpoints-jobs-and-buckets-power-search-on-pa-bcd3314d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Andrew Ng gets into AI Engineering",
+          "title_original": "[AINews] Andrew Ng gets into AI Engineering",
+          "title_en": "[AINews] Andrew Ng gets into AI Engineering",
+          "summary_zh": "Andrew Ng 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "An industry legend starts covering the inevitable!",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
+          "published_at": "Tue, 25 Aug 2026 02:50:57 GMT",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "podcasts-interviews",
+          "people": [
+            "Andrew Ng"
+          ],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 58.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ae2819cc8ddc",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Andrew Ng 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Andrew Ng，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Andrew Ng gets into AI Engineering",
+              "source_url": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering"
+            },
+            {
+              "label": "公开摘要",
+              "text": "An industry legend starts covering the inevitable!",
+              "source_url": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering"
+            }
+          ],
+          "slug": "ainews-andrew-ng-gets-into-ai-engineering-ae2819cc",
+          "localized_url": "/zh/items/2026-08-26/ainews-andrew-ng-gets-into-ai-engineering-ae2819cc/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028",
+          "title_original": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028",
+          "title_en": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028",
+          "summary_zh": "OpenAI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "\"Every force is screeching towards centralization.\"",
+          "source_name": "Dwarkesh Podcast",
+          "source_url": "https://www.dwarkeshpatel.com/",
+          "original_url": "https://www.dwarkesh.com/p/dylan-patel-3",
+          "published_at": "Tue, 25 Aug 2026 15:32:57 GMT",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Anthropic"
+          ],
+          "tags": [
+            "agi",
+            "economics",
+            "interview"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "56ff059d9704",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：agi、economics、interview。",
+            "涉及公司或机构：OpenAI、Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Dwarkesh Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028",
+              "source_url": "https://www.dwarkesh.com/p/dylan-patel-3"
+            },
+            {
+              "label": "公开摘要",
+              "text": "\"Every force is screeching towards centralization.\"",
+              "source_url": "https://www.dwarkesh.com/p/dylan-patel-3"
+            }
+          ],
+          "slug": "dylan-patel-anthropic-openai-will-have-most-of-the-worlds-compute-by-202-56ff059d",
+          "localized_url": "/zh/items/2026-08-26/dylan-patel-anthropic-openai-will-have-most-of-the-worlds-compute-by-202-56ff059d/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
+          "title_original": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
+          "title_en": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "NVIDIA is bringing the next wave of RTX gaming to the Gamescom conference running this week in Cologne, Germany, with support for new games, anti-cheat technologies and increased visual quality. Electronic Arts, Embark and Ubisoft are among the latest game",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology/",
+          "published_at": "Tue, 25 Aug 2026 15:30:48 +0000",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e48c8c80b889",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
+          "extracted_excerpt": "NVIDIA is bringing the next wave of RTX gaming to the Gamescom conference running this week in Cologne, Germany, with support for new games, anti-cheat technologies and increased visual quality.",
+          "extracted_text_for_analysis": "NVIDIA is bringing the next wave of RTX gaming to the Gamescom conference running this week in Cologne, Germany, with support for new games, anti-cheat technologies and increased visual quality. Electronic Arts, Embark and Ubisoft are among the latest game publishers and developers bringing their blockbuster titles to NVIDIA RTX Spark ahead of its launch this fall. They join the publishers that announced RTX Spark support at COMPUTEX in May, including KRAFTON, NetEase, Riot Games and XBOX. NVIDIA is working closely with game developers and ecosystem partners to ensure today’s top PC games — including EA’s EA SPORTS F1 25 and Apex Legends, Ubisoft’s Anno 117: Pax Romana and Embark Studios’ ARC Raiders and THE FINALS — run seamlessly on RTX Spark devices. “We’re excited to bring Anno 117: Pax Romana to a new generation of RTX-powered PCs,” said Stéphane Jankowski, Ubisoft executive producer of Anno 117 : Pax Romana. “Our teams build the game to be seen wide: full districts, long sightlines, thousands of details at once. Seeing RTX Spark hold that level of fidelity from a single chip is genuinely impressive.” RTX Spark reinvents personal computing, bringing personal AI agents, advanced content creation and high-performance gaming together in a platform engineered from the ground up for the next wave of Windows PCs. For gamers, RTX Spark combines Windows devices with NVIDIA RTX technologies, including DLSS and Reflex. Bringing Anti-Cheat to RTX Spark Supporting modern PC gaming goes beyond running the game itself. Many of today’s biggest online games rely on sophisticated anti-cheat technologies, to enable fair play across the multiple platforms these games run on. NVIDIA has been working with EA to bring native EA Javelin Anticheat support to RTX Spark, including for EA’s biggest multiplayer games, such as EA SPORTS F1 25. RTX Spark launches this fall. RTX Delivers Next-Generation Gaming RTX Spark is just one part of NVIDIA’s lineup of gaming announcements at Gamescom, including: - DLSS 4.5 Ray Reconstruction is available now, featuring NVIDIA’s latest second-generation transformer model to deliver even higher image quality in ray- and path-traced content. It replaces traditional denoisers with an NVIDIA supercomputer-trained AI network to reconstruct higher-quality pixels in the parts of a ray-traced frame where rays were not sampled. - Path tracing comes to CONTROL Resonant and 007 First Light to deliver new levels of visual fidelity. - NVIDIA ACE technologies are coming to Aniimo in early 2027, letting players naturally interact with their creatures. - Gears of War: E-Day includes RTX Mega Geometry integration, advancing image quality on GeForce RTX GPUs, alongside ray tracing and DLSS 4.5. - RTX Remix keeps remastering PC classics, with a major Painkiller RTX mod update available now and The Elder Scrolls III: Morrowind RTX coming soon. - GeForce NOW gives members more ways to play with new DLSS 4.5 controls, expanded support for Steam Machine and other devices and platforms, plus blockbuster PC games including CONTROL Resonant, Gears of War: E-Day and more coming to the cloud at launch. Find more on NVIDIA’s announcements at Gamescom in this GeForce article.",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
+              "source_url": "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "NVIDIA is bringing the next wave of RTX gaming to the Gamescom conference running this week in Cologne, Germany, with support for new games, anti-cheat technologies and increased visual quality. Electronic Arts, Embark",
+              "source_url": "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology/"
+            }
+          ],
+          "slug": "leading-publishers-bring-blockbuster-pc-games-and-technology-to-nvidia-r-67c0d574",
+          "localized_url": "/zh/items/2026-08-26/leading-publishers-bring-blockbuster-pc-games-and-technology-to-nvidia-r-67c0d574/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Granite 4.2 LLMs: How They're Built",
+          "title_original": "Granite 4.2 LLMs: How They're Built",
+          "title_en": "Granite 4.2 LLMs: How They're Built",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+          "published_at": "Tue, 25 Aug 2026 15:14:14 GMT",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "74043a2c13e4",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Granite 4.2 LLMs: How They're Built",
+              "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-2"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-2"
+            }
+          ],
+          "slug": "granite-4-2-llms-how-they-re-built-74043a2c",
+          "localized_url": "/zh/items/2026-08-26/granite-4-2-llms-how-they-re-built-74043a2c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "title_original": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "title_en": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+          "published_at": "Tue, 25 Aug 2026 11:39:24 GMT",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f6b26e55a489",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+              "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing"
+            }
+          ],
+          "slug": "quantization-aware-healing-a-compressed-4-bit-model-that-outperforms-its-f6b26e55",
+          "localized_url": "/zh/items/2026-08-26/quantization-aware-healing-a-compressed-4-bit-model-that-outperforms-its-f6b26e55/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+          "title_original": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+          "title_en": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/gradio-workflow-guide",
+          "published_at": "Tue, 25 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2983dbf79834",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+              "source_url": "https://huggingface.co/blog/gradio-workflow-guide"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/gradio-workflow-guide"
+            }
+          ],
+          "slug": "wire-it-run-it-deploy-it-ai-workflows-in-gradio-2983dbf7",
+          "localized_url": "/zh/items/2026-08-26/wire-it-run-it-deploy-it-ai-workflows-in-gradio-2983dbf7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How to figure out your next career move",
+          "title_original": "How to figure out your next career move",
+          "title_en": "How to figure out your next career move",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Six essential questions to help you navigate change",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career",
+          "published_at": "Tue, 25 Aug 2026 13:04:15 GMT",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "65abe8951137",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How to figure out your next career move",
+              "source_url": "https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Six essential questions to help you navigate change",
+              "source_url": "https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career"
+            }
+          ],
+          "slug": "how-to-figure-out-your-next-career-move-65abe895",
+          "localized_url": "/zh/items/2026-08-26/how-to-figure-out-your-next-career-move-65abe895/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Why the Next AI Breakthrough May Come from Physics with Max Welling - #774",
+          "title_original": "Why the Next AI Breakthrough May Come from Physics with Max Welling - #774",
+          "title_en": "Why the Next AI Breakthrough May Come from Physics with Max Welling - #774",
+          "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The conventional wisdom in AI is that the next breakthrough will come from more compute, more data, and larger models. But what if the next leap comes from somewhere else? In this episode, Max Welling—co-founder and CTO of CuspAI and professor at the",
+          "source_name": "TWIML AI Podcast",
+          "source_url": "https://twimlai.com/podcast/twimlai/",
+          "original_url": "https://twimlai.com/podcast/twimlai/why-next-ai-breakthrough-may-come-physics",
+          "published_at": "Tue, 25 Aug 2026 19:33:00 -0000",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "podcast",
+            "research"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "5610b3a91d61",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "TWIML AI Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 TWIML AI Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、podcast、research。"
+          ],
+          "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Why the Next AI Breakthrough May Come from Physics with Max Welling - #774",
+              "source_url": "https://twimlai.com/podcast/twimlai/why-next-ai-breakthrough-may-come-physics"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The conventional wisdom in AI is that the next breakthrough will come from more compute, more data, and larger models. But what if the next leap comes from somewhere else? In this episode, Max Welling—co-founder and CTO",
+              "source_url": "https://twimlai.com/podcast/twimlai/why-next-ai-breakthrough-may-come-physics"
+            }
+          ],
+          "slug": "why-the-next-ai-breakthrough-may-come-from-physics-with-max-welling-774-5610b3a9",
+          "localized_url": "/zh/items/2026-08-26/why-the-next-ai-breakthrough-may-come-from-physics-with-max-welling-774-5610b3a9/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Proficiency: From Users to Builders",
+          "title_original": "AI Proficiency: From Users to Builders",
+          "title_en": "AI Proficiency: From Users to Builders",
+          "summary_zh": "Practical AI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "As AI continues to reshape how organizations work, companies are increasingly asking what AI proficiency should look like across their workforce, and how they can help employees adapt without simply mandating AI adoption. Our returning guest Mike Lewis, Chief",
+          "source_name": "Practical AI",
+          "source_url": "https://changelog.com/practicalai",
+          "original_url": "https://share.transistor.fm/s/0f57c0bc",
+          "published_at": "Tue, 25 Aug 2026 05:00:00 -0400",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "engineering",
+            "podcast"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "764cd4482f98",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Practical AI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Practical AI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、engineering、podcast。"
+          ],
+          "background_zh": "这条内容来自 Practical AI，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Proficiency: From Users to Builders",
+              "source_url": "https://share.transistor.fm/s/0f57c0bc"
+            },
+            {
+              "label": "公开摘要",
+              "text": "As AI continues to reshape how organizations work, companies are increasingly asking what AI proficiency should look like across their workforce, and how they can help employees adapt without simply mandating AI",
+              "source_url": "https://share.transistor.fm/s/0f57c0bc"
+            }
+          ],
+          "slug": "ai-proficiency-from-users-to-builders-764cd448",
+          "localized_url": "/zh/items/2026-08-26/ai-proficiency-from-users-to-builders-764cd448/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel applications are protected from Next.js August 2026 security vulnerabilities",
+          "title_original": "Vercel applications are protected from Next.js August 2026 security vulnerabilities",
+          "title_en": "Vercel applications are protected from Next.js August 2026 security vulnerabilities",
+          "summary_zh": "Vercel 推进了政府与国家安全合作原则，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Summary Two vulnerabilities affecting Next.js were disclosed in the August 2026 Security Release. Next.js applications hosted on Vercel are protected and require no customer action. Next.js August 2026 vulnerabilities Next.js disclosed the following critical",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/nextjs-august-2026-security-release",
+          "published_at": "2026-08-25T16:39:17.904Z",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6f4217543579",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进政府与国家安全合作原则",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel applications are protected from Next.js August 2026 security vulnerabilities",
+              "source_url": "https://vercel.com/changelog/nextjs-august-2026-security-release"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Summary Two vulnerabilities affecting Next.js were disclosed in the August 2026 Security Release. Next.js applications hosted on Vercel are protected and require no customer action. Next.js August 2026 vulnerabilities",
+              "source_url": "https://vercel.com/changelog/nextjs-august-2026-security-release"
+            }
+          ],
+          "slug": "vercel-applications-are-protected-from-next-js-august-2026-security-vuln-6f421754",
+          "localized_url": "/zh/items/2026-08-26/vercel-applications-are-protected-from-next-js-august-2026-security-vuln-6f421754/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Speed Insights now has a free tier",
+          "title_original": "Speed Insights now has a free tier",
+          "title_en": "Speed Insights now has a free tier",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Speed Insights now has a free tier that gives you a high-level performance overview from your real users. The new free tier: Is available on every plan, for any number of projects Includes 10,000 events per team, every 30 days Install Speed Insights:",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/speed-insights-free-tier",
+          "published_at": "2026-08-25T16:00:00.000Z",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9856d5eaa752",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Speed Insights now has a free tier",
+              "source_url": "https://vercel.com/changelog/speed-insights-free-tier"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Speed Insights now has a free tier that gives you a high-level performance overview from your real users. The new free tier: Is available on every plan, for any number of projects Includes 10,000 events per team, every",
+              "source_url": "https://vercel.com/changelog/speed-insights-free-tier"
+            }
+          ],
+          "slug": "speed-insights-now-has-a-free-tier-9856d5ea",
+          "localized_url": "/zh/items/2026-08-26/speed-insights-now-has-a-free-tier-9856d5ea/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing Run SDK: secure eval for your agents",
+          "title_original": "Introducing Run SDK: secure eval for your agents",
+          "title_en": "Introducing Run SDK: secure eval for your agents",
+          "summary_zh": "Vercel AI 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch real applications, some steps require authentication, while others need human approval. Executing that code with eval gives it the same",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/introducing-run",
+          "published_at": "2026-08-25T04:00:00.000Z",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "17ca6f25052a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing Run SDK: secure eval for your agents",
+              "source_url": "https://vercel.com/blog/introducing-run"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch real applications, some steps require authentication, while others need human approval. Executing",
+              "source_url": "https://vercel.com/blog/introducing-run"
+            }
+          ],
+          "slug": "introducing-run-sdk-secure-eval-for-your-agents-17ca6f25",
+          "localized_url": "/zh/items/2026-08-26/introducing-run-sdk-secure-eval-for-your-agents-17ca6f25/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The end of credential sprawl for agents",
+          "title_original": "The end of credential sprawl for agents",
+          "title_en": "The end of credential sprawl for agents",
+          "summary_zh": "Vercel AI 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an internal API. That reach is what makes it valuable, and it's also where the risk lives, because for years, granting it meant provisioning a",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
+          "published_at": "2026-08-25T04:00:00.000Z",
+          "fetched_at": "2026-08-25T22:47:54.928705+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d1fc64a6e1fc",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The end of credential sprawl for agents",
+              "source_url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an internal API. That reach is what makes it valuable, and it's also where the risk lives, because for",
+              "source_url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents"
+            }
+          ],
+          "slug": "the-end-of-credential-sprawl-for-agents-d1fc64a6",
+          "localized_url": "/zh/items/2026-08-26/the-end-of-credential-sprawl-for-agents-d1fc64a6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-25",
       "title_zh": "AI 新闻简报 · 2026-08-25",
