@@ -1,7 +1,653 @@
 {
-  "updated_at": "2026-08-28T06:09:43.235050+00:00",
-  "count": 72,
+  "updated_at": "2026-08-29T03:44:26.420534+00:00",
+  "count": 73,
   "briefs": [
+    {
+      "date": "2026-08-29",
+      "title_zh": "AI 新闻简报 · 2026-08-29",
+      "title_en": "English AI News Brief · 2026-08-29",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 143 条，入选 9 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 143 previously displayed items excluded, and 9 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 143,
+      "selected_count": 9,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Our decision on Cursor following its acquisition by SpaceX",
+          "title_original": "Our decision on Cursor following its acquisition by SpaceX",
+          "title_en": "Our decision on Cursor following its acquisition by SpaceX",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+          "published_at": "Fri, 28 Aug 2026 06:00:00 GMT",
+          "fetched_at": "2026-08-29T03:44:24.299762+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "092c8de02e8b",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Our decision on Cursor following its acquisition by SpaceX",
+          "extracted_excerpt": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+          "extracted_text_for_analysis": "Today, we notified SpaceX that we intend to wind down our contract providing OpenAI models to Cursor, with a proposed shutoff date of November 12, 2026. To maximize the time that developers can retain access to our models through Cursor, we are giving the maximum notice provided by our contract. This decision was incredibly tough, as we care deeply about our models being broadly available for developers. We are making this choice because we cannot be confident that SpaceX will use our technology within our terms of service, based on our experience with Elon Musk's companies violating contracts. To work with a large partner like SpaceX, we typically rely on custom contracts to ensure compliance with our terms of service and that the integration provides for safety at scale. After Musk acquired Twitter, now part of SpaceX, the company broke(opens in a new window) the terms of our contract (alongside many others). Under oath earlier this year, Musk admitted(opens in a new window) that xAI, now also part of SpaceX, had violated OpenAI’s terms of service (terms which are similar to xAI’s own). Our custom agreement with Cursor gives us a limited time window to cancel it after a change of control. As AI capabilities advance, we also have a new level of accountability to ensure our upcoming model, Astra, is being used in accordance with our terms. Given all of this, we’ve decided to hold the contract cancellation to the latest date we can while not providing future models to Cursor. We’ve worked with Cursor for nearly four years and have enormous respect for their team, their product, and what they’ve built for the developer community. We know that the people most affected by this decision are the developers who rely on OpenAI models in Cursor. We care about their experience in this transition and we’re ready to go above and beyond to support them.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Our decision on Cursor following its acquisition by SpaceX",
+              "source_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+              "source_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+            }
+          ],
+          "slug": "our-decision-on-cursor-following-its-acquisition-by-spacex-092c8de0",
+          "localized_url": "/zh/items/2026-08-29/our-decision-on-cursor-following-its-acquisition-by-spacex-092c8de0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Supporting Thailand’s next generation of AI startups",
+          "title_original": "Supporting Thailand’s next generation of AI startups",
+          "title_en": "Supporting Thailand’s next generation of AI startups",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+          "published_at": "Fri, 28 Aug 2026 02:00:00 GMT",
+          "fetched_at": "2026-08-29T03:44:24.299762+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0b00c80d502c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Supporting Thailand’s next generation of AI startups",
+          "extracted_excerpt": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+          "extracted_text_for_analysis": "Supporting Thailand’s next generation of AI startups OpenAI and Thailand’s Ministry of Higher Education, Science, Research and Innovation are launching an eight-week accelerator to help startups turn promising ideas into products ready for real-world use. Today in Bangkok, OpenAI and Thailand’s Ministry of Higher Education, Science, Research and Innovation (MHESI) announced a new accelerator to help Thai startups turn promising prototypes into products ready for real-world use and growth. The OpenAI x MHESI AI Accelerator brings together ten startups working across health, wellness, and education. It marks OpenAI’s first public-private partnership with the Thai government focused on supporting local startups, and is being delivered with partners including the National Innovation Agency (NIA), Mahidol University, and Techsauce. A compelling AI demonstration is only the beginning. Building a product that people can rely on is much harder. It takes careful testing, feedback from real users, strong safeguards, and a business model that can support the product as it grows. That work matters even more in healthcare and education, where the stakes are high and reliability is essential. Over eight weeks, participating founders will work with mentors from OpenAI and across Thailand’s technology, research, and startup communities to bridge the gap between prototype and deployment. Thailand combines strong technical talent with deep expertise in fields such as healthcare and education, supported by a fast-growing community of AI builders. Our internal data shows that Thailand ranks among the top 20 countries globally for ChatGPT weekly active users. Since the start of 2026, weekly active usage of Codex in Thailand has grown more than 350-fold, also placing the country among the top 20 globally for Codex usage. This momentum reflects how people across Thailand are increasingly using AI to write software, develop products, and get meaningful work done. The next step is to help more of those ideas move beyond early prototypes and become products people can use and trust. The accelerator’s first cohort includes five startups focused on medical and wellness AI, and five working in education. Both areas are central to Thailand’s long-term development and well suited to solutions that combine AI with deep local knowledge. An ageing population is increasing demand for new approaches to healthcare, prevention, and independent living. At the same time, stronger learning outcomes and preparation for an increasingly digital economy will be critical to the country’s future competitiveness. The ten participating startups are CARIVA, Wello Food, Dietz, Precisionize, FitSloth, Curico, insKru, Floaino, EasyKids Robotics, and Globish. Selected with NIA, the Ministry of Education, and the MHESI innovation network, the cohort includes teams that participated in the AIAT × OpenAI Codex Hackathon Bangkok earlier this year. Each company is focused on a specific problem. The accelerator will help the teams combine their domain knowledge with frontier AI capabilities to build products grounded in the needs of people and organizations across Thailand. Throughout the accelerator, the startups will work alongside OpenAI mentors to strengthen their products and prepare for deployment. OpenAI will provide each team with US$2,000 in API credits, one-on-one technical guidance, and access to OpenAI’s latest frontier models. Each startup will also have a dedicated mentor throughout the program. Weekly sessions will cover product design, engineering, automated testing, evaluation, responsible AI, privacy and security, cost management, growth, and fundraising. MHESI will connect the teams with Thailand’s research and talent networks, while NIA will link them to the country’s funding and growth ecosystem. Mahidol University will contribute academic expertise and mentors. Each startup will set a specific product, pilot, evaluation, or commercial milestone for the eight-week program. By the end of the accelerator, teams are expected to demonstrate a working product or substantial upgrade, evidence from representative users, initial evaluation findings, and a credible path to implementation. CARIVA is developing a multilingual voice agent for hospital phone lines. Designed to communicate in a patient’s preferred language, it can assist with routine requests such as appointment scheduling and recognize when a caller may be describing a medical emergency. During the accelerator, CARIVA will work with OpenAI on evaluation methods and steering strategies for its real-time speech model. By Demo Day, the team aims to deploy the first capability in a pilot hospital’s live call flow. Curico is developing AI-powered learning tools for children, families, and educators. By Demo Day, Curico aims to pilot its platform in Bangkok Metropolitan Administration childcare centers, with a pathway to reach more than 200 centers. The team also plans to train more than 200 teachers through an AI storybook workshop with the Institute for the Promotion of Teaching Science and Technology; test AI-assisted grading at Chulalongkorn University; develop new school pilots with MHESI and the Ministry of Education; and grow its family learning platform to more than 1,000 monthly active users. The accelerator will conclude with a Demo Day in Bangkok in November. Participating startups will demonstrate what they have built, share evidence from users and product evaluations, and present their plans for deployment and growth. The event will bring together investors, government agencies, universities, hospitals, schools, potential customers, and other organizations that can help move successful prototypes into sustained implementation. This first cohort is the beginning of a longer-term effort. By bringing together government, universities, startups, investors, and technology partners, we aim to establish a repeatable model that helps Thai founders build trusted AI products and take solutions developed in Thailand to the world.",
+          "title_zh": "OpenAI 更新模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Supporting Thailand’s next generation of AI startups",
+              "source_url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+              "source_url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand"
+            }
+          ],
+          "slug": "supporting-thailands-next-generation-of-ai-startups-0b00c80d",
+          "localized_url": "/zh/items/2026-08-29/supporting-thailands-next-generation-of-ai-startups-0b00c80d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+          "title_original": "[AINews] OpenAI to reach AGI bar by end-2026",
+          "title_en": "[AINews] OpenAI to reach AGI bar by end-2026",
+          "summary_zh": "OpenAI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "It’s Time. We’re in the Endgame now.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+          "published_at": "Fri, 28 Aug 2026 07:12:10 GMT",
+          "fetched_at": "2026-08-29T03:44:24.299762+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1d5fd45befca",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] OpenAI to reach AGI bar by end-2026",
+              "source_url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by"
+            },
+            {
+              "label": "公开摘要",
+              "text": "It’s Time. We’re in the Endgame now.",
+              "source_url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by"
+            }
+          ],
+          "slug": "ainews-openai-to-reach-agi-bar-by-end-2026-1d5fd45b",
+          "localized_url": "/zh/items/2026-08-29/ainews-openai-to-reach-agi-bar-by-end-2026-1d5fd45b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+          "title_original": "The Open ASR Leaderboard Adds Its First Global South Language",
+          "title_en": "The Open ASR Leaderboard Adds Its First Global South Language",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+          "published_at": "Fri, 28 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-29T03:44:24.299762+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b0b2c2da12a5",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "The Open ASR Leaderboard Adds Its First Global South Language",
+          "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "extracted_text_for_analysis": "Benchmarks decide what gets built. A model that scores well on the Open ASR Leaderboard gets adopted and iterated on, while capabilities the leaderboard does not measure tend not to improve. Much of the recent work on the leaderboard has gone into making the evaluation metrics more trustworthy: - Held-out private splits. - Benchmark-fitting analysis to quantify how much models are reproducing reference transcripts rather than transcribing solely on the audio. - Closing the gaps in normalisers to ensure correct predictions/variants are not penalized. All of that makes one number (WER) harder to game. It is still one number. A long line of work has shown that ASR error rates are not evenly distributed across the people using them. Racial disparities in automated speech recognition found commercial systems roughly twice as bad for Black speakers as for white speakers, and Quantifying Bias in Automatic Speech Recognition found further differences by gender, age and accent. None of that is visible on a leaderboard, and not because the leaderboard is hiding it. The test sets it runs on record what was said and almost nothing about who said it. To address this gap, we introduce two evaluation sets to the Open ASR Leaderboard: Monsoon en-IN and Monsoon hi-IN. Hindi, spoken by more than half a billion people, is the first Indic language on a multilingual tab that currently covers only European languages. Each set is released as a public split, available for self-scoring, and a private split withheld to limit benchmark-specific optimisation. The four splits are speaker-disjoint, comprising 4,888 speakers, with 12 speaker attributes recorded for each. A test set can only expose a failure mode it varies along. Most benchmarks are built from whatever audio was readily available. Monsoon was built to vary along nine axes: geography, age, gender, vocabulary, devices, acoustic environments, speech type, speech rate, and the existence of multiple valid transcripts for the same audio. Each is a way an aggregate WER can be right on average and wrong for a particular population. The collection method follows from that. - Geography comes from recruiting across hundreds of districts rather than recording longer sessions in fewer places. - Devices and acoustic conditions come from contributors using their own handsets and connections, indoors and out, rather than supplied hardware in a quiet room. - Vocabulary, speech type and speech rate come from the prompts: everyday topics that push contributors toward opinion, disagreement, narration and recall, which is where named entities, numbers and unrehearsed phrasing appear. - Age and gender are recorded per speaker and verified. - Multiple valid transcripts is a property of the reference rather than the audio, and it is the subject of a later section. Four splits, two languages, collected through one pipeline. The data is sourced from unscripted dual-channel spontaneous conversations, with clips segmented from a single channel so that each clip carries one speaker. Along with the fields reported in the table, each clip also records occupation, education, marital status, income band, handset brand, current city and years in the current district. Five clips from the public Indian English split, with the metadata each one carries: 29-year-old woman, West Tripura, Tripura. Student, samsung SM-G781B. 32-year-old woman, Satna, Madhya Pradesh. Unemployed, samsung SM-E146B. 22-year-old man, Rohtas, Bihar. Student, motorola moto g54 5G. 27-year-old woman, Warangal, Telangana. Unemployed, vivo V2247. 57-year-old man, Puducherry. Private job, Xiaomi M2006C3LI. The English sets use standard string references, where the leaderboard's normaliser collapses most spelling variation. Hindi has far more of it, and no normaliser can resolve it, because the variants are not a fixed mapping between two conventions. The Hindi sets therefore ship a lattice: for each span of the transcript, a list of the spellings that are accepted as correct. Monsoon is small measured in hours and large measured in speakers. That is the design, and it is where most of the value sits. Speaker concentration and diversity beyond the fields above. Three properties follow, and each is a claim about variance rather than volume. - No voice carries the score: The ten largest contributors account for between 2.8% and 6.8% of total duration, and more than half of all speakers appear exactly once. A result on Monsoon is an average over hundreds of distinct voices, not a small number of talkers recorded at length. Test sets of comparable duration are usually constructed the other way. - No region or handset carries it either: The Indian English public set draws on 428 native districts across 30 states and union territories; the Hindi sets, being a Hindi-belt language, concentrate more tightly but still span 202 and 295 districts. Recordings come from 315 to 582 distinct device models, with no single model exceeding 2.1% of segments in any subset. Corpora collected on standardised hardware overfit to one microphone response; this one cannot. - Indian English here is not one accent: This is English as it is spoken across the country, not the English of one region. All six zones are represented: in the public set, 35% of segments are contributed by southern speakers, 18% from the East, 18% from Central, 16% from the North and 11% from the West. The accent variation that follows from that spread is recorded in the metadata rather than asserted. Monsoon ships 18 columns per segment, of which 12 are metadata, where most public ASR test sets ship an identifier, a transcript and a duration. Demographic fields are complete or near-complete; contributors consented to this use. The two languages have different geographic shapes, and the shape is informative. The Hindi sets concentrate in the Hindi belt, with Uttar Pradesh accounting for roughly 40% of speakers, which is what a Hindi corpus sampled by population should look like. The Indian English sets are much flatter: no state exceeds 13%, and a third of speakers come from outside the eight largest. Public and private halves match closely on both. Indian state boundaries were drawn along linguistic lines, so district and state carry real accent signal, which is why these fields are released rather than summarised away. Analysis of this kind has been reported at scale for Indian ASR: district-level error rates spanning roughly 4% to 44%, with underrepresented regions well behind the Hindi belt and the metros, plus disaggregation by audio quality, speaking rate, utterance duration, gender, age and device. Those runs were on a closed benchmark. Monsoon makes the same class of analysis possible on a public leaderboard test set. Broad geographic coverage requires recruitment across hundreds of districts rather than longer sessions from fewer speakers, and distributed recruitment at this scale introduces failure modes that a smaller collection does not face:",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The Open ASR Leaderboard Adds Its First Global South Language",
+              "source_url": "https://huggingface.co/blog/open-asr-leaderboard-global-south"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/open-asr-leaderboard-global-south"
+            }
+          ],
+          "slug": "the-open-asr-leaderboard-adds-its-first-global-south-language-b0b2c2da",
+          "localized_url": "/zh/items/2026-08-29/the-open-asr-leaderboard-adds-its-first-global-south-language-b0b2c2da/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Building the Foundation for the Agentic AI Era",
+          "title_original": "Building the Foundation for the Agentic AI Era",
+          "title_en": "Building the Foundation for the Agentic AI Era",
+          "summary_zh": "Together AI 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "How do we build an AI ecosystem where agents, tools, and systems can work together at scale? Angie Jones, VP of the Agentic AI Foundation, joins Chris to discuss the open standards and projects shaping the agentic future, including MCP, A2A, Goose, etc. They",
+          "source_name": "Practical AI",
+          "source_url": "https://changelog.com/practicalai",
+          "original_url": "https://share.transistor.fm/s/123da941",
+          "published_at": "Fri, 28 Aug 2026 05:00:00 -0400",
+          "fetched_at": "2026-08-29T03:44:24.299762+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "engineering",
+            "podcast"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4e68028f529d",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Together AI 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、engineering、podcast。"
+          ],
+          "background_zh": "这条内容来自 Practical AI，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Building the Foundation for the Agentic AI Era",
+              "source_url": "https://share.transistor.fm/s/123da941"
+            },
+            {
+              "label": "公开摘要",
+              "text": "How do we build an AI ecosystem where agents, tools, and systems can work together at scale? Angie Jones, VP of the Agentic AI Foundation, joins Chris to discuss the open standards and projects shaping the agentic",
+              "source_url": "https://share.transistor.fm/s/123da941"
+            }
+          ],
+          "slug": "building-the-foundation-for-the-agentic-ai-era-4e68028f",
+          "localized_url": "/zh/items/2026-08-29/building-the-foundation-for-the-agentic-ai-era-4e68028f/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GLM-5.3 vs. GLM-5.3 Flash on DeepSWE: Cost, Coding, and Routing",
+          "title_original": "GLM-5.3 vs. GLM-5.3 Flash on DeepSWE: Cost, Coding, and Routing",
+          "title_en": "GLM-5.3 vs. GLM-5.3 Flash on DeepSWE: Cost, Coding, and Routing",
+          "summary_zh": "Together AI Blog 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "We ran 900 DeepSWE rollouts on GLM-5.3 and GLM-5.3 Flash. Flash gives up 5.6 points of pass@1 at 17x lower cost, and only 2.6 points at pass@4.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/glm-5-3-vs-glm-5-3-flash-on-deepswe-cost-coding-and-routing",
+          "published_at": "Fri, 28 Aug 2026 00:00:00 GMT",
+          "fetched_at": "2026-08-29T03:44:24.299762+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "ed596ec525dd",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "GLM-5.3 vs. GLM-5.3 Flash on DeepSWE: Cost, Coding, and Routing",
+          "extracted_excerpt": "We ran 900 DeepSWE rollouts on GLM-5.3 and GLM-5.3 Flash. Flash gives up 5.6 points of pass@1 at 17x lower cost, and only 2.6 points at pass@4.",
+          "extracted_text_for_analysis": "Run GLM-5.3 Flash first and escalate to the full GLM-5.3 only when your tests reject the answer. That cascade solves 80.9% of DeepSWE tasks at \\$1.70 each. GLM-5.3 alone solves 69.0% at \\$3.99. Twelve points better, 57% lower cost. If you are picking a single model, pick the Flash: it trails by 5.6 points on the first try but only 2.6 points by the fourth, because what distillation removed was reliability, and reliability is what retries buy back. - The gap is a first-try effect. 69.0% vs 63.4% at pass@1, four points at pass@2, and 2.6 points at pass@4 (87.6% vs 85.0%). - The price gap is 17x. \\$3.99 per rollout vs \\$0.24. Per \\$100 spent, the Flash solves 264 tasks and the full model solves 17. - Capability survived, consistency did not. Of the full model's 99 solved tasks, the Flash still solves 93. It stabilizes 15 tasks the parent was flaky on and cracks 3 the parent walls entirely. - The Flash cannot convert effort into a win. On flaky tasks, the longer run is the passing run 61% of the time for the full model and 46% for the Flash, below the coin-flip line. - One genuine regression: caution. The Flash breaks an already-passing baseline test in 6.9% of rollouts against the full model's 4.4%, so gate it with a regression run. GLM-5.3 and GLM-5.3 Flash are the same family at two sizes. GLM-5.3 is the full open-weight model; GLM-5.3 Flash is its distilled sibling at one-seventeenth the rollout price. The question every team asks about a flash variant is how much quality it gives up. On DeepSWE, a benchmark that tests a model's software engineering ability across many task types and programming languages, the answer is smaller than the headline pass@1 gap suggests, because the Flash is not a scaled-down clone of the full model. It is a redistribution of its abilities, and the thing it actually lost is not the thing the headline numbers point to. We ran GLM-5.3 (max) against GLM-5.3 Flash (max) on all 113 DeepSWE tasks, four trials each, from the published per-trial records: 900 rollouts in total, 452 full and 448 Flash. What follows is the full comparison and the distillation autopsy in one place. Every figure below comes from this run, so it can differ from other public GLM-5.3 vs GLM-5.3 Flash scorecards. The DeepSWE scoreboard: pass@1 and pass@k Single shot, the full model leads by 5.6 points, 69.0% to 63.4%. That lead is a first-try artifact. It narrows to four points at pass@2 and to 2.6 points at pass@4, 87.6% against 85.0%. Distillation cost the Flash more of its single-shot polish than its ceiling. For any best-of-k workload the effective quality loss is under three points, at one-seventeenth the price. The collapse from 5.6 to 2.6 is the first clue to what changed, and the next section explains it. What distillation actually cost: consistency, not capability Classify every task, for each model, as a wall (0 of 4 passing), flaky (some passing), or solid (all passing), then trace where the full model's tasks land in the Flash. The top-right zero carries the section: of the 48 tasks the full model solves four for four, not one becomes unsolvable in the Flash. Half stay perfectly solid; the other half only lose consistency. Coverage retention says the same thing: of the 99 tasks the full model solves at least once, the Flash still solves 93, or 94%. Distillation did not remove the ability to solve these tasks. It removed the reliability. A consistency loss, unlike a capability loss, is exactly what retries recover, which is why the pass@4 gap is so much smaller than the pass@1 gap. Cost comparison: GLM-5.3 vs. GLM-5.3 Flash pricing and speed At \\$0.24 against \\$3.99, the Flash costs 17x less per rollout: 264 solves per \\$100 to the full model's 17. The usual flash tradeoff, slower per token, does not appear. The Flash is quicker, averaging 26 minutes to the full model's 35, and it does not get there by cutting corners: it runs the same number of steps, 123 against 125. The entire speed difference is per-step latency, 12.5 seconds per step for the Flash versus 17.0 for the full model, a smaller model executing each step about 27% faster in a smaller working window (145k average peak context to the full model's 155k). Lower cost, quicker, thinking the same length. Where the consistency went: distillation erodes from the margins Group tasks by how reliably the full model solved them, then measure the Flash's mean pass rate in each group. The result is a clean monotonic gradient: the more reliably the full model held a task, the more of that ability the Flash keeps. Distillation eats from the edges of the capability distribution and leaves the core intact. It sharpens the boundary between what the model can and cannot do rather than scaling the whole profile down. GLM-5.3 Flash lost the ability to take a hard attempt to a win This is the mechanism behind the flakiness, and the most surprising result in the study. On a flaky task, the question is whether the longer run tends to be the winning run. Same task, same difficulty, only the run varies. - Full GLM-5.3: on 61% of its flaky tasks, the passing run took more steps than the failing run. The full model can think its way to a solution, and effort converts to success. - GLM-5.3 Flash: 46%, below the coin-flip line. Whether a flaky task lands is essentially independent of how long the Flash runs. So distillation did not only make the model a little worse per step. It removed the model's ability to use extra effort. This is not erratic exploration either: the Flash's within-task step variance is slightly lower than the full model's, a coefficient of variation of 0.12 against 0.14. It runs about the same length every time and sometimes lands, sometimes not. What it lost is the search ability that lets the full model turn a hard attempt into a solved one. Where each wins, by domain and programming language The losses are only half the ledger. The Flash gives capability back in specific places: - 15 of the full model's flaky tasks became solid in the Flash, stabilizing work the parent was shaky on. - The Flash cracks 3 tasks the full model walls entirely. - By domain it is not uniformly behind: concurrency and durability +8 (62 to 70), Python +5 (66 to 71), data modeling +4 (79 to 83), protocol +3 (44 to 48). It cedes JavaScript, query and config, stateful reactivity, Rust, and language internals. Across the eight domains the full model takes 5 and the Flash takes 3, and on languages the full model takes four (Go, TypeScript, JavaScript, Rust) to the Flash's one (Python). The full model wins the reasoning-heavy and JavaScript-heavy work; the Flash wins the systems and Python work. The Flash's JavaScript number looks alarming in isolation, but it rests on a five-task sample and is driven by a single task, so treat it as directional rather than settled. The broader read is that distillation reshaped the profile instead of simply lowering it. Precision against reach The full model sits up and to the right on the",
+          "title_zh": "Together AI Blog 推进代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI Blog 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI Blog，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GLM-5.3 vs. GLM-5.3 Flash on DeepSWE: Cost, Coding, and Routing",
+              "source_url": "https://www.together.ai/blog/glm-5-3-vs-glm-5-3-flash-on-deepswe-cost-coding-and-routing"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We ran 900 DeepSWE rollouts on GLM-5.3 and GLM-5.3 Flash. Flash gives up 5.6 points of pass@1 at 17x lower cost, and only 2.6 points at pass@4.",
+              "source_url": "https://www.together.ai/blog/glm-5-3-vs-glm-5-3-flash-on-deepswe-cost-coding-and-routing"
+            }
+          ],
+          "slug": "glm-5-3-vs-glm-5-3-flash-on-deepswe-cost-coding-and-routing-ed596ec5",
+          "localized_url": "/zh/items/2026-08-29/glm-5-3-vs-glm-5-3-flash-on-deepswe-cost-coding-and-routing-ed596ec5/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Hy4 Preview now available on AI Gateway",
+          "title_original": "Hy4 Preview now available on AI Gateway",
+          "title_en": "Hy4 Preview now available on AI Gateway",
+          "summary_zh": "Vercel 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Hy4 Preview from Tencent is now available on AI Gateway. Hy4 Preview is an open-source Mixture-of-Experts model with 770B total parameters and 49B active per token, aimed at long-horizon coding, document analysis, game development, and scientific reasoning.",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway",
+          "published_at": "2026-08-28T00:00:00.000Z",
+          "fetched_at": "2026-08-29T03:44:24.299762+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [
+            "Vercel AI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "5580f1a13290",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Hy4 Preview now available on AI Gateway - Vercel",
+          "extracted_excerpt": "Call Tencent's Hy4 Preview through Vercel AI Gateway with one API key: no provider account, automatic fallbacks, spend tracking, and traces on every request.",
+          "extracted_text_for_analysis": "Hy4 Preview is an open-source Mixture-of-Experts model with 770B total parameters and 49B active per token, aimed at long-horizon coding, document analysis, game development, and scientific reasoning. It serves a context window of 1M tokens. To use Hy4 Preview, set model to tencent/hy4-preview in the AI SDK: import{ streamText }from'ai'; const result =streamText({ model:'tencent/hy4-preview', prompt:'Add pagination to the results endpoint.', }); To use it in a coding agent, see the coding agents guide, then run vercel ai-gateway coding-agents setup to connect agents like Claude Code, Codex, OpenCode, Cursor, Pi, and more and select tencent/hy4-preview inside the agent.",
+          "title_zh": "Vercel 发布代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Vercel AI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Hy4 Preview now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hy4 Preview from Tencent is now available on AI Gateway. Hy4 Preview is an open-source Mixture-of-Experts model with 770B total parameters and 49B active per token, aimed at long-horizon coding, document analysis, game",
+              "source_url": "https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "hy4-preview-now-available-on-ai-gateway-5580f1a1",
+          "localized_url": "/zh/items/2026-08-29/hy4-preview-now-available-on-ai-gateway-5580f1a1/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Build and deploy eve agents from the Vercel dashboard",
+          "title_original": "Build and deploy eve agents from the Vercel dashboard",
+          "title_en": "Build and deploy eve agents from the Vercel dashboard",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now create eve agents directly from the Vercel dashboard, giving you a deployed agent that you can chat with right away. The builder scaffolds the agent, creates a private Git repository with its files, and deploys it as a new Vercel project on your",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard",
+          "published_at": "2026-08-28T00:00:00.000Z",
+          "fetched_at": "2026-08-29T03:44:24.299762+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d767e552b189",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "limited_extracted_text"
+          ],
+          "extracted_title": "Build and deploy eve agents from the Vercel dashboard - Vercel",
+          "extracted_excerpt": "Build eve agents from the Vercel dashboard. The builder scaffolds the code, pushes it to your Git repo, and creates a Vercel project with AI Gateway models, web chat or Slack, and MCP connections.",
+          "extracted_text_for_analysis": "You can now create eve agents directly from the Vercel dashboard, giving you a deployed agent that you can chat with right away. The builder scaffolds the agent, creates a private Git repository with its files, and deploys it as a new Vercel project on your team. In a few clicks, you get a working agent, backed by a repo with code you can use to customize it. From the builder you can: Write the instructions that define the agent's identity",
+          "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Build and deploy eve agents from the Vercel dashboard",
+              "source_url": "https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now create eve agents directly from the Vercel dashboard, giving you a deployed agent that you can chat with right away. The builder scaffolds the agent, creates a private Git repository with its files, and",
+              "source_url": "https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard"
+            }
+          ],
+          "slug": "build-and-deploy-eve-agents-from-the-vercel-dashboard-d767e552",
+          "localized_url": "/zh/items/2026-08-29/build-and-deploy-eve-agents-from-the-vercel-dashboard-d767e552/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel CLI expands commands for DNS, domains, and projects",
+          "title_original": "Vercel CLI expands commands for DNS, domains, and projects",
+          "title_en": "Vercel CLI expands commands for DNS, domains, and projects",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "The Vercel CLI now provides dedicated commands for managing DNS records, domains, and projects. This brings more of the functionality available through the Vercel dashboard and API to the terminal, where it can be used interactively, in scripts, or by agents.",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects",
+          "published_at": "2026-08-28T00:00:00.000Z",
+          "fetched_at": "2026-08-29T03:44:24.299762+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "790b02624ce9",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel CLI expands commands for DNS, domains, and projects",
+              "source_url": "https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The Vercel CLI now provides dedicated commands for managing DNS records, domains, and projects. This brings more of the functionality available through the Vercel dashboard and API to the terminal, where it can be used",
+              "source_url": "https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects"
+            }
+          ],
+          "slug": "vercel-cli-expands-commands-for-dns-domains-and-projects-790b0262",
+          "localized_url": "/zh/items/2026-08-29/vercel-cli-expands-commands-for-dns-domains-and-projects-790b0262/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-28",
       "title_zh": "AI 新闻简报 · 2026-08-28",
