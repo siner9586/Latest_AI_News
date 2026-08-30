@@ -1,7 +1,235 @@
 {
-  "updated_at": "2026-08-29T03:44:26.420534+00:00",
-  "count": 73,
+  "updated_at": "2026-08-30T00:23:29.842574+00:00",
+  "count": 74,
   "briefs": [
+    {
+      "date": "2026-08-30",
+      "title_zh": "AI 新闻简报 · 2026-08-30",
+      "title_en": "English AI News Brief · 2026-08-30",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 149 条，入选 3 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 149 previously displayed items excluded, and 3 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 149,
+      "selected_count": 3,
+      "categories": [
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "The Rise and Fall of Agent Civilizations",
+          "title_original": "The Rise and Fall of Agent Civilizations",
+          "title_en": "The Rise and Fall of Agent Civilizations",
+          "summary_zh": "OpenAI 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The whole OpenAI/Hugging Face story in plain English",
+          "source_name": "Dwarkesh Podcast",
+          "source_url": "https://www.dwarkeshpatel.com/",
+          "original_url": "https://www.dwarkesh.com/p/openai-huggingface",
+          "published_at": "Sat, 29 Aug 2026 22:47:53 GMT",
+          "fetched_at": "2026-08-30T00:23:29.544210+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Hugging Face"
+          ],
+          "tags": [
+            "agi",
+            "economics",
+            "interview"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "dab2710a3e78",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：agi、economics、interview。",
+            "涉及公司或机构：OpenAI、Hugging Face。"
+          ],
+          "background_zh": "这条内容来自 Dwarkesh Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The Rise and Fall of Agent Civilizations",
+              "source_url": "https://www.dwarkesh.com/p/openai-huggingface"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The whole OpenAI/Hugging Face story in plain English",
+              "source_url": "https://www.dwarkesh.com/p/openai-huggingface"
+            }
+          ],
+          "slug": "the-rise-and-fall-of-agent-civilizations-dab2710a",
+          "localized_url": "/zh/items/2026-08-30/the-rise-and-fall-of-agent-civilizations-dab2710a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] OpenAI shuts off Cursor",
+          "title_original": "[AINews] OpenAI shuts off Cursor",
+          "title_en": "[AINews] OpenAI shuts off Cursor",
+          "summary_zh": "OpenAI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Elon v Altman has a real consequence.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+          "published_at": "Sat, 29 Aug 2026 05:11:52 GMT",
+          "fetched_at": "2026-08-30T00:23:29.544210+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "5dcea7d65eb4",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] OpenAI shuts off Cursor",
+              "source_url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Elon v Altman has a real consequence.",
+              "source_url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor"
+            }
+          ],
+          "slug": "ainews-openai-shuts-off-cursor-5dcea7d6",
+          "localized_url": "/zh/items/2026-08-30/ainews-openai-shuts-off-cursor-5dcea7d6/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🧠 Community Wisdom: Building without clear PM requirements, selling a product before building it, pricing fast-moving B2B SaaS, a year of job hunting, and more",
+          "title_original": "🧠 Community Wisdom: Building without clear PM requirements, selling a product before building it, pricing fast-moving B2B SaaS, a year of job hunting, and more",
+          "title_en": "🧠 Community Wisdom: Building without clear PM requirements, selling a product before building it, pricing fast-moving B2B SaaS, a year of job hunting, and more",
+          "summary_zh": "Community Wisdom 199",
+          "summary_en": "Community Wisdom 199",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/community-wisdom-building-without",
+          "published_at": "Sat, 29 Aug 2026 18:59:48 GMT",
+          "fetched_at": "2026-08-30T00:23:29.544210+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d4c1c04b67b3",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🧠 Community Wisdom: Building without clear PM requirements, selling a product before building it, pricing fast-moving B2B SaaS, a year of job hunting, and more",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-building-without"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Community Wisdom 199",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-building-without"
+            }
+          ],
+          "slug": "community-wisdom-building-without-clear-pm-requirements-selling-a-produc-d4c1c04b",
+          "localized_url": "/zh/items/2026-08-30/community-wisdom-building-without-clear-pm-requirements-selling-a-produc-d4c1c04b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-29",
       "title_zh": "AI 新闻简报 · 2026-08-29",
