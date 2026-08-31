@@ -1,7 +1,159 @@
 {
-  "updated_at": "2026-08-30T00:23:29.842574+00:00",
-  "count": 74,
+  "updated_at": "2026-08-31T00:38:55.260101+00:00",
+  "count": 75,
   "briefs": [
+    {
+      "date": "2026-08-31",
+      "title_zh": "AI 新闻简报 · 2026-08-31",
+      "title_en": "English AI News Brief · 2026-08-31",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 150 条，入选 2 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 150 previously displayed items excluded, and 2 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 150,
+      "selected_count": 2,
+      "categories": [
+        "company-industry",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)",
+          "title_original": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)",
+          "title_en": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)",
+          "summary_zh": "OpenAI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "OpenAI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
+          "published_at": "Sun, 30 Aug 2026 12:31:30 GMT",
+          "fetched_at": "2026-08-31T00:38:54.219840+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1c8afdde6b1f",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)",
+              "source_url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent"
+            }
+          ],
+          "slug": "ais-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openais-pr-1c8afdde",
+          "localized_url": "/zh/items/2026-08-31/ais-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-openais-pr-1c8afdde/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "MiniMax H3 and H3 Max are 50% off on AI Gateway",
+          "title_original": "MiniMax H3 and H3 Max are 50% off on AI Gateway",
+          "title_en": "MiniMax H3 and H3 Max are 50% off on AI Gateway",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "MiniMax H3 and H3 Max are 50% off on AI Gateway from August 30 through September 13, in partnership with MiniMax. The discount covers requests billed through AI Gateway, at every duration and in every aspect ratio the model supports. H3 generates 2K video",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway",
+          "published_at": "2026-08-30T00:00:00.000Z",
+          "fetched_at": "2026-08-31T00:38:54.219840+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "7eb436fbc386",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "MiniMax H3 and H3 Max are 50% off on AI Gateway - Vercel",
+          "extracted_excerpt": "MiniMax H3 video generation is 50% off on Vercel AI Gateway through September 13. This applies to both H3 and H3 Max. The model IDs are unchanged, so requests you already send get the discount.",
+          "extracted_text_for_analysis": "MiniMax H3 and H3 Max are 50% off on AI Gateway from August 30 through September 13, in partnership with MiniMax. The discount covers requests billed through AI Gateway, at every duration and in every aspect ratio the model supports. H3 generates 2K video from a text prompt, a starting image, a pair of first and last frames, or reference images, video, and audio. H3 Max trades resolution for speed: it renders faster at 480p and 768p, and it takes a text prompt or a starting image. The model IDs (minimax/minimax-h3 and minimax/minimax-h3-max) are unchanged, so requests you already send pick up the discounted rate with no code change: import{ experimental_generateVideo as generateVideo }from'ai'; const{ videos }=awaitgenerateVideo({ model:'minimax/minimax-h3-max', prompt:'San Francisco sunrise on a weekend morning.', duration:5, poll:{ timeoutMs:600000}, }); Renders take minutes, so poll runs the generation as a background job and makes short status requests until it lands, rather than holding one long request open. See asynchronous generation for the webhook and start-and-status routes.",
+          "title_zh": "Vercel AI 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "MiniMax H3 and H3 Max are 50% off on AI Gateway",
+              "source_url": "https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "MiniMax H3 and H3 Max are 50% off on AI Gateway from August 30 through September 13, in partnership with MiniMax. The discount covers requests billed through AI Gateway, at every duration and in every aspect ratio the",
+              "source_url": "https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway"
+            }
+          ],
+          "slug": "minimax-h3-and-h3-max-are-50-off-on-ai-gateway-7eb436fb",
+          "localized_url": "/zh/items/2026-08-31/minimax-h3-and-h3-max-are-50-off-on-ai-gateway-7eb436fb/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-30",
       "title_zh": "AI 新闻简报 · 2026-08-30",
