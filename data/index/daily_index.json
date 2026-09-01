@@ -1,7 +1,633 @@
 {
-  "updated_at": "2026-08-31T00:38:55.260101+00:00",
-  "count": 75,
+  "updated_at": "2026-09-01T01:19:20.003198+00:00",
+  "count": 76,
   "briefs": [
+    {
+      "date": "2026-09-01",
+      "title_zh": "AI 新闻简报 · 2026-09-01",
+      "title_en": "English AI News Brief · 2026-09-01",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 143 条，入选 9 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 143 previously displayed items excluded, and 9 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 143,
+      "selected_count": 9,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Polimill builds Japan's next-generation public AI infrastructure",
+          "title_original": "Polimill builds Japan's next-generation public AI infrastructure",
+          "title_en": "Polimill builds Japan's next-generation public AI infrastructure",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/polimill",
+          "published_at": "Mon, 31 Aug 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-01T01:19:16.727502+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "7bc341571432",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Polimill builds Japan's next-generation public AI infrastructure",
+          "extracted_excerpt": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+          "extracted_text_for_analysis": "Results 3-5x Development time shortened by adopting Codex and OpenAI's hands-on support. Adoption about 1,050 Municipalities across Japan using QommonsAI. Polimill began with Surfvote, a platform where citizens can exchange views about politics and society. As the company worked with local governments, it saw a structural challenge: public-sector teams were consumed by daily operations and had little time to reflect citizens' voices in policy. To expand civic participation, Polimill first needed to make government work itself more efficient. The company started building a generative AI platform for public-sector workflows and released QommonsAI in October 2024. Today, QommonsAI provides specialized AI across areas such as assembly response, public services, social welfare, and legal search. About 1,050 municipalities and about 550,000 public employees across Japan now use it. Built with OpenAI technology, QommonsAI is evolving beyond a staff productivity tool into what Polimill sees as a public OS for municipal work in Japan. Amid a worsening labor shortage, using AI to make government work more efficient is essential. But introducing separate tools can create service gaps between municipalities. That is why we want QommonsAI to become a common foundation that supports every municipality equally—and grow into the public OS that supports Japan's government. One of the biggest obstacles to bringing generative AI into government was fragmented data. Each municipality has its own workflows and document formats, and past records are scattered. For example, preparing assembly responses can require manually reviewing years of minutes to ensure an answer is consistent with prefectural policy. Even the most capable AI model cannot produce practical insight if the underlying data is not organized. Polimill collected and standardized assembly minutes from across Japan, then used AI to add metadata and build a high-precision search foundation that works across municipalities and time periods. The company expanded this structure beyond assemblies into welfare, laws, and other administrative domains. By bringing specialized data and AI into one platform and making it searchable through a common interface, QommonsAI turns distributed administrative information into knowledge that can be used in daily work. That structure is the foundation for Polimill's vision of QommonsAI as a shared platform for government. OpenAI's GPT models are core to QommonsAI. In the public sector, information management and audit readiness are essential. QommonsAI includes operational controls that let administrators review feature usage history and limit which models are available according to organizational policy. At the same time, Masahiro Wakabayashi, Polimill's CAIO, points to GPT models' broad capability and familiarity as the main reasons for adopting them. The widespread awareness of ChatGPT matters when public employees need to use a new tool after rollout. Even if they are not familiar with technical terms or other model names, knowing the system is based on widely used ChatGPT technology lowers the initial barrier to adoption. According to Polimill, GPT models are the most frequently selected option for everyday work in QommonsAI's general conversation feature. From reading files to supporting daily dialogue, GPT's ability to respond reliably to a wide range of work requests in a single model helps QommonsAI take root in the field. OpenAI technology has also changed Polimill's development process. The company adopted Codex across the workflow, from requirements definition to checking consistency with existing GitHub code, implementation, and testing. Engineers can focus on reviewing AI-generated plans and making high-level decisions, while AI carries out more of the implementation work autonomously. With AI coding speed and continued background work, development speed rose to 3-5x previous levels. Wakabayashi says the validation cycle of building prototypes, showing them to municipal teams, and gathering feedback has accelerated dramatically. OpenAI's hands-on support has further accelerated that work. The collaboration includes sharing best practices from advanced global examples, providing information tailored to Polimill, and helping design the development process itself, including which steps AI should handle and where humans should review and take responsibility. As models and capabilities evolve, AI-assisted development practices also keep changing. It is difficult for individual companies to track advanced global examples and incorporate them into their own engineering organizations. Wakabayashi sees the ability to keep learning from OpenAI and implement those insights inside Polimill as valuable as the API's performance itself. With OpenAI technology at its core, Polimill has continued expanding QommonsAI toward a platform for municipal work. Key adoption and usage results include: - About 1,050 municipalities and about 550,000 public employees across Japan are using QommonsAI. - Polimill built infrastructure that unifies assembly minutes and administrative information distributed across Japan and makes them searchable across organizations. - Codex and OpenAI's hands-on support accelerated validation and implementation cycles, increasing development speed by 3-5x. - GPT models' advanced reasoning helped less-experienced employees use AI and accumulated administrative information to draft policy proposals that approached the quality of proposals from veteran officials. QommonsAI's value extends beyond faster information search. In Polimill's validation, less-experienced employees used AI and accumulated administrative information to draft policy proposals, and those proposals received evaluations close to proposals from experienced officials. At the same time, the experienced officials' proposals still received the highest evaluations. Polimill analyzes that the difference came from tacit knowledge: practical judgment that is not written in manuals, such as the procedures required to make a policy proposal real or the concerns residents may have. Polimill plans to record how veteran officials instruct AI to research and how they revise outputs, turning judgment that has not previously been documented into organizational knowledge. Rather than replacing skilled employees with AI, the goal is to amplify their abilities and pass their know-how to the next generation. QommonsAI can become a foundation for the kind of knowledge transfer Polimill envisions for government. I think the parts that are not captured in knowledge or data contributed to the quality of the outcome. Put another way, when people with that kind of experience use AI, they can create even better work. In fall 2026, Polimill plans a full rollout of Qommons ONE, a store where outside companies can provide applications for municipalities. At its center will be a super agent that brings together multiple specialized AI systems",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Polimill builds Japan's next-generation public AI infrastructure",
+              "source_url": "https://openai.com/index/polimill"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+              "source_url": "https://openai.com/index/polimill"
+            }
+          ],
+          "slug": "polimill-builds-japan-s-next-generation-public-ai-infrastructure-7bc34157",
+          "localized_url": "/zh/items/2026-09-01/polimill-builds-japan-s-next-generation-public-ai-infrastructure-7bc34157/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "A milestone in expanding access to AI",
+          "title_original": "A milestone in expanding access to AI",
+          "title_en": "A milestone in expanding access to AI",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+          "published_at": "Mon, 31 Aug 2026 04:00:00 GMT",
+          "fetched_at": "2026-09-01T01:19:16.727502+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "44f61163770f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "A milestone in expanding access to AI",
+          "extracted_excerpt": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+          "extracted_text_for_analysis": "In less than 200 days after launch, ChatGPT Ads has reached $1 billion in annualized revenue run rate. The platform is now used by tens of thousands of advertisers and continues to expand globally. Starting later today, advertisers can purchase ChatGPT ads directly via Ads Manager across India, Europe, the Middle East, and North Africa. Advertising is one pillar of OpenAI’s diversified business model, alongside consumer subscriptions, enterprise offerings, and usage-based APIs. Together, these offerings give people, developers, and businesses choice in how they access OpenAI products, including an advertising-supported free tier that helps keep ChatGPT available to more than 1 billion weekly active users. People come to ChatGPT with clear goals. They might be choosing software for their business, learning a new language, planning a renovation, looking for a job, or exploring a new hobby. They explain what they want to accomplish, what matters to them, and the constraints they face. ChatGPT can help them frame the decision, establish criteria, understand alternatives, and move closer to taking action. Discovery, consideration, and decision-making come together in a single experience. ChatGPT Ads creates the possibility for marketers to contribute useful and relevant information to this experience. Our ads system uses the context of the current conversation to show an ad relevant to what someone is exploring. Depending on the country and a user’s settings, the ads system may also use context from the user’s broader ChatGPT experience. This allows ads to reflect both what someone is asking about in the moment and, where enabled, their broader interests and preferences. Guided by OpenAI’s ads principles, we have been deliberate in how we build and expand our advertising platform. Protecting the trust people place in ChatGPT remains our North Star. Ads in ChatGPT are always clearly labeled and separate from ChatGPT’s answers. Advertising does not influence the answers ChatGPT provides. Advertisers do not receive access to people’s private conversations, and users can control how their ad experience is personalized. Throughout the global rollout, the measures we track across trust, relevance, and overall experience have remained strong, giving us confidence to expand the platform while continuing to learn and improve. ChatGPT Ads are now available in over 40 countries(opens in a new window) through the OpenAI Ads Solutions team and our agency and technology partners. Starting later today, self-service access to ChatGPT Ads is launching across India, Europe, the Middle East, and North Africa. Our client base is becoming increasingly global. Advertisers outside the United States represent a growing share of revenue, and many of our largest clients now use ChatGPT Ads to reach potential customers across multiple markets. Our advertiser base is broadening as well. We began with a managed-sales, agency, and partner-led model. Since then, we have expanded our ecosystem to more than 50 technology and measurement partners. The introduction of Ads Manager in May opened the platform to small and medium-sized businesses, which now represent a material share of the business. We’re excited to make advertising in ChatGPT more accessible to SMBs and startups, giving businesses of every size an opportunity to reach customers as they explore options and make decisions. At the same time, ChatGPT Ads has evolved into a more sophisticated advertising platform. CPC and outcome-optimized bidding now account for the majority of campaigns, while Pixel and Conversions API have become important foundations for measurement and optimization. Capabilities such as product feeds, platform and geographic targeting, and custom audiences are helping advertisers reach the customers most relevant to their businesses. And these improvements are translating into real outcomes for both advertisers and partners. Recent examples include an ecommerce advertiser achieving a 3x return on ad spend across its campaigns over 28 days, while a technology partner reported that more than 80% of ad-driven ChatGPT traffic is from new customers. Our focus remains on expanding access to AI while staying true to our principles. Our next phase of growth will bring ChatGPT Ads to more markets and introduce additional formats, objectives, buying options, and measurement capabilities. We will also explore new ways for businesses to interact with consumers in more native ways in ChatGPT. As more people turn to ChatGPT to explore needs, evaluate options, and make decisions, we see an opportunity to help them discover products and services—and to help businesses of every size grow and thrive.",
+          "title_zh": "OpenAI 更新模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "A milestone in expanding access to AI",
+              "source_url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+            },
+            {
+              "label": "公开摘要",
+              "text": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+              "source_url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+            }
+          ],
+          "slug": "a-milestone-in-expanding-access-to-ai-44f61163",
+          "localized_url": "/zh/items/2026-09-01/a-milestone-in-expanding-access-to-ai-44f61163/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🎙️ How I AI: How this PM uses Claude to handle 70% to 80% of his workday",
+          "title_original": "🎙️ How I AI: How this PM uses Claude to handle 70% to 80% of his workday",
+          "title_en": "🎙️ How I AI: How this PM uses Claude to handle 70% to 80% of his workday",
+          "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
+          "published_at": "Mon, 31 Aug 2026 15:01:58 GMT",
+          "fetched_at": "2026-09-01T01:19:16.727502+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "99c9d79be6b2",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🎙️ How I AI: How this PM uses Claude to handle 70% to 80% of his workday",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude"
+            }
+          ],
+          "slug": "how-i-ai-how-this-pm-uses-claude-to-handle-70-to-80-of-his-workday-99c9d79b",
+          "localized_url": "/zh/items/2026-09-01/how-i-ai-how-this-pm-uses-claude-to-handle-70-to-80-of-his-workday-99c9d79b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)",
+          "title_original": "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)",
+          "title_en": "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)",
+          "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving",
+          "published_at": "Mon, 31 Aug 2026 12:04:18 GMT",
+          "fetched_at": "2026-09-01T01:19:16.727502+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "602e42310ffb",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving"
+            }
+          ],
+          "slug": "how-i-turned-claude-into-a-self-improving-pm-assistant-daniel-blum-pm-me-602e4231",
+          "localized_url": "/zh/items/2026-09-01/how-i-turned-claude-into-a-self-improving-pm-assistant-daniel-blum-pm-me-602e4231/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "fx is now available in the AI SDK harness layer",
+          "title_original": "fx is now available in the AI SDK harness layer",
+          "title_en": "fx is now available in the AI SDK harness layer",
+          "summary_zh": "Vercel 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "The AI SDK harness layer now supports fx , Vercel's lightweight, open-source coding agent. The harness layer provides one API for running coding agents in your application, so you can add fx without building a separate integration. Configure HarnessAgent with",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/fx-ai-sdk-harness-adapter",
+          "published_at": "2026-08-31T06:00:00.000Z",
+          "fetched_at": "2026-09-01T01:19:16.727502+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b12a69dbebbb",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "fx is now available in the AI SDK harness layer - Vercel",
+          "extracted_excerpt": "fx is now available in the AI SDK harness layer through the @ai-sdk/harness-fx adapter, built on the ACP harness. Run it through the same HarnessAgent interface.",
+          "extracted_text_for_analysis": "The AI SDK harness layer now supports fx , Vercel's lightweight, open-source coding agent. The harness layer provides one API for running coding agents in your application, so you can add fx without building a separate integration. Configure HarnessAgent with the official @ai-sdk/harness-fx adapter: Run fx through the HarnessAgent interface. The @ai-sdk/harness-fx adapter connects to fx over the Agent Client Protocol (ACP) using @ai-sdk/harness-acp . fx joins Claude Code, Cline, Codex, Cursor, Deep Agents, Grok Build, OpenCode, and Pi in the list of supported harnesses. Read the fx harness documentation to get started.",
+          "title_zh": "Vercel 发布代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "fx is now available in the AI SDK harness layer",
+              "source_url": "https://vercel.com/changelog/fx-ai-sdk-harness-adapter"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The AI SDK harness layer now supports fx , Vercel's lightweight, open-source coding agent. The harness layer provides one API for running coding agents in your application, so you can add fx without building a separate",
+              "source_url": "https://vercel.com/changelog/fx-ai-sdk-harness-adapter"
+            }
+          ],
+          "slug": "fx-is-now-available-in-the-ai-sdk-harness-layer-b12a69db",
+          "localized_url": "/zh/items/2026-09-01/fx-is-now-available-in-the-ai-sdk-harness-layer-b12a69db/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Set per-user budgets on AI Gateway",
+          "title_original": "Set per-user budgets on AI Gateway",
+          "title_en": "Set per-user budgets on AI Gateway",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now use AI Gateway budgets to set a dollar spending limit for each user on your team. The limit covers spend from every API key attributed to the user, along with their app tokens. After it's reached, AI Gateway rejects new requests until the budget",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/set-per-user-budgets-on-ai-gateway",
+          "published_at": "2026-08-31T06:00:00.000Z",
+          "fetched_at": "2026-09-01T01:19:16.727502+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "34d93c036116",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Set per-user budgets on AI Gateway - Vercel",
+          "extracted_excerpt": "AI Gateway budgets now support a user scope. Cap what an individual team member spends through the gateway, alongside team, project, and API key budgets.",
+          "extracted_text_for_analysis": "You can now use AI Gateway budgets to set a dollar spending limit for each user on your team. The limit covers spend from every API key attributed to the user, along with their app tokens. After it's reached, AI Gateway rejects new requests until the budget resets or is increased. This is useful for controlling spend from coding agents and other workloads that run without supervision, and prevents one user from consuming all of the team's shared budget. Track each team user's spend against their budget. Open the Users view on the Budgets page to set two kinds of user budgets: Default budget: If set, applies separately to every person without a custom budget, including users added later. Each user gets their own allowance rather than sharing one limit across the team. Custom budget: Applies to one person and overrides the default. Removing it returns that user to the default budget. Set a custom user budget. It replaces the default user budget for that member, while the team budget still applies. Both default and custom budgets reset monthly by default, but you can change them to reset daily, weekly, or not at all. Budgets also support usage alerting via email to notify when you are at 50%, 75%, and/or 100% of your allocation. User budgets don't replace API key, project, or team budgets. A request must remain within every budget that applies to it. Reaching any applicable limit blocks new requests. API keys are attributed to the user who created them by default. If a key belongs to a production application or another shared workload, attribute it to the team from the API Keys page to keep its spend out of the key creator's budget. Keys created prior to the user budget feature release were attributed to the team for backwards-compatibility, so rotate to new keys if you wish to have current usage fall under the user scope. Upgrade to the latest Vercel CLI with vercel upgrade. You need Vercel CLI 59.6.2 or newer for user budgets, then set a default or custom user budget: # Set the default user budget to $50 per month vercel ai-gateway budgets defaults set user --limit50 --refresh-period monthly # Set one member's custom budget to $100 per month vercel ai-gateway budgets set user teammate@example.com --limit100 --refresh-period monthly Set default and custom user budgets from the Vercel CLI. Identify a member by their email address, username, or user ID. Team owners can manage user budgets, and can also grant other members AI Gateway Budget Manager permissions from team member settings. Spend using Bring Your Own Key (BYOK) credentials doesn't count toward user budgets. Update to the latest Vercel CLI with vercel upgrade to get started, and learn more in the AI Gateway budgets documentation.",
+          "title_zh": "Vercel AI 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Set per-user budgets on AI Gateway",
+              "source_url": "https://vercel.com/changelog/set-per-user-budgets-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now use AI Gateway budgets to set a dollar spending limit for each user on your team. The limit covers spend from every API key attributed to the user, along with their app tokens. After it's reached, AI Gateway",
+              "source_url": "https://vercel.com/changelog/set-per-user-budgets-on-ai-gateway"
+            }
+          ],
+          "slug": "set-per-user-budgets-on-ai-gateway-34d93c03",
+          "localized_url": "/zh/items/2026-09-01/set-per-user-budgets-on-ai-gateway-34d93c03/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How our agents build on-brand pages with design.md",
+          "title_original": "How our agents build on-brand pages with design.md",
+          "title_en": "How our agents build on-brand pages with design.md",
+          "summary_zh": "Vercel 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Across Vercel, we use coding agents to design and build pages that have to look and feel like Vercel. The typography, color, and composition all need to carry the same judgment that we put into the pages we already ship ourselves. We recently wrote about",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
+          "published_at": "2026-08-31T04:00:00.000Z",
+          "fetched_at": "2026-09-01T01:19:16.727502+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2f54eb4a2eb5",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How our agents build on-brand pages with design.md",
+          "extracted_excerpt": "How we built design.md, a single public file any coding agent can load to build on-brand Vercel pages, and the eval loop that decided every rule inside it.",
+          "extracted_text_for_analysis": "Across Vercel, we use coding agents to design and build pages that have to look and feel like Vercel. The typography, color, and composition all need to carry the same judgment that we put into the pages we already ship ourselves. We recently wrote aboutproduct-design, our skill that teaches agents how we design when they work in our codebases. The skill lives in each repository alongside the code that it governs, explaining how agents can find and understand our design system as well as product guidelines for whatever they are building. This works great when agents are working in our codebases, where everything the skill needs is right there. But what about reports, proposals, and the one-off pages that still have to look like Vercel but get made in tools that can't read any of those files? For us, the answer was design.md, one public file any agent can load. What made product-design work well was that the design system and product guidelines were sitting right there in the repository for agents to read. We needed a way for agents and tools outside that environment to reach the same knowledge, so that the pages coming out the other end would still look like something we designed ourselves. That set two requirements: A single public URL that anyone can point their agents at, regardless of the environment they run in. Guidance covering everything that made product-design useful in the first place, from brand, layout, and copywriting to the design system, responsiveness, and information architecture. The naive approach we tried first was to simply port product-design into a public prompt, collapsing the skill's reference files into one file any agent could read from a URL. The problem we found was that while the prompt described our visual language just fine, every model reading it interpreted that description differently, generating vastly different pages from the same guidance. Part of this comes from the fact that design language is subjective. Phrases like \"keep the layout clean\" can really mean anything. What is \"clean\"? Beyond that, the bigger problem was everything else the prompt left behind. Inside our codebases, an agent reads product-design surrounded by real components and shipped examples of the things it describes. But a public prompt includes none of that, leaving every model to rebuild our style from just words alone. So what we needed to do was distill what that environment provided into a single file, and the only way to know whether we were getting closer was to look at the pages coming out. We set the port aside and started writing a new file from scratch, this time testing every change against a repeatable set of eval prompts. We wrote seven of them, pulled from real use cases and paired with mock inputs: Usage and performance report Renewal proposal Benchmark report Interactive planning page Build-versus-buy brief Security governance brief Presentation deck The prompts stayed fixed while the file changed, so any difference in the output traced back to the guidance. These evals gave us a way to measure both what the file was actually doing and how it was being interpreted by different agents. For our first test, we wanted to know whether design.md would actually change what a model produced at all. We ran the renewal proposal eval twice in the same environment with the same model, once without design.md and once with it loaded, keeping the prompt, data, and viewport identical in both runs. Same prompt, data, model, and viewport. Each version generated once, no rerolls. Without design.md, the model generated a generic SaaS dashboard. But with it, the page led with the renewal recommendation itself, pulled the commercial evidence into one grid, put peer values on a single scale so they could actually be compared, and kept supporting detail available without letting it compete with the summary. This allowed us to conclude that the file changed the page’s structure and hierarchy as well, not just the styling like we originally found, giving us enough signal to keep building the guidance like this, one rule at a time. As we tested and rebuilt design.md, the scope evolved into a three-part system that made the entire thing work: design.md supplies guidance that shows agents how to frame the reader's job, structure evidence, and choose a composition. A public stylesheet that defines a bounded, documented vocabulary of classes and tokens. An evaluation loop turns repeated human feedback into better guidance and deterministic checks. Each of these layers covers a different slice of the work that creates a high-quality, on-brand Vercel page. The judgment that gets encoded in design.md gives agents guidance on: Shaping a page for both a quick executive read and a detailed audit. Writing copy with concrete claims and honest caveats. Composing hierarchy, typography, and color so that evidence and prose support each other. How to publish as Vercel, down to the asset rules for our wordmark and the triangle logo. design.md also names the recurring generated-design patterns that we never want to see, allowing agents to recognize and avoid them far more reliably by giving the patterns names. An excerpt from design.md. Naming recurring generated-design patterns explicitly helps agents recognize and avoid them. We created a stylesheet because agents kept inventing their own typography, spacing, and layout, so we took those decisions away from the model entirely. The stylesheet packages our design system's primitives, such as headers, tables, stat strips, and chart styles, as CSS that any page can use via a public URL. Then design.md documents the class names and tokens that the stylesheet provides, allowing the agent to build the page with those names in the HTML instead of reinventing them. Another benefit to this is that the agent never actually reads the stylesheet itself. The stylesheet loads when the page renders in your browser, so none of the code enters the model's context, saving more room for design guidance instead. Last, the evaluation loop is what helps make the other two pieces work. Deterministic checks are used to help catch mechanical failures, such as a table that ignores the width available to it, while people judge the subjective parts that can't be automated, like hierarchy, composition, and whether the page actually gives the reader what they came for. Every line of guidance in design.md earned its place through the eval loop. We generated pages from fixed scenarios, reviewed what came back, encoded the corrections we accepted, and reran the scenarios to see whether each change stuck, since a change that helped one artifact could quietly hurt another. Nothing got in any other way. Each of the seven prompts becomes a scenario, meaning the prompt is frozen together with its mock inputs and render settings. The renewal proposal, for example, always runs with the same fake customer data with the same viewport settings, keeping design.md as the only",
+          "title_zh": "Vercel 推进代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How our agents build on-brand pages with design.md",
+              "source_url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Across Vercel, we use coding agents to design and build pages that have to look and feel like Vercel. The typography, color, and composition all need to carry the same judgment that we put into the pages we already ship",
+              "source_url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md"
+            }
+          ],
+          "slug": "how-our-agents-build-on-brand-pages-with-design-md-2f54eb4a",
+          "localized_url": "/zh/items/2026-09-01/how-our-agents-build-on-brand-pages-with-design-md-2f54eb4a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Sandbox now calculates snapshot storage costs daily",
+          "title_original": "Vercel Sandbox now calculates snapshot storage costs daily",
+          "title_en": "Vercel Sandbox now calculates snapshot storage costs daily",
+          "summary_zh": "Vercel 推进了实时语音交互模型能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel now calculates charges for Sandbox snapshot storage from each day’s average usage and adds them to your monthly invoice. Previously, billing used one average across the entire monthly billing period. You can track these daily charges on the team’s",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-sandbox-now-calculates-snapshot-storage-costs-daily",
+          "published_at": "2026-08-31T00:00:00.000Z",
+          "fetched_at": "2026-09-01T01:19:16.727502+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1442aedd313e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Vercel Sandbox now calculates snapshot storage costs daily - Vercel",
+          "extracted_excerpt": "Snapshot Storage is now calculated daily, so every charge maps to the storage you held that day. Pricing is unchanged at $0.08 per GB-month.",
+          "extracted_text_for_analysis": "Vercel now calculates charges for Sandbox snapshot storage from each day’s average usage and adds them to your monthly invoice. Previously, billing used one average across the entire monthly billing period. You can track these daily charges on the team’s Usage page and see how changes in storage affect your cost. The rate remains $0.08 per GB-month; only how usage is calculated has changed. The update takes effect automatically at the start of the next billing period for Pro and Enterprise teams. No action is required.",
+          "title_zh": "Vercel 推进实时语音交互模型能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Sandbox now calculates snapshot storage costs daily",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-now-calculates-snapshot-storage-costs-daily"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel now calculates charges for Sandbox snapshot storage from each day’s average usage and adds them to your monthly invoice. Previously, billing used one average across the entire monthly billing period. You can",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-now-calculates-snapshot-storage-costs-daily"
+            }
+          ],
+          "slug": "vercel-sandbox-now-calculates-snapshot-storage-costs-daily-1442aedd",
+          "localized_url": "/zh/items/2026-09-01/vercel-sandbox-now-calculates-snapshot-storage-costs-daily-1442aedd/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+          "title_original": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+          "title_en": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+          "summary_zh": "Microsoft 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration. The post GigaPath-Flash and",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
+          "published_at": "Mon, 31 Aug 2026 16:00:00 +0000",
+          "fetched_at": "2026-09-01T01:19:16.727502+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "1e90334d4d64",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration.",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/"
+            }
+          ],
+          "slug": "gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-8b83437b",
+          "localized_url": "/zh/items/2026-09-01/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-8b83437b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-08-31",
       "title_zh": "AI 新闻简报 · 2026-08-31",
