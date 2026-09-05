@@ -1,7 +1,245 @@
 {
-  "updated_at": "2026-09-04T00:11:56.414666+00:00",
-  "count": 79,
+  "updated_at": "2026-09-05T00:08:54.855105+00:00",
+  "count": 80,
   "briefs": [
+    {
+      "date": "2026-09-05",
+      "title_zh": "AI 新闻简报 · 2026-09-05",
+      "title_en": "English AI News Brief · 2026-09-05",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 149 条，入选 3 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 149 previously displayed items excluded, and 3 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 149,
+      "selected_count": 3,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+          "title_original": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+          "title_en": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+          "summary_zh": "OpenAI 的新访谈把焦点放在代码评测可靠性问题，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+          "published_at": "Fri, 04 Sep 2026 05:18:11 GMT",
+          "fetched_at": "2026-09-05T00:08:53.501345+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d4bd5ca244c3",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 发布代码评测可靠性问题",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+              "source_url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest"
+            },
+            {
+              "label": "公开摘要",
+              "text": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class.",
+              "source_url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest"
+            }
+          ],
+          "slug": "ainews-gpt-6-astra-openais-biggest-llm-launch-of-all-time-d4bd5ca2",
+          "localized_url": "/zh/items/2026-09-05/ainews-gpt-6-astra-openais-biggest-llm-launch-of-all-time-d4bd5ca2/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GPT 6 Astra now available on Vercel AI Gateway",
+          "title_original": "GPT 6 Astra now available on Vercel AI Gateway",
+          "title_en": "GPT 6 Astra now available on Vercel AI Gateway",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT 6 Astra from OpenAI is now available on AI Gateway. It is designed for long-running agentic work across software engineering, computer and browser use, scientific research, and professional workflows. Astra can navigate software, complete forms, organize",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-ai-gateway",
+          "published_at": "2026-09-04T00:00:00.000Z",
+          "fetched_at": "2026-09-05T00:08:53.501345+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Vercel AI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "7dccfbf0b62e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "GPT 6 Astra now available on Vercel AI Gateway - Vercel",
+          "extracted_excerpt": "GPT 6 Astra from OpenAI is now available on Vercel AI Gateway for coding, computer use, research, and multi-step professional workflows.",
+          "extracted_text_for_analysis": "GPT 6 Astra from OpenAI is now available on AI Gateway. It is designed for long-running agentic work across software engineering, computer and browser use, scientific research, and professional workflows. Astra can navigate software, complete forms, organize records, analyze data, run simulations, and build and test websites. It also improves instruction following during evolving tasks. It can incorporate new requirements without losing earlier constraints, continue independent work while waiting for clarification, and use reasonable assumptions. To call GPT 6 Astra in code or in coding agent integrations, use openai/gpt-6-astra: import { streamText } from 'ai'; const result = streamText({ model: 'openai/gpt-6-astra', prompt: `Investigate the checkout failures, implement and test a fix, then summarize the changes and any remaining risks.`,}); To use it in a coding agent, see the coding agents guide, then run vercel ai-gateway coding-agents setup to connect Codex, Cursor, and more, and select openai/gpt-6-astra in the agent. Try GPT 6 Astra in the model playground.",
+          "title_zh": "OpenAI 发布AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI、Vercel AI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GPT 6 Astra now available on Vercel AI Gateway",
+              "source_url": "https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT 6 Astra from OpenAI is now available on AI Gateway. It is designed for long-running agentic work across software engineering, computer and browser use, scientific research, and professional workflows. Astra can",
+              "source_url": "https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-ai-gateway"
+            }
+          ],
+          "slug": "gpt-6-astra-now-available-on-vercel-ai-gateway-7dccfbf0",
+          "localized_url": "/zh/items/2026-09-05/gpt-6-astra-now-available-on-vercel-ai-gateway-7dccfbf0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Ling 3.0 Flash Sante is now available on AI Gateway for free",
+          "title_original": "Ling 3.0 Flash Sante is now available on AI Gateway for free",
+          "title_en": "Ling 3.0 Flash Sante is now available on AI Gateway for free",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Ling 3.0 Flash Sante from inclusionAI is now available on AI Gateway, free to use through October 4. Ling 3.0 Flash Sante is a health and medicine-focused version of Ling 3.0 Flash . It is a Mixture-of-Experts model with 124B total parameters and about 5.1B",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free",
+          "published_at": "2026-09-04T00:00:00.000Z",
+          "fetched_at": "2026-09-05T00:08:53.501345+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d5c9a183b768",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Ling 3.0 Flash Sante is now available on AI Gateway for free - Vercel",
+          "extracted_excerpt": "Ling 3.0 Flash Sante from Inclusion AI is free on Vercel AI Gateway through October 4 through a -free model ID or regular ID.",
+          "extracted_text_for_analysis": "Ling 3.0 Flash Sante from inclusionAI is now available on AI Gateway, free to use through October 4. Ling 3.0 Flash Sante is a health and medicine-focused version of Ling 3.0 Flash. It is a Mixture-of-Experts model with 124B total parameters and about 5.1B active per token, a 256K token context window, and function calling. The model is built for medical reasoning, professional healthcare tasks, deep research, evidence-based retrieval, and multi-step medical workflows. It retains the base model's general reasoning, coding, and agentic capabilities. Copy link to headingHow to use the model during the free period - The standard model ID, inclusionai/ling-3.0-flash-sante , is free through October 4 and begins billing when the offer ends. - The free model ID, inclusionai/ling-3.0-flash-sante-free , stops serving when the offer ends instead of billing. Free requests still appear in your spend dashboard and carry a trace, they just cost nothing. To use Ling 3.0 Flash Sante, set model in the AI SDK: import { streamText } from 'ai'; const result = streamText({ model: 'inclusionai/ling-3.0-flash-sante', prompt: 'Compare the evidence in these abstracts and identify where they disagree.',}); Use inclusionai/ling-3.0-flash-sante-free if you want the model to stop serving when the offer ends rather than start billing. To use it in a coding agent, see the coding agents guide, then run vercel ai-gateway coding-agents setup to connect Claude Code, Codex, Cursor, and more, then select inclusionai/ling-3.0-flash-sante in the agent. Try Ling 3.0 Flash Sante in the model playground, or open the free model page. AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more. AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests. You can view all language models available on AI Gateway.",
+          "title_zh": "Vercel AI 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Ling 3.0 Flash Sante is now available on AI Gateway for free",
+              "source_url": "https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Ling 3.0 Flash Sante from inclusionAI is now available on AI Gateway, free to use through October 4. Ling 3.0 Flash Sante is a health and medicine-focused version of Ling 3.0 Flash . It is a Mixture-of-Experts model",
+              "source_url": "https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free"
+            }
+          ],
+          "slug": "ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free-d5c9a183",
+          "localized_url": "/zh/items/2026-09-05/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free-d5c9a183/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-04",
       "title_zh": "AI 新闻简报 · 2026-09-04",
