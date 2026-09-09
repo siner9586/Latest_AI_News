@@ -1,7 +1,996 @@
 {
-  "updated_at": "2026-09-08T00:27:14.105737+00:00",
-  "count": 83,
+  "updated_at": "2026-09-09T00:18:16.655849+00:00",
+  "count": 84,
   "briefs": [
+    {
+      "date": "2026-09-09",
+      "title_zh": "AI 新闻简报 · 2026-09-09",
+      "title_en": "English AI News Brief · 2026-09-09",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 136 条，入选 15 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 136 previously displayed items excluded, and 15 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 136,
+      "selected_count": 15,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+          "title_original": "How GPT-5.6 Sol helps run quantum computing experiments",
+          "title_en": "How GPT-5.6 Sol helps run quantum computing experiments",
+          "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/codex-quantum-computing-experiments",
+          "published_at": "Tue, 08 Sep 2026 17:00:00 GMT",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "167bce5d47e7",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How GPT-5.6 Sol helps run quantum computing experiments",
+          "extracted_excerpt": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+          "extracted_text_for_analysis": "How GPT‑5.6 Sol helps run quantum computing experiments Connecting GPT‑5.6 Sol to laboratory software to run and refine routine measurements on quantum chips freed Beatriz Yankelevich to focus on experiment design and data analysis. Quantum computing is an emerging technology that uses the unique properties of quantum mechanics to process information. It could one day better simulate complex materials and molecules. Unlike conventional processors, quantum processors are built with quantum bits, or qubits. Preparing and running qubit experiments can take months and require hundreds to thousands of preliminary measurements—work that AI is poised to help with. Beatriz Yankelevich, a graduate student in MIT’s Engineering Quantum Systems Group (EQuS), used GPT‑5.6 Sol, harnessed to Codex, to explore whether AI could streamline her experimental workflow. The MIT group studies superconducting qubits, which are cooled to near absolute zero inside specialized devices called dilution refrigerators. These qubits perform operations quickly, are precisely controlled using microwave signals, and can be made using familiar manufacturing techniques and arranged on a chip. Once a superconducting qubit chip has been fabricated, packaged, and cooled, researchers interact with it entirely through software, making Yankelevich’s experiments a natural testbed for AI agents. Connecting Codex to the lab software that coordinates experiments allowed it to run measurements, analyze the results, and decide what to try next. Yankelevich found that GPT‑5.6 Sol could often complete routine measurement workflows autonomously, saving her significant amounts of time and allowing experiments to run without constant supervision. This freed her to spend more time on analyzing results, designing experiments, and planning out the next steps in her research. Coordinating interdependent measurements Superconducting qubits are often called artificial atoms because, like atoms, they can only occupy specific energy levels. Microwave pulses move qubits between these levels and probe their quantum state. Researchers design and calibrate the pulse sequences sent to the chip, then digitize and analyse the returning signals. These measurements reveal each qubit’s resonance frequencies, which allows researchers to accurately control the qubit; how long the qubit retains quantum information; and the settings needed to perform computations. Calibrating qubits requires a series of interdependent measurements, with each result shaping what happens next. Qubit properties can occasionally drift, and unexpected physical behavior can cause inconsistent results. Experienced researchers can recognize these changes and adapt when they occur. This combination of software control, repeated measurements, and adaptive decision-making also makes qubit calibration a compelling use case for AI agents. Yankelevich tested GPT‑5.6 Sol’s ability to run measurements on an uncalibrated six-qubit chip, one of a standard type that EQuS routinely uses to benchmark its fabrication process. She provided Codex with measurement-specific skills explaining how to run and evaluate each experiment. Using these skills and the chip’s design targets, GPT‑5.6 Sol chose measurement parameters, operated the hardware, analyzed the resulting data, and then either refined the measurement or saved the result for use in the next measurement. When the signals were clear, Codex completed a standard sequence of measurements with little researcher intervention. It identified the qubit’s transition frequencies, calibrated the pulses used to control and read it, and determined how long the qubit retained quantum information. GPT‑5.6 Sol had more difficulty when experimental signals were weak or noisy. In those cases, it took longer to find suitable measurement parameters and sometimes needed guidance from an experienced researcher. The results suggest that current agents can handle clearly defined experimental workflows, but interpreting ambiguous physical results remains a challenge. EQuS fabricates many of these standard chips, each of which can take a researcher several days to characterize. The group now regularly uses agents to handle routine measurements, freeing researchers to focus on other work. “I can have agents running measurements for many hours overnight or while I’m working in the cleanroom,” Yankelevich said. “I can check in from my phone, see what they’ve done, and steer them if something needs fixing or if I want to explore a different direction.” Working alongside researchers The immediate advantage is that Codex agents can help researchers make steady progress on experimental analysis and measurements without constant supervision. Experienced researchers may still be able to identify the best calibration settings faster than current AI models. But by saving time previously spent on monitoring every step of the calibration process, researchers can focus on other work. Routine chip characterization follows a relatively well-defined workflow. For novel experiments, Yankelevich assigns Codex agents narrower experimental goals while drawing more heavily on their ability to write, modify, and test new code for control, analysis, and simulation. Connecting agents directly to the lab lets the group revise code, test it against real measurements, and complete longer stretches of work autonomously. “I’ve built infrastructure to guide agents through several parts of my work—measurement, theory, and chip design—and now it’s really starting to pay off,” Yankelevich said. “I can have multiple agents working on different problems at once, and I spend most of my time on higher-level work—interpreting results, devising experiments, planning next steps for the agents, reading, and writing.” - 2026 - Codex",
+          "title_zh": "OpenAI 推进模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How GPT-5.6 Sol helps run quantum computing experiments",
+              "source_url": "https://openai.com/index/codex-quantum-computing-experiments"
+            },
+            {
+              "label": "公开摘要",
+              "text": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+              "source_url": "https://openai.com/index/codex-quantum-computing-experiments"
+            }
+          ],
+          "slug": "how-gpt-5-6-sol-helps-run-quantum-computing-experiments-167bce5d",
+          "localized_url": "/zh/items/2026-09-09/how-gpt-5-6-sol-helps-run-quantum-computing-experiments-167bce5d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The Work Now Within Reach",
+          "title_original": "The Work Now Within Reach",
+          "title_en": "The Work Now Within Reach",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/the-work-now-within-reach",
+          "published_at": "Tue, 08 Sep 2026 13:00:00 GMT",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "aaada63e998e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "The Work Now Within Reach",
+          "extracted_excerpt": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+          "extracted_text_for_analysis": "AI is expanding what people and businesses can achieve. Ideas once held back by time, cost, or access to expertise are becoming practical to pursue. That opens the door to breakthroughs in human achievement, to new businesses, new markets, and new possibilities. OpenAI is built to help realize these ambitions. GPT‑6 Astra is a major step forward in AI capability. It is the world’s most intelligent and aligned model, and is state-of-the-art in areas such as computer use, browsing, software engineering, cybersecurity, science, and professional work. OpenAI is built to turn this research progress into broad benefit for people and organizations around the world. Our broad reach across both consumer and enterprise means new capabilities have a direct route to customers through products they already use. And our full stack compute strategy gives us greater control over the capacity, performance, and the cost of delivering that intelligence. These advantages compound. Better models open up new work. More efficient compute makes that work affordable at a greater scale. Revenue from growing adoption funds further research and infrastructure, strengthening our ability to pursue the next breakthrough and bring it to people everywhere. Our products reach more than one billion weekly active users and 2.5 million businesses. Every research advance improves ChatGPT, ChatGPT Work, Codex, and applications built on our API. One investment in model research supports many products and their diversified revenue streams. People who know ChatGPT at home bring that familiarity to work. Enterprise deployments give them tools suited to complex work and the requirements of their organization. Experience at work can then change what they expect from AI in their personal lives. Developers extend our reach further by building applications for needs we would not have identified ourselves. And over time we expect there to be a continuous blurring between these traditionally more distinct segments as our agentic products get to know you better as a person but at work and in your personal life. Individual use and enterprise deployments expand over time. In our study of people on individual ChatGPT plans, daily message volume was roughly 50% higher six months after signup than in the first month, and people had tried roughly twice as many distinct tasks. Our business model lets us earn revenue as that use grows. Free access, supported by advertising, helps people discover where AI is useful. Subscriptions and usage-based offerings let customers spend more as they find more value. Increasing model capability expands what customers can afford to do. A business can fix a process that once demanded too much specialist time or enter a market it could not previously serve profitably. We see this in the work of our own team. A recent update from our research team shows how researchers are contributing code faster and running more experiments while delegating increasingly complex tasks to agents. Teams are leveraging agents to resolve infrastructure problems that once required specialist support. The research organization now uses 3.1 agent-workdays of effort for every workday of human labor. People still set research priorities and judge results, but agents give them more capacity to pursue promising ideas. For OpenAI, that work can help improve the models and the infrastructure that our customers depend on. The possibilities extend to scientific discovery. We recently announced that one of our internal models has produced a solution to the Navier–Stokes Millennium Prize Problem, one of mathematics’ deepest open questions that has remained unresolved for roughly 90 years. This marks a significant milestone in AI’s ability to contribute to mathematical research, and shows how we can empower scientists to advance research and technology. As AI expands human capability, it opens a market far beyond the work we do today. More people can pursue their biggest ambitions, make new discoveries, and build things that improve lives for generations to come. Serving expanding demand requires both capacity and better economics. Our compute strategy spans data centers, chips, software, models, and products. We manage those choices together, continually seeking the strongest combination of capability, speed, reliability, efficiency, and cost for each workload. Training a frontier model and running a fast, interactive agent place different demands on infrastructure. We build where designing components together improves performance or cost, and partner where others offer the strongest option. This gives us the flexibility to choose the best system for each task. GPT‑5.6 Sol helped improve our production serving software, reducing end-to-end serving costs by 20%. Additional improvements increased token-generation efficiency by more than 15 percent, allowing the system to produce more output from its compute. Jalapeño, our first custom inference chip, extends that work into hardware. In InferenceX tests across three public models, it delivered 1.5 to 1.9 times as much peak token throughput per watt as the commercial systems tested, using rated chip power to normalize the comparison. End-to-end latency was 1.7 to 3.6 times lower. We plan to begin deploying it by year-end alongside accelerators from NVIDIA, AMD and other partners. For customers, the result that matters is the completed task. Better models can get there with fewer attempts. Better software and hardware can make each attempt faster and cheaper. Improving both can give us room to serve more work from the capacity we build and buy. Years of investment in research, products, and compute are coming together. Our consumer and enterprise reach gives each model advance a direct route to customers. Our full stack compute strategy helps us deliver that intelligence with better performance and economics. That combination grows stronger as customers put AI to work. Their needs help guide research and capacity. Better models and lower costs make more work viable, while revenue from growing use funds the next generation of research and infrastructure. Capital discipline is how we sustain that growth. We judge each investment by the demand it can serve, how quickly it becomes productive, and whether the returns justify the capital committed. This is what gives us conviction in OpenAI’s ability to lead through successive generations of AI. We can help people achieve more with every advance – and build a business that grows with their ambition.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The Work Now Within Reach",
+              "source_url": "https://openai.com/index/the-work-now-within-reach"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+              "source_url": "https://openai.com/index/the-work-now-within-reach"
+            }
+          ],
+          "slug": "the-work-now-within-reach-aaada63e",
+          "localized_url": "/zh/items/2026-09-09/the-work-now-within-reach-aaada63e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing ChatGPT Images 2.5",
+          "title_original": "Introducing ChatGPT Images 2.5",
+          "title_en": "Introducing ChatGPT Images 2.5",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+          "published_at": "Tue, 08 Sep 2026 11:30:00 GMT",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "305f03a4aa6a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing ChatGPT Images 2.5",
+          "extracted_excerpt": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+          "extracted_text_for_analysis": "Every week, people create more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API. Today, we’re expanding what you can create with ChatGPT Images 2.5—our new state-of-the-art image model that brings sharper details, more precise editing, and faster generation to your creative workflows. Images 2.5 produces more natural lighting and richer textures, is better at preserving the subjects in your reference photos, and follows editing instructions more reliably across multiple turns. We’ve also reduced image generation latency by up to 50% compared with Images 2.0, so you can generate images and refine your concepts more quickly. In ChatGPT, we’re introducing product features that give you more control over the creative process. Sketch(opens in a new window) is a new feature that lets you draw directly in ChatGPT as a reference for your final image. Templates make it easier to start creating across some of the most popular image formats, like flyers and product photos. You can also now place comments directly on images for more focused editing, and you can share prompts you’ve used to let others try your ideas with their own photos and details. Images 2.5 is available to all ChatGPT, ChatGPT Work, and Codex users across desktop, mobile, and web. For developers, we’re introducing two new models in the API. GPT‑Image‑2.5 Flare brings the same improvements in quality, editing, and speed, and GPT‑Image‑2.5 Sunburst offers an extra level of precision for detailed creative work with longer generation times. The most meaningful images feel grounded in the real-life people, places, and memories they’re based on. Images 2.5 is better at working from reference photos to transform familiar subjects across new settings, visual styles, and compositions. Image subjects look more recognizable, lighting and textures feel more natural, and distinctive features are more likely to carry through. For teams building with the API, this same fidelity makes reference-led workflows more reliable, so variations can stay anchored to the original source. We’ve made it easier for you to make focused edits, so you end up with final images that are more aligned with what you actually had in mind. Images 2.5 is better at editing only what you’ve asked for, while keeping the rest of the details the same—even with more complex subjects and backgrounds. For developers using the Images API, this gives users the ability to update a single element—such as a product, background, or piece of copy—while preserving the subject, composition, and brand treatment around it. The following videos are made up of multiple images, highlighting the model’s improved ability to follow precise editing instructions. During longer ChatGPT conversations, Images 2.5 follows specific editing instructions more reliably across multiple edits. Earlier changes are more likely to stay consistent, and each new edit builds on the work you’ve already done without degrading image quality over time. That consistency also matters in production workflows, where developers need to make targeted changes without rebuilding the entire asset. The following videos are made up of multiple images, highlighting the model’s improved ability to maintain image quality over multiple turns. Images 2.5 is better at understanding complex visual instructions and translating them into coherent results. Images that include real-world information have more accurate content, and the model can handle more complex layouts including transparent backgrounds. It’s also better at reflecting visual styles, so your images are more aligned with your artistic vision. For developers and businesses, this makes complex creative briefs more dependable. The model is more likely to retain the requested visual direction, composition, and individual details, instead of drifting as instructions become more specific. That matters when generating a series of on-brand creative assets, UI concepts that preserve a given hierarchy, or presentation visuals that fit a defined structure. Sometimes the clearest way to explain an idea is by drawing it. We’re introducing Sketch, a new feature which lets you draw right in ChatGPT and use it as a visual guide. Now you can quickly sketch the layout of a room, the contour of an outfit you’re concepting, or just a funny doodle, and ChatGPT will turn your rough art into a complete image. Add a description of the style and any other details you want to make sure it reflects your vision. You don’t need to be a professional artist—this is just another way to get your final image closer to what you have in mind. To try it yourself(opens in a new window), just type “@Sketch” in ChatGPT. At times you may have a clear idea of what you want to make—you just need some help getting started. We’re introducing templates for some of the most popular creative formats. Instead of starting with a blank canvas, you can choose a template like “Poster” or “Merch” and add details like information to convey, design elements, or styles to personalize your results. Often you end up with an image that’s too good not to share. Now when you share an image, you can also choose to include the prompt that got you there. Someone else can then run with the same idea, bringing in their own images and details to make a version that feels like their own. For example, try out this prompt(opens in a new window) that’s currently going viral to see what you would’ve looked like in the ’80s! Developers are building image generation workflows into products used by creative, marketing, retail, and media teams every day with the Images API. We’re releasing two new image models in the API: GPT‑Image‑2.5 Flare brings the same improvements in quality, editing, and speed to the API and is the default choice for most applications, delivering higher-quality images than GPT‑Image‑2 at 50% lower latency. It’s well suited to everything from creator and social content to product experiences, visual search, rapid image prototyping, and high-volume generation. GPT‑Image‑2.5 Sunburst is built for premium visual workflows that benefit from tighter control across edits. Use it for creative and editing workflows like production-ready campaign creative or polished product imagery. Here’s what early customers have to say about the new models: We’re building image generation to be useful, creative, and safe. ChatGPT Images 2.5 builds on our existing safeguards, with checks on prompts and images to help prevent harmful outputs. We continue to use C2PA metadata and invisible watermarking to help identify images made with our tools. You can read more about our evaluations and approach in the system card(opens in a new window). Images 2.5 is rolling out today to ChatGPT, ChatGPT Work, and Codex users across all tiers on desktop, mobile, and web.",
+          "title_zh": "OpenAI 发布模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing ChatGPT Images 2.5",
+              "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5"
+            },
+            {
+              "label": "公开摘要",
+              "text": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+              "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5"
+            }
+          ],
+          "slug": "introducing-chatgpt-images-2-5-305f03a4",
+          "localized_url": "/zh/items/2026-09-09/introducing-chatgpt-images-2-5-305f03a4/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "On the Navier–Stokes Millennium Prize Problem",
+          "title_original": "On the Navier–Stokes Millennium Prize Problem",
+          "title_en": "On the Navier–Stokes Millennium Prize Problem",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/navier-stokes-solution",
+          "published_at": "Tue, 08 Sep 2026 10:00:00 GMT",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "fbb79928f7d9",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "On the Navier–Stokes Millennium Prize Problem",
+          "extracted_excerpt": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+          "extracted_text_for_analysis": "We’re sharing a solution to the Navier–Stokes existence and smoothness problem, one of the Millennium Prize Problems. This proof, produced by an internal OpenAI system, shows that the dynamics of the Navier-Stokes equations for fluid motion can develop a singularity in finite time. We’re sharing both a writeup of the proof and a formalization in Lean. The Millennium Prize Problems(opens in a new window) represent some of the deepest questions at the frontier of mathematics. The question of whether smooth three-dimensional fluid motion can break down has remained unresolved for roughly 90 years. A major goal of our work is to empower scientists to advance research and technology that benefits all of humanity. To solve the Navier–Stokes problem, we used an internal model that is significantly more capable than GPT‑6 Astra. We believe it is important to inform the world about the pace of AI progress and what to expect from upcoming models. The Navier–Stokes equations use Newton’s second law of motion (“F=ma”) to describe how fluids move. Importantly, they treat a fluid as a continuous medium rather than tracking individual molecules. These equations are used for aircraft design, weather forecasting, and the study of blood flow. A fundamental open question for these dynamical equations has been whether the continuum approximation of the fluid can break down. Specifically, can the Navier–Stokes equations for a three-dimensional incompressible fluid with constant density develop a “singularity,” even when the motion starts smoothly? Here, a singularity means the dynamics lead to speeds in the fluid growing without bound within a finite amount of time. The development of a singularity would have to happen despite the presence of viscosity, which tends to smooth out motion. Because a real fluid cannot move infinitely fast, this would mark a breakdown in how the equations model the fluid. To continue modeling the system, one would then need to track the behaviour of each particle individually. The equations date to the nineteenth-century work of Claude-Louis Navier and George Gabriel Stokes. In 1934, Jean Leray proved that solutions exist in a generalized sense, but whether they always remain smooth became a central unanswered question. In 2000, the Clay Mathematics Institute named the Navier–Stokes existence and smoothness problem one of seven Millennium Prize Problems. Our system produced an analytical proof and a Lean formalization that an initially smooth fluid at rest can develop a singularity in a finite time. The fluid has a smooth force applied to it, and its energy remains finite through the entire dynamics, from rest to the formation of the singularity. This resolves the Navier–Stokes Millennium Prize problem by establishing statement “C” (and also “D”) in the official Millennium Prize formulation(opens in a new window). The solution is a vortex, a spinning swirl of fluid, that spirals inward and gets increasingly elongated, like spaghetti. This central region shrinks while it speeds up in such a way that its energy still stays finite, as required by the laws of physics. The technical challenge is for the equations to develop the breakdown through the motion of the fluid itself, rather than, for example, us putting in an infinite force by hand. More mathematically, the terms in the Navier–Stokes equations that describe the motion—acceleration, pressure gradients, momentum transfer, viscosity—must both become big yet cancel in a precise way. This detailed balance leaves a smooth external force even as the velocity of the fluid grows without bound. Since August 28 we have been training a new internal model that has exhibited unprecedented performance in our benchmarks, including mathematics. This model’s training is ongoing and its performance continues to improve. On Tuesday, September 1, we heard rumors that two Millennium Prize problems had been resolved. Inspired by these rumors and by the step change in performance of our internal model, we launched an effort to evaluate it on all open Millennium Prize problems and a few other high-impact problems. We used a system of coordinating agents powered by our internal model. The agents had access to tools such as the ability to read from a cached version of the internet and the ability to run code. Agents were subdivided into groups with the ability to communicate within the group. The groups varied in size, and the group that produced the Navier–Stokes resolution involved on the order of 10,000 concurrent agents. At all times we maintained the same strict safeguards that we apply to all our frontier model evaluations, including monitoring and isolation. For each problem, we prompted different groups of agents with different variants of the problem statement, covering all variants of the problem. For the Navier–Stokes problem, we suggested versions “A” and “B” (particular forms of the Navier–Stokes problem which would result in a proof) and versions “C” and “D” (which would result in a disproof) to separate groups of agents. In addition to the full Millennium Prize problems, we asked our multiagent system to try a set of “easier” problems. One of these problems was a similar blowup question for the limit of the Navier–Stokes problem with the viscosity term removed. This is known as the regularity problem for the Euler equations, and our agents surprised us by resolving this question. The specific variant of the question that they resolved was the unforced version, where no external force is applied to the fluid. Nearly 100 agents worked together for approximately 50 hours to produce our Euler regularity disproof. Once we saw the Euler solution, we thought that Navier–Stokes was the most promising problem to work on. Thus, we decided to devote our resources to Navier–Stokes. To do so, we shifted agents away from the other Millennium Problems and prompted these agents with the Euler resolution. When a further trained version of our internal model became available over the course of the effort, we updated our agents to that model. We encouraged different groups of agents to explore a diversity of approaches. After some time, we cross-pollinated the agent groups by using Codex to consolidate the most useful insights from each agent group. These follow-up prompts drew on the agents’ own intermediate results. The group that found the solution to Navier–Stokes was guided in such a way. The agents arrived at their resolution on Saturday, September 5, about 88 hours after the first agents were launched. Lean formalization and verification took an additional 17 hours via GPT‑6 Astra. Across all attempted problems, the agents sent 4.9 million messages and used about 300 billion output tokens. In the process of resolving the Navier–Stokes problem, the agents sent 2.7 million messages and used approximately 130 billion output tokens. Our effort began on September 1st after hearing a rumor which we later realized was related to",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "On the Navier–Stokes Millennium Prize Problem",
+              "source_url": "https://openai.com/index/navier-stokes-solution"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+              "source_url": "https://openai.com/index/navier-stokes-solution"
+            }
+          ],
+          "slug": "on-the-navierstokes-millennium-prize-problem-fbb79928",
+          "localized_url": "/zh/items/2026-09-09/on-the-navierstokes-millennium-prize-problem-fbb79928/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Funding grants for new research into AI and teen development",
+          "title_original": "Funding grants for new research into AI and teen development",
+          "title_en": "Funding grants for new research into AI and teen development",
+          "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/teen-development-research-grants",
+          "published_at": "Tue, 08 Sep 2026 09:00:00 GMT",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "99c22bc85dd5",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Funding grants for new research into AI and teen development",
+          "extracted_excerpt": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+          "extracted_text_for_analysis": "Funding grants for new research into AI and teen development OpenAI is committing $5 million to support independent research on how generative AI affects the lives and development of young people ages 13–17. Generative AI is becoming part of how teens learn, create, and seek advice. Its effects are likely to be nuanced. They may depend on what teens use AI for, how they engage with it, their individual circumstances, and the support available from families, schools, communities, and technology providers. We want to build a stronger evidence base about the way teens use AI, as well as the impacts of AI on their lives, to inform development of AI products for teens and to help answer major questions facing policymakers and regulators. For example, we aim to deepen industry-wide understanding of the nuances across age and context, efficacy of safeguards and interventions, and the ways that evidence can inform implementation and evaluation. This program will fund independent research into the opportunities and challenges associated with AI use during adolescence, with a particular focus on teens’ social and emotional development. We welcome proposals that can deepen understanding and generate evidence relevant to current and emerging discourse, including: - How teens use generative AI and how different patterns of use relate to developmental outcomes - Potential impacts of AI use in teens’ lives - The individual, social, cultural, and technical factors that shape the effects of AI in teens’ lives - Technical interventions, safeguards, and design choices that can increase benefits or keep teens safer - How effects may differ across ages, developmental stages, populations, cultures, languages, and socioeconomic contexts We welcome interdisciplinary research involving fields such as child and adolescent development, psychology, public health, human-computer interaction, communication, sociology, anthropology, data science, and AI safety. We encourage proposals from any country, and will prioritize those from countries with significant AI adoption. Qualitative, quantitative, experimental, observational, theoretical, participatory, and mixed-methods approaches are all eligible. Research involving teens in the design or interpretation of studies is welcome but not required. We encourage submissions that relate to one or more of the following topics: - Emotional development and well-being: Research on emotion regulation, resilience, identity, agency, self-esteem, and social connection. - Social development and relationships: Research on friendships, family relationships, belonging, communication, empathy, social skills, and the relationship between AI and human connection. - Patterns, contexts, and variance across demographics: Research on how outcomes vary by time spent, type and purpose of use, age, culture, language, socioeconomic circumstances, and other individual or contextual factors. - Mitigations, age-appropriate design, and policy approaches: Research evaluating safeguards, product interventions, AI literacy, parental or educator support, and healthy-use practices. Research involving minors requires particular attention to informed consent and assent, privacy, safeguarding, data security, and the possibility that participation may expose or generate sensitive information. Applicants proposing research involving minors must explain: - The relevant institutional or independent ethics-review process - How informed consent and age-appropriate assent will be handled - How participants’ privacy and data will be protected - How researchers will respond to disclosures of harm or imminent risk - Whether the project involves sensitive personal, behavioral, or mental-health information - What relevant child-development, clinical, or safeguarding expertise the research team possesses - Parental consent, where appropriate Collecting sensitive information does not automatically make a project ineligible. However, such projects may require additional ethical review, expertise, safeguards, and time. Applications should be formatted as a single-spaced Google doc. Applicants should submit: - Project summary: A brief overview of the proposed research and its expected contribution, less than one page. - Research proposal: No more than three pages, excluding references, addressing: - Research questions - Relevant prior research - Proposed methods and analysis - Study population and recruitment strategy, including evidence of feasibility or access - Expected outputs - Potential limitations - Relevance to the program’s goals - Project plan and timeline: Key activities, milestones, and expected completion date. - Budget and budget justification: Requested funding, major cost categories, and any other committed sources of support. - Project dependencies: An explanation of requirements that must be met for the research to be carried out and risks that might endanger the project’s fruition. - Ethics and safeguarding statement: Required for any research involving minors, sensitive information, or potentially vulnerable populations. Where relevant, proposals should explicitly reference any regulation governing research with teens and compliance strategy. - Team information: Short CVs or bios for the principal investigator and key team members. - Independence and conflicts disclosure: Relevant financial relationships, industry funding, or other potential conflicts of interest. Applications must be submitted in English. Research itself may be conducted in any language. Proposals will be evaluated based on: - Scientific rigor: The strength and appropriateness of the research design and analysis - Relevance: Examination of a topic relevant to current public discourse on AI - Proposal quality: The clarity, focus, and coherence of the application - Actionability: The potential to translate findings into guidance for models, products, safeguards, regulatory approaches, or future research - Ethics and safeguarding: The adequacy of protections for minors and other participants - Feasibility: Whether the project can be completed with the proposed resources and timeline - Team expertise: The team’s ability to conduct the proposed work responsibly - Inclusion and generalizability: Attention to diverse populations, contexts, cultures, and experiences - Complementarity: The extent to which the work adds to existing evidence and complements OpenAI’s internal research agenda - Independence and credibility: The project’s ability to produce trustworthy findings regardless of whether those findings are favorable to providers of AI products Preference may be given to research involving ChatGPT, interdisciplinary teams, underrepresented populations or regions, and projects capable of producing clear evidence that can inform near- or medium-term policy and regulatory decisions. Final grants may be subject to the grantee’s execution of a grant agreement, award letter, certification, acknowledgment, or other",
+          "title_zh": "OpenAI 推进模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Funding grants for new research into AI and teen development",
+              "source_url": "https://openai.com/index/teen-development-research-grants"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+              "source_url": "https://openai.com/index/teen-development-research-grants"
+            }
+          ],
+          "slug": "funding-grants-for-new-research-into-ai-and-teen-development-99c22bc8",
+          "localized_url": "/zh/items/2026-09-09/funding-grants-for-new-research-into-ai-and-teen-development-99c22bc8/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+          "title_original": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+          "title_en": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+          "summary_zh": "OpenAI 更新了教育场景中的 AI 实用技能培训，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+          "published_at": "Tue, 08 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "671a9fed35e2",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+          "extracted_excerpt": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+          "extracted_text_for_analysis": "OpenAI is launching a major, multi-faceted initiative to support the journalism ecosystem with tools, training, partnerships, shared learning, and practical enablement for students, educators, journalists, and news organizations. It begins with the next generation of reporters at CUNY’S Newmark J-School and Northwestern University’s Medill School. For the new 2026–2027 academic year, OpenAI is collaborating closely with the Tow-Knight Center for Journalism Futures at the Newmark J-School and the Medill's Knight Lab, two of the leaders in journalism and technology in the country, and providing more than 400 ChatGPT Edu subscriptions to interested graduate students and faculty at those schools. Journalism students entering classrooms this year are preparing to enter one of the most dynamic and difficult moments in the history of the news industry. AI is helping reporters, editors, and business teams analyze public records faster, translate stories for broader audiences, uncover patterns in large datasets, search archives, improve reader experiences, assist in marketing, build new products, and spend more time on the work that matters most: reporting, verification, storytelling, strengthening business, and serving communities. For journalism schools, this creates an important opportunity. Students should graduate not only understanding how AI is changing the profession, but also knowing how to use it thoughtfully, creatively, ethically and responsibly to make their journalism, as well as the business of journalism, stronger. Through these collaborations, OpenAI and the Newmark and Medill communities will seek to further this outcome. “Generative AI is a transformative technology that will remake the information landscape, and one that the journalism industry will need to adapt to and shape in order to fulfill our mission of informing the public. We intend for the Newmark community to be at the forefront of this transformation, and it’s critical that they learn about and be immersed in this technology. We’re very grateful to OpenAI for making the tools available to our students and faculty so they can better prepare themselves for this future.” “The media industry is rapidly evolving, and AI is a major driver of this change. The Knight Lab is committed to ensuring that any Medill graduate students who want to use the latest AI tools and techniques can do so without cost being a barrier. Offering equity of access is crucial when incorporating new technologies. The Knight Lab has been working at the intersection of media and AI for more than a decade. This support from OpenAI helps us to continue to explore the future of media and technology, allowing faculty to teach and practice journalism in countless new ways.” “Over the past three years, OpenAI has partnered closely with leaders across the news industry to help both established and aspiring journalists make the most of AI, while keeping their human expertise front and center. We’re excited to see what the next generation of reporters and editors will accomplish with AI as they carry forward journalism’s proud tradition of serving communities through their vital work. OpenAI is expanding on our longstanding commitment to journalism and furthering our mission by providing students and faculty at the Newmark J-School at CUNY and Medill School of Journalism at Northwestern access to the technology, sharing successes and challenges, and engaging in deep dialogues about strengthening journalism’s future.” The Tow-Knight Center at the Newmark J-School and the Knight Labs at Medill are the first partners in this latest phase of OpenAI’s commitment to journalism, and additional efforts are already underway to expand support across the journalism education ecosystem. AI can help journalism students work more ambitiously. It can support deeper investigations, faster analysis, stronger brainstorming, new storytelling formats, and more pointed questioning. But access to the technology alone is not enough. Students need opportunities to experiment, develop responsible workflows, understand its limitations, and learn where human judgment matters most. Through this program, the Tow-Knight Center and the Knight Lab will help students at the Newmark J-School and Medill explore how AI can support their work while preserving the essential roles of reporters, editors, producers, and newsroom leaders. This new initiative builds on OpenAI’s yearslong and ongoing support of the journalism ecosystem, which includes: - Through our renewed partnership with the American Journalism Project, all 50+ of the news organizations in their portfolio will have the opportunity to access ChatGPT enterprise and API credits. AJP’s Product & AI Studio will turn the strongest uses cases into reusable tools and infrastructure, and share playbooks and lessons across the portfolio and with the broader nonprofit and local news community. - OpenAI’s continued support for the Lenfest Institute for Journalism’s AI Collaborative and Fellowship program, providing major local news organizations with funds to hire AI engineering fellows dedicated to building, scaling, and sharing projects that strengthen journalism and the business of news. Projects have focused on reporting on public data, making news archives more accessible to staff, developing new products that expand audience reach, and growing advertising, subscription, and membership revenue. - An ongoing partnership with WAN-IFRA, launched in 2024, through which OpenAI has supported multiple stages of its Newsroom AI Catalyst accelerator program, which has served over 165 newsrooms across Europe, Asia Pacific, South Asia, Latin America, and Australia and New Zealand. The program offers practical training, technical assistance, strategy development, and OpenAI API credits. - OpenAI’s ongoing work with INMA to support international news organizations to understand and shape the role AI can play across journalism and the business of news. The partnership has supported dedicated regional discussions with industry leaders from Europe, Latin America, and Asia Pacific, alongside webinars, and OpenAI API credits for hands-on building. The new Tow-Knight Center and Knight Lab program at the Newmark J-School and Medill program builds on these efforts and expands this work further upstream: helping future journalists build the skills, fluency, and confidence they will need before they enter the newsroom Enabling Newmark J-School and Medill students and faculty is the latest step as OpenAI extends its broad, multi-faceted collaborations with news industry leaders. Additional phases are actively being developed to expand tools, training, partnerships, shared learning, and practical enablement across the journalism industry. This work builds on OpenAI’s early support of journalism and education. In 2023, OpenAI provided a grant to help launch the Ethics and Journalism Initiative at NYU’s Arthur L. Carter Journalism Institute",
+          "title_zh": "OpenAI 更新教育场景中的 AI 实用技能培训",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在教育场景中的 AI 实用技能培训。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+              "source_url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+              "source_url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms"
+            }
+          ],
+          "slug": "openai-expands-initiatives-to-support-journalism-from-classrooms-to-news-671a9fed",
+          "localized_url": "/zh/items/2026-09-09/openai-expands-initiatives-to-support-journalism-from-classrooms-to-news-671a9fed/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "1Password increases engineering productivity 21% with Codex",
+          "title_original": "1Password increases engineering productivity 21% with Codex",
+          "title_en": "1Password increases engineering productivity 21% with Codex",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/1password",
+          "published_at": "Tue, 08 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9816f5beea82",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "1Password increases engineering productivity 21% with Codex",
+          "extracted_excerpt": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+          "extracted_text_for_analysis": "20.9% Measured productivity improvement among the Codex user cohort 10.9% Reduction in median pull request cycle time ~90% Reduction in investigation time on a complex, multi-service production issue $0.8M Estimated annual engineering capacity value from Codex 1Password has integrated Codex across the software delivery lifecycle to compress the time between planning and production, allowing it to build new features at a rapid pace. The 1Password team has cut median pull request cycle time by nearly 11% and improved engineering productivity by almost 21% for its core user cohort. Based on engineering's results, 1Password's leadership team is expanding access to Codex to other functions, enabling teams such as finance and marketing to build their own tools and features. Throughout, 1Password maintained its rigorous security standards, ensuring there's no tradeoff between increasing its speed and protecting its data. “What’s been really eye-opening for a lot of our engineers is shortening the lifecycle between planning and being able to see a feature in production.” 1Password is using Codex to move ideas from planning to implementation faster, helping engineers turn well-defined user stories into working features. “Previously, you would go into a project, think about how to break it down into different sprints, and assign different sprints to engineering scrum teams,” explains Nancy Wang, CTO at 1Password. “With Codex, you can actually one-shot, going from an idea to a prototype to a feature that works fully in production.” “For our workflow, Codex made it faster and easier to one-shot features by giving it a user story and instructions about what we want the user to experience, reducing the iteration required before engineering review,” Wang says. This work has resulted in numerous new features, both internal tools and customer-facing products. One example is Knox, a fully agentic frontend design system that helps teams at 1Password build new interfaces. Other examples include an internal AI site reliability engineering (SRE) agent and an AI spend management tool. 1Password gives Codex room to work autonomously inside clearly defined engineering and security boundaries. “Codex will actually break the requested feature down into functional specs and build a near-final prototype that then we can hand to our systems engineers to build into our backend,” Wang says. This approach reduced handoff time and improved engineering productivity. Engineers are writing code faster and spending less time on the handoffs between planning, implementation, and review. Codex touches every step from planning to production: - Planning and technical design: Turns requests into specs, dependency checks, and work items. - Implementation across stacks: Helps engineers navigate unfamiliar Rust and TypeScript code via CLI; parallel worktrees run tasks simultaneously. - Pull request review: Reviews changes before a human, flags logic issues and missing context. - Testing and release readiness: Runs acceptance criteria and automated tests in parallel with other work. - Security and access: Ties into 1Password's internal AppSec harness; secret references keep plaintext credentials out of model context. - Production investigation: Pulls evidence across incident management, telemetry, source control, paging, and feature flags. As 1Password integrated Codex across its software development lifecycle, engineering teams recorded a 20.9% productivity improvement and a 10.9% reduction in median pull request cycle time. An engineer contributing outside their usual stack cut a typical three-day merge down to one day, and a team facing a fixed beta launch date completed four release-critical tickets instead of the roughly two they would normally expect. For a defect spanning more than 10 microservices, investigation time fell from about two hours to 5–20 minutes. For a modeled cohort of 50 Codex users, 1Password estimates approximately $784,000 in annual engineering capacity and a 553% ROI, with capacity reinvested in product development and internal innovation. At 100 consistent users, the modeled annual capacity value could reach approximately $3.1 million, assuming Codex accounts for a larger share of the measured productivity improvement. “If we can actually speed up that feedback loop between customer feedback and making quick changes in our UI, that’s going to really unlock a lot of things for the business.” 1Password is also rolling out OpenAI tools to finance, marketing, and other teams, where the chat interface has become second nature. For 1Password, its security model is a design requirement for adoption, not a control to add after usage expands. “We have a very stringent security posture in terms of how we build products,” Wang says. Any product that touches credentials or secrets, for example, needs to adhere to a zero-knowledge architecture designed so that only the customer can decrypt and access their sensitive data. 1Password implements that principle by keeping secret references, rather than credentials, in repositories. When Codex calls an approved internal tool, 1Password resolves and injects the credential at the point of action, so the plaintext value never enters the model context. To further strengthen security, 1Password engineers have also taken the company's security policies and “baked that into reusable AppSec skills,” allowing the company's standards to travel with the development workflow, Wang explains. “That's been a game changer.” Wang and the 1Password team see software production becoming more accessible in the near future through “democratized building”: more roles can build software. If the first wave was about engineers becoming AI-assisted builders, Wang says, “We're now squarely in the second wave. Everyone in product, design, research, and development is becoming builders. PMs are starting to ship products, and designers are starting to ship front-end code.” Wang predicts this trend spreading across every role. “I think the last mile is actually getting everybody in a company to build,” she says. “That's what we're going to see over the next 12 months, folks who are traditionally not writing code or who don't think of themselves as builders becoming so comfortable with AI tools that they can ship code confidently.”",
+          "title_zh": "OpenAI 推进政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "1Password increases engineering productivity 21% with Codex",
+              "source_url": "https://openai.com/index/1password"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+              "source_url": "https://openai.com/index/1password"
+            }
+          ],
+          "slug": "1password-increases-engineering-productivity-21-with-codex-9816f5be",
+          "localized_url": "/zh/items/2026-09-09/1password-increases-engineering-productivity-21-with-codex-9816f5be/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
+          "title_original": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
+          "title_en": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
+          "summary_zh": "Grok 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "xAI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+          "published_at": "Tue, 08 Sep 2026 12:31:49 GMT",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "xAI"
+          ],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1f928ee0f439",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Grok 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Grok，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。",
+            "涉及公司或机构：xAI。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
+              "source_url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month"
+            },
+            {
+              "label": "公开摘要",
+              "text": "xAI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month"
+            }
+          ],
+          "slug": "how-we-built-grok-bot-in-a-month-roman-ugarte-spacexai-1f928ee0",
+          "localized_url": "/zh/items/2026-09-09/how-we-built-grok-bot-in-a-month-roman-ugarte-spacexai-1f928ee0/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GPT Image 2.5 Flare and Sunburst now available on AI Gateway",
+          "title_original": "GPT Image 2.5 Flare and Sunburst now available on AI Gateway",
+          "title_en": "GPT Image 2.5 Flare and Sunburst now available on AI Gateway",
+          "summary_zh": "OpenAI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT Image 2.5 Flare and GPT Image 2.5 Sunburst from OpenAI are now available on AI Gateway as openai/gpt-image-2.5-flare and openai/gpt-image-2.5-sunburst . Both models generate and edit images with more natural lighting and textures, follow complex visual",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/gpt-image-2-5-flare-and-sunburst-now-available-on-ai-gateway",
+          "published_at": "2026-09-08T00:00:00.000Z",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2477a6114db4",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 发布开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GPT Image 2.5 Flare and Sunburst now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/gpt-image-2-5-flare-and-sunburst-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT Image 2.5 Flare and GPT Image 2.5 Sunburst from OpenAI are now available on AI Gateway as openai/gpt-image-2.5-flare and openai/gpt-image-2.5-sunburst . Both models generate and edit images with more natural",
+              "source_url": "https://vercel.com/changelog/gpt-image-2-5-flare-and-sunburst-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "gpt-image-2-5-flare-and-sunburst-now-available-on-ai-gateway-2477a611",
+          "localized_url": "/zh/items/2026-09-09/gpt-image-2-5-flare-and-sunburst-now-available-on-ai-gateway-2477a611/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+          "title_original": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+          "title_en": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+          "published_at": "Tue, 08 Sep 2026 14:23:07 GMT",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4f420d1c5cd0",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+              "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom"
+            }
+          ],
+          "slug": "safety-for-whom-refusing-the-right-subset-of-a-topic-not-the-whole-topic-4f420d1c",
+          "localized_url": "/zh/items/2026-09-09/safety-for-whom-refusing-the-right-subset-of-a-topic-not-the-whole-topic-4f420d1c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Pretraining progress is mostly coming from data",
+          "title_original": "Pretraining progress is mostly coming from data",
+          "title_en": "Pretraining progress is mostly coming from data",
+          "summary_zh": "Dwarkesh Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Breaking down 6 years of pretraining progress into data vs model improvements",
+          "source_name": "Dwarkesh Podcast",
+          "source_url": "https://www.dwarkeshpatel.com/",
+          "original_url": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data",
+          "published_at": "Tue, 08 Sep 2026 16:10:16 GMT",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "agi",
+            "economics",
+            "interview"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3978b8b7d67f",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Dwarkesh Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Dwarkesh Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：agi、economics、interview。"
+          ],
+          "background_zh": "这条内容来自 Dwarkesh Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Pretraining progress is mostly coming from data",
+              "source_url": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Breaking down 6 years of pretraining progress into data vs model improvements",
+              "source_url": "https://www.dwarkesh.com/p/pretraining-progress-is-mostly-data"
+            }
+          ],
+          "slug": "pretraining-progress-is-mostly-coming-from-data-3978b8b7",
+          "localized_url": "/zh/items/2026-09-09/pretraining-progress-is-mostly-coming-from-data-3978b8b7/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "title_original": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "title_en": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "summary_zh": "DeepMind 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+          "published_at": "Tue, 08 Sep 2026 14:00:15 +0000",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f7dd334d631a",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "DeepMind 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 DeepMind，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+              "source_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+              "source_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
+            }
+          ],
+          "slug": "alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-i-80d284f5",
+          "localized_url": "/zh/items/2026-09-09/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-i-80d284f5/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Sandbox routing is now 18x faster globally",
+          "title_original": "Vercel Sandbox routing is now 18x faster globally",
+          "title_en": "Vercel Sandbox routing is now 18x faster globally",
+          "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Requests to Vercel Sandbox public domains are now routed 18x faster. Domains created with the sandbox.domain() SDK call are now resolved from the nearest regional replica, instead of a single centralized store. Incoming requests reach the process running in",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-sandbox-routing-is-now-18x-faster-globally",
+          "published_at": "2026-09-08T20:00:00.000Z",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bf2b206e91e6",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Sandbox routing is now 18x faster globally",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-routing-is-now-18x-faster-globally"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Requests to Vercel Sandbox public domains are now routed 18x faster. Domains created with the sandbox.domain() SDK call are now resolved from the nearest regional replica, instead of a single centralized store. Incoming",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-routing-is-now-18x-faster-globally"
+            }
+          ],
+          "slug": "vercel-sandbox-routing-is-now-18x-faster-globally-bf2b206e",
+          "localized_url": "/zh/items/2026-09-09/vercel-sandbox-routing-is-now-18x-faster-globally-bf2b206e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing Flat Rate CDN",
+          "title_original": "Introducing Flat Rate CDN",
+          "title_en": "Introducing Flat Rate CDN",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Over the past year, we have improved Vercel’s Pro pricing to better reflect how teams build, with expanded user roles , flexible credits , access to enterprise features , and more. But one area our customers continued to give us feedback on was CDN pricing.",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/introducing-flat-rate-cdn",
+          "published_at": "2026-09-08T04:00:00.000Z",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f09b31af28ad",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 发布AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing Flat Rate CDN",
+              "source_url": "https://vercel.com/blog/introducing-flat-rate-cdn"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Over the past year, we have improved Vercel’s Pro pricing to better reflect how teams build, with expanded user roles , flexible credits , access to enterprise features , and more. But one area our customers continued",
+              "source_url": "https://vercel.com/blog/introducing-flat-rate-cdn"
+            }
+          ],
+          "slug": "introducing-flat-rate-cdn-f09b31af",
+          "localized_url": "/zh/items/2026-09-09/introducing-flat-rate-cdn-f09b31af/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Flat Rate CDN is now GA for Pro teams",
+          "title_original": "Flat Rate CDN is now GA for Pro teams",
+          "title_en": "Flat Rate CDN is now GA for Pro teams",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Flat Rate CDN is now generally available for Pro teams. Flat Rate CDN is an alternative to usage-based CDN billing that provides you with a fixed monthly bill. Monthly Flat Rate CDN capacity includes: Fast Data Transfer Blob Data Transfer CDN Requests",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/flat-rate-cdn-is-now-ga-for-pro-teams",
+          "published_at": "2026-09-08T00:00:00.000Z",
+          "fetched_at": "2026-09-09T00:18:13.416527+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4f69fa25d98a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Flat Rate CDN is now GA for Pro teams",
+              "source_url": "https://vercel.com/changelog/flat-rate-cdn-is-now-ga-for-pro-teams"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Flat Rate CDN is now generally available for Pro teams. Flat Rate CDN is an alternative to usage-based CDN billing that provides you with a fixed monthly bill. Monthly Flat Rate CDN capacity includes: Fast Data Transfer",
+              "source_url": "https://vercel.com/changelog/flat-rate-cdn-is-now-ga-for-pro-teams"
+            }
+          ],
+          "slug": "flat-rate-cdn-is-now-ga-for-pro-teams-4f69fa25",
+          "localized_url": "/zh/items/2026-09-09/flat-rate-cdn-is-now-ga-for-pro-teams-4f69fa25/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-08",
       "title_zh": "AI 新闻简报 · 2026-09-08",
