@@ -1,7 +1,1044 @@
 {
-  "updated_at": "2026-09-09T00:18:16.655849+00:00",
-  "count": 84,
+  "updated_at": "2026-09-10T00:17:28.246518+00:00",
+  "count": 85,
   "briefs": [
+    {
+      "date": "2026-09-10",
+      "title_zh": "AI 新闻简报 · 2026-09-10",
+      "title_en": "English AI News Brief · 2026-09-10",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 136 条，入选 15 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 136 previously displayed items excluded, and 15 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 136,
+      "selected_count": 15,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Paul Christiano joins OpenAI Foundation Board",
+          "title_original": "Paul Christiano joins OpenAI Foundation Board",
+          "title_en": "Paul Christiano joins OpenAI Foundation Board",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+          "published_at": "Wed, 09 Sep 2026 17:00:00 GMT",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "534907e0d31e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Paul Christiano joins OpenAI Foundation Board",
+          "extracted_excerpt": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+          "extracted_text_for_analysis": "We’re announcing the appointment of Paul Christiano to the OpenAI Foundation Board. He will be a non-voting observer on the OpenAI Group PBC Board. Paul will also join the Safety and Security Committee (SSC) of the Foundation Board, working alongside its chair, Zico Kolter. The SSC provides governance over safety and security practices across all of OpenAI, including OpenAI Group PBC. Paul brings government experience spanning two administrations through his work at the Center for AI Standards and Innovation(opens in a new window) (CAISI) within the National Institute of Standards and Technology (NIST), an agency of the U.S. Department of Commerce, where he is a Senior Tech Advisor1. During his time at CAISI and its predecessor, the U.S. AI Safety Institute, Paul has worked on evaluating frontier AI models, including capabilities with national security implications, and on approaches to mitigating associated safety and security risks. Paul is also the founder of the Alignment Research Center(opens in a new window) (ARC), a nonprofit research organization focused on aligning advanced AI systems with human interests. From 2017 to 2021, Paul led alignment research at OpenAI and contributed foundational work on reinforcement learning from human feedback (RLHF). In this new capacity, Paul brings a distinct and technically grounded perspective to OpenAI’s governance decisions. Our mission is to ensure that artificial general intelligence benefits all of humanity. AI is entering a new era of capability, making it increasingly important that advances in these systems are accompanied by strong safety, security, alignment and governance. Throughout Paul’s career researching AI alignment, he brings a perspective that takes seriously the possibility that advanced AI could pose catastrophic risks and that developers must prepare before systems reach more dangerous levels of capability. He has been an independent voice on whether the industry’s safeguards are adequate. We believe the Foundation’s governance is stronger with people prepared to challenge prevailing assumptions and help strengthen the evidence, safeguards, and accountability underlying critical decisions. Paul’s appointment builds on the governance structure established through OpenAI’s recapitalization in October 2025, including the commitments made in connection with the reviews conducted over the course of a year by the California Attorney General(opens in a new window) and Delaware Attorney General(opens in a new window). Their engagement helped strengthen the governance framework. About the OpenAI Foundation The OpenAI Foundation is a charitable organization dedicated to ensuring AI benefits all of humanity. As a separate nonprofit organization, the Foundation conducts its own charitable operations while maintaining control of, and holding a significant equity stake in OpenAI Group PBC. The Foundation supports initiatives advancing scientific discovery, strengthening civil society, and building resilience through responsible AI. Through grants, partnerships, and other philanthropic initiatives, the Foundation helps accelerate work that creates lasting public benefit and expands access to AI’s transformative potential.",
+          "title_zh": "OpenAI 推进政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Paul Christiano joins OpenAI Foundation Board",
+              "source_url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+              "source_url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board"
+            }
+          ],
+          "slug": "paul-christiano-joins-openai-foundation-board-534907e0",
+          "localized_url": "/zh/items/2026-09-10/paul-christiano-joins-openai-foundation-board-534907e0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The AI policy window is open. We need to act.",
+          "title_original": "The AI policy window is open. We need to act.",
+          "title_en": "The AI policy window is open. We need to act.",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/ai-policy-window",
+          "published_at": "Wed, 09 Sep 2026 13:00:00 GMT",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9786c92a289d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "The AI policy window is open. We need to act.",
+          "extracted_excerpt": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+          "extracted_text_for_analysis": "We’ve reached a new chapter in AI capabilities, and that demands a new chapter for AI policy. No company, industry, or government can meet this challenge alone. We need to meet this moment with a bias toward meaningful action over policy perfection. Here’s what we’re doing: - Pushing for mandatory national AI safety requirements. We want to work with Congress on mandatory, capability-based national AI safety regulation. - Keeping up momentum in the states. Until Congress acts, we will continue supporting state legislation that strengthens the broader AI safety ecosystem. Today, we are announcing our support for four California bills: SB 813 on overall infrastructure for independent safety assessments, AB 1405 on AI-auditor standards, SB 1119 on protections for young people, and AB 1864 on safeguards against AI-enabled biological threats. - Advancing industry-led standards. We will work with other frontier labs to advance frontier AI standards, building a voluntary effort now, with or without government support. - Building global standards. We will advocate for compatible international approaches to measuring capabilities, managing risk, preserving human control, and determining when and how development should slow or stop, even if that means slowing the advancement of model capabilities. Our Chief Scientist Jakub Pachocki recently wrote that the rapid rise of machine intelligence, including the potential of recursive self-improvement, calls for “extreme caution.” OpenAI will continue pursuing technical solutions to alignment and monitoring, building defensive systems, and slowing development when necessary. But technical work inside individual labs will not be enough. We also need shared standards, including regarding when development should slow or stop. The stakes are enormous. Advanced AI could accelerate the development of new medicines, strengthen critical infrastructure, expand economic opportunity, and help solve scientific problems that have resisted generations of human effort. But the capabilities that make models more useful also come with risks, and they will not remain confined to a few frontier laboratories. Models developed around the world, including open models, will increasingly approach today’s frontier and become broadly available. Astra’s capabilities, the early evidence of AI-driven research acceleration, and Jakub’s essay all point in the same direction: AI is advancing quickly, and policy needs to move with it. Greg Brockman has described a “defenders window”(opens in a new window): a limited period when frontier AI can help defenders strengthen critical systems before powerful offensive capabilities become widespread. Policymakers face an analogous moment: a closing window to establish durable safeguards before AI capabilities outpace the institutions responsible for governing them. As capabilities grow, confidence in safety must increasingly set the pace of AI progress. Safety does not stand in the way of progress; it is what allows progress to go further and benefit more people. We have strengthened monitoring, alignment, and security safeguards across the model-development lifecycle, including stronger isolation for frontier research workloads, expanded monitoring of model behavior during tool-enabled training and evaluations, and clearer rules for when to escalate concerns. For Astra, we also introduced universal monitoring of full trajectories, including chains of thought, and a mandatory alignment-evaluation gate before broader internal deployment. Those safeguards must continue to stay ahead of capabilities. When proceeding would pose an unacceptable safety risk, we will slow or stop the development or deployment of systems we cannot sufficiently safeguard, as we have done before and as required per our preparedness framework(opens in a new window). Fully autonomous recursive self-improvement—in which AI systems independently drive successive generations of increasingly capable AI—is not happening today. We should not pursue it unless and until it can be done safely. However, AI is already accelerating parts of the research used to develop and align the next generation of models. Our latest research shows that AI agents can perform some tasks that would take skilled researchers several days. This is not recursive self-improvement, but it is evidence of the direction of travel. That acceleration can and must also be directed toward safety. Our aim is to safely build automated AI researchers that work under human supervision to advance both deep learning and alignment—using each generation of AI to help make the next one safer, more aligned, and easier to control, not simply more capable. Governments should develop common ways to measure this progress, preserve meaningful human control, and establish shared safety bars for when and how development should slow or stop. If we cannot meet certain safety bars without slowing down capability growth, we should prioritize the former. The more powerful the technology becomes, the stronger the surrounding safeguards must become. The prospect of AI-accelerated AI development demands more than voluntary commitments. The United States needs mandatory, capability-based national regulation that can evolve as the technology does. Our Blueprint for Democratic Governance of Frontier AI lays out a path toward a durable federal framework: common testing and independent-assessment requirements, stronger cybersecurity protections, clear incident-reporting rules, greater national preparedness, and shared measures for tracking progress toward recursive self-improvement. Several serious frontier safety proposals are now taking shape in Congress. We will continue to engage constructively and expect to support legislation that materially raises the safety bar. With stakes this high, we cannot let the perfect become the enemy of the good. Congress should act before it adjourns. A national framework should be strong but carefully targeted. Frontier safety requirements should apply to the handful of well-resourced laboratories developing the most capable systems—not to startups, small developers, or researchers operating nowhere near the frontier. Obligations should be proportionate to capabilities and risks. Nor should frontier safety policy become open-weights policy by another name. Open models can be part of the solution, particularly in cybersecurity and where sovereignty, security, or data-residency needs favor local deployment. Most compete not at the frontier, but on cost, control, and latency. As we affirmed in signing the Open Weights and American AI Leadership letter(opens in a new window), America needs both open and closed models. A federal framework should address frontier capabilities and risks without weakening competition, entrenching incumbents, or driving innovation overseas. A serious public framework should reduce, not increase, the concentration of power. Today, frontier laboratories largely",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The AI policy window is open. We need to act.",
+              "source_url": "https://openai.com/index/ai-policy-window"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+              "source_url": "https://openai.com/index/ai-policy-window"
+            }
+          ],
+          "slug": "the-ai-policy-window-is-open-we-need-to-act-9786c92a",
+          "localized_url": "/zh/items/2026-09-10/the-ai-policy-window-is-open-we-need-to-act-9786c92a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GPT-6 Astra: The next generation in intelligence for work",
+          "title_original": "GPT-6 Astra: The next generation in intelligence for work",
+          "title_en": "GPT-6 Astra: The next generation in intelligence for work",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+          "published_at": "Wed, 09 Sep 2026 11:00:00 GMT",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "587a70348a73",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "GPT-6 Astra: The next generation in intelligence for work",
+          "extracted_excerpt": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+          "extracted_text_for_analysis": "GPT‑6 Astra: The next generation in intelligence for work Our most capable model, built for all the work businesses need to get done. Last week we introduced GPT‑6 Astra, the world’s most intelligent and aligned model, now available in ChatGPT Work, Codex, and the API. Astra is state-of-the-art on computer use, browsing, professional work, software engineering, cybersecurity, and science, so teams can take on the most demanding professional work with unmatched speed, accuracy, and judgment. The world’s best model for complex work Most AI systems require businesses to prepare their data, redesign workflows, and build custom integrations before they can deliver value. Astra changes that. In ChatGPT Work and Codex, it can write code and work through the same applications people use every day—even when those applications don’t have an API. That means businesses can put AI to work within their existing workflows from day one, without extensive preparation or engineering work. Within the first few days of rollout, we’re already seeing customers put Astra to work, from optimizing GPUs to spotting discrepancies in financial statements to producing more on-brand decks. At OpenAI, Astra was rolled out internally weeks before launch, so we saw first hand how bleeding-edge capabilities like computer use could change the way we work. Our developer and marketing teams used Astra and Codex to turn three hours of multicamera footage into our GPT‑6 Astra Developer First Impressions video(opens in a new window) which has already garnered over 550k views in just 4 days. Our engineering team used Astra to uncover and resolve a memory-allocation bottleneck that was causing slow Codex sessions in a test environment. By switching allocators, they were able to produce 25× lower turn latency with roughly 30% higher peak memory use. Astra is also better at following a company’s voice, templates, and design standards, so the first result is closer to something a team can put to use. More useful work for every dollar Astra continues our commitment to providing extremely efficient models that deliver more useful work per dollar to our customers. It's been trained to complete tasks in fewer tokens with fewer retries, which means less rework and lower cost per task. With Astra, OpenAI occupies the majority of the cost-efficiency frontier on professional work and coding evaluations, including Terminal Bench 4.0 and Artificial Analysis Intelligence Index. Pricing starts at $10 per million input tokens and $50 per million output tokens. More safety and control for consequential work Giving AI access to business systems requires confidence in how it will act. With this in mind, Astra is our most aligned model yet, with stronger adherence to human intent and authorization. During training, we tested Astra on our internal computer use safety benchmark which tests models against the hardest business scenarios such as exposing confidential information, sharing a dashboard too broadly, or deleting data. In this evaluation, Astra produced unintended outcomes 89% less often than GPT‑5.6 Sol and 74.7% less often than Claude Fable 5.1. Additional confirmation and automated review further improved performance for GPT‑6 Astra and GPT‑5.6 Sol. Organizations can also decide how broadly to deploy Astra. New enterprise admin controls let them restrict access to approved websites and desktop applications, manage uploads and downloads, and control browsing history. ChatGPT Work and Codex also include safeguards such as confirmation policies, which can require approval before consequential actions, and automated review of potentially unsafe or unauthorized tool calls. These controls allow teams to start with a limited configuration and expand access over time. To further access, alongside Astra, we’re also launching new enterprise plugins in ChatGPT Desktop. Powered by the latest browser use capabilities, plugins from Oracle Analytics, Power BI (a Microsoft Fabric service), Navan, and Avalara make it easier to access familiar enterprise applications. Astra(opens in a new window) is also the first model to reach the Critical cybersecurity capability threshold under our Preparedness Framework. With that increased capability, we’ve strengthened protections(opens in a new window) against both misuse and the model taking unauthorized actions including training Astra to respect safety and security boundaries, improving its resistance to attempts to bypass safeguards, and deploying automated checks designed to block harmful responses. Zero Data Retention is available for eligible API customers on supported endpoints, subject to approval. Start using Astra today Try GPT‑6 Astra in ChatGPT Work(opens in a new window) or Codex(opens in a new window), or build it into your own products and workflows through the API(opens in a new window). Enterprise administrators can enable Astra under their applicable rate card and agreement. Enterprise access is off by default at launch.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GPT-6 Astra: The next generation in intelligence for work",
+              "source_url": "https://openai.com/index/gpt-6-astra-next-generation-work"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+              "source_url": "https://openai.com/index/gpt-6-astra-next-generation-work"
+            }
+          ],
+          "slug": "gpt-6-astra-the-next-generation-in-intelligence-for-work-587a7034",
+          "localized_url": "/zh/items/2026-09-10/gpt-6-astra-the-next-generation-in-intelligence-for-work-587a7034/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
+          "title_original": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
+          "title_en": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
+          "summary_zh": "OpenAI 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
+          "published_at": "Wed, 09 Sep 2026 05:04:51 GMT",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Cognition"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "aaf28a158755",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：OpenAI、Cognition。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever",
+              "source_url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
+              "source_url": "https://www.latent.space/p/ainews-openai-reports-navier-stokes"
+            }
+          ],
+          "slug": "ainews-openai-reports-navier-stokes-singularity-find-in-88-hours-using-a-aaf28a15",
+          "localized_url": "/zh/items/2026-09-10/ainews-openai-reports-navier-stokes-singularity-find-in-88-hours-using-a-aaf28a15/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Collusion.wiki: A second undisclosed OpenAI agent swarm incident...",
+          "title_original": "[AINews] Collusion.wiki: A second undisclosed OpenAI agent swarm incident...",
+          "title_en": "[AINews] Collusion.wiki: A second undisclosed OpenAI agent swarm incident...",
+          "summary_zh": "AI News for 9/2/2026-9/3/2026.",
+          "summary_en": "AI News for 9/2/2026-9/3/2026.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-collusionwiki-a-second-undisclosed",
+          "published_at": "Sat, 05 Sep 2026 04:32:00 GMT",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f471461c568b",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Collusion.wiki: A second undisclosed OpenAI agent swarm incident...",
+              "source_url": "https://www.latent.space/p/ainews-collusionwiki-a-second-undisclosed"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI News for 9/2/2026-9/3/2026.",
+              "source_url": "https://www.latent.space/p/ainews-collusionwiki-a-second-undisclosed"
+            }
+          ],
+          "slug": "ainews-collusion-wiki-a-second-undisclosed-openai-agent-swarm-incident-f471461c",
+          "localized_url": "/zh/items/2026-09-10/ainews-collusion-wiki-a-second-undisclosed-openai-agent-swarm-incident-f471461c/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Do AI Tokenomics Matter More Than Model Benchmarks? with Chris Potts - #776",
+          "title_original": "Do AI Tokenomics Matter More Than Model Benchmarks? with Chris Potts - #776",
+          "title_en": "Do AI Tokenomics Matter More Than Model Benchmarks? with Chris Potts - #776",
+          "summary_zh": "Benchmark 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "As reasoning models consume more tokens and AI systems become more expensive to run, understanding what those tokens actually buy is becoming increasingly important. In this episode, Stanford professor and Big Spin co-founder Chris Potts joins us to discuss",
+          "source_name": "TWIML AI Podcast",
+          "source_url": "https://twimlai.com/podcast/twimlai/",
+          "original_url": "https://twimlai.com/podcast/twimlai/do-ai-tokenomics-matter-more-than-model-benchmarks",
+          "published_at": "Wed, 09 Sep 2026 20:05:00 -0000",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Benchmark"
+          ],
+          "tags": [
+            "ml",
+            "podcast",
+            "research"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "59ffc578d3d7",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Benchmark 披露模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Benchmark，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、podcast、research。",
+            "涉及公司或机构：Benchmark。"
+          ],
+          "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "benchmark",
+              "explanation": "用于衡量模型能力的任务集合或评测体系。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Do AI Tokenomics Matter More Than Model Benchmarks? with Chris Potts - #776",
+              "source_url": "https://twimlai.com/podcast/twimlai/do-ai-tokenomics-matter-more-than-model-benchmarks"
+            },
+            {
+              "label": "公开摘要",
+              "text": "As reasoning models consume more tokens and AI systems become more expensive to run, understanding what those tokens actually buy is becoming increasingly important. In this episode, Stanford professor and Big Spin",
+              "source_url": "https://twimlai.com/podcast/twimlai/do-ai-tokenomics-matter-more-than-model-benchmarks"
+            }
+          ],
+          "slug": "do-ai-tokenomics-matter-more-than-model-benchmarks-with-chris-potts-776-59ffc578",
+          "localized_url": "/zh/items/2026-09-10/do-ai-tokenomics-matter-more-than-model-benchmarks-with-chris-potts-776-59ffc578/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
+          "title_original": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
+          "title_en": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology and business communities are coming together to turn ideas into action and discuss innovations across the media and entertainment industries. More than 44,000 attendees from",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/ibc-news-2026/",
+          "published_at": "Wed, 09 Sep 2026 16:00:42 +0000",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "507a075c9a26",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
+          "extracted_excerpt": "At IBC, NVIDIA is announcing a major expansion to NVIDIA AI for Media to unlock new ways to understand motion, verify and enhance video, localize programming and build AI-powered media applications.",
+          "extracted_text_for_analysis": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology and business communities are coming together to turn ideas into action and discuss innovations across the media and entertainment industries. More than 44,000 attendees from 170+ countries are gathering to explore 1,300+ exhibitions in 14+ halls and outdoor spaces, with over 600 speakers delivering insights. Read on to learn more about what NVIDIA’s highlighting at the show. NVIDIA AI for Media Brings Real-Time Intelligence to Broadcast, Sports and Production Workflows 🔗 Media companies are increasingly integrating AI into live production, sports, news and streaming workflows to unlock richer performance insights, verify video authenticity, and enhance and localize content — all without disrupting trusted broadcast environments. At IBC 2026 in Amsterdam, NVIDIA announced a major expansion to NVIDIA AI for Media — a collection of GPU-accelerated software development kits (SDKs), NVIDIA NIM microservices, playbooks, and blueprints that enhance audio, video and augmented-reality effects for media and entertainment workflows — to unlock new ways to understand motion, verify and enhance video, localize programming and build AI-powered media applications. The NVIDIA Synthetic Video Detector (SVD) NIM microservice, announced earlier this year at SIGGRAPH, helps organizations assess the probability of whether footage is authentic or AI-generated, giving editorial, content-authentication, digital-forensics and media-integrity teams another point of analysis in their review process. Since its initial release, SVD’s accuracy has reached 99.3% for text-to-video content and 97.7% for image-to-video content, with especially large gains on difficult image-to-video cases. Dalet is integrating SVD into a secure, cloud-hosted verification workflow for news organizations. This allows editorial teams to submit footage through SVD, inspect and review the resulting scores and metadata within a Dalet interface. TwelveLabs announced the general availability of Compliance by TwelveLabs, its first application built on the company’s video intelligence platform, helping media and broadcast teams rapidly screen content against regional and custom compliance standards. The solution integrates SVD to add frame-level authenticity signals and confidence scores, enabling media teams to identify potentially synthetic media within the same compliance workflow. Wowza, whose Wowza Streaming Engine media server technology powers more than 35,000 video deployments across over 170 countries, will distribute SVD through the Wowza Video Intelligence Framework. The solution, powered by NVIDIA-accelerated infrastructure, will enable broadcasters, streaming providers and other organizations to analyze live video feeds and extract data around detected objects, scenes and signs of AI generation in real time. It can be deployed and run on premises, at the edge, in the cloud, across hybrid deployments or fully air-gapped, giving organizations greater control over critical media workflows. NVIDIA 3D Body Pose estimates 2D and 3D human joint locations and angles from video captured by a single camera, helping turn motion into structured data without marker-based capture systems. For sports organizations, that data can support player and athlete movement tracking, biomechanics and performance analysis, replay enhancement, officiating and adjudication workflows, player-safety applications, and virtual interaction and immersive experiences. The technology can also provide structured human-motion data for content-creation workflows. When mapped to a compatible character rig, joint and motion data can serve as input for animation blocking, digital doubles, character retargeting and virtual-production experiences. Vizrt is using Body Pose technology in live virtual-studio environments, with tracked body movement driving real-time 3D lighting effects such as reflections, shadows and environmental rendering. Video Frame Generation (VFG) makes video motion appear smoother by using generative AI to create new frames between the original frames of a video. It can increase frame rates by 2x or 4x while preserving visual quality and temporal consistency, enabling more fluid sports, slow-motion replays, live media and other high-motion video experiences. VFG also supports frame-rate conversion and frame boosting for generative AI video workflows. Ross Video is integrating VFG into its Rio Replay platform to create AI-assisted slow-motion video for sports production. The work supports 6x slow-motion generation for sports replay. Development is underway toward 8x interpolation, meaning generated intermediate frames can give replay teams smoother motion without requiring every frame to be captured by an ultrahigh-frame-rate source camera. NVIDIA Video Super Resolution (VSR) uses AI to upscale video while reducing noise, blur and compression artifacts. New streaming modes let developers choose between real-time performance and higher image quality, while adjustable controls help achieve the desired level of enhancement. VSR also adds 10-bit video support and improves overall performance and quality. VSR is available through the NVIDIA Video Effects SDK and a NIM microservice for use in streaming, broadcast, conferencing, video playback and content-creation applications. The technology can support video players, conferencing applications, creator tools, streaming services, transcoders and broadcast systems through a common interface. NVIDIA TrueHDR converts standard-dynamic-range video into high-dynamic-range output in real time, reaching up to approximately 2,000 nits while preserving local contrast and adapting brightness to the content. VSR, VFG and TrueHDR can be combined within a single video-effects pipeline — helping media companies enhance existing content libraries for streaming, transcoding, gaming and creator workflows. The NVIDIA LipSync and Active Speaker Detection NIM microservices help developers build localization systems for interviews, news, sports, entertainment and other programming where multiple people may appear on screen. LipSync transforms mouth movement in an input video to match a target audio track while preserving natural head pose, blinking and body movement. The new release improves facial occlusion handling and better preserves teeth, lip and facial textures. The new Active Speaker Detection NIM microservice no longer requires speaker diarization for multiple audio tracks, adds voice activity detection and expands NIM microservice deployment support through a gRPC interface and broader GPU compatibility. NDI is using NVIDIA AI for Media, including the NVIDIA LipSync NIM microservice, to enable real-time translation, lip-synced dubbing and regional language adaptation within existing broadcast workflows. By generating multiple language experiences from a common media stream, the approach can help broadcasters reach global",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
+              "source_url": "https://blogs.nvidia.com/blog/ibc-news-2026/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology and business communities are coming together to turn ideas into action and discuss innovations across the media and entertainment",
+              "source_url": "https://blogs.nvidia.com/blog/ibc-news-2026/"
+            }
+          ],
+          "slug": "nvidia-brings-real-time-ai-to-broadcast-sports-and-global-streaming-at-i-29c19642",
+          "localized_url": "/zh/items/2026-09-10/nvidia-brings-real-time-ai-to-broadcast-sports-and-global-streaming-at-i-29c19642/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+          "title_original": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+          "title_en": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+          "published_at": "Wed, 09 Sep 2026 15:36:24 GMT",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e8608e40b722",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+          "extracted_excerpt": "A Blog post by IBM Research on Hugging Face",
+          "extracted_text_for_analysis": "Time-series foundation models are changing the way forecasting systems are built. Instead of training and maintaining a separate model for every dataset, users can use a pretrained model and generate forecasts zero-shot. IBM has released Granite Time Series PatchTST-FM-r2, the latest model in the Granite TSFM family (github, blog). PatchTST-FM-r2, a new version of its predecessor PatchTST-FM-r1, combines an updated architecture, a larger pretraining corpus, probabilistic forecasting, support for imputation of missing values, and strong zero-shot performance in a ~385M-parameter model. As of September 8, 2026, the model is the top performing zero-shot model released under a permissive, commercial-friendly open-source license (Apache 2.0 and OpenMDW 1.0) among replicable, zero-shot models on the GIFT-Eval leaderboard. GIFT-Eval is a comprehensive time series forecasting benchmark designed to evaluate models across diverse forecasting scenarios; the model ranks #2 overall among replicable, zero-shot models. The model weights, architecture, inference pipeline, and code needed to reproduce the benchmark results are all available. In this blog we describe the model, dive deeper into the benchmarking results and the model architecture, discuss the training data and licensing, and provide code examples illustrating how to use the model. Finally, we also highlight how the models from the Granite Time Series family can be used in streaming applications in production setting leveraging Confluent product. Ready to try it? Open Granite Time Series PatchTST-FM-r2 on Hugging Face - General-purpose zero-shot forecasting for demand, prices, energy loads, traffic, telemetry, and other time series. - Approximately 385M parameters, context length up to 8,192, flexible forecast lengths, and probabilistic forecasts through a 99-quantile prediction head. - The model backbone is constructed from conformer blocks that combine multi-head self-attention with temporal convolution to capture long- and short-range temporal structure. - Permissively licensed model with top performance in the replicable zero-shot category of the GIFT-Eval benchmark (dual-licensed under Apache-2.0 and OpenMDW-1.0, users may select either license). - Available open weights, architecture, inference pipeline, and code to reproduce the benchmark. A foundation model is most useful when it generalizes to time series it has not been specifically trained on. For that reason, we focus first on zero-shot performance. GIFT-Eval provides a broad evaluation of forecasting models across heterogeneous datasets and forecasting scenarios. When restricting the leaderboard to models that are zero-shot, replicable, and evaluated without test leakage, PatchTST-FM-r2 ranks second for both CRPS and MASE as of September 8, 2026, as illustrated in Figures 1 and 2 (lower values are better for both metrics). Importantly, PatchTST-FM-r2 is the highest-performing model in the same category among models with permissive, commercial-friendly licensing. Figure 1. GIFT-Eval CRPS for leading replicable zero-shot models. PatchTST-FM-r2 achieves a geometric-mean CRPS of 0.467, placing it immediately behind TimesFM-3 in this comparison, and first among the models with permissive licenses. Figure 2. GIFT-Eval MASE for leading replicable zero-shot models. PatchTST-FM-r2 achieves a geometric-mean MASE of 0.6846. Blue bars denote models released by the IBM time-series foundation-model team. Some models on GIFT-Eval are categorized as pretrained rather than strictly zero-shot. These models are allowed to include the training portions of GIFT-Eval evaluation datasets in their pretraining corpora. Even when these pretrained models are added to the comparison, PatchTST-FM-r2 remains near the top as seen in Figures 3 and 4: 3rd for CRPS and 4th for MASE among the replicable models. It outperforms several pretrained models, including Chronos-2, Timer-S1, and Toto variants, despite some competing models being considerably larger. Figure 3. GIFT-Eval CRPS when both zero-shot and pretrained replicable models are considered. Figure 4. GIFT-Eval MASE when both zero-shot and pretrained replicable models are considered. PatchTST-FM-r2 retains the patch-based representation that made the PatchTST family effective, but the internal architecture is redesigned to capture long- and short-term relationships efficiently and to smoothen inter-patch predictions — both of which substantially improve error measures. One change is the move from standard transformer layers to layers which incorporate convolution along with the multi-head self-attention. These layers are referred to as conformer layers and has its origin in speech processing applications. Figure 5. Architectural evolution from PatchTST-FM-r1 to the Conformer-based PatchTST-FM-r2. A PatchTST-FM-r1 block combines multi-head self-attention with a feed-forward network. In r2, we replaced this with a conformer-style block containing two half-step feed-forward layers surrounding multi-head self-attention and a temporal convolution layer. This gives the model two complementary mechanisms for reasoning over a time series. Self-attention can model long-range relationships between patches, while convolution provides an inductive bias toward local temporal structure. The convolution component can therefore capture shorter-term interactions while allowing attention to concentrate on relationships over longer horizons. This phenomenon is observable in attention patterns captured in the transformer and conformer versions (see example figure below using real samples from the ETTh1 dataset). While a significant portion of the transformer’s self-attention (left in the figure) concentrates near the diagonal, i.e., capturing local relationships, attentions in the conformer block (right in the figure) show long-distance (far-off-diagonal) focus, thanks to the convolution layer covering the short distances. The conformer blocks in the backbone use alternating convolution kernel sizes of 3 and 5, in a repeating pattern {5, 5, 3, 3}. Figure 6. Comparing attention patterns captured in the transformer (left) and conformer versions(right) using real samples from the ETTh1 dataset. Additionally, PatchTST-FM-r2 uses 50% overlapping patches with Hamming-window weighting and overlap-and-add forecasting to smooth patch boundaries and improve forecasting accuracy. Finally, the architecture adds normalization for stability and expands from 20 to 30 blocks. With these changes, the resulting model has approximately 385M parameters, supports very long contexts of up to 8,192 steps, and predicts 99 quantiles over flexible forecast lengths. The model provides both point forecasts and quantile outputs for forecasting distributions and uncertainty intervals. For foundation models intended for real applications, model quality is only one consideration. Developers increasingly need to understand what data went into a model, whether benchmark data may have",
+          "title_zh": "Hugging Face 发布模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+              "source_url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
+              "source_url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series"
+            }
+          ],
+          "slug": "ibm-releases-sota-granite-time-series-patchtst-fm-r2-model-with-commerci-e8608e40",
+          "localized_url": "/zh/items/2026-09-10/ibm-releases-sota-granite-time-series-patchtst-fm-r2-model-with-commerci-e8608e40/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Protect production deployments for free on every plan",
+          "title_original": "Protect production deployments for free on every plan",
+          "title_en": "Protect production deployments for free on every plan",
+          "summary_zh": "Vercel 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Vercel Authentication can now protect all deployments in a project, including production, at no additional cost on every plan. Previously, protecting production domains required the $150-per-month Advanced Deployment Protection add-on. When enabled, visitors",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan",
+          "published_at": "2026-09-09T06:00:00.000Z",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "034bb348171c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Protect production deployments for free on every plan",
+              "source_url": "https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Authentication can now protect all deployments in a project, including production, at no additional cost on every plan. Previously, protecting production domains required the $150-per-month Advanced Deployment",
+              "source_url": "https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan"
+            }
+          ],
+          "slug": "protect-production-deployments-for-free-on-every-plan-034bb348",
+          "localized_url": "/zh/items/2026-09-10/protect-production-deployments-for-free-on-every-plan-034bb348/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The Open Source AI Stack",
+          "title_original": "The Open Source AI Stack",
+          "title_en": "The Open Source AI Stack",
+          "summary_zh": "Together AI Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Together AI Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/the-open-source-ai-stack",
+          "published_at": "Wed, 09 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "b69055f1c651",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Together AI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "open source",
+              "explanation": "可公开查看、使用或修改的代码与模型资源。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The Open Source AI Stack",
+              "source_url": "https://www.together.ai/blog/the-open-source-ai-stack"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Together AI Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://www.together.ai/blog/the-open-source-ai-stack"
+            }
+          ],
+          "slug": "the-open-source-ai-stack-b69055f1",
+          "localized_url": "/zh/items/2026-09-10/the-open-source-ai-stack-b69055f1/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Password Protection is now available per project on Pro",
+          "title_original": "Password Protection is now available per project on Pro",
+          "title_en": "Password Protection is now available per project on Pro",
+          "summary_zh": "Vercel AI 推进了政府与国家安全合作原则，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Pro teams can now enable Password Protection for individual projects at $20 per project per month. When enabled, Password Protection requires visitors to enter a password you set before they can view the project’s deployments. Open Security in the sidebar,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/password-protection-now-costs-20-per-project-per-month-on-pro",
+          "published_at": "2026-09-09T06:00:00.000Z",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3f133ea249cc",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Password Protection is now available per project on Pro",
+              "source_url": "https://vercel.com/changelog/password-protection-now-costs-20-per-project-per-month-on-pro"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Pro teams can now enable Password Protection for individual projects at $20 per project per month. When enabled, Password Protection requires visitors to enter a password you set before they can view the project’s",
+              "source_url": "https://vercel.com/changelog/password-protection-now-costs-20-per-project-per-month-on-pro"
+            }
+          ],
+          "slug": "password-protection-is-now-available-per-project-on-pro-3f133ea2",
+          "localized_url": "/zh/items/2026-09-10/password-protection-is-now-available-per-project-on-pro-3f133ea2/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "You can now read and search changelogs from the CLI",
+          "title_original": "You can now read and search changelogs from the CLI",
+          "title_en": "You can now read and search changelogs from the CLI",
+          "summary_zh": "Vercel 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You and your agents can now read and search the Vercel changelog feed from your terminal using vercel changelog . Coding agents can use this command to discover new Vercel products and features, find updates relevant to your project, and read full",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/you-can-now-read-and-search-changelogs-from-the-cli",
+          "published_at": "2026-09-09T00:00:00.000Z",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1cb85d08ad5b",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "You can now read and search changelogs from the CLI",
+              "source_url": "https://vercel.com/changelog/you-can-now-read-and-search-changelogs-from-the-cli"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You and your agents can now read and search the Vercel changelog feed from your terminal using vercel changelog . Coding agents can use this command to discover new Vercel products and features, find updates relevant to",
+              "source_url": "https://vercel.com/changelog/you-can-now-read-and-search-changelogs-from-the-cli"
+            }
+          ],
+          "slug": "you-can-now-read-and-search-changelogs-from-the-cli-1cb85d08",
+          "localized_url": "/zh/items/2026-09-10/you-can-now-read-and-search-changelogs-from-the-cli-1cb85d08/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Persistent memory for eve agents",
+          "title_original": "Persistent memory for eve agents",
+          "title_en": "Persistent memory for eve agents",
+          "summary_zh": "Vercel AI 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "eve agents can now retain context across sessions and use it in future conversations. Persistent memory is organized into slots. You can define named slots in files under agent/memory/ . Each slot specifies a provider, which stores and retrieves the memory,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/persistent-memory-for-eve-agents",
+          "published_at": "2026-09-09T00:00:00.000Z",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1d193413cb4c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Persistent memory for eve agents",
+              "source_url": "https://vercel.com/changelog/persistent-memory-for-eve-agents"
+            },
+            {
+              "label": "公开摘要",
+              "text": "eve agents can now retain context across sessions and use it in future conversations. Persistent memory is organized into slots. You can define named slots in files under agent/memory/ . Each slot specifies a provider,",
+              "source_url": "https://vercel.com/changelog/persistent-memory-for-eve-agents"
+            }
+          ],
+          "slug": "persistent-memory-for-eve-agents-1d193413",
+          "localized_url": "/zh/items/2026-09-10/persistent-memory-for-eve-agents-1d193413/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "v0 adds one-click integrations for email, auth, search, and databases",
+          "title_original": "v0 adds one-click integrations for email, auth, search, and databases",
+          "title_en": "v0 adds one-click integrations for email, auth, search, and databases",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "We're working toward bringing parity across Vercel integration and v0 , starting with Resend , Amazon OpenSearch , MongoDB Atlas , Algolia and Clerk . Prompt v0 with what you want to build, and when your prompt requires a provider, v0 renders a connect card",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/v0-adds-one-click-integrations-for-email-auth-search-and-databases",
+          "published_at": "2026-09-09T00:00:00.000Z",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4abb458e8bdd",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "v0 adds one-click integrations for email, auth, search, and databases",
+              "source_url": "https://vercel.com/changelog/v0-adds-one-click-integrations-for-email-auth-search-and-databases"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We're working toward bringing parity across Vercel integration and v0 , starting with Resend , Amazon OpenSearch , MongoDB Atlas , Algolia and Clerk . Prompt v0 with what you want to build, and when your prompt requires",
+              "source_url": "https://vercel.com/changelog/v0-adds-one-click-integrations-for-email-auth-search-and-databases"
+            }
+          ],
+          "slug": "v0-adds-one-click-integrations-for-email-auth-search-and-databases-4abb458e",
+          "localized_url": "/zh/items/2026-09-10/v0-adds-one-click-integrations-for-email-auth-search-and-databases-4abb458e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Deployment step now 10% faster",
+          "title_original": "Deployment step now 10% faster",
+          "title_en": "Deployment step now 10% faster",
+          "summary_zh": "Meta 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "The deployment step is now about 10% faster, saving one second on average. Large applications can save up to 12 seconds. Previously, Vercel uploaded a separate routing metadata file for each function path. That metadata is now combined into a single manifest",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/deployment-step-now-10-faster",
+          "published_at": "2026-09-08T22:00:00.000Z",
+          "fetched_at": "2026-09-10T00:17:26.467758+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b498608ba852",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Meta 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Meta，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Deployment step now 10% faster",
+              "source_url": "https://vercel.com/changelog/deployment-step-now-10-faster"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The deployment step is now about 10% faster, saving one second on average. Large applications can save up to 12 seconds. Previously, Vercel uploaded a separate routing metadata file for each function path. That metadata",
+              "source_url": "https://vercel.com/changelog/deployment-step-now-10-faster"
+            }
+          ],
+          "slug": "deployment-step-now-10-faster-b498608b",
+          "localized_url": "/zh/items/2026-09-10/deployment-step-now-10-faster-b498608b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-09",
       "title_zh": "AI 新闻简报 · 2026-09-09",
