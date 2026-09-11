@@ -1,7 +1,1259 @@
 {
-  "updated_at": "2026-09-10T00:17:28.246518+00:00",
-  "count": 85,
+  "updated_at": "2026-09-11T00:13:21.400497+00:00",
+  "count": 86,
   "briefs": [
+    {
+      "date": "2026-09-11",
+      "title_zh": "AI 新闻简报 · 2026-09-11",
+      "title_en": "English AI News Brief · 2026-09-11",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 142 条，跨期排除历史已展示 116 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 142 candidates, 116 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 142,
+      "skipped_history_count": 116,
+      "selected_count": 18,
+      "categories": [
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+          "title_original": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+          "title_en": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+          "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+          "published_at": "Thu, 10 Sep 2026 16:00:00 GMT",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "014159943e4d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+          "extracted_excerpt": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+          "extracted_text_for_analysis": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules César de la Fuente and his lab probe the genomes of living and extinct organisms for molecules that could help fight drug-resistant infections. Drug-resistant microbes including bacteria, fungi, parasites, and viruses are a growing global threat. About five million deaths in 2021 were associated(opens in a new window) with bacterial antimicrobial resistance—an annual toll projected to roughly double by 2050. It can take years to find molecules with the potential to become antimicrobials. Researchers are using AI to accelerate this early stage of discovery. “Antimicrobial resistance is one of the greatest existential threats to humanity in my opinion,” said César de la Fuente(opens in a new window), a bioengineer whose cross-disciplinary lab searches for antimicrobial candidates. “And yet, we haven’t had a new class of antibiotics for 50 years.” Much of modern antimicrobial development focuses on modifying existing medicines or searching familiar classes of chemicals. But that approach offers diminishing returns. De la Fuente’s lab starts somewhere far less explored: the code of life. The central idea behind the work is that biology is an information system. “The nucleotides that make up DNA, and the amino acids that make up proteins and peptides are sort of like an alphabet,” said de la Fuente. “Thinking about biology as information enabled us to develop methods that can begin to decipher the organizing principles of life that gave rise to a functional molecule.” The lab’s deep-learning models are trained to recognize patterns in biological sequences, allowing them to search vast genome and protein datasets for potential antimicrobials. The approach can reduce the initial search for candidate molecules from years to hours. Alongside its own AI models, the lab uses ChatGPT and Codex to brainstorm hypotheses, write and refine code, process datasets, analyze results, and connect ideas across scientific disciplines. Only a fraction of a genome has a clearly understood function, and fewer still encode molecules that can fight infectious microbes. The challenge is to identify patterns that make a molecule functional, or biologically active, then determine which have the potential to combat infectious microbes. Scientists have long searched for antimicrobials in plants, animals, microbes, insects, water, and soil. They collect samples, isolate or predict candidate molecules, and test them in an iterative process that can take years. Digital genome and protein databases now let scientists search across the tree of life for new compounds, dramatically expanding the breadth of databases available for exploration. But that abundance of information comes with its own challenges: finding promising signals among an enormous number of possibilities. AI is particularly well suited to this needle-in-a-haystack task. It can scan huge datasets, identify patterns that might be difficult for researchers to spot, and prioritize a manageable set of candidates for experimental testing. But identifying a promising candidate doesn’t necessarily mean that it will become an effective medicine. Scientists must first confirm that a candidate molecule kills the target microbe, determine the amount needed in order to be effective, and test how it affects human cells. Chemists may then optimize it to improve its effectiveness, safety, or stability. Further tests assess the dose at which the candidate becomes toxic, how readily microbes develop resistance to the molecule, and how the candidate moves through the body. Teams also determine a reliable way to manufacture the molecule. Candidates that clear these hurdles still face regulatory review and clinical trials before they can reach patients as approved antimicrobial drugs. For de la Fuente, this is why AI and laboratory biology must advance together. “Ground-truth experiments are essential to validate AI predictions,” he said. “This will be critical in the life sciences in the years to come if we are to continue scratching the surface of our understanding of biology, which is the most complex thing out there.” His lab explores the genomes of living and extinct organisms for candidate molecules. Searching those genomes, understanding how their encoded proteins form and function, and determining what those molecules do requires expertise spanning several fields. “We’re a highly transdisciplinary group, so we have people from biology, from chemistry, from computer science, from engineering,” said de la Fuente. Some lab members are strong programmers but know less about biology or chemistry and vice versa. Codex and ChatGPT help bridge those gaps, allowing biologists to build programs and programmers to tackle biological problems. In that sense, AI lowers barriers between scientific disciplines. It helps lab members review unfamiliar topics that they need for their cross-disciplinary work, clarify terminology, compare methods across fields, and organize ideas for drug discovery. Others use AI to download, organize, and pre-process large genome datasets. ChatGPT also lets lab members work in their native languages, lowering barriers to accelerate their workflows. De la Fuente uses ChatGPT as a brainstorming partner. He continues to develop ideas with colleagues, but he values AI’s ability to help him shape a hypothesis. He also likes that he can access the world’s information with a click of a button. “Our ChatGPT workspace is receiving input from all these different people that think differently about the problems that we’re trying to tackle,” said de la Fuente. Lab members feed it their good and bad ideas, making it a kind of collaborative sounding board. But he cautions against relying on AI alone. “Obviously you have to always double-check for accuracy,” de la Fuente said. Still, he appreciates AI’s ability to help researchers explore the boundaries between scientific disciplines. “That’s where the breakthroughs are waiting to be discovered. They’re essentially at the edges between fields where very few people go.” He sees this work as part of a much longer scientific tradition. “We have always relied on tools and machines to understand the world around us,” said de la Fuente. “The telescope illuminated the cosmos, and the microscope revealed the world of the invisible.” Machines now help researchers understand, predict, and engineer biology. “That is what our work is all about,” he said. - Codex - ChatGPT - 2026",
+          "title_zh": "OpenAI 推进模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+              "source_url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials"
+            },
+            {
+              "label": "公开摘要",
+              "text": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+              "source_url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials"
+            }
+          ],
+          "slug": "how-a-researcher-uses-codex-and-chatgpt-to-search-for-new-antimicrobial-01415994",
+          "localized_url": "/zh/items/2026-09-11/how-a-researcher-uses-codex-and-chatgpt-to-search-for-new-antimicrobial-01415994/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Now everyone can put data to work",
+          "title_original": "Now everyone can put data to work",
+          "title_en": "Now everyone can put data to work",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/put-data-to-work",
+          "published_at": "Thu, 10 Sep 2026 15:00:00 GMT",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4d4e7920d8a7",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Now everyone can put data to work",
+          "extracted_excerpt": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+          "extracted_text_for_analysis": "Now everyone can put data to work Meet the new Data agent in ChatGPT Work: turn your company’s data into answers, interactive dashboards, and action, just by asking. People across every business have questions that data can answer. Why did sales slow down? Where is spending rising? Which issues threaten renewals in our largest accounts, and what should we fix first? Getting those answers often means waiting for a report or asking someone else to run the analysis. We’re introducing a new Data agent in ChatGPT Work(opens in a new window) to help more people answer those questions themselves. It connects to your company data, investigates what changed, and builds interactive dashboards you can share. Direct and refine the analysis in one conversation, without writing queries or learning a new analytics tool. The Data agent connects to approved data sources including Amazon Redshift, Datadog, Google BigQuery, ClickHouse, Databricks, MongoDB, Snowflake, and more. It can also bring files and documents from Google Drive and SharePoint into the analysis. It uses your organization’s business terms, metric definitions, custom calculations, and data relationships to interpret the data. This context comes from semantic layers and trusted sources such as Databricks Genie Ontology, dbt, GitHub, Snowflake Horizon, and BI dashboards. Enterprise administrators choose which data connections are available and which roles can use them. Queries enforce the connected account’s existing permissions, including table, row, and column restrictions. Ask follow-up questions to investigate the results and review the evidence behind each finding. Turn the analysis into an interactive dashboard with built-in visualizations. Your team can edit, share, and refresh it as needed. Share your brand guidelines to tailor outputs to your organization’s look and feel. The Data agent can also build and interact with dashboards in Omni, Oracle BI, Power BI, Sigma, Tableau, and ThoughtSpot. Direct the work in plain language in the tools your team already uses. Ask ChatGPT Work to recommend next steps and identify who needs to be involved. It can share the findings through Slack or email and carry out the actions you approve through connected tools. We use the capabilities behind the Data agent broadly across OpenAI. Nearly all of our product team and over two-thirds of our GTM organization use data agents in ChatGPT Work to analyze company data themselves. Our data team made this possible by creating shared business definitions, setting access rules, and putting safeguards in place for sensitive data. Learn more by reading this post(opens in a new window) and attending our webinar(opens in a new window). NTT Data, Thermo Fisher, ServicePiston, and other organizations in our Alpha program are using the Data agent in ChatGPT Work to analyze sales and spending, catch reporting errors, and decide which opportunities to pursue and how to staff them. You’ll find the Data agent listed as Data(opens in a new window) in the Plugins directory in ChatGPT Work. Administrators can make it available or install it for their teams through Workspace settings > Plugins. They can also enable and configure the relevant data-source plugins, such as Databricks and Snowflake, and manage who can use them. If Data isn’t already installed, find it in the Plugins directory and select Install plugin, or go directly to the Data listing(opens in a new window). Complete any required account-connection steps, then start a conversation with @Data and ask your business question. Diagnose a metric change @Data Diagnose why weekly active users changed last week. Identify likely drivers, compare against prior periods, and recommend the next checks. Design KPI framework @Data Design a KPI framework for this new product area with primary metrics, drivers, guardrails, targets, and data validation needs. Create leadership readout @Data Turn this month’s metrics into a leadership-ready update with actuals, comparisons, drivers, caveats, and recommended actions.",
+          "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Now everyone can put data to work",
+              "source_url": "https://openai.com/index/put-data-to-work"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+              "source_url": "https://openai.com/index/put-data-to-work"
+            }
+          ],
+          "slug": "now-everyone-can-put-data-to-work-4d4e7920",
+          "localized_url": "/zh/items/2026-09-11/now-everyone-can-put-data-to-work-4d4e7920/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing ChatGPT for Financial Services",
+          "title_original": "Introducing ChatGPT for Financial Services",
+          "title_en": "Introducing ChatGPT for Financial Services",
+          "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/introducing-chatgpt-financial-services",
+          "published_at": "Thu, 10 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "016c3ec9b775",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing ChatGPT for Financial Services",
+          "extracted_excerpt": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+          "extracted_text_for_analysis": "We’re introducing ChatGPT for Financial Services, a tailored ChatGPT Work experience that combines built-in financial data with GPT‑6 Astra’s reasoning to help teams develop research, financial models, and customized client materials. This product has been shaped by our design partnership with Morgan Stanley and Evercore. The collaboration has enabled us to pinpoint where OpenAI can solve the biggest challenges for financial institutions and has guided us on the solutions that will help every banker in their day-to-day work. Built-in premium data from providers like Daloopa, PitchBook, LSEG News, and Crunchbase remove the challenges with MCP connectors and access to data. This data is indexed and hosted by OpenAI to enable higher accuracy and new features like granular citations so that bankers can trace figures and claims back to their sources, and check the evidence as their analysis develops. The product also offers state of the art frontier intelligence, including GPT‑6 Astra, natively and will continue to have newer models available out of the box as they are released. Firms can also centrally manage access and data connections, supported by ChatGPT’s enterprise security and governance controls. Our early work with Morgan Stanley and Evercore has helped steer where we have started: investment banking and equity research. Reliable access to data and high quality artifact creation proved to be the biggest pain points for their teams. Our work with partners will inform post training, product improvements, and our expansion into other financial services categories. ChatGPT for Financial Services brings together the financial data teams need, with the depth of detail expected. We’ve included premium financial data, streamlined existing provider connections, and improved MCP performance. ChatGPT for Financial Services includes datasets from providers like Daloopa, PitchBook, LSEG News and Crunchbase covering earnings transcripts, financial statements, company fundamentals, private companies, and more. Teams can start working with these datasets immediately, with no separate contracts to negotiate or connectors to set up. We index and host this data on OpenAI infrastructure, allowing us to improve retrieval, latency, and how we surface it in the product experience. For a banker running a P&L normalization analysis, that means being able to inspect the reconciliation and notes behind an adjusted EBITDA, understanding which costs were excluded, and deciding how to use it in a valuation. Our partners are central to this work and as we expand coverage, we will continue to deepen our models’ understanding of these datasets. We will post train our models to find, interpret, and use this data like we know the best analysts can. We know many customers already have existing data subscriptions. So we’re working with S&P Capital IQ, LSEG, MSCI, Dow Jones Factiva, and Moody’s on shared sign-in and entitlement integrations. Providers will be able to recognize users through their ChatGPT sign-in to enable automatic access to data they’re already entitled to. It can be challenging to effectively use MCP connectors for data providers. We have focused on making some of the most used MCPs in financial services optimized for immediate use in the product, so teams can spend less time troubleshooting requests and more time on analysis. Our broader connector ecosystem includes over 50+ connectors including Datasite, Box, Preqin, and Intapp. GPT‑6 Astra is state of the art across three of the core capabilities required for financial services work: information retrieval, financial reasoning, and artifact generation. It can navigate and understand figures, tables, and the supporting notes in financial documents. It can take inputs, run financial analysis, and draw conclusions. And it can take all of this work and accurately synthesize it into documents, spreadsheets, and slides. We’ve built fundamental capabilities into the product so that it can research across multiple sources, trace figures across different periods, and interpret annotations in public data. Once that analysis is complete, teams can build interactive charts and visualizations. In ChatGPT for Financial Services, administrators can publish Excel, Word, and PowerPoint templates through a dedicated admin page. With firm templates and style guides configured, teams can turn their analysis into valuation models, research notes, and pitchbooks in their firm’s format and style. Protecting material non-public information and client confidentiality is critical for financial institutions. ChatGPT for Financial Services builds on ChatGPT Enterprise’s SAML SSO, SCIM provisioning, and role-based access controls. Your firm’s business data is not used to train our models by default. It is encrypted at rest and in transit, and admins can configure workspace retention. Compliance teams can export supported workspace logs through the OpenAI Compliance Platform into their existing audit and investigation workflows. Firms can manage access to skills and apps by role and enable or disable supported app read and write actions. Multiple workspaces can also be created to enforce information barriers. ChatGPT for Financial Services is one way we serve customers across the industry, but we recognize that it will require a range of solutions to address the needs of the finance industry. OpenAI has a long history of collaborating with innovators to unlock novel AI solutions. Financial services firms and developers can use our API to build specialized applications for the needs they understand best. OpenAI brings frontier models and the capabilities to put them to work. Financial institutions, data providers, and software partners bring specialized expertise, trusted information, and customer relationships. ChatGPT for Financial Services is available to eligible financial institutions. If you’re interested, please contact us or reach out to your account team.",
+          "title_zh": "OpenAI 发布模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing ChatGPT for Financial Services",
+              "source_url": "https://openai.com/index/introducing-chatgpt-financial-services"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+              "source_url": "https://openai.com/index/introducing-chatgpt-financial-services"
+            }
+          ],
+          "slug": "introducing-chatgpt-for-financial-services-016c3ec9",
+          "localized_url": "/zh/items/2026-09-11/introducing-chatgpt-for-financial-services-016c3ec9/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+          "title_original": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+          "title_en": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/expanding-ai-access-us-government",
+          "published_at": "Thu, 10 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1ef5285e671d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+          "extracted_excerpt": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+          "extracted_text_for_analysis": "Expanding AI access and cyber defense for federal, state, local, and tribal governments A first-of-its-kind agreement will provide free access and 50% off usage for federal, state, local, and tribal governments, alongside expanded support and access for public-sector cyber defenders. America’s public servants, including those on the front lines of cyber defense, should have access to the best AI tools available. Today, OpenAI for Government and the U.S. General Services Administration (GSA) are announcing a new multi-year agreement that builds on last year’s federal offer. This first-of-its-kind agreement will provide $0 access—normally $15 per user per month—for the license fee and 50% off usage, alongside expanded support for public-sector cyber defenders. OpenAI is also extending the same offer to all state, local and tribal governments. Helping government work better—making services faster, easier, safer, and more reliable—is a key way to bring the benefits of AI to everyone. Public servants should help shape how AI is used in government, and that starts by giving them access to best-in-class tools, including GPT‑6 Astra, with strong safeguards, cost predictability and respect for their public mission. More than one million government employees already have access to ChatGPT through our existing agreements, and this expanded partnership extends eligibility across a U.S. public-sector workforce of approximately 23 million people. Over the past year, public servants have shown what broader access to OpenAI tools can make possible: - Daybreak Access is improving the speed and quality of vulnerability research, malware analysis, and security-tool development for government cyber defenders. - The CDC accelerated public-health literature reviews that previously took days or months, producing most initial reports in under 30 minutes, with productivity gains reported by 92% of participating experts - Georgia’s Department of Revenue reduced the time needed to digitize a tax form from as much as two weeks to 15 minutes - In North Carolina, the Department of State Treasurer used ChatGPT to identify millions of dollars in potential unclaimed property that could be returned to residents - Lawrence Livermore National Laboratory used ChatGPT to accelerate development of a preliminary fusion-research model, compressing work that could have taken months into a matter of hours With this announcement, we are also expanding support for government cyber defenders protecting emergency response, transportation, public health, utilities, and other critical systems. OpenAI President Greg Brockman’s recent essay, The Defender’s Window, and an industry-wide open letter both call for urgent, collective action across industry and government. As part of our new policy, every verified government entity will be approved for our advanced cyber-defender Daybreak Blue access, all at 50% off standard commercial pricing, with scaled training and enablement to support adoption. These defenders can also request access to Daybreak Red for advanced vulnerability research, exploit validation, and red teaming at standard commercial pricing. This announcement builds upon Daybreak for Frontline Defenders, which OpenAI announced last week with a $1 billion global commitment to subsidized access, training, technical support, and partnerships for frontline cyber defenders. - Broader access: For the first time, the benefits of this agreement will be available to state, local, and tribal governments in addition to the federal government - More affordable use: The standard $15-per-user monthly license fee is reduced to $0, with no minimum commitment and 50% off usage costs for eligible federal, state, local, and tribal organizations - Daybreak Blue access and training: Every verified government entity will be approved for Daybreak Blue at 50% off standard commercial pricing, with scaled training and enablement to help government leaders and cyber defenders use the model effectively and find vulnerabilities first. - Long-term access: The agreement runs for 27 months, from October 1, 2026, through December 31, 2028, giving agencies a stable foundation for AI adoption - Practical adoption support: OpenAI will provide buyer guidance, usage estimates, spend controls, onboarding, FinOps guidance, webinars, and an expanded Government Academy to help all public servants become confident AI users - Secure and responsible deployment: ChatGPT Enterprise does not use business data, including inputs or outputs, to train or improve OpenAI models, and participating organizations will retain the protections associated with the eligible services they choose AI should give public servants more time for what matters: serving people, protecting critical systems relied on by the American people, and solving hard problems. By expanding access across every level of government, we can help turn human potential into public impact and ensure the benefits of AI reach communities across America. Interested in OneGov for your agency? Contact our government team to register your interest and learn more about eligibility, pricing, and purchasing options. Join our webinar, OpenAI OneGov 2.0: What Government Leaders Need to Know, on Monday, September 14, 2026, at 11:15 a.m. ET for a practical overview of the agreement and how to get started. Register for the webinar(opens in a new window).",
+          "title_zh": "OpenAI 更新政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+              "source_url": "https://openai.com/index/expanding-ai-access-us-government"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+              "source_url": "https://openai.com/index/expanding-ai-access-us-government"
+            }
+          ],
+          "slug": "expanding-ai-access-and-cyber-defense-for-federal-state-local-and-tribal-1ef5285e",
+          "localized_url": "/zh/items/2026-09-11/expanding-ai-access-and-cyber-defense-for-federal-state-local-and-tribal-1ef5285e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing the Agents API",
+          "title_original": "Introducing the Agents API",
+          "title_en": "Introducing the Agents API",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/introducing-the-agents-api",
+          "published_at": "Thu, 10 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2b26a8066576",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing the Agents API",
+          "extracted_excerpt": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+          "extracted_text_for_analysis": "As we’ve scaled Codex and ChatGPT for Work to millions of people around the world, we’ve learned what it takes to make long-running agents work well in practice. Useful agents need a powerful harness that manages context, uses tools efficiently, and coordinates subagents. They also need infrastructure that keeps them running reliably for days, with environments where they can work with files, run code, and save intermediate results. Today, we’re introducing the Agents API(opens in a new window) in public beta, bringing that same harness and infrastructure that powers Codex to developers through a simple, flexible API. With the Agents API, you can create a production-ready agent in a single API call by specifying the task, model, tools, and environment: OpenAI hosts and maintains the harness. You choose the agent’s compute environment: in an OpenAI-managed sandbox, on your own infrastructure, or with one of our sandbox partners. The Agents API gives you a strong foundation for building agents on top of our optimized agent harness and infrastructure, so you can focus on the tools, knowledge, and workflows that make your agent unique. Different workloads need different compute, storage, and deployment options. The Agents API lets you choose a sandbox that fits your application. We’re partnering with ecosystem providers(opens in a new window), including Blaxel, Cloudflare, Daytona, DigitalOcean, E2B, Modal, Oracle, Runloop, and Vercel, to provide first-class integrations for a range of needs: - Fully managed environments or deployments within your VPC - Specific file and secret storage mechanisms - Different CPU, GPU, and memory configurations, with performance, cold-start, and cost profiles to match your company’s workflow. For developers who want to get started quickly and scale efficiently, we’re also introducing the OpenAI hosted sandbox(opens in a new window). This leverages the same sandboxing infrastructure that powers Codex and ChatGPT. OpenAI provisions and manages the sandbox, giving your agent a secure and performant environment to run code, work with files, and produce artifacts. These sandboxes can be flexibly configured with your files, packages, skills and plugins to give the agent what it needs to complete the task. Taking advantage of new model capabilities often means reworking your harness, taking valuable time away from improving your application. The Agents API provides versioned access to these capabilities with each model launch. We maintain and continuously improve the harness alongside our models, helping your agents get better performance from every upgrade. For example, recent improvements to the harness include: To support models working for hours, we’ve built context management that helps agents carry relevant information across longer sessions. The Agents API automatically compacts(opens in a new window) earlier context as a session approaches its context limit, preserving information the agent needs to continue. Developers can build workflows that span multiple context windows without implementing their own compaction logic. The Agents API helps agents find the right tools and use them efficiently. Tool search(opens in a new window) loads relevant tool definitions as needed, helping reduce token usage and cost while preserving the model’s cache. Once tools are available, programmatic tool calling(opens in a new window) lets agents run calls in parallel, chain related operations, and filter or combine results in code so they can work through large volumes of data while bringing only the relevant results back into context. The Agents API supports MCP, custom functions, and built-in tools like web search. With multi-agent support(opens in a new window), the Agents API can break complex tasks into independent pieces and delegate them to subagents that work in parallel. Each subagent maintains its own context, helping it stay focused on its assignment, while the main agent coordinates their work and brings the results together. This can speed up research, analysis, and coding tasks that benefit from parallel work, without requiring you to build your own orchestration. The Agents API is powered by the open-source Codex harness, giving developers visibility into the core logic that coordinates model calls, tools, and context. With the Agents API, OpenAI operates and maintains that harness while developers can inspect and learn from its public codebase(opens in a new window). Agents API is available in public beta today to all developers. There are no additional fees for using the Agents API – you simply pay for the tokens and tools your agents use, as outlined on our pricing page(opens in a new window). Explore the Agents API overview(opens in a new window) to learn more, or follow the quickstart(opens in a new window) to get started and bring the harness behind Codex into your own agents. During the public beta, we’ll iterate quickly based on your feedback as we work toward general availability. Let us know what’s working, where you’re running into friction, and what you need to build and run your agents in production.",
+          "title_zh": "OpenAI 发布AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing the Agents API",
+              "source_url": "https://openai.com/index/introducing-the-agents-api"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+              "source_url": "https://openai.com/index/introducing-the-agents-api"
+            }
+          ],
+          "slug": "introducing-the-agents-api-2b26a806",
+          "localized_url": "/zh/items/2026-09-11/introducing-the-agents-api-2b26a806/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+          "title_original": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+          "title_en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+          "summary_zh": "OpenAI 更新了实时语音交互模型能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+          "published_at": "Thu, 10 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4e410dad70fb",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+          "extracted_excerpt": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+          "extracted_text_for_analysis": "We’re launching GPT‑Live‑1 in the API, giving developers a powerful, natural voice model for building voice-enabled apps and business workflows. First introduced in ChatGPT, GPT‑Live‑1 is capable of listening and speaking at the same time, and, as seen with Codex and ChatGPT Work(opens in a new window), can delegate deeper reasoning and actions to the models and tools it is paired with. For the API release of GPT‑Live‑1, we’ve focused on new capabilities that let developers steer and customize voice experiences around their users, workflows, and goals. A core GPT‑Live‑1 strength, smooth interruption handling, is already delivering business impact: in early evaluations, Speak found that GPT‑Live‑1 gave learners more time to think before the language tutor responded, cutting interruptions by almost 80% versus previous turn-based systems. Key strengths of GPT‑Live‑1 in the API: - Interruption handling: Improves interruption handling via a single model that reasons over incoming and outgoing audio together, avoiding the latency and brittle handoffs of chained STT–LLM–TTS architectures. - Reasoning & tool calling delegation: GPT‑Live‑1 can delegate reasoning and tool calls to a backend text model like GPT‑6 Astra or a third-party model. - Tone, pace, and style: Lets developers shape an agent’s tone, pace, and conversational style through the system prompt. - Silent context management & background noise: Better handles background noise and silence without interrupting the conversation or narrating every step out loud. - Long-session reliability: Improves context retention and conversational quality across extended interactions. - Telephony support: Enables deployment of full-duplex voice agents for phone calls, from restaurant reservations to customer support. Try GPT-Live-1 See what it can do - Talk over it—naturally. Ask for help, then interrupt mid-response to change the question or add detail. - Take it with you. Try a conversation while walking outside or with everyday background noise, and see how it stays with you. - Make it playful. Laugh, hesitate, use short acknowledgments, or briefly talk to someone nearby—then continue the conversation. Traditional voice agents stitch together speech-to-text, a reasoning model, and text-to-speech. Each handoff adds latency and creates more opportunities to lose timing, context, or the natural rhythm of a conversation. Developers are often the ones left coordinating those stages, including what happens when someone interrupts, pauses, or changes direction. GPT‑Live‑1 handles listening and speaking in a single model, simplifying the voice layer. It can respond to interruptions and acknowledgements as they happen, while delegating deeper reasoning to the back end. This lets the conversation continue while work happens in the background. Developers choose the models, tools, and agent harness behind the conversation. For example, they might pair GPT‑Live‑1 with a model like Luna for high-volume tasks like scheduling or order updates, and use a model like Astra for complex customer issues that require reasoning. That flexibility lets developers match reasoning depth, speed, and cost to each task. GPT‑Live‑1 natively provides ASR transcripts and response text. It also offers strong alphanumeric understanding and supports keyword biasing. Although GPT‑Live‑1 is not a turn-based model, it natively supports turn detection, so developers can continue to build around explicit turn boundaries. Across our evaluations, GPT‑Live‑1 improves Full Duplex Bench performance by 30 percentage points over GPT‑Realtime‑2.1, with large gains in turn-taking latency and interactive behavior. Paired with GPT‑6 Astra at medium reasoning effort, it also ranks #1 on Tau3, which measures frontier voice-agent intelligence on end-to-end tasks. Developers need voices that fit their product and sound natural to the people using it. With GPT‑Live‑1, we’re expanding from a small set of real-time voices to a broader selection across accents, dialects, and languages giving developers more choice in how their assistants sound. We’ll continue to expand voice options and language availability over the coming months. GPT‑Live‑1 is available in the API today(opens in a new window) at $0.05 per minute for the front-end voice layer. Pair it with the backend model and agent harness that fit your product, then build a voice experience that can scale with the work it needs to do. Another way to build voice workflows on top of GPT‑Live‑1 is with OpenAI Presence, which uses the model to power real-time voice interactions. Presence helps enterprises deploy trusted AI agents that can answer questions, resolve issues, use company systems, take approved actions, and escalate to people when needed. Reach out to your OpenAI account director to learn more.",
+          "title_zh": "OpenAI 推进实时语音交互模型能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+              "source_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+              "source_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api"
+            }
+          ],
+          "slug": "build-more-natural-voice-experiences-with-gptlive1-in-the-api-4e410dad",
+          "localized_url": "/zh/items/2026-09-11/build-more-natural-voice-experiences-with-gptlive1-in-the-api-4e410dad/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Build with OpenAI Agents API on Vercel",
+          "title_original": "Build with OpenAI Agents API on Vercel",
+          "title_en": "Build with OpenAI Agents API on Vercel",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "You can now build and deploy long-running, tool-using agents with the OpenAI Agents API on Vercel. OpenAI manages the agent loop and session state, while Vercel hosts the application and connects each session to Vercel Sandbox for code execution and file",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/build-with-openai-agents-api-on-vercel",
+          "published_at": "2026-09-10T00:00:00.000Z",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "93aab0bed543",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Build with OpenAI Agents API on Vercel - Vercel",
+          "extracted_excerpt": "Build and deploy an OpenAI Agents API app on Vercel with Next.js, Functions, Queues, and Sandbox for isolated, persistent code execution.",
+          "extracted_text_for_analysis": "You can now build and deploy long-running, tool-using agents with the OpenAI Agents API on Vercel. OpenAI manages the agent loop and session state, while Vercel hosts the application and connects each session to Vercel Sandbox for code execution and file access. With this integration, you get: - An OpenAI-managed agent loop and session state - Reliable Sandbox creation and reconnection through signed OpenAI webhooks and Vercel Queues - An isolated execution environment for every agent session - A persistent workspace that retains files across follow-up instructions - A scale-to-zero architecture without an always-on worker Follow the step-by-step guide to build and deploy an agent, or explore the sample application.",
+          "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Build with OpenAI Agents API on Vercel",
+              "source_url": "https://vercel.com/changelog/build-with-openai-agents-api-on-vercel"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now build and deploy long-running, tool-using agents with the OpenAI Agents API on Vercel. OpenAI manages the agent loop and session state, while Vercel hosts the application and connects each session to Vercel",
+              "source_url": "https://vercel.com/changelog/build-with-openai-agents-api-on-vercel"
+            }
+          ],
+          "slug": "build-with-openai-agents-api-on-vercel-93aab0be",
+          "localized_url": "/zh/items/2026-09-11/build-with-openai-agents-api-on-vercel-93aab0be/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Sakana AI、ＳＣＳＫ、住友商事の3社、AI活用による日本の産業変革と社会課題解決に向け包括業務提携 ～日本発の技術力・完遂力を核に、AIの社会実装を加速～",
+          "title_original": "Sakana AI、ＳＣＳＫ、住友商事の3社、AI活用による日本の産業変革と社会課題解決に向け包括業務提携 ～日本発の技術力・完遂力を核に、AIの社会実装を加速～",
+          "title_en": "Sakana AI、ＳＣＳＫ、住友商事の3社、AI活用による日本の産業変革と社会課題解決に向け包括業務提携 ～日本発の技術力・完遂力を核に、AIの社会実装を加速～",
+          "summary_zh": "Sakana AI 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/scsk-sc-partnership/",
+          "published_at": "2026-09-10T00:00:00+09:00",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [
+            "Sakana AI"
+          ],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c5139bc48e2c",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "Sakana AI、ＳＣＳＫ、住友商事の3社、AI活用による日本の産業変革と社会課題解決に向け包括業務提携 ～日本発の技術力・完遂力を核に、AIの社会実装を加速～",
+          "extracted_text_for_analysis": "Sakana AI株式会社（本社：東京都港区、共同創業者・CEO：David Ha、共同創業者・社長：伊藤 錬、以下Sakana AI）、ＳＣＳＫ株式会社（本社：東京都江東区、代表取締役 執行役員 社長：當麻 隆昭、以下ＳＣＳＫ）および住友商事株式会社（本社：東京都千代田区、代表取締役 社長執行役員 CEO：上野 真吾、以下住友商事）は、AI活用を通じた日本の産業変革と社会課題解決に向け、包括業務提携を行うことで合意しました。 1. 背景・目的 ～AI実装課題の克服～ 生成AIやAIエージェントをはじめとするAI技術は急速に進化し、企業が活用できるAIモデルやサービスの選択肢も広がっています。こうした中、企業にとって重要なのは、特定のAIを導入すること自体ではなく、自社の経営・事業・業務上の目的に応じて適切なAIを活用し、具体的な成果や変革につなげることです。 AIを実際の業務で継続的に活用するためには、AI技術だけでなく、業務・データ・既存システムとの連携に加え、品質、情報セキュリティ、ガバナンス、導入後の運用などを一体的に考える必要があります。また、AI技術が進化し続ける中では、特定の技術やモデルに過度に依存することなく、企業が重要なデータや業務に対する統制を保ちながら、目的や環境の変化に応じてAIの活用方法を継続的に評価・見直していくことも重要です。 こうした課題に対し、Sakana AIのAI研究開発・技術力、ＳＣＳＫのAIの統合・実装力、住友商事の事業開発・産業展開力を組み合わせることで、企業の主体的なAI活用を支援します。これにより、AIを業務効率化にとどめず、事業やサービスの変革につなげることを目指します。 2. 各社の役割と強み 本提携では、3社それぞれの強みを生かし、AI技術の活用から企業の実業務への実装、幅広い産業への展開までを一体的に推進します。 3. 業務提携の概要と具体的な取り組み 本提携では、顧客企業の主体的かつ継続的なAI実装を目指し、顧客課題の具体化から技術評価、本番利用、効果検証、継続改善までを3社共同で推進します。初期の取り組みとして、以下の領域から開始します。 （1）金融・製造業などミッションクリティカルな領域における実案件の推進 高い信頼性、品質、情報セキュリティが厳格に求められる企業の実案件を起点に、AIを活用したアプリケーションのPoC、本番利用を見据えた設計・実装、品質管理、運用・継続までを共同で推進します。実案件を通じて、AIを企業の業務・データ・既存システムと安全に組み合わせ、継続的に活用するための知見を蓄積し、他の顧客や案件にも展開可能なサービスや事業モデルへの発展を目指します。 （2）サイバーセキュリティ領域における新たなサービス・事業モデルの検討・開発 サイバーセキュリティ領域においても、新たな脅威への対応やセキュリティ業務の高度化など、AI活用が求められる領域が広がっています。ＳＣＳＫが進めるフロンティアＡＩの取り組みの一環として、Sakana AIが開発した日本発のオーケストレーションAIモデルを活用した、脆弱性の診断から修正までを支援する新たなサービス・ソリューションおよび事業モデルを検討・開発します。 （3）企業向けAIプロダクト・サービスの共同開発・高度化 企業の利用シーンや課題を起点に、AI技術・プロダクトと企業の業務・システムに関する知見を組み合わせ、企業向けAIプロダクト・サービスの共同開発・高度化を進めます。特定のAI技術やモデルに限定することなく、企業が目的に応じて適切なAIを活用し、技術の進化に合わせて継続的に評価・改善できる形を目指します。 （4）社会インフラ領域への展開 経済・社会活動の基盤となる社会インフラ領域におけるAI活用を推進します。住友商事がグローバルに展開する総合的な街づくりの知見・基盤を生かし、国内でのAI実装を通じて得た成果や知見を海外にも展開することで、AIの社会実装の裾野を広げていきます。 4. 提供価値と今後の展開 3社は、金融領域などの実案件、サイバーセキュリティ領域、企業向けAIプロダクト・サービスの開発を通じて得た知見を、他の顧客にも展開可能なサービスや事業モデルへ発展させていきます。 さらに、製造、社会インフラなど幅広い産業領域への展開を進めるとともに、案件や事業テーマに応じて、必要な技術や専門性を有する企業との連携も視野に入れ、AIの社会実装を広げていきます。 5. 会社概要 Sakana AI株式会社について Sakana AIは、David Ha（CEO）、伊藤錬（社長/Chairman）、Llion Jones（CTO）が2023年に設立した東京拠点のAI R&D企業です。The AI Scientist、マルチエージェント・オーケストレーション基盤モデルなどの独自技術を開発しながら、日本の大手企業や公共セクターと連携し、日本そして世界のニーズに応えるAIソリューションやプロダクトの開発に取り組んでいます。 URL：https://sakana.ai/ ＳＣＳＫ株式会社について ＳＣＳＫ株式会社は、コンサルティングから、システム開発、検証サービス、ITインフラ構築、ITマネジメント、ITハード・ソフト販売、BPO（ビジネス・プロセス・アウトソーシング）まで、ビジネスに必要なすべてのITサービスをフルラインアップで提供しています。また、ITを軸としたお客様や社会との共創による、さまざまな業種・業界や社会の課題解決にむけた新たな挑戦に取り組んでいます。主なAIの取り組みとしてAIネイティブな次世代型ERP「PROACTIVE」やクラウドネイティブ・インフラ「NebulaShift」、AIエージェント基盤「NebulaCore」を展開しています。 URL：https://www.scsk.jp/、https://proactive.jp/、https://www.scsk.jp/sp/nebulashift/ 住友商事株式会社について 全世界に展開するグローバルネットワークとさまざまな産業分野における顧客・パートナーとの信頼関係をベースに、多様な商品・サービスの販売、輸出入および三国間取引、さらには国内外における事業投資など、総合力を生かした多角的な事業活動を展開しています。2025年10月にはデジタル・AI戦略（Digital and AI Strategy＝DAIS）を策定し、当社の重点施策としてデジタル・AIを活用した成長に取り組んでいます。 URL：https://www.sumitomocorp.com/ja/jp Sakana AI 日本でのAIの未来を、Sakana AIと一緒に切り拓いてくださる方を募集しています。当社の募集要項をご覧ください。",
+          "title_zh": "Sakana AI 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。",
+            "涉及公司或机构：Sakana AI。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Sakana AI、ＳＣＳＫ、住友商事の3社、AI活用による日本の産業変革と社会課題解決に向け包括業務提携 ～日本発の技術力・完遂力を核に、AIの社会実装を加速～",
+              "source_url": "https://sakana.ai/scsk-sc-partnership/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/scsk-sc-partnership/"
+            }
+          ],
+          "slug": "sakana-aiscsk3ai-ai-94788911",
+          "localized_url": "/zh/items/2026-09-11/sakana-aiscsk3ai-ai-94788911/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+          "title_original": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+          "title_en": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foundation model helps address this,",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+          "published_at": "Thu, 10 Sep 2026 16:30:35 +0000",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "74f1f6122ab8",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+              "source_url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot",
+              "source_url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/"
+            }
+          ],
+          "slug": "skild-ai-taps-nvidia-physical-ai-to-teach-robots-new-tasks-from-a-single-683b9433",
+          "localized_url": "/zh/items/2026-09-11/skild-ai-taps-nvidia-physical-ai-to-teach-robots-new-tasks-from-a-single-683b9433/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+          "title_original": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+          "title_en": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people through some of the world’s busiest and",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/",
+          "published_at": "Thu, 10 Sep 2026 16:00:04 +0000",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "94f3002b19f7",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Physical AI Takes the Wheel: How the World’s Robotaxi Leaders Are Building With NVIDIA Technologies",
+              "source_url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The global robotaxi market — physical AI’s first commercial breakthrough — is projected to reach $400 billion by 2035, with over 6 million commercial vehicles in operation as driverless fleets are already moving people",
+              "source_url": "https://blogs.nvidia.com/blog/robotaxi-leaders-full-stack-open-platform/"
+            }
+          ],
+          "slug": "physical-ai-takes-the-wheel-how-the-worlds-robotaxi-leaders-are-building-1adb809c",
+          "localized_url": "/zh/items/2026-09-11/physical-ai-takes-the-wheel-how-the-worlds-robotaxi-leaders-are-building-1adb809c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+          "title_original": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+          "title_en": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在推理容量与成本控制方案，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners. By connecting Raptor to NVIDIA NVLink scale-up",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/",
+          "published_at": "Thu, 10 Sep 2026 13:00:21 +0000",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ea4d3b05d9ae",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 讨论推理容量与成本控制方案",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "d-Matrix Adopts NVIDIA NVLink Fusion for Rack-Scale XPU Deployment",
+              "source_url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI inference chipmaker d-Matrix today announced it will use NVIDIA NVLink Fusion to connect its next-generation Raptor XPUs to NVIDIA’s AI infrastructure platform — joining a growing roster of ecosystem partners. By",
+              "source_url": "https://blogs.nvidia.com/blog/d-matrix-nvlink-fusion/"
+            }
+          ],
+          "slug": "d-matrix-adopts-nvidia-nvlink-fusion-for-rack-scale-xpu-deployment-ed5ac5e6",
+          "localized_url": "/zh/items/2026-09-11/d-matrix-adopts-nvidia-nvlink-fusion-for-rack-scale-xpu-deployment-ed5ac5e6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Boots on the Ground: ‘WARDOGS’ Goes All Out on GeForce NOW at Early-Access Launch",
+          "title_original": "Boots on the Ground: ‘WARDOGS’ Goes All Out on GeForce NOW at Early-Access Launch",
+          "title_en": "Boots on the Ground: ‘WARDOGS’ Goes All Out on GeForce NOW at Early-Access Launch",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Gear up: The latest PC games and major updates are ready to play on GeForce NOW this week. WARDOGS drops onto the cloud at early-access launch, alongside the Valheim 1.0 Deep North update and Bus Simulator 27 — part of nine new titles joining the cloud. The",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-wardogs/",
+          "published_at": "Thu, 10 Sep 2026 13:00:18 +0000",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d4bbe1e3ba12",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Boots on the Ground: ‘WARDOGS’ Goes All Out on GeForce NOW at Early-Access Launch",
+              "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-wardogs/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Gear up: The latest PC games and major updates are ready to play on GeForce NOW this week. WARDOGS drops onto the cloud at early-access launch, alongside the Valheim 1.0 Deep North update and Bus Simulator 27 — part of",
+              "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-wardogs/"
+            }
+          ],
+          "slug": "boots-on-the-ground-wardogs-goes-all-out-on-geforce-now-at-early-access-f3468ea9",
+          "localized_url": "/zh/items/2026-09-11/boots-on-the-ground-wardogs-goes-all-out-on-geforce-now-at-early-access-f3468ea9/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+          "title_original": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+          "title_en": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/gradio-workflow-1111",
+          "published_at": "Thu, 10 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cb50b0c3c856",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+              "source_url": "https://huggingface.co/blog/gradio-workflow-1111"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/gradio-workflow-1111"
+            }
+          ],
+          "slug": "rebuilding-automatic1111-with-gradio-workflow-cb50b0c3",
+          "localized_url": "/zh/items/2026-09-11/rebuilding-automatic1111-with-gradio-workflow-cb50b0c3/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72!",
+          "title_original": "To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72!",
+          "title_en": "To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72!",
+          "summary_zh": "NVIDIA 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "We ported ThunderKittens to NVIDIA's Vera Rubin NVL72 and rebuilt our NVFP4 GEMM around the new hardware, taking it from 42% of roofline to over 22 PFLOPS — competitive with cuBLAS and CuTe DSL. Here is what changed in the ISA and how we used it.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72",
+          "published_at": "Thu, 10 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 42.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "e8d3e3f62145",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 NVIDIA 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72!",
+              "source_url": "https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We ported ThunderKittens to NVIDIA's Vera Rubin NVL72 and rebuilt our NVFP4 GEMM around the new hardware, taking it from 42% of roofline to over 22 PFLOPS — competitive with cuBLAS and CuTe DSL. Here is what changed in",
+              "source_url": "https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72"
+            }
+          ],
+          "slug": "to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72-e8d3e3f6",
+          "localized_url": "/zh/items/2026-09-11/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72-e8d3e3f6/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GitHub Copilot is now available in the AI SDK harness layer",
+          "title_original": "GitHub Copilot is now available in the AI SDK harness layer",
+          "title_en": "GitHub Copilot is now available in the AI SDK harness layer",
+          "summary_zh": "Vercel AI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "The AI SDK harness layer now supports GitHub Copilot through the official @ai-sdk/harness-github-copilot adapter. The harness layer lets your application run different coding agents through the same HarnessAgent interface, so you can switch agents without",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
+          "published_at": "2026-09-10T17:39:00.000Z",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6dde567f1f42",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GitHub Copilot is now available in the AI SDK harness layer",
+              "source_url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The AI SDK harness layer now supports GitHub Copilot through the official @ai-sdk/harness-github-copilot adapter. The harness layer lets your application run different coding agents through the same HarnessAgent",
+              "source_url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter"
+            }
+          ],
+          "slug": "github-copilot-is-now-available-in-the-ai-sdk-harness-layer-6dde567f",
+          "localized_url": "/zh/items/2026-09-11/github-copilot-is-now-available-in-the-ai-sdk-harness-layer-6dde567f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "FastAPI frontends and static files served from the CDN",
+          "title_original": "FastAPI frontends and static files served from the CDN",
+          "title_en": "FastAPI frontends and static files served from the CDN",
+          "summary_zh": "Vercel 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "FastAPI frontends and static files, served with app.frontend() or StaticFiles , are now promoted to the Vercel CDN at build time. Requests for those paths are served directly from the CDN, without invoking your Vercel Function. FastAPI evaluates routes in",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn",
+          "published_at": "2026-09-10T17:00:00.000Z",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9fcb83950edd",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "FastAPI frontends and static files served from the CDN",
+              "source_url": "https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn"
+            },
+            {
+              "label": "公开摘要",
+              "text": "FastAPI frontends and static files, served with app.frontend() or StaticFiles , are now promoted to the Vercel CDN at build time. Requests for those paths are served directly from the CDN, without invoking your Vercel",
+              "source_url": "https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn"
+            }
+          ],
+          "slug": "fastapi-frontends-and-static-files-served-from-the-cdn-9fcb8395",
+          "localized_url": "/zh/items/2026-09-11/fastapi-frontends-and-static-files-served-from-the-cdn-9fcb8395/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Computer-Use Agents and the Future of the Agentic Internet",
+          "title_original": "Computer-Use Agents and the Future of the Agentic Internet",
+          "title_en": "Computer-Use Agents and the Future of the Agentic Internet",
+          "summary_zh": "Practical AI 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Longtime followers of Practical AI know that multi-repeat guest and friend Demetrios Brinkmann combines brilliant insight and playful banter into one fun-filled show, and this conversion with Chris was no different. They had a blast! As AI agents become more",
+          "source_name": "Practical AI",
+          "source_url": "https://changelog.com/practicalai",
+          "original_url": "https://share.transistor.fm/s/72586f97",
+          "published_at": "Thu, 10 Sep 2026 05:00:00 -0400",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "engineering",
+            "podcast"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e2a6a9a9d5b2",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Practical AI 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Practical AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、engineering、podcast。"
+          ],
+          "background_zh": "这条内容来自 Practical AI，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Computer-Use Agents and the Future of the Agentic Internet",
+              "source_url": "https://share.transistor.fm/s/72586f97"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Longtime followers of Practical AI know that multi-repeat guest and friend Demetrios Brinkmann combines brilliant insight and playful banter into one fun-filled show, and this conversion with Chris was no different.",
+              "source_url": "https://share.transistor.fm/s/72586f97"
+            }
+          ],
+          "slug": "computer-use-agents-and-the-future-of-the-agentic-internet-e2a6a9a9",
+          "localized_url": "/zh/items/2026-09-11/computer-use-agents-and-the-future-of-the-agentic-internet-e2a6a9a9/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing preemptible compute: the same compute, half the price",
+          "title_original": "Introducing preemptible compute: the same compute, half the price",
+          "title_en": "Introducing preemptible compute: the same compute, half the price",
+          "summary_zh": "Together AI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Together GPU Clusters now supports preemptible compute: the same GPU capacity at a flat 50% of the on-demand rate, with a five-minute drain window.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price",
+          "published_at": "Thu, 10 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-11T00:13:18.403503+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "4230f956fc9c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Together AI 发布模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing preemptible compute: the same compute, half the price",
+              "source_url": "https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Together GPU Clusters now supports preemptible compute: the same GPU capacity at a flat 50% of the on-demand rate, with a five-minute drain window.",
+              "source_url": "https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price"
+            }
+          ],
+          "slug": "introducing-preemptible-compute-the-same-compute-half-the-price-4230f956",
+          "localized_url": "/zh/items/2026-09-11/introducing-preemptible-compute-the-same-compute-half-the-price-4230f956/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": [
+        {
+          "source": "The Gradient Podcast",
+          "error": "The read operation timed out"
+        }
+      ]
+    },
     {
       "date": "2026-09-10",
       "title_zh": "AI 新闻简报 · 2026-09-10",
