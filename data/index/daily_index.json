@@ -1,7 +1,820 @@
 {
-  "updated_at": "2026-09-11T00:13:21.400497+00:00",
-  "count": 86,
+  "updated_at": "2026-09-12T00:21:00.256357+00:00",
+  "count": 87,
   "briefs": [
+    {
+      "date": "2026-09-12",
+      "title_zh": "AI 新闻简报 · 2026-09-12",
+      "title_en": "English AI News Brief · 2026-09-12",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 150 条，跨期排除历史已展示 138 条，入选 12 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 150 candidates, 138 previously displayed items excluded, and 12 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 150,
+      "skipped_history_count": 138,
+      "selected_count": 12,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+          "title_original": "Cognition helps Devin test its own work with GPT‑6 Astra",
+          "title_en": "Cognition helps Devin test its own work with GPT‑6 Astra",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/cognition-devin-testing-with-astra",
+          "published_at": "Fri, 11 Sep 2026 16:00:00 GMT",
+          "fetched_at": "2026-09-12T00:20:57.767572+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Cognition"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c3aa33826442",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+          "extracted_excerpt": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+          "extracted_text_for_analysis": "Cognition helps Devin test its own work with GPT‑6 Astra GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more. Cognition is the company behind Devin, an autonomous software engineer used by businesses around the world, from big banks to tech-native startups. As Cognition’s engineering teams write more code, reviewing that work has become a challenge. Cognition sees GPT‑6 Astra’s ability to test its work and show the results as a way to make code review more efficient. “One of the big pieces that Astra improves on is its ability to test and prove that its work actually functions the way you expect.” Cognition is applying GPT‑6 Astra across its product lineup. “We’ve been using it to make improvements across our product, including the core cloud agent that is Devin, but also our CLI and desktop products,” says Yan. In one example, Devin uses Astra to test Otter Run, an iPhone game, and returns a recording of the game running in a simulator, alongside a report identifying checks that passed and areas left untested. The recording shows the application’s behavior, while the report documents the scope of the testing. Engineers can use those outputs to inspect how the software works and understand what still needs attention. Astra is also helping Cognition get back to customers “much quicker,” says Yan. When a customer sends a screenshot of a bug, the team can pass it to Devin using Astra, which fixes the issue and returns a screenshot showing the result. Cognition sees stronger testing with GPT‑6 Astra as a path toward a more efficient review process. Having Devin test its work and provide evidence of the results could help engineers evaluate changes with less manual examination of the code. “We expect over time that we have to manually look at less code and end up shipping more at the end of the day. This is one of the things we’re really excited about when it comes to GPT-6.”",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI、Cognition。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Cognition helps Devin test its own work with GPT‑6 Astra",
+              "source_url": "https://openai.com/index/cognition-devin-testing-with-astra"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+              "source_url": "https://openai.com/index/cognition-devin-testing-with-astra"
+            }
+          ],
+          "slug": "cognition-helps-devin-test-its-own-work-with-gpt6-astra-c3aa3382",
+          "localized_url": "/zh/items/2026-09-12/cognition-helps-devin-test-its-own-work-with-gpt6-astra-c3aa3382/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+          "title_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+          "title_en": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+          "summary_zh": "OpenAI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+          "published_at": "Fri, 11 Sep 2026 10:00:00 GMT",
+          "fetched_at": "2026-09-12T00:20:57.767572+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c7d3c8aeae42",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+          "extracted_excerpt": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+          "extracted_text_for_analysis": "Rapidly scaling online storage to serve over 1 billion ChatGPT users How we adapted our application storage platform, Habitat, in Python to manage unprecedented growth. By Jon Lee, Chaomin Yu, and Ben Ries, Members of Technical Staff Every OpenAI product depends on fast, reliable access to data, whether someone is logging in, checking their Codex settings, or starting a new conversation in ChatGPT. Each of those actions may require many separate data lookups before the product can respond. If those requests are slow, the product feels slow. If those requests fail, the product stops working entirely. Habitat is the online storage platform we built so OpenAI products can quickly and reliably access needed information. Habitat now handles more than 70 million requests every second, supporting products used by over 1 billion people each week, across almost 40 geographic regions. Two years ago, Habitat started as a simple Python client-side library connected to a single database. Today, it’s a complex distributed system that serves more than 500 petabytes of data. Building and operating infrastructure at this scale is no easy feat, but also not particularly challenging. What made our situation unique is the unprecedented rate at which we’ve had to scale to support staggering user growth and product demand while simultaneously building out a mature platform. Often, system engineers build for 10x scale, and hope for it to hold for a few years while preparing for the next 10x. In our case, we've grown more than 10x year-over-year for the last three years. As a result, building and operating Habitat has been a series of tactical decisions and sequencing: understanding each component at the lowest level to squeeze as much juice out of our existing stack, while fending off storage and compute capacity crunches to buy time for foundational investments. - 70M+requests per second - 1B+people each week - 500 PB+data As OpenAI grew, Habitat had to grow with it: first by becoming reliable enough for mission-critical product traffic, then fast enough for global users, and finally, to deftly operate at massive scale. This post is the first in a two-part series on how we scaled online storage. In this post, we’ll share how Habitat evolved, why we turned it from a library into a service, and how we stretched a service written in an uncommon serving stack language—Python—into a reliable storage platform layer. In a future post, we’ll go into detail about how we made multi-tenancy reliability at scale, our layered strategy for optimizing read performance, and how we scaled our partnership with Azure Cosmos DB to reliably handle unprecedented demand. Habitat started from a simple idea: product engineers shouldn’t need to think about database management. Habitat began in mid-2024 as a small Python library that interacted with ChatGPT’s main server. It supported a small set of operations that mapped under the hood to the database application, Azure Cosmos DB. The library’s job was to give product teams a simple way to store and retrieve data without needing to master the underlying details. Habitat took care of the necessary work: figuring out what kind of data was involved, where it should come from (or go), whether the request was allowed, and so on. Product engineers need not concern themselves with schema lookup, routing, authorization, encryption, serialization, request shaping, and connection pooling. They didn’t even need to consider where the data comes from: Azure Cosmos DB, caches, or other types of storage. This Python library worked well and Habitat saw rapid adoption among product engineers at OpenAI, despite no concerted central push away from using self-serve Postgres and Azure Cosmos DB. As product needs evolved, it was even easy for product developers to add to the shared library support for features like client-side caching, compression, or encryption. By the middle of 2025, Habitat had reached its limits as a client-side implementation. As the Habitat layer had grown more complex and OpenAI’s services count increased, backward-compatible protocol changes had become infeasible. In one instance, we wanted to reduce the blast radius of any single region outage for our most critical data sets by migrating them to a set of regionally distributed Azure Cosmos DB accounts. Making this change required introducing extra routing logic into the client, disabled behind a feature flag, ensuring it rolled out to all clients, and then enabling the feature flag. Coordinating deployments across dozens of services and working with each team to roll it out took days. Before enabling this, we realized we wanted to introduce some shadowing to ensure the sharding logic would be correct. That took another couple of days to roll out. A bug fix for something we realized was incorrect? Another couple of days. Eventually, we were ready to enable the flag, only for one of the teams to roll back their service for unrelated reasons to a previously buggy client, causing the outage we had worked so hard to avoid. Changes to the client library necessitated complex coordination across dozens of services, a process that proved increasingly brittle, inefficient, and susceptible to operational failures. To reduce this operational fan out for our future deployments, we decided to pull Habitat into its own service. By decoupling the storage logic into a standalone service, we established a single point of control for deployments, observability, and platform enhancements. Instead of managing fragmented updates, we could implement improvements centrally, providing immediate benefits to every OpenAI product. A centralized service also gives us a single chokepoint to provide the strongest data security and privacy primitives. Habitat service is where we can centrally enforce access control policies, perform audit logging, and limit access to underlying storage resources like Azure Cosmos DB. Habitat plays a critical role in protecting user data and preventing unauthorized access from external, internal, and agent actors. We knew we needed a service, but we didn’t want to migrate off Python quite yet, even with Python’s additional overhead as a service. Using Python for a high-throughput service increased network latency and added substantial CPU and memory scaling costs compared to local library execution. Moreover, we recognized that the inefficiencies of Python would not be acceptable at 100x scale, making an eventual rewrite almost certain. However, we viewed this as a strategic incursion of technical debt. Our primary objective then was not cost or resource optimization, but rather unblocking product developers and achieving platform stability. By accepting the performance trade-offs of a Python service in the short term, we were able to prioritize more immediate challenges, establish our core APIs, and build out a robust infrastructure. We also made a calculated wager that the rapid advancement of our own",
+          "title_zh": "OpenAI 推进开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+              "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+              "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one"
+            }
+          ],
+          "slug": "rapidly-scaling-online-storage-to-serve-over-1-billion-chatgpt-users-c7d3c8ae",
+          "localized_url": "/zh/items/2026-09-12/rapidly-scaling-online-storage-to-serve-over-1-billion-chatgpt-users-c7d3c8ae/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "title_original": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "title_en": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "summary_zh": "OpenAI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "published_at": "Mon, 14 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-12T00:20:57.767572+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Perplexity"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "12e9dd685180",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "extracted_excerpt": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+          "extracted_text_for_analysis": "Perplexity trusts GPT‑6 Astra with end-to-end systems Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models. As an AI-powered answer engine, Perplexity is deeply focused on search and accuracy. Its ability to process large amounts of information is critically important. Johnny Ho, Cofounder and Chief Strategy Officer, observes that every time the model gets better at writing code, Perplexity’s search engine improves too. It becomes able to write better programs that search the web and internal information and summarize it very concisely. But the real challenge, according to Johnny, is taking those informational aspects and applying them to real-world systems. Something made easier with GPT‑6 Astra. “We can have the model craft communications, edit real-world systems, and monitor our production software in a way that previous generations were not able to.” For Johnny, one of the most useful applications of AI is testing code. With limited time to test manually, he asks GPT‑6 Astra to build a small testing program around an application. The model generates realistic responses like those another service would send, for example, a language model API or a connector. By standing in for those services, the model can check how the application responds and test the workflow from start to finish. “We’re actually able to trust it with full end-to-end systems and check in on it much less frequently than previous generations of models.”",
+          "title_zh": "OpenAI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI、Perplexity。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+              "source_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+              "source_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+            }
+          ],
+          "slug": "perplexity-trusts-gpt-6-astra-with-end-to-end-systems-12e9dd68",
+          "localized_url": "/zh/items/2026-09-12/perplexity-trusts-gpt-6-astra-with-end-to-end-systems-12e9dd68/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
+          "title_original": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
+          "title_en": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
+          "summary_zh": "Together AI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Together Fine-Tuning adds the latest open-weight models, live experiment tracking, Expert LoRA, early stopping, tokenized dataset previews, pre-flight validation, and lower training prices on selected models.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls",
+          "published_at": "Fri, 11 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-12T00:20:57.767572+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Together AI"
+          ],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 42.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "b0d276b21853",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
+          "extracted_excerpt": "Together Fine-Tuning adds the latest open-weight models, live experiment tracking, Expert LoRA, early stopping, tokenized dataset previews, pre-flight validation, and lower training prices on selected models.",
+          "extracted_text_for_analysis": "Turning an open-weight model into a high-performing model for your task takes a sequence of well-measured experiments. Teams need to understand what the model will train on, follow how each run is progressing, adjust the training recipe, and identify which checkpoint performs best. Today, we're expanding Together Fine-Tuning across that workflow. This release adds support for the latest open-weight models, live experiment tracking, finer controls over training and data processing, and lower prices on selected models. You can also inspect and validate a dataset before training, compare runs while they are in flight, and stop when validation loss plateaus. New models New open-weight models are arriving at an unprecedented pace, with nearly every release raising the bar for quality, efficiency, or both. Teams want to bring these advances into production quickly, without spending weeks on the technical challenges of each new architecture. For tasks that need frontier performance, you can turn to the largest and strongest models such as GLM-5.3 and Kimi K2.7. For example, GLM-5.3 scores 88.2 on Terminal-Bench 2.1, within one point of the leading proprietary models. Other teams prioritize performance and costs, choosing models such as Qwen 3.8-27B or Gemma 4. For local and on-device applications, the Qwen 3.5 family offers options ranging from 0.8B to 9B parameters. Together Fine-Tuning supports all these models across a wide range of scales, with leading optimizations across systems and algorithms built in. Submit a training job, and we handle the architecture-specific complexity behind the scenes. The latest additions include: - GLM 5.3 - GLM-5.2 - GLM-5.1 - DeepSeek-V4-Flash-0731 - DeepSeek-V4-Flash - Kimi K2.7-Code - Kimi K2.6 - Qwen 3.8-27B - Qwen 3.6-35B-A3B - Qwen 3.6-27B - Qwen 3.5-27B - Qwen 3.5-9B - Qwen 3.5-4B - Qwen 3.5-2B - Qwen 3.5-0.8B - Gemma 4-31B - Gemma 4-26B-A4B Experiment tracking The sooner a run's trajectory is visible, the sooner the next decision can be made - adjust the data, change the hyperparameters, or let it finish. Fine-tuning jobs now record metrics at every training and evaluation step and expose them directly through the Together API, CLI, and UI dashboard. Metrics, job status, and artifacts stay in one place, so you can remain on the same platform for the entire journey of model development. Every run captures the core training signals: loss, gradient norm, learning rate. When you add a validation set, the evaluation loss and metrics will be tracked alongside training metrics. In the dashboard, every job gets a Metrics tab with curves that update while the run is still in flight - and you can select several jobs and chart them together on one set of axes, so a sweep reads as a single picture instead of a dozen browser tabs. You can also do the same via our Python SDK: one command, curve in the terminal, no context switch. The API returns the underlying series - every recorded step, filtered by range or downsampled. This way, you can pull metrics into a notebook, your internal dashboards you already have, or any other destination. More controls over training Expert LoRA In a Mixture-of-Experts model, over 90% of the parameters, and most of what the model actually knows, live in the expert layers. Standard LoRA fine-tuning never touches them: adapters attach to attention while the experts stay frozen. You can now put LoRA adapters on the experts themselves, so your job can train the layers where the knowledge lives. The difference shows up wherever a task needs the model to learn something genuinely new. We taught models 200 invented facts (so the base models know none of them): adapters that include the expert layers recalled up to 89% of the new knowledge, while attention-only adapters topped out at 15% on the same model. They also kept more of the model's existing knowledge and won MMLU-Pro outright, 75.3% to 71.5%. The training dynamics explain the gap: with attention-only adapters, a growing share of routed experts simply falls out of use during fine-tuning, while expert adapters keep the whole mixture engaged. Enabling expert adapters is simple: just add the expert modules to lora_trainable_modules. The rest of the fine-tuning workflow remains the same as it does for any other LoRA job. Early stopping Fine-tuning jobs can now automatically finish when they stop improving. That means you get the best model, not just the last one, and you don't pay for training that no longer helps. Enable early stopping, provide a validation set, and we'll watch your validation loss at every evaluation. When the curve plateaus, we halt the run, keep the checkpoint with the best validation loss as your final model, and automatically refund every training step you didn't use. Patience, sensitivity to small improvements, and warmup are all tunable when you want finer control. The full parameter reference is in the docs. Arbitrary batch size support Some jobs need batch sizes that can't fit in GPU memory: long sequences, large models or a recipe tuned for a big global batch. You can now train with whatever effective batch size you want regardless of what fits in a single pass. Set gradient_accumulation_steps and gradients accumulate across micro-batches before each optimizer update, giving an effective batch of batch_size x gradient_accumulation_steps. Details in the docs. Price reductions At Together, we believe that intelligence should be abundant, and we leverage all available systems and algorithmic optimizations to provide the most value to our customers. We continue optimizing our training stack and want to transfer any cost reductions to users. Hence, we are dropping the prices of training for most of the models we support, with savings starting from 30% and reaching 70% for models such as the gpt-oss series. Here are some of the price changes for training LoRA adapters per 1 million tokens: The full pricing table is available on our pricing page. Case study: How Adaption automates training for open models up to 1T on Together Adaption is a frontier AI research company building intelligence that continuously learns, evolving through live data and environments rather than static training and costly retraining cycles. Its research spans three pillars: - Adaptive Data, which shapes data at scale - Adaptive Intelligence, which evolves models across industries and languages - Adaptive Interfaces, which reimagines human-AI interaction AutoScientist, part of Adaptive Intelligence, automates the full research loop behind model training. Where Adaptive Data shapes the inputs, AutoScientist shapes the model itself: you set the outcome, and the loop searches training recipes, optimizes the data, trains, and evaluates, cycling through all four rather than defaulting to generic hyperparameters. It refines its choices with every run until quality converges on your objective. It supports both LoRA and full fine-tuning across leading open models up to 1T",
+          "title_zh": "Together AI 更新模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。",
+            "涉及公司或机构：Together AI。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
+              "source_url": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Together Fine-Tuning adds the latest open-weight models, live experiment tracking, Expert LoRA, early stopping, tokenized dataset previews, pre-flight validation, and lower training prices on selected models.",
+              "source_url": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls"
+            }
+          ],
+          "slug": "together-ai-expands-fine-tuning-service-with-more-models-live-metrics-an-b0d276b2",
+          "localized_url": "/zh/items/2026-09-12/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-an-b0d276b2/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI researchers debate how close we are to recursive self-improvement",
+          "title_original": "AI researchers debate how close we are to recursive self-improvement",
+          "title_en": "AI researchers debate how close we are to recursive self-improvement",
+          "summary_zh": "Dwarkesh Podcast 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "“We're nowhere near the ceiling.”",
+          "source_name": "Dwarkesh Podcast",
+          "source_url": "https://www.dwarkeshpatel.com/",
+          "original_url": "https://www.dwarkesh.com/p/john-beren-charlie",
+          "published_at": "Fri, 11 Sep 2026 16:28:11 GMT",
+          "fetched_at": "2026-09-12T00:20:57.767572+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "agi",
+            "economics",
+            "interview"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8f24b4306d6a",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Dwarkesh Podcast 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Dwarkesh Podcast，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：agi、economics、interview。"
+          ],
+          "background_zh": "这条内容来自 Dwarkesh Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI researchers debate how close we are to recursive self-improvement",
+              "source_url": "https://www.dwarkesh.com/p/john-beren-charlie"
+            },
+            {
+              "label": "公开摘要",
+              "text": "“We're nowhere near the ceiling.”",
+              "source_url": "https://www.dwarkesh.com/p/john-beren-charlie"
+            }
+          ],
+          "slug": "ai-researchers-debate-how-close-we-are-to-recursive-self-improvement-8f24b430",
+          "localized_url": "/zh/items/2026-09-12/ai-researchers-debate-how-close-we-are-to-recursive-self-improvement-8f24b430/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Tailscale built a customer-facing model router on AI Gateway",
+          "title_original": "How Tailscale built a customer-facing model router on AI Gateway",
+          "title_en": "How Tailscale built a customer-facing model router on AI Gateway",
+          "summary_zh": "Vercel 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Tailscale on Vercel Hundreds of AI models shipped to customers in-product Model access granted and revoked by tailnet network identity Went from model routing prototype to paying customers in months Tailscale connects a company's laptops, servers, cloud",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway",
+          "published_at": "2026-09-11T04:00:00.000Z",
+          "fetched_at": "2026-09-12T00:20:57.767572+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3e69699e2c70",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How Tailscale built a customer-facing model router on AI Gateway | Customers | Vercel",
+          "extracted_excerpt": "How Tailscale built Aperture, a customer-facing model router on Vercel AI Gateway, with identity-based access to hundreds of AI models and no API keys.",
+          "extracted_text_for_analysis": "Copy link to headingTailscale on Vercel - Hundreds of AI models shipped to customers in-product - Model access granted and revoked by tailnet network identity - Went from model routing prototype to paying customers in months Tailscale connects a company's laptops, servers, cloud instances, and personal devices into one private network called a tailnet. Remy Guercio, who leads product for Aperture by Tailscale, describes it simply: \"It's basically like a VPC that can span any cloud, on-prem, your house, and your phone.\" Aperture takes that same idea and applies it to AI. Instead of giving every employee, agent, or tool a separate provider API key, Aperture lets companies control model access through the tailnet itself. Add someone to the network, and they can immediately use approved models. Remove them, and access disappears. Under the hood, Aperture is built on Vercel AI Gateway and Vercel Sandbox. AI Gateway gives Tailscale one API for hundreds of models. Sandbox gives agents a safe place to run. Together, they let Tailscale offer model access and agent execution inside a customer's private network, without their team building every piece of AI infrastructure from scratch. Copy link to headingModel routing is harder than it looks Tailscale is an infrastructure company, so building the routing and execution layers in-house was the obvious first option. But once they took a deeper look into the engineering effort required, they chose not to. The provider layer looked deceptively simple from the outside. \"You would think all of the endpoints are the same,\" Remy says. \"They are not.\" David Carney, Co-founder and Chief Strategy Officer, has the receipts, because Tailscale still maintains that plumbing for a few customers who haven't migrated to Aperture yet. \"There are a lot of things the big providers don't do that blow my mind that the gateway does, like simply putting the cost in the response,\" he says. \"We initially built those systems for customers ourselves, and the complexity is insane.\" Agents raised the stakes further. An agent that can read private data, act on the text it reads, and reach the public internet is a security problem now called the \"lethal trifecta.\" The right mitigation is an isolated sandbox with identity and access controls baked in. \"I think we wouldn't have been able to deliver the product if we were also trying to build a sandbox ourselves,\" David says. \"But we were able to go from prototype to paying customers in months on Vercel.\" Copy link to headingBuilding a custom model router on AI Gateway Tailscale shopped the routing layer first. \"We did talk to a lot of other folks, including providers themselves, and Vercel just made it very easy,\" Remy says. AI Gateway gives Aperture one API across hundreds of models, and returns cost and usage on every request, so Aperture can surface spend to customers without Tailscale maintaining price tables for each provider. Tailscale's customers care about protecting their data, and Zero data retention (ZDR) was table stakes for Aperture. Tailscale chose AI Gateway because: - The AI Gateway itself retains no data. - They can set ZDR globally or use the per-request zeroDataRetention flag, which automatically restricts routing to ZDR-compliant providers. \"All this ZDR stuff is a moving target, like, which models have zero data retention versus not,\" David says, \"but we don't have to write any of that logic, because it's all handled for us.\" Copy link to headingZero cost markup for Tailscale and their customers AI Gateway doesn't mark up token costs on any provider or model, including when Tailscale's customers bring their own keys. Aperture's customers pay the same rate they would going direct, across every model in the catalog. Copy link to headingTime to first token, from signup Ask David what Vercel is worth to Aperture, and his answer is simple: time to first token. But that means something different to David than it does to Remy, and both are right. \"[David] Carney likes to overload the term time to first token,\" Remy says. \"In the AI infrastructure world it has a very specific meaning, which is how long it takes to load the cache, generate the response, and deliver it back to the user.\" Remy explains David's definition: \"It's the time from user signup to their first model call, which is the real value Aperture provides to our customers.\" And Aperture's success is measured by that time-to-value. \"I constantly push the team to remove the most barriers possible to get someone to that wow moment as fast as we can,\" David says. \"After months of testing different products, Vercel was the answer to the infrastructure side, because AI Gateway has such low latency.\" Copy link to headingRunning agents on the tailnet in Vercel Sandbox Once Aperture had model access in place, the team focused on making it safe to run agents inside a tailnet. This is the workflow: - A sandbox spins up and connects to Aperture. - Aperture connects to AI Gateway. - Tailscale validates the identity. - The agent does its work. - The sandbox shuts down. No key is ever issued to the agent. Tailscale shopped the sandbox layer too, and even had a working implementation on a different provider before deciding to switch. \"We wanted to focus on network identity, not sandbox security boundaries, and Vercel's sandboxes are bulletproof,\" says Remy. We tried many different sandbox providers and even had a full implementation on one, and still switched to Vercel. It was shockingly easy for us to switch everything over.Remy Guercio • Aperture Product Lead at Tailscale Copy link to headingMigrating Tailscale's internal AI layer to AI Gateway Tailscale's own AI usage had grown the way most companies' has: a mix of direct provider accounts and cloud endpoints, accumulated one team at a time. Internally, those requests went through Aperture, but behind the proxy, it was still calling separate providers directly. After implementing AI Gateway for their customers, they knew they wanted to make the migration themselves. Tailscale's engineering team built a switch in Aperture that pointed requests to AI Gateway instead of the individual provider APIs, so now they have one integration rather than separate ones for each provider. Nothing changed for employees. Aperture was still the endpoint they called, and every model they were already using was in the AI Gateway catalog, so the cutover happened with zero interruption. Tailscale now uses their own migration as the playbook for enterprise customers juggling dozens of provider accounts and keys. We were able to cut the entire company over to using AI Gateway in seconds, and nobody noticed. That was the exciting part. Nobody noticed.Remy Guercio • Aperture Product Lead at Tailscale Copy link to headingWhat's next Aperture started as a raw gateway for engineers to point a coding agent at. It now has a chat UI, MCP connectors, and sandboxes launchable as ephemeral nodes, all running on tailnet identity.",
+          "title_zh": "Vercel 推进开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Tailscale built a customer-facing model router on AI Gateway",
+              "source_url": "https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Tailscale on Vercel Hundreds of AI models shipped to customers in-product Model access granted and revoked by tailnet network identity Went from model routing prototype to paying customers in months Tailscale connects a",
+              "source_url": "https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway"
+            }
+          ],
+          "slug": "how-tailscale-built-a-customer-facing-model-router-on-ai-gateway-3e69699e",
+          "localized_url": "/zh/items/2026-09-12/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway-3e69699e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier",
+          "title_original": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier",
+          "title_en": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier",
+          "summary_zh": "Sakana AI Blog 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/fugu-max-release/",
+          "published_at": "2026-09-11T00:00:00+09:00",
+          "fetched_at": "2026-09-12T00:20:57.767572+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d2d88d9b157a",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier",
+          "extracted_text_for_analysis": "The AI industry has spent a decade racing along a single axis: building bigger, more expensive foundation models. But the frontier that actually matters to real-world tasks is two-dimensional: capability on one axis, cost on the other. A system that deploys a multi-trillion-parameter model to execute a simple data lookup is not intelligent, but wasteful. The future belongs to systems that know not just how to solve a problem, but which machinery to deploy for the lowest possible cost. Today, we are pushing orchestration forward along both axes simultaneously. We are releasing Fugu Max, which expands the Pareto Efficiency Frontier by orchestrating our largest pool of open and specialized models to date. And we are releasing Fugu Ultra v2, which pushes peak performance higher than ever before, without the indispensable reliance on the frontier models it orchestrates. 👉 Try Sakana Fugu Max and Fugu Ultra v2 🐡 Schematic illustration of how Fugu Max and Fugu Ultra extend the cost-performance frontier beyond what single models can reach. Two Axes, One Strategy Fugu Max and Fugu Ultra v2 are not separate products. They are the same core orchestration architecture optimized for two distinct missions: - Fugu Max asks: What is the best possible output we can deliver at the lowest possible cost? - Fugu Ultra v2 asks: What is the absolute highest capability we can achieve on complex, multi-step tasks? The Fugu Journey 🐡 In just a few months, Sakana Fugu has evolved from a beta thesis into an enterprise-grade orchestration engine: - April (Beta): Proved multi-agent orchestration works as a unified foundation model. - June (General Availability & Fugu Ultra v1): Highlighted that an orchestration layer can match closed frontier models on hard benchmarks. - July (Fugu-Cyber & Claude Code Interface): Showed that orchestration can specialize in real-world domain workflows like cybersecurity and coding environments. - August (Sakana Chat & NVIDIA Partnership): Demonstrated orchestration can scale to daily consumer use in Sakana Chat. Started integrating NVIDIA Nemotron open models. - September (Today): Fugu Max and Fugu Ultra v2 Today’s release confirms the core promise behind every milestone: orchestration consistently outperforms isolated models, and a swappable pool of agents guarantees supply chain resilience by design. Fugu Max: More Models, Less Cost Fugu Max expands the pool of models Sakana Fugu can orchestrate, integrating an unprecedented number of open-weights and specialized models, including NVIDIA Nemotron family through our collaboration with NVIDIA. By dynamically routing tasks to the leanest model capable of solving them, Fugu Max delivers frontier-grade results at a fraction of the token spend. Among frontier models in a similar price range (input prices per 1M tokens for each model are shown in the first subplot), Fugu Max expands the pareto frontier formed by single models and places itself in a cost-performance efficient position across multiple benchmarks. Fugu Max sits at a point on the Pareto frontier that single-model providers cannot reach: performance within striking distance of elite models at two to six times lower cost. And because Fugu is an architecture, not a single model, that frontier point can be tuned and extended for any domain. Concretely, - Performance: Fugu Max achieves best overall score on six benchmarks, including Terminal Bench 2.1, GPQAD, AA-LCR, GDP.pdf, AutomationBench, and SWEFish, our internal benchmark reflecting Sakana AI’s own coding challenges and use-cases. - Cost: At $2 per million input tokens and $6 per million output tokens, Fugu Max’s output pricing is 40-60% lower than Sonnet 5, GPT 5.6 Terra, and Kimi K3. - Efficiency: Fugu Max expands the cost-performance Pareto frontier on seven out of ten benchmarks, delivering performance beyond the existing baseline efficiency envelope. We see that open models are the fastest-growing and most diverse part of the AI ecosystem, and they become dramatically more useful when orchestrated together rather than used in isolation. Fugu Max is our bet that the Pareto frontier of the future will be built out of many open, specialized models working in concert. Fugu Ultra v2: The Frontier Keeps Moving Pushing cost efficiency does not mean capping maximum capability. For complex multi-step reasoning, autonomous research, and full-stack software development, Fugu Ultra v2 sets our new benchmark for raw output quality. Where Fugu Ultra v2 separates from the field is on tasks requiring sustained reasoning over complex visual and structured data. It impressively tops SWEFish, demonstrating power in real-world coding challenges and use-cases. On Chartography, which tests visual reasoning and data interpretation, Fugu Ultra v2 scores 48.3, outperforming Opus 5 at 27.3 and Fable 5 at 29.5. On DeepSWE, a benchmark for real-world software engineering, it scores 74.3, outperforming models that cost three to five times more per token. Peak performance across hard benchmarks. Our flagship Fugu Ultra model continues to deliver a performance that is better or on-par with frontier models. Note: Fugu Ultra v2's training cutoff date is 20260828, Fable 5, Fable 5.1 and GPT-6-Astra are NOT in Fugu-Ultra v2's model pool. In summary, Fugu Ultra v2 - Performance: Achieves the best or joint-best score on five of eight benchmarks: GDP.pdf, Chartography, SWEFish, DeepSWE, and Toolathon. - Consistency: Places in the top 2 on seven of eight benchmarks, demonstrating strong performance across a broad range of agentic tasks. - Frontier: With a focus different from Fugu Max, Fugu Ultra pushes the Pareto frontier in the performance direction, providing a higher-capability option for workloads where quality is the priority. Crucially, Fugu Ultra v2 achieves these scores without Fable 5, Fable 5.1, or GPT-6-Astra in its agent pool. Fugu Ultra v2 does not rely on individual proprietary frontier models to deliver frontier output. By orchestrating a swappable pool of open and specialized models, it outperforms closed ecosystems while protecting users from vendor lock-in, API revocations, geopolitical turbulence, and sudden service cutoffs. Fugu Max expands the frontier to the northwest. Fugu Ultra v2 pushes it upward. Together, they prove that orchestration is not a trade-off between cost and capability. It is the architecture that optimizes both simultaneously. Both models are available today via our standard OpenAI-compatible API. If you are already running Fugu, upgrading to Max or Ultra v2 requires a single-line parameter change. No migration. New architecture, same API. To get started, visit our product page or console site. Orchestration for Everyone We believe the most capable AI will never come from a single monolithic model. It will come from intelligent, collective orchestration. With Fugu Max driving down the cost of intelligence and Fugu Ultra v2 pushing the boundaries of autonomous execution, Sakana Fugu provides the",
+          "title_zh": "Sakana AI Blog 发布研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI Blog，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier",
+              "source_url": "https://sakana.ai/fugu-max-release/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
+              "source_url": "https://sakana.ai/fugu-max-release/"
+            }
+          ],
+          "slug": "introducing-fugu-max-and-fugu-ultra-v2-orchestrating-the-pareto-frontier-265cc0ea",
+          "localized_url": "/zh/items/2026-09-12/introducing-fugu-max-and-fugu-ultra-v2-orchestrating-the-pareto-frontier-265cc0ea/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "It’s Time to Bring Some Sanity to the AI Risk Conversation",
+          "title_original": "It’s Time to Bring Some Sanity to the AI Risk Conversation",
+          "title_en": "It’s Time to Bring Some Sanity to the AI Risk Conversation",
+          "summary_zh": "Big Technology Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "AI will kill us all? It’s all just marketing? There has to be a better explanation. And there is.",
+          "source_name": "Big Technology Podcast",
+          "source_url": "https://www.bigtechnology.com/",
+          "original_url": "https://www.bigtechnology.com/p/its-time-to-bring-some-sanity-to",
+          "published_at": "Fri, 11 Sep 2026 20:00:36 GMT",
+          "fetched_at": "2026-09-12T00:20:57.767572+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "tech-media",
+            "ai",
+            "interview"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6d94ecb7b4a2",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Big Technology Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Big Technology Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：tech-media、ai、interview。"
+          ],
+          "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "It’s Time to Bring Some Sanity to the AI Risk Conversation",
+              "source_url": "https://www.bigtechnology.com/p/its-time-to-bring-some-sanity-to"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI will kill us all? It’s all just marketing? There has to be a better explanation. And there is.",
+              "source_url": "https://www.bigtechnology.com/p/its-time-to-bring-some-sanity-to"
+            }
+          ],
+          "slug": "its-time-to-bring-some-sanity-to-the-ai-risk-conversation-6d94ecb7",
+          "localized_url": "/zh/items/2026-09-12/its-time-to-bring-some-sanity-to-the-ai-risk-conversation-6d94ecb7/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Sandbox now provides 64 GB of storage",
+          "title_original": "Vercel Sandbox now provides 64 GB of storage",
+          "title_en": "Vercel Sandbox now provides 64 GB of storage",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Every Vercel Sandbox now includes 64 GB of storage, up from 32 GB. This includes sandboxes created from a Vercel Managed Image or custom image, as well as those configured with the deprecated runtime property. The additional space provides more room for large",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+          "published_at": "2026-09-11T06:00:00.000Z",
+          "fetched_at": "2026-09-12T00:20:57.767572+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a8941f9b7c25",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Sandbox now provides 64 GB of storage",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Every Vercel Sandbox now includes 64 GB of storage, up from 32 GB. This includes sandboxes created from a Vercel Managed Image or custom image, as well as those configured with the deprecated runtime property. The",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage"
+            }
+          ],
+          "slug": "vercel-sandbox-now-provides-64-gb-of-storage-a8941f9b",
+          "localized_url": "/zh/items/2026-09-12/vercel-sandbox-now-provides-64-gb-of-storage-a8941f9b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Featured's users make 100K media pitches per month on Vercel",
+          "title_original": "How Featured's users make 100K media pitches per month on Vercel",
+          "title_en": "How Featured's users make 100K media pitches per month on Vercel",
+          "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Featured on Vercel 3 engineers supporting 3 brands and 100,000+ users on Vercel Migrated 374 Sanity sites from AWS Elastic Beanstalk to Vercel AI SDK and AI Gateway power Featured's chat bot across 17 models Workflow SDK replaced custom long-running job",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/how-featureds-users-make-100k-media-pitches-per-month-on-vercel",
+          "published_at": "2026-09-11T04:00:00.000Z",
+          "fetched_at": "2026-09-12T00:20:57.767572+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "965b61b7ff86",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Featured's users make 100K media pitches per month on Vercel",
+              "source_url": "https://vercel.com/blog/how-featureds-users-make-100k-media-pitches-per-month-on-vercel"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Featured on Vercel 3 engineers supporting 3 brands and 100,000+ users on Vercel Migrated 374 Sanity sites from AWS Elastic Beanstalk to Vercel AI SDK and AI Gateway power Featured's chat bot across 17 models Workflow",
+              "source_url": "https://vercel.com/blog/how-featureds-users-make-100k-media-pitches-per-month-on-vercel"
+            }
+          ],
+          "slug": "how-featured-s-users-make-100k-media-pitches-per-month-on-vercel-965b61b7",
+          "localized_url": "/zh/items/2026-09-12/how-featured-s-users-make-100k-media-pitches-per-month-on-vercel-965b61b7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Control who can manage connectors in Vercel Connect",
+          "title_original": "Control who can manage connectors in Vercel Connect",
+          "title_en": "Control who can manage connectors in Vercel Connect",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Pro and Enterprise teams can now control who can create and manage Vercel Connect connectors. Connectors let applications and agents access external services using credentials managed by your team. Owners can enable this restriction under Connector",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect",
+          "published_at": "2026-09-11T00:00:00.000Z",
+          "fetched_at": "2026-09-12T00:20:57.767572+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3e6c19c66743",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Control who can manage connectors in Vercel Connect",
+              "source_url": "https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Pro and Enterprise teams can now control who can create and manage Vercel Connect connectors. Connectors let applications and agents access external services using credentials managed by your team. Owners can enable",
+              "source_url": "https://vercel.com/changelog/control-who-can-manage-connectors-in-vercel-connect"
+            }
+          ],
+          "slug": "control-who-can-manage-connectors-in-vercel-connect-3e6c19c6",
+          "localized_url": "/zh/items/2026-09-12/control-who-can-manage-connectors-in-vercel-connect-3e6c19c6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How we cut CDN metadata lookup latency by 91%",
+          "title_original": "How we cut CDN metadata lookup latency by 91%",
+          "title_en": "How we cut CDN metadata lookup latency by 91%",
+          "summary_zh": "Meta 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Every request to Vercel passes through our CDN , which executes on average over 80 million routing instructions per second. Part of that work is looking up metadata to determine which paths exist and how to serve them. When that metadata isn’t cached, the CDN",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/how-we-cut-cdn-metadata-lookup-latency-by-91-percent",
+          "published_at": "2026-09-10T00:00:00.000Z",
+          "fetched_at": "2026-09-12T00:20:57.767572+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bdbb4e88f636",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Meta 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Meta，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How we cut CDN metadata lookup latency by 91%",
+              "source_url": "https://vercel.com/blog/how-we-cut-cdn-metadata-lookup-latency-by-91-percent"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Every request to Vercel passes through our CDN , which executes on average over 80 million routing instructions per second. Part of that work is looking up metadata to determine which paths exist and how to serve them.",
+              "source_url": "https://vercel.com/blog/how-we-cut-cdn-metadata-lookup-latency-by-91-percent"
+            }
+          ],
+          "slug": "how-we-cut-cdn-metadata-lookup-latency-by-91-bdbb4e88",
+          "localized_url": "/zh/items/2026-09-12/how-we-cut-cdn-metadata-lookup-latency-by-91-bdbb4e88/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-11",
       "title_zh": "AI 新闻简报 · 2026-09-11",
