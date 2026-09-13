@@ -1,7 +1,303 @@
 {
-  "updated_at": "2026-09-12T00:21:00.256357+00:00",
-  "count": 87,
+  "updated_at": "2026-09-13T00:01:48.438117+00:00",
+  "count": 88,
   "briefs": [
+    {
+      "date": "2026-09-13",
+      "title_zh": "AI 新闻简报 · 2026-09-13",
+      "title_en": "English AI News Brief · 2026-09-13",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 150 条，跨期排除历史已展示 146 条，入选 4 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 150 candidates, 146 previously displayed items excluded, and 4 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 150,
+      "skipped_history_count": 146,
+      "selected_count": 4,
+      "categories": [
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "🧠 Community Wisdom: AI basketball coaching, Jira vs. Linear, building a business case for platform teams, favorite AI use cases, and more",
+          "title_original": "🧠 Community Wisdom: AI basketball coaching, Jira vs. Linear, building a business case for platform teams, favorite AI use cases, and more",
+          "title_en": "🧠 Community Wisdom: AI basketball coaching, Jira vs. Linear, building a business case for platform teams, favorite AI use cases, and more",
+          "summary_zh": "Community Wisdom 298",
+          "summary_en": "Community Wisdom 298",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
+          "published_at": "Sat, 12 Sep 2026 17:45:34 GMT",
+          "fetched_at": "2026-09-13T00:01:47.470938+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8803589aab50",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🧠 Community Wisdom: AI basketball coaching, Jira vs. Linear, building a business case for platform teams, favorite AI use cases, and more",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Community Wisdom 298",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching"
+            }
+          ],
+          "slug": "community-wisdom-ai-basketball-coaching-jira-vs-linear-building-a-busine-8803589a",
+          "localized_url": "/zh/items/2026-09-13/community-wisdom-ai-basketball-coaching-jira-vs-linear-building-a-busine-8803589a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
+          "title_original": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
+          "title_en": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline — a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
+          "published_at": "Sat, 12 Sep 2026 15:01:19 GMT",
+          "fetched_at": "2026-09-13T00:01:47.470938+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "46af3aa4b297",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
+              "source_url": "https://www.latent.space/p/forward-deployed-engineer-best-practices"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline — a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs.",
+              "source_url": "https://www.latent.space/p/forward-deployed-engineer-best-practices"
+            }
+          ],
+          "slug": "the-rise-of-the-forward-deployed-engineer-and-how-to-do-the-job-right-46af3aa4",
+          "localized_url": "/zh/items/2026-09-13/the-rise-of-the-forward-deployed-engineer-and-how-to-do-the-job-right-46af3aa4/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
+          "title_original": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
+          "title_en": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "We agree with Sebastian: this should have been DeepSeek v5",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
+          "published_at": "Sat, 12 Sep 2026 05:56:05 GMT",
+          "fetched_at": "2026-09-13T00:01:47.470938+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "11def78beae1",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
+              "source_url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We agree with Sebastian: this should have been DeepSeek v5",
+              "source_url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b"
+            }
+          ],
+          "slug": "ainews-deepseek-v4-1-flash-763b-p8b-d16b-novel-causal-encoderdecoder-arc-11def78b",
+          "localized_url": "/zh/items/2026-09-13/ainews-deepseek-v4-1-flash-763b-p8b-d16b-novel-causal-encoderdecoder-arc-11def78b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "英国王立協会特集号に見る、世界モデルの最前線とAIの未来",
+          "title_original": "英国王立協会特集号に見る、世界モデルの最前線とAIの未来",
+          "title_en": "英国王立協会特集号に見る、世界モデルの最前線とAIの未来",
+          "summary_zh": "Sakana AI Blog 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/world-models-royal-society-issue/",
+          "published_at": "2026-09-12T00:00:00+09:00",
+          "fetched_at": "2026-09-13T00:01:47.470938+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bf589aaaef9d",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "英国王立協会特集号に見る、世界モデルの最前線とAIの未来",
+          "extracted_text_for_analysis": "近年のAIの急速な発展により、AGI、すなわち人間並みの知能はすでに実現したという意見も聞かれるようになりました。果たしてそうなのでしょうか。 鍵となるのが「世界モデル（World Model）」の概念です。 世界モデルとは、生き物やAIが外の世界を内部に写し取り、次に何が起きるかを予測して行動するための土台となるものです。1665年創刊、世界最古の科学誌として知られる英国王立協会の『Philosophical Transactions of the Royal Society A』にて、この世界モデルをテーマにした特集号「World Models in Natural and Artificial Intelligence」が公開されています。 AI・生物学・哲学の第一線の研究者が寄稿しており、Sakana AI CEOのDavid Haも巻頭記事の共著者として参加しています。本特集を貫く3つのポイントをご紹介します。 ・「できること」と「わかっていること」は違う 現在の大規模なAIモデルは驚くほど多くのことができますが、それは言葉の並び方のパターンを覚えた結果であって、物事の因果を理解しているとは限りません。計算資源を増やすだけでは、この差は埋まらないという論者がいます。 ・自分自身を知るAI AIが自分の内部の状態を予測するように学習すると、内部の表現が整理され、無駄が減ることが示されています。ロボットなど身体を持つAIにとって、自分の状態を把握する力は、状況に応じて動きを変えるための土台になります。 ・AIの難問は、生命の難問につながる 世界モデルは、環境中の自分自身を捉えるためのものでもあります。生き物は与えられた情報をただ受け取るのではなく、自ら環境に働きかけて世界を学ぶ。これからのAIはますます人工生命（ALife）の研究に接近していくかもしれません。 「言葉を扱えること」と「世界を理解していること」の間には、まだまだ隔たりがあります。Sakana AIも、RSI Labでの世界モデル・Physical AIの研究を通じて、このテーマに取り組んでいきます。 特集号はこちら：https://royalsocietypublishing.org/rsta/issue/384/2320 AIの難問は、生命の難問へ：英国王立協会が紐解く「世界モデル」と知能の未来",
+          "title_zh": "Sakana AI Blog 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI Blog，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "英国王立協会特集号に見る、世界モデルの最前線とAIの未来",
+              "source_url": "https://sakana.ai/world-models-royal-society-issue/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/world-models-royal-society-issue/"
+            }
+          ],
+          "slug": "ai-7747c22b",
+          "localized_url": "/zh/items/2026-09-13/ai-7747c22b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-12",
       "title_zh": "AI 新闻简报 · 2026-09-12",
