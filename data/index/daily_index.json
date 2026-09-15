@@ -1,7 +1,589 @@
 {
-  "updated_at": "2026-09-13T00:01:48.438117+00:00",
-  "count": 88,
+  "updated_at": "2026-09-15T00:41:14.507738+00:00",
+  "count": 89,
   "briefs": [
+    {
+      "date": "2026-09-15",
+      "title_zh": "AI 新闻简报 · 2026-09-15",
+      "title_en": "English AI News Brief · 2026-09-15",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 150 条，跨期排除历史已展示 141 条，入选 8 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 150 candidates, 141 previously displayed items excluded, and 8 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 150,
+      "skipped_history_count": 141,
+      "selected_count": 8,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "How Fyxer built an AI executive assistant people trust",
+          "title_original": "How Fyxer built an AI executive assistant people trust",
+          "title_en": "How Fyxer built an AI executive assistant people trust",
+          "summary_zh": "OpenAI 更新了实时语音交互模型能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/fyxer",
+          "published_at": "Mon, 14 Sep 2026 12:00:00 GMT",
+          "fetched_at": "2026-09-15T00:41:13.307650+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "296d33defd03",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How Fyxer built an AI executive assistant people trust",
+          "extracted_excerpt": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+          "extracted_text_for_analysis": "90% User retention after 90 days 53% Of AI-generated drafts accepted as written For many professionals, work means keeping track of conversations and commitments across inboxes, meetings, messages, and apps. Without rock-solid context, those commitments can fall through the cracks, damaging projects and relationships. Fyxer built an AI executive assistant that follows the thread as work moves across tools. It combines the latest OpenAI models with more than 500,000 hours of executive assistant workflows, dividing the work among dozens of specialized models that improve through real user feedback. Email is one of the clearest places to see it in action. Two people can receive the same email and need completely different replies depending on the relationship, what has happened before, and what each person is trying to get done. That makes a seemingly simple task deceptively hard for AI. “There’s something called Moravec’s paradox,” explains Fyxer Co-founder Archie Hollingsworth. “Things that humans find easy are hard for computers, and things that computers find easy are hard for humans.” Fyxer handles that complexity by learning how each user works, so it can respond like an assistant who already knows what matters. Frontier OpenAI models support key parts of the experience, from understanding the email and finding the right context to generating the draft. Fyxer chose OpenAI because its models performed best on Fyxer’s internal benchmarks, offered strong fine-tuning capabilities for subjective tasks like tone and intent, and provided hands-on engineering support through whiteboarding sessions and technical collaboration. “We chose OpenAI because they have the best models, and they’ve given us real access and a close working relationship. I can drop a question in Slack and get an answer quickly, and when we face a problem, the team comes to our office and works through it with us. They show up.” Fyxer’s approach offers three lessons for founders building highly contextual AI products: Fyxer built its system around 30–50 specialized models, each responsible for a narrow part of the email workflow. Instead of treating email as a single text-generation task, Fyxer breaks the problem into a system of predictions, like deciding whether a message requires a reply or drafting responses that match a user’s tone and context. “Breaking the problem into many smaller models works much better than asking one model to write a good email,” Hollingsworth explains. When a new email arrives, a reply decision model classifies the message: is this something that needs a response, a scheduling action, or simply information the user should see? If a response is needed, additional models analyze the intent of the email and predict the likely outcome of the interaction. These models determine patterns such as whether the conversation is moving toward scheduling a meeting, resolving a request, or continuing a longer relationship thread. Memory is one of the most important parts of the system. Fyxer needs to decide which details should persist across conversations and which should disappear after a single exchange. When a new email arrives, retrieval models compare it with stored interactions and surface the memories most relevant to that person and thread. OpenAI models power steps across Fyxer’s system. “We use OpenAI models for everything from digesting the email, so we can understand what it is actually about, to pulling in and re-ranking the context we want to include, to the actual email generation,” Shantsila says. Before launching its AI product, Fyxer spent years operating a human-powered executive assistant service. Over time, the team accumulated a dataset built from more than 500,000 hours of annotated executive workflows, capturing how real assistants manage professional communication. Those examples gave Fyxer training data drawn from the job itself. They captured the small judgments behind a good response: when to answer quickly, when to wait, which earlier conversation matters, and how the same request can call for a different response from one person to another. Fyxer uses supervised fine-tuning and Low-Rank Adaptation (LoRA) across its broader system to create task-specific model variants while controlling training cost. Early in the product’s development, the team used OpenAI’s fine-tuning platform for tasks that needed high accuracy. More recently, Fyxer worked with OpenAI’s managed fine-tuning team to put a new checkpoint into production. “OpenAI has been pivotal for us in helping us transfer the learning that we have about our customer and successfully incorporate it into how the models work.” Before any model is deployed, Fyxer evaluates it on validation sets built around its own email tasks, including drafting, classification, and prioritization. The team weighs accuracy alongside response time and cost, since the best choice can vary by job. Once deployed, Fyxer’s system continues improving through real user feedback. When someone edits a draft before sending it, the difference between the original and final email shows which output they preferred. Fyxer converts those comparisons into training data using Direct Preference Optimization (DPO). Instead of manually labeling every example, the model learns from pairs of outputs: the original draft and the user-edited version. Every drafting change then goes through an A/B test. Fyxer ships the new version only when it produces a statistically significant improvement. Its user volume means the team can sometimes reach that threshold within a day. Today, 53% of Fyxer’s AI-generated drafts are accepted as written. That means the system is correctly predicting intent and tone for a large share of real conversations. In 2025 alone, Fyxer grew from $1 million to $32 million in annual recurring revenue. For Hollingsworth, the stronger signal is retention. Many Fyxer customers are not deeply technical, and for some, Fyxer is the first AI system they use every day. “Everyone talks about ARR, but I think retention is the real flex. Over 90% of our users are still paying at the 90-day mark with us, and still using us every day.” Looking ahead, Fyxer is building a richer understanding of relationships, preferences, and ongoing work threads. Their assistant continues to evolve beyond drafting replies toward a broader AI assistant that can manage more of a user’s communication and coordination workload. “Our vision is to get our customers doing as much of the work they absolutely love,” Hollingsworth says. “We want to get them to a place where they never have to open their computer and can trust Fyxer to manage all of that.”",
+          "title_zh": "OpenAI 推进实时语音交互模型能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Fyxer built an AI executive assistant people trust",
+              "source_url": "https://openai.com/index/fyxer"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+              "source_url": "https://openai.com/index/fyxer"
+            }
+          ],
+          "slug": "how-fyxer-built-an-ai-executive-assistant-people-trust-296d33de",
+          "localized_url": "/zh/items/2026-09-15/how-fyxer-built-an-ai-executive-assistant-people-trust-296d33de/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🎙️ How I AI: How two SpaceXAI designers use Grok Bot to do their jobs",
+          "title_original": "🎙️ How I AI: How two SpaceXAI designers use Grok Bot to do their jobs",
+          "title_en": "🎙️ How I AI: How two SpaceXAI designers use Grok Bot to do their jobs",
+          "summary_zh": "Grok 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-two-spacexai-designers",
+          "published_at": "Mon, 14 Sep 2026 15:03:48 GMT",
+          "fetched_at": "2026-09-15T00:41:13.307650+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "xAI"
+          ],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3c659e3145a7",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Grok 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Grok，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。",
+            "涉及公司或机构：xAI。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🎙️ How I AI: How two SpaceXAI designers use Grok Bot to do their jobs",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-two-spacexai-designers"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-two-spacexai-designers"
+            }
+          ],
+          "slug": "how-i-ai-how-two-spacexai-designers-use-grok-bot-to-do-their-jobs-3c659e31",
+          "localized_url": "/zh/items/2026-09-15/how-i-ai-how-two-spacexai-designers-use-grok-bot-to-do-their-jobs-3c659e31/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng",
+          "title_original": "How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng",
+          "title_en": "How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng",
+          "summary_zh": "Grok 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "xAI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-grok-bot-designers-use-ai-agents",
+          "published_at": "Mon, 14 Sep 2026 12:04:39 GMT",
+          "fetched_at": "2026-09-15T00:41:13.307650+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "xAI"
+          ],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "342cc9381b25",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Grok 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Grok，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。",
+            "涉及公司或机构：xAI。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng",
+              "source_url": "https://www.lennysnewsletter.com/p/how-grok-bot-designers-use-ai-agents"
+            },
+            {
+              "label": "公开摘要",
+              "text": "xAI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/how-grok-bot-designers-use-ai-agents"
+            }
+          ],
+          "slug": "how-grok-bot-designers-use-ai-agents-to-build-personal-sites-and-product-342cc938",
+          "localized_url": "/zh/items/2026-09-15/how-grok-bot-designers-use-ai-agents-to-build-personal-sites-and-product-342cc938/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Inside Sakana AI’s Product Team",
+          "title_original": "Inside Sakana AI’s Product Team",
+          "title_en": "Inside Sakana AI’s Product Team",
+          "summary_zh": "Sakana AI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/inside-product-team/",
+          "published_at": "2026-09-17T00:00:00+09:00",
+          "fetched_at": "2026-09-15T00:41:13.307650+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Sakana AI"
+          ],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "27c76ed88a7c",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "Inside Sakana AI's Product Team",
+          "extracted_text_for_analysis": "Switch to the Japanese section - 日本語版はこちら Sakana AI’s Product Team turns the technology created by our research teams into products and delivers them to the world. Many of the questions we hear from candidates in casual interviews and throughout the hiring process turn out to be the same ones. In this article, we’ve gathered the Product Team’s culture and our answers to those frequently asked questions, based on interviews with team members. Members who contributed to this article - Sota Omura (Head of Product) - Masaya Ohagi (Applied Research Engineer) - Seiya Kokushi (Software Engineer) - Masahisa Saito (Designer) The Product Team in Numbers First, let’s look at the Product Team through data. Below is a breakdown of the team as of September 2026. The team brings together a range of roles, including product managers, engineers, designers, and sales, and a range of nationalities. How We Work Do I need to come into the office? Can I work remotely? As a team, we encourage face-to-face communication, but how often people come in varies. Some members are in the office nearly five days a week, and there is considerable flexibility in working hours. For example, some members arrive between 11:00 and 12:00, or leave around 17:00. There are no fixed core hours; 10:00–19:00 is the standard workday. Rather than imposing a single way of working, we expect people to take the initiative themselves. As long as you stay productive, you’re free to work how you like. That said, the team operates primarily on-site, so if you work remotely, you’re expected to close any information gaps on your own. How many meetings are there? As the team has grown, the all-hands Product Team meeting now happens about once a month. Beyond that, each team sets its own cadence: some run a short daily sync (Sakana Chat / Translate), while others hold a weekly retrospective (Sakana Marlin). There is a separate regular meeting where each product reports its KPIs and progress to a group that includes Sota, our Head of Product, and there are also sessions to discuss product direction directly with David, our CEO. Is internal communication in Japanese or English? On teams with English speakers, English is encouraged for both documentation and spoken communication. That said, Japanese speakers are not required to speak English with one another. What matters is that communication across the team as a whole runs smoothly. Slack, Claude Code, Codex, Figma, Confluence, Google Workspace, Jira, Devin, GitHub, Typeless, Adobe Creative Cloud, among others. Given the nature of the Product Team, we actively encourage trying out new products, and it’s easy to bring in the tools you want to use. Autonomy and Roles How much autonomy do I get? This is the question engineers ask most often. The short answer: a lot. That said, the broad direction is set at the company, team, and product levels, and we don’t expect anyone to unilaterally go off in a different direction. Communicating with the people around you and getting alignment before moving forward is essential. As a concrete example, one of our Applied Research Engineers (AREs) has taken on something like a PM role for the API Platform based on their own interests. The scope of work you’re trusted with is broad, and your opinions carry weight. The same goes for Software Engineers (SWEs). Beyond designing and building everything from infrastructure to application code, SWEs handle whatever software development requires: monitoring, QA, testing, data governance, security, and communication with stakeholders. Because we have relatively few SWEs for the number of products we run, the environment may suit someone who works broadly across the full stack better than someone who wants to specialize deeply in a single area. What’s the difference between an ARE and a SWE? AREs build out the core technical components of a product; SWEs build the system around them. SWEs focus on laying the foundations for agent systems and on the broader software infrastructure. The boundary isn’t rigid, though. The two roles give each other feedback as they work, and the division of responsibilities shifts flexibly with team needs and individual preferences. How do AREs on the Product Team differ from AREs on the Applied Team? For AREs on the Applied Team, what matters is building agent systems tailored to a specific customer’s requirements. AREs on the Product Team, by contrast, build products for a broad user base, so they place more emphasis on generality when benchmarking and developing AI technology. Product Team AREs also tend to work more closely with the Research Team. How do you work with the Research Team and the Applied Team? The basic flow is that the Research Team creates the technology behind our products, and the Product Team connects it to business use cases. But responsibilities aren’t strictly separated: the Product Team sometimes customizes the technology, and the Research Team sometimes works directly on products. We collaborate with the Applied Team when a Product Team product looks likely to help solve a customer’s problem. The setup we’re aiming for is one where the Product Team builds general-purpose products, and the Applied Team customizes them further to deliver distinctive value to each client. A Day in the Life Here’s what a typical day looks like for an ARE. Culture and Team Atmosphere What kinds of backgrounds do people have? Most AREs used to come from research-oriented backgrounds, such as corporate R&D, but that’s less true recently. If there’s one thing most AREs have in common, it’s a background in computer science. For other roles, many members joined from companies that build products, such as SaaS companies. Many members also simply love making things. Outside of work, you’ll find people designing their own caps, T-shirts, and stickers featuring our product logos. These are people who enjoy building something with their own hands. The makeup of the team is changing, too. We’ve recently welcomed more members from outside Japan, and the team has become more diverse. We also plan to add sales and marketing roles going forward. What’s the team atmosphere like? With many members in the office, casual conversations happen naturally. Team lunches are frequent but never mandatory. Every so often, there’s even a volleyball tournament. The Hiring Process What do you look for in the technical problem set? Applied Research Engineer In the ARE assignment, we look beyond whether you can solve the problem. We want to see whether you understand the strengths and weaknesses of each technique and can explain them in your own words. Product development means making decisions every day amid a tangle of constraints (accuracy, latency, cost, UI/UX), so the ability to judge quickly and well is essential. We also check whether you can design an appropriate evaluation for the task. Measuring any capability is inherently hard, and building convincing benchmarks that speed up the",
+          "title_zh": "Sakana AI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Sakana AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Sakana AI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。",
+            "涉及公司或机构：Sakana AI。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Inside Sakana AI’s Product Team",
+              "source_url": "https://sakana.ai/inside-product-team/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/inside-product-team/"
+            }
+          ],
+          "slug": "inside-sakana-ais-product-team-5154a8a2",
+          "localized_url": "/zh/items/2026-09-15/inside-sakana-ais-product-team-5154a8a2/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+          "title_original": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+          "title_en": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks.",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+          "published_at": "Mon, 14 Sep 2026 15:00:52 +0000",
+          "fetched_at": "2026-09-15T00:41:13.307650+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA",
+            "Perplexity"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f447d8cbcd59",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+          "extracted_excerpt": "Perplexity Portable Computer is now available on Windows, powered by NVIDIA RTX GPUs. Run local AI agent workflows without cloud credits.",
+          "extracted_text_for_analysis": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information across files and handle recurring work. Sensitive information stays on device, and locally completed work doesn’t consume Perplexity Computer credits. Users can also orchestrate work up to cloud models for more advanced research and reasoning. Today, Perplexity is adding Portable Computer in the Perplexity app for Windows on compatible NVIDIA GeForce RTX PCs and NVIDIA RTX PRO Workstations, bringing powerful agentic AI to more Windows PC users. The release builds on existing support for NVIDIA DGX Spark systems and RTX PCs running Linux. Local Agents Powered by NVIDIA RTX Perplexity brings local and cloud AI together in one app, letting users work with sensitive files on their PCs and take advantage of Computer’s built-in tools such as the built-in browser and proprietary SPACE sandbox. For tasks that call for more advanced reasoning, Portable Computer can also identify when a task needs cloud support, asking the user for permission before sending information off-device. The app simplifies setup with a local model, such as Qwen 3.8 27B, that is post-trained to work with Perplexity Computer and optimized for NVIDIA RTX GPUs. Users can put the agent to work without having to research models or configure the complex software stack typically required to run local AI. Connectors for Microsoft Outlook, OneDrive, Word, Google Drive, Gmail, Slack and GitHub extend that experience across the files and apps already part of users’ daily workflows. For example, the agent can help with: - Engineering: Review open pull requests in a connected GitHub project, organize them by status and identify next steps. Computer can also flag outdated documentation and submit proposed updates for review. - Finance: Point Computer at two years of brokerage summaries, consolidated 1099s and tax returns, and have it trace the recurring holdings creating the most avoidable fees and tax drag, with every figure cited to the exact file and page — all without a document ever reaching a chatbot. - Startups: Ask Computer why activation went flat, and the agent analyzes the funnel export locally to find where new signups drop off between install and first completed task, then posts the top insights straight to the team’s Slack channel. Try Portable Computer on Windows PCs Today Portable Computer is available for NVIDIA GeForce RTX and RTX PRO GPUs with 24GB or more of VRAM. NVIDIA DGX Station support is expected to come soon. Try Perplexity Portable Computer today. #ICYMI: The Latest Updates From NVIDIA Local AI 🧠Z.ai’s GLM 5.3 Flash provides impressive performance and visual intelligence at low cost, optimized for DGX Station and dual DGX Spark systems. 🐋DeepSeek-v4.1 Flash significantly reduces key-value cache memory demands and operating costs for complex AI agent workloads, delivering remarkable intelligence per dollar. ⚡Qwen has released Qwen3.8-Flash-Next, an open-weight multimodal mixture-of-experts model, and an early preview of Qwen4, which can run locally on a single DGX Spark with NVFP4 and punches well above its weight. 👾GLM 5.3 is Z.ai’s 744-billion-parameter flagship model, tuned for agent sessions that run for hours on DGX Station and a cluster of four DGX Spark systems. Follow NVIDIA RTX Spark on X, Instagram, TikTok and Facebook — and stay informed by subscribing to the NVIDIA Local AI newsletter. Follow NVIDIA Workstation on LinkedIn and X. See notice regarding software product information.",
+          "title_zh": "NVIDIA 发布AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA、Perplexity。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+              "source_url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans",
+              "source_url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"
+            }
+          ],
+          "slug": "perplexity-portable-computer-is-now-available-on-windows-powered-by-nvid-1a974e56",
+          "localized_url": "/zh/items/2026-09-15/perplexity-portable-computer-is-now-available-on-windows-powered-by-nvid-1a974e56/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+          "title_original": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+          "title_en": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+          "published_at": "Thu, 10 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-15T00:41:13.307650+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d4e55a9164f4",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+          "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "extracted_text_for_analysis": "TL;DR AsyncGRPOTrainer can now train a LoRA adapter and sync only that adapter to vLLM (TRL v1.14).- A rank-1 adapter is a few megabytes, so it can travel through a Storage Bucket mounted in every Job instead of over NCCL. The trainer and the vLLM replicas run as separate Hugging Face Jobs on separate machines. - A small proxy in front of the replicas adds the auth header, routes each rollout to the replica that already holds its KV prefix, and broadcasts adapter loads to every replica. - The AsyncGRPO metrics show where the bottleneck sits. Five runs take the same recipe from 3 h 27 min to 53 min for 500 steps. LoRA support recently landed in TRL's AsyncGRPOTrainer with PR #7017, and ships with TRL v1.14. The asynchronous trainer can now train an adapter instead of the full model, and it syncs only the LoRA adapter to vLLM. This post covers a real-world project built on top of it, where training and inference no longer share a machine. LoRA training is particularly suited for RL, as shown in Thinking Machines's blog LoRA Without Regret. They show that LoRA can match full fine-tuning for policy-gradient RL, even with rank 1. This stems from the fact that the advantage function only gives ~O(1) bits of information per episode, so there is not that much to learn from each step, from a total-bits-of-information point of view. A rank-1 adapter has enough capacity to absorb it. There is also a systems consequence of LoRA training. A rank-1 adapter for a 1.5B model is a few megabytes, while the full model is around 3 GB. Instead of sending the full policy to the inference workers after every update, we can just send the adapter. vLLM can also keep several adapters loaded at once. Old rollouts finish with the policy they started with, while new rollouts use the latest one. TRL's AsyncGRPOTrainer already separates training and generation. The trainer and vLLM can run on different machines and at their own speed. This is easy in a single-node or cluster setting where both processes share a filesystem or can form an NCCL group. What we want is to run the same setup with Hugging Face Jobs. Essentially, an HF Job is one container running on one VM. This means that one Job cannot spawn multiple nodes (at least for now) to hold a trainer and a fleet of vLLM servers (we are limited to 8xH200 at most per node). The AsyncGRPOTrainer is built for exactly that kind of scale, so the question became: how far can we get if we drop the requirement that the trainer and the inference servers share a node? Well, with a full-weight sync, the answer would be \"not far\". Every update would have to move gigabytes between machines, which is what NCCL is for in a dense cluster, but Jobs can't communicate across nodes. There is no shared local disk and obviously no shared localhost. With LoRA, a sync is only a few megabytes. For the filesystem part, HF Jobs provide volumes backed by Storage Buckets! These buckets can then be mounted as a FUSE filesystem in every Job and are enough to work as a shared FS between nodes. No network path between the Jobs is needed at all. The setup ended up being quite small: - a trainer Job running AsyncGRPOTrainer with LoRA (and FSDP, more on that later), - two vLLM Jobs, each serving the base model plus whatever adapter the trainer last published, - a Storage Bucket mounted in all three at the same path, which is how the adapter gets from the trainer to the servers, - a proxy server. We'll dive deeper into why we need one, but at a high level we need a proxy that routes each rollout to the replica most likely to hold its KV cache, and broadcasts every adapter update to all vLLM replicas. The new adapter-only sync path in AsyncGRPOTrainer works like this. The trainer does not send tensors to vLLM. Every few optimizer steps, it saves the adapter under /.vllm_lora/trl-policy-v{N}, publishes the directory with an atomic rename, then sends its path to vLLM's /v1/load_lora_adapter endpoint. vLLM loads the files from disk, so the rollout worker can then request model=\"trl-policy-v{N}\". This is how runtime adapter loading already works in vLLM. The endpoint takes a path, not tensors, so the trainer and the server are expected to share a filesystem. On a Slurm cluster, that is the network filesystem. On Jobs, we get the same thing by mounting a Storage Bucket as a volume at the same path in every Job, as we mentioned earlier. Under the hood, it uses hf-mount, which exposes the bucket as a POSIX filesystem inside the container: # every Job gets the same bucket at the same absolute path hf jobs run ... -v hf://buckets/aminediroHF/asyncgrpo-lora-buckets:/lora ... Nothing in TRL or vLLM had to change for this. The trainer writes to /lora/ /.vllm_lora/ and the servers read from the same path. The path sent in the POST request is already valid inside every container. Note that we also store the checkpoints and the final adapter in the bucket. The HF Jobs are ephemeral, but a preempted trainer can resume training, as the final adapter is always persisted to the bucket and is never lost when the Job stops. Each replica uses one GPU and the stock vllm/vllm-openai image. We only need to enable runtime LoRA loading and reserve enough adapter slots. The number of adapter slots follows from max_staleness. In AsyncGRPOTrainer, every weight sync bumps the policy version by one, and max_staleness is how many versions a rollout sample may lag behind the current policy before the trainer discards it. With max_staleness=4, a sample generated under trl-policy-v3 is still used for training while the trainer is at v7. A rollout that started under v3 must also be able to finish under v3. So at any moment, vLLM has to serve the current policy plus the four before it. That is why the trainer keeps max_staleness + 1 adapter versions registered and unloads anything older. Each sync loads the new version before it unloads the oldest one, which needs one more slot during the swap. That gives --max-loras 6. With only five, vLLM would silently evict a policy that still has rollouts in flight at every sync. # --expose 8000 reachable at https:// --8000.hf.jobs # -v ...:/lora:ro read-only: the server only reads adapters # VLLM_ALLOW_RUNTIME_LORA_UPDATING=1 enables /v1/load_lora_adapter # VLLM_SERVER_DEV_MODE=1 enables /pause, /resume, /server_info (TRL needs all three) # --max-loras 6 max_staleness=4 -> 4+2 adapter slots for replica in 1 2; do hf jobs run --detach --flavor h200 --timeout 8h --secrets HF_TOKEN \\ --expose 8000 \\ -v \"hf://buckets/${BUCKET}:/lora:ro\" \\ -e VLLM_ALLOW_RUNTIME_LORA_UPDATING=1 \\ -e VLLM_SERVER_DEV_MODE=1 \\ -- vllm/vllm-openai:v0.27.1 \\ vllm serve Qwen/Qwen2.5-Math-1.5B --host 0.0.0.0 --port 8000 \\ --max-model-len 4096 --logprobs-mode processed_logprobs --generation-config vllm \\ --enable-lora --max-lora-rank 1 --max-loras 6 done We pin vLLM to v0.27.1. vLLM moves fast, and the flags above and the runtime LoRA endpoints are the ones that version exposes, so treat the version as part of",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+              "source_url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs"
+            }
+          ],
+          "slug": "async-grpo-with-lora-across-hf-jobs-a-bucket-a-proxy-and-no-nccl-d4e55a91",
+          "localized_url": "/zh/items/2026-09-15/async-grpo-with-lora-across-hf-jobs-a-bucket-a-proxy-and-no-nccl-d4e55a91/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Humanity’s Last Invention — Richard Socher of Recursive",
+          "title_original": "Humanity’s Last Invention — Richard Socher of Recursive",
+          "title_en": "Humanity’s Last Invention — Richard Socher of Recursive",
+          "summary_zh": "Richard Socher 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Richard Socher is an NLP OG and CEO of You.com, who has now spun out an even more ambitious startup focused on RSI — already worth $5B!",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/recursive",
+          "published_at": "Mon, 14 Sep 2026 16:04:16 GMT",
+          "fetched_at": "2026-09-15T00:41:13.307650+00:00",
+          "category": "podcasts-interviews",
+          "people": [
+            "Richard Socher"
+          ],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0f1f17c81528",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Richard Socher 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Richard Socher，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Humanity’s Last Invention — Richard Socher of Recursive",
+              "source_url": "https://www.latent.space/p/recursive"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Richard Socher is an NLP OG and CEO of You.com, who has now spun out an even more ambitious startup focused on RSI — already worth $5B!",
+              "source_url": "https://www.latent.space/p/recursive"
+            }
+          ],
+          "slug": "humanitys-last-invention-richard-socher-of-recursive-0f1f17c8",
+          "localized_url": "/zh/items/2026-09-15/humanitys-last-invention-richard-socher-of-recursive-0f1f17c8/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI SDK harness layer now supports native subscription authentication",
+          "title_original": "AI SDK harness layer now supports native subscription authentication",
+          "title_en": "AI SDK harness layer now supports native subscription authentication",
+          "summary_zh": "Vercel AI 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "The AI SDK harness layer now supports authenticating harnesses through their native subscriptions, where the underlying harness supports them. The harness layer runs different coding agents through the same HarnessAgent interface, so you can switch agents",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ai-sdk-harness-native-subscription-authentication",
+          "published_at": "2026-09-14T21:28:00.000Z",
+          "fetched_at": "2026-09-15T00:41:13.307650+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "478b2e531001",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "AI SDK harness layer now supports native subscription authentication - Vercel",
+          "extracted_excerpt": "The AI SDK harness layer can now authenticate harnesses through their native subscriptions where supported, with credentials kept at the host boundary.",
+          "extracted_text_for_analysis": "The AI SDK harness layer now supports authenticating harnesses through their native subscriptions, where the underlying harness supports them. The harness layer runs different coding agents through the same HarnessAgent interface, so you can switch agents without changing your application code. No code changes or new settings are required. The direct authentication mode uses explicit provider environment credentials when they are present, and otherwise a native subscription found on the host. The default auto mode does the same when no AI Gateway credentials are set. The ai-gateway mode never reads native subscriptions. Native subscription credentials stay on the host. Just like with API keys, credentials are resolved at the host boundary. OAuth access tokens are refreshed there as needed. Where the sandbox supports it, the harness receives placeholder credentials and the real token is injected into outbound requests on the host. Native subscriptions work across harness adapters wherever the harness itself supports subscription login. These include Claude Code, Cline, Codex, Cursor, fx, GitHub Copilot, Grok Build, OpenCode, and Pi. Read the harness documentation to learn more.",
+          "title_zh": "Vercel AI 更新代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI SDK harness layer now supports native subscription authentication",
+              "source_url": "https://vercel.com/changelog/ai-sdk-harness-native-subscription-authentication"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The AI SDK harness layer now supports authenticating harnesses through their native subscriptions, where the underlying harness supports them. The harness layer runs different coding agents through the same HarnessAgent",
+              "source_url": "https://vercel.com/changelog/ai-sdk-harness-native-subscription-authentication"
+            }
+          ],
+          "slug": "ai-sdk-harness-layer-now-supports-native-subscription-authentication-478b2e53",
+          "localized_url": "/zh/items/2026-09-15/ai-sdk-harness-layer-now-supports-native-subscription-authentication-478b2e53/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-13",
       "title_zh": "AI 新闻简报 · 2026-09-13",
