@@ -1,7 +1,904 @@
 {
-  "updated_at": "2026-09-15T00:41:14.507738+00:00",
-  "count": 89,
+  "updated_at": "2026-09-16T00:25:25.993361+00:00",
+  "count": 90,
   "briefs": [
+    {
+      "date": "2026-09-16",
+      "title_zh": "AI 新闻简报 · 2026-09-16",
+      "title_en": "English AI News Brief · 2026-09-16",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 150 条，跨期排除历史已展示 132 条，入选 13 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 150 candidates, 132 previously displayed items excluded, and 13 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 150,
+      "skipped_history_count": 132,
+      "selected_count": 13,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+          "title_original": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+          "title_en": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+          "published_at": "Tue, 15 Sep 2026 22:24:34 +0000",
+          "fetched_at": "2026-09-16T00:25:24.043172+00:00",
+          "category": "podcasts-interviews",
+          "people": [
+            "Jensen Huang"
+          ],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 66.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a96e34c67a54",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+          "extracted_excerpt": "At Dreamforce, Salesforce and NVIDIA announced Koa, a CRM reasoning model for Agentforce, post-trained from Nemotron on 27 years of Salesforce CRM intelligence — and running entirely within Salesforce’s own infrastructure.",
+          "extracted_text_for_analysis": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into the crowd — threading through the audience at Moscone Center, mic in hand, with Benioff alongside. “We’re all following you, bro,” Benioff told Huang at one point, drawing applause. “With electricity, we could power everything,” Huang said, tracing the arc of industrial revolutions. “With the internet, you can find anything. And now, with artificial intelligence as an infrastructure layer across the planet, we can know everything and do anything.” That arc led directly to the announcement. Salesforce’s first reasoning model was built by post-training NVIDIA Nemotron 3 Super on a proprietary synthetic dataset drawn from nearly three decades of enterprise CRM deployments. AI Safety When Benioff asked Huang about AI safety, Huang was direct. “Safety is paramount in a lot of ways. It’s job one,” Huang said. “However, safety is an engineering problem. We’re developing computing systems after all … If you build a product or a service and you’re not confident in its functionality, capability or safety, then don’t release it.” He reiterated that innovation and leadership should coincide with safety and security. “Innovation, speed and safe products — it’s a false choice,” Huang said. “You could definitely have both at the same time. So run as fast as you can. But if you feel at any given point in time the company’s out of control, or the product’s not going to be safe, take a pause and make sure you get it right.” Throughout his talk, Huang offered a positive vision for the future of AI. He noted he was among the first to push back on the notion that AI would end the software industry. He also pushed back on the idea that AI is a threat to jobs. “As a result of our ambition, and with the productivity boost we get from AI, the sky’s the limit,” he added. “Engage AI. Don’t get left behind.” “Every company, every enterprise, every country would become an AI company,” Huang said. “It’s going to be an agentic enterprise.” “The sky is especially the limit for our Trailblazers,” Benioff said, referring to the company’s customer and developer community. “I think this technology, the way it empowers people … the technology can partner with them to do this in incredible new ways.” Because NVIDIA Nemotron is open, Salesforce was able to fine-tune and run the model entirely within its own infrastructure. Salesforce controls the weights, the model runs on Salesforce’s systems and no customer data is used during training or inference. “Not a single byte of customer data was used,” said Rohan Kumar, Salesforce’s president of platform and engineering, who introduced Koa before Huang took the stage. Open models went from 30% at the beginning of last year to now some 70%, Huang explained. “People are both adopting closed models at exponential rates, but also building their own custom AIs — because every single software company is an AI company, and every single enterprise is going to be an agentic and AI enterprise.” NVIDIA is one of them — running on Salesforce across sales, service, marketing and operations, and currently piloting Agentforce for customer-support workflows. Koa was built using supervised fine-tuning and reinforcement learning with NVIDIA NeMo RL, NeMo Gym and NeMo AutoModel. The training corpus covers synthetic enterprise scenarios across 14+ industries — manufacturing, financial services, healthcare and travel. In Salesforce’s CRM Bench, a model benchmark that includes a suite of real-world tasks like updating an opportunity, routing a case, or scheduling a follow-up, Koa already matches or exceeds leading model performance on CRM actions with 3x fewer errors. In Use Now Koa is already running inside Salesforce, powering an employee agent in Slack, and is moving into customer pilots in October as a customer-selectable model in Agentforce, starting with Formula 1, UChicago Medicine, Baxter Credit Union, 1-800Accountant, Engine and Xero. General availability is expected winter 2026 in U.S. regions.",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+              "source_url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of",
+              "source_url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/"
+            }
+          ],
+          "slug": "now-we-can-know-everything-and-do-anything-jensen-huang-says-at-dreamfor-1fec8bc6",
+          "localized_url": "/zh/items/2026-09-16/now-we-can-know-everything-and-do-anything-jensen-huang-says-at-dreamfor-1fec8bc6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
+          "title_original": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
+          "title_en": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
+          "summary_zh": "Pacing gathers pace.",
+          "summary_en": "Pacing gathers pace.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+          "published_at": "Tue, 15 Sep 2026 04:50:36 GMT",
+          "fetched_at": "2026-09-16T00:25:24.043172+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Anthropic",
+            "xAI"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "05d8e0b482ac",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 披露行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：OpenAI、Anthropic、xAI。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
+              "source_url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Pacing gathers pace.",
+              "source_url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for"
+            }
+          ],
+          "slug": "ainews-aef-1-standard-emerges-for-third-party-evaluators-as-xai-openai-a-05d8e0b4",
+          "localized_url": "/zh/items/2026-09-16/ainews-aef-1-standard-emerges-for-third-party-evaluators-as-xai-openai-a-05d8e0b4/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+          "title_original": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+          "title_en": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+          "published_at": "Tue, 15 Sep 2026 16:55:59 +0000",
+          "fetched_at": "2026-09-16T00:25:24.043172+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "997c7e122b99",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+          "extracted_excerpt": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team",
+          "extracted_text_for_analysis": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, engineers at the data center and people from the utility itself. Nobody touched anything. Emerald AI’s Conductor platform — a grid-orchestration platform from NVIDIA partner Emerald AI, and an early example of the kind of flexibility NVIDIA DSX Flex is built to deliver — receives signals about grid conditions and adjusts the data center’s flexible computing workloads. Work that can wait is slowed or rescheduled, while higher-priority services continue operating. The goal is to reduce electricity demand when the grid is constrained without interrupting critical AI workloads— exactly what Silicon Valley Power needed, When the reduction showed on screen, everyone cheered. “We were watching with bated breath,” Sivaram said. “It was our first time deploying across thousands of NVIDIA GPUs.” His head of product, Mansi Shah, was emotional. “This feels kind of like a SpaceX rocket launch,” she said. Silicon Valley Power has since sent more than 200 demand signals to that AI factory. It worked every single time. This is grid flexibility in production. And it points at something much bigger than one facility in Santa Clara: a path to unlocking the power America’s AI factories need, without waiting a decade to build new transmission lines. At the AI Infra Summit on Tuesday, Ian Buck, NVIDIA’s vice president of hyperscale and high-performance computing, made AI factory efficiency the centerpiece of his infrastructure keynote. Results from cloud provider Lambda’s first validation in a deployment environment, released the same day, put numbers to it: a fixed power budget can support 24% more token throughput when managed intelligently. “With our proof of concept, we believe we’ve moved beyond the limitation of fixed power budgets,” said Dave Ward, president of cloud services at Lambda. “NVIDIA DSX MaxLPS paves the way to reclaiming stranded capacity and converting it into real-world usage, with significantly more compute density in the same footprint.” That August evening, when SVP called, Conductor executed against a predefined workload hierarchy: lowest-priority jobs yielded, high-priority inference kept running, and power fell from four megawatts to three. Automated. No operator required. In the AI factory economy, power is the constraint. Work per gigawatt is the metric. Data center operators are meticulous about efficiency — every watt put to work is a watt delivering productive compute, and the industry has driven remarkable gains at every layer of the stack, from facility design to rack-level power conversion. DSX extends that discipline into the AI workload itself. Smarter rack provisioning puts power where workloads actually need it. Operational intelligence — tighter scheduling, faster restarts, leaner checkpointing — keeps GPUs running rather than waiting. The goal is the same one operators have always pursued: more work from the power you have. “A one-gigawatt factory will never become a two-gigawatt factory,” NVIDIA founder and CEO Jensen Huang has said. The answer engineers reach when systems hit physical limits is always the same: stop optimizing the parts and start designing the whole. Introduced at GTC Taipei in May, NVIDIA DSX is that answer for the AI factory — and the early deployments are already proving it out. The full platform spans networking, cooling, water efficiency and facility design; the sections below focus on some of the results so far in power management and grid participation. More Compute, Same Budget: DSX MaxLPS Lambda’s results, released at the AI Infra Summit, are the first validation of DSX MaxLPS on NVIDIA HGX B200 GPU Servers. DSX MaxLPS monitors GPU and rack-level power consumption and reallocates headroom across nodes based on workload type, recovering capacity that static provisioning would leave stranded. Training and inference draw power differently; MaxLPS optimizes allocation in AI factories running both. Lambda, a GPU cloud provider serving more than 10,000 customers from AI-native startups to hyperscalers, ran the software on a five-rack, 19-node cluster. What they found: by running 19 nodes within the same power budget as 16 nodes at full power, Lambda achieved 24% more cluster-wide token throughput — from roughly 4 million tokens per second to 5 million. Performance per watt improved by 23%. Based on NVIDIA’s projections, DSX MaxLPS can enable up to 40% more GPU capacity for next-generation Vera Rubin NVL72 AI factories within the same megawatt power budget in suitable deployment environments. Automated Demand Response, Proven in Production The Santa Clara story isn’t a DSX Flex installation — it’s something earlier and more important: proof that the concept works at commercial scale.< NVIDIA’s Eos AI factory is running Emerald AI Conductor as a participant in Silicon Valley Power‘s Flexible Load Interconnect Program, the first commercial grid utility program designed to treat AI factories as dispatchable resources. When Silicon Valley Power sends a signal, Conductor responds in under a minute. The factory that’s willing to flex gets to run bigger. That’s the pattern DSX Flex is built to generalize — with Emerald AI Conductor integrating into DSX Flex as the platform matures. The first dedicated DSX Flex commercial deployment will be the Manassas, Virginia, facility: a 96-megawatt Vera Rubin AI factory at NVIDIA’s AI Factory Research Center, building on five prior demonstrations across two continents. The Next Power Architecture Layer: 800V DC Power Architecture The gains inside today’s AI factory are real and deployable now. The next layer is how power is delivered to denser accelerated computing racks. As AI factories scale, traditional lower-voltage power paths add conversion complexity and distribution constraints. NVIDIA’s 800 VDC architecture is designed to reduce conversion complexity, improve power delivery efficiency and support denser accelerated computing racks. NVIDIA DSX is incorporating 800V DC into its reference designs. The Whole Factory, Not the Parts No single component can optimize an AI factory on its own. A faster GPU still waits on the network. Power can be stranded by bad provisioning. Cooling overhead still diverts electricity from GPUs; GB200 NVL72 racks running direct liquid cooling carry ~120 kW of heat that has to go somewhere before that power reaches compute. The only reliable path to more tokens per megawatt is to optimize the whole factory — DSX Sim before the first rack goes in, DSX OS and DSX Exchange once it’s running, DSX Reference Designs so builders start from a validated architecture rather than from scratch. (See sidebar for the full DSX suite at a glance.) The Gigawatt",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+              "source_url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked, Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on",
+              "source_url": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/"
+            }
+          ],
+          "slug": "from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production-4433f378",
+          "localized_url": "/zh/items/2026-09-16/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production-4433f378/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+          "title_original": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+          "title_en": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure tech. Before a packed",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+          "published_at": "Tue, 15 Sep 2026 16:55:40 +0000",
+          "fetched_at": "2026-09-16T00:25:24.043172+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "5f6e3cec4e19",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+          "extracted_excerpt": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure tech. Before a packed",
+          "extracted_text_for_analysis": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure tech. Before a packed audience — with more than 8,000 attendees this year, up from 3,500 last year — Buck discussed new collaborations across NVIDIA platforms and more. - Amazon’s Annapurna Labs is working with NVIDIA on the NVHBM custom high-bandwidth memory technology. - d-Matrix is integrating with NVLink Fusion to combine NVIDIA Vera CPUs with d-Matrix Raptor XPUs to deliver ultra low-latency inference at scale. NVIDIA and partners unveiled new results as well: - Emerald AI and NVIDIA demonstrated a commercial AI factory flexible-load program, working with Silicon Valley Power. - Lambda improved performance per watt by 23% with NVIDIA DSX MaxLPS. - Pinterest is using the NVIDIA Blackwell platform and NVIDIA Dynamo inference software to bring conversational AI to visual discovery. The news comes as agentic AI is driving a new class of workloads that demand more performance, efficiency and scale from AI infrastructure. NVIDIA addresses that challenge with a full-stack AI factory platform spanning Vera Rubin systems, Dynamo inference software, NeMo libraries and NVIDIA networking — including NVIDIA NVLink for scale-up computing, Spectrum-X Ethernet and ConnectX SuperNICs for connecting thousands of nodes, BlueField-powered context-memory storage and BlueField DPUs for infrastructure security. The metric for AI infrastructure is fast shifting from peak performance to validated agentic tokens per megawatt. AI factories must now be codesigned from silicon to grid. NVIDIA DSX MaxLPS can deliver up to 1.4x more tokens per megawatt through factory-wide power optimization, while NVLink helps unite large-scale accelerated computing into a single high-performance system. The result is AI infrastructure designed to generate more tokens, improve efficiency and help customers get more value from every megawatt of power. Tuesday, Sept. 15, 9:55 a.m. PT 🔗 AI Factory Flexible-Load Program Unlocks More Grid Power Silicon Valley Power operates a flexible-load interconnection program that enables AI factories to support grid flexibility. Through this program, Emerald AI worked with NVIDIA to demonstrate automated load reduction at Silicon Valley Power. The system successfully responded to hundreds of demand signals from Silicon Valley Power while protecting AI workload performance. NVIDIA partner Emerald AI is planning to use NVIDIA DSX Flex for its Conductor grid-responsive power management software that dynamically adjusts an AI factory’s energy consumption based on real-time electricity grid signals and hybrid energy sources. Using DSX Flex to autonomously load balance, Emerald AI can demonstrate its ability to automatically throttle back power on low-priority AI jobs and then return to normal. DSX Flex can receive grid signals — load-shedding requests, demand-response events and pricing signals — and automatically act within a predefined workload hierarchy. The most critical jobs keep going, while everything else pauses temporarily and then resumes. In this way, facilities can participate in energy efficiency for the grid. This capability enables AI factories to operate as flexible grid resources, so they can reduce demand when the grid needs relief, protect priority AI workloads and prove that controllable AI load can help unlock more grid capacity for growth. Learn more about the Emerald AI partnership with Silicon Valley Power. Tuesday, Sept. 15, 9:55 a.m. PT 🔗 Lambda Maximizes Performance per Watt With NVIDIA DSX MaxLPS AI cloud provider Lambda released results at the AI Infra Summit, providing the first validation of NVIDIA DSX MaxLPS on NVIDIA Blackwell servers. DSX MaxLPS continuously monitors power consumption across GPUs and racks, dynamically shifting available power where it’s needed most and reclaiming capacity that static provisioning leaves unused. Because training and inference workloads have different power profiles, MaxLPS optimizes power allocation across mixed-workload AI factories. The results were significant: Lambda ran 19 nodes within the same power budget typically allocated to 16 full-power nodes, increasing cluster-wide token throughput by 24% — from about 4 million to 5 million tokens per second — while improving performance per watt by 23%. For next-generation NVIDIA Vera Rubin NVL72 AI factories, DSX MaxLPS can enable up to 40% more GPU capacity within the same megawatt budget in the right deployment environments. This means AI factory operators can increase AI capacity and token throughput within the same power envelope, helping maximize the productivity and economic value of every megawatt. Learn more about Lambda’s results. Tuesday, Sept. 15, 9:55 a.m. PT 🔗 Vera Rubin and Groq 3 LPX Turn More Power Into Tokens In AI factories, power is the constraint. Every watt counts, so squeezing more tokens from every megawatt is what matters most for AI infrastructure. NVIDIA does this with a full-stack AI factory built on the Vera Rubin NVL72 — systems, networking, software and power management working as one. At the factory level, NVIDIA DSX MaxLPS dynamically shifts power across racks as demand rises and falls. The payoff is significant: - Up to 40% more GPUs within the same site-power envelope - Up to 35% higher token throughput — no new power lines required Inside each rack, Intelligent Power Smoothing software and expanded energy buffering absorb short spikes, letting systems run closer to sustained demand. Stranded headroom becomes productive compute. For agentic AI — where agents chain reasoning steps and tool calls — latency and context length compounds quickly. That’s where NVIDIA Groq 3 LPX comes in, adding deterministic ultralow-latency inference to Vera Rubin and complements DSX MaxLPS. The combined platform delivers up to 35X higher token throughput per megawatt than GB200 NVL72 for 2-trillion-plus-parameter models at long context. The numbers tell the story. On a 100K-context Qwen 3.8 27B workload, Groq 3 LPX hit 2,529 output tokens per second per user. That headroom lets agents run more reasoning steps and tool calls within the same response budget, even as workloads scale. Learn more about how NVIDIA Vera Rubin NVL72 and Groq 3 LPX can produce more tokens with less power. Tuesday, Sept. 15, 9:55 a.m. PT 🔗 Vera Rubin NVL72 Delivers 30x Better AI Factory Throughput on SemiAnalysis AgentX SemiAnalysis AgentX measures inference on recorded real-world agentic coding sessions, with actual context growth, tool calls delay and sub-agent spawning preserved, rather than on single-request benchmarks. NVIDIA Vera Rubin NVL72 agentic performance results are now live on the SemiAnalysis AgentX dashboard. On the DeepSeek V4 Pro model, Vera Rubin NVL72 delivers up to 30x higher throughput per megawatt than NVIDIA GB300 NVL72.",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+              "source_url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit, the Santa Clara Convention Center event that has morphed into a Coachella",
+              "source_url": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/"
+            }
+          ],
+          "slug": "ai-infra-summit-nvidia-vera-rubin-and-dsx-platform-advancements-showcase-9cc025c5",
+          "localized_url": "/zh/items/2026-09-16/ai-infra-summit-nvidia-vera-rubin-and-dsx-platform-advancements-showcase-9cc025c5/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+          "title_original": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+          "title_en": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "NVIDIA is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
+          "published_at": "Tue, 15 Sep 2026 09:00:42 +0000",
+          "fetched_at": "2026-09-16T00:25:24.043172+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3af255894211",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+          "extracted_excerpt": "Children’s Hospital of Philadelphia is using open source AI tools to model children’s hearts in seconds — with the goal of enabling safer, more precise care for kids with congenital heart disease.",
+          "extracted_text_for_analysis": "Children’s Hospital of Philadelphia is using open source AI tools to model children’s hearts in seconds — with the goal of enabling safer, more precise care for kids with congenital heart disease. About 1% of all live births involve a congenital heart defect — and no two are alike. A child born with a hole between the lower chambers of their heart, or a leaking valve in the single pumping chamber keeping them alive, needs care that fits their exact anatomy. Historically, the devices surgeons reach for were almost never designed with that specific child in mind. “You’ve got a one-of-a-kind kid and an off-the-shelf device,” said Dr. Matthew Jolley, a cardiologist and researcher at Children’s Hospital of Philadelphia, or CHOP. “Our job is to find what fits — and modeling lets us do that before anyone goes into the cath lab or operating room.” CHOP’s cardiac modeling service, built on MONAI — an open source medical imaging framework cofounded by NVIDIA — takes the images a child’s care team already has, such as CT scans, MRI and 3D ultrasound, and produces anatomically precise heart models in just seconds. A workflow that once required four hours of work by a skilled researcher now completes fast enough for routine clinical use. The approach is spreading. More than 20 children’s hospitals across the U.S. now run cardiac modeling programs. At Boston Children’s Hospital, modeling supports more than half of all cardiac surgeries — roughly 500 cases a year. CHOP expects to reach about 200 modeled cases this year. Where this work began in cardiac care, CHOP is now aiming to apply the same tools across multiple disciplines through the IDEA Lab, part of the hospital’s Morgan Center for Research and Innovation. When Jolley joined CHOP in 2015, 3D echocardiography was just coming online. There were tools for modeling adult valves, but almost nothing built for the complex, small anatomies he was treating. His lab worked with the open source community to build SlicerHeart — an extension of 3D Slicer open source software for visualizing, segmenting and analyzing 3D medical images — and began developing workflows to model pediatric hearts and valves from multiple imaging modalities. For years, producing a single model meant a skilled research assistant spending hours at a workstation. Machine learning changed that. Using MONAI Label and NVIDIA’s Auto3DSeg implementation, Jolley’s team trained segmentation networks on pairs of prior images and models. The output meets the same quality standard a trained human would produce — in seconds rather than hours. “Machine learning has become just bread and butter,” Jolley said. “As soon as we’ve made 10 or 20 image-model pairs, we train a model and start applying it.” The clinical impact was seen quickly. For complex ventricular septal defects — holes between the heart’s lower chambers — CHOP now models routinely before surgery. One early case made the value clear: A child had already undergone two failed repair attempts, with surgeons unable to locate the defect with traditional methods. The 3D model clarified the anatomy. The repair succeeded on the first try. For cases like these, Jolley said, cardiac modeling has moved from research to standard of care. Visualization alone isn’t the end goal. Jolley’s team wants to know not just what a child’s heart looks like, but what will happen when a device is deployed inside it — before any procedure begins. That’s where Newton comes in. Newton is an open source physics engine built on the NVIDIA Warp Python framework that runs physics simulations on GPUs. CHOP is working with NVIDIA and the open source community to build biomechanics-focused simulation frameworks with Warp that can be brought into Newton, originally intended for simulation-based AI robot training. These frameworks, once integrated with 3D Slicer and SlicerHeart, can help doctors understand tissue material properties that determine how a device will deploy in a given patient. With GPU acceleration, they can reduce the time needed for cardiac device simulation from up to four hours — or a full overnight run for multiple configurations — to near real time. In practice, a clinician could compare how different devices fit a child’s specific anatomy and get results fast enough to inform a same-day decision. CHOP has begun to implement features built on Warp and Newton for the closure devices used to seal holes in children’s hearts — and hopes to apply similar methods for simulations of transcatheter valves. The open source architecture of Warp and Newton is being connected with SlicerHeart, with the long-term goal of bringing real-time simulations into clinical workflows. A coupler using SlicerHeart and NVIDIA Omniverse digital twins, powered by OpenUSD, is also in development. OpenUSD’s open source 3D interoperability allows diverse data and solvers to be integrated into simulations built from patient images. These simulations can then flow into virtual reality environments and harness embedded vision-language models (VLMs), allowing clinicians to intuitively query and interact with a child’s cardiac anatomy in simulation before acting on it. About 2.4 million people in the U.S. live with congenital heart disease. Historically, this has been a population too rare and too diverse to attract traditional device-company investment at the scale families need. No single company has built the tools Jolley’s team requires. No single institution could build them alone. Open source is the workaround. SlicerHeart’s tools are free to use and build on. Researchers at Stanford and Boston Children’s contribute additional tools alongside CHOP. A national consortium of children’s hospitals is now forming to build the next generation of shared modeling infrastructure, with open source as the connective tissue across institutions. “It’s too small a population to support traditional commercial development by normal economics,” Jolley said. “But it’s such an important problem that between the research community and philanthropy, people are getting behind it. Open source defies traditional economics for small and heterogenous populations by allowing collaboration and progress without barriers.” NVIDIA’s investment and active collaboration with others in developing open platforms — MONAI for medical imaging AI, Newton for physics simulation, OpenUSD for 3D interoperability and virtual reality — gives teams like Jolley’s access to infrastructure maintained at industrial scale. A lab at a children’s hospital can now quickly harness tools that would otherwise require a company-sized engineering team to build and sustain, while benefiting from the continued innovation of a broad open source community. Learn how MONAI is advancing medical imaging AI.",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "open source",
+              "explanation": "可公开查看、使用或修改的代码与模型资源。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+              "source_url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "NVIDIA is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/"
+            }
+          ],
+          "slug": "heart-of-the-matter-how-a-major-childrens-hospital-uses-open-source-nvid-15370422",
+          "localized_url": "/zh/items/2026-09-16/heart-of-the-matter-how-a-major-childrens-hospital-uses-open-source-nvid-15370422/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Your Agent Aced the Task. Will It Do It Again?",
+          "title_original": "Your Agent Aced the Task. Will It Do It Again?",
+          "title_en": "Your Agent Aced the Task. Will It Do It Again?",
+          "summary_zh": "Hugging Face Blog 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+          "published_at": "Tue, 15 Sep 2026 16:00:44 GMT",
+          "fetched_at": "2026-09-16T00:25:24.043172+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "16a7b27ed0ae",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Your Agent Aced the Task. Will It Do It Again?",
+          "extracted_excerpt": "A Blog post by IBM Research on Hugging Face",
+          "extracted_text_for_analysis": "That is embarrassing onstage. In production, it is a reliability problem: a workflow that succeeded once may fail the next time a user makes the same request. For mission-critical work, such as reconciling a financial transaction or checking a contract for an obligation, that can be a showstopper. Most benchmarks hide this variability behind an average. On AppWorld, a ReAct agent using GPT-4.1 succeeded on 77.4% of runs across five repetitions. But it succeeded in all five runs for only 53.0% of tasks — a 24.4-point consistency gap. Most benchmarks report the first number. We built a way to measure the second — and improve it. In an earlier post, we introduced ALTK-Evolve — a system that turns an agent's own past trajectories into reusable guidelines, distilled automatically and injected back at inference time. It measurably improves task success, but those results only asked the average-case question too. This post introduces consistency guidelines, a new guideline type in altk-evolve built on top of a diagnostic tool we call the Consistency Analyzer, that targets this gap directly. TL;DR - Accuracy hides an unreliability problem. A ReAct agent (GPT-4.1 on AppWorld test_normal ) that succeeds 77.4% of the time on average succeeds on all 5 repeated runs for only 53.0% of tasks — a 24.4-point consistency gap. On hard tasks it reaches 30 points. - We built a diagnostic for exactly this. The Consistency Analyzer resamples an agent's own recorded trajectory to find flip-prone decision points — steps where the model was one token-sample away from doing something different. It needs one trace and no ground truth — it resamples each decision point in that trace with a single call requesting k completions (k=5 by default), rather than re-running the task end-to-end. - Turning that diagnosis into guidelines halves the gap — from 24.4pp to 12.0pp (same-task Pass⁵ +16.0pp, similar-task +13.0pp), without costing anything in average accuracy. - Full methodology and evaluations are in the technical report on arXiv. Standard agent evaluation reports Mean@k: run a benchmark k times, average the pass rate. Often k=3, sometimes just 1. It's the number on every leaderboard, and it's what \"77% accurate\" means in practice. Mean@k answers \"how good is this agent, on average?\" It does not answer the question a real user cares about: will it still be good if I ask this exact question again? For that you need Pass^k: the fraction of tasks where the agent succeeds on all k runs. ⚠️ Pass^k is not Pass@k. The familiar Pass@k is optimistic — it asks whether at least one of k attempts succeeded, the right question when you can verify and retry. Pass^k is its pessimistic mirror image: every attempt must succeed. Same letters, opposite question. Pass^k ≤ Mean@k ≤ Pass@k, always. A ReAct agent backed by GPT-4.1 posts a Mean@5 of 77.4% — genuinely strong. But Pass^5 is only 53.0%. Nearly a quarter of the benchmark consists of tasks the agent can sometimes solve and sometimes can't, with nothing about the task changing between runs. We call this gap — Mean@k minus Pass^k — the consistency gap. This isn't a capability problem you fix with a bigger model. It's an orthogonal axis: an agent can be capable and inconsistent at the same time. Every time an LLM agent decides something — which API to call, what argument to pass, whether to retry — that decision comes out of a probability distribution over next tokens. What matters is the shape of that distribution. A sharp one puts most of its mass on a single token: the runners-up are far behind, and the same choice comes out run after run. A flat one spreads comparable mass across several near-tied tokens, and which one wins is close to a coin flip. The shape decides how much noise it takes to change the outcome. Sharp distributions are resilient — GPU floating-point non-associativity, request batching, and other platform-side effects nudge the numbers slightly, but nowhere near enough to reorder a clear winner. Flat distributions are vulnerable to exactly that nudge: near-ties may reorder under small perturbations. And because a trajectory chains dozens of decisions, a small per-step chance of flipping compounds into a large chance that some run goes differently. That's where a 24-point gap comes from. This is also why the problem survives your decoding settings. Greedy decoding and a fixed seed both govern how a distribution gets turned into a token — they say nothing about the distribution itself. On a hosted endpoint the probabilities shift slightly from run to run, so the same prompt to the same model at temperature zero can still resolve a near-tie one way today and the other way tomorrow. Our setup: the ReAct agent runs at temperature 0.0, so none of the variance above is ordinary sampling. Which turns the problem into a search: which steps in a given trajectory were the flat ones — and what do you do about them once you know? Consistency guidelines come out of a two-stage pipeline that plugs into ALTK-Evolve's existing machinery — with a new source signal driving what gets written. 1. Detect — the Consistency Analyzer. Given one recorded trajectory, the analyzer replays each decision step through controlled resampling, measuring how much the model's output actually varies at that point. Concretely, that's one additional model call per decision step, done once offline — issued with the sampling parameter set to draw k completions at once (k=5 by default) — replayed against the already-recorded context, not new tool calls, not new environment interactions, and not a second end-to-end rollout of the task. This yields a consistency score per decision step that is written into a scorecard to pinpoint exactly which decisions are at risk of flipping on the next run. Detection is fully black-box — no logits, no model internals, no instrumentation beyond the trace you already have. 2. Generate — targeted guidelines. Every flagged step becomes a candidate consistency guideline in the standard ALTK-Evolve format, so it slots into the existing storage and retrieval pipeline. Here's a real example, generated by GPT-4.1 from a trajectory of the AppWorld task \"How many activities are done in my bucket list as per my SimpleNote note?\": [Guideline 1] When counting checkbox-style markers in note content, use a line-anchored regex match rather than a plain substring count — note titles often repeat the marker symbol in a legend line. [Guideline 2] Always verify search results for note queries by checking for multiple matches and confirming the correct note before proceeding. Nothing here is task-specific trivia. String-counting bugs and unverified search results are decision points that show up with high uncertainty across many AppWorld tasks. That's the point: the analyzer targets instability, not failure — so it catches steps the agent happened to get right this time but could easily get wrong next time. Watch the 2-minute demo — five parallel runs of the agent split",
+          "title_zh": "Hugging Face 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Your Agent Aced the Task. Will It Do It Again?",
+              "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
+            }
+          ],
+          "slug": "your-agent-aced-the-task-will-it-do-it-again-16a7b27e",
+          "localized_url": "/zh/items/2026-09-16/your-agent-aced-the-task-will-it-do-it-again-16a7b27e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Can Skills Learned in Games Transfer to Real-World Work?",
+          "title_original": "Can Skills Learned in Games Transfer to Real-World Work?",
+          "title_en": "Can Skills Learned in Games Transfer to Real-World Work?",
+          "summary_zh": "Latent Space 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Good Start Labs trained an AI on a railroad game — and one version improved at financial research. The difference was the training design.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/good-start-labs",
+          "published_at": "Tue, 15 Sep 2026 20:11:54 GMT",
+          "fetched_at": "2026-09-16T00:25:24.043172+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "dfe4dbbe0065",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Can Skills Learned in Games Transfer to Real-World Work?",
+              "source_url": "https://www.latent.space/p/good-start-labs"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Good Start Labs trained an AI on a railroad game — and one version improved at financial research. The difference was the training design.",
+              "source_url": "https://www.latent.space/p/good-start-labs"
+            }
+          ],
+          "slug": "can-skills-learned-in-games-transfer-to-real-world-work-dfe4dbbe",
+          "localized_url": "/zh/items/2026-09-16/can-skills-learned-in-games-transfer-to-real-world-work-dfe4dbbe/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+          "title_original": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+          "title_en": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+          "summary_zh": "Gemini 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+          "published_at": "Tue, 15 Sep 2026 17:05:57 +0000",
+          "fetched_at": "2026-09-16T00:25:24.043172+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2f92a8ca47fb",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+          "extracted_excerpt": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet, built for natural conversation.",
+          "extracted_text_for_analysis": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking Today, we’re introducing two new models that bring advancements in near real-time reasoning to more effectively enable voice agents and make conversing with AI feel more intuitive and intelligent. - Gemini 3.8 Live: Built for scale and cost efficiency, combining conversational intelligence with fluid dialogue and visual grounding. - Gemini 3.8 Live Extended Thinking: Built for high-complexity tasks, with increased intelligence and multi-step reasoning. For developers and enterprises, these models deliver the building blocks for reliable, production-ready voice agents. They also make speaking with Gemini across the Gemini app, Google Workspace, and Search more fluid and collaborative — helping you tackle complex tasks using just your voice. Experience more fluid, intelligent conversations Gemini 3.8 Live Extended Thinking provides enterprise-grade task completion and intelligence, capturing the #1 overall spot on Artificial Analysis' Speech to Speech Quality Index (82.6), and leads in agentic task completion with 68.6% on τ-Voice and 35.1% on Sierra’s τ-Voice-banking benchmark. It also provides strong reasoning capabilities, scoring 97.7% on Big Bench Audio, while maintaining a highly competitive price point compared to other frontier models. Gemini 3.8 Live has shown a high preference among users, securing a second place in the Speech Agent Arena. In addition to this performance, it remains highly cost-effective — providing developers and enterprises with a capable and efficient model built for scale. Note: This was run on the Live API on Gemini Enterprise Agent Platform. Gemini 3.8 Live processes visual inputs in near real-time, enriching conversations with context for more helpful responses. It automatically detects and transitions between 97 supported languages mid-conversation. It executes tools and API calls in the background while continuing the conversation, so the model can acknowledge requests and keep chatting while tasks finish in the background. For tasks that require deeper reasoning, 3.8 Live Extended Thinking reasons and speaks simultaneously. It delivers increased intelligence for complex workflows while maintaining an uninterrupted conversational flow — using early verbal cues like “Let me check that…” to acknowledge prompts naturally, and live progress narration to walk users through multi-step background tasks as they progress. Across Google Workspace and Search, our Live models deliver more intuitive, collaborative experiences — especially when tackling your most complex tasks. Empowering the developer and enterprise voice ecosystem By using the Gemini Live API, developer platforms such as Agora, Fishjam, LangChain, LiveKit, Pipecat, Vercel, and Vision Agents enable developers to build and deploy high-performance voice-driven interfaces with ease. These platforms manage complex real-time media streaming infrastructure behind the scenes, allowing developers to focus entirely on crafting the user experience. We’re also partnering with companies like Salesforce, Genspark, and Lumeris who are excited about 3.8 Live and 3.8 Live Extended Thinking, highlighting its impressive latency, fluidity, and tool-calling capabilities. Ensure transparency with SynthID watermarking All audio generated by our AI products is watermarked with SynthID. This imperceptible watermark is woven directly into the audio output, ensuring AI-generated content remains detectable to help prevent misinformation. For details on our approach to safety and responsibility, review the model card. Start using our latest Gemini Audio models: 3.8 Live is rolling out starting today: - For developers: In the Gemini API and Google AI Studio - For enterprises: In private preview in Gemini Enterprise and coming soon to Gemini Enterprise for Customer Experience - For everyone: In Search Live 3.8 Live Extended Thinking is rolling out starting today: - For developers: In the Gemini API and Google AI Studio - For enterprises: In private preview in Gemini Enterprise and coming soon to Gemini Enterprise for Customer Experience and Google Workspace business customers - For everyone: In Gemini Live and for Google AI Pro and Ultra subscribers in Workspace in Docs, and all Google AI subscribers in Gmail and Keep",
+          "title_zh": "Gemini 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+              "source_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+            }
+          ],
+          "slug": "introducing-gemini-3-8-live-and-3-8-live-extended-thinking-f4c3141c",
+          "localized_url": "/zh/items/2026-09-16/introducing-gemini-3-8-live-and-3-8-live-extended-thinking-f4c3141c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "60+ new creative growth ideas",
+          "title_original": "60+ new creative growth ideas",
+          "title_en": "60+ new creative growth ideas",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "How to stand out when everyone is running the same playbook",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas",
+          "published_at": "Tue, 15 Sep 2026 12:45:28 GMT",
+          "fetched_at": "2026-09-16T00:25:24.043172+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4fac77afb4cf",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "60+ new creative growth ideas",
+              "source_url": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas"
+            },
+            {
+              "label": "公开摘要",
+              "text": "How to stand out when everyone is running the same playbook",
+              "source_url": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas"
+            }
+          ],
+          "slug": "60-new-creative-growth-ideas-4fac77af",
+          "localized_url": "/zh/items/2026-09-16/60-new-creative-growth-ideas-4fac77af/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Sakana Marlinアップデート：レポートと対話する「Interactive Reading」と、出力スライドのPowerPoint対応",
+          "title_original": "Sakana Marlinアップデート：レポートと対話する「Interactive Reading」と、出力スライドのPowerPoint対応",
+          "title_en": "Sakana Marlinアップデート：レポートと対話する「Interactive Reading」と、出力スライドのPowerPoint対応",
+          "summary_zh": "Sakana AI Blog 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/marlin-update/",
+          "published_at": "2026-09-16T00:00:00+09:00",
+          "fetched_at": "2026-09-16T00:25:24.043172+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0a11be794e74",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Sakana AI Blog 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI Blog，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Sakana Marlinアップデート：レポートと対話する「Interactive Reading」と、出力スライドのPowerPoint対応",
+              "source_url": "https://sakana.ai/marlin-update/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/marlin-update/"
+            }
+          ],
+          "slug": "sakana-marlin-interactive-readingpowerpoint-f1db8b02",
+          "localized_url": "/zh/items/2026-09-16/sakana-marlin-interactive-readingpowerpoint-f1db8b02/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Gemini 3.8 Live models now available on AI Gateway",
+          "title_original": "Gemini 3.8 Live models now available on AI Gateway",
+          "title_en": "Gemini 3.8 Live models now available on AI Gateway",
+          "summary_zh": "Gemini 更新了实时语音交互模型能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking from Google are now available on AI Gateway. Both models support real-time spoken interactions for voice assistants, conversational experiences, and applications that respond through audio.",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/gemini-3-8-live-models-now-available-on-ai-gateway",
+          "published_at": "2026-09-15T00:00:00.000Z",
+          "fetched_at": "2026-09-16T00:25:24.043172+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f5b57b434edc",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Gemini 发布实时语音交互模型能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Gemini 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Gemini 3.8 Live models now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/gemini-3-8-live-models-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking from Google are now available on AI Gateway. Both models support real-time spoken interactions for voice assistants, conversational experiences, and applications",
+              "source_url": "https://vercel.com/changelog/gemini-3-8-live-models-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "gemini-3-8-live-models-now-available-on-ai-gateway-f5b57b43",
+          "localized_url": "/zh/items/2026-09-16/gemini-3-8-live-models-now-available-on-ai-gateway-f5b57b43/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Is Agentic now tailors its audit by site type",
+          "title_original": "Is Agentic now tailors its audit by site type",
+          "title_en": "Is Agentic now tailors its audit by site type",
+          "summary_zh": "Vercel AI 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Is Agentic reports now let you view your checks through one of four site types: Docs & content, Business, App, or Commerce. For example, the Commerce view highlights payment and checkout standards like x402, UCP, and ACP, while the App view highlights API",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/is-agentic-report-categories",
+          "published_at": "2026-09-16T00:00:00.000Z",
+          "fetched_at": "2026-09-16T00:25:24.043172+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2c9062d35480",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Is Agentic now tailors its audit by site type",
+              "source_url": "https://vercel.com/changelog/is-agentic-report-categories"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Is Agentic reports now let you view your checks through one of four site types: Docs & content, Business, App, or Commerce. For example, the Commerce view highlights payment and checkout standards like x402, UCP, and",
+              "source_url": "https://vercel.com/changelog/is-agentic-report-categories"
+            }
+          ],
+          "slug": "is-agentic-now-tailors-its-audit-by-site-type-2c9062d3",
+          "localized_url": "/zh/items/2026-09-16/is-agentic-now-tailors-its-audit-by-site-type-2c9062d3/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Delphi ships 100 times a day with its Python backend on Vercel",
+          "title_original": "How Delphi ships 100 times a day with its Python backend on Vercel",
+          "title_en": "How Delphi ships 100 times a day with its Python backend on Vercel",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Delphi on Vercel 10 engineers with no dedicated infrastructure role Everyone ships code, including product and design 100+ production deploys a day behind feature flags Delphi builds digital minds. They capture what someone has written, recorded, and taught,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel",
+          "published_at": "2026-09-15T04:00:00.000Z",
+          "fetched_at": "2026-09-16T00:25:24.043172+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9399d58a77fb",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Delphi ships 100 times a day with its Python backend on Vercel",
+              "source_url": "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Delphi on Vercel 10 engineers with no dedicated infrastructure role Everyone ships code, including product and design 100+ production deploys a day behind feature flags Delphi builds digital minds. They capture what",
+              "source_url": "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel"
+            }
+          ],
+          "slug": "how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel-9399d58a",
+          "localized_url": "/zh/items/2026-09-16/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel-9399d58a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-15",
       "title_zh": "AI 新闻简报 · 2026-09-15",
