@@ -1,7 +1,658 @@
 {
-  "updated_at": "2026-09-18T00:23:49.315386+00:00",
-  "count": 92,
+  "updated_at": "2026-09-19T00:23:42.312924+00:00",
+  "count": 93,
   "briefs": [
+    {
+      "date": "2026-09-19",
+      "title_zh": "AI 新闻简报 · 2026-09-19",
+      "title_en": "English AI News Brief · 2026-09-19",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 151 条，跨期排除历史已展示 142 条，入选 9 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 151 candidates, 142 previously displayed items excluded, and 9 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 151,
+      "skipped_history_count": 142,
+      "selected_count": 9,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+          "title_original": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+          "title_en": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+          "summary_zh": "OpenAI 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/hex-gpt-6-astra",
+          "published_at": "Wed, 16 Sep 2026 12:00:00 GMT",
+          "fetched_at": "2026-09-19T00:23:39.911958+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "973a91148c50",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+          "extracted_excerpt": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+          "extracted_text_for_analysis": "“A really important part of data work is not just doing the analysis, but also communicating it,” says Caitlin Colgrove, co-founder and CTO of Hex, an agentic data platform. But according to Caitlin, “Models have struggled with data visualization for a really long time.” GPT‑6 Astra changes that. “With GPT‑6 Astra, you are able to build much more complex, interactive, compelling, and beautiful data artifacts that not only communicate your analysis clearly, but that you are actually proud to share with the rest of the organization.” Producing a useful data visualization requires both technical work and choices about how to present the result. Caitlin remarks on how well GPT‑6 Astra works with the underlying libraries and performs the data transformations required, helping analysts create functional, visually appealing outputs. “Astra is able to go into the underlying libraries, do all of the crazy transformations that geospatial visualizations require, and build out something that’s not just functional but aesthetically pleasing inside of the data artifact as well.” For example, a Hex user can ask how sales channels are performing over time, which are doing best, and which should be discontinued. Hex presents written findings alongside trend lines and comparisons, as well as interactive dashboards that let users explore key measures, rankings, and geographic breakdowns. Even technically correct code can produce an answer that misses the point, so Hex uses GPT‑6 Astra to interrogate the answer: Does the number make sense? Does the analysis answer the user’s question? Does it reflect the business objective? Caitlin says GPT‑6 Astra investigates more thoroughly, uncovers more of the data’s pitfalls and nuances, and delivers a more comprehensive analysis than earlier models. “GPT‑6 Astra is much better at exercising what we call analytical judgment, which is not just getting to an answer, but understanding whether or not that answer is actually what the user is asking for and what the business needs.” A clear visualization gives colleagues a way to engage with the analysis: comparing results, following changes over time, and exploring the details that relate to their work. With GPT‑6 Astra, Hex users can access, understand, and communicate data more easily, bringing Hex closer to its mission of making everyone a data person.",
+          "title_zh": "OpenAI 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+              "source_url": "https://openai.com/index/hex-gpt-6-astra"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+              "source_url": "https://openai.com/index/hex-gpt-6-astra"
+            }
+          ],
+          "slug": "hex-turns-complex-analysis-into-visual-reports-with-gpt6-astra-973a9114",
+          "localized_url": "/zh/items/2026-09-19/hex-turns-complex-analysis-into-visual-reports-with-gpt6-astra-973a9114/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing Sakana AI’s Frontier Intelligence Group (FIG)",
+          "title_original": "Introducing Sakana AI’s Frontier Intelligence Group (FIG)",
+          "title_en": "Introducing Sakana AI’s Frontier Intelligence Group (FIG)",
+          "summary_zh": "Sakana AI 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI has a release or product update that may affect model capability, developer tooling or AI adoption.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/frontier-intelligence-group/",
+          "published_at": "2026-09-18T00:00:00+09:00",
+          "fetched_at": "2026-09-19T00:23:39.911958+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [
+            "Sakana AI"
+          ],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "5edecda37900",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "Introducing Sakana AI's Frontier Intelligence Group (FIG)",
+          "extracted_text_for_analysis": "（＊日本語は英文の後に） The Current and Future State of Artificial Intelligence Current AI systems are extraordinary. They can write and converse expertly on almost any topic, compose music, generate video, program entire applications, and have even started providing insights into long-standing mathematical problems. Given this trajectory, it’s reasonable to ask if the current paradigm (scaling the Transformer architecture with even more data and even more compute) is “all you need” to take us all the way to AGI. This is exactly what Llion Jones, our CTO and one of the inventors of the Transformer, questioned in the recent Transformer vs Post-Transformer debate. Spoiler: we think there’s more to do. The most popular components of modern AI systems, such as the most popular architecture, optimiser, training objectives, and so on, work so well that we can maintain progress by continuing to tweak them. However, current systems still have fundamental problems that we haven’t been able to address yet: they confidently hallucinate false information, falter badly in the face of genuinely novel situations, and require significant amounts of energy to run. Many researchers are incentivized to try and fix these problems within the current paradigm, but maybe we should be looking for other paradigms. Nature shows us that alternatives exist. In contrast to current AI, biological intelligence learns continuously, requires far less data to generalise robustly, and can even explore through self-directed, open-ended curiosity. And even though our current AI systems are built upon “artificial neurons”, the way that artificial neural networks are structured and updated is a long way from our current understanding of the brain. While we don’t expect that we need to replicate a real brain in silico, it may be that these gaps are telling us something important about general intelligence. Given all these differences between current AI and biological intelligence, we think it would be surprising if there were no more major breakthroughs left. What’s less obvious is how to go looking for one. As current systems improve, a natural option is to rely on recursive self-improvement, allowing AI to bootstrap itself. But it may also come from somewhere else — and fostering a research environment where this can emerge is important. As Llion argued in his 2025 TED Talk, the strength of the current paradigm has stifled the kind of research freedom that allowed for its very inception. We need to deliberately create and protect the right environment for this kind of long-term speculative research, and that is what we are trying to do at Sakana AI. Here in Japan, where many fundamental advances in artificial neural networks were developed, and where other researchers are still investigating alternative pathways to intelligence, we’re explicitly setting out to find the next big thing. The Frontier Intelligence Group Today we are announcing the existence of FIG, a collective that has been growing inside the company. We hold regular meetings where we discuss ideas that challenge the mainstream, invite external researchers from different backgrounds to propose alternative views on intelligence, and promote an environment where people are given the time and freedom to work on long-term, speculative ideas. FIG starts from the position that intelligence is not yet “solved”, and we should actively explore alternative paradigms. And even if the current paradigm can achieve AGI through scale, we would still want systems that can learn with the data and/or energy efficiency of the human brain. This means looking honestly at the shortcomings of today’s technology, and treating those as research directions that should be tackled head-on, rather than as details that perhaps could be engineered away later. The FIG Philosophy To reach the next big thing, we have to take a leap of faith. And given the strength of the current paradigm, where we end up after one jump may end up looking worse. Artificial neural networks have existed since the 1970s, but it wasn’t until the mid 2010s that their performance started surpassing alternatives across a wide range of domains. What this required was researchers with the conviction to pursue the path they believed in, against the prevailing opinion. At FIG, we recognise that the path to the next breakthrough may not be straightforward, but hold several core principles that guide us on our way. Research freedom: the freedom to explore different ideas, and most importantly, the freedom to fail. To enable great research, researchers should be given the time and freedom to explore ideas openly, without the pressure of pushing up benchmark numbers. FIG is a space to pursue ambitious directions, even if we are not sure how they will work out. Uniqueness: “You should only work on research that wouldn’t happen if you weren’t doing it”. We encourage researchers to work on what they personally believe is interesting and important, even if it goes against current trends. In a trend-driven industry, researchers are often worried about another group publishing the same ideas they are working on before they can. Uniqueness protects against that. “Greatness Cannot Be Planned”: a core philosophy at Sakana AI. Many of the greatest discoveries in science and technology were not planned. For example, liquid crystals were discovered by a botanist studying cholesterol derivatives in carrots! Thus, to find breakthroughs one should foster an environment that encourages exploration of ideas rather than enforcing a rigid plan. Nature-inspired: as our name and logo suggest, Sakana AI often looks to nature for insights. Whilst we’re best known for research in collective intelligence — primarily using evolutionary algorithms — we also have researchers with backgrounds in disciplines such as computational neuroscience and cognitive psychology that can study intelligence from other angles. This doesn’t mean that everything we do is nature-inspired, though - being overly prescriptive goes against our core principles! Understanding intelligence: we are the Frontier Intelligence Group because we also aim to study and understand intelligence directly. Improving performance on benchmarks doesn’t necessarily inform us about how intelligence works - and as researchers, we believe that this knowledge has its own intrinsic value. While these values apply within Sakana AI as a whole, in FIG we try to turn up these values up to 11. Research We want to showcase some of the fruits of the freedom and creativity that FIG enables. Here we highlight some research that has come from some of the members of the FIG collective, where our inspiration from nature is clear: - Continuous Thought Machines: Current artificial neurons abstract away much of the richness of biological neurons. The CTM re-introduces some of this structure, in the form of separate synapses and “neuron-level models” that perform iterative computation over their inputs. It",
+          "title_zh": "Sakana AI 发布研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。",
+            "涉及公司或机构：Sakana AI。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing Sakana AI’s Frontier Intelligence Group (FIG)",
+              "source_url": "https://sakana.ai/frontier-intelligence-group/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI has a release or product update that may affect model capability, developer tooling or AI adoption.",
+              "source_url": "https://sakana.ai/frontier-intelligence-group/"
+            }
+          ],
+          "slug": "introducing-sakana-ais-frontier-intelligence-group-fig-2bbb79b8",
+          "localized_url": "/zh/items/2026-09-19/introducing-sakana-ais-frontier-intelligence-group-fig-2bbb79b8/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Jev is the fastest-adopted model in AI Gateway history",
+          "title_original": "Jev is the fastest-adopted model in AI Gateway history",
+          "title_en": "Jev is the fastest-adopted model in AI Gateway history",
+          "summary_zh": "Vercel AI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Within 24 hours of launching on AI Gateway, Jev from TypeSafe AI reached more than twice as many paid teams as any previous model launch, making it the fastest-adopted model in gateway history. Jev passed every other comparison model in its first twelve hours",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/ai-gateway-jev-model-launch",
+          "published_at": "2026-09-18T07:00:00.000Z",
+          "fetched_at": "2026-09-19T00:23:39.911958+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a6bb14f964f7",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Jev is the fastest-adopted model in AI Gateway history",
+          "extracted_excerpt": "Within 24 hours of launching on AI Gateway, Jev from TypeSafe AI has been used by more than twice the share of teams of any other recent model launch in its first day.",
+          "extracted_text_for_analysis": "Within 24 hours of launching on AI Gateway, Jev from TypeSafe AI reached more than twice as many paid teams as any previous model launch, making it the fastest-adopted model in gateway history. Jev passed every other comparison model in its first twelve hours and continued to widen its lead for the rest of the day. By hour 24, it was being used by nearly 13% of paid teams. That’s 2x as many as the GPT-5.6 family and over 6x as many as Fable 5.1. Jev’s launch shows how quickly a specialized model can find a place in production. Its first-day adoption was unmatched among recent launches; the next test is whether that early adoption lasts. Copy link to headingAbout Jev Jev was introduced on September 15 as a probabilistic decision model built for making structured decisions inside software. An application sends it context and a set of questions. Jev evaluates those questions in parallel and returns typed choices, scores, or true-or-false answers, along with probabilities. Unlike the text produced by a general-purpose language model, Jev’s answers come in a format the code can use directly. Developers can use it to: - choose an agent’s next tool or subagent - decide whether a workflow should continue, retry, ask the user, or stop - score urgency or risk before taking an action - verify model outputs, enforce guardrails, or send uncertain cases for human review In its own workflow evaluations, TypeSafe AI reports that Jev was up to 194 times faster and 445 times cheaper than language models. See the September AI Gateway Production Index for more model usage data or try Jev through AI Gateway.",
+          "title_zh": "Vercel AI 推进开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Jev is the fastest-adopted model in AI Gateway history",
+              "source_url": "https://vercel.com/blog/ai-gateway-jev-model-launch"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Within 24 hours of launching on AI Gateway, Jev from TypeSafe AI reached more than twice as many paid teams as any previous model launch, making it the fastest-adopted model in gateway history. Jev passed every other",
+              "source_url": "https://vercel.com/blog/ai-gateway-jev-model-launch"
+            }
+          ],
+          "slug": "jev-is-the-fastest-adopted-model-in-ai-gateway-history-a6bb14f9",
+          "localized_url": "/zh/items/2026-09-19/jev-is-the-fastest-adopted-model-in-ai-gateway-history-a6bb14f9/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Spend Management expands to Enterprise Flexible Commitment plans",
+          "title_original": "Spend Management expands to Enterprise Flexible Commitment plans",
+          "title_en": "Spend Management expands to Enterprise Flexible Commitment plans",
+          "summary_zh": "Vercel AI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Enterprise teams on Flexible Commitment plans can now use Spend Management , already available on Pro , at no additional cost. You can set a budget at any time in Spend Management settings . Set a budget per billing cycle, and when your team's metered usage",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/spend-management-enterprise-flex",
+          "published_at": "2026-09-18T20:00:00.000Z",
+          "fetched_at": "2026-09-19T00:23:39.911958+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2c23f7d128f5",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Spend Management expands to Enterprise Flexible Commitment plans - Vercel",
+          "extracted_excerpt": "Spend Management now supports Enterprise teams on Flexible Commitment plans. Set a budget per billing cycle and get alerts, webhooks, or an optional pause.",
+          "extracted_text_for_analysis": "Enterprise teams on Flexible Commitment plans can now use Spend Management, already available on Pro, at no additional cost. You can set a budget at any time in Spend Management settings. Set a budget per billing cycle, and when your team's metered usage approaches or crosses it, Spend Management can send email notifications, trigger a webhook, or pause the production deployments of all projects. The amount governs the metered usage that draws down from your prepaid balance. Setting an amount does not stop usage on its own; pausing is opt-in, and it does not stop AI Gateway or v0 usage. Learn more in the Spend Management docs.",
+          "title_zh": "Vercel AI 更新行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Spend Management expands to Enterprise Flexible Commitment plans",
+              "source_url": "https://vercel.com/changelog/spend-management-enterprise-flex"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Enterprise teams on Flexible Commitment plans can now use Spend Management , already available on Pro , at no additional cost. You can set a budget at any time in Spend Management settings . Set a budget per billing",
+              "source_url": "https://vercel.com/changelog/spend-management-enterprise-flex"
+            }
+          ],
+          "slug": "spend-management-expands-to-enterprise-flexible-commitment-plans-2c23f7d1",
+          "localized_url": "/zh/items/2026-09-19/spend-management-expands-to-enterprise-flexible-commitment-plans-2c23f7d1/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+          "title_original": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+          "title_en": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+          "summary_zh": "Together AI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, models, and testing.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",
+          "published_at": "Fri, 18 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-19T00:23:39.911958+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "57daa634e0a6",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+          "extracted_excerpt": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, models, and testing.",
+          "extracted_text_for_analysis": "A global fintech runs its coding assistant on GLM 5.2 through Together's Dedicated Model Inference, handling spiky, engineering-hours traffic that static capacity planning couldn't keep up with. With DMI, the customer's engineers scale endpoints, roll out models, and test changes themselves, no tickets, no waiting on Together. The result: infrastructure that moves as fast as the teams adopting it. The workload This customer ships financial products to millions of users across dozens of markets, and growth shows no sign of slowing. Sustaining that pace is an engineering problem before anything else, and the company's engineers lean on AI coding agents to do it. That puts inference on the critical path of how fast the company ships, rather than inside any single customer-facing feature. The workload runs on GLM-5.2, the mixture-of-experts model built for long-horizon coding and agentic work, served on Together. Traffic follows the working day: spiky, concentrated in engineering hours, and it climbs every time another team adopts agents into its workflow. The constraint: capacity planning couldn't keep up with adoption Operational control The customer came to Together after running coding workloads with other inference providers, and first consolidated onto our earlier dedicated offering. That offering worked, but wasn't built for how this workload actually behaves. The coding-assistant traffic isn't steady; it's peak-load and relatively low-TPS, concentrated in engineering hours, with sharp bursts in concurrency and prompt size as more teams put agents into their daily workflow. That shape is precisely why concurrency, not raw throughput, was the design priority when the workload moved to GLM-5.2. Under the earlier model, absorbing that kind of burst meant someone had to see it coming. Teams ready to move agents into their daily workflow often waited on capacity rather than provisioning it, and the customer's platform team absorbed the coordination for every one of them, filing requests and sizing clusters. The team worked to plan ahead, but planning stopped working once adoption became unpredictable in both timing and size. You can't forecast a burst that's driven by a hundred different engineering teams independently deciding to lean on their coding agent harder this week. When capacity is provisioned to yesterday's forecast and traffic is genuinely spiky, prefill capacity and KV cache headroom get exhausted exactly during the burst, which is when it matters most, producing exactly the kind of multi-minute request queuing that agentic coding workflows can't tolerate. Fixing that after the fact, versus giving the customer's own teams the ability to see load and scale ahead of it, is the difference between a coordination problem and an infrastructure one. What the customer required: self-service, observability, concurrency The customer set requirements for the Together team around autonomy, in addition to raw performance, and the workload's own shape makes clear why. The coding-assistant traffic runs at ISL p50/p90/p95 of roughly 81K/163K/178K tokens and RPS p50/p90/p95 of 3/6/7, a peak-load, relatively-low-TPS pattern where bursts in concurrency matter far more than raw tokens-per-second. That's the backdrop for what the customer asked of Together: - Self-service provisioning: An engineering team should be able to stand up its own endpoint and put traffic on it without filing a request or waiting on the platform group, a shift from the earlier model, where every new team's capacity request went through Together and the customer's platform team in turn. - Observability its own teams could act on: Usage and performance data available programmatically, so capacity decisions could sit with the teams making them, not get routed through a support queue when something like cache hit rate degrades. - Throughput and fast scaling under concentrated load: Sustained performance during working-hours peaks, not benchmark conditions, running dozens of B200s across a multi-replica configuration at 256K context, sized specifically to hold concurrency headroom. - Model fluidity: Room to swap models as the frontier advances, without renegotiation, demonstrated in practice by the move from GLM 5.1 to GLM 5.2 on the same account, plus a live tuning pass on cache and load-balancing parameters done as a config update, not a redeployment. What shipped: full endpoint control, a metrics API, and model fluidity Endpoint configuration through the API, UI, or CLI Dedicated Model Inference exposes the full endpoint lifecycle: creation, sizing, scaling policy, and configuration changes. The customer's infrastructure team used exactly this when a migration reshaped their GLM 5.2 endpoint, shifting toward fewer, larger replicas, same total footprint, different ratio of replica count to chips per replica. When that re-shape hit near-100% prefill capacity a few days later, with requests queuing one to three minutes and decode throughput collapsing to roughly 5 tokens per second, the fix wasn't a new deployment or a ticket back to Together. It was a live configuration change: restoring the tuned cache-session-aware routing policy in place of DMI's default cache-aware-by-hash policy, and widening the max-inflight-per-worker threshold. All of it was pushed same day with zero downtime. Metrics API Programmatic access to endpoint usage and performance data is how the root cause was found. Together API Support traced a single 192-second slow request end-to-end through the metrics data and found it wasn't compute-bound, and had spent almost the entire span queued behind a 2.3M-token pending-prefill backlog from other requests, not its own 250K-token prompt. That's the specific value of self-serve observability: the customer's own team diagnosed a queuing problem, not a capacity problem, without waiting on Together to pull logs. Fast access to a rich library of models Dedicated Model Inference gives users self-serve access to frontier open-source models, as well as performance-aware configurations to help customers opt for any combination of TTFT, TPS, TPM, and other metrics. The customer's team works closely with Together's forward-deployed engineers to continuously optimize these configurations as its coding agent use evolves. This showed up as the GLM 5.1 to GLM 5.2 and context-length iterations transitioning on the same account and endpoint pattern, with no renegotiation involved. It also showed up as a deliberate configuration trade-off the customer's team made themselves: given their traffic profile, they evaluated a 1M-context configuration and turned it down, because doubling context to 1M would have cut the concurrency headroom their peak-load, low-TPS workload actually depends on. The team chose to stay at 256K/512K instead. Timeline: from early load tests to a production endpoint at scale The coding-assistant relationship predates the GLM 5.2 production endpoint by several months. Together's",
+          "title_zh": "Together AI 推进代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+              "source_url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, models, and testing.",
+              "source_url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference"
+            }
+          ],
+          "slug": "how-a-global-fintech-scaled-coding-agent-traffic-with-dedicated-model-in-57daa634",
+          "localized_url": "/zh/items/2026-09-19/how-a-global-fintech-scaled-coding-agent-traffic-with-dedicated-model-in-57daa634/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "WebMCP support now available in mcp-handler",
+          "title_original": "WebMCP support now available in mcp-handler",
+          "title_en": "WebMCP support now available in mcp-handler",
+          "summary_zh": "Vercel AI 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "mcp-handler now has experimental support for WebMCP , the proposed web standard for exposing tools to in-browser agents. Add a single script tag to your site, and your existing MCP tools become available there too. Opt tools in by adding them to the",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/webmcp-mcp-handler",
+          "published_at": "2026-09-18T18:00:00.000Z",
+          "fetched_at": "2026-09-19T00:23:39.911958+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "32ae7a203db6",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "WebMCP support now available in mcp-handler - Vercel",
+          "extracted_excerpt": "mcp-handler now has experimental WebMCP support. Register your MCP tools on your website with one script tag and let browser agents call them with the user's credentials.",
+          "extracted_text_for_analysis": "mcp-handler now has experimental support for WebMCP, the proposed web standard for exposing tools to in-browser agents. Add a single script tag to your site, and your existing MCP tools become available there too. Opt tools in by adding them to the experimental_webMcp object: import { createMcpHandler } from \"mcp-handler\"; const handler = createMcpHandler( (server) => { server.registerTool(\"roll_dice\", /* ... */); }, { experimental_webMcp: { tools: [\"roll_dice\"], }, },); export { handler as GET, handler as POST }; Then load the script from your MCP endpoint with the ?webmcp-script parameter: The script registers those tools with the page and proxies each call back to your MCP server as the signed-in user, so authenticated tools work without a browser-side OAuth flow. Upgrade to mcp-handler@2.2.0 and read the documentation to get started.",
+          "title_zh": "Vercel AI 发布AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "WebMCP support now available in mcp-handler",
+              "source_url": "https://vercel.com/changelog/webmcp-mcp-handler"
+            },
+            {
+              "label": "公开摘要",
+              "text": "mcp-handler now has experimental support for WebMCP , the proposed web standard for exposing tools to in-browser agents. Add a single script tag to your site, and your existing MCP tools become available there too. Opt",
+              "source_url": "https://vercel.com/changelog/webmcp-mcp-handler"
+            }
+          ],
+          "slug": "webmcp-support-now-available-in-mcp-handler-32ae7a20",
+          "localized_url": "/zh/items/2026-09-19/webmcp-support-now-available-in-mcp-handler-32ae7a20/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "v0 now reads npm credentials from shared environment variables",
+          "title_original": "v0 now reads npm credentials from shared environment variables",
+          "title_en": "v0 now reads npm credentials from shared environment variables",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "v0 now installs private packages from npm and custom registries using credentials stored as shared environment variables on Vercel. This makes it easier for teams to build with their existing design systems, component libraries, and internal packages directly",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables",
+          "published_at": "2026-09-18T17:00:00.000Z",
+          "fetched_at": "2026-09-19T00:23:39.911958+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "dde4a4801d14",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "v0 now reads npm credentials from shared environment variables - Vercel",
+          "extracted_excerpt": "v0 can now install private packages from npm and custom registries. Add an NPM_TOKEN or NPM_RC environment variable to build with your team's internal packages, design systems, and component libraries in v0.",
+          "extracted_text_for_analysis": "v0 now installs private packages from npm and custom registries using credentials stored as shared environment variables on Vercel. This makes it easier for teams to build with their existing design systems, component libraries, and internal packages directly in v0. To get started, add one of the following as a shared environment variable on Vercel, scoped to Development and/or Preview: - Use NPM_TOKEN for private packages hosted onregistry.npmjs.org . - Use NPM_RC to configure custom or multiple registries. NPM_RC supports scoped registries and references to other environment variables. For example, configure an organization scope such as @acme for GitHub Packages, or direct package requests through a private JFrog Artifactory registry. Credentials can be marked sensitive, and v0 never exposes them to the model or writes them to the sandbox filesystem. You can view the integration status from Settings → Integrations in v0. Learn more in the private dependencies docs.",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "v0 now reads npm credentials from shared environment variables",
+              "source_url": "https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables"
+            },
+            {
+              "label": "公开摘要",
+              "text": "v0 now installs private packages from npm and custom registries using credentials stored as shared environment variables on Vercel. This makes it easier for teams to build with their existing design systems, component",
+              "source_url": "https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables"
+            }
+          ],
+          "slug": "v0-now-reads-npm-credentials-from-shared-environment-variables-dde4a480",
+          "localized_url": "/zh/items/2026-09-19/v0-now-reads-npm-credentials-from-shared-environment-variables-dde4a480/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
+          "title_original": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
+          "title_en": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "In August 2026, Hacktron reported what looked like a remote code execution (RCE) vulnerability in Next.js image optimization. Their investigation found that the vulnerable code was not in Next.js itself, but upstream in libheif, an AVIF image decoder used by",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
+          "published_at": "2026-09-18T00:00:00.000Z",
+          "fetched_at": "2026-09-19T00:23:39.911958+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1e27ee5e34f3",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
+          "extracted_excerpt": "How Vercel and Hacktron coordinated a fix for a remote code execution vulnerability that reached Next.js image optimization through sharp, libvips, and libheif.",
+          "extracted_text_for_analysis": "In August 2026, Hacktron reported what looked like a remote code execution (RCE) vulnerability in Next.js image optimization. Their investigation found that the vulnerable code was not in Next.js itself, but upstream in libheif, an AVIF image decoder used by Next.js, ImageMagick, WordPress, sharp, and much of the web. Shortly after Hacktron notified us, we worked with them to reproduce the RCE against a current Next.js build and disclose it to the maintainers of sharp, libvips, and libheif. We then deployed a platform-wide mitigation on Vercel and started working with the maintainers on a fix. Copy link to headingThe dependency chain Next.js image optimization lets applications resize and optimize images through the component (next/image). For AVIF images, the image-processing dependency chain is as follows: - invokes/_next/image , - /_next/image calls sharp - sharp calls libvips - libvips uses libheif to decode the image That meant the vulnerable code was not in Next.js, but it was still reachable through Next.js image optimization. A malicious AVIF image sent to the image optimization endpoint would invoke libheif through sharp and libvips. As such, one obvious mitigation was to disable AVIF optimization in Next.js. Malicious AVIF images would then stop at the image optimization endpoint instead of being passed through sharp and libvips to libheif. The exploit would not propagate upstream. However, only mitigating Next.js, without an upstream fix, posed a disclosure problem. Copy link to headingDisclosing the vulnerability and coordinating the upstream fix After we worked with Hacktron to successfully reproduce the issue, we rolled out a platform-wide mitigation on Vercel and reached out to the maintainers of sharp, libvips, and libheif to disclose the vulnerability and begin working on a fix. Here is the timeline: - August 11-12: Hacktron reported the issue to Vercel; Hacktron and Vercel reproduced the RCE with a working proof of concept. - August 13: Vercel applied a platform mitigation through its Image Optimization Service. - August 19: The Next.js team met with the libvips maintainer and began coordination across sharp, libvips, and libheif. - August 24: Next.js informed its security partners. - August 25: Next.js published a security release that disabled AVIF optimization. The Vercel security team contacted the maintainers of sharp and libvips by email, and opened coordination with libheif through a GitHub Security Advisory. Hacktron had also submitted vulnerability and exploit details to libheif. On August 19, the Next.js team met with the libvips maintainer and aligned on the path forward across sharp, libvips, and libheif. The libheif maintainer continued remediation through Hacktron’s GitHub Security Advisory. On August 24, Next.js informed its security partners of the libheif vulnerability and its impact on Next.js (partner notifications are a routine part of Next.js’ security release process). On August 25, six days after the August 19 meeting, the libheif maintainer released v1.23.2, which remediated the RCE. Copy link to headingVercel and Next.js mitigations Securing Vercel and its customers was straightforward: all Next.js image optimization requests on Vercel go through a central Image Optimization Service. Therefore, we disabled AVIF optimization and resizing in that central service. Any incoming AVIF images were not passed to libheif for decoding and RCE was not possible on Vercel. Protecting self-hosted applications required a Next.js release. On August 25, Next.js published a security release that had originally been planned to address a separate issue. After coordinating an upstream fix, we bundled the AVIF mitigation into that release and shipped it a day earlier than planned. The release disabled AVIF optimization and resizing in Next.js; given that the patched libheif release was still propagating downstream, this was the most timely option. We also published a security advisory to communicate the issue’s severity. Copy link to headingOur commitment to making the web more secure The volume of OSS vulnerabilities discovered continues to increase, and the numbers are overwhelming: - In 2026, the CVE program has published more than 35,000 CVEs. - Private vulnerability reports on GitHub grew from 500 per week in January to 3,000 per week in May. - GitHub also reported 1,560 reviewed advisories in May 2026, the highest monthly volume in the advisory database’s history. As LLMs accelerate vulnerability research, we expect to see more upstream vulnerabilities like the libheif RCE surface across the OSS ecosystem. There have been a higher number of Next.js security releases in recent months, and we expect that trend to continue as we mitigate new vulnerabilities that both we and the research community uncover. We are committed to proactively finding vulnerabilities before attackers, responsibly disclosing everything we find, and collaborating with researchers and maintainers on fixes. Copy link to headingCredit Thanks to Hacktron for responsibly disclosing the AVIF vulnerability, working with us to reproduce the issue, and coordinating with the upstream maintainers through remediation. We also want to thank the maintainers of sharp, libvips, and libheif. Their work on the upstream fix made coordinated remediation possible across the image processing dependency chain. We work with a talented set of researchers to secure Next.js and other open source frameworks through Vercel's Open Source Bug Bounty. Anyone interested in contributing to the security of eligible frameworks is encouraged to participate there.",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
+              "source_url": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers"
+            },
+            {
+              "label": "公开摘要",
+              "text": "In August 2026, Hacktron reported what looked like a remote code execution (RCE) vulnerability in Next.js image optimization. Their investigation found that the vulnerable code was not in Next.js itself, but upstream in",
+              "source_url": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers"
+            }
+          ],
+          "slug": "reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktro-1e27ee5e",
+          "localized_url": "/zh/items/2026-09-19/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktro-1e27ee5e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GLM 5.3 FlashX now available on AI Gateway",
+          "title_original": "GLM 5.3 FlashX now available on AI Gateway",
+          "title_en": "GLM 5.3 FlashX now available on AI Gateway",
+          "summary_zh": "Vercel 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "GLM 5.3 FlashX is now available on AI Gateway. GLM 5.3 FlashX is a high-speed serving option for Z.ai's multimodal coding model, delivering inference at ~200 tokens per second for faster streamed responses. The higher serving speed is useful for coding",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway",
+          "published_at": "2026-09-18T00:00:00.000Z",
+          "fetched_at": "2026-09-19T00:23:39.911958+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [
+            "Vercel AI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "32372f028bb4",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 发布代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Vercel AI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "multimodal",
+              "explanation": "同时处理文本、图像、音频或视频等多种输入输出形式。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GLM 5.3 FlashX now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GLM 5.3 FlashX is now available on AI Gateway. GLM 5.3 FlashX is a high-speed serving option for Z.ai's multimodal coding model, delivering inference at ~200 tokens per second for faster streamed responses. The higher",
+              "source_url": "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "glm-5-3-flashx-now-available-on-ai-gateway-32372f02",
+          "localized_url": "/zh/items/2026-09-19/glm-5-3-flashx-now-available-on-ai-gateway-32372f02/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-18",
       "title_zh": "AI 新闻简报 · 2026-09-18",
