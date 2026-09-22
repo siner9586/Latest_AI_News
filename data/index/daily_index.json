@@ -1,7 +1,1229 @@
 {
-  "updated_at": "2026-09-21T00:18:35.280427+00:00",
-  "count": 95,
+  "updated_at": "2026-09-22T00:53:01.719630+00:00",
+  "count": 96,
   "briefs": [
+    {
+      "date": "2026-09-22",
+      "title_zh": "AI 新闻简报 · 2026-09-22",
+      "title_en": "English AI News Brief · 2026-09-22",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 151 条，跨期排除历史已展示 126 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 151 candidates, 126 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 151,
+      "skipped_history_count": 126,
+      "selected_count": 18,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Advisory Group on Mathematics and Artificial Intelligence",
+          "title_original": "Advisory Group on Mathematics and Artificial Intelligence",
+          "title_en": "Advisory Group on Mathematics and Artificial Intelligence",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+          "published_at": "Mon, 21 Sep 2026 12:00:00 GMT",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a7ca59844a94",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Advisory Group on Mathematics and Artificial Intelligence",
+          "extracted_excerpt": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+          "extracted_text_for_analysis": "On August 28, we began training a new internal model. In addition to resolving the Navier–Stokes Millennium Prize problem, this model has now resolved more than 100 long-standing open problems across most areas of mathematics. The pace of its progress in mathematics has surprised the mathematicians within OpenAI. This has led to internal discussions on the best way to inform the community of the rapid progress to prepare and adapt the field. Mathematics is a fundamental science, and novel discoveries may result in a wide range of applications. That makes the promise of these capabilities substantial, and their responsible development and deployment important beyond mathematics itself. We recognize this and are working through how broader deployment of math-related AI capabilities can be done responsibly. In a recent open letter “A Severe Misalignment of AI in Mathematics(opens in a new window),” mathematicians raise concerns about the negative externalities of solving open problems as a benchmark for new AI systems. Their criticisms highlight the need for thoughtful engagement of AI companies with the math community. To that end, we’re working with mathematicians who have established an independent mathematics advisory group. This group will serve as a bridge to the mathematical community and broader public, giving mathematicians a voice in how we move forward. The group will advise on the review and communication of emerging results: they will help OpenAI assess their significance, advise on how to coordinate their dissemination, and advise on academic and professional standards of mathematical research. It will also advise on how our tools can support mathematical research and learning. We want to put capable tools in mathematicians’ hands so they can pursue the questions they know best and develop new ideas. The group will operate independently from OpenAI. The group will have the freedom to offer advice we have not requested, comment on OpenAI’s impact on mathematics, and make its advice public. Its value depends on its members being able to exercise their own judgement and challenge ours. Its members will not be paid by OpenAI, and the group can change its membership as it sees fit. Importantly, the group will not be responsible for advising us on how to pace our internal progress on mathematics. Working with this group is a first step. There are difficult questions ahead about how AI can support mathematical understanding and how the benefits of these capabilities can reach the wider community. We want mathematicians to be at the center of shaping the answers. Initial Members of the Advisory Group on Mathematics and Artificial Intelligence(opens in a new window), hosted at the Institute for Advanced Study(opens in a new window): - François Charles (ENS-PSL) - Camillo De Lellis (IAS, GSSI) - Timothy Gowers (Collège de France, Cambridge) - Martin Hairer (EPFL, Imperial College London) - Nikhil Srivastava (Berkeley, Simons Institue) - Ulrike Tillmann (Oxford, INI) - Ravi Vakil (Stanford) - Edward Witten (IAS) - Melanie Matchett Wood (Harvard)",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Advisory Group on Mathematics and Artificial Intelligence",
+              "source_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+              "source_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai"
+            }
+          ],
+          "slug": "advisory-group-on-mathematics-and-artificial-intelligence-a7ca5984",
+          "localized_url": "/zh/items/2026-09-22/advisory-group-on-mathematics-and-artificial-intelligence-a7ca5984/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+          "title_original": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+          "title_en": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+          "published_at": "Mon, 21 Sep 2026 12:00:00 GMT",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d37f5b2c5927",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+          "extracted_excerpt": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+          "extracted_text_for_analysis": "Higgsfield AI ships new video features in a day with GPT‑6 Astra With GPT‑6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster. Higgsfield AI(opens in a new window) helps creatives complete video workflows end to end with AI. Its mission is to make creative storytelling more accessible to professionals around the world, including small businesses using video ads to sell. GPT‑6 Astra supports both sides of that mission: improving ad creation for customers and accelerating feature development inside Higgsfield. “We are very excited about GPT-6 Astra helping us to deliver new exploration features just within a day. And this now can be done by just one engineer.” Creating ads with Higgsfield can start with a simple request, such as “Take my top-performing ad and generate 100 new variations.” With GPT‑6 selected, the workflow turns that request into new creative directions for an existing ad to generate variations, such as customizing the ads for different countries. For small businesses, this makes it easier to explore different versions of an ad through a single prompt. “Higgsfield also enables smaller businesses to sell more products by generating ads using video AI. And this is where we have seen major improvements with the GPT-6 model.” Inside Higgsfield, GPT‑6 Astra helps a single engineer deliver new features within a day. Alex attributes that speed to Astra’s long-horizon task planning, its ability to plan work across multiple steps, and the close collaboration between Higgsfield’s creative team and engineers. With GPT‑6 Astra, Higgsfield brings new creative tools to market faster and helps small businesses turn ideas into video ads that showcase their products.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+              "source_url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra"
+            },
+            {
+              "label": "公开摘要",
+              "text": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+              "source_url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra"
+            }
+          ],
+          "slug": "higgsfield-ai-ships-new-video-features-in-a-day-with-gpt-6-astra-d37f5b2c",
+          "localized_url": "/zh/items/2026-09-22/higgsfield-ai-ships-new-video-features-in-a-day-with-gpt-6-astra-d37f5b2c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Building standards for the next phase of AI",
+          "title_original": "Building standards for the next phase of AI",
+          "title_en": "Building standards for the next phase of AI",
+          "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/building-standards-next-phase-ai",
+          "published_at": "Mon, 21 Sep 2026 10:00:00 GMT",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2c9792fbb14a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Building standards for the next phase of AI",
+          "extracted_excerpt": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+          "extracted_text_for_analysis": "Our mission is to ensure that artificial general intelligence benefits all of humanity. As outlined recently by Sam Altman and Jakub Pachocki, we prioritize our work towards this mission with three main goals: - Navigate the next period of AI progress, by building an automated AI researcher, iterating with it on the alignment problem, and finding ways for people to remain part of the self-improvement loop. - Deliver the benefits of scientific progress and economic growth that very intelligent machines enable. - Empower everyone individually with a personal AGI. AI is accelerating our own research and engineering, and AI-enabled research has led to advances in mathematics, including the Navier-Stokes Millennium Problem. This progress holds great promise for our other two goals, which could lead to important discoveries in medicine, broadly accessible health care, and economic empowerment for small businesses and individual entrepreneurs everywhere. AI is advancing across many companies and countries, and progress across the field changes the opportunities and challenges facing everyone. Alongside its other benefits, capable, aligned AI will be an important part of how we navigate this transition—strengthening defenses, advancing alignment research, and helping people understand and guide the next stages of AI development. Navigating this transition safely requires alignment research to keep pace with these capabilities so that the systems we and others build remain aligned with human values and under human control. This becomes increasingly important as AI systems grow more capable and autonomous, including as they take on more of AI research and development itself. Making continued AI progress safe and beneficial will require both advances in alignment research and shared standards to guide development across labs and countries. Automated AI research can involve varying degrees of human supervision. As AI systems take on more of the work of developing successive generations of AI, they can increasingly drive a process of recursive self-improvement (RSI), even while people remain involved. As this process becomes more automated, the pace of AI progress could accelerate rapidly. We believe automated AI research will yield models that directly enhance people’s lives. It can bring down the cost of advanced intelligence so that people worldwide can benefit. Automated research could also help us substantially improve alignment and build defenses against increasingly capable AI—an automated AI researcher can also be an automated AI safety researcher. More capable, aligned systems could help secure critical infrastructure, defend against dangerous AI agents, and develop new protective measures. Fully autonomous RSI is not happening today, and we should not pursue it unless and until it can be done safely. Whether and how to proceed must depend on our ability to preserve human control and on informed democratic choices(opens in a new window) about the benefits and risks. Done without appropriate care and caution, RSI could result in humans losing practical control over AI development, unable to provide oversight on research processes they no longer understand. From here, AI could become more dangerous, less aligned, and, on the whole, a danger to people. The Hugging Face Incident we disclosed, while not a direct result of RSI, is a preview of the kinds of risks that could become much more severe without robust safeguards and alignment. International standards for safety and security practices in frontier AI development may be as important to pacing the frontier as alignment research itself. Standards can create shared definitions of high-quality evidence and agreed-upon baselines for the rigor of technical safeguards. In short, they help us answer the question, “What does good look like in the mitigation of catastrophic AI risk?” Existing democratic institutions like the Center for AI Standards and Innovation (CAISI), state laws, and a federal framework for AI can all help with this, as well as new forms of public-private partnerships(opens in a new window). But AI development and deployment is happening in multiple countries, adoption is occurring globally, and its impacts will likely be experienced by everyone in some way on some timeline. International efforts to develop standards are thus needed to solve some key challenges: - Fragmentation—Evaluations, reporting requirements, and incident definitions by different nations could conflict, making it harder to compare evidence, understand emerging capabilities, and respond to risks that cross borders. - Collective action—Each nation acting independently can produce outcomes that no nation wants. RSI has the ability to accelerate AI research itself, potentially beyond our collective ability to understand progress, assess risks, and maintain meaningful human oversight. - Uneven capacity—The activity of frontier development and related expertise is not evenly distributed across the world. This accentuates both of the problems above. These challenges apply to both open and closed models. To be clear, any AI lab that pursues automated AI research or other advanced capabilities must take accountability for doing so safely, in accordance with basic principles of self-responsibility and existing laws. Our rationale for standards is rooted in avoiding the concentration of power, and producing better practical outcomes. Standards provide a way for more stakeholders outside of the labs to have a say in how this technology should unfold, and a visible set of principles that can be relied on irrespective of the specific practices of any particular lab. And we will likely get better results if parties collaborate to address the challenges above. That is why we believe the United States should lead an effort to work together with countries around the world to develop global technical standards for frontier AI, including for RSI. While we expect this concept to evolve substantially over time, two aspects will be essential. One way of accomplishing this would be to leverage the emerging network of AI safety institutes—such as those already established in Australia, Canada, Germany, France, Kenya, Japan, Korea, Singapore, India, and the United Kingdom—to facilitate standard setting through the CAISI and national industry bodies, with a specific focus on (1) frontier AI models and developers, as measured by capability benchmarks; and (2) benefit-risk management for automated AI research, including RSI. The United States can build upon CAISI’s creation of the International Network for Advanced AI Measurement, Evaluation, and Science(opens in a new window) in 2024, bringing together public institutions to cooperate on AI measurement, evaluation, and science. Standards developed by this effort would provide a common technical foundation for capability measurement and evaluation, risk assessment, and safeguard sufficiency. These technical",
+          "title_zh": "OpenAI 推进模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Building standards for the next phase of AI",
+              "source_url": "https://openai.com/index/building-standards-next-phase-ai"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+              "source_url": "https://openai.com/index/building-standards-next-phase-ai"
+            }
+          ],
+          "slug": "building-standards-for-the-next-phase-of-ai-2c9792fb",
+          "localized_url": "/zh/items/2026-09-22/building-standards-for-the-next-phase-of-ai-2c9792fb/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Expanding OpenAI Academy with new learning paths",
+          "title_original": "Expanding OpenAI Academy with new learning paths",
+          "title_en": "Expanding OpenAI Academy with new learning paths",
+          "summary_zh": "OpenAI 更新了教育场景中的 AI 实用技能培训，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+          "published_at": "Mon, 21 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "530db518a73a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Expanding OpenAI Academy with new learning paths",
+          "extracted_excerpt": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+          "extracted_text_for_analysis": "Expanding OpenAI Academy with new learning paths Role-based learning helps employees, developers, leaders, educators, and students build practical AI skills and demonstrate what they’ve learned. Using AI safely and effectively takes practice. People need to learn how to apply it to the work in front of them, whether they’re improving a daily workflow, building a product, leading a team, or teaching a class. At OpenAI, we treat learning as part of deployment. Today, we’re expanding OpenAI Academy with new courses for developers, leaders, educators, and college students. These join Apply AI at Work, which helps people build foundational skills, create repeatable workflows, and direct work with agents. Together, the pathways help organizations build shared habits for working with AI and develop the skills different roles require. Course assessments give learners a way to demonstrate what they’ve learned. Learners earn an OpenAI Academy course badge by passing the course assessment. OpenAI Academy (opens in a new window)courses are built around a simple idea: you should use AI to learn AI. Learners practice on real tasks, giving instructions, adding context, and reviewing results as they go. Organizations can combine Apply AI at Work with focused learning for developers, leaders, educators, and students, choosing the courses that support their teams’ work. The Apply AI at Work(opens in a new window) pathway helps people use AI more effectively in their everyday work. Learners start with the basics, practicing how to give clear instructions, add relevant context, and review responses against the task at hand. They then turn successful approaches into workflows they can reuse. As learners progress, they practice directing larger pieces of work with agents, deciding what to delegate and where to add checkpoints and human review. The pathway helps employees take on more complex tasks with AI while retaining responsibility for the final result. The Build with AI(opens in a new window) pathway is designed for developers and technical teams using Codex or building products with the OpenAI API. For developers, the courses cover how to plan and implement changes across the software development lifecycle while maintaining control over review and quality. For teams building on the API, the pathway covers solution design, evaluations, agents, retrieving relevant information, and operating AI systems in production. These courses are designed to help organizations move from experimentation to useful, reliable AI systems. Leaders must also decide where AI can create meaningful value, what the organization should prioritize, who owns the work, and how progress will be measured. The AI Leadership(opens in a new window) course, part of Lead AI Adoption(opens in a new window), helps people responsible for strategy, adoption, and change management assess where AI could create business value. Learners connect an initiative to business priorities, define ownership and governance, and develop an initial AI strategy and roadmap for adoption. AI for Educators(opens in a new window) and AI for College Students(opens in a new window) extend the portfolio to teaching, learning, and career preparation. In AI for Educators, learners use materials they have permission to use to plan a class, create an activity or assessment, or adapt communications for students, teaching assistants, or colleagues. They review ChatGPT’s responses against their learning objectives, source materials, and requirements. The educator decides what belongs in their teaching. AI for College Students focuses on academic and career tasks. Students practice organizing readings and deadlines into a study plan, assigning roles in a group project, reviewing a draft against assignment requirements, and preparing for applications or interviews. They learn to bring the right materials into ChatGPT, strengthen their work, and make decisions about the final result. Organizations can choose the learning paths that match their goals. A company might use Apply AI at Work in employee onboarding, offer Build with AI courses to developers and technical teams, and include AI Leadership in an executive, Champion, or transformation program. Education institutions can combine AI Foundations(opens in a new window) with AI for Educators and AI for College Students. Learning is most useful when people have time to practice and apply it. Managers and Champions can encourage learners to bring real tasks into the courses, share useful examples, and connect what they learn to work already underway. The OpenAI Academy Deployment Guide(opens in a new window) includes recommendations for introducing the courses, engaging leaders and managers, building participation, and tracking progress. The courses are shaped by teams across OpenAI and will continue to be updated as our models, products, and guidance change.",
+          "title_zh": "OpenAI 更新教育场景中的 AI 实用技能培训",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在教育场景中的 AI 实用技能培训。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Expanding OpenAI Academy with new learning paths",
+              "source_url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+              "source_url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths"
+            }
+          ],
+          "slug": "expanding-openai-academy-with-new-learning-paths-530db518",
+          "localized_url": "/zh/items/2026-09-22/expanding-openai-academy-with-new-learning-paths-530db518/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How V7 gives AI agents institutional memory",
+          "title_original": "How V7 gives AI agents institutional memory",
+          "title_en": "How V7 gives AI agents institutional memory",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/v7",
+          "published_at": "Mon, 21 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d1749ba76a98",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How V7 gives AI agents institutional memory",
+          "extracted_excerpt": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+          "extracted_text_for_analysis": "Results 89% Accuracy for GPT-6 Astra on the hardest queries Results 78% Lower cost per document with GPT-5.6 Luna Results +11.6 pts Higher accuracy with GPT-5.6 Luna Today’s models can reason through complex tasks, but they don’t automatically understand the underlying business context of those tasks. Which fund report is current? How is the same entity named across three systems? That context lives in documents, data rooms, spreadsheets, emails, and internal tools: scattered, unresolved, and invisible to agents. For teams in finance, insurance, and real estate, retrieval accuracy within workflows is non-negotiable. After building a widely used computer vision accessibility app together, Rizzoli and Edwardsson started V7(opens in a new window) in 2018 to help companies teach AI systems how their businesses work. V7 Go is an agentic platform to build mission critical workflows, and organize buried context into memory that agents can query and act on. V7 Go uses GPT‑5.6 Luna to extract information from millions of files and organize it in the Context Graph, which connects entities, relationships, and cited evidence, powering MCP search and repeatable workflows that can span hundreds of steps. For Workflows, V7 Go uses GPT‑5.6 Terra and Sol for reasoning and tool use across complex, multi-step instructions that take humans dozens of hours to complete. V7 is also starting to use GPT‑6 Astra on the most demanding Context Graph queries, including financial analysis across thousands of documents. With context, models, and tools working together, V7 says agents complete 50–100 step workflows in minutes, reaching 99.9% accuracy, while maintaining an auditable trail of every decision made. “To solve hard enterprise use cases across finance and insurance, AI needs to learn how your business operates just as well as it learned from the Internet.” The Context Graph solves a specific problem. Agents have to rediscover context on every request, leading to dozens of searches costing time and tokens, and often missing key information buried in relationships. When data arrives, V7 Go connects to repositories such as SharePoint and Google Drive, scans them for entities, relationships, facts, attributes, and metrics, and populates a graph that’s an order of magnitude cheaper and faster to traverse than long-context approaches. The Context Graph gives agents a structured, up-to-date record they can query directly. When a new file arrives, V7 Go identifies the companies, funds, people, or any entity in an ontology, then connects each fact to a new or existing record, and preserves cited evidence to the original source. If the graph does not contain enough information, V7 Go can still search the underlying documents with RAG. V7 has also tested how much the structure of that context matters. On HERB, a benchmark for finding and connecting information spread across enterprise systems, V7’s retrieval-only system outperformed the official baseline by 69% and reduced hallucinations on un-answerable queries by 38%. V7 Go uses that source-linked context to keep complex workflows grounded in each company’s own information. V7 Go uses that organized context in workflows such as private equity deal screening and insurance underwriting. In the demo below, a workflow extracts information from a deal document called a Confidential Information Memorandum (CIM) feeds key financials, deal terms, management details, and cites risk fields before V7 Go produces a screening note. The Context Graph makes it so that a model can work with a firm’s history without relearning it each time. For long-running agents, V7 Go keeps recent exchanges in the model’s active context and stores older material in the graph to be retrieved when needed. That shared context is already speeding up document-heavy work across V7’s customers: - Asset managers can screen deals 21x faster than before, reducing a full-day process to just 15 minutes - A financial services team cut review time from more than 100 hours to under 10, saving $12,000 in expert costs per task - Insurance teams reduced errors in claims processing by 13.5% compared to a manual baseline, after granting their agents historical knowledge of all previous claims and existing policies “With GPT-5.6 Terra, we have been able to remove many intermediate workflow stages that previously existed only to simplify the task for the model. It’s saved us days of delivery work and often gets things right on the first build of a workflow, thanks to a stronger model and access to more context.” Complex, multi-step workflows depend on a model reliably following lengthy instructions, running tools, interpreting results, and navigating a long series of steps. A single upstream error can lead to expensive consequences and broken trust in AI systems. V7 Go guides models across long horizon tasks spanning deterministic code, handovers to smaller models, file generation steps, and integrations, with an auditable trace of every run. In AI-generated workflows, V7 Go maps each step to fast, medium, and smart tiers. GPT‑5.6 Luna handles structured extraction and other high-volume work, and GPT‑5.6 Terra or Sol power chat, the Go Agent path, and steps that require more reasoning or tool use. V7 tests new models against a continuously maintained benchmark suite covering citation accuracy, extraction quality across hundreds of document types, answer correctness, instruction following, latency, cost, and real-world enterprise workflows. OpenAI outperforms most models on the behaviors V7 cares about most. OpenAI also approved and implemented V7’s capacity increase needs within hours, compared with weeks for other providers V7 uses. “We chose OpenAI as our default because it performs best on the multi-step tool workflows V7 Go depends on. In our Context Graph benchmark, GPT-5.6 Sol reduced the tool-call error rate from 2.7% with GPT-5.5, to 0.2%” In V7’s latest harness, key workflows with several external calls now finish up to 50% faster. V7 measured another efficiency gain with GPT‑5.6 Luna: a 78% lower cost per document than with GPT‑5.4 mini. V7 also moved its document-heavy V7 Go workloads from the Chat Completions API to the Responses API. In its testing, the change reduced token use by roughly 5% for some PDF-heavy workflows and improved caching reliability. V7 also tested GPT‑6 Astra on its most difficult queries. GPT‑5.6 Sol had saturated many of V7’s existing benchmarks, so the company created a more challenging set of graph-query questions using messier, real-world data across thousands of documents. The test’s dataset spans four difficulty levels. On the very-hard level, V7 reports that GPT‑5.6 Sol scored 78%, while GPT‑6 Astra scored 89% accuracy. Both models scored close to 100% on the easy, medium, and hard levels. V7 Go already exposes Context Graph querying and ingestion through its MCP server, so customers can use it from ChatGPT and other compatible clients. They can also create",
+          "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How V7 gives AI agents institutional memory",
+              "source_url": "https://openai.com/index/v7"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+              "source_url": "https://openai.com/index/v7"
+            }
+          ],
+          "slug": "how-v7-gives-ai-agents-institutional-memory-d1749ba7",
+          "localized_url": "/zh/items/2026-09-22/how-v7-gives-ai-agents-institutional-memory-d1749ba7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Grok 4.7 now available and 40% off on AI Gateway, fx, and eve",
+          "title_original": "Grok 4.7 now available and 40% off on AI Gateway, fx, and eve",
+          "title_en": "Grok 4.7 now available and 40% off on AI Gateway, fx, and eve",
+          "summary_zh": "OpenAI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Grok 4.7 from SpaceXAI is now available on AI Gateway and 40% off through September 27. The discount applies automatically when you call spacexai/grok-4.7 . Grok 4.7 has a 500K token context window and supports low, medium, high, and xhigh reasoning levels,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+          "published_at": "2026-09-21T00:00:00.000Z",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "xAI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f1e59e244672",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Grok 4.7 now available and 40% off on AI Gateway, fx, and eve - Vercel",
+          "extracted_excerpt": "Grok 4.7 from xAI is now available on Vercel AI Gateway, eve, and fx, and 40% off for a week starting September 21.",
+          "extracted_text_for_analysis": "Grok 4.7 from SpaceXAI is now available on AI Gateway and 40% off through September 27. The discount applies automatically when you call spacexai/grok-4.7. Grok 4.7 has a 500K token context window and supports low, medium, high, and xhigh reasoning levels, giving you control over the tradeoff between latency and depth. Use spacexai/grok-4.7 everywhere you call the model. The same ID works with the AI SDK, the OpenAI-compatible Chat Completions API, and coding agents connected to AI Gateway: import { streamText } from 'ai'; const result = streamText({ model: 'spacexai/grok-4.7', reasoning: 'xhigh', prompt: 'Investigate the failing tests, identify the root cause, and propose a fix.',}); To use Grok 4.7 in a coding agent, install the latest Vercel CLI and run setup: npm i -g vercel@latestvercel ai-gateway setup Then select spacexai/grok-4.7 in fx, Cursor, Codex, Amp, OpenCode, or another supported agent. See the coding agents guide for agent-specific instructions. To create a new eve agent with Grok 4.7 and xhigh reasoning, pass the same model ID to the initializer: npx eve@latest init grok-agent \\ --model spacexai/grok-4.7 \\ --reasoning xhigh Grok 4.7 supports Zero Data Retention and disallow prompt training. Requests appear in AI Gateway logs, custom reporting, and budgets alongside your other models. AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, budgets for API keys, routing rules, and more. AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests. Try Grok 4.7 in the model playground, or view all language models or check out more promotions on AI Gateway.",
+          "title_zh": "OpenAI 发布开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI、xAI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Grok 4.7 now available and 40% off on AI Gateway, fx, and eve",
+              "source_url": "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Grok 4.7 from SpaceXAI is now available on AI Gateway and 40% off through September 27. The discount applies automatically when you call spacexai/grok-4.7 . Grok 4.7 has a 500K token context window and supports low,",
+              "source_url": "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve"
+            }
+          ],
+          "slug": "grok-4-7-now-available-and-40-off-on-ai-gateway-fx-and-eve-f1e59e24",
+          "localized_url": "/zh/items/2026-09-22/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-and-eve-f1e59e24/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+          "title_original": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+          "title_en": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在开发者接口与平台能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+          "published_at": "Mon, 21 Sep 2026 18:00:07 +0000",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8b64befa0499",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+          "extracted_excerpt": "The new qualification program helps AI factory builders identify products that meet applicable NVIDIA DSX requirements, starting with battery energy storage systems and cooling distribution units.",
+          "extracted_text_for_analysis": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help builders make those decisions, NVIDIA is introducing NVIDIA DSX Ready, a qualification program for partner products and solutions that meet applicable NVIDIA DSX AI factory reference design requirements. The program launches with two initial categories: battery energy storage systems (BESS) and cooling distribution units (CDUs). Category-specific requirements and review through the program help builders evaluate offerings with greater confidence, reduce integration risk and move toward deployment. Qualified Building Blocks for Building AI Factory The NVIDIA DSX AI factory platform unifies AI factory design and operations across compute, networking, power, cooling, facilities and software. It helps partners design and operate the factory as one system to produce more useful AI output within available power, cooling, water and grid constraints. That system view matters now because optimizing one part of an AI factory can shift the bottleneck elsewhere. Power and cooling suppliers need a clear path from reference designs to qualified offerings, and builders need a clearer way to discover and evaluate those offerings. DSX Ready connects that selection process to applicable NVIDIA DSX requirements. It gives builders a clear qualification to look for and gives partners a defined way to demonstrate that a specific offering meets the requirements for its category. Power and Cooling Qualification At launch, DSX Ready includes qualified BESS solutions Hitachi Energy, LG Energy Solution and Tesla, and qualified CDU solutions from LG Electronics, LiquidStack and Vertiv. These initial categories bring power systems and liquid-cooling infrastructure into a common program, with requirements tailored to each technology. Additional categories across infrastructure and software will be rolled out over time. For BESS providers, partners run the required qualification tests and submit supporting data for NVIDIA review and approval within a defined qualification boundary. Passing qualification does not replace site-level engineering or imply site-level stability. For CDU providers, the path uses the CDU self-qualification suite to determine whether a specific offering meets applicable NVIDIA functional requirements. Teams can then focus on how qualified offerings fit their site, configuration and operating needs. A qualified CDU may meet the relevant cooling criteria, for example, while the builder still evaluates how it will fit the planned facility. From Platform Design to Partner Selection The value of a reference design grows when builders can connect it to specific products and informed engineering decisions. DSX Ready makes that connection, bringing partner innovation into the infrastructure choices behind NVIDIA DSX AI factories. Explore NVIDIA DSX Ready qualification categories and learn how to participate. Connect with the right NVIDIA team to begin qualification for a product or solution.",
+          "title_zh": "NVIDIA 发布开发者接口与平台能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+              "source_url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that",
+              "source_url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/"
+            }
+          ],
+          "slug": "nvidia-launches-dsx-ready-to-qualify-power-and-cooling-products-for-ai-f-9ee6cf4f",
+          "localized_url": "/zh/items/2026-09-22/nvidia-launches-dsx-ready-to-qualify-power-and-cooling-products-for-ai-f-9ee6cf4f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+          "title_original": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+          "title_en": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+          "published_at": "Mon, 21 Sep 2026 16:00:46 +0000",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1bb9769be8b3",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+          "extracted_excerpt": "Physical AI safety spans hardware, software and validation. See how NVIDIA Halos brings full-stack safety to autonomous vehicles and robots.",
+          "extracted_text_for_analysis": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, safety must scale with them. Physical AI safety means proving that AI-driven machines — AVs, humanoid robots, industrial robots and more — behave safely when their decisions turn into physical action. That requires safety across the hardware, software, AI, operating environment and deployment lifecycle — not a one-time check before deployment. Why Is Safety the Key to Scaling Physical AI? After years of testing and benchmarking, AVs continue to expand commercially. That progress has required developers to demonstrate how automated systems address potential hardware and software failures, limitations in intended functionality and AI-specific risks. Robotics is approaching a similar inflection point as autonomous machines move into factories, warehouses and other environments shared with people. Across physical AI, manufacturers, regulators, insurers and workplace safety teams need evidence that hardware, software, AI behavior and operating environments can work together safely without human intervention. Why Does Physical AI Need a New Safety Model? Four shifts define new safety standards: - Dynamic environments require context-aware safety. Roads, factories and warehouses cannot be fully controlled through static zones or physical barriers. Autonomous systems must perceive changing conditions, adapt their behavior and reach a safe state when something unexpected occurs. - AI behavior requires its own assurance. Testing must assess AI software alongside traditional functional safety, using design-time, runtime and validation-time guardrails. Emerging standards such as ISO/IEC TS 22440 are beginning to address these AI-specific risks. - Deployment is ongoing. AVs and robots evolve through software and model updates, new tasks and changing operating conditions. Material changes may require additional safety testing. - Validation at scale requires simulation and synthetic data. The number and complexity of potential scenarios requires real-world testing to be combined with simulation, synthetic data generation and scenario reconstruction. Together, these shifts require safety to be operationalized across design, deployment and validation, from the underlying hardware to AI behavior and the operating environment. What Safety Foundation Has NVIDIA Built for Physical AI? Physical AI safety requires specialized engineering, data, processes and validation that few companies can reproduce alone. NVIDIA’s safety foundation draws on more than a decade of development in AV safety, building expertise in functional safety, sensor fusion, AI behavior assurance, vision AI, simulation and real-world validation. NVIDIA Halos is the first and only full-stack safety system for physical AI, helping developers engineer safety across every layer of design, validation and deployment. The principles are shared across AVs and robotics, while the platforms, standards and evidence remain specific to each domain. For AV development, Halos spans: - Hardware: NVIDIA DRIVE AGX Thor provides safety-engineered accelerated compute, while NVIDIA Hyperion provides the full-stack vehicle platform and reference architecture for level 4 AVs. - Operating system and middleware: Halos OS provides a unified software foundation built on ASIL-D certified DriveOS. Halos Core and Halos Middleware support system isolation, monitoring and deterministic communication. - End-to-end model: NVIDIA Alpamayo offers open reasoning vision language action models that bring explainability to long-tail scenarios. - Simulation and validation: The NVIDIA Halos Safety Evaluation Framework provides tools and guidelines for generating evidence to support AV safety cases across different levels of automation. Together, these elements connect cloud-based AI development and simulation with in-vehicle deployment so safety evidence can remain traceable across the vehicle lifecycle. For robotics, Halos spans: - Hardware: NVIDIA IGX Thor is an industrial-grade module that combines accelerated computing and functional safety on one platform with a dedicated Functional Safety Island. It’s designed to support systems developed for standards including IEC 61508 and ISO 13849. - Software: Halos Core for IGX provides the software foundation for safety-related operating functions, including fault detection, monitoring and reporting, along with the communication and processing capabilities that connects sensors, actuators and other safety components - Real-time sensing: NVIDIA Holoscan Sensor Bridge connects sensor data with AI and safety-related processing, helping systems identify invalid information and execute defined safety responses. - Simulation and validation: NVIDIA Isaac Lab and NVIDIA Omniverse libraries let developers test robot behavior across relevant conditions and edge cases, complementing real-world validation. - Outside-in safety: The open source NVIDIA Halos Outside-In Safety Blueprint uses external cameras and vision AI agents to extend awareness beyond onboard sensors and support facility-level monitoring and functional safety use cases. Across both AV and robotics, the NVIDIA Halos AI Systems Inspection Lab turns safety, cybersecurity and AI safety requirements into repeatable inspections and helps prepare Halos integrations for final system-level certification by third-party agencies. Who Is Building With the NVIDIA Halos Safety Ecosystem? NVIDIA Halos connects the companies that build, integrate, assess and deploy physical AI solutions, including product developers, software and embedded-system providers, sensor and silicon companies, safety solution developers and certification bodies. In autonomous vehicles, Geely, Isuzu, Nissan (powered by Wayve software) and Einride are building level 4-ready vehicles on NVIDIA Hyperion, supported by Halos OS. Uber, Grab, Lyft and other mobility providers are also using Hyperion to scale robotaxi development and deployment. Members of the NVIDIA Halos AI Systems Inspection Lab include AUMOVIO, Bosch, Gatik, Hesai, Lucid, MIRA, onsemi, PlusAI, Sony, Valeo and Wayve, spanning autonomous-driving development, ADAS, sensors, silicon, systems integration, validation and safety assurance. In robotics, acontis and QNX provide the embedded software needed to run safety functions predictably, while Advantech and NexCOBOT build safety-designed NVIDIA IGX systems. Infineon, NXP, STMicroelectronics and Texas Instruments contribute sensor, safety-microcontroller and other semiconductor technologies. KION Group is developing functional safety agents for autonomous forklifts. Agility is integrating NVIDIA IGX Thor and Halos Core into the",
+          "title_zh": "NVIDIA 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+              "source_url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million",
+              "source_url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/"
+            }
+          ],
+          "slug": "why-deploying-physical-ai-at-scale-demands-safety-at-every-layer-173eb9a2",
+          "localized_url": "/zh/items/2026-09-22/why-deploying-physical-ai-at-scale-demands-safety-at-every-layer-173eb9a2/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+          "title_original": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+          "title_en": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+          "published_at": "Mon, 21 Sep 2026 16:00:10 +0000",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "7755df424d41",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+              "source_url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises —",
+              "source_url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/"
+            }
+          ],
+          "slug": "from-enablement-to-execution-egypts-ai-ecosystem-reaches-production-scal-2776c8dd",
+          "localized_url": "/zh/items/2026-09-22/from-enablement-to-execution-egypts-ai-ecosystem-reaches-production-scal-2776c8dd/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+          "title_original": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+          "title_en": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+          "published_at": "Mon, 21 Sep 2026 14:51:34 +0000",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8bbe89e1845b",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 讨论政府与国家安全合作原则",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+              "source_url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security",
+              "source_url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/"
+            }
+          ],
+          "slug": "ai-security-is-an-engineering-problem-how-to-solve-it-at-every-layer-of-dd63189f",
+          "localized_url": "/zh/items/2026-09-22/ai-security-is-an-engineering-problem-how-to-solve-it-at-every-layer-of-dd63189f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "5 Companies Using NVIDIA AI for Clean Energy",
+          "title_original": "5 Companies Using NVIDIA AI for Clean Energy",
+          "title_en": "5 Companies Using NVIDIA AI for Clean Energy",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week,",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
+          "published_at": "Mon, 21 Sep 2026 10:00:35 +0000",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1ca691988404",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "5 Companies Using NVIDIA AI for Clean Energy",
+              "source_url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront",
+              "source_url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/"
+            }
+          ],
+          "slug": "5-companies-using-nvidia-ai-for-clean-energy-40587245",
+          "localized_url": "/zh/items/2026-09-22/5-companies-using-nvidia-ai-for-clean-energy-40587245/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+          "title_original": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+          "title_en": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+          "published_at": "Mon, 21 Sep 2026 13:44:34 GMT",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c701b57089c5",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+              "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an"
+            }
+          ],
+          "slug": "pruning-llms-like-a-physicist-block-removal-as-an-ising-optimization-pro-c701b570",
+          "localized_url": "/zh/items/2026-09-22/pruning-llms-like-a-physicist-block-removal-as-an-ising-optimization-pro-c701b570/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "tokenizers v1: encode, decode and scaling, measured",
+          "title_original": "tokenizers v1: encode, decode and scaling, measured",
+          "title_en": "tokenizers v1: encode, decode and scaling, measured",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/tokenizers-v1",
+          "published_at": "Mon, 21 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "eb792e0fc342",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "tokenizers v1: encode, decode and scaling, measured",
+              "source_url": "https://huggingface.co/blog/tokenizers-v1"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/tokenizers-v1"
+            }
+          ],
+          "slug": "tokenizers-v1-encode-decode-and-scaling-measured-eb792e0f",
+          "localized_url": "/zh/items/2026-09-22/tokenizers-v1-encode-decode-and-scaling-measured-eb792e0f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+          "title_original": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+          "title_en": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The definitive Jev podcast with its lead creator.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/jev",
+          "published_at": "Mon, 21 Sep 2026 22:13:49 GMT",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "5d6dae0dda9c",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+              "source_url": "https://www.latent.space/p/jev"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The definitive Jev podcast with its lead creator.",
+              "source_url": "https://www.latent.space/p/jev"
+            }
+          ],
+          "slug": "jev-system-one-models-for-prod-not-god-with-diogo-almeida-ceo-typesafe-a-5d6dae0d",
+          "localized_url": "/zh/items/2026-09-22/jev-system-one-models-for-prod-not-god-with-diogo-almeida-ceo-typesafe-a-5d6dae0d/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🎙️ How I AI: Meta’s Muse review + How Warp ships 2,000 PRs a month with AI factories",
+          "title_original": "🎙️ How I AI: Meta’s Muse review + How Warp ships 2,000 PRs a month with AI factories",
+          "title_en": "🎙️ How I AI: Meta’s Muse review + How Warp ships 2,000 PRs a month with AI factories",
+          "summary_zh": "Meta 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-i-ai-metas-muse-review-how-warp",
+          "published_at": "Mon, 21 Sep 2026 15:03:51 GMT",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "154febf0aaf0",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Meta 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Meta，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🎙️ How I AI: Meta’s Muse review + How Warp ships 2,000 PRs a month with AI factories",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-metas-muse-review-how-warp"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-metas-muse-review-how-warp"
+            }
+          ],
+          "slug": "how-i-ai-metas-muse-review-how-warp-ships-2-000-prs-a-month-with-ai-fact-154febf0",
+          "localized_url": "/zh/items/2026-09-22/how-i-ai-metas-muse-review-how-warp-ships-2-000-prs-a-month-with-ai-fact-154febf0/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)",
+          "title_original": "How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)",
+          "title_en": "How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
+          "published_at": "Mon, 21 Sep 2026 12:04:11 GMT",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "201957d3ce7d",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)",
+              "source_url": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with"
+            }
+          ],
+          "slug": "how-warp-ships-2-000-prs-a-month-with-ai-factories-zach-lloyd-ceo-warp-201957d3",
+          "localized_url": "/zh/items/2026-09-22/how-warp-ships-2-000-prs-a-month-with-ai-factories-zach-lloyd-ceo-warp-201957d3/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Gateway now supports TypeSafe clients and an HTTP API for Jev",
+          "title_original": "AI Gateway now supports TypeSafe clients and an HTTP API for Jev",
+          "title_en": "AI Gateway now supports TypeSafe clients and an HTTP API for Jev",
+          "summary_zh": "Vercel AI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "You can now call Jev from TypeSafe AI through AI Gateway using an existing TypeSafe client or the HTTP API, in addition to the AI SDK. TypeSafe client: Point an existing TypeSafe client at AI Gateway without changing its evaluation calls. HTTP API: Call Jev",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
+          "published_at": "2026-09-21T00:00:00.000Z",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "65b6a9f6ffb8",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 更新模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Gateway now supports TypeSafe clients and an HTTP API for Jev",
+              "source_url": "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now call Jev from TypeSafe AI through AI Gateway using an existing TypeSafe client or the HTTP API, in addition to the AI SDK. TypeSafe client: Point an existing TypeSafe client at AI Gateway without changing",
+              "source_url": "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev"
+            }
+          ],
+          "slug": "ai-gateway-now-supports-typesafe-clients-and-an-http-api-for-jev-65b6a9f6",
+          "localized_url": "/zh/items/2026-09-22/ai-gateway-now-supports-typesafe-clients-and-an-http-api-for-jev-65b6a9f6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Connect now supports Microsoft Teams",
+          "title_original": "Vercel Connect now supports Microsoft Teams",
+          "title_en": "Vercel Connect now supports Microsoft Teams",
+          "summary_zh": "Microsoft 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Connect now includes a managed connector for Microsoft Teams . Creating one gives your organization a Teams bot that your apps and agents run. People can @mention it in channels or message it directly, and your code receives the message and replies as",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-connect-microsoft-teams",
+          "published_at": "2026-09-21T17:10:00.000Z",
+          "fetched_at": "2026-09-22T00:52:58.778079+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "844d348445af",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 更新AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Connect now supports Microsoft Teams",
+              "source_url": "https://vercel.com/changelog/vercel-connect-microsoft-teams"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Connect now includes a managed connector for Microsoft Teams . Creating one gives your organization a Teams bot that your apps and agents run. People can @mention it in channels or message it directly, and your",
+              "source_url": "https://vercel.com/changelog/vercel-connect-microsoft-teams"
+            }
+          ],
+          "slug": "vercel-connect-now-supports-microsoft-teams-844d3484",
+          "localized_url": "/zh/items/2026-09-22/vercel-connect-now-supports-microsoft-teams-844d3484/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-21",
       "title_zh": "AI 新闻简报 · 2026-09-21",
