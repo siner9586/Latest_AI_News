@@ -1,7 +1,1240 @@
 {
-  "updated_at": "2026-09-22T00:53:01.719630+00:00",
-  "count": 96,
+  "updated_at": "2026-09-23T00:38:48.754585+00:00",
+  "count": 97,
   "briefs": [
+    {
+      "date": "2026-09-23",
+      "title_zh": "AI 新闻简报 · 2026-09-23",
+      "title_en": "English AI News Brief · 2026-09-23",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 151 条，跨期排除历史已展示 130 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 151 candidates, 130 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 151,
+      "skipped_history_count": 130,
+      "selected_count": 18,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Better prompt caching for GPT-6",
+          "title_original": "Better prompt caching for GPT-6",
+          "title_en": "Better prompt caching for GPT-6",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+          "published_at": "Tue, 22 Sep 2026 21:00:00 GMT",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b6b1e4118cdb",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Better prompt caching for GPT-6",
+          "extracted_excerpt": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+          "extracted_text_for_analysis": "GPT‑6 enables persistent agents to work for hours on complex tasks, from refactoring codebases to producing well-researched documents and presentations. The applications behind these agents make a series of API requests that build on one another, often carrying forward the same instructions, tool definitions, and context from earlier turns. OpenAI caches that shared context to reuse computation across requests, reducing response times and giving developers discounts of up to 90% on cached input tokens. With the GPT‑6 family, we launched an improved prompt caching system that delivers higher cache hit rates by default. We now give cache discounts for eligible shared prefixes reused within a 30-minute window. We’re also introducing new tools to help developers monitor cache performance, diagnose misses, and choose how much of a prompt to cache. The new Prompt Caching Dashboard(opens in a new window) shows how much of your application’s input is served from cache. Track hit rates over time and use the input composition chart to compare cached and uncached tokens. These views help you spot drops in cache hits and evaluate how changes to your application impact caching performance. When you see an unexpected cache miss, use the prompt caching diagnostics tool(opens in a new window) to understand what happened. Compare a request with a recent response to identify changes to the model, tools, settings, or input that prevented reuse. The estimated number of affected tokens helps you assess the size of the impact and decide how you can optimize your integration to maximize cache hit rates. { \"prompt_cache_diagnostics\": { \"type\": \"cache_miss\", \"reason\": \"tools_changed\", \"comparison_reusable_tokens\": 5629, \"cache_missed_tokens\": 5629 } } Choose what to cache. Explicit cache breakpoints let you choose which prompt prefixes to reuse. The refreshed prompt caching guide(opens in a new window) explains how to use them, how long cached prefixes remain eligible, and how changes to tools and inputs affect reuse. Adjust reasoning effort without breaking cache. On GPT‑6 models, you can now change reasoning effort(opens in a new window) between responses without breaking cache. Raise effort for a harder task or lower it for a routine follow-up by appending a configuration_update while leaving request-level reasoning effort unchanged. This lets you adjust how much reasoning a task needs while preserving reusable context. Preserve cache as tools and instructions change. As your agent’s tool use needs change, keep tool definitions, schemas, and ordering stable so earlier context stays reusable. Use allowed_tools to make only the relevant tools callable, or set tool_choice to none when no tools are needed, instead of removing definitions. Use new developer messages to append new instructions towards the end of the context to override older ones. See our guidance on managing tool changes(opens in a new window). Prewarm the cache to reduce latency. Prewarming(opens in a new window) prepares known context ahead of time so the model can start responding sooner when a request arrives. For example, an application can prewarm shared instructions, tool definitions, or reference material during startup, before the user asks their first question. This moves processing out of the user’s wait time. These optional controls build on the engine’s default performance, helping you tailor caching to your workload. - Monitor cache hit rates in the Prompt Caching Dashboard(opens in a new window). - Investigate unexpected misses with the diagnostics tool(opens in a new window). - Follow the prompt caching guide(opens in a new window) to improve your setup, or use Codex(opens in a new window) to review your code, apply improvements, and measure results.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Better prompt caching for GPT-6",
+              "source_url": "https://openai.com/index/better-prompt-caching-for-gpt-6"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+              "source_url": "https://openai.com/index/better-prompt-caching-for-gpt-6"
+            }
+          ],
+          "slug": "better-prompt-caching-for-gpt-6-b6b1e411",
+          "localized_url": "/zh/items/2026-09-23/better-prompt-caching-for-gpt-6-b6b1e411/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing GPT-6 Sol and Luna",
+          "title_original": "Introducing GPT-6 Sol and Luna",
+          "title_en": "Introducing GPT-6 Sol and Luna",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+          "published_at": "Tue, 22 Sep 2026 18:00:00 GMT",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3d48e529ad7a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing GPT-6 Sol and Luna",
+          "extracted_excerpt": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+          "extracted_text_for_analysis": "Introducing GPT‑6 Sol and Luna More ways to bring frontier intelligence into the work you do every day. Earlier this month, we introduced GPT‑6 Astra, the most intelligent and aligned model in the world. While the most demanding and important projects still call for Astra’s full depth, work happens at different scales, rhythms, and budgets. That’s why we’re expanding the GPT‑6 universe with GPT‑6 Sol and GPT‑6 Luna. GPT‑6 Astra introduced a new generation of intelligence—these models help distribute the benefits of that intelligence by advancing the frontier on cost efficiency. We trained GPT‑6 Sol and Luna with similar methods as GPT‑6 Astra, bringing the advances behind Astra’s state-of-the-art performance in professional work, factuality, coding, computer use, and alignment to faster, more affordable models. The GPT‑6 models lead across the cost–intelligence curve, combining exceptional capabilities at every tier with infrastructure that delivers them efficiently at scale. Improvements in caching and inference let us serve these models at lower cost, and we’re passing those savings directly on to users and customers by reducing API prices for Sol and Luna by 50% compared with their GPT‑5.6 promotional pricing. Together, these improvements make advanced AI practical for more everyday tasks and applications at scale. Prices are per 1 million tokens. GPT‑6 Astra continues to be our best model across the board. Choose it when you want the best results and an uncompromising experience. GPT‑6 Sol and Luna bring intelligence upgrades and cost efficiency to the models you already know and use across capabilities most useful for getting complex work done. GPT‑6 Sol can take on difficult work tasks while giving you more room to iterate with higher usage limits and lower cost, offering more intelligence and better results versus similarly priced competitor models. On AutomationBench, a test of business workflows across apps, GPT‑6 Sol at xhigh effort outperforms Claude Opus 5 at max effort at just 9% of Opus 5’s cost per task. At high effort, GPT‑6 Luna improves on its predecessor by 5.4 percentage points at 58% lower cost per task. GPT‑6 Sol also exceeds Claude Fable 5.1 at far lower cost, and even bests low-effort GPT‑6 Astra. On Agents’ Last Exam, which evaluates agents on complex professional workflows, GPT‑6 Sol at max effort scores 56.4%, above Claude Opus 5’s highest score in the evaluation at 60% lower cost per task. The usefulness of an answer depends on getting the facts right, and we’re continuing to make progress on factual reliability. On our internal factuality evaluation, which is based on de-identified real-world conversations where users flagged mistakes by our models, GPT‑6 Sol makes about half as many mistakes as its predecessor, approaching Astra-level reliability at much lower cost. GPT‑6 Luna also improves substantially; at higher effort levels it matches GPT‑5.6 Sol at about a hundredth its cost. This year, coding agents have begun tackling tasks with more complexity, scope, and duration than ever before. At OpenAI, our internal usage has grown exponentially. Valued at API prices, daily token usage has exceeded $600 for the median researcher and $7,000 for researchers at the 90th percentile (Research acceleration: The view inside OpenAI). As coding agents take on longer and more demanding tasks, the cost of sustained use matters more. GPT‑6 Sol and Luna combine strong coding performance with lower API prices, giving developers more room to iterate and teams the confidence to be more ambitious about what they ask Codex to take on. On FrontierCode, which evaluates whether coding agents produce changes ready to merge into real codebases, GPT‑6 Sol improves substantially over GPT‑5.6 Sol, and is able to match Claude Fable 5.1 xhigh at much lower cost. On DeepSWE v1.1, which tests performance on complex software-engineering tasks in real codebases, GPT‑6 Sol at max effort scores 68.8%, within 1.1 percentage points of Claude Fable 5’s highest score in the evaluation—69.9% at xhigh effort—at approximately 80% lower cost per task. GPT‑6 Luna at max effort scores 66.6%, comparable to Claude Opus 5 and Fable 5 at medium effort. In these comparisons, Luna costs 93% less per task than Opus 5 and 96% less than Fable 5. While GPT‑6 Astra remains the world’s best model for computer use, GPT‑6 Sol and Luna offer more cost-efficient performance than their predecessors. On OSWorld 2.0 offline, GPT‑6 Sol at xhigh effort achieves a similar score to Claude Opus 5 at medium effort—60.5% versus 60.3%—at approximately 80% lower cost per task. GPT‑6 Luna (max) is able to exceed GPT‑5.6 Sol (medium) at one tenth of its cost. We’ve also brought GPT‑6 Astra’s improved communication style to Sol and Luna, which we think will be especially noticeable in technical and coding conversations. Expect to see more clarity, less jargon, fewer odd turns of phrase, fewer low-value details, and slightly shorter answers overall without losing substance. Alongside lower token prices, we’re helping developers building on GPT‑6 save more on the context their applications reuse. We’ve improved prompt caching for GPT‑6 to deliver higher cache hit rates by default, helping agents reuse more context, respond faster, and benefit from discounts of 90% on cached input-token reads. Developers also have more ways to measure and optimize their caching performance: - Monitor and diagnose. The Prompt Caching Dashboard(opens in a new window) shows how much input is cached and how that changes over time. The diagnostics tool(opens in a new window) helps explain missed opportunities for caching and what to fix. - Adjust reasoning effort and tool availability without breaking cache. Increase reasoning effort(opens in a new window) for harder tasks or lower it for simpler follow-ups, and enable or disable tools(opens in a new window) as your agent’s needs change. Both controls now preserve earlier context for cache reuse. - Optimize which prefixes get cached. Explicit breakpoints let developers choose where cached prompt prefixes end. This gives developers more control over cache reuse and can improve performance. GitHub reports that, over the past several months, these improvements have reduced the share of prompt tokens requiring fresh processing by more than 50% across billions of requests to OpenAI models, helping Copilot respond faster. GPT‑6 Sol and Luna build on the alignment work introduced with Astra, our most aligned model to date. In our alignment evaluations, both Sol and Luna show improvements over their GPT‑5.6 counterparts, including lower rates of misleading claims about their coding work. The evaluations below deliberately test challenging situations and do not measure failure rates in typical use. See the system card(opens in a new window) for the full results. GPT‑6 Sol and GPT‑6 Luna are available in ChatGPT Work and Codex starting today for all Plus, Pro, Business, Enterprise, and Edu users.",
+          "title_zh": "OpenAI 发布模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing GPT-6 Sol and Luna",
+              "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+              "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna"
+            }
+          ],
+          "slug": "introducing-gpt-6-sol-and-luna-3d48e529",
+          "localized_url": "/zh/items/2026-09-23/introducing-gpt-6-sol-and-luna-3d48e529/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+          "title_original": "Parallel cut research time and cost in half with GPT‑6 Astra",
+          "title_en": "Parallel cut research time and cost in half with GPT‑6 Astra",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+          "published_at": "Tue, 22 Sep 2026 12:00:00 GMT",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ce45d8dc0f6c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+          "extracted_excerpt": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+          "extracted_text_for_analysis": "Parallel cut research time and cost in half with GPT‑6 Astra GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models. 50% Less time to complete research tasks 50% Code cost reduction Parallel(opens in a new window) builds developer infrastructure for AI agents that do knowledge work over the web. Its tools support everything from web grounding for voice agents to research for financial institutions and legal customers, combining frontier models with web search. For Parallel’s longest-running research tasks, getting a high-quality answer typically meant using a bigger model with extended reasoning, which consumed more time and resources. The company has seen a major improvement in time and cost with GPT‑6 Astra. “With Astra, we’ve demonstrated that you can get the same high-quality research much, much faster with fewer research calls and less tokens.” In one test of GPT‑6 Astra, Parallel asked its agent to research six different labor-market statistics across four states over six months. The agent had to search across multiple websites, collect information, and compile the findings into a single research report. GPT‑6 Astra was able to complete the work in half the time of prior models, with roughly 50% code cost reduction, while delivering the same quality of research. Parallel also observed that GPT‑6 Astra made more focused searches and took fewer steps to reach a useful result. “Astra issued more targeted search queries and focused on the ultimate task better, incorporating its world knowledge compared to previous models.” The increased efficiency also makes it more practical for Parallel to divide research among multiple agents. GPT‑6 Astra can delegate specific research tasks to sub-agents, allowing work to happen simultaneously and reducing the time spent moving through a single sequence of searches. Parallel now has a better path from a complex question to a researched answer, with less time waiting, lower costs, and more room to tackle demanding research tasks at scale.",
+          "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Parallel cut research time and cost in half with GPT‑6 Astra",
+              "source_url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+              "source_url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra"
+            }
+          ],
+          "slug": "parallel-cut-research-time-and-cost-in-half-with-gpt6-astra-ce45d8dc",
+          "localized_url": "/zh/items/2026-09-23/parallel-cut-research-time-and-cost-in-half-with-gpt6-astra-ce45d8dc/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Priorities and principles for effective third party assessments",
+          "title_original": "Priorities and principles for effective third party assessments",
+          "title_en": "Priorities and principles for effective third party assessments",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/priorities-principles-third-party-assessments",
+          "published_at": "Tue, 22 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b4fb82cc1313",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "failed",
+          "quality_warnings": [
+            "request_failed:ReadTimeout"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Priorities and principles for effective third party assessments",
+              "source_url": "https://openai.com/index/priorities-principles-third-party-assessments"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+              "source_url": "https://openai.com/index/priorities-principles-third-party-assessments"
+            }
+          ],
+          "slug": "priorities-and-principles-for-effective-third-party-assessments-b4fb82cc",
+          "localized_url": "/zh/items/2026-09-23/priorities-and-principles-for-effective-third-party-assessments-b4fb82cc/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+          "title_original": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+          "title_en": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+          "summary_zh": "Benchmark 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Benchmark shares research or evaluation work, with attention to metrics, findings and practical limits.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/evaleval-aisi",
+          "published_at": "Tue, 22 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Benchmark"
+          ],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2960c64a019e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+          "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "extracted_text_for_analysis": "AISI and EvalEval have previously collaborated on research that began at a joint workshop alongside NeurIPS 2025, and feedback from the Institute has helped shape the Every Eval Ever (EEE) schema. This next phase of the collaboration puts that shared infrastructure into practice. As AI deployment accelerates, evaluations are becoming increasingly important sources of evidence about model and system performance. Yet results are reported across many formats, platforms, and outlets, often without enough information to reproduce them. Running the evaluations again may itself be prohibitively expensive. EvalEval's mission is to improve this ecosystem through a shared reporting schema, Every Eval Ever, and an open platform, Evaluation Cards, that brings evaluation results and the information needed to interpret them into a common structure. This builds naturally on AISI's work to make evaluation more efficient through OptStop, more statistically rigorous through HiBayES, and more standardised in areas including transcript analysis and capability elicitation. Together, AISI and EvalEval are working to diagnose gaps in evaluation reporting and build shared infrastructure to close them. Transcript-level transparency matters not only for reproducibility, but also for analysis and diagnosis. In this new phase of the collaboration, AISI is making publicly reported evaluation methods and findings available through Evaluation Cards where appropriate. The release includes verified results, context, and configuration information for the five benchmarks in the paper's main experiment: - HealthBench - FrontierMath - Humanity's Last Exam - SWE-Bench Pro - Terminal-Bench 2.0 These results cover six frontier models: Claude Opus 4, Claude Opus 4.5, Claude Opus 4.6, GPT-5, GPT-5.2, and GPT-5.4. The release also includes results from two related cyber evaluations—Cyber CTFs and The Last Ones—which use a different, partially overlapping set of models. The data accompany AISI's paper, How Inference Compute Shapes Frontier LLM Evaluation, which studies how benchmark performance depends on inference-time compute and evaluation protocol. Performance on Humanity's Last Exam changes with evaluation protocol and inference compute. Each curve shows the cumulative share of attempted tasks solved within a given token count, using the earliest observed success per task. When models received correctness feedback from an oracle after each attempt, they continued to solve additional tasks as token use increased. When results are openly released with setup information, researchers and practitioners can examine individual studies more closely and compare findings across the wider ecosystem. Where other reports lack these details, releases like AISI's provide verified reference points for interpreting evaluations in context—for example, by helping researchers understand how setup choices may influence reported performance. As more evaluators adopt EEE, open comparisons like these can support broader and more reliable meta-research. AISI's Terminal-Bench 2.0 results alongside other reported evaluations for the same models, under different evaluation setups. We are excited about this adoption and look forward to further standardising and sharing evaluations with AISI and other AI evaluation organisations. - Model developers: Report verified evaluation results. - Evaluation developers: Report benchmarks and run data using the Every Eval Ever schema. - Evaluation, governance, and policy researchers: Explore Evaluation Cards by benchmark or model, or use it to examine the state of evaluation reporting as a whole. The EvalEval Coalition is a research community developing scientifically grounded research and robust deployment infrastructure for the evaluation ecosystem. Its goal is to improve evaluation science, address the lack of consensus around documenting evaluation applicability and utility, and broaden coverage of the impacts that matter for scientific research and policy analysis. The coalition's flagship projects include Every Eval Ever, a shared schema and repository for evaluation results, and Evaluation Cards, which combines benchmark metadata, evaluation-run data, and model metadata into interpretable records. Together, they make it easier to understand when apparently similar scores were produced under meaningfully different conditions. The UK AI Security Institute is a research organisation within the UK government's Department for Science, Innovation and Technology. Its mission is to equip governments with a scientific understanding of the risks posed by advanced AI. AISI conducts research and builds infrastructure to understand advanced AI capabilities and impacts, develop and test mitigations, and inform policy.",
+          "title_zh": "Benchmark 披露模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Benchmark 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Benchmark，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。",
+            "涉及公司或机构：Benchmark。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "benchmark",
+              "explanation": "用于衡量模型能力的任务集合或评测体系。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+              "source_url": "https://huggingface.co/blog/evaleval-aisi"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Benchmark shares research or evaluation work, with attention to metrics, findings and practical limits.",
+              "source_url": "https://huggingface.co/blog/evaleval-aisi"
+            }
+          ],
+          "slug": "how-uk-aisi-and-evaleval-are-making-benchmark-results-reproducible-2960c64a",
+          "localized_url": "/zh/items/2026-09-23/how-uk-aisi-and-evaleval-are-making-benchmark-results-reproducible-2960c64a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+          "title_original": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+          "title_en": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+          "summary_zh": "Hugging Face 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/omlx",
+          "published_at": "Tue, 22 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Hugging Face"
+          ],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "fb8ad85c459c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+          "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "extracted_text_for_analysis": "MLX is Apple's framework for local AI, especially optimized for Apple Silicon. We are big MLX supporters since it was the Christmas present from Awni and Angelos in 2023, and proud that Hugging Face is the Hub where people find MLX models and contribute their own. Usage of open, local AI is accelerating, and we believe in a healthy ecosystem where people can find the tools that work for them. Stability, and hopefully faster development! Graduating from a side job to a fully maintained and funded project will allow Jun to better guide the contributors and build for the long-term. oMLX stays Apache 2.0, and Jun keeps leading it as before. Our end goal is to unblock the community to run local AI in any shape or form, and provide the tools and building blocks to make that happen. We expect oMLX to serve as a testbed for new ideas, while leveraging the foundational work of the dependencies it already relies upon, such as mlx-lm or mlx-vlm. We believe that strong modeling and inference libraries help the community, so we'd love to upstream work to wherever it makes sense. We have been collaborating with many projects mlx-lm, mlx-vlm, LMStudio, and we hope we can strengthen the relationship with Cheng, Prince, Yagil, and their teams to better serve the community together. Concretely, one focus area is the quick transition from a transformers model definition to a reference MLX implementation that can be consumed by different engines, so each one can focus on the unique features they provide. The transformers library has become the reference for ML model definitions, we want to streamline the process to make new transformers models run on MLX. We are incredibly excited about the future. Welcome, Jun! 🙌",
+          "title_zh": "Hugging Face 更新模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。",
+            "涉及公司或机构：Hugging Face。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+              "source_url": "https://huggingface.co/blog/omlx"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/omlx"
+            }
+          ],
+          "slug": "jun-kim-omlx-creator-and-maintainer-joins-hugging-face-to-support-the-ml-fb8ad85c",
+          "localized_url": "/zh/items/2026-09-23/jun-kim-omlx-creator-and-maintainer-joins-hugging-face-to-support-the-ml-fb8ad85c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GPT-6 Sol and Luna now available on AI Gateway",
+          "title_original": "GPT-6 Sol and Luna now available on AI Gateway",
+          "title_en": "GPT-6 Sol and Luna now available on AI Gateway",
+          "summary_zh": "OpenAI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT-6 Sol and GPT-6 Luna from OpenAI are now available on AI Gateway . Both models bring GPT-6 improvements in professional work, coding, computer use, factuality, and communication at a lower price than GPT-6 Astra . GPT-6 Sol ( openai/gpt-6-sol ) is suited",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/gpt-6-sol-and-luna-now-available-on-ai-gateway",
+          "published_at": "2026-09-22T00:00:00.000Z",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c332c2aee6a2",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "GPT-6 Sol and Luna now available on AI Gateway - Vercel",
+          "extracted_excerpt": "GPT-6 Sol and GPT-6 Luna from OpenAI are now available on Vercel AI Gateway for coding, professional workflows, computer use, and agentic applications.",
+          "extracted_text_for_analysis": "GPT-6 Sol and GPT-6 Luna from OpenAI are now available on AI Gateway. Both models bring GPT-6 improvements in professional work, coding, computer use, factuality, and communication at a lower price than GPT-6 Astra. - GPT-6 Sol ( openai/gpt-6-sol ) is suited to complex professional workflows and sustained coding tasks where quality and room to iterate both matter. - GPT-6 Luna ( openai/gpt-6-luna ) is the lower-cost option for high-volume agentic workflows, coding, and everyday tasks. Both Sol and Luna communicate more directly than their GPT-5.6 counterparts, with less jargon and fewer low-value details. They also improve factual reliability and are less likely to make misleading claims about work completed during coding tasks. Use openai/gpt-6-sol and openai/gpt-6-luna across the AI SDK, OpenAI-compatible Chat Completions API, OpenAI-compatible Responses API, and coding agents connected to AI Gateway. import { streamText } from 'ai'; const result = streamText({ model: 'openai/gpt-6-sol', prompt: `Investigate the checkout failures, implement and test a fix, then summarize the changes and any remaining risks.`,}); Install the latest Vercel CLI and connect your supported coding agents to AI Gateway: npm i -g vercel@latestvercel ai-gateway setup Then select openai/gpt-6-sol for longer or more demanding coding work, or openai/gpt-6-luna when throughput is the priority. AI Gateway provides a unified API for calling models, tracking usage, and configuring retries, failover, and routing. Try GPT-6 Sol or GPT-6 Luna in the model playground, or view all language models available on AI Gateway.",
+          "title_zh": "OpenAI 发布代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GPT-6 Sol and Luna now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/gpt-6-sol-and-luna-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT-6 Sol and GPT-6 Luna from OpenAI are now available on AI Gateway . Both models bring GPT-6 improvements in professional work, coding, computer use, factuality, and communication at a lower price than GPT-6 Astra .",
+              "source_url": "https://vercel.com/changelog/gpt-6-sol-and-luna-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "gpt-6-sol-and-luna-now-available-on-ai-gateway-c332c2ae",
+          "localized_url": "/zh/items/2026-09-23/gpt-6-sol-and-luna-now-available-on-ai-gateway-c332c2ae/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Claude Opus 5.5 now available on AI Gateway",
+          "title_original": "Claude Opus 5.5 now available on AI Gateway",
+          "title_en": "Claude Opus 5.5 now available on AI Gateway",
+          "summary_zh": "Anthropic 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Claude Opus 5.5 from Anthropic is now available on AI Gateway . It is a step-change improvement over Opus 5 , with its biggest gains in agentic coding, long-running agent tasks, and knowledge work. Anthropic cites that Opus 5.5 performs at the level of Fable",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/claude-opus-5-5-now-available-on-ai-gateway",
+          "published_at": "2026-09-22T00:00:00.000Z",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "7d11b8cd0bdf",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Claude Opus 5.5 now available on AI Gateway - Vercel",
+          "extracted_excerpt": "Claude Opus 5.5 from Anthropic is now available on Vercel AI Gateway with adaptive thinking, fast mode, regional inference, a 1M context window, and up to max effort.",
+          "extracted_text_for_analysis": "Claude Opus 5.5 from Anthropic is now available on AI Gateway. It is a step-change improvement over Opus 5, with its biggest gains in agentic coding, long-running agent tasks, and knowledge work. Anthropic cites that Opus 5.5 performs at the level of Fable 5.1, but ~30% faster and ~40% cheaper than Opus 5 per task. Opus 5.5 is also a better collaborator over long runs. It reports back in plain language on what it did, what it found, and what it needs next, making it easier to supervise work that spans many steps or takes place over a longer period. Opus 5.5 includes two API changes that can turn previously valid requests into HTTP 400 errors: - Thinking is always adaptive. Requests that disable thinking or set a fixed thinking budget are rejected. The model decides how much to think for each request. Use effort and prompting to steer its thinking behavior. - Forced tool use is retired. Requests cannot require a tool call or force a specific tool. Prompt the model toward the tool, then catch and retry misses in your harness. If you previously forced a tool call to return JSON, use structured outputs instead. Use anthropic/claude-opus-5.5 across the AI SDK, OpenAI-compatible Chat Completions API, Anthropic Messages API, and coding agents connected to AI Gateway. You can also enable fast mode with the gateway speed option r anthropic/claude-opus-5.5-fast. The model has a 1M-token context window, returns up to 128K tokens, and has a June 2026 knowledge cutoff. import { streamText } from 'ai'; const result = streamText({ model: 'anthropic/claude-opus-5.5', reasoning: 'medium', prompt: 'Investigate the failing tests, implement a fix, and report what changed.', providerOptions: { gateway: { speed: 'fast', inferenceRegion: { scope: 'zone', geoRegion: 'us' }, }, },}); Copy link to headingRegional inference and Zero Data Retention Regional inference and Zero Data Retention are opt-in request controls. This example pins inference to the US and ZDR: const regionalResult = streamText({ model: 'anthropic/claude-opus-5.5', prompt: 'Summarize this internal document.', providerOptions: { gateway: { inferenceRegion: { scope: 'zone', geoRegion: 'us' }, zeroDataRetention: true, }, },}); Copy link to headingUse Opus 5.5 in coding agents Install the latest Vercel CLI and connect your supported coding agents to AI Gateway: npm i -g vercel@latestvercel ai-gateway setup Then select anthropic/claude-opus-5.5 in the agent. In Claude Code, use /fast to toggle fast mode for the session. See the coding agents guide for other agent-specific instructions. AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, budgets for API keys, routing rules, and more. AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests. Try Claude Opus 5.5 in the model playground, or view all language models available on AI Gateway.",
+          "title_zh": "Anthropic 发布代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Anthropic 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Claude Opus 5.5 now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/claude-opus-5-5-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Claude Opus 5.5 from Anthropic is now available on AI Gateway . It is a step-change improvement over Opus 5 , with its biggest gains in agentic coding, long-running agent tasks, and knowledge work. Anthropic cites that",
+              "source_url": "https://vercel.com/changelog/claude-opus-5-5-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "claude-opus-5-5-now-available-on-ai-gateway-7d11b8cd",
+          "localized_url": "/zh/items/2026-09-23/claude-opus-5-5-now-available-on-ai-gateway-7d11b8cd/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+          "title_original": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+          "title_en": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+          "published_at": "Tue, 22 Sep 2026 12:00:41 +0000",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "81bdeb67aab1",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "open source",
+              "explanation": "可公开查看、使用或修改的代码与模型资源。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+              "source_url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics",
+              "source_url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
+            }
+          ],
+          "slug": "nvidia-isaac-ros-5-0-advances-agentic-open-source-robotics-development-193bdb30",
+          "localized_url": "/zh/items/2026-09-23/nvidia-isaac-ros-5-0-advances-agentic-open-source-robotics-development-193bdb30/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Transformers now runs llama.cpp quants",
+          "title_original": "Transformers now runs llama.cpp quants",
+          "title_en": "Transformers now runs llama.cpp quants",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+          "published_at": "Tue, 22 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "98acfe91fd30",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Transformers now runs llama.cpp quants",
+              "source_url": "https://huggingface.co/blog/transformers-llama-cpp-quants"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/transformers-llama-cpp-quants"
+            }
+          ],
+          "slug": "transformers-now-runs-llama-cpp-quants-98acfe91",
+          "localized_url": "/zh/items/2026-09-23/transformers-now-runs-llama-cpp-quants-98acfe91/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+          "title_original": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+          "title_en": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
+          "published_at": "Tue, 22 Sep 2026 23:12:49 GMT",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f0c4809f601a",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+              "source_url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model"
+            }
+          ],
+          "slug": "opus-5-5-vs-gpt-6-sol-which-model-won-my-blind-taste-test-f0c4809f",
+          "localized_url": "/zh/items/2026-09-23/opus-5-5-vs-gpt-6-sol-which-model-won-my-blind-taste-test-f0c4809f/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+          "title_original": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+          "title_en": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+          "summary_zh": "Google 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/john-platt",
+          "published_at": "Tue, 22 Sep 2026 21:07:39 GMT",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "827f1b5fbc42",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Google 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Google，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+              "source_url": "https://www.latent.space/p/john-platt"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
+              "source_url": "https://www.latent.space/p/john-platt"
+            }
+          ],
+          "slug": "an-oscar-two-asteroids-and-the-algorithm-in-your-sklearn-john-platt-on-a-827f1b5f",
+          "localized_url": "/zh/items/2026-09-23/an-oscar-two-asteroids-and-the-algorithm-in-your-sklearn-john-platt-on-a-827f1b5f/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "I left Claude for months. Opus 5.5 is why I'm back",
+          "title_original": "I left Claude for months. Opus 5.5 is why I'm back",
+          "title_en": "I left Claude for months. Opus 5.5 is why I'm back",
+          "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+          "published_at": "Tue, 22 Sep 2026 19:06:40 GMT",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "48b6ca0f8847",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "I left Claude for months. Opus 5.5 is why I'm back",
+              "source_url": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55"
+            }
+          ],
+          "slug": "i-left-claude-for-months-opus-5-5-is-why-i-m-back-48b6ca0f",
+          "localized_url": "/zh/items/2026-09-23/i-left-claude-for-months-opus-5-5-is-why-i-m-back-48b6ca0f/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Advanced evals: How to find (and fix) hidden AI failures in your product",
+          "title_original": "Advanced evals: How to find (and fix) hidden AI failures in your product",
+          "title_en": "Advanced evals: How to find (and fix) hidden AI failures in your product",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Why you should never skip error discovery",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix",
+          "published_at": "Tue, 22 Sep 2026 12:45:14 GMT",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "29473932169b",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Advanced evals: How to find (and fix) hidden AI failures in your product",
+              "source_url": "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Why you should never skip error discovery",
+              "source_url": "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix"
+            }
+          ],
+          "slug": "advanced-evals-how-to-find-and-fix-hidden-ai-failures-in-your-product-29473932",
+          "localized_url": "/zh/items/2026-09-23/advanced-evals-how-to-find-and-fix-hidden-ai-failures-in-your-product-29473932/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+          "title_original": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+          "title_en": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "crowning a new Chinese frontier lab",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
+          "published_at": "Tue, 22 Sep 2026 06:30:56 GMT",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "20af5c3822b9",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+              "source_url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b"
+            },
+            {
+              "label": "公开摘要",
+              "text": "crowning a new Chinese frontier lab",
+              "source_url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b"
+            }
+          ],
+          "slug": "ainews-xiaomi-mimo-v2-6-pro-1t-a42b-the-new-top-open-weights-model-train-20af5c38",
+          "localized_url": "/zh/items/2026-09-23/ainews-xiaomi-mimo-v2-6-pro-1t-a42b-the-new-top-open-weights-model-train-20af5c38/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "MiMo V2.6 models now available on AI Gateway",
+          "title_original": "MiMo V2.6 models now available on AI Gateway",
+          "title_en": "MiMo V2.6 models now available on AI Gateway",
+          "summary_zh": "Vercel AI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "MiMo V2.6 Pro , MiMo V2.6 Flash , and MiMo V2.6 Pro UltraSpeed from Xiaomi are now available on AI Gateway . MiMo V2.6 combines coding, reasoning, and tool use with native text, image, audio, and video understanding. Its 1M token context supports long",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/mimo-v2-6-models-now-available-on-ai-gateway",
+          "published_at": "2026-09-21T00:00:00.000Z",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "314b8607094a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "MiMo V2.6 models now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/mimo-v2-6-models-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "MiMo V2.6 Pro , MiMo V2.6 Flash , and MiMo V2.6 Pro UltraSpeed from Xiaomi are now available on AI Gateway . MiMo V2.6 combines coding, reasoning, and tool use with native text, image, audio, and video understanding.",
+              "source_url": "https://vercel.com/changelog/mimo-v2-6-models-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "mimo-v2-6-models-now-available-on-ai-gateway-314b8607",
+          "localized_url": "/zh/items/2026-09-23/mimo-v2-6-models-now-available-on-ai-gateway-314b8607/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Canary rollouts: upgrade models in production without downtime",
+          "title_original": "Canary rollouts: upgrade models in production without downtime",
+          "title_en": "Canary rollouts: upgrade models in production without downtime",
+          "summary_zh": "Together AI Blog 更新了推理容量与成本控制方案，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "A hard model swap exposes every user at once, and rolling back means cold-starting the old deployment under pressure. Here's how staged traffic ramps, metric gates, and automatic rollback work on dedicated inference.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/canary-rollouts-upgrade-models-in-production-without-downtime",
+          "published_at": "Tue, 22 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "7dd7692ab80f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Together AI Blog 推进推理容量与成本控制方案",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI Blog 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI Blog，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Canary rollouts: upgrade models in production without downtime",
+              "source_url": "https://www.together.ai/blog/canary-rollouts-upgrade-models-in-production-without-downtime"
+            },
+            {
+              "label": "公开摘要",
+              "text": "A hard model swap exposes every user at once, and rolling back means cold-starting the old deployment under pressure. Here's how staged traffic ramps, metric gates, and automatic rollback work on dedicated inference.",
+              "source_url": "https://www.together.ai/blog/canary-rollouts-upgrade-models-in-production-without-downtime"
+            }
+          ],
+          "slug": "canary-rollouts-upgrade-models-in-production-without-downtime-7dd7692a",
+          "localized_url": "/zh/items/2026-09-23/canary-rollouts-upgrade-models-in-production-without-downtime-7dd7692a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Drives for Vercel Sandbox are now in public beta",
+          "title_original": "Drives for Vercel Sandbox are now in public beta",
+          "title_en": "Drives for Vercel Sandbox are now in public beta",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Drives for Vercel Sandbox are now available in public beta on Hobby, Pro, and Enterprise. A Drive is persistent storage that you mount as a directory in a Vercel Sandbox. It isn’t tied to a single sandbox, so you can reuse the same Drive across runs and",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/drives-for-vercel-sandbox-are-now-in-public-beta",
+          "published_at": "2026-09-22T00:00:00.000Z",
+          "fetched_at": "2026-09-23T00:38:34.074846+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "88dfdf44a7d1",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Drives for Vercel Sandbox are now in public beta",
+              "source_url": "https://vercel.com/changelog/drives-for-vercel-sandbox-are-now-in-public-beta"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Drives for Vercel Sandbox are now available in public beta on Hobby, Pro, and Enterprise. A Drive is persistent storage that you mount as a directory in a Vercel Sandbox. It isn’t tied to a single sandbox, so you can",
+              "source_url": "https://vercel.com/changelog/drives-for-vercel-sandbox-are-now-in-public-beta"
+            }
+          ],
+          "slug": "drives-for-vercel-sandbox-are-now-in-public-beta-88dfdf44",
+          "localized_url": "/zh/items/2026-09-23/drives-for-vercel-sandbox-are-now-in-public-beta-88dfdf44/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-22",
       "title_zh": "AI 新闻简报 · 2026-09-22",
