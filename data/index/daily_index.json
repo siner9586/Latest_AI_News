@@ -1,7 +1,1210 @@
 {
-  "updated_at": "2026-09-23T00:38:48.754585+00:00",
-  "count": 97,
+  "updated_at": "2026-09-24T00:32:29.300628+00:00",
+  "count": 98,
   "briefs": [
+    {
+      "date": "2026-09-24",
+      "title_zh": "AI 新闻简报 · 2026-09-24",
+      "title_en": "English AI News Brief · 2026-09-24",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 125 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 125 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 125,
+      "selected_count": 18,
+      "categories": [
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Sam Altman’s remarks at the United Nations Security Council",
+          "title_original": "Sam Altman’s remarks at the United Nations Security Council",
+          "title_en": "Sam Altman’s remarks at the United Nations Security Council",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+          "published_at": "Wed, 23 Sep 2026 12:00:00 GMT",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "models-products",
+          "people": [
+            "Sam Altman"
+          ],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 78.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "01d4e543c941",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sam Altman’s remarks at the United Nations Security Council",
+          "extracted_excerpt": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+          "extracted_text_for_analysis": "Today, OpenAI CEO Sam Altman addressed the United Nations Security Council on artificial intelligence. He discussed AI’s potential to expand opportunity, the importance of keeping powerful systems under human control, and the need for international cooperation on AI safety. Thank you, Mr. President and your Excellencies. I’m honored to be here and to be able to speak with you all at this important time. We have been talking about artificial intelligence for years, but it feels different in recent weeks and months. Rapid model progress has made the timeline feel more compressed, the upside more tangible, but also the stakes and the risks more immediate. We have a choice in front of us. AI can either be more like a new Renaissance of creativity and discovery, or more like a new Industrial Revolution of upheaval and disarray. The Renaissance was a time when new tools, new ideas, and new institutions expanded what people believed they could do. AI can play that role for our time. I believe that people are much more capable than they imagine themselves to be, but have been held back by limited technology that was meant to empower but instead distracts and often steals attention. The best version of AI is not about making people cogs in a giant machine, or optimizing every part of life until the human parts disappear. It is about giving people more agency in an ever more complex world: more ability to learn, to create, discover, build, participate. There are many things that AI cannot—and should not—automate. AI should be built for people, not simply to turn the crank of the machines faster for their own sake. Some of the things people working to build AI have said are so dystopian that they sound like the plot of bad science fiction movies. Anything this powerful is also intimidating. This moment is complicated as we feel both tremendous potential and very understandable anxiety at the same time. These models can help people discover new knowledge: new medicines, better health care, stronger education, and build more productive economies. They can be new tools for people to pursue dreams and ambition that today feel out of reach. The complexity of life has increased so dramatically for the average person. AI can be a defensive tool against this complexity as much as it can be this tool of unprecedented discovery and innovation. On the other hand, as AI systems become more capable and more autonomous, they could move faster than our institutions, concentrate power in too few hands, or make decisions that people no longer understand or control. That concern becomes especially important as we approach systems that can improve themselves and future versions of themselves, often called recursive self-improvement. As the process of building AI becomes more automated, the pace of AI progress could accelerate rapidly. This moment calls for extreme care. I largely agree with Professor Bengio. Although I’ll say two instead of three—I believe there are two ways that AI progress could go very badly that we have to avoid. First, we could lose control of the future to AI. The risk is that it moves so fast that people can no longer follow what’s happening or intervene when needed. This would obviously be terrible. The industry must not accept too much technological risk just because the benefits are too great and that they feel too important to slow down. Beating companies in a competitive pace is not a reason to make rash decisions. Nor do we believe we are locked in a race where we are unable to do that. We have unilaterally slowed down in the past. We will do so in the future. We do not want to build systems—we think it’s important that everyone avoids building systems—where we cannot make the alignment, monitorability, and safety guarantees that we must. We need to understand what these systems are doing and have strong evidence that they will do what people intend, even as they get very, very smart. Actually especially as they get very very smart. It doesn’t matter whether people put the risk of catastrophe at 10%, or 1%, or 12%, or .1%. None of these levels are remotely acceptable. And we should not train models that we cannot make an extremely strong case that we will be able to keep under human control. So that’s one way things can go wrong. In the other direction, these systems could concentrate too much power in too few hands. No one person or company or country should be able to use the most powerful AI models to impose their worldview on everyone else. A company or country that believes only it can be trusted with this technology can use that belief to justify almost anything else. We have to reject that logic, even when it’s convenient for any one actor. I believe there is a pragmatic path through both of these. At OpenAI, we approach these questions with a clear goal: AI should give people more power over their own lives. More freedom to live lives the way they want. More ability to solve problems, big or small, and to improve their communities. We don’t want to fall into the trap of blind optimism. We also don’t want to fall into the trap of doomerism either. Getting pulled into either extreme will not help us successfully figure out the challenges in front of us, especially at a time when the world and its people face such enormous challenges that this technology can help solve. So we try to walk the middle path between these two poles. For us, that means three principles. First, as AI becomes more capable, people must remain at the center of AI decision-making. Alignment is not an abstract research question. It is the work of ensuring that these systems reliably remain under human control, reflect human values, and help people guide the next stages of development. We are not trying to, and must not, automate human judgment, or human values. Second, the benefits of scientific progress and economic growth must be by people and for people. AI should help researchers make discoveries, doctors treat patients, teachers teach students, entrepreneurs start companies, communities solve problems that felt out of reach, and much more. The continuous story of human progress is not that tools replace human agency. It is that the right tools make people more capable, and I believe this is going to go much further than we believe possible. Third, this technology must empower people individually. A great future will come from people realizing their potential and building value for themselves, their communities, their countries, and the broader world. We might be one of the builders of this technology, but we are not the heroes of this story. Our role is to enable people all over the world and to trust in the magic of humanity’s skill and faculties. We now have models capable of discovering knowledge that we have never had before. Consider the progress we’ve seen in math. Three summers ago, our models were okay at grade-school math. Two summers ago, they were pretty good at high-school",
+          "title_zh": "OpenAI 推进政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Sam Altman’s remarks at the United Nations Security Council",
+              "source_url": "https://openai.com/index/sam-altman-un-security-council-remarks"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+              "source_url": "https://openai.com/index/sam-altman-un-security-council-remarks"
+            }
+          ],
+          "slug": "sam-altmans-remarks-at-the-united-nations-security-council-01d4e543",
+          "localized_url": "/zh/items/2026-09-24/sam-altmans-remarks-at-the-united-nations-security-council-01d4e543/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+          "title_original": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+          "title_en": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+          "summary_zh": "NVIDIA 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+          "published_at": "Wed, 23 Sep 2026 18:41:40 GMT",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a70f8ac64edf",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+          "extracted_excerpt": "A Blog post by NVIDIA on Hugging Face",
+          "extracted_text_for_analysis": "MuJoCo Warp (MJWarp), built on NVIDIA Warp, takes compatible MuJoCo models into that GPU-scale regime. In this article, we will move an SO-101 follower arm from a familiar MuJoCo workflow to as many as 2,048 parallel MJWarp environments and examine the technology and validation steps that make the transition possible. Figure 1. How MJWarp connects Python to GPU simulation. MuJoCo loads and compiles the MJCF model; MJWarp implements the physics in NVIDIA Warp, which compiles CUDA kernels to advance simulation states on NVIDIA GPUs. This is the second article in our State of Simulation for Physical AI series. The first article mapped the robot-simulation landscape. Here, we prepare and scale the simulation environment; we do not train a policy. The later Newton and Isaac Lab installments cover the next integration layers. Decision shortcut: NVIDIA Warp is a Python framework for writing high-performance, GPU-accelerated kernels. Warp lets developers author statically typed kernels in Python and compiles them for CPU or CUDA execution. The first launch builds and caches a native module; later launches reuse it. The kernel language is a performance-oriented subset of Python, while ordinary Python remains responsible for configuration, allocation, and launch orchestration. This small robotics-oriented kernel advances point positions under gravity. One logical thread handles one point, so the same code scales from two points to millions without introducing GPU terminology into the control flow. The three value propositions of Warp are: import numpy as np import warp as wp @wp.kernel def integrate( positions: wp.array[wp.vec3], velocities: wp.array[wp.vec3], dt: float, 0.0, 0.0, -9.81) * dt positions[i] += velocities[i] * dt wp.init() device = \"cuda:0\" if wp.is_cuda_available() else \"cpu\" start = np.array([[0.0, 0.0, 0.5], [0.2, 0.0, 0.5]], dtype=np.float32) positions = wp.array(start, dtype=wp.vec3, device=device) velocities = wp.zeros_like(positions) wp.launch( integrate, dim=len(start), inputs=[positions, velocities, 0.01], device=device, ) wp.synchronize_device(device) print(positions.numpy()) - Explicit parallel work. wp.tid() identifies the point, contact, body, or world owned by the current logical thread. - Explicit device arrays. An array lives on the selected device. Calling .numpy() on a CUDA array synchronizes and copies it to CPU memory; it is not a zero-copy path. For a device-resident PyTorch or JAX pipeline, use Warp’s framework adapters or DLPack-compatible sharing instead. - Composable kernel launches. A program can launch a sequence of focused kernels and capture supported CUDA work into a graph to reduce repeated dispatch overhead. Graph capture replays launches against existing buffers; it does not fuse arbitrary kernels. Two further Warp capabilities are worth knowing, even though neither is used in the SO-101 workflow in this article. Warp kernels are differentiable: a wp.Tape records the forward kernel launches made inside its context and replays their adjoints in reverse when backward() is called, which is why teams build differentiable geometry, CFD, and custom physics in Warp, including CAE workflows for simulation and design optimization. Warp also supports deterministic execution, introduced in Warp 1.15: GPU atomics are scheduler-dependent by default, so repeated launches of the same kernel can differ slightly, and the opt-in deterministic modes trade some performance for reproducible ordering in simulation, validation, and regression tests. These are Warp capabilities, not guarantees of differentiability or determinism for an entire MJWarp rollout. See the Warp documentation on differentiability and deterministic execution for the details. Try Warp: pip install warp-lang (≥ 1.15 for GPU determinism), then python -m warp.examples.browse, or the tutorial notebooks. A robot simulator repeatedly computes what happens next: given the current joint positions, velocities, controls, and contacts, it advances the scene by one small timestep. In this article, a world means one independent copy of that scene and its state. One world might contain the SO-101 arm reaching for a cube; another can contain the same arm starting from a slightly different pose. MuJoCo and MJWarp can run the same compatible robot and task, but they organize the work differently. MuJoCo naturally suits developing and inspecting one or a few CPU worlds. MJWarp is a NVIDIA Warp implementation of MuJoCo’s physics pipeline that places the model and a batch of independent states on NVIDIA GPUs; one call to mjw.step advances the entire batch. MJWarp’s value is not necessarily a faster step for one world. It is the ability to advance hundreds or thousands together, giving the GPU enough parallel work to improve aggregate throughput, the total world-steps completed per second. That favors reinforcement learning and large-scale sampling, where collecting experience matters more than minimizing one environment’s latency. This blog covers the following: - validate one MuJoCo world, - move it to MJWarp, form a batch, - verify it, and measure it correctly. Solver tuning, Jacobian representation, and specialized multi-GPU or determinism topics are not required for this migration and can be covered separately. Then, the distinction is precise: - Latency is wall-clock time for one simulation step. - Aggregate throughput is the total number of world-steps completed per measured wall-clock second. - The core API transition is small: Use mjw.make_data() when default/fresh state is intended. Use mjw.put_data() when the exact initialized MuJoCo state must cross the migration boundary. Allocating batched resources requires defining the following parameters (refer to Batch sizes): 1. CUDA graph capture:mjw.step is many kernel launches; capture once, replay often: with wp.ScopedCapture() as capture: mjw.step(m, d) wp.capture_launch(capture.graph) 2. Size nconmax / naconmax / njmax tightly: memory and work scale with them. Tune with mjwarp-testspeed: --measure_alloc and watch overflows in mjwarp-viewer. Additional tuning considerations. After sizing contact and constraint buffers, test solver iteration limits without changing task behavior. Meshes and CCD settings can increase memory use; nccdmax / naccdmax can reduce CCD buffer allocation when the measured contact counts allow it. MJWarp’s compact solver uses MuJoCo’s Newton constraint solver and sleeping, not the separate Newton physics-engine framework. Compact-solver and multi-GPU configuration are beyond this walkthrough; consult the MJWarp performance-tuning documentation. To train policies on MJWarp physics: - Isaac Lab via Newton - mjlab (manager API directly on MJWarp + PyTorch) - MuJoCo Playground via MJX (impl='warp') Install / try: pip install mujoco-warp · mjwarp-viewer path/to/scene.xml · Colab tutorial The scene. Nothing here is MJWarp-specific yet: an SO-101 arm, a table, and two cubes to stack, written as ordinary MJCF. Figure 2. SO-101",
+          "title_zh": "NVIDIA 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 NVIDIA 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+              "source_url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp"
+            },
+            {
+              "label": "公开摘要",
+              "text": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp"
+            }
+          ],
+          "slug": "how-to-use-nvidia-warp-and-mjwarp-to-accelerate-robotics-simulation-and-a70f8ac6",
+          "localized_url": "/zh/items/2026-09-24/how-to-use-nvidia-warp-and-mjwarp-to-accelerate-robotics-simulation-and-a70f8ac6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Two years of OpenAI Academy",
+          "title_original": "Two years of OpenAI Academy",
+          "title_en": "Two years of OpenAI Academy",
+          "summary_zh": "OpenAI 更新了教育场景中的 AI 实用技能培训，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/two-years-of-openai-academy",
+          "published_at": "Wed, 23 Sep 2026 16:00:00 GMT",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9d02eeb8cef1",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Two years of OpenAI Academy",
+          "extracted_excerpt": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+          "extracted_text_for_analysis": "To ensure the benefits of AI are broadly shared, people need the skills and confidence to use it in their everyday lives. Since launching in September 2024, OpenAI Academy has helped people build those skills through practical training for tasks ranging from teaching and running a small business to developing software. Over the past two years, OpenAI Academy has hosted more than 250 events, and more than 4 million people have engaged with Academy content. That work has brought together educators, small business owners, developers, nonprofit leaders and community members to learn, practice, and share what works. For this next chapter, we’re expanding OpenAI Academy through a new trainer program that prepares people and organizations to teach Academy material in their communities. This program builds on our work with partners and will make training and ongoing support available closer to where people live and work. We launched the Academy to expand access to AI training, technical guidance, and community, initially focusing on developers and mission-driven organizations working on local problems. Since then, the Academy has grown to include self-paced courses, practical guides, in-person workshops, and large multi-site events known as AI Skills Jams. This month, we also introduced new Academy learning paths for knowledge workers, developers, leaders, educators, and college students. Learners can take courses relevant to their roles and earn Academy course badges by passing assessments. These programs focus on helping participants use AI to solve problems they face day-to-day. An educator might use ChatGPT to adapt a lesson. A small business owner might build a repeatable process for customer research. A developer might use Codex to plan and implement a change while retaining control over review. Across hundreds of events, we’ve found that the most valuable part of our training is giving people dedicated time and space to try AI tools on work that matters to them, learn from their peers, and get coaching and support from OpenAI mentors. We’re building on our work with partners to bring this approach to more communities around the country. Partners have been central to OpenAI Academy’s programming. We work with national and local organizations to bring AI learning to the communities they serve. These partners bring trusted relationships, help bring participants together, and shape programs around the work people do and the problems they face. Together, we’ve offered recurring workshops for communities including small business owners, educators, veterans, and nonprofit leaders, as well as larger, multi-city events. Our AI Skills Jam for K–12 Educators, for example, brought together more than 1,600 teachers, administrators, and district leaders across eight U.S. cities. To help more partners lead these programs, we’re piloting the OpenAI Academy Community Trainer Program. Participating organizations nominate staff members to learn the Academy curriculum and how to guide a practical workshop: demonstrating useful workflows, helping people apply AI to their own tasks, encouraging peer learning, and supporting participants as they evaluate results. They complete training and a facilitation assessment before leading Academy sessions. The pilot will help us offer more workshops and help partner organizations – including schools, workforce organizations, small-business networks, and community groups – build their own capacity to teach AI skills. Over time, our goal is for more people to have someone in their community they can turn to as their needs and the tools evolve. We’ll continue developing online courses, workshops, and Academy Jams, informed by what we learn from participants and partners. Through the Community Trainer Program, we’ll also help more people lead practical AI learning in their communities. Our goal is for more people to have opportunities to practice, learn from one another, and build knowledge and confidence as they put AI to work in their everyday lives.",
+          "title_zh": "OpenAI 推进教育场景中的 AI 实用技能培训",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在教育场景中的 AI 实用技能培训。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Two years of OpenAI Academy",
+              "source_url": "https://openai.com/index/two-years-of-openai-academy"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+              "source_url": "https://openai.com/index/two-years-of-openai-academy"
+            }
+          ],
+          "slug": "two-years-of-openai-academy-9d02eeb8",
+          "localized_url": "/zh/items/2026-09-24/two-years-of-openai-academy-9d02eeb8/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+          "title_original": "OpenAI extends cyber access to Ukraine for civilian defense",
+          "title_en": "OpenAI extends cyber access to Ukraine for civilian defense",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+          "published_at": "Wed, 23 Sep 2026 13:00:00 GMT",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1d77064cbebb",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "OpenAI extends cyber access to Ukraine for civilian defense",
+          "extracted_excerpt": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+          "extracted_text_for_analysis": "OpenAI today announced it will offer the Government of Ukraine access to its Daybreak program to support the cyber defense of civilian infrastructure. Working with the Ministry of Digital Transformation, OpenAI will provide Ukrainian teams with access to tools to identify software vulnerabilities and develop and test fixes more quickly. The announcement was made on the sidelines of the UN General Assembly by Dmytro Kushneruk, the Consul General of Ukraine in San Francisco, and Sasha Baker, Head of National Security Policy at OpenAI. Ukrainian defenders face persistent cyber attacks from Russia, alongside physical attacks on the country’s infrastructure. Ukraine’s national cyber incident response team, CERT-UA, handled(opens in a new window) nearly 6,000 cyber incidents in 2025. These include attacks on hospital systems, the energy sector and telecommunications, underscoring the pressure on the organizations providing essential services to Ukrainians. OpenAI’s Daybreak gives cyber defenders access to advanced AI for authorized security work, from reviewing older software and investigating suspicious activity to validating vulnerabilities and testing fixes. We are proud to support Ukraine’s cyber defenders, who are protecting essential services against attacks every day. Through Daybreak, public and private entities have an opportunity to strengthen their cyber defenses before emerging threats take hold. Ukraine is already on the front line, and its defenders need support now. We want to put more capable tools in their hands to help them find and fix vulnerabilities and protect the critical networks people depend on. Ukraine has shown under the most extreme pressure that cyber defense is a central part of national security. Protecting civilian infrastructure means defending it against both physical and digital attacks, so people can continue to live, work and access essential services. We’re now putting our technology and resources behind that effort, helping the Ukrainian government strengthen its cyber defenses with AI. OpenAI has already provided access to its cyber models to defenders in Europe including France, Germany, Poland, and others. The EU’s cyber agency, ENISA, has used the models to identify vulnerabilities in software used across EU institutions, all of which have since been fixed. In Poland, the national cyber agency, CERT Polska, used OpenAI models to help discover six vulnerabilities in third-party router software. The vendor has released fixes, which CERT Polska confirms prevent the attacks it observed.",
+          "title_zh": "OpenAI 更新政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "OpenAI extends cyber access to Ukraine for civilian defense",
+              "source_url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+              "source_url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense"
+            }
+          ],
+          "slug": "openai-extends-cyber-access-to-ukraine-for-civilian-defense-1d77064c",
+          "localized_url": "/zh/items/2026-09-24/openai-extends-cyber-access-to-ukraine-for-civilian-defense-1d77064c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+          "title_original": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+          "title_en": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+          "published_at": "Wed, 23 Sep 2026 12:00:00 GMT",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f7558dc5c9de",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+          "extracted_excerpt": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+          "extracted_text_for_analysis": "Harvey helps law firms and in-house legal teams securely deploy AI across complex legal workflows, from litigation to mergers. Its customers use Harvey to turn vast amounts of information into complex legal documents. With GPT‑6 Astra, Harvey can bring more context into the drafting process and generate more structured outputs. “We can give more context to the model and produce better and better structured outputs.” Harvey uses GPT‑6 Astra to help lawyers analyze, synthesize, and draft from the information that shapes a matter, including court information, law firm documents, case law research, and other sources of legal context. Compared with other models, Harvey has seen substantial improvements in document formatting and context awareness with GPT‑6 Astra, helping customers get more complete documents that better reflect the material behind them. Harvey’s memory panel brings individual preferences directly into the drafting workflow. A lawyer can encode preferences such as using numbered lists, prioritizing EDGAR as a source, or color coding issues by priority. Those preferences appear alongside the source material and the draft memorandum, giving the lawyer a clearer way to guide the output. Because GPT‑6 Astra can process more context, Harvey can produce higher-quality legal documents while customers focus more of their time on strategy.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+              "source_url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+              "source_url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra"
+            }
+          ],
+          "slug": "harvey-turns-legal-context-into-stronger-drafts-with-gpt-6-astra-f7558dc5",
+          "localized_url": "/zh/items/2026-09-24/harvey-turns-legal-context-into-stronger-drafts-with-gpt-6-astra-f7558dc5/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+          "title_original": "How invideo improves color grading 3x with GPT‑6 Astra",
+          "title_en": "How invideo improves color grading 3x with GPT‑6 Astra",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+          "published_at": "Wed, 23 Sep 2026 12:00:00 GMT",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "7357353a1f1d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How invideo improves color grading 3x with GPT‑6 Astra",
+          "extracted_excerpt": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+          "extracted_text_for_analysis": "How invideo improves color grading 3x with GPT‑6 Astra With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day. Results 50 Custom effects created in one day Results 3x Increase in success rate for color-grading and correction Editing videos is one creative and technical decision after another. Editors have to shape the story, place sound effects, build transitions, adjust color, and more. Invideo(opens in a new window) is an agentic video editor designed to handle that work while keeping the human editor in control. With GPT‑6 Astra, invideo sees greater capability to plan and execute complex edits and place changes at the correct points in the timeline. “How Astra can plan a particular edit on a frame-level accuracy is quite stunning.” The AI agent must translate the editor’s direction into a sequence of steps, choose the right tools, execute the work, and verify the result. Sanket says GPT‑6 Astra can plan these operations in fewer reasoning steps than the models it previously tested: “Astra is using far fewer reasoning sets and thus output tokens to complete complex work.” Invideo also observed that Astra can carry out several instructions without losing the editor’s original objective as the task grows longer and more complex. GPT‑6 Astra is especially effective when it comes to color work, where the agent must choose from overlapping approaches such as correction, grading, regeneration, LUTs, and isolation. For example, changing a background while preserving a person’s skin tone requires the agent to isolate and track the person across frames before applying color elsewhere. “Earlier, we saw very high failure rates for color-grading and color-correction tasks. With Astra, the success rate improved about three times,” said Sanket. GPT‑6 Astra also helps invideo turn descriptions and visual references into custom effects. The agent can code an effect tailored to the footage, place it on the timeline, and add controls that let the editor refine it. In one day, a few Invideo editors used the model to create about 50 effects. With the invideo agent using GPT‑6 Astra, creative professionals retain control of the story, their taste, and the final cut without losing hours to the tedious planning and frame-by-frame work.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How invideo improves color grading 3x with GPT‑6 Astra",
+              "source_url": "https://openai.com/index/invideo-builds-with-gpt-6-astra"
+            },
+            {
+              "label": "公开摘要",
+              "text": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+              "source_url": "https://openai.com/index/invideo-builds-with-gpt-6-astra"
+            }
+          ],
+          "slug": "how-invideo-improves-color-grading-3x-with-gpt6-astra-7357353a",
+          "localized_url": "/zh/items/2026-09-24/how-invideo-improves-color-grading-3x-with-gpt6-astra-7357353a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "title_original": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "title_en": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "summary_zh": "OpenAI 更新了实时语音交互模型能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/ringg",
+          "published_at": "Wed, 23 Sep 2026 12:00:00 GMT",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "7cff1964bf19",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "extracted_excerpt": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+          "extracted_text_for_analysis": "7M+ Connected calls handled each month 65% Up to 65% request resolution via agents 90% Lower costs vs. GPT-4.1 for selected workloads 4.8 Average customer CSAT When call volume rises, customer service operations typically scale by adding people, but this increases the cost and complexity of every interaction. Ringg(opens in a new window), a voice and chat agent platform, saw this problem firsthand while working with large consumer businesses in India. These companies were not only struggling to answer more calls, their customer service agents were also battling fragmented, manual systems to help customers complete tasks, from buying insurance to booking appointments. That experience led Ringg to build an enterprise agent platform with high-efficiency models like GPT‑5.6 at its core, spanning voice, chat, WhatsApp, and the web. Migrating suitable real-time workloads from GPT‑4.1 to GPT‑5.6 reduced model costs by approximately 90% while delivering the required quality and latency. “Model quality is only part of the equation. We also need low latency, reliable tool use, strong instruction following, and economics that work at scale. OpenAI gave us the balance we needed.” Ringg’s agents now handle more than 7 million connected calls each month, and its customers have an average customer satisfaction (CSAT) score of 4.8. For agents to complete a customer request, it may require checking a policy, retrieving an account record, scheduling an appointment, updating a CRM, or transferring the conversation to a specialist with the relevant context intact. For real-time interactions, Ringg uses GPT‑5.6 Luna and other models to interpret customer requests, select tools, and guide customers through multi-step workflows. Ringg’s orchestration layer executes actions across CRMs, ticketing platforms, payment systems, scheduling tools, and internal APIs, escalating cases to a human with a conversation summary when needed. Ringg’s knowledge system combines structured filtering with semantic retrieval across datasets, PDFs, CSVs, and business documents, helping agents answer questions using relevant enterprise information. Ringg can also divide work among specialized subagents for qualification, support, verification, scheduling, and escalation. The platform coordinates those steps while maintaining a consistent conversation with the customer across voice, chat, WhatsApp, and the web. After evaluating OpenAI alongside alternatives across conversational quality, latency, instruction following, tool calling, multilingual performance, reliability, and cost, Ringg found that OpenAI delivered the strongest overall balance for production workloads. GPT‑5.6 and other OpenAI models also performed more consistently in following complex instructions, executing tool calls, maintaining conversational context, and operating reliably at enterprise scale. Ringg routes work to a specific OpenAI model based on the needs of the task. GPT‑4.1 handles most real-time voice and chat traffic. GPT‑5.6 Luna remains in the production stack and is used when its performance, latency, or price-performance profile better suits a request. GPT‑5.6 Terra handles post-call analysis, including summaries and sentiment classification. And GPT‑5.6 Sol supports evaluation, prompt improvement, and model-as-judge workflows. When a customer speaks during a voice call or sends a chat, Ringg’s orchestration system combines that input with the agent’s instructions, conversation history, customer-specific data, relevant knowledge-base context, and available tools. Ringg’s routing layer then selects the appropriate model and configuration. The model’s output is passed through the orchestration system and delivered through the customer’s chosen channel. For longer interactions, the system creates a structured summary when the context approaches approximately 80,000 tokens. The conversation can then continue with the important information preserved, without repeatedly sending the entire history. Ringg tests models using historical conversations and simulated customer flows before production deployment. Its evaluation platform uses those results to identify weaknesses and recommend prompt improvements, creating a continuous improvement loop for its agents and configurations. One evaluation involved Ringg’s post-call analysis workflow. The company tested GPT‑5.6 Terra against alternatives like Gemini 2.5 Flash, and Terra came out on top. Ringg moved summaries and sentiment classification to GPT‑5.6 Terra. Terra maintained high accuracy for summaries and sentiment analysis while materially improving unit economics. The company also tests models across language and regional variations, including conversations that switch between languages or combine English with local-language phrases, common behavior in the markets it serves. GPT‑5.6 Terra outperformed Gemini 2.5 Flash, with up to 97% accuracy on common regional languages, making GPT‑5.6 a better fit for agents serving Ringg’s customers. Models that pass offline testing are introduced to a small share of production traffic before rollout expands. In production, Ringg’s router monitors latency and endpoint health across regions and shifts traffic when an endpoint becomes unavailable or crosses a latency threshold. Specialized nodes, alerts, and versioned deployments help isolate problems and limit their impact. This approach also helps Ringg improve unit economics. Migrating certain real-time workloads from GPT‑4.1 to GPT‑5.6 Luna reduced model costs by approximately 90%. “OpenAI has been highly responsive when we’ve needed support with model migrations. The dedicated Slack support and access to the core engineering team help us move quickly with less engineering uncertainty, ship faster, and expand what our agents can accomplish.” For its customers, Ringg’s agents resolve up to 65% of routine customer inquiries without any involvement from a human agent. Policybazaar, one of India’s largest online insurance platforms, uses Ringg to connect more than 57,000 customer requests, and 67% of calls are handled without human intervention. Policybazaar’s average response time fell from 8–12 minutes to under 60 seconds, an improvement of approximately 88%. At Practo, a global healthcare platform, Ringg’s agents help customers book healthcare appointments and complete service requests. Following deployment, Practo achieved an 85% first-call resolution rate and response times below three seconds. Operating costs declined by 70% compared with its previous human-led workflow, while Ringg now completes more than 1,000 appointment bookings each day. Online investment platform Groww uses Ringg to resolve 72% of inbound queries related to IPOs, futures, and options entirely through self-service, with an average handling time of two minutes. Using OpenAI’s computer-use capabilities, Ringg is developing browser agents for platform onboarding, Know Your Customer (KYC) processes, IT troubleshooting, on-call",
+          "title_zh": "OpenAI 推进实时语音交互模型能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+              "source_url": "https://openai.com/index/ringg"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+              "source_url": "https://openai.com/index/ringg"
+            }
+          ],
+          "slug": "ringgs-ai-agents-resolve-up-to-65-of-customer-calls-with-openai-7cff1964",
+          "localized_url": "/zh/items/2026-09-24/ringgs-ai-agents-resolve-up-to-65-of-customer-calls-with-openai-7cff1964/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing MentalHealthBench",
+          "title_original": "Introducing MentalHealthBench",
+          "title_en": "Introducing MentalHealthBench",
+          "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/introducing-mentalhealthbench",
+          "published_at": "Wed, 23 Sep 2026 10:00:00 GMT",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Benchmark"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1d5a9cc2d950",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing MentalHealthBench",
+          "extracted_excerpt": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+          "extracted_text_for_analysis": "Introducing MentalHealthBench An open benchmark developed with more than 80 licensed mental health experts to evaluate AI responses in realistic mental health conversations. People turn to AI for many kinds of conversations: navigating a difficult relationship, working through everyday stress, supporting someone they care about, or deciding how to approach a challenging situation. These conversations require accuracy, practical judgment, and respect for people’s agency. With more than one billion people using ChatGPT each week, our research focuses on helping models respond with care across a wide range of needs and put people’s safety and well-being first. Most evaluations of AI in this domain have focused primarily on emergency scenarios, given their importance to safety, and measure success using broad, predefined criteria. This has left a gap in understanding how models perform across the full range of mental health conversations, and how well their responses align with expert guidance for each situation, beyond whether they avoid disallowed responses. Assessing how models handle these different situations is essential for building towards AI that actively supports people’s long-term well-being and safety. We’re introducing MentalHealthBench, a new open benchmark for measuring how AI systems respond in realistic mental health conversations. MentalHealthBench was co-created with a global cohort of more than 80 licensed mental health experts from 22 countries. It assesses model capabilities across key mental health behaviors like safety, seeking context, preserving user agency, and providing actionable guidance when appropriate. We’re releasing it openly so other researchers can examine the methods, run their own evaluations, and build on the work. Results on MentalHealthBench show the steady improvement of AI systems in helping people navigate mental health situations. While ChatGPT is not a substitute for therapy or professional care, expert-informed insights help us measure the progress towards AI models that are able to respond with empathy, promote well-being, and guide people towards real-world support such as localized crisis hotlines(opens in a new window) or someone they trust. Conversations that involve well-being, life advice, or other mental health scenarios can vary widely in topic, urgency, and cultural context. MentalHealthBench is designed to capture the breadth of these realistic scenarios and user personas. Using privacy-preserving techniques, we created synthetic mental health conversations that accurately reflect real-world usage patterns of AI for mental health. Some scenarios also include relevant background information about the synthetic user—such as a recent loss in the family—so we can assess whether models use that context to tailor their responses appropriately. MentalHealthBench includes scenarios involving adults, teens, caregivers, and clinicians, across multiple languages and regions. The conversations span multiple topical themes, and provide coverage across the full spectrum of acuity: - Non-acute—Everyday conversations that may involve some emotional components. - High-acuity—Conversations indicating more serious mental health concerns or significant distress, but not an immediate emergency. - Emergencies—Conversations involving signs of a mental health emergency or immediate safety concerns that call for urgent real-world support. Building on our previous, clinician-informed work for HealthBench and HealthBench Professional(opens in a new window),(opens in a new window) we developed MentalHealthBench in close collaboration with our cohort of mental health experts. This consisted of more than 80 licensed psychologists and psychiatrists across 22 countries, speaking 19 languages, and representing nearly 20 mental health subspecialties. The experts were responsible for reading each synthetic conversation and producing a detailed list of rubric criteria to evaluate model responses to the last user message. Each criterion targets a single aspect of the model response such as asking the right question or providing the best possible advice. They each carry a weight ranging from -10 to +10: positive points reward beneficial behaviors, while negative points penalize harmful ones, and criteria with larger values indicate greater clinical importance in the context of a conversation. Each conversation was reviewed by at least three experts, and we only retained criteria agreed upon by at least two experts and not contradicted by a third. The final rubrics in the benchmark therefore reflect a shared judgment about how models should respond in each context. For each conversation, we use an automated grader, GPT‑5.6 Sol, to assess model responses against the expert-written criteria. The paper describes the grading process and evaluation settings in detail. We evaluated a wide range of models on MentalHealthBench. The results below show the performance of these models on the entire dataset. The evaluation measures whether a model’s response demonstrates all the ideal behaviors experts identified for each scenario while avoiding less desirable behavior. The benchmark covers conversations at different levels of acuity. This lets us understand model performance on both everyday mental health scenarios and more urgent mental health emergencies requiring real-world support. Conversations in the benchmark represent four types of users: adults, teens aged 13-17, caregivers, and clinicians. For the teen persona, we explicitly stated that the user was between 13-17 through a system message. This approach is designed to work across model providers, though it may not capture all safeguards built into individual products. Conversations involving the teen persona were reviewed by clinicians with expertise in youth mental health to help assess whether responses are appropriate for teenagers’ unique needs. MentalHealthBench also enables multifaceted measurement of model behavior. The overall score can be decomposed into performance along ten dimensions of model behavior for mental health. These behaviors are defined by mental health experts and aim to capture nuances in model performance. Models with similar overall scores can have different strengths across these behaviors. Fine-grained measurement like this can help researchers identify areas of improvement along interpretable model behaviors. For instance, we see that a model’s ability to seek context appropriately has increased with more advanced models. These improvements reflect the investments of OpenAI and other model providers in improving how models navigate mental health conversations. Alongside MentalHealthBench, we conducted a separate analysis to compare expert guidance with what people find helpful in AI support. We wanted to check whether responses that experts rated highly could still feel cold or unhelpful to users. By comparing both users’ and experts’ ratings of model responses and the",
+          "title_zh": "OpenAI 发布模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI、Benchmark。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "benchmark",
+              "explanation": "用于衡量模型能力的任务集合或评测体系。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing MentalHealthBench",
+              "source_url": "https://openai.com/index/introducing-mentalhealthbench"
+            },
+            {
+              "label": "公开摘要",
+              "text": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+              "source_url": "https://openai.com/index/introducing-mentalhealthbench"
+            }
+          ],
+          "slug": "introducing-mentalhealthbench-1d5a9cc2",
+          "localized_url": "/zh/items/2026-09-24/introducing-mentalhealthbench-1d5a9cc2/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+          "title_original": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+          "title_en": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/airbnb-gpt-6-astra",
+          "published_at": "Wed, 23 Sep 2026 01:00:00 GMT",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "73fafdf6f45f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+              "source_url": "https://openai.com/index/airbnb-gpt-6-astra"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+              "source_url": "https://openai.com/index/airbnb-gpt-6-astra"
+            }
+          ],
+          "slug": "airbnb-widens-access-to-gpt-6-astra-and-openai-frontier-models-73fafdf6",
+          "localized_url": "/zh/items/2026-09-24/airbnb-widens-access-to-gpt-6-astra-and-openai-frontier-models-73fafdf6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+          "title_original": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+          "title_en": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+          "summary_zh": "OpenAI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "overshadowing more efficient GPT6 models from OpenAI",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+          "published_at": "Wed, 23 Sep 2026 06:41:41 GMT",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "62f29a5a4546",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+              "source_url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default"
+            },
+            {
+              "label": "公开摘要",
+              "text": "overshadowing more efficient GPT6 models from OpenAI",
+              "source_url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default"
+            }
+          ],
+          "slug": "ainews-claude-opus-5-5-the-new-default-model-for-ainews-and-everybody-cu-62f29a5a",
+          "localized_url": "/zh/items/2026-09-24/ainews-claude-opus-5-5-the-new-default-model-for-ainews-and-everybody-cu-62f29a5a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
+          "title_original": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
+          "title_en": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a light into every corner,” Fiza said.",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
+          "published_at": "Wed, 23 Sep 2026 15:00:32 +0000",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "526089110df3",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
+              "source_url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a",
+              "source_url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/"
+            }
+          ],
+          "slug": "sakeena-fiza-helps-nvidia-hardware-succeed-at-scale-a1700d1f",
+          "localized_url": "/zh/items/2026-09-24/sakeena-fiza-helps-nvidia-hardware-succeed-at-scale-a1700d1f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+          "title_original": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+          "title_en": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+          "published_at": "Wed, 23 Sep 2026 02:30:22 +0000",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4d5959d698eb",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+              "source_url": "https://blogs.nvidia.com/blog/ai-day-singapore/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate",
+              "source_url": "https://blogs.nvidia.com/blog/ai-day-singapore/"
+            }
+          ],
+          "slug": "at-ai-day-singapore-nvidia-and-partners-showcase-ai-advancements-across-301ba2c6",
+          "localized_url": "/zh/items/2026-09-24/at-ai-day-singapore-nvidia-and-partners-showcase-ai-advancements-across-301ba2c6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Advancing Private AI Compute with secure, server-side memory",
+          "title_original": "Advancing Private AI Compute with secure, server-side memory",
+          "title_en": "Advancing Private AI Compute with secure, server-side memory",
+          "summary_zh": "DeepMind 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+          "published_at": "Wed, 23 Sep 2026 16:00:57 +0000",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cd8117c6d35f",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "DeepMind 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 DeepMind，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Advancing Private AI Compute with secure, server-side memory",
+              "source_url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+              "source_url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
+            }
+          ],
+          "slug": "advancing-private-ai-compute-with-secure-server-side-memory-4c4abcff",
+          "localized_url": "/zh/items/2026-09-24/advancing-private-ai-compute-with-secure-server-side-memory-4c4abcff/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Gemini 3.8 text-to-speech says hello",
+          "title_original": "Gemini 3.8 text-to-speech says hello",
+          "title_en": "Gemini 3.8 text-to-speech says hello",
+          "summary_zh": "Gemini 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+          "published_at": "Wed, 23 Sep 2026 15:25:14 +0000",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "914ed32ad555",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Gemini 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Gemini 3.8 text-to-speech says hello",
+              "source_url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/"
+            }
+          ],
+          "slug": "gemini-3-8-text-to-speech-says-hello-be2314c6",
+          "localized_url": "/zh/items/2026-09-24/gemini-3-8-text-to-speech-says-hello-be2314c6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+          "title_original": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+          "title_en": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+          "summary_zh": "Modal 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
+          "published_at": "Wed, 23 Sep 2026 13:27:18 GMT",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bd03d329b124",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Modal 讨论政府与国家安全合作原则",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Modal，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "multimodal",
+              "explanation": "同时处理文本、图像、音频或视频等多种输入输出形式。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+              "source_url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
+              "source_url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric"
+            }
+          ],
+          "slug": "bio-security-is-an-ai-arms-race-eric-nguyen-ceo-radical-numerics-bd03d329",
+          "localized_url": "/zh/items/2026-09-24/bio-security-is-an-ai-arms-race-eric-nguyen-ceo-radical-numerics-bd03d329/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Gemini 3.8 text-to-speech models now available on AI Gateway",
+          "title_original": "Gemini 3.8 text-to-speech models now available on AI Gateway",
+          "title_en": "Gemini 3.8 text-to-speech models now available on AI Gateway",
+          "summary_zh": "Gemini 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS from Google are now available on AI Gateway . Both models take text and generate speech in more than 100 languages. They support long-form narration, control over delivery, and two-speaker dialogue.",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway",
+          "published_at": "2026-09-23T00:00:00.000Z",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8326b405447e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Gemini 发布开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Gemini 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Gemini 3.8 text-to-speech models now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Gemini 3.8 Flash-Lite TTS and Gemini 3.8 Flash TTS from Google are now available on AI Gateway . Both models take text and generate speech in more than 100 languages. They support long-form narration, control over",
+              "source_url": "https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "gemini-3-8-text-to-speech-models-now-available-on-ai-gateway-8326b405",
+          "localized_url": "/zh/items/2026-09-24/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway-8326b405/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "YouTube CEO Neal Mohan: Why We’re Betting On AI And Not Afraid Of It",
+          "title_original": "YouTube CEO Neal Mohan: Why We’re Betting On AI And Not Afraid Of It",
+          "title_en": "YouTube CEO Neal Mohan: Why We’re Betting On AI And Not Afraid Of It",
+          "summary_zh": "DeepMind 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Mohan on AI’s growing influence over what we watch, YouTube’s approach to AI slop, and how working with Google DeepMind is changing the platform.",
+          "source_name": "Big Technology Podcast",
+          "source_url": "https://www.bigtechnology.com/",
+          "original_url": "https://www.bigtechnology.com/p/youtube-ceo-neal-mohan-why-were-betting",
+          "published_at": "Wed, 23 Sep 2026 17:44:04 GMT",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Google DeepMind"
+          ],
+          "tags": [
+            "tech-media",
+            "ai",
+            "interview"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d5b918acb28b",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "DeepMind 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 DeepMind，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：tech-media、ai、interview。",
+            "涉及公司或机构：Google DeepMind。"
+          ],
+          "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "YouTube CEO Neal Mohan: Why We’re Betting On AI And Not Afraid Of It",
+              "source_url": "https://www.bigtechnology.com/p/youtube-ceo-neal-mohan-why-were-betting"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Mohan on AI’s growing influence over what we watch, YouTube’s approach to AI slop, and how working with Google DeepMind is changing the platform.",
+              "source_url": "https://www.bigtechnology.com/p/youtube-ceo-neal-mohan-why-were-betting"
+            }
+          ],
+          "slug": "youtube-ceo-neal-mohan-why-were-betting-on-ai-and-not-afraid-of-it-d5b918ac",
+          "localized_url": "/zh/items/2026-09-24/youtube-ceo-neal-mohan-why-were-betting-on-ai-and-not-afraid-of-it-d5b918ac/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How to train your own Jev for $17",
+          "title_original": "How to train your own Jev for $17",
+          "title_en": "How to train your own Jev for $17",
+          "summary_zh": "Together AI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tune your own version!",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/how-to-train-your-own-jev",
+          "published_at": "Wed, 23 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-24T00:32:23.989130+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "7bd157bc565b",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Together AI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How to train your own Jev for $17",
+              "source_url": "https://www.together.ai/blog/how-to-train-your-own-jev"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tune your own version!",
+              "source_url": "https://www.together.ai/blog/how-to-train-your-own-jev"
+            }
+          ],
+          "slug": "how-to-train-your-own-jev-for-17-7bd157bc",
+          "localized_url": "/zh/items/2026-09-24/how-to-train-your-own-jev-for-17-7bd157bc/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-23",
       "title_zh": "AI 新闻简报 · 2026-09-23",
