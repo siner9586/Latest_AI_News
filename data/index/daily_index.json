@@ -1,7 +1,649 @@
 {
-  "updated_at": "2026-09-25T00:35:07.770437+00:00",
-  "count": 99,
+  "updated_at": "2026-09-26T00:39:08.172236+00:00",
+  "count": 100,
   "briefs": [
+    {
+      "date": "2026-09-26",
+      "title_zh": "AI 新闻简报 · 2026-09-26",
+      "title_en": "English AI News Brief · 2026-09-26",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 143 条，入选 9 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 143 previously displayed items excluded, and 9 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 143,
+      "selected_count": 9,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "title_original": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "title_en": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "summary_zh": "OpenAI 更新了实时语音交互模型能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/proaction",
+          "published_at": "Fri, 25 Sep 2026 19:00:00 GMT",
+          "fetched_at": "2026-09-26T00:39:05.969580+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d2d497e5eee4",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "extracted_excerpt": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+          "extracted_text_for_analysis": "Results 40–60 Engineering hours saved per month Results 33 Founder hours saved per month Results 60% Increase in sales Proaction(opens in a new window) builds software for businesses that manage fleets of vehicles, from cars and trucks to construction machinery. Because every fleet operates differently, showing prospects how Proaction’s platform fits their business is an essential part of selling it. But personalized demos required engineering time the team couldn’t spare. The founders had to rely on conversations and slide decks to explain what was possible. Codex flipped the script. “As a non-technical person, I used to have to loop engineers in if I wanted a demo,” says Colin Knudsen, co-founder and COO of Proaction. “Now I do it myself in Codex.” Colin creates four to six customized, interactive demos a month, with each taking 30 to 45 minutes to build. He estimates that this avoids 40 to 60 hours of engineering work. “We didn’t have the engineering capacity to build a demo for every interested prospect. With Codex, I can easily take a customer conversation and turn it into a custom demo built around their vehicles and workflows.” After a sales call, Colin directs Codex to the Granola recording, prospect email threads, and any spreadsheets the prospect has shared. Codex uses that context to customize an HTML demo environment that mirrors Proaction’s product and the customer’s own fleet. When Colin shares his screen, prospects see their own cars, trucks, or equipment, organized around how they work. They can point to what needs adjusting and help build the solution. “You work together to generate the end solution without getting engineering involved at all,” Colin says. Offering prospects a demo with their own data gives them a concrete reason to move forward. Colin estimates that the percentage of deals moving from initial contact into solution development, rather than nurture, has increased by 50% to 60% with the custom demos. If Proaction’s engineers produced comparable demos, it would take about 10 hours each, according to Colin. Since Proaction does about four to six demos monthly, that represents 40 to 60 hours of engineering effort spared every month. The demo also saves time on the back end. When a prospect becomes a customer, Colin gives engineers the customized demo as a visual reference. That reduces questions and back-and-forth about what to build. Using Codex, Proaction also built a customer solution center where prospects can log in, explore workflows tailored to their business, and review sales materials. This empowers customers to explain what they need and gives non-engineering teammates a way to turn those conversations into clearer requirements. By the time engineers get involved, they have a more concrete picture of what to build. Colin’s daily work spans sales, customer support, and product management. Through Codex plugins for tools including Granola, Gmail, Slack, Linear, GitHub, and HubSpot, Colin brings together customer context and acts on it within Codex. He pulls call transcripts and email history to prepare follow-ups, creates Linear issues, and updates HubSpot opportunities. He also set up a scheduled automation that reviews recent calls and prepares sales updates for the team. Previously, his heavy workload meant jumping between tabs and copying information from one tool to another. Now, Colin can describe what he needs and use Codex to gather the context and execute the next step. “Everything that I do is centered around working in Codex. I don’t leave it much,” says Colin. Estimating he has 15 to 20 distinct tasks a day, Colin believes Codex saves him 25–33 hours a month. “I can’t really imagine being a startup founder without Codex.” Proaction also uses OpenAI models across its platform. When customers submit photos with vehicle issue reports, ChatGPT‑5.6 Sol helps identify damage. And with GPT‑Live‑1, Proaction is building agents that handle more of the day-to-day work of running a fleet. The company calls this its Managed Execution Layer. “We’re building the ability for Proaction to execute work for our customers, beyond helping them manage and track it. The advances in OpenAI voice are a big reason we can do it.” Customers can ask specialized agents to handle things like tolls or service, or set up workflows that put the right agent to work automatically. The agents use OpenAI models, including GPT‑Live‑1 and GPT‑6 Astra, to make voice calls, review documents and images, analyze text, and respond in chat. One agent, Marty, is designed to coordinate vehicle maintenance. Marty talks with a driver about a problem, calls repair shops, arranges service, and helps get the estimate approved and paid. Proaction’s team steps in when the work needs human review or intervention. GPT‑6 Astra also enables Proaction to build these experiences for customers faster. Danny O’Halloran, Head of Product, says, “Astra’s computer-use runs are more succinct. With GPT‑5.6 Sol, I had a much longer run to execute the same work.” Codex and GPT‑6 Astra give Proaction more time to sell, support customers, and move the business forward. And with agents built on GPT‑Live‑1, Proaction gives more time to fleet managers, too.",
+          "title_zh": "OpenAI 推进实时语音交互模型能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+              "source_url": "https://openai.com/index/proaction"
+            },
+            {
+              "label": "公开摘要",
+              "text": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+              "source_url": "https://openai.com/index/proaction"
+            }
+          ],
+          "slug": "proaction-boosts-sales-60-and-saves-75-hours-with-codex-d2d497e5",
+          "localized_url": "/zh/items/2026-09-26/proaction-boosts-sales-60-and-saves-75-hours-with-codex-d2d497e5/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+          "title_original": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+          "title_en": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+          "summary_zh": "Runway 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/runway",
+          "published_at": "Fri, 25 Sep 2026 01:30:57 GMT",
+          "fetched_at": "2026-09-26T00:39:05.969580+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Runway"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6c1df0eaaeb4",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Runway 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Runway，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：Runway。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+              "source_url": "https://www.latent.space/p/runway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
+              "source_url": "https://www.latent.space/p/runway"
+            }
+          ],
+          "slug": "runways-worldprompt-and-the-engineering-of-real-time-worlds-6c1df0ea",
+          "localized_url": "/zh/items/2026-09-26/runways-worldprompt-and-the-engineering-of-real-time-worlds-6c1df0ea/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+          "title_original": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+          "title_en": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+          "summary_zh": "Anjney Midha 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/openrouter",
+          "published_at": "Fri, 25 Sep 2026 23:14:41 GMT",
+          "fetched_at": "2026-09-26T00:39:05.969580+00:00",
+          "category": "podcasts-interviews",
+          "people": [
+            "Anjney Midha"
+          ],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "30b26e078647",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Anjney Midha 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Anjney Midha，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+              "source_url": "https://www.latent.space/p/openrouter"
+            },
+            {
+              "label": "公开摘要",
+              "text": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
+              "source_url": "https://www.latent.space/p/openrouter"
+            }
+          ],
+          "slug": "openrouter-from-seed-to-stripe-with-openrouters-alex-atallah-amps-anjney-30b26e07",
+          "localized_url": "/zh/items/2026-09-26/openrouter-from-seed-to-stripe-with-openrouters-alex-atallah-amps-anjney-30b26e07/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] The Future of Latent Space",
+          "title_original": "[AINews] The Future of Latent Space",
+          "title_en": "[AINews] The Future of Latent Space",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "A quiet day lets us discuss the work behind the scenes - now open for business!",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+          "published_at": "Fri, 25 Sep 2026 05:37:00 GMT",
+          "fetched_at": "2026-09-26T00:39:05.969580+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "658e36b5c11a",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] The Future of Latent Space",
+              "source_url": "https://www.latent.space/p/ainews-the-future-of-latent-space"
+            },
+            {
+              "label": "公开摘要",
+              "text": "A quiet day lets us discuss the work behind the scenes - now open for business!",
+              "source_url": "https://www.latent.space/p/ainews-the-future-of-latent-space"
+            }
+          ],
+          "slug": "ainews-the-future-of-latent-space-658e36b5",
+          "localized_url": "/zh/items/2026-09-26/ainews-the-future-of-latent-space-658e36b5/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "State of agent skills",
+          "title_original": "State of agent skills",
+          "title_en": "State of agent skills",
+          "summary_zh": "Anthropic 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "In seven months, the skills.sh registry grew to one million agent skills and recorded nearly 280 million installs. A skill gives an AI agent reusable instructions for a particular job. Agents are capable but generic; they can do many jobs, but they don't know",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/state-of-agent-skills",
+          "published_at": "2026-09-25T06:00:00.000Z",
+          "fetched_at": "2026-09-26T00:39:05.969580+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9891eeb90b48",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "State of agent skills",
+          "extracted_excerpt": "In seven months, the skills.sh registry grew to 1 million agent skills with nearly 280 million installs. This report uses aggregate data from that registry to examine what people teach agents, what gets installed, and what lasts.",
+          "extracted_text_for_analysis": "In seven months, the skills.sh registry grew to one million agent skills and recorded nearly 280 million installs. A skill gives an AI agent reusable instructions for a particular job. Agents are capable but generic; they can do many jobs, but they don't know how a specific person, team, or company does them. A skill supplies that missing context and can be as simple as a file written in ordinary language. Anthropic introduced Agent Skills in October 2025, and Vercel launched the skills.sh registry three months later. Using aggregate data from the registry, this report follows a new market through its first million skills: what people teach agents, what gets installed, and where the value is heading. Copy link to headingSkills turn expertise into software To write a skill, some of the judgment behind a job has to be made explicit, like the steps to follow, what good looks like, and how to evaluate the result. The agent and its tools already supply much of the underlying capability, so the skill only has to provide the judgment and instructions specific to a job. This makes skills faster and easier to create than conventional software. skills.sh reached one million skills in seven months. GitHub took 27 months to reach one million repositories. Apple's App Store took just over five years to get to one million apps. npm took more than nine years to reach one million packages. Far more people can describe how work should be done than program a computer to do it. And once a skill is written, it can be distributed and installed without being rewritten for each agent. Skills pair a much larger pool of creators with software’s capacity for reuse, driving the explosive growth of the ecosystem. Copy link to headingWhat people are teaching agents We classified the registry's most-installed skills by the kind of work they help agents do. Together, these skills account for more than four-fifths of all installs. Published listings show supply: what authors have made available to agents. Installs show demand: what people want their agents to learn. Supply leans technical. More than half of listings teach software engineering, agent workflows, data, infrastructure, or security, with software engineering alone accounting for about a quarter. Demand is more distributed. No category draws more than a fifth of installs. Software engineering remains the largest at 18%, followed by agent workflows at 15%, then business operations and writing at nearly 11% each. To see how each category performs for its size, we also compared its installs per listing with the average. Business operations, writing and documents, and cloud and infrastructure get the most installs per listing. Demand for that work is split across fewer skills, so each one carries more of it. The average business operations skill draws 74% more installs than the average, writing and documents 50% more, cloud and infrastructure 42% more. Software engineering, education and productivity, and research run the opposite way. The average software engineering skill draws about 30% fewer installs than average, education and productivity 39% fewer, research 55% fewer. To write a skill, you need to understand a job. To install one, you need only want the job done. Most skills are technical because they began in developer tools. Installs cover a much broader range of work because agents are useful in every part of a company. Copy link to headingSkills that improve how agents work are among the most installed Agent workflows and automation account for 14.8% of installs in the classified dataset, second only to software engineering. Among listings with at least 100,000 installs, agent workflows are the largest category. Agent workflow and automation skills teach agents how to plan, route work, use tools, and automate browsers, abilities that apply across many jobs. A contract-review skill applies to contracts, but a planning skill applies to any job the agent takes on, contracts included. People are using agents to improve agents. And because agents also help write skills, the catalog grows by improving the very machinery used to build it. Copy link to headingA few skills capture most installs Install activity is highly concentrated. Nearly half of all skills were installed exactly once. At the other end, 375 skills, or 0.04% of the registry, account for 62% of installs, and the top 1.2% account for 94% of installs. For all that concentration, there's no single winner. Even the most-installed skill accounts for less than 1% of all installs. Skills compete within jobs and accumulate across them. Once a team chooses an expense-report skill, it has little reason to install another expense-report skill. But it can use that skill alongside others for spreadsheets, research, and presentations. Each job crowns its own winner, and the winners together carry most of the installs. Copy link to headingSeven in eight installs go to skills that work across industries We also classified each skill by whether its work was shared across industries or specific to one. Tasks such as cleaning up a spreadsheet or deploying a website recur at banks and hospitals, law firms and restaurants. These cross-industry skills account for 66% of classified skills and 87.5% of installs. On average, they receive 3.6 times as many installs per listing as industry-specific skills. The advantage is portability, whether a skill reaches across jobs, like agent workflows, or across industries. The skills installed most are the ones the most people can use. Copy link to headingThe next generation of skills The first million skills taught agents what everyone knows. The next million will teach your agents what only you know. Public skills and better models are making general expertise available to every team, which will turn it into the baseline rather than any kind of advantage. More of the differentiating value will move to company-specific judgment. For example, when a customer gets a refund or what can ship without another review. The measure of a skill will also shift from popularity to effectiveness. Today, the best signal of a skill's quality is its install count. As models improve, the bar rises, because a skill justifies itself only if the agent does the job better with it than without it. Skills will get tests and benchmarks that measure exactly that. The first generation of skills turned expertise into software. The next generation will see the public catalog continue to grow as supply catches up to demand. And organizations will build on top of it, writing down the knowledge only they have and maintaining it the same way they now maintain code. Explore the first million, or add to the next, at skills.sh. Copy link to headingAbout this report This report uses aggregate skills.sh data. A few notes on measurement: - Catalog totals count unique registry listings. - Install figures use aggregate registry counters. They do not represent unique people or necessarily",
+          "title_zh": "Anthropic 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "State of agent skills",
+              "source_url": "https://vercel.com/blog/state-of-agent-skills"
+            },
+            {
+              "label": "公开摘要",
+              "text": "In seven months, the skills.sh registry grew to one million agent skills and recorded nearly 280 million installs. A skill gives an AI agent reusable instructions for a particular job. Agents are capable but generic;",
+              "source_url": "https://vercel.com/blog/state-of-agent-skills"
+            }
+          ],
+          "slug": "state-of-agent-skills-9891eeb9",
+          "localized_url": "/zh/items/2026-09-26/state-of-agent-skills-9891eeb9/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Push images to Vercel Container Registry from GitHub Actions",
+          "title_original": "Push images to Vercel Container Registry from GitHub Actions",
+          "title_en": "Push images to Vercel Container Registry from GitHub Actions",
+          "summary_zh": "Vercel 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "You can now push container images from GitHub Actions to Vercel Container Registry (VCR) without storing long-lived registry credentials. The new vercel/vcr-action/login action authenticates your workflow using GitHub OIDC. It exchanges the workflow’s OIDC",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vcr-login-github-action",
+          "published_at": "2026-09-25T09:15:00.000Z",
+          "fetched_at": "2026-09-26T00:39:05.969580+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "475c6f6c38fe",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Push images to Vercel Container Registry from GitHub Actions - Vercel",
+          "extracted_excerpt": "The vercel/vcr-action/login GitHub Action logs workflows in to Vercel Container Registry with GitHub OIDC, removing long-lived registry credentials from secrets.",
+          "extracted_text_for_analysis": "You can now push container images from GitHub Actions to Vercel Container Registry (VCR) without storing long-lived registry credentials. The new vercel/vcr-action/login action authenticates your workflow using GitHub OIDC. It exchanges the workflow’s OIDC token for a short-lived Vercel access token, then uses that token to log in to vcr.vercel.com. When the job ends, the action logs out and revokes the Vercel token. To start: - Create an OIDC policy on your Vercel team that matches the GitHub repository and workflow, and grants read-write access to VCR. - Store your Vercel team ID as a GitHub repo variable, for example VERCEL_TEAM_ID , along with the team slug, project slug, and repo name used in the image tag. - Give the workflow or job id-token: write permission. Then add the login step before you build and push and the image: name: Push to VCR on: push: branches: [main] permissions: contents: read id-token: write jobs: push: runs-on: ubuntu-latest steps: - uses: actions/checkout@v4 - uses: docker/setup-buildx-action@v3 - name: Log in to VCR uses: vercel/vcr-action/login@v1 with: team: ${{ vars.VERCEL_TEAM_ID }} - name: Build and push uses: docker/build-push-action@v6 with: context: . platforms: linux/amd64 provenance: false tags: vcr.vercel.com/${{ vars.VERCEL_TEAM_SLUG }}/${{ vars.VERCEL_PROJECT_SLUG }}/${{ vars.VCR_REPOSITORY }}:latest outputs: type=image,push=true,oci-mediatypes=true,compression=zstd,compression-level=3,force-compression=true Authenticate with OIDC, then build and push a container image to VCR from GitHub Actions. The action authenticates Docker by default. Pass engines to use Podman or Buildah instead. After VCR finishes preparing a linux/amd64 image, you can use it as a custom Vercel Sandbox image. Within the same project, reference it as : . Learn more in the VCR documentation and the GitHub Actions guide.",
+          "title_zh": "Vercel 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Push images to Vercel Container Registry from GitHub Actions",
+              "source_url": "https://vercel.com/changelog/vcr-login-github-action"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now push container images from GitHub Actions to Vercel Container Registry (VCR) without storing long-lived registry credentials. The new vercel/vcr-action/login action authenticates your workflow using GitHub",
+              "source_url": "https://vercel.com/changelog/vcr-login-github-action"
+            }
+          ],
+          "slug": "push-images-to-vercel-container-registry-from-github-actions-475c6f6c",
+          "localized_url": "/zh/items/2026-09-26/push-images-to-vercel-container-registry-from-github-actions-475c6f6c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "What I Got Wrong About Meta’s Muse, And The Deeper Threat To Frontier AI",
+          "title_original": "What I Got Wrong About Meta’s Muse, And The Deeper Threat To Frontier AI",
+          "title_en": "What I Got Wrong About Meta’s Muse, And The Deeper Threat To Frontier AI",
+          "summary_zh": "Meta 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Meta didn’t need frontier intelligence to build a really good AI app. A ‘next-level-down’ model was good enough.",
+          "source_name": "Big Technology Podcast",
+          "source_url": "https://www.bigtechnology.com/",
+          "original_url": "https://www.bigtechnology.com/p/what-i-got-wrong-about-metas-muse",
+          "published_at": "Fri, 25 Sep 2026 17:05:18 GMT",
+          "fetched_at": "2026-09-26T00:39:05.969580+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "tech-media",
+            "ai",
+            "interview"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ed3825cef4ea",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Meta 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Meta，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：tech-media、ai、interview。"
+          ],
+          "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "What I Got Wrong About Meta’s Muse, And The Deeper Threat To Frontier AI",
+              "source_url": "https://www.bigtechnology.com/p/what-i-got-wrong-about-metas-muse"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Meta didn’t need frontier intelligence to build a really good AI app. A ‘next-level-down’ model was good enough.",
+              "source_url": "https://www.bigtechnology.com/p/what-i-got-wrong-about-metas-muse"
+            }
+          ],
+          "slug": "what-i-got-wrong-about-metas-muse-and-the-deeper-threat-to-frontier-ai-ed3825ce",
+          "localized_url": "/zh/items/2026-09-26/what-i-got-wrong-about-metas-muse-and-the-deeper-threat-to-frontier-ai-ed3825ce/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Pixel Canary is now available in stealth for free on AI Gateway",
+          "title_original": "Pixel Canary is now available in stealth for free on AI Gateway",
+          "title_en": "Pixel Canary is now available in stealth for free on AI Gateway",
+          "summary_zh": "Vercel AI 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Pixel Canary is now available on AI Gateway as stealth/pixel-canary . It's free for a limited time while in stealth. Pixel Canary is strong at coding, including building applications and refactoring existing code. It is well suited to frontend development and",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway",
+          "published_at": "2026-09-25T00:00:00.000Z",
+          "fetched_at": "2026-09-26T00:39:05.969580+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "759cd6098a6c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Pixel Canary is now available in stealth for free on AI Gateway - Vercel",
+          "extracted_excerpt": "Pixel Canary is now available on Vercel AI Gateway, with strengths in coding, frontend development, and mobile app design. Free while in stealth.",
+          "extracted_text_for_analysis": "Pixel Canary is now available on AI Gateway as stealth/pixel-canary. It's free for a limited time while in stealth. Pixel Canary is strong at coding, including building applications and refactoring existing code. It is well suited to frontend development and mobile app design, from responsive layouts and app screens to navigation and interactive components. On Next.js evals, Pixel Canary ties GPT 6 Astra (high) at a 90.3% baseline success rate, passing 28 of 31 tasks. With Next.js documentation supplied through AGENTS.md, it passes 30 of 31 tasks (96.8%), tying the leaderboard's top score in that setting. It passes tasks covering App Router migrations, data fetching, image and font optimization, caching, and view transitions, demonstrating its ability to implement and update the code behind web interfaces. Scores use pass@4: a task passes if any of up to four attempts succeeds. ZDR is not available for this model, and prompts and responses sent through it may be used for training and model improvement. To get started, set model to stealth/pixel-canary: To use Pixel Canary in your coding agent, run the setup command with the Vercel CLI: npm i -g vercel@latestvercel ai-gateway setup The command detects installed agents, provisions or reuses an AI Gateway API key, and configures their connection to the gateway. Then select stealth/pixel-canary in your agent's model configuration. AI Gateway provides a unified API for calling models, with built-in usage and cost tracking, budgets for API keys, and routing rules. Try Pixel Canary in the model playground.",
+          "title_zh": "Vercel AI 发布代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Pixel Canary is now available in stealth for free on AI Gateway",
+              "source_url": "https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Pixel Canary is now available on AI Gateway as stealth/pixel-canary . It's free for a limited time while in stealth. Pixel Canary is strong at coding, including building applications and refactoring existing code. It is",
+              "source_url": "https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway"
+            }
+          ],
+          "slug": "pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway-759cd609",
+          "localized_url": "/zh/items/2026-09-26/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway-759cd609/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Sandbox now supports memory observability",
+          "title_original": "Vercel Sandbox now supports memory observability",
+          "title_en": "Vercel Sandbox now supports memory observability",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Sandbox observability now includes memory usage data. You can access sandbox memory usage data in the dashboard and through the CLI via the vercel metrics command. Sandbox observability memory in the dashboard The Memory Usage card reports average,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+          "published_at": "2026-09-25T00:00:00.000Z",
+          "fetched_at": "2026-09-26T00:39:05.969580+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4b18a154dd49",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Sandbox now supports memory observability",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Sandbox observability now includes memory usage data. You can access sandbox memory usage data in the dashboard and through the CLI via the vercel metrics command. Sandbox observability memory in the dashboard",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability"
+            }
+          ],
+          "slug": "vercel-sandbox-now-supports-memory-observability-4b18a154",
+          "localized_url": "/zh/items/2026-09-26/vercel-sandbox-now-supports-memory-observability-4b18a154/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-25",
       "title_zh": "AI 新闻简报 · 2026-09-25",
