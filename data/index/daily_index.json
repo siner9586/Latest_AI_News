@@ -1,7 +1,1050 @@
 {
-  "updated_at": "2026-09-28T00:50:04.532480+00:00",
-  "count": 102,
+  "updated_at": "2026-09-29T02:01:12.172095+00:00",
+  "count": 103,
   "briefs": [
+    {
+      "date": "2026-09-29",
+      "title_zh": "AI 新闻简报 · 2026-09-29",
+      "title_en": "English AI News Brief · 2026-09-29",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 129 条，入选 15 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 129 previously displayed items excluded, and 15 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 144,
+      "skipped_history_count": 129,
+      "selected_count": 15,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "How we will do better for Australia",
+          "title_original": "How we will do better for Australia",
+          "title_en": "How we will do better for Australia",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI apologizes for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/how-we-will-do-better-for-australia",
+          "published_at": "Tue, 29 Sep 2026 01:00:00 GMT",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cfe8e900401f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How we will do better for Australia",
+          "extracted_excerpt": "OpenAI apologizes for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+          "extracted_text_for_analysis": "In June, during internal training and evaluation our models accessed Australian government websites in ways they were not authorised to. We also should have handled our response better. We are sorry and working to do better in the future. In this post, we are setting out what we know, what we have changed, and what we will do to rebuild trust with the Australian people. This is a new kind of cyber incident which represents an emerging global challenge. One of the ways we intend to take accountability for the situation is to be intentional in working with Australia to help develop practical approaches to how AI developers and governments identify, disclose, and respond to AI cyber behaviour, whether malicious or unintentional. After the Hugging Face incident in July, we began reviewing earlier training and evaluation activity to identify other affected organisations. In mid-August, that review identified activity affecting the Australian government websites below. Here’s what we know based on the evidence: - Services Australia: An OpenAI model discovered a way to gain non-public access to the service, and ran commands, retrieved internal files, credentials and aggregate statistics, and wrote files. However, individual patient or client records were not accessed. We cover this incident in more detail below. - NSW Bureau of Crime Statistics and Research (BOCSAR): An OpenAI model accessed BOCSAR’s public Crime Mapping Tool to research public crime statistics (we explain further below why models carry out various information research tasks). The model made API and website metadata requests via the public BOCSAR tool, which supplies credentials for browser API requests. The BOCSAR system returned application configuration, operational jobs and logs, and website metadata. Crime records of individuals were not accessed. - Victorian Department of Health: OpenAI agents discovered an exposed access key to query the Victorian Agency for Health Information’s reporting system and retrieve reporting configuration and aggregate survey statistics. The extent to which this information should have been accessible is unclear, and depends on VAHI’s access policies. Individual medical records or identifiable survey responses were not accessed. - Australian Institute of Health and Welfare: OpenAI agents retrieved aggregate statistics using third-party browsing and download services, including from AIHW’s website, and queried chart data directly. Separate attempts to bypass access controls were unsuccessful. The downloaded material appears to have been publicly available. There was no system compromise. Individual medical records were not accessed. We launched investigations into these activities as soon as we became aware in mid-August. We notified Services Australia and the Victorian Department of Health on 10 September and the NSW Bureau of Crime Statistics and Research on 18 September. The activity related to the Australian Institute of Health and Welfare did not meet our disclosure thresholds because the way it was accessed seemed consistent with public access, but we notified it on 24 September to share our findings and offer a briefing. Our aim was to give affected agencies a detailed account once our investigation was complete. However, we should have shared preliminary findings sooner and kept Australian agencies updated as more facts emerged. Since then we’ve worked closely with Australian government agencies to share what we’ve learned to date. If we identify any additional affected agencies, we will notify them promptly and directly with the information available and provide updates as further facts emerge. During internal training and evaluation in June, we were running an experimental, internal-only OpenAI model that was not intended for public release and without the full set of safeguards used in our publicly available products. In the course of this training and evaluation, it accessed Services Australia’s Medicare Statistics Reporting Service. Our review to date has found no evidence that anyone’s medical records were accessed. When we do internal training and evaluation on our models, we assign them tasks drawn from a broad collection of research questions spanning many subjects, reflecting the kinds of detailed questions users might ask. This trains a model to find, interpret and analyse publicly available information so the model can be more useful to people. Our models are supposed to answer these questions using publicly published statistics. In this case, one of the tasks assigned to the model was to research government spending per person on medicines for skin conditions in Victorian communities. The model had difficulty obtaining that information, and it took actions that we had not authorised it to take. In the course of looking for this information at Services Australia’s Medicare Statistics Reporting Service, it discovered a way to gain non-public access to the service. It then used this access to review technical system information and source code related to the service—all still with the objective of trying to find the information it was originally looking for. We did not intend for this activity to occur, and the access to the service and follow-on activity should not have happened. Following the Hugging Face incident, we strengthened our research safeguards, including additional network restrictions and expanded monitoring. We implemented controls to block live internet access in these research environments, with web access served through cached content. As an additional layer of security, our current monitoring systems would have detected this activity and paged our team for urgent human review. For example, when a model gained live internet access during a recent training run(opens in a new window), our monitoring detected the activity and paged a human reviewer, and we stopped the run. We continue to test these protections and address gaps. Hugging Face remains the most severe incident we have observed. People want to know AI is being developed safely, and that starts with what companies like ours do ourselves. We recently shared(opens in a new window) that we’ve paused training and evaluation involving tool use for our most capable models and will resume training them only when we are confident that we have additional safeguards in place, which we are working on now. As AI systems broadly grow more capable, we also see a narrowing window to help organizations find and fix weaknesses. This takes collective action working with defenders worldwide. We have joined organizations across technology, cybersecurity and critical infrastructure in a call for collective action on cyber defence. That call starts with our own responsibilities including stronger safeguards, timely disclosure and practical support for affected organisations. It also calls for investment in the teams protecting essential services, so they can find vulnerabilities, verify fixes and share",
+          "title_zh": "OpenAI 推进政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How we will do better for Australia",
+              "source_url": "https://openai.com/index/how-we-will-do-better-for-australia"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI apologizes for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+              "source_url": "https://openai.com/index/how-we-will-do-better-for-australia"
+            }
+          ],
+          "slug": "how-we-will-do-better-for-australia-cfe8e900",
+          "localized_url": "/zh/items/2026-09-29/how-we-will-do-better-for-australia-cfe8e900/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+          "title_original": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+          "title_en": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+          "summary_zh": "OpenAI 更新了融资与资本投入信号，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+          "published_at": "Mon, 28 Sep 2026 07:00:00 GMT",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "216d56bba26c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+          "extracted_excerpt": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+          "extracted_text_for_analysis": "The following was issued as a joint announcement on Monday, September 28, 2026, from the Lenfest Institute for Journalism and OpenAI. The Lenfest Institute for Journalism today announced the next phase of the Lenfest AI Collaborative and Fellowship Program, building on what has become the largest AI fellowship program in American journalism. Since its launch in 2024 with AI engineering fellows in 11 major American news organizations, the program has demonstrated that embedded AI engineers can help local news organizations accelerate innovation, strengthen business sustainability, and responsibly adopt emerging technology. The program will expand with a new $5 million commitment from OpenAI, along with up to $5 million in software credits and engineering support. OpenAI has doubled its previous support of the program. The Lenfest AI Collaborative and Fellowship Program places full-time AI technologists into operating news organizations to drive business innovation in local journalism. Over the past two years, the program has evolved from an ambitious pilot into a proven model for helping local news organizations develop guardrails and strategies for adopting AI to support their transformation. As the AI Collaborative and Fellowship enters its next stage, The Lenfest Institute will invite a new group of news organizations to join the cohort to further responsible AI experimentation and implementation. AI engineering fellows work alongside newsroom leaders, reporters, product teams, revenue staff, and executives to identify organization-specific challenges and build practical AI engineering solutions, along with safe, transparent, and ethical policies. Their work is designed to strengthen news organizations while preserving the human judgment, editorial integrity, expertise, and trust at the heart of local journalism — in fact, several engineering fellows are expected to stay on as full-time employees at multiple organizations, speaking to the value of their deployment. Across the 11 participating organizations, fellows have demonstrated how AI can support a wide range of functions, from audience engagement and news product development to investigative news research, advertising and reader revenue operations, and expanded staff reporting impact and community reach. The pilot also revealed that successful AI adoption depends as much on trust, collaboration, and a clear understanding of organizational needs as it does on the technology itself. Embedded fellows were hired locally and became part of the organizations they served, learning how journalists work and building solutions rooted in the real needs of newsroom and business teams. “The most valuable lesson of the Lenfest AI Collaborative and Fellowship’s first two years is that responsible AI adoption is less about the technology and more about trust. The fellows have helped their news organizations build practical tools and drive culture change from the inside — through clear guardrails, policy standards, and open communication,” said Lenfest Institute Executive Director and CEO Jim Friedlich. “The next phase of the Collaborative and Fellowship Program is an opportunity for more news enterprises to intentionally experiment with AI under the highest editorial standards and with human news judgment at the forefront.” “Over the first two years of this partnership, it’s been wonderful to see so many practical examples of journalists using AI as a tool to help deliver quality local news,” said Tom Rubin, OpenAI Chief of Intellectual Property and Content. “Local news plays a vital role in building the human connections that make a neighborhood, town, or city truly feel like a community. We’re excited to expand our partnership with The Lenfest Institute to support even more journalists in this important work.” When the fellowship launched, generative AI was still largely untested inside local news organizations. Over the past two years, participating organizations have developed practical applications that demonstrate how AI can support the full breadth of the news enterprise. At The Philadelphia Inquirer, the fellowship supported the development of Dewey, a tool that helps journalists search decades of archived reporting, and Scrape, a monitoring tool that transformed a roughly 15-hour-per-week reporting task into a daily digest of potential story leads from around the newspaper’s region. At Chicago Public Media, AI-assisted translation workflows enabled the organization to publish time-sensitive Spanish-language coverage in a fraction of the time previously required, and to transcribe audio archives reflecting Chicago news and culture that had been in storage for decades. Across other participating organizations, projects have addressed advertising prospecting, donor modeling, audience personalization, subscription growth, public-meeting monitoring, print-to-digital production transition, and operational efficiency. Collectively, these projects demonstrated that AI’s potential extends far beyond improvements in journalist impact and productivity. It can strengthen nearly every function of a modern news organization while preserving and empowering journalists' central role in producing trusted, independent reporting. The AI Collaborative’s projects also began to travel from newsroom to newsroom. Fellows shared code, adapted one another’s ideas, compared implementation strategies, and built on work developed at peer organizations. Tools and approaches originating in one newsroom became starting points for solving related problems elsewhere, demonstrating how innovation developed through the fellowship can extend well beyond a single organization. Over the course of the pilot, several important lessons emerged: - Trust matters more than technology: Embedding locally hired engineers inside organizations for two years proved transformational. Rather than serving as outside consultants with a mission to force AI adoption, fellows worked to develop a deep understanding of editorial workflows, organizational culture, and user needs across each respective news business. Fellows often identified valuable opportunities through listening, spending time with staff, understanding how they worked, identifying recurring pain points, and building solutions alongside the people who would ultimately use them. As trust grew, so did adoption, with journalists increasingly seeing fellows as team members they could collaborate with to solve meaningful problems — bringing their own ideas and challenges to fellows and incorporating the resulting tools into their daily work. - Start with the problem, not with AI: Across the cohort, fellows found that the strongest projects began with a clearly defined challenge rather than a predetermined technical solution. Successful projects were built through close collaboration with users, small-scale experimentation, ongoing evaluation, and a focus on whether the technology meaningfully improved the work. -",
+          "title_zh": "OpenAI 更新融资与资本投入信号",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在融资与资本投入信号。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+              "source_url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+              "source_url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
+            }
+          ],
+          "slug": "the-lenfest-institute-grows-landmark-program-with-expanded-openai-suppor-216d56bb",
+          "localized_url": "/zh/items/2026-09-29/the-lenfest-institute-grows-landmark-program-with-expanded-openai-suppor-216d56bb/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Are you a Codex Original?",
+          "title_original": "Are you a Codex Original?",
+          "title_en": "Are you a Codex Original?",
+          "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/form/codex-originals",
+          "published_at": "Mon, 28 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "914f14710638",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "limited_extracted_text"
+          ],
+          "extracted_title": "Are you a Codex Original?",
+          "extracted_excerpt": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+          "extracted_text_for_analysis": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below. 1000 characters max. 1000 characters max. By submitting this form, you consent to being contacted by OpenAI and acknowledge that OpenAI will use your submission in accordance with its Privacy Policy .",
+          "title_zh": "OpenAI 推进模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Are you a Codex Original?",
+              "source_url": "https://openai.com/form/codex-originals"
+            },
+            {
+              "label": "公开摘要",
+              "text": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more",
+              "source_url": "https://openai.com/form/codex-originals"
+            }
+          ],
+          "slug": "are-you-a-codex-original-914f1471",
+          "localized_url": "/zh/items/2026-09-29/are-you-a-codex-original-914f1471/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+          "title_original": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+          "title_en": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/basis-tax-workbook-with-astra",
+          "published_at": "Mon, 28 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bf0fe8cc388a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+          "extracted_excerpt": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+          "extracted_text_for_analysis": "Basis completes a tax workbook 2x faster with GPT‑6 Astra GPT‑6 Astra took 50% less time to finish complex tasks vs. GPT‑5.6 Sol and showed a deeper understanding of user intent. Workbook test 50% Less time to complete a 50-tab tax workbook vs. Sol in Basis’s test. Internal evaluations 20% Approximate improvement in Basis’s internal evaluation scores. Basis(opens in a new window) builds AI agents to automate much of the manual work that accountants do each day, helping them shift their time from repetitive tasks to strategic work. The company’s research focuses on agents that can reliably complete long tasks, and with GPT‑6 Astra, it’s seeing a stronger understanding of what accountants want to accomplish. “GPT-6 Astra does a better job of really understanding the intent of the user and the problem.” Basis compared GPT‑6 Astra and GPT‑5.6 Sol on a complicated tax workbook with 50 tabs. The task was to complete the workbook accurately and reliably, and GPT‑6 Astra was markedly faster. “GPT-6 Astra is able to complete that workbook in half the time that GPT-5.6 Sol is able to.” Basis also noted that GPT‑6 Astra makes better decisions at the start of a task, helping Basis’s agents take a more direct path through the work with less time spent correcting mistakes. Troyanovsky says that also makes the model more efficient in its use of tokens. Basis also has GPT‑6 Astra adjust how much reasoning it uses as a task progresses, dialing up computation when a step is difficult, and using less when a step is easier. The model can make these adjustments while keeping its cache intact. Troyanovsky says this helps reduce cost and response time, making long-running tasks more economical for Basis and its customers. Basis saw about a 20% improvement in its internal evaluation scores with GPT‑6 Astra, driven by better understanding of user intent, including when to ask questions, flag assumptions, and follow instructions. Basis evaluates how its agents work and their final answers, including whether they follow templates, consult primary sources for tax questions, and check their own work. GPT‑6 Astra can infer these expectations from a broader context, with fewer explicit instructions. That reduces the need for Basis to write rules for individual situations and gives the team more confidence that its agents can handle situations beyond those covered in internal tests.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+              "source_url": "https://openai.com/index/basis-tax-workbook-with-astra"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+              "source_url": "https://openai.com/index/basis-tax-workbook-with-astra"
+            }
+          ],
+          "slug": "basis-completes-a-tax-workbook-2x-faster-with-gpt-6-astra-bf0fe8cc",
+          "localized_url": "/zh/items/2026-09-29/basis-completes-a-tax-workbook-2x-faster-with-gpt-6-astra-bf0fe8cc/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+          "title_original": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+          "title_en": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+          "summary_zh": "Anthropic 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/thariq",
+          "published_at": "Tue, 29 Sep 2026 01:48:18 GMT",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c72c096f52f1",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Anthropic 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+              "source_url": "https://www.latent.space/p/thariq"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
+              "source_url": "https://www.latent.space/p/thariq"
+            }
+          ],
+          "slug": "claude-codes-next-era-thariq-shihipar-anthropic-c72c096f",
+          "localized_url": "/zh/items/2026-09-29/claude-codes-next-era-thariq-shihipar-anthropic-c72c096f/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Claude Sonnet 5.5 now available on AI Gateway",
+          "title_original": "Claude Sonnet 5.5 now available on AI Gateway",
+          "title_en": "Claude Sonnet 5.5 now available on AI Gateway",
+          "summary_zh": "Anthropic 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Claude Sonnet 5.5 from Anthropic is now available on AI Gateway as anthropic/claude-sonnet-5.5 . Sonnet 5.5 improves on Claude Sonnet 5 for well-scoped everyday work, from building features and fixing bugs to creating documents, slides, and spreadsheets. On",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/claude-sonnet-5-5-now-available-on-ai-gateway",
+          "published_at": "2026-09-28T00:00:00.000Z",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1c4c388810ba",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Claude Sonnet 5.5 now available on AI Gateway - Vercel",
+          "extracted_excerpt": "Access Claude Sonnet 5.5 through Vercel AI Gateway with the AI SDK, compatible APIs, or coding agents for coding, clearer writing, and polished documents.",
+          "extracted_text_for_analysis": "Claude Sonnet 5.5 from Anthropic is now available on AI Gateway as anthropic/claude-sonnet-5.5. Sonnet 5.5 improves on Claude Sonnet 5 for well-scoped everyday work, from building features and fixing bugs to creating documents, slides, and spreadsheets. On coding tasks, Sonnet 5.5 carries changes through multiple steps and checks its work before reporting completion. It produces more polished documents, slides, and spreadsheets with fewer follow-up edits, and writes clearer explanations and reports. It also improves at using desktop apps and reading charts and technical drawings. Sonnet 5.5 supports Zero Data Retention on AI Gateway. Use Sonnet 5.5 with the AI SDK, OpenAI-compatible Chat Completions API, Responses API, or Anthropic Messages API. You can also select it in a coding agent connected to AI Gateway. For coding agents, run npx vercel ai-gateway setup and select anthropic/claude-sonnet-5.5 in your agent's model settings. Try Sonnet 5.5 in the AI Gateway model playground, or explore the model catalog. AI Gateway provides one API for calling models, tracking usage and cost, and configuring routing, retries, and failover. You can use an AI Gateway API key or bring your own provider key.",
+          "title_zh": "Anthropic 发布开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Anthropic 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Claude Sonnet 5.5 now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/claude-sonnet-5-5-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Claude Sonnet 5.5 from Anthropic is now available on AI Gateway as anthropic/claude-sonnet-5.5 . Sonnet 5.5 improves on Claude Sonnet 5 for well-scoped everyday work, from building features and fixing bugs to creating",
+              "source_url": "https://vercel.com/changelog/claude-sonnet-5-5-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "claude-sonnet-5-5-now-available-on-ai-gateway-1c4c3888",
+          "localized_url": "/zh/items/2026-09-29/claude-sonnet-5-5-now-available-on-ai-gateway-1c4c3888/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Here’s Everything OpenAI’s Bots (And Others) Have Hacked Or Considered Hacking",
+          "title_original": "Here’s Everything OpenAI’s Bots (And Others) Have Hacked Or Considered Hacking",
+          "title_en": "Here’s Everything OpenAI’s Bots (And Others) Have Hacked Or Considered Hacking",
+          "summary_zh": "OpenAI 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "It’s getting hard to keep track of all the unauthorized agent activity. Here it is in one place.",
+          "source_name": "Big Technology Podcast",
+          "source_url": "https://www.bigtechnology.com/",
+          "original_url": "https://www.bigtechnology.com/p/heres-everything-openais-bots-and",
+          "published_at": "Mon, 28 Sep 2026 20:20:52 GMT",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "tech-media",
+            "ai",
+            "interview"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a17b0b8368c7",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：tech-media、ai、interview。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Here’s Everything OpenAI’s Bots (And Others) Have Hacked Or Considered Hacking",
+              "source_url": "https://www.bigtechnology.com/p/heres-everything-openais-bots-and"
+            },
+            {
+              "label": "公开摘要",
+              "text": "It’s getting hard to keep track of all the unauthorized agent activity. Here it is in one place.",
+              "source_url": "https://www.bigtechnology.com/p/heres-everything-openais-bots-and"
+            }
+          ],
+          "slug": "heres-everything-openais-bots-and-others-have-hacked-or-considered-hacki-a17b0b83",
+          "localized_url": "/zh/items/2026-09-29/heres-everything-openais-bots-and-others-have-hacked-or-considered-hacki-a17b0b83/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Holo4: powering generalist computer-use agents",
+          "title_original": "Holo4: powering generalist computer-use agents",
+          "title_en": "Holo4: powering generalist computer-use agents",
+          "summary_zh": "Hugging Face Blog 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/Hcompany/holo4",
+          "published_at": "Mon, 28 Sep 2026 09:44:05 GMT",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9552195c964d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Holo4: powering generalist computer-use agents",
+          "extracted_excerpt": "A Blog post by H company on Hugging Face",
+          "extracted_text_for_analysis": "Holo4 is our new series of agentic models. It comes in two sizes: 27B dense and 35B-A3B Mixture of Experts. Both are available on the H Models API. We are also releasing an updated version of Holotron 3: Holotron4 Nano. Holo4 builds on our previous model and interacts with software through any available interface: GUIs, code, MCP and APIs. It scores well on academic benchmarks, but we built it for real business workflows. It was trained through supervised and reinforcement learning on a large set of environments and tasks, including those generated by our Agentic Task Factory. Get started now: - 🤖 Models: Holo4-27B | Holo4-35B-A3B | Holotron4 Nano - 🗂️ Full collection (FP16, FP8, GGUF): Holo4 - 🎞️ Trajectories: viewer | dataset - ⚡ H Models API: quickstart - 📝 Full blog post: hcompany.ai/newsroom/holo4 Holo4 clicks and types on a screen, writes and runs its own code, and calls MCP or API tools. It uses whichever fits the task. Most agentic models are trained for one interface only: GUI-focused models are blind without a screen, while models that prefer tool calling are stuck in front of an application that has no API. Real work is not siloed that way, and a single business task can require combining these different approaches. Holo4 runs on desktops, on the web, on Android, in a code sandbox and against business APIs. It is the same model in each case and it is called the same way. You do not need to select a different model for each platform. Holo4 models improve significantly over their Qwen base. Holo4 trails only the strongest closed models on long workflows: on OSWorld 2.0, Holo4 27B scores 61.7% against 81.8% for Opus 5.5, and Holo4 35B-A3B reaches 30.9%. However, it does so with orders of magnitude fewer parameters and at a much lower cost. We open-source every trajectory behind our scores on public benchmarks: replay each step at trajectories.hcompany.ai or download them from Hugging Face. On the hardest academic benchmarks for desktop control (OSWorld 2.0) and API use (AutomationBench), Holo4 competes with frontier models at a much lower cost per task. Notes on the cost-performance charts OSWorld 2.0. Costs are estimated from the input and output tokens of each agentic run. Holo4 is priced at H Models API rates (single run). Qwen3.8 27B: model card score, cost from the tokens of our run at Alibaba Cloud list prices. Qwen3.6 35B-A3B: single run in our harness, at Alibaba Cloud list prices with cache hits at 20% of the input price. OpenAI launch data supplies the GPT and Opus effort sweeps; other closed and open-weight points use the official OSWorld 2.0 leaderboard. Releases, harnesses and task subsets differ. The line connects non-dominated score and cost pairs among the closed models; Holo4 is excluded. AutomationBench. Holo4, Qwen3.8 27B and Qwen3.6 35B-A3B: AutomationBench v1.0.6, scores and costs measured in our internal harness. Other models: public-set scores from the AutomationBench README, cost per task from the official leaderboard, which runs on the private set. We will report Holo4 on the private set once it is evaluated. Trained on environments and tasks from our Agentic Task Factory, Holo4 models excel on professional software. The examples below show Holo4 27B alongside Qwen3.8 27B, its base model. Same prompt and harness for both models. Build a 3D model of the Eiffel Tower in FreeCAD, at a scale of 1 mm to 1 metre, centred on the origin and aligned to the X and Y axes. Work to this design. The tower is square in plan at every height, never round. Its half-width, measured from the central axis out to the corner, is 62.5 mm at ground level, 32.5 mm at height 57, 17.5 mm at height 115, and 9.35 mm at height 276. Between those heights the half-width follows a smooth curve that falls steeply near the ground and gently higher up, never a straight line. Four identical legs, one per quadrant, each a square column whose outer corner follows that profile. Each leg is 14 mm across at the ground and tapers to 4 mm at height 276. The legs stand apart from the ground up to the first platform, and converge as they rise. Nothing fills the space between them: the tower is open, and you can see straight through it from every side. Three platforms, each a solid square slab centred on the axis: 72 mm across and 4 mm thick at height 57; 40 mm across and 3 mm thick at height 115; 22 mm across and 3 mm thick at height 276. A mast from height 276 to 324, square, 8 mm across at its base tapering to 2 mm at the tip. Every part must be a closed solid with non-zero volume, and no part may fill the space between the legs. Holo4 27B (84 calls, 1.3M tokens) Qwen3.8 27B (60 calls, 1.0M tokens) Build a 3D model in FreeCAD of the H company logo: a solid filled disc beside a blocky sans-serif capital letter H, both extruded to the same thickness, the two shapes of similar height and set apart so they do not overlap, with the centre of the disc level with the middle of the H. Colour both shapes black. Holo4 27B (94 calls, 1.5M tokens) Qwen3.8 27B (118 calls, 1.9M tokens) Build a Pac-Man-style game in Godot and leave it running. A rectangular maze of walls laid out on a grid, with pellets filling every open corridor. A player marker moves continuously along the corridors, eating each pellet it passes over and scoring a point for it. Three ghosts move through the same corridors and chase the player. If a ghost catches the player, the player loses a life and everything resets to its starting position. Score and lives are drawn on screen. No one is going to play this. The player drives itself with a simple heuristic: at each junction it heads toward the nearest pellet, unless a ghost is close, in which case it moves away from the ghost. The game must run unattended and indefinitely, with no keyboard input at all. When it works, start the game and leave it playing. Holo4 27B (68 calls, 2.4M tokens, 268 lines) Qwen3.8 27B (197 calls, 11.4M tokens, 327 lines) Our internal set of agentic pipelines builds interactive environments and verifiable tasks from documentation alone, such as screenshots of real websites or open-source software. So far it has produced about 10,000 tasks across web apps, MCP servers and desktop environments, including hybrid environments that expose the same state through a GUI and MCP. Alongside training, we rebuilt our harness, the loop that executes the model's actions and manages its context over hundreds of steps, using feedback from agentic performance on OSWorld 2.0. Agents tagged why each task failed and engineers reviewed their fixes. The largest changes were giving the agent a reliable memory that can keep track of hundreds of steps, and a shell on the desktop machine itself. Opus 5 (70.2%) and GPT-5.6 Sol (66.2%) use max-effort partial rewards on the v2026.08.08 offline set from OpenAI's launch chart, as in the cost-performance plot. Other reference scores come from model cards and the official leaderboard. Task releases, subsets and harnesses vary.",
+          "title_zh": "Hugging Face 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Holo4: powering generalist computer-use agents",
+              "source_url": "https://huggingface.co/blog/Hcompany/holo4"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/Hcompany/holo4"
+            }
+          ],
+          "slug": "holo4-powering-generalist-computer-use-agents-9552195c",
+          "localized_url": "/zh/items/2026-09-29/holo4-powering-generalist-computer-use-agents-9552195c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🎙️ How I AI: Jev for beginners + I left Claude for months, Opus 5.5 brought me back + Opus 5.5 vs. GPT-6 Sol bench",
+          "title_original": "🎙️ How I AI: Jev for beginners + I left Claude for months, Opus 5.5 brought me back + Opus 5.5 vs. GPT-6 Sol bench",
+          "title_en": "🎙️ How I AI: Jev for beginners + I left Claude for months, Opus 5.5 brought me back + Opus 5.5 vs. GPT-6 Sol bench",
+          "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/how-i-ai-jev-for-beginners-i-left",
+          "published_at": "Mon, 28 Sep 2026 15:03:13 GMT",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c426a07aa419",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🎙️ How I AI: Jev for beginners + I left Claude for months, Opus 5.5 brought me back + Opus 5.5 vs. GPT-6 Sol bench",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-jev-for-beginners-i-left"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+              "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-jev-for-beginners-i-left"
+            }
+          ],
+          "slug": "how-i-ai-jev-for-beginners-i-left-claude-for-months-opus-5-5-brought-me-c426a07a",
+          "localized_url": "/zh/items/2026-09-29/how-i-ai-jev-for-beginners-i-left-claude-for-months-opus-5-5-brought-me-c426a07a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Jev for beginners: how to use it and what to build",
+          "title_original": "Jev for beginners: how to use it and what to build",
+          "title_en": "Jev for beginners: how to use it and what to build",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/jev-for-beginners-how-to-use-it-and",
+          "published_at": "Mon, 28 Sep 2026 12:03:04 GMT",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "631e24e3f2c2",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Jev for beginners: how to use it and what to build",
+              "source_url": "https://www.lennysnewsletter.com/p/jev-for-beginners-how-to-use-it-and"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/jev-for-beginners-how-to-use-it-and"
+            }
+          ],
+          "slug": "jev-for-beginners-how-to-use-it-and-what-to-build-631e24e3",
+          "localized_url": "/zh/items/2026-09-29/jev-for-beginners-how-to-use-it-and-what-to-build-631e24e3/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "SAIL: Scaling In-Context Imitation Learning",
+          "title_original": "SAIL: Scaling In-Context Imitation Learning",
+          "title_en": "SAIL: Scaling In-Context Imitation Learning",
+          "summary_zh": "Sakana AI Blog 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/sail/",
+          "published_at": "2026-09-28T00:00:00+09:00",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "fa26e20bfe36",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Sakana AI Blog 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI Blog，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "SAIL: Scaling In-Context Imitation Learning",
+              "source_url": "https://sakana.ai/sail/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/sail/"
+            }
+          ],
+          "slug": "sail-scaling-in-context-imitation-learning-7cda6625",
+          "localized_url": "/zh/items/2026-09-29/sail-scaling-in-context-imitation-learning-7cda6625/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Training 1000-layer networks without backpropagation",
+          "title_original": "Training 1000-layer networks without backpropagation",
+          "title_en": "Training 1000-layer networks without backpropagation",
+          "summary_zh": "Sakana AI Blog 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/pc-alm/",
+          "published_at": "2026-09-14T00:00:00+09:00",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e86f250adf77",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Sakana AI Blog 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI Blog，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Training 1000-layer networks without backpropagation",
+              "source_url": "https://sakana.ai/pc-alm/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/pc-alm/"
+            }
+          ],
+          "slug": "training-1000-layer-networks-without-backpropagation-2dff426d",
+          "localized_url": "/zh/items/2026-09-29/training-1000-layer-networks-without-backpropagation-2dff426d/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Search domains without authentication",
+          "title_original": "Search domains without authentication",
+          "title_en": "Search domains without authentication",
+          "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now discover domain names and check availability and pricing without signing in to Vercel or providing an access token. This works through the Vercel CLI and Domains Registrar API. With the Vercel CLI , search by keyword or domain fragment: With the",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/search-domains-without-authentication",
+          "published_at": "2026-09-28T00:00:00.000Z",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "17127715f7cc",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Search domains without authentication",
+              "source_url": "https://vercel.com/changelog/search-domains-without-authentication"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now discover domain names and check availability and pricing without signing in to Vercel or providing an access token. This works through the Vercel CLI and Domains Registrar API. With the Vercel CLI , search",
+              "source_url": "https://vercel.com/changelog/search-domains-without-authentication"
+            }
+          ],
+          "slug": "search-domains-without-authentication-17127715",
+          "localized_url": "/zh/items/2026-09-29/search-domains-without-authentication-17127715/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Ember-1 from Fireworks now available on AI Gateway",
+          "title_original": "Ember-1 from Fireworks now available on AI Gateway",
+          "title_en": "Ember-1 from Fireworks now available on AI Gateway",
+          "summary_zh": "Vercel AI 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Ember-1 from Fireworks is now available on AI Gateway . Ember-1 is a research preview reasoning model built on Kimi K3 for coding and agentic workflows. Fireworks reports approximately 40% fewer generated tokens than Kimi K3 at comparable quality across its",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ember-1-from-fireworks-now-available-on-ai-gateway",
+          "published_at": "2026-09-27T00:00:00.000Z",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "23cec1ac56fa",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Ember-1 from Fireworks now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/ember-1-from-fireworks-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Ember-1 from Fireworks is now available on AI Gateway . Ember-1 is a research preview reasoning model built on Kimi K3 for coding and agentic workflows. Fireworks reports approximately 40% fewer generated tokens than",
+              "source_url": "https://vercel.com/changelog/ember-1-from-fireworks-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "ember-1-from-fireworks-now-available-on-ai-gateway-23cec1ac",
+          "localized_url": "/zh/items/2026-09-29/ember-1-from-fireworks-now-available-on-ai-gateway-23cec1ac/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Marketplace database browser now supports Redis",
+          "title_original": "Vercel Marketplace database browser now supports Redis",
+          "title_en": "Vercel Marketplace database browser now supports Redis",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now run Redis commands, browse keys, and inspect values directly in the Vercel dashboard using the Marketplace database browser . Both the Redis and Upstash for Redis integrations in Vercel Marketplace are supported, so you no longer need redis-cli or",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis",
+          "published_at": "2026-09-25T00:00:00.000Z",
+          "fetched_at": "2026-09-29T02:01:10.237212+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f9ce264e592e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Marketplace database browser now supports Redis",
+              "source_url": "https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now run Redis commands, browse keys, and inspect values directly in the Vercel dashboard using the Marketplace database browser . Both the Redis and Upstash for Redis integrations in Vercel Marketplace are",
+              "source_url": "https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis"
+            }
+          ],
+          "slug": "vercel-marketplace-database-browser-now-supports-redis-f9ce264e",
+          "localized_url": "/zh/items/2026-09-29/vercel-marketplace-database-browser-now-supports-redis-f9ce264e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": [
+        {
+          "source": "Microsoft Research Podcast",
+          "error": "The read operation timed out"
+        }
+      ]
+    },
     {
       "date": "2026-09-28",
       "title_zh": "AI 新闻简报 · 2026-09-28",
