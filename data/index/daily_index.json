@@ -1,7 +1,985 @@
 {
-  "updated_at": "2026-09-29T02:01:12.172095+00:00",
-  "count": 103,
+  "updated_at": "2026-09-30T01:19:20.520484+00:00",
+  "count": 104,
   "briefs": [
+    {
+      "date": "2026-09-30",
+      "title_zh": "AI 新闻简报 · 2026-09-30",
+      "title_en": "English AI News Brief · 2026-09-30",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 138 条，入选 14 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 138 previously displayed items excluded, and 14 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 138,
+      "selected_count": 14,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+          "title_original": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+          "title_en": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+          "summary_zh": "NVIDIA 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+          "published_at": "Tue, 29 Sep 2026 15:30:38 GMT",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "493cf3fce1b8",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+          "extracted_excerpt": "A Blog post by NVIDIA on Hugging Face",
+          "extracted_text_for_analysis": "NVIDIA Kumo Tabular, part of the NVIDIA Kumo Structured model collection, is an open foundation model for tabular data now available on Hugging Face. Given a table of labeled rows, it predicts the labels of new rows in a single forward pass, with no training, no tuning, and no feature engineering, for both classification and regression. It was pretrained only on artificial data, comes in three sizes (28M to 215M parameters), runs through our open-source library, and is released under the OpenMDW-1.1 license for commercial use. It ranks first on the four benchmarks TabArena, BeyondArena, TALENT and ScoringBench. - Model Code: https://github.com/NVIDIA/structured-data-models - Model Weights: https://huggingface.co/nvidia/Kumo-Tabular Tabular data is the backbone of enterprise machine learning. Customer records, transactions, sensor logs, claims, and orders all live in tables, and predicting churn, default, demand, or price from them is among the most common machine learning tasks in industry. For two decades, this work has been done with gradient-boosted trees, and it has worked well. But the lifecycle around those models has barely changed. Every new question means collecting labels, engineering features, searching hyperparameters, validating, and deploying a model that knows nothing about tables in general and learns each task from scratch. Large Language Models showed a different way of working with new tasks. Given a few examples in the prompt, a pretrained model solves the task without updating a single weight. This is in-context learning, and it applies to tables just as well as to text: a model pretrained on millions of tables can read a labeled table as its context and predict the labels of new rows directly. Today, we are releasing NVIDIA Kumo Tabular (GitHub, HuggingFace), an open foundation model for tabular classification and regression. Given a table with labeled rows and the rows you want predictions for, Kumo Tabular returns class probabilities or numeric predictions in a single forward pass. Kumo Tabular is a Transformer built around the structure of a table, utilizing column, row and in-context attention as introduced in TabICL and TabPFN. To predict a label it has to do three things: (1) understand what each value means within its column, (2) understand how the columns of a row interact, and (3) relate the context rows with existing labels to the query rows with unknown labels. Kumo Tabular achieves this as follows: Cell Embedding: A group of cells becomes a token. Numerical and categorical values pass through Fourier features, sines and cosines of learned frequencies, with separate weights for each type. Missing values need no imputation and are treated specially. Finally, every token in the context receives a label embedding. Row Embedding: We then turn each row into an embedding by alternating two kinds of attention multiple times. Column attention looks down a single column and learns what a value means in the distribution of its column, e.g., whether a 42 is typical or extreme, via induced self-attention. Its cost therefore grows linearly with the number of rows. Row attention looks across the tokens of a single row and learns how features interact, with rotary positions to tell columns apart. Four learnable [CLS] tokens join each row and act as the final readout of a row. After this row compression, the cost of the final stage no longer depends on the number of columns. In-context Learning: A final Transformer operates on the row embeddings. Context rows attend to each other, while query rows attend to context rows only. Each prediction therefore depends only on the context and on the row itself, not on which other rows are scored alongside it. Because the context never looks at the queries, its keys and values are computed once and can be reused for follow-up predictions. Query rows utilize Test-GQA, which shrinks the cache that every prediction reads. A head turns each query row into class probabilities for classification and 999 quantiles for regression, from which a point prediction and an uncertainty estimate follow. Length-aware Attention Temperature: Softmax attention spreads out as the number of keys grows. Attention that is sharp over a few hundred rows can dissolve over tens of thousands, which is exactly the situation when a table at inference is much larger than a typical training table. Kumo Tabular therefore scales every query by a temperature that grows with the logarithm of the number of keys, with a coefficient learned separately for each attention head. The result is attention that stays sharp as tables grow longer or wider. Kumo Tabular is pretrained entirely on artificial tables. Each training table is sampled from a Structural Causal Model (SCM) in the six steps shown below: We first draw a configuration for the whole table, from its size and task to its mechanisms and missingness. A random causal graph then links hidden variables, evaluated from root to leaf via randomly drawn functions at every node (e.g., linear maps, small neural networks, trees or Gaussian processes). Some nodes become numerical or categorical columns, one becomes the target, and the rest stay hidden, like the unmeasured causes behind real data. Post-processing correlates groups of columns, clips outliers, and injects missing values, and a quick tree-ensemble check discards any table without a learnable signal. Because the generator is a procedural sampler rather than a trained model, it produces an endless supply of tables, each with a new graph and new mechanisms. Real-world tables are messy, so we built more of their imperfections into the generator. Values go missing in several patterns, some features are coarsened so that duplicate rows may disagree on their label, some categorical columns carry many levels, and regression targets can be heavy-tailed. A model that has seen millions of such tables learns to handle these imperfections without any cleanup. On every artificial table, the model sees most of the rows with their labels as context and learns to predict the labels of the remaining rows, with a cross-entropy loss for classification and a quantile loss for regression. Classification and regression are trained as separate models. Similarly to TabICLv2, training runs in three stages. The first and longest stage uses tables of 1,024 rows and up to 100 columns and teaches the model what tables look like. The second stage varies the context from 400 to 10,240 rows, and the third extends it to 60,000 rows, still with up to 100 columns. In total, Kumo Tabular-Small/Medium/Large saw about 35/71/137 million artificial tables. Our training recipe and artificial data generators will be released soon. We ran all three Kumo Tabular sizes with default settings against the full TabArena leaderboard, spanning tuned gradient-boosted trees, AutoGluon, and the latest tabular foundation models. Kumo Tabular ranks first overall with an ELO of 1950 while running",
+          "title_zh": "NVIDIA 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 NVIDIA 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+              "source_url": "https://huggingface.co/blog/nvidia/kumo-tabular"
+            },
+            {
+              "label": "公开摘要",
+              "text": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/nvidia/kumo-tabular"
+            }
+          ],
+          "slug": "nvidia-kumo-tabular-sets-a-new-accuracy-efficiency-frontier-for-tabular-493cf3fc",
+          "localized_url": "/zh/items/2026-09-30/nvidia-kumo-tabular-sets-a-new-accuracy-efficiency-frontier-for-tabular-493cf3fc/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing GPT-6.1 Sol",
+          "title_original": "Introducing GPT-6.1 Sol",
+          "title_en": "Introducing GPT-6.1 Sol",
+          "summary_zh": "OpenAI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/introducing-gpt-6-1-sol",
+          "published_at": "Tue, 29 Sep 2026 10:00:00 GMT",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "dd66acaed2a0",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing GPT-6.1 Sol",
+          "extracted_excerpt": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+          "extracted_text_for_analysis": "GPT-6.1Sol Near-Astra intelligence for a fifth of the price We’re introducing GPT‑6.1 Sol, an upgrade to GPT‑6 Sol that nearly matches GPT‑6 Astra’s intelligence on agentic coding, computer use, and professional work at one-fifth of Astra’s standard input and output token prices. Cached input costs just $0.10 per million tokens—95% less than standard input pricing and 50% less than GPT‑6 Sol’s cached input pricing—giving developers more room to build and run capable agents that reuse context across requests. GPT‑6.1 Sol offers a new balance of capability and cost for important everyday work. It delivers substantial improvements over GPT‑6 Sol across complex professional tasks, from writing and debugging code to understanding documents and executing multi-step business workflows. On several of these evaluations, it approaches GPT‑6 Astra’s performance at substantially lower cost. On DeepSWE v1.1, which evaluates complex software-engineering tasks in real codebases, GPT‑6.1 Sol matches GPT‑6 Astra at roughly one-fifth of the cost, while eclipsing GPT‑6 Sol’s best score by 6.4 percentage points at a lower reasoning effort and cost. On GDP.pdf, which measures how accurately models answer professional questions using complex PDF documents, including tables, charts, diagrams, and fine-print details, GPT‑6.1 Sol scores higher than Opus 5.5 with fallbacks at less than half the cost per task across the tested reasoning settings. It also approaches GPT‑6 Astra’s state-of-the-art performance at roughly one-fifth the cost per task. On AutomationBench, which measures whether agents correctly complete multi-step business workflows, GPT‑6.1 Sol scores 2.2 percentage points above Opus 5.5 at medium reasoning effort, at roughly a third of the cost. That score is also up 4.8 percentage points from GPT‑6 Sol at the same setting. GPT‑6.1 Sol also makes substantial progress on tasks that require interacting with computer applications. On OSWorld 2.0’s offline set, which evaluates agents on demanding computer-use workflows, GPT‑6.1 Sol outperforms GPT‑6 Sol by seven percentage points at maximum reasoning effort at less than half the cost. It comes within 2.1 percentage points of Astra’s score at maximum reasoning effort at roughly one-seventh the cost per task. On Terminal-Bench Science 0.1, which evaluates scientific workflows including data analysis, simulation, and theorem proving, GPT‑6.1 Sol more than doubles GPT‑6 Sol’s score at maximum reasoning effort at less than half the cost per task. At maximum effort, GPT‑6.1 Sol costs $5.47 per task on average, compared with $23.21 for Opus 5.5 and $23.80 for Astra, delivering substantial scientific capability at over 75% lower cost than either model. GPT‑6 Astra still achieves the highest score among the models tested at 68.1%, and should be used for the most difficult scientific research tasks. GPT‑6.1 Sol also improves factual accuracy on difficult prompts. Its largest factuality improvement over GPT‑6 Sol comes at low reasoning effort, where it reduces the share of responses containing a factual error from 11.4% to 7.7%—a reduction of approximately 32%. Across the tested reasoning settings, its error rate remains within 1.9 percentage points of GPT‑6 Astra’s, at less than one-fifth the cost per task. This evaluation measures the share of answers containing at least one factual error on de-identified conversations where users flagged an earlier model’s error. These deliberately difficult prompts are not representative of typical usage. GPT‑6.1 Sol shows substantial improvements over GPT‑6 Sol in our alignment evaluations, bringing it closer to GPT‑6 Astra. GPT‑6.1 Sol is more transparent about its limitations and more reliable at respecting user intent and safety constraints. In challenging evaluations, it shows lower failure rates than GPT‑6 Sol on transparency about broken search tools, respecting explicit restrictions, and avoiding unauthorized outcomes during agentic tasks. We observed no attempts to bypass an automated safety reviewer, matching GPT‑6 Astra and GPT‑6 Sol. Full details can be found in the GPT‑6.1 Sol system card addendum(opens in a new window). The evaluations below deliberately test challenging situations and do not measure failure rates in typical use. GPT‑6.1 Sol is available starting today to all Plus, Pro, Business, Enterprise, and Edu users in ChatGPT Work and Codex. GPT‑6.1 Sol is not yet available in Chat. Developers can also access it through the OpenAI API as gpt-6.1-sol. Its standard API prices are $2 per million input tokens, $0.10 per million cached input tokens, and $10 per million output tokens. In the coming days, we’ll also offer GPT‑6.1 Sol Ultrafast, with up to 8x faster token generation compared to its standard speed in Codex. Author Evaluations of GPT were performed in our research environment or via our API, which may provide slightly different output from production ChatGPT due to differences in the system prompts, tools available, efforts, etc. Evaluations of competitor models were taken from publicly available reports.",
+          "title_zh": "OpenAI 发布代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing GPT-6.1 Sol",
+              "source_url": "https://openai.com/index/introducing-gpt-6-1-sol"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+              "source_url": "https://openai.com/index/introducing-gpt-6-1-sol"
+            }
+          ],
+          "slug": "introducing-gpt-6-1-sol-dd66acae",
+          "localized_url": "/zh/items/2026-09-30/introducing-gpt-6-1-sol-dd66acae/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "DevDay 2026 Recap",
+          "title_original": "DevDay 2026 Recap",
+          "title_en": "DevDay 2026 Recap",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/devday-2026-recap",
+          "published_at": "Tue, 29 Sep 2026 10:00:00 GMT",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "19db7cc5ca5c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "DevDay 2026 Recap",
+          "extracted_excerpt": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+          "extracted_text_for_analysis": "DevDay 2026 is our biggest yet, with more than 20 major announcements across ChatGPT, Codex, our models, and entirely new forms of working with AI. We believe AI can help bring about a new renaissance of creativity and discovery. It should give people more time for what matters to them, more freedom to pursue their ideas, and the ability to do things they didn’t think were possible. Today, we introduced agents that can take on ongoing responsibilities and new ways for people and AI to work together. We also expanded our commitment to an open ecosystem by opening up ChatGPT as a shared surface where humans and agents can collaborate and where developers can directly launch new native experiences to our collective 1.2B weekly users. Here’s everything we announced.",
+          "title_zh": "OpenAI 推进政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "DevDay 2026 Recap",
+              "source_url": "https://openai.com/index/devday-2026-recap"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+              "source_url": "https://openai.com/index/devday-2026-recap"
+            }
+          ],
+          "slug": "devday-2026-recap-19db7cc5",
+          "localized_url": "/zh/items/2026-09-30/devday-2026-recap-19db7cc5/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing dots",
+          "title_original": "Introducing dots",
+          "title_en": "Introducing dots",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/introducing-dots",
+          "published_at": "Tue, 29 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "884977ecb800",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing dots",
+          "extracted_excerpt": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+          "extracted_text_for_analysis": "Dots are remarkably capable, always-on agents built to handle everything. They’re a whole new way to work with AI—one that gets to know what matters to you, is always working on your behalf, and takes important work off your plate so you get more of your time and attention back. Dots are frontier intelligence that have your back. Powered by GPT‑6 Astra, they have their own cloud computer, learn from feedback over time, and can work towards your goals 24/7. Through our ecosystem of plugins, they can readily connect to over 4,000 apps, giving them the tools to help wherever you need them. Your dot is always within reach, whether it is through ChatGPT, Slack, or Teams. You can ask questions, explore ideas, and give feedback along the way; or you can simply hop on a voice call when you need to talk something out. The more you work together, the more your dot learns your preferences, how you think, and what good looks like to you. The magic of dots is when they bring you work done the way you would do it, sometimes before you even think to ask. With dots alongside you, ambitious ideas and projects you haven’t had the time or support to pursue start to feel achievable. Inside OpenAI, we’re getting a glimpse of what work looks like when intelligence is always working by your side. A bug appears in Slack, and dots immediately start investigating. A new design arrives, and dots turn it into a working app while the team focuses on customer feedback. A planning cycle gets underway, and dots keep everyone moving in sync toward the deadline. Outside OpenAI, an early tester’s dot noticed he’d forgotten to invoice a publication, prepared the invoice, and sent it after his approval. Today, you can start with your primary dot, give it a name, and make it your own. Over time, we envision teams of dots working together on your behalf. We’re beginning to roll out dots across Pro, Business Premium, and Enterprise plans in eligible markets. We plan to expand dots to more users soon. We’re also sharing a preview of specialist dots with their own identity for access management, IT-provisioned hardware, and support for deep integrations with a company’s systems of record to allow them to take on well-defined responsibilities inside organizations. Dots can do nearly anything using their own cloud computer, their own browser, and the apps you’ve connected. You can open your dot’s computer at any time to inspect its work. Dots can connect to other devices in addition to their own and you can also give your dot permission to connect and use your laptop, where it can then be useful directly alongside you. Your dot can take a project and run with it, even while it’s working on several others. You can keep bringing it new tasks and ideas without having to juggle separate threads or direct every step. With a dot that knows your goals and standards, you can take on more without directing every step. Here’s what that looks like: Working with your dot is as simple as having a conversation. You can message or call dots in ChatGPT on desktop, web, and mobile. They can also message you with progress, questions, or decisions that need you. You can also message your dot in Slack and Teams, with texting coming soon. Start a project in ChatGPT, share context with the working team in Slack, and let your dot follow through. Dots carry context across every channel, so your dot will have the full context wherever you reach it. Dots build on ChatGPT’s protections with additional safety and privacy safeguards for the work they can do. You can set boundaries, follow progress, and stay involved in decisions that need you. Each dot works on its own cloud computer, while your computer and its contents stay separate unless you choose to connect it. For signing into supported websites, dots can use saved passwords without exposing them to the model. When you aren’t actively working with it, your dot looks for ways to help in the background. We call this “proactive research”. It does this by using the apps you’ve already connected with tools that are restricted to be read-only, which means that they can’t send messages, change app content, or control your browser or computer. Security safeguards built into dots help defend against malicious instructions and monitor for potentially harmful behavior. If our monitoring system detects a safety concern, it can pause or stop the dot’s work. You choose which apps dots can access and can manage their permissions through your existing ChatGPT app controls. Dots start with built-in rules for when to act independently and when to ask for approval. Custom Rules let you allow specific actions, require approval, or block them. Built-in safety requirements always apply and you can follow progress, including background work, in Activity View and redirect dots as needed. We don’t use content from ChatGPT Business, Enterprise, or Edu workspaces to improve our models by default. On personal ChatGPT plans, you can control whether dots’ conversations and work are used to improve our models(opens in a new window). We don’t train directly on proactive research or your dot’s notes to itself. Information from them may be used if it helps inform an eligible conversation or task, depending on your settings. Dots use auto-review(opens in a new window) to check actions that could affect your accounts or share information against your instructions, Custom Rules, and safety requirements. This helps determine what work can proceed, what needs approval, and what you must do yourself. Certain sensitive tasks, such as changing a password, always stay with you. You can learn more about our safety approach for dots in our dots safety blog, in our Help Center(opens in a new window), and in our system card(opens in a new window). Dots can still make mistakes, so always review consequential work. Your dot works on your behalf; specialist dots take on dedicated responsibilities within your organization. Your company sets up each dot with its own identity, credentials, and access to the systems it needs to complete its tasks. As it works, the dot adapts to new information and improves with feedback from your team. We’re building on lessons from early testing inside OpenAI across procurement, invoice processing, email marketing, customer support, and commercial contracting. We’re starting with focused enterprise pilots. Our engineering teams will work directly with organizations to define each dot’s responsibilities, the tools it can use, and how people review and approve its work. If there’s work you’d like a specialist dot to take on, we’d like to hear from you. We’re also working with Microsoft to integrate specialist dots with their enterprise governance and security controls in Agent 365. The goal is to let businesses manage dots through the Microsoft tools they already use. Dots are rolling out today in ChatGPT to Pro and Business Premium users in eligible markets(opens in a new window). Enterprise users",
+          "title_zh": "OpenAI 发布模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing dots",
+              "source_url": "https://openai.com/index/introducing-dots"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+              "source_url": "https://openai.com/index/introducing-dots"
+            }
+          ],
+          "slug": "introducing-dots-884977ec",
+          "localized_url": "/zh/items/2026-09-30/introducing-dots-884977ec/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Towards safety cases for frontier AI training",
+          "title_original": "Towards safety cases for frontier AI training",
+          "title_en": "Towards safety cases for frontier AI training",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+          "published_at": "Mon, 28 Sep 2026 19:00:00 GMT",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cf468ec39dd6",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Towards safety cases for frontier AI training",
+          "extracted_excerpt": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+          "extracted_text_for_analysis": "We believe we are entering a new era in which structured safety documentation should be required before continuing any frontier reinforcement learning training run. Ideally, such documentation would rise to the level of “safety cases”—comprehensive, structured, evidence-based arguments about risk which are used in other safety-critical industries. We treat safety cases as an aspirational north star we are building towards, while acknowledging the challenges of making them as rigorous for AI models as for aviation or nuclear power, due to the emergent complexity at each new level of AI capability. We’re working on a framework to codify these practices. Below are some initial guidelines that we think should be part of such safety cases for frontier AI training. These best practices reflect our current learnings, and we expect them to evolve as we continue iterating on internal processes for careful development. We’re sharing them now to make our current thinking transparent, and invite feedback from the community. Note that this document is focused on frontier reinforcement learning training; internal and external deployment require considering a much broader set of alignment properties. Safety cases should cover three aspects of the technical stack: alignment training, containment, and monitoring. These safeguards help ensure that the model does not try to take misaligned actions, and that even if it did, that it would be hard to break containment, and that monitoring would catch it before harm could occur. - Model alignment: The first line of defense should be training models to be aligned; i.e., to act reliably in ways we intend. This could include: - Training environments and grading: Decrease risks of models developing misaligned behavior, by preventing positive reinforcement of reward hacks during training. This could include: - Automated dataset reviews: Use agents to find and fix broken RL environments that could allow misaligned trajectories to receive high reward through exploits rather than intended behavior, reducing opportunities for misalignment to be reinforced during training. - Manual dataset reviews: Supplement automated red-teaming with manual review and quality checks over datasets to identify flawed tasks that could inadvertently reinforce misaligned behavior. - Grader tuning: Tune graders to penalize attempts from the model trying to exploit or hack RL environments during training. - Prior run analysis: Run classifiers over traces from prior experiments to make sure graders are working as intended. - Alignment measurement: Run evaluations that track misalignment propensities of the model to measure the effectiveness of alignment training. This could include: - Offline alignment evals: Run alignment evaluations during frontier runs to assess whether training is working as intended, and investigate any material regressions. - Backtesting: Backtest alignment evaluations on previous incidents to confirm that evaluations detect previously misaligned models and are not being overfit to particular incidents. - Track evaluation gaming: Track eval awareness or metagaming (models recognizing they are being tested) that could induce a behavioral change (e.g., enable eval-awareness and metagaming monitors on alignment evals), with specific blocking thresholds. - Worst-case stress tests: Elicit worst-case misbehavior and check that at least one evaluation would detect this misbehavior. - Prevent training on chain-of-thought: Do not let automated graders see the chain-of-thought in reinforcement learning to prevent models from evolving to evade chain-of-thought monitors. - Containment: In the case that a model becomes misaligned, make sandboxing and security strong enough to prevent harmful actions from occurring. This could include: - Multiple layers of infrastructure security: Invest heavily in hardening both the sandbox the model runs in and the research infrastructure hosting the sandbox, to ensure we have an extra layer of protection in the event of a sandbox escape. - Containment red-teaming: Improve sandbox, research infrastructure, and perimeter security by iteratively red-teaming these systems using checkpoints from frontier training runs, subject to a safety analysis, to find and close any gaps. Also red-team all services that the model could touch during training (e.g., internet cache). - Cross-sample communication: Limit high-bandwidth cross-sample communication to approved pathways, such as multi-agent tooling, and close infrastructure side channels that are high-bandwidth and easily discoverable by agents. - Immutable transcripts: Save agent transcripts immutably for a reasonable period of time (for example, in write-once storage accounts) for all RL training, evaluation, and internal deployment, to enable reliable incident investigation and prevent inadvertent edits. - Monitoring: In the case that models begin to take misaligned actions, have a live monitoring system to catch any potential misalignment, and rapidly address priority issues before a serious incident can occur. This could include: - Enforce monitorability: Ensure models remain monitorable, as measured by monitorability and monitor evasion evals with clear thresholds, to catch concerning behavior early. - High recall on known issues: Ensure the monitoring system has high recall on past incidents in a held-out eval. - Eval freshness for monitors: Create eval datapoints representative of net-new risks for new runs, so measures of monitor recall and precision do not become stale. - Rapid response: Implement priority alerts that result in action within a defined SLA, either by paging an on-call person or by automatically pausing the affected run, before the model causes harm (e.g., page security on-call and the run owner on incidents during the day, and auto-pause runs for unacknowledged alerts at night). Along with recommendations about technical safeguards, we have been working on operational best practices for safety cases for a frontier AI training run. These could include: - Dissents (pre-mortems): After a safety case is drafted, a member of another team should write a dissent to find potential holes in the safety case and share a calibrated take on risk, which the training team should then address, to help make safety cases stronger. - Approvals: The safety case should be reviewed by members of senior leadership, who should each have the ability to veto the run in order to ensure there are multiple internal checks on the run (e.g., research org lead / VP, Head of Safety, and Chief Scientist). - Accountability: The senior leader responsible for a training run (e.g., research org lead / research VP) should be accountable for the safety case and any incident response (including as part of performance reviews) so that training teams are also incentivized to push for safety and alignment. - Pausing: If issues are found that would invalidate a safety case (e.g., a new security issue),",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Towards safety cases for frontier AI training",
+              "source_url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+              "source_url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
+            }
+          ],
+          "slug": "towards-safety-cases-for-frontier-ai-training-cf468ec3",
+          "localized_url": "/zh/items/2026-09-30/towards-safety-cases-for-frontier-ai-training-cf468ec3/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GPT-6.1 Sol now available on AI Gateway",
+          "title_original": "GPT-6.1 Sol now available on AI Gateway",
+          "title_en": "GPT-6.1 Sol now available on AI Gateway",
+          "summary_zh": "OpenAI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT-6.1 Sol from OpenAI is now available on AI Gateway. It improves on GPT-6 Sol for coding, computer use, and professional work, including reading complex documents and carrying out multi-step workflows. The model is suited to agents that need to debug code,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/gpt-6-1-sol-now-available-on-ai-gateway",
+          "published_at": "2026-09-29T00:00:00.000Z",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e48cef2e8011",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "GPT-6.1 Sol now available on AI Gateway - Vercel",
+          "extracted_excerpt": "Call OpenAI's GPT-6.1 Sol through Vercel AI Gateway with one API key, spend tracking, request traces, and routing for coding and agent workflows.",
+          "extracted_text_for_analysis": "GPT-6.1 Sol from OpenAI is now available on AI Gateway. It improves on GPT-6 Sol for coding, computer use, and professional work, including reading complex documents and carrying out multi-step workflows. The model is suited to agents that need to debug code, work through business tasks, or extract answers from PDFs with tables and charts. It also improves factual accuracy on difficult questions. Its standard input and output pricing is lower than GPT-6 Astra's, while cheaper cached input makes it useful for requests that reuse a long shared context. Use openai/gpt-6.1-sol as the model name with the AI SDK, OpenAI-compatible Chat Completions API, or Responses API. You can also select it in coding agents connected to AI Gateway: To use the model in coding agents like Codex, Cursor, and more, install the latest Vercel CLI and run setup: npm i -g vercel@latestvercel ai-gateway setup Then select openai/gpt-6.1-sol in the agent. See the coding agents guide for details. Try GPT-6.1 Sol in the playground and learn more about the GPT-6 model family.",
+          "title_zh": "OpenAI 发布代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GPT-6.1 Sol now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/gpt-6-1-sol-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT-6.1 Sol from OpenAI is now available on AI Gateway. It improves on GPT-6 Sol for coding, computer use, and professional work, including reading complex documents and carrying out multi-step workflows. The model is",
+              "source_url": "https://vercel.com/changelog/gpt-6-1-sol-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "gpt-6-1-sol-now-available-on-ai-gateway-e48cef2e",
+          "localized_url": "/zh/items/2026-09-30/gpt-6-1-sol-now-available-on-ai-gateway-e48cef2e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+          "title_original": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+          "title_en": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+          "summary_zh": "Hugging Face Blog 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+          "published_at": "Tue, 29 Sep 2026 13:07:00 GMT",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "984223f109f3",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+          "extracted_excerpt": "A Blog post by Multiverse Computing on Hugging Face",
+          "extracted_text_for_analysis": "Our latest paper, ProvenanceGuard: Source-Aware Factuality Verification for MCP-Based LLM Agents (read it on Hugging Face, or on arXiv in the meantime), targets that gap. The failure mode we care about is one we call cross-source conflation: a claim that is true somewhere in the evidence, but attributed to the wrong source. A source-blind verifier may pass it, because the fact does exist in the pool. A source-aware verifier should not. Consider a customer support agent that answers, \"According to the account record, this plan includes a 30-day refund window.\" The refund window may be perfectly real, but stated in a policy document, not in the account record the answer points to. Pool the two together and the claim looks supported. Keep them separate and the attribution is wrong, and in a data-sensitive setting a wrong attribution can be as damaging as a wrong fact. The same pattern shows up in a clinical agent, where a patient-specific medication detail taken from a patient-history tool becomes misleading the moment the answer presents it as a finding from the medical literature. A claim can be supported by one MCP source while the answer attributes it to another. Source-blind scoring sees support in the pooled evidence and passes it; ProvenanceGuard separately checks whether the supporting source matches the one the answer states or implies. Source: paper Figure 1. This is why faithfulness scores, useful as they are, are not enough for MCP agents. An answer carries provenance, sometimes explicitly (\"according to the account record\") and sometimes implicitly. ProvenanceGuard keeps that connection between claim and source available for inspection. ProvenanceGuard is a post-generation verification layer that sits on top of a black-box MCP agent. It runs after an agent produces an answer, and never collapses the evidence into one anonymous context. Instead it carries the source identity all the way through the pipeline. It reads the captured MCP trace, including the tool outputs and their source IDs, without retraining the agent. Then it does five things in sequence: it breaks the answer into specific claims, finds the source most relevant to each one, checks whether that source actually supports it, compares the source with the one the answer names or implies, and finally emits both a per-claim source verdict and a global, answer-level allow or block decision. The verification flow. Source identity is preserved through decomposition, routing, support scoring, attribution checking, and repair, rather than being pooled. Blocked answers can go through RARR-style repair and be re-verified. Source: paper Figure 2. A few of the design choices are worth calling out. For the experiments in our paper, we used local models so the captured traces could be processed in a controlled, offline setup: MiniLM helps find the relevant source, a DeBERTa NLI verifier model checks whether that source supports the claim, and a local language model helps break answers into claims. The verifier also checks literal values closely: a number, date, or identifier absent from the source cannot pass merely because the sentence sounds plausible. A calibrated decision step combines these signals. If an answer is blocked, a RARR-style repair step can try a source-grounded revision or a safe fallback, which the verifier then checks again. Those named models are the setup we evaluated, not a requirement of ProvenanceGuard. The same claim, source, and decision steps can be adapted to hosted models where a team prefers cloud services; a new setup would need its own testing and calibration. Our reported results come from the local configuration. Its conservative decision policy suits data-sensitive review, where getting the source right matters more than producing the fastest possible answer. We tested ProvenanceGuard on answers from a medical agent that had used patient records, research articles, and other tools. This gave us 281 real traces to study. Medicine is a useful test because a fact from a patient's record and a fact from general research cannot be treated as the same source. The method can also be used in other fields when an agent keeps a record of its tool outputs and source IDs. For the main test, human experts checked 361 claims from 40 answers set aside from the data used to develop the system. The most direct result is this: experts said 139 claims should not pass, and ProvenanceGuard caught 138 of them. It let one through. It also held 67 claims that the experts considered supported, sending them for review or repair. This reflects the cautious setting we tested: it favors a second look at some supported claims over letting unsupported ones through. For claims with an identifiable source, it also picked the right source about 86% of the time in this test. We ran four other support checkers on the same claims. ProvenanceGuard scored highest on the paper's measure of how well a system catches claims that should be blocked while avoiding unnecessary blocks. The other checkers in this comparison did not tell us which tool output supported each claim. ProvenanceGuard records that connection, so a reviewer can see the source checked for each claim and the decision it produced. Binary support metrics on the same held-out claim packet. ProvenanceGuard matches or beats the source-blind baselines on blocking while also producing per-claim source verdicts. Source: paper abstract and Table III. In a separate, harder test with several similar sources, ProvenanceGuard scored 0.846 F1 for deciding which claims to block, but identified the exact source correctly in 50.3% of claims. Telling similar sources apart remains an important area for improvement. We also ran a controlled test focused on wrong attribution: we changed the named source in 50 cases while leaving the supporting evidence intact. ProvenanceGuard caught all 50 swaps. This shows it can detect a clear source error, while the harder test shows the challenge of choosing among many plausible sources. Blocking is only useful if there is something to do with a blocked answer. Wired to the RARR-style repair loop, the full-trace run resolved all 173 blocked answers, though 144 of them ended in fallback text rather than a substantive rewrite, which is the system choosing to avoid an unverifiable answer rather than manufacture one. On reconstructed multi-source test traces, a fresh repair run resolved all 59 initially blocked answers with only two terminal fallbacks. As an offline gate the overhead is modest, roughly half a second per answer on the reported local configuration, with the NLI and routing calls themselves in the tens of milliseconds. As agents move from single-passage RAG to multi-tool MCP setups, the question of which source a fact actually came from stops being a footnote and becomes part of what factuality means. ProvenanceGuard makes that source connection visible claim by claim. For Multiverse Computing, that means a way to check",
+          "title_zh": "Hugging Face 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+              "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"
+            }
+          ],
+          "slug": "getting-the-source-right-not-just-the-fact-source-aware-verification-for-984223f1",
+          "localized_url": "/zh/items/2026-09-30/getting-the-source-right-not-just-the-fact-source-aware-verification-for-984223f1/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "All of the Lenny & Friends Summit talks are now online!",
+          "title_original": "All of the Lenny & Friends Summit talks are now online!",
+          "title_en": "All of the Lenny & Friends Summit talks are now online!",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Plus, some reflections and takeaways from the day",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/all-of-the-lenny-and-friends-summit",
+          "published_at": "Tue, 29 Sep 2026 13:15:57 GMT",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "64138d97388d",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "All of the Lenny & Friends Summit talks are now online!",
+              "source_url": "https://www.lennysnewsletter.com/p/all-of-the-lenny-and-friends-summit"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Plus, some reflections and takeaways from the day",
+              "source_url": "https://www.lennysnewsletter.com/p/all-of-the-lenny-and-friends-summit"
+            }
+          ],
+          "slug": "all-of-the-lenny-friends-summit-talks-are-now-online-64138d97",
+          "localized_url": "/zh/items/2026-09-30/all-of-the-lenny-friends-summit-talks-are-now-online-64138d97/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
+          "title_original": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
+          "title_en": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
+          "summary_zh": "Congrats team!",
+          "summary_en": "Congrats team!",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+          "published_at": "Tue, 29 Sep 2026 02:55:27 GMT",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "abda39f3393f",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
+              "source_url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Congrats team!",
+              "source_url": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b"
+            }
+          ],
+          "slug": "ainews-amd-buys-world-labs-for-8-2b-as-atlas-solves-sparse-reconstructio-abda39f3",
+          "localized_url": "/zh/items/2026-09-30/ainews-amd-buys-world-labs-for-8-2b-as-atlas-solves-sparse-reconstructio-abda39f3/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Opus 5.5 is good at explainer videos",
+          "title_original": "[AINews] Opus 5.5 is good at explainer videos",
+          "title_en": "[AINews] Opus 5.5 is good at explainer videos",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "a rare feature of a capability",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
+          "published_at": "Tue, 29 Sep 2026 02:44:29 GMT",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f403a9e88a76",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Opus 5.5 is good at explainer videos",
+              "source_url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer"
+            },
+            {
+              "label": "公开摘要",
+              "text": "a rare feature of a capability",
+              "source_url": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer"
+            }
+          ],
+          "slug": "ainews-opus-5-5-is-good-at-explainer-videos-f403a9e8",
+          "localized_url": "/zh/items/2026-09-30/ainews-opus-5-5-is-good-at-explainer-videos-f403a9e8/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "From Math Olympiads to Navier-Stokes: How Fast Is AI Progressing? with Greg Burnham - #778",
+          "title_original": "From Math Olympiads to Navier-Stokes: How Fast Is AI Progressing? with Greg Burnham - #778",
+          "title_en": "From Math Olympiads to Navier-Stokes: How Fast Is AI Progressing? with Greg Burnham - #778",
+          "summary_zh": "Benchmark 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "AI systems have gone from struggling with grade-school math to helping solve research problems that have resisted mathematicians for decades, including Navier-Stokes. In this episode, Greg Burnham, who leads AI capabilities research at Epoch AI, joins us to",
+          "source_name": "TWIML AI Podcast",
+          "source_url": "https://twimlai.com/podcast/twimlai/",
+          "original_url": "https://twimlai.com/podcast/twimlai/math-olympiads-navier-stokes-how-fast-ai-progressing",
+          "published_at": "Tue, 29 Sep 2026 21:56:00 -0000",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Benchmark"
+          ],
+          "tags": [
+            "ml",
+            "podcast",
+            "research"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0592c57cfe4d",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Benchmark 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Benchmark，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、podcast、research。",
+            "涉及公司或机构：Benchmark。"
+          ],
+          "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "From Math Olympiads to Navier-Stokes: How Fast Is AI Progressing? with Greg Burnham - #778",
+              "source_url": "https://twimlai.com/podcast/twimlai/math-olympiads-navier-stokes-how-fast-ai-progressing"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI systems have gone from struggling with grade-school math to helping solve research problems that have resisted mathematicians for decades, including Navier-Stokes. In this episode, Greg Burnham, who leads AI",
+              "source_url": "https://twimlai.com/podcast/twimlai/math-olympiads-navier-stokes-how-fast-ai-progressing"
+            }
+          ],
+          "slug": "from-math-olympiads-to-navier-stokes-how-fast-is-ai-progressing-with-gre-0592c57c",
+          "localized_url": "/zh/items/2026-09-30/from-math-olympiads-to-navier-stokes-how-fast-is-ai-progressing-with-gre-0592c57c/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Search trace spans from the Vercel CLI",
+          "title_original": "Search trace spans from the Vercel CLI",
+          "title_en": "Search trace spans from the Vercel CLI",
+          "summary_zh": "Vercel 推进了政府与国家安全合作原则，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You and your coding agents can now search a project’s trace spans from the terminal with vercel traces search . Each span represents one step in a request, helping you investigate errors, latency, and security-related behavior without opening the dashboard.",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/search-trace-spans-from-the-vercel-cli",
+          "published_at": "2026-09-29T13:00:00.000Z",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "14353aeb4a50",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进政府与国家安全合作原则",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Search trace spans from the Vercel CLI",
+              "source_url": "https://vercel.com/changelog/search-trace-spans-from-the-vercel-cli"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You and your coding agents can now search a project’s trace spans from the terminal with vercel traces search . Each span represents one step in a request, helping you investigate errors, latency, and security-related",
+              "source_url": "https://vercel.com/changelog/search-trace-spans-from-the-vercel-cli"
+            }
+          ],
+          "slug": "search-trace-spans-from-the-vercel-cli-14353aeb",
+          "localized_url": "/zh/items/2026-09-30/search-trace-spans-from-the-vercel-cli-14353aeb/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+          "title_original": "Introducing Quine: An AI research system designed for the complexity of biology",
+          "title_en": "Introducing Quine: An AI research system designed for the complexity of biology",
+          "summary_zh": "Microsoft 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and modalities, Quine helps scientists",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+          "published_at": "Tue, 29 Sep 2026 14:00:02 +0000",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "37351544863b",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 发布模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "multimodal",
+              "explanation": "同时处理文本、图像、音频或视频等多种输入输出形式。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing Quine: An AI research system designed for the complexity of biology",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/"
+            }
+          ],
+          "slug": "introducing-quine-an-ai-research-system-designed-for-the-complexity-of-b-53ae606f",
+          "localized_url": "/zh/items/2026-09-30/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-b-53ae606f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
+          "title_original": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
+          "title_en": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
+          "summary_zh": "Microsoft 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across government, academia, and industry, and explored how frontier AI research can create real-world value. The post One year",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
+          "published_at": "Mon, 28 Sep 2026 21:00:00 +0000",
+          "fetched_at": "2026-09-30T01:19:18.477064+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "05d139314aaf",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 讨论政府与国家安全合作原则",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across government, academia, and industry, and explored how frontier AI research can",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/"
+            }
+          ],
+          "slug": "one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-3c2fdddd",
+          "localized_url": "/zh/items/2026-09-30/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-3c2fdddd/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-29",
       "title_zh": "AI 新闻简报 · 2026-09-29",
