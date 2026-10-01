@@ -1,7 +1,1224 @@
 {
-  "updated_at": "2026-09-30T01:19:20.520484+00:00",
-  "count": 104,
+  "updated_at": "2026-10-01T01:19:17.014688+00:00",
+  "count": 105,
   "briefs": [
+    {
+      "date": "2026-10-01",
+      "title_zh": "AI 新闻简报 · 2026-10-01",
+      "title_en": "English AI News Brief · 2026-10-01",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 129 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 129 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 129,
+      "selected_count": 18,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Disrupting a coordinated model-distillation campaign",
+          "title_original": "Disrupting a coordinated model-distillation campaign",
+          "title_en": "Disrupting a coordinated model-distillation campaign",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+          "published_at": "Wed, 30 Sep 2026 10:30:00 GMT",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6a91381a4292",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Disrupting a coordinated model-distillation campaign",
+          "extracted_excerpt": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+          "extracted_text_for_analysis": "Disrupting a coordinated model-distillation campaign Loading… We recently identified and disrupted a coordinated campaign designed to extract protected reasoning from our models, with the earliest observed activity occurring in the first week of July. This activity is consistent with adversarial distillation: the systematic and unauthorized use of one model’s outputs or reasoning to help train, reproduce, or improve another model. Protected reasoning is the model’s internal record for working through a task; extracting it can reveal information withheld from the final answer and help others reproduce the model’s capabilities. The operators did not break our encryption, compromise a database, or gain direct access to stored user conversations. Instead, they manipulated model interactions so that protected reasoning could be reproduced in forms visible to the requester in a coordinated, scaled manner that violated our terms of service. This manipulation is not a vulnerability unique to OpenAI’s models, and we have shared information about it with industry partners through the Frontier Model Forum in order to strengthen collective defenses against adversarial distillation. Before publishing, we investigated the scope and potential impact, deployed our own mitigations, and shared with and took feedback from researchers and industry partners to ensure protections against this type of attack are in place. Additional mitigation and investigation work is continuing. We believe sharing what we have learned now will help the broader ecosystem strengthen its defenses. What we observed We saw operators attempt to extract protected reasoning in novel ways, including by copying encrypted reasoning from one conversation and asking a model in another conversation to decrypt and transcribe the hidden reasoning content. Independent security researchers(opens in a new window) also brought related cross-model and conversation-compaction vulnerabilities to our attention through responsible disclosure. We investigated their findings and confirmed that the attack paths they identified were real. Their work helped us understand the broader attack class and accelerate mitigations. The activity began on July 1, initially at a low volume until we observed high-volume spikes on July 24 and 25 consisting of 16,000 requests1 using a relevant extraction pattern from over 4,000 users. Further investigation identified related prompt-pattern activity across a cluster of more than 15,000 users, which we fully disrupted by July 28. The activity evolved over time, reinforcing that adversarial distillation is a broader security challenge that requires layered, adaptive defenses. Our assessment of attribution It is unclear whether all operators we observed during the relevant time period originated from a single actor. However, we attribute a core cluster of the activity to individuals associated with Moonshot AI, the developer of Kimi. Why this matters Adversarial distillation poses safety and national security risks. Extracted reasoning could be used to train another model without preserving the safeguards applied to the original model’s user-facing outputs. At scale, distillation can also accelerate the transfer of advanced capabilities without requiring the same investment in safety. These concerns become heightened as models gain capabilities in dual use domains. This risk is not unique to OpenAI. As cited above, similar techniques may affect other advanced AI systems, making this a shared security challenge that requires coordination across the industry. How we responded We mitigated this recent distillation campaign through a combination of account enforcement, technical controls, and partner coordination. We banned or restricted fraudulent accounts, strengthened signup and infrastructure controls, and expanded monitoring for related networks. We also strengthened protections for hidden reasoning across users, workspaces, organizations, and model families. We closed a pathway that allowed someone who already possessed another user's encrypted reasoning to replay it and recover its contents, and added checks to detect and hold streamed output that might expose reasoning. When related activity moved through third-party services, we worked with those providers to identify and disrupt the accounts involved. Finally, we shared relevant findings through the Frontier Model Forum and appropriate government information-sharing channels so that other frontier developers and public-sector partners could look for similar activity and strengthen their own defenses. Systems that support portable or replayable reasoning artifacts may face related risks. What comes next We expect adversarial distillation attempts to become more sophisticated as frontier models improve and as actors look for cheaper ways to mimic their capabilities. Defending against this activity requires layered controls and continual adaptation. This work is not finished. Partner-hosted deployments need the same protections as first-party services, and tool-output attacks require protections that examine more than ordinary visible text. We are continuing to improve tool defenses, classifier coverage, model refusals, and propagate relevant controls across cloud partners. Our response will continue to focus on three areas: stronger technical protections against extraction, better detection and enforcement against coordinated campaigns, and deeper threat-information sharing across industry and government.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Disrupting a coordinated model-distillation campaign",
+              "source_url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+              "source_url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+            }
+          ],
+          "slug": "disrupting-a-coordinated-model-distillation-campaign-6a91381a",
+          "localized_url": "/zh/items/2026-10-01/disrupting-a-coordinated-model-distillation-campaign-6a91381a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Helping small businesses put AI to work",
+          "title_original": "Helping small businesses put AI to work",
+          "title_en": "Helping small businesses put AI to work",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+          "published_at": "Wed, 30 Sep 2026 10:00:00 GMT",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b5e5e43443d2",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Helping small businesses put AI to work",
+          "extracted_excerpt": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+          "extracted_text_for_analysis": "Partnership with America’s SBDC will expand hands-on training and local guidance, while a new report explores what small teams are accomplishing with AI. Loading… Small businesses are built on ambition: a craft you’ve perfected, a skill to share, a better way to serve a community. But turning that ambition and expertise into a business also means finding customers, managing finances, and handling marketing, often with a small team and little time to spare. AI can extend a team’s capacity, but figuring out where to start takes time too. A trusted advisor can make that first step easier. Today, OpenAI is announcing a partnership with America’s SBDC(opens in a new window)—the national network of small business development centers serving 1 million entrepreneurs each year—to help more small businesses use AI at work. In this initial phase, through OpenAI Academy’s Community Trainer Program, we plan to train around 150 Small Business Development Center advisors and bring hands-on workshops to SBDC networks across the country, with the goal of reaching at least 1,000 small businesses through in-person training and many more through one-on-one advising and resources we develop together. Alongside this new partnership, we’re also releasing Small Businesses, Bigger Capabilities, a new report(opens in a new window) examining how owners and small teams are using AI to expand what they can build and accomplish. The report finds that in just one recent week, from September 9-15, around 4 million small-firm employees worldwide used OpenAI’s tools. Through the SBDC partnership, we want to help even more owners build the skills and confidence to explore what AI could make possible for their businesses. Training advisors and reaching local small businesses The pilot will combine training for local advisors with opportunities for owners to learn, practice, and get ongoing help: Training and credentialing advisors. America’s SBDC plans to select small business advisors for an OpenAI Academy training and credentialing pathway focused on helping small businesses apply AI. Through this training, we’re combining SBDC’s community expertise and trusted advisor relationships with AI tools, helping advisors equip owners to choose a useful starting point, use AI responsibly, and assess whether it’s helping their business. Advisors and staff will also prepare to lead group sessions through a separate facilitator pathway and small-business workshop module. Hands-on local workshops. We plan to work with SBDC networks to host Academy Workshops, with at least one at each participating network. Modeled on OpenAI Academy’s three-hour, hands-on format, these sessions will help owners build and test ways to use ChatGPT on real business tasks and leave with a plan for putting those tools into practice. SBDC advisors will follow up afterward to help owners work through questions and see what’s proving useful. Resources shaped by business needs. Together with America’s SBDC, we will create practical guides to putting AI to work and one companion guide focused on specific industries, shared across OpenAI Academy and America’s SBDC channels. Potential topics include marketing, operations, manufacturing, exporting, and government contracting. The guides will reflect what we learn from workshops and advising. What small teams are making possible with AI Our new report(opens in a new window), Small Businesses, Bigger Capabilities, brings together usage data and owners’ experiences to examine how small businesses are already using OpenAI’s tools. It finds that in a recent week in September, approximately 4 million employees at companies with fewer than 500 people used our products. Nearly one in five of those users worked at a business with fewer than 10 employees. And in August, agentic output tokens for products like ChatGPT Work and Codex—the units that AI models process and generate—made up two-thirds of all small business output tokens, up from just one-third in April 2026. The report also examines the work small businesses are turning to AI to handle. In the sample, finance and accounting, supply chain, legal and compliance, and marketing each accounted for at least three times as large a share of small-business users’ interactions with AI agents as they did for larger-business users. These are areas where a small team may need help without having a dedicated specialist on staff. For some owners, that help makes it possible to tackle work they would otherwise have left undone. Ted and Tami Taylor, who run three restaurants in New Mexico, used ChatGPT Work to compare competitors’ menu prices before updating their own. The analysis helped them avoid price increases that would have made some items uncompetitive. Ted says they would otherwise have skipped the comparison. Other owners are using AI to pursue new business. Teri Moten used ChatGPT Work to research school districts in South Texas and prepare tailored outreach that she reviewed and sent. She reports booking a paid training session within ten days of starting that outreach. These experiences offer concrete starting points for owners considering how AI might fit into their own work. Building on practical support for small businesses This partnership brings together OpenAI’s work to help owners and small teams use AI with America’s SBDC’s business expertise and trusted relationships with owners in their communities. Last November, OpenAI Academy teamed up with DoorDash, SCORE, and local business organizations for Small Business AI Jams in five U.S. cities, giving owners hands-on help with tasks such as marketing, customer communications, and everyday operations. Our ChatGPT for small business program, introduced in July 2026, adds training and resources to help owners use AI at work. Our partnership with America’s SBDC extends that work through advisors who already support owners in their communities. Throughout the pilot, we’ll follow up with owners to understand what’s helping, what they’re still using, and where they need more support. What we learn will shape the training and resources we develop together. Ted and Tami Taylor, who run three restaurants in New Mexico, used ChatGPT Work to compare competitors’ menu prices before updating their own. The analysis helped them avoid price increases that would have made some items uncompetitive. Elizabeth Rider used ChatGPT to model pricing and user growth and work through product and UX decisions for Butler, her meal-planning app. She built it with three developers and a designer. Larissa Guetter, co-founder of ATV Big Air Tour, says ChatGPT Work helps her two-person team do work that would otherwise take multiple team members and compete with businesses with bigger budgets and teams. Allison Leeds used ChatGPT to organize research and develop weekly art cards pairing color palettes with mantras. The project became a small business, with ChatGPT helping her work as a creative solopreneur. Goliath Data",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Helping small businesses put AI to work",
+              "source_url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+              "source_url": "https://openai.com/index/helping-small-businesses-put-ai-to-work"
+            }
+          ],
+          "slug": "helping-small-businesses-put-ai-to-work-b5e5e434",
+          "localized_url": "/zh/items/2026-10-01/helping-small-businesses-put-ai-to-work-b5e5e434/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+          "title_original": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+          "title_en": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+          "summary_zh": "OpenAI 的新访谈把焦点放在开发者接口与平台能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI’s CUA team and API platform.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/devday-2026",
+          "published_at": "Wed, 30 Sep 2026 22:23:40 GMT",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1a601b09c690",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论开发者接口与平台能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+              "source_url": "https://www.latent.space/p/devday-2026"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI’s CUA team and API platform.",
+              "source_url": "https://www.latent.space/p/devday-2026"
+            }
+          ],
+          "slug": "why-dwarkesh-is-wrong-about-computer-use-how-openai-shipped-its-jev-comp-1a601b09",
+          "localized_url": "/zh/items/2026-10-01/why-dwarkesh-is-wrong-about-computer-use-how-openai-shipped-its-jev-comp-1a601b09/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "OpenAI Dev Day 2026: The releases that actually matter",
+          "title_original": "OpenAI Dev Day 2026: The releases that actually matter",
+          "title_en": "OpenAI Dev Day 2026: The releases that actually matter",
+          "summary_zh": "OpenAI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "OpenAI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/openai-dev-day-2026-the-releases",
+          "published_at": "Wed, 30 Sep 2026 14:45:15 GMT",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "82cfe0728e5d",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "OpenAI Dev Day 2026: The releases that actually matter",
+              "source_url": "https://www.lennysnewsletter.com/p/openai-dev-day-2026-the-releases"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/openai-dev-day-2026-the-releases"
+            }
+          ],
+          "slug": "openai-dev-day-2026-the-releases-that-actually-matter-82cfe072",
+          "localized_url": "/zh/items/2026-10-01/openai-dev-day-2026-the-releases-that-actually-matter-82cfe072/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+          "title_original": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+          "title_en": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+          "summary_zh": "OpenAI 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "the most confident DevDay yet.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+          "published_at": "Wed, 30 Sep 2026 05:53:10 GMT",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "da4fbb5beeed",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+              "source_url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61"
+            },
+            {
+              "label": "公开摘要",
+              "text": "the most confident DevDay yet.",
+              "source_url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61"
+            }
+          ],
+          "slug": "ainews-openai-devday-2026-dots-6-1-sol-ultrafast-decisions-api-agents-ap-da4fbb5b",
+          "localized_url": "/zh/items/2026-10-01/ainews-openai-devday-2026-dots-6-1-sol-ultrafast-decisions-api-agents-ap-da4fbb5b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+          "title_original": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+          "title_en": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+          "published_at": "Wed, 30 Sep 2026 17:00:21 +0000",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9c3e64cf7253",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+          "extracted_excerpt": "The NVIDIA Graduate Fellowship Program, in its 26th year, is now accepting applications worldwide.",
+          "extracted_text_for_analysis": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th year, is now accepting applications worldwide. It focuses on supporting students working in AI, machine learning, autonomous vehicles, computer graphics, robotics, healthcare, high-performance computing and related fields. Awards are up to $60,000 per student. Since its start in 2002, the Graduate Fellowship Program has awarded over 220 grants worth around $8 million. Students must have completed at least their first year of Ph.D.-level studies at the time of application. The application deadline for the 2027-2028 academic year is October 30, 2026. An in-person internship at an NVIDIA research office preceding the fellowship year is mandatory; eligible candidates must be available for the internship in summer 2027. For more on eligibility and how to apply, visit the program website. Featured image shows last year’s NVIDIA Graduate Fellowship recipients.",
+          "title_zh": "NVIDIA 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+              "source_url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA",
+              "source_url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/"
+            }
+          ],
+          "slug": "nvidia-opens-applications-for-20272028-graduate-fellowships-with-awards-f9faccd4",
+          "localized_url": "/zh/items/2026-10-01/nvidia-opens-applications-for-20272028-graduate-fellowships-with-awards-f9faccd4/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+          "title_original": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+          "title_en": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+          "published_at": "Wed, 30 Sep 2026 15:00:00 +0000",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA",
+            "CoreWeave"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e20d6d18306f",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+          "extracted_excerpt": "NVIDIA Vera Rubin NVL72 and Vera CPU on CoreWeave accelerate agentic AI for companies including Cognition, extending a nearly decade-long run on NVIDIA infrastructure that stays productive, durable and fungible across generations.",
+          "extracted_text_for_analysis": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to production. At CoreWeave Fully Connected, running this week in San Francisco, CoreWeave announced availability of NVIDIA Vera Rubin NVL72 systems with Spectrum-X 102.4T Ethernet networking. Cognition, the applied AI lab behind the Devin AI software engineer, is the first customer running production workloads on Vera Rubin. CoreWeave will also offer NVIDIA Vera, the first CPU built for AI agents. In addition, CoreWeave launched CoreWeave Forge, a connected environment for training, evaluating and improving models and agents on NVIDIA accelerated computing. “NVIDIA accelerated computing delivers value across generations,” said Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA. “CoreWeave’s NVIDIA V100 GPUs are still running customer workloads nearly a decade after Volta launched, even as CoreWeave brings Vera Rubin NVL72 into production. That’s the strength of the NVIDIA platform: infrastructure that keeps earning for years, and the flexibility to put the right GPU on the right workload.” Cognition Runs on Vera Rubin NVL72 With 4.8x Higher Token Throughput Cognition runs training, reinforcement learning and production inference for Devin on CoreWeave. The company scaled to thousands of GPUs on CoreWeave in nine months, powering Cognition inference workloads. Earlier this month, CoreWeave received its first Vera Rubin NVL72 production racks. Shortly after, Cognition benchmarked Vera Rubin’s inference performance against a GB200 NVL72 baseline using a real-world software engineering workload. To generate this workload, it sampled a subset of tasks from FrontierCode and deployed AI agents to solve them. In its early tests, Cognition saw Vera Rubin NVL72 deliver up to a 4.8x increase in total token throughput for SWE-2 inference workloads over GB200 NVL72. For Devin, those gains mean faster real-time code generation and more responsive multistep reasoning. “Agentic coding is a complex workload: long contexts, high concurrency and token volumes where cost per token decides what we can ship,” said Silas Alberti, founding team at Cognition. “Having all of it on one platform, with NVIDIA and CoreWeave engineers who work the hard problems alongside ours, matters more to us than any single spec.” CoreWeave Announces NVIDIA Vera Rubin Availability on CoreWeave Cloud CoreWeave announced availability of NVIDIA Vera Rubin NVL72 on CoreWeave Cloud, making it one of the first cloud providers to deliver the platform in customers’ hands. Early-access customers can put the performance of NVIDIA’s full-stack AI factory platform to work quickly on CoreWeave Cloud. In days, CoreWeave stood up a production Vera Rubin cluster for Cognition, achieved as a result of the codesign and collaboration between NVIDIA and CoreWeave up and down the stack, from infrastructure to tokens served. Capacity can be operated through CoreWeave Kubernetes Service, SUNK, CoreWeave Mission Control, CoreWeave Sandboxes and CoreWeave Inference. NVIDIA Vera CPU to Come to CoreWeave Cloud, Tests Show More Than 3x Faster Agentic Sandbox Startups Agentic AI puts pressure on infrastructure from two directions: serving agents demands low-latency compute at scale, while improving them through post-training requires thousands of isolated environments running at once. NVIDIA Vera CPU is purpose-built for agentic workloads. For agentic AI, a key performance measure is how many isolated agent environments can run at once and how consistent and performant each one stays as that number grows. CoreWeave’s deployment of Vera puts 128 CPUs and 11,264 cores in a single rack, enough for more than 11,000 concurrent environments at one core each. With CoreWeave Sandboxes, these environments are hardware-isolated and run alongside the training jobs they support, with Spectrum-X Ethernet switches and BlueField-4 DPUs ensuring secure, high-performance, secure agent communication at low latency. In testing, CoreWeave achieved more than 3x faster agent sandbox startup times on NVIDIA Vera CPUs, accelerating and scaling its sandboxes, an execution layer for reinforcement learning (RL), agent tool use and model evaluation that let AI teams run code in isolated environments on CoreWeave. On Terminal-Bench, CoreWeave saw a 1.7x performance gain on Vera CPU across all passing tasks. CoreWeave Forge: Closing the AI Loop From Production Back to Training Models and agents improve by running a loop: production behavior informs the next training run, and each evaluation sharpens the next version. This loop has historically been split across tools from different vendors, with signal lost at every handoff. CoreWeave Forge unifies Weights & Biases, post-training expertise from OpenPipe and the open source marimo notebook project in one connected environment built for continuous model and agent improvement. It stays open across models, frameworks and clouds. New and expanded capabilities available include: - CoreWeave ARIA — now generally available — helps users learn, research, code and iterate across the AI loop, analyzing runs, proposing experiments, recommending code changes and storing them in GitHub, and bringing back actionable evidence that analyzes experiment data, surfaces what drove a change and proposes the next experiments to run. - CoreWeave Agent Lens — a new service — turns production agent observability into continuous improvement and understandable insights. It improves failure detection by 20% and fixes issues at half of the cost, which turns tens of millions of production agent traces into insights that drive fixes. - CoreWeave Sandboxes — now generally available — let users run agents, tool calls, RL and evaluations in isolated CPU or GPU execution environments, on serverless infrastructure or on the infrastructure they already train on, providing a fresh, isolated environment for every agent tool call, RL run or evaluation. - Post-training improves model quality and cuts latency and costs harnessing users’ own production signals, with no training cluster required. Serverless supervised fine-tuning and serverless RL let users experiment with their own training recipes. Serverless RL trains 1.4x faster at 40% lower cost than a self-managed setup. NVIDIA Dynamo, an open source inference framework for AI factories, powers CoreWeave’s managed inference service as well as RL Rollouts, now in private preview. RL Rollouts loads new checkpoints into a live deployment while it’s running, so reinforcement learning continues without redeploys, and post-training gets the same inference efficiency as production. Canva, Capital One and MasterClass are among the first companies building on Forge. NVIDIA Nemotron open models give",
+          "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA、CoreWeave。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+              "source_url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of",
+              "source_url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/"
+            }
+          ],
+          "slug": "from-training-to-production-nvidia-and-coreweave-close-the-loop-on-agent-9c486db4",
+          "localized_url": "/zh/items/2026-10-01/from-training-to-production-nvidia-and-coreweave-close-the-loop-on-agent-9c486db4/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+          "title_original": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+          "title_en": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+          "summary_zh": "Hugging Face Blog 更新了实时语音交互模型能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog shares research or evaluation work, with attention to metrics, findings and practical limits.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/open-tts-leaderboard",
+          "published_at": "Wed, 30 Sep 2026 00:00:00 GMT",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "581ab3112c30",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+          "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "extracted_text_for_analysis": "TLDR 👉 new TTS leaderboard focused on open-source and multilingual The pace of open-source text-to-speech (TTS) model releases has been incredible. On the Hugging Face Hub (as of Sep 30, 2026) there are more than 8K TTS models available 🚀 Evaluation, however, hasn't kept pace: it remains fragmented and unstandardized. The gold standard is human preference scores such as MOS or MUSHRA (more on metrics). To this end, several arena-based leaderboards have established themselves as useful reference points for the community: These arenas compare models by presenting users with TTS outputs from two models, and asking them to choose one over the other. After collecting a sufficient number of votes, an Elo score is computed to rank models, typically with the Bradley–Terry model (see Voice Arena methodology). While human preference is the ultimate decider, arenas cannot scale to keep up with the pace of TTS releases. This may partly explain why open-source models are underrepresented on arena-style leaderboards: as of Sep 30, 2026, only 16 of the 92 models on Artificial Analysis are open-weights, with a similar skew on Voice Arena. This likely reflects practical factors: adding an API model requires little more than an API key, whereas an open model must be hosted and served by the arena operator, and commercial providers have more reason to seek placement than open-source authors. Another limitation with arena-style evaluation is voter consistency: no arena can ensure that the same voters with the same criteria of “better” can consistently evaluate models over time. Even the preferences of a single person change over time (“A man cannot step into the same river twice” as famously said by Heraclitus). To this end, we've built the Open TTS Leaderboard, which uses objective metrics to evaluate models on complementary aspects of performance: - Intelligibility: word/character error rate (WER and CER) between the prompt and the generated audio's transcript, using Qwen3 ASR (top ranking open-source model on the Open ASR Leaderboard). - Speed: inverse real-time factor (RTFx) for batched offline inference on an H200 GPU, and time-to-first-audio (TTFA) for quantifying streaming batch size 1 latency on an H200 GPU and CPU. - Speaker similarity by computing the cosine similarity (SIM) between WavLM speaker embeddings of the generated audio and the reference clip. By relying on objective metrics evaluating a model drops from a couple weeks (for collecting votes) to a couple hours ⚡ Importantly, the Open TTS Leaderboard does not replace human preference ranking. ASR-based WER provides a proxy for intelligibility, while speaker similarity estimates voice identity preservation. Neither directly measures naturalness, expressiveness, or listener preference. Nevertheless, they can even inform voting-based leaderboards which models to include in their evaluations. Our intention with this leaderboard is for it to be shaped by the community; we want to hear your feedback so the evaluations stay relevant and insightful. The next few sections give an overview of main features of the Open TTS Leaderboard. From the default view of the leaderboard, models are ranked by macro-average WER on the English splits of Seed TTS Eval (paper) and CV3 Eval (zero shot) (paper). hexgrad/Kokoro-82M, Supertone/supertonic-3, and fishaudio/s2-pro lead the pack on English WER when averaged on these two splits, while the Pareto plots visualize which models strike a good balance between WER, batched inference (RTFx), and size. English performance doesn't necessarily translate to other languages. Multiple languages can be toggled to rank models on multilingual performance. Seed TTS Eval only has audio for English and Chinese, so the other languages are simply the score on CV3 Eval (zero shot). Note that Chinese, Japanese, and Korean are character-based languages and so character error rate (CER) is reported, and the “Average WER” across languages is a macro-average across languages. k2-fsa/OmniVoice, fishaudio/s2-pro, and FunAudioLLM/Fun-CosyVoice3-0.5B-2512 are strong multilingual models. By toggling “Voice cloning”, the models that support this functionality (on the selected languages) can be compared. Moreover, a SIM column for speaker similarity now appears in the table, as well as two more Pareto plots for visualizing the tradeoff between SIM, batched inference, and size. The average WER of some models, such as bosonai/higgs-tts-3-4b and openbmb/VoxCPM2, improve under voice cloning, namely when a reference audio is provided. Numbers only tell part of the story, and as mentioned earlier human preference is the ultimate decider. From the “Listen” tab, you can compare the generated outputs that are behind the metrics, to find which model(s) you prefer! Pick the language/dataset you're interested in, whether you want to compare voice cloning, and optionally pick the models or listen to outputs from a random selection. The “Listen” tab fills an important gap in existing TTS leaderboards: a space to explore model outputs of various models. You can even give feedback on the generated outputs. As we collect more votes from the community, we may include this data on the leaderboard. So vote! But please login with your HF account to help us weed out spam/bots. The “Streaming” tab compares the streaming capabilities. Models are ranked by TTFA (time-to-first-audio), which quantifies how long a user waits after probing a model in order to obtain audio that can be played. This is important for voice agents and other interactive apps. For streaming models (✅ under “Streaming API”) it's the time until the first audio chunk arrives. For non-streaming models, it's the time until the whole utterance is generated, because playback can't start any earlier. Every model runs one audio at a time (batch size 1), on the same 50 English prompts from CV3-Eval, on the same hardware and in its default voice. We drop the first 3 runs as warm-up and report the median TTFA across the rest. The default view compares performance on an H200 GPU. Results are also available for CPU for a small (but growing) set of models! kyutai/pocket-tts is a great model for streaming on both GPU and CPU! The goal of the Open TTS Leaderboard is not only to keep up with the incredible pace of TTS model releases, but to be shaped by the community; we want to hear your feedback so the evaluations stay relevant and insightful. Let us know which datasets, models, and metrics you want to see! For now, we've focused on: - Open-source models, to put forward many great models that have been neglected by arena-style evaluations. - Multilingual, since English performance is not a suitable proxy for other languages. We will soon open-source the evaluation scripts, much like the Open ASR Leaderboard repo, so that you can directly provide your feedback and suggestions via GitHub Issues and PRs! Let's shape TTS evaluations together 🤗",
+          "title_zh": "Hugging Face 披露实时语音交互模型能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+              "source_url": "https://huggingface.co/blog/open-tts-leaderboard"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog shares research or evaluation work, with attention to metrics, findings and practical limits.",
+              "source_url": "https://huggingface.co/blog/open-tts-leaderboard"
+            }
+          ],
+          "slug": "open-tts-leaderboard-scalable-evaluation-for-multilingual-text-to-speech-581ab311",
+          "localized_url": "/zh/items/2026-10-01/open-tts-leaderboard-scalable-evaluation-for-multilingual-text-to-speech-581ab311/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "title_original": "Gemini 4 Argon: our next era of frontier intelligence",
+          "title_en": "Gemini 4 Argon: our next era of frontier intelligence",
+          "summary_zh": "Gemini 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+          "published_at": "Wed, 30 Sep 2026 20:01:45 +0000",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "311e095023e6",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Gemini 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Gemini 4 Argon: our next era of frontier intelligence",
+              "source_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+            }
+          ],
+          "slug": "gemini-4-argon-our-next-era-of-frontier-intelligence-15e70ee5",
+          "localized_url": "/zh/items/2026-10-01/gemini-4-argon-our-next-era-of-frontier-intelligence-15e70ee5/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing SynthID Bio",
+          "title_original": "Introducing SynthID Bio",
+          "title_en": "Introducing SynthID Bio",
+          "summary_zh": "DeepMind 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/introducing-synthid-bio/",
+          "published_at": "Wed, 30 Sep 2026 15:03:07 +0000",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "396b95f3429c",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "DeepMind 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 DeepMind，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing SynthID Bio",
+              "source_url": "https://deepmind.google/blog/introducing-synthid-bio/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+              "source_url": "https://deepmind.google/blog/introducing-synthid-bio/"
+            }
+          ],
+          "slug": "introducing-synthid-bio-0a622a33",
+          "localized_url": "/zh/items/2026-10-01/introducing-synthid-bio-0a622a33/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist",
+          "title_original": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist",
+          "title_en": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist",
+          "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest",
+          "published_at": "Wed, 30 Sep 2026 12:04:27 GMT",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d58360993c6d",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist",
+              "source_url": "https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest"
+            }
+          ],
+          "slug": "jev-8-real-use-cases-for-the-fastest-cheapest-model-ive-ever-used-john-l-d5836099",
+          "localized_url": "/zh/items/2026-10-01/jev-8-real-use-cases-for-the-fastest-cheapest-model-ive-ever-used-john-l-d5836099/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Agent now installs private packages from npm and custom registries",
+          "title_original": "Vercel Agent now installs private packages from npm and custom registries",
+          "title_en": "Vercel Agent now installs private packages from npm and custom registries",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Agent can install private dependencies from npm and custom registries using credentials stored as shared environment variables on Vercel. npm , pnpm , and classic Yarn running in Agent sessions authenticate as they do in Vercel builds. To get started,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-agent-now-installs-private-packages-from-npm-and-custom-registries",
+          "published_at": "2026-09-30T23:22:00.000Z",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1a03c303f2b0",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Agent now installs private packages from npm and custom registries",
+              "source_url": "https://vercel.com/changelog/vercel-agent-now-installs-private-packages-from-npm-and-custom-registries"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Agent can install private dependencies from npm and custom registries using credentials stored as shared environment variables on Vercel. npm , pnpm , and classic Yarn running in Agent sessions authenticate as",
+              "source_url": "https://vercel.com/changelog/vercel-agent-now-installs-private-packages-from-npm-and-custom-registries"
+            }
+          ],
+          "slug": "vercel-agent-now-installs-private-packages-from-npm-and-custom-registrie-1a03c303",
+          "localized_url": "/zh/items/2026-10-01/vercel-agent-now-installs-private-packages-from-npm-and-custom-registrie-1a03c303/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Gateway adds Browserbase Search and Fetch tools",
+          "title_original": "AI Gateway adds Browserbase Search and Fetch tools",
+          "title_en": "AI Gateway adds Browserbase Search and Fetch tools",
+          "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Browserbase Search and Fetch are now available through AI Gateway . Give your models access to current information, find relevant pages, and retrieve their contents, alongside Browserbase's existing AI SDK and Vercel Marketplace integrations. AI Gateway lets",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ai-gateway-adds-browserbase-search-and-fetch-tools",
+          "published_at": "2026-09-30T21:00:00.000Z",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "66909907c3e6",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Gateway adds Browserbase Search and Fetch tools",
+              "source_url": "https://vercel.com/changelog/ai-gateway-adds-browserbase-search-and-fetch-tools"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Browserbase Search and Fetch are now available through AI Gateway . Give your models access to current information, find relevant pages, and retrieve their contents, alongside Browserbase's existing AI SDK and Vercel",
+              "source_url": "https://vercel.com/changelog/ai-gateway-adds-browserbase-search-and-fetch-tools"
+            }
+          ],
+          "slug": "ai-gateway-adds-browserbase-search-and-fetch-tools-66909907",
+          "localized_url": "/zh/items/2026-10-01/ai-gateway-adds-browserbase-search-and-fetch-tools-66909907/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Edge Requests are now called CDN Requests",
+          "title_original": "Edge Requests are now called CDN Requests",
+          "title_en": "Edge Requests are now called CDN Requests",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "CDN Requests is now the name for the usage metric previously called Edge Requests. This is a naming change only: pricing, limits, and how usage is measured are all unchanged. The new name appears on the usage dashboard, the Observability Events chart, usage",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/edge-requests-are-now-called-cdn-requests",
+          "published_at": "2026-09-30T20:00:00.000Z",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1f5e0e81760e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Edge Requests are now called CDN Requests",
+              "source_url": "https://vercel.com/changelog/edge-requests-are-now-called-cdn-requests"
+            },
+            {
+              "label": "公开摘要",
+              "text": "CDN Requests is now the name for the usage metric previously called Edge Requests. This is a naming change only: pricing, limits, and how usage is measured are all unchanged. The new name appears on the usage dashboard,",
+              "source_url": "https://vercel.com/changelog/edge-requests-are-now-called-cdn-requests"
+            }
+          ],
+          "slug": "edge-requests-are-now-called-cdn-requests-1f5e0e81",
+          "localized_url": "/zh/items/2026-10-01/edge-requests-are-now-called-cdn-requests-1f5e0e81/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Sandbox now supports Secure Compute",
+          "title_original": "Vercel Sandbox now supports Secure Compute",
+          "title_en": "Vercel Sandbox now supports Secure Compute",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Sandbox now supports Secure Compute , connecting sandboxes to a team's dedicated network. Public-internet traffic exits through the network's static IPs, and sandboxes can reach private resources in an AWS VPC through VPC peering. You can attach a",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-secure-compute",
+          "published_at": "2026-09-30T00:00:00.000Z",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "130e86a31128",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Sandbox now supports Secure Compute",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-secure-compute"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Sandbox now supports Secure Compute , connecting sandboxes to a team's dedicated network. Public-internet traffic exits through the network's static IPs, and sandboxes can reach private resources in an AWS VPC",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-now-supports-secure-compute"
+            }
+          ],
+          "slug": "vercel-sandbox-now-supports-secure-compute-130e86a3",
+          "localized_url": "/zh/items/2026-10-01/vercel-sandbox-now-supports-secure-compute-130e86a3/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Ling 3.1 Flash is now available on AI Gateway",
+          "title_original": "Ling 3.1 Flash is now available on AI Gateway",
+          "title_en": "Ling 3.1 Flash is now available on AI Gateway",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Ling 3.1 Flash from InclusionAI is now available on AI Gateway. The model is free to use through October 13, 2026. Ling 3.1 Flash is a hybrid reasoning language model with 560B total parameters and 25B active per token. It has a 262K-token context window on",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway",
+          "published_at": "2026-09-30T00:00:00.000Z",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d24dd6cc12e3",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Ling 3.1 Flash is now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Ling 3.1 Flash from InclusionAI is now available on AI Gateway. The model is free to use through October 13, 2026. Ling 3.1 Flash is a hybrid reasoning language model with 560B total parameters and 25B active per token.",
+              "source_url": "https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "ling-3-1-flash-is-now-available-on-ai-gateway-d24dd6cc",
+          "localized_url": "/zh/items/2026-10-01/ling-3-1-flash-is-now-available-on-ai-gateway-d24dd6cc/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel CDN no longer caches responses with Vary: Cookie",
+          "title_original": "Vercel CDN no longer caches responses with Vary: Cookie",
+          "title_en": "Vercel CDN no longer caches responses with Vary: Cookie",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel CDN no longer caches origin responses when Vary includes Cookie . Vary tells a cache which request headers may change the response. Because cookies often contain visitor-specific values, varying by Cookie can create many cache entries that are rarely",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vary-cookie-responses-no-longer-cached",
+          "published_at": "2026-09-30T00:00:00.000Z",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "592ec2d894b5",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel CDN no longer caches responses with Vary: Cookie",
+              "source_url": "https://vercel.com/changelog/vary-cookie-responses-no-longer-cached"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel CDN no longer caches origin responses when Vary includes Cookie . Vary tells a cache which request headers may change the response. Because cookies often contain visitor-specific values, varying by Cookie can",
+              "source_url": "https://vercel.com/changelog/vary-cookie-responses-no-longer-cached"
+            }
+          ],
+          "slug": "vercel-cdn-no-longer-caches-responses-with-vary-cookie-592ec2d8",
+          "localized_url": "/zh/items/2026-10-01/vercel-cdn-no-longer-caches-responses-with-vary-cookie-592ec2d8/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Connect now accepts service submissions",
+          "title_original": "Vercel Connect now accepts service submissions",
+          "title_en": "Vercel Connect now accepts service submissions",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Connect now lets you submit your own service to the connectors directory , so you no longer need to wait for Vercel to build a connector for it. Submitting a service takes four steps: Describe your service. Add one or more connection methods, using",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-connect-service-submissions",
+          "published_at": "2026-09-29T22:00:00.000Z",
+          "fetched_at": "2026-10-01T01:19:15.155372+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "07e52187ff02",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Connect now accepts service submissions",
+              "source_url": "https://vercel.com/changelog/vercel-connect-service-submissions"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Connect now lets you submit your own service to the connectors directory , so you no longer need to wait for Vercel to build a connector for it. Submitting a service takes four steps: Describe your service. Add",
+              "source_url": "https://vercel.com/changelog/vercel-connect-service-submissions"
+            }
+          ],
+          "slug": "vercel-connect-now-accepts-service-submissions-07e52187",
+          "localized_url": "/zh/items/2026-10-01/vercel-connect-now-accepts-service-submissions-07e52187/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-09-30",
       "title_zh": "AI 新闻简报 · 2026-09-30",
