@@ -1,7 +1,776 @@
 {
-  "updated_at": "2026-10-02T01:42:35.073590+00:00",
-  "count": 106,
+  "updated_at": "2026-10-03T01:13:43.192556+00:00",
+  "count": 107,
   "briefs": [
+    {
+      "date": "2026-10-03",
+      "title_zh": "AI 新闻简报 · 2026-10-03",
+      "title_en": "English AI News Brief · 2026-10-03",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 140 条，入选 11 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 140 previously displayed items excluded, and 11 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 140,
+      "selected_count": 11,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "A model guide for the GPT-6 family",
+          "title_original": "A model guide for the GPT-6 family",
+          "title_en": "A model guide for the GPT-6 family",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/practical-guide-building-gpt-6",
+          "published_at": "Fri, 02 Oct 2026 16:15:00 GMT",
+          "fetched_at": "2026-10-03T01:13:41.891980+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8e206c4d9ed6",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "A model guide for the GPT-6 family",
+          "extracted_excerpt": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+          "extracted_text_for_analysis": "GPT‑6 is our most advanced suite of models yet, and offers you a choice of models for different kinds of work. Whether you’re turning an idea into a working prototype, building and testing a feature, or orchestrating multi-step workflows across code repositories, databases, and external APIs, this guide explains how to choose a GPT‑6 model, give it effective instructions, manage long-running work, and prepare for production. - Run effectively in production. Use caching(opens in a new window) and compaction(opens in a new window) to manage context and cost. Measure task success and latency, and plan for monitoring and data controls. - Match the model to your workload. Balance capability, cost, and latency by choosing the model, reasoning effort(opens in a new window), and speed that fit the task. - Adjust your prompts and skills. Keep prompts, skills, and repository instructions consistent about what the model should deliver, what it can do independently, and what counts as done. - Keep long-running work on track. Use steering(opens in a new window), async tools(opens in a new window), and delegation(opens in a new window) to handle updates and independent work. Set clear boundaries for when the model should ask for input. Before deploying, there are several checks and best practices you’ll want to put into place. - Keep efficiency in mind. Cut context the task doesn’t need(opens in a new window) while keeping the evidence it does. Where your application supports it, run independent tasks together(opens in a new window) so one slow step doesn’t hold up unrelated work. - Reuse shared context through prompt caching(opens in a new window) for recurring work. Cached input tokens cost up to 95% less(opens in a new window) than uncached input tokens, depending on the model. Put stable instructions and reference material before changing task details, and keep tool definitions consistent. The caching dashboard(opens in a new window) and diagnostics guide(opens in a new window) help you see where that reuse breaks down. Include cache writes and any long-context rates when estimating the cost of a complete workflow. - For longer conversations, compaction(opens in a new window) reduces context size while preserving the state needed to continue. - Decide how you’ll monitor behavior(opens in a new window) and review the data controls(opens in a new window) for your application. - Test before deploying: Run representative tasks and measure task success, latency, and cost per successful task. Check out our API deployment checklist(opens in a new window). Think of the model choice and reasoning level as an intelligence/ price tradeoff. - Model: - GPT‑6 Astra(opens in a new window) for the hardest reasoning work where maximum intelligence is needed. - GPT‑6.1 Sol(opens in a new window) for complex coding, research, and computer use. - GPT‑6 Luna(opens in a new window) for focused tasks at scale and everyday, repeated work with a clear goal, such as extracting invoice fields, classifying requests, or producing structured summaries. When evaluating the best model for the task, compare pricing(opens in a new window) for each model. - Reasoning level: In the API, choose how much effort the model spends on the task. - Low: Routine tasks, such as extracting facts or making small edits. - Medium: Work requiring judgment, such as planning a feature or comparing options. - High: Difficult debugging, deeper analysis, or careful review. - Extra high / Max: Test where supported when High falls short, and keep only if the improvement justifies the added time and cost. In the API, you can change reasoning effort mid-conversation(opens in a new window) without breaking cache. In Codex, start with the default reasoning level for that model, then lower it for simpler tasks or increase it for deeper analysis. - Speed: - In the API, use Fast mode(opens in a new window) when response time matters, such as in chat apps or coding tools. It provides faster, more consistent response times at a higher per-token cost than Standard processing. - In Codex and the API, use Ultrafast(opens in a new window) when faster responses are worth the premium, such as rapid coding iterations. It speeds up token generation independently of reasoning effort. Available for GPT‑6 Astra(opens in a new window). Start with a clear assignment: the result you want, who it’s for, the relevant context and constraints, and what counts as done. Then review these four areas, summarized from Rethinking skills and prompts for GPT‑6 Astra(opens in a new window), for a deeper dive into updating your instructions: - Create better skills: Keep descriptions short and explicit about when each skill should run, load supporting details only when needed, and replace rigid recipes with guidance suited to the models your team uses. - Update your AGENTS.md: Explain when particular documents and tests are relevant, and explicitly authorize safe routine workflows, such as running local tests with disposable data and no production access. - Set decision boundaries: State which actions can proceed independently and which require approval, replacing blanket “always ask” rules with clear boundaries. - Be prescriptive about persistence: Define what “done” includes—implementing the change, running it, inspecting the result, and fixing failures—and identify any decisions that require your review. Whether you’re working in Codex or building with the API, specify which decisions the model can make, when it should ask for input, and what a useful response looks like. Give the model enough direction to keep work moving without guessing at decisions that matter. Tell it which choices it can make and when to ask for your input(opens in a new window), for example, it can choose how to organize a summary, but should check with you before changing the project’s scope. Describe what a useful response looks like(opens in a new window), for example plain language, technical detail suited to your audience, and a short handoff covering what changed, what was checked, and what still needs attention. With the GPT‑6 family of models, you can now take on tasks that span hours or days. Use the following features to better manage agents on long-running tasks. In the API, use steering, asynchronous tools, and parallel work to keep long-running tasks moving. - Update instructions during a run: Mid-turn steering(opens in a new window) lets you send a correction through the Responses WebSocket API(opens in a new window) while the model works. Updates are queued; they don’t cancel running tools or undo completed actions. - Keep working while a tool runs: Asynchronous tool calling(opens in a new window) lets the model continue independent work while your app runs a slower task, such as tests. Your app returns the result when it’s ready. Wait for that result before starting work that depends on it. - Delegate independent subtasks: GPT‑6.1 Sol supports multi-agent workflows in the",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "A model guide for the GPT-6 family",
+              "source_url": "https://openai.com/index/practical-guide-building-gpt-6"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+              "source_url": "https://openai.com/index/practical-guide-building-gpt-6"
+            }
+          ],
+          "slug": "a-model-guide-for-the-gpt-6-family-8e206c4d",
+          "localized_url": "/zh/items/2026-10-03/a-model-guide-for-the-gpt-6-family-8e206c4d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Chatham scales its capital markets expertise with OpenAI",
+          "title_original": "Chatham scales its capital markets expertise with OpenAI",
+          "title_en": "Chatham scales its capital markets expertise with OpenAI",
+          "summary_zh": "OpenAI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/chatham-financial",
+          "published_at": "Fri, 02 Oct 2026 00:00:00 GMT",
+          "fetched_at": "2026-10-03T01:13:41.891980+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a97398f76ee5",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Chatham scales its capital markets expertise with OpenAI",
+          "extracted_excerpt": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+          "extracted_text_for_analysis": "Chatham scales its capital markets expertise with OpenAI Chatham Financial uses Codex and GPT‑5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4. Chatham Financial(opens in a new window) advises clients on complex capital markets decisions, where accuracy and auditability are paramount. As AI capabilities advanced, the firm saw an opportunity to turn proven processes into governed, repeatable workflows and software, reducing the time spent on routine execution, so its experts can focus more on client needs. Today, Chatham uses Codex to build internal and client-facing tools and GPT‑5.6 to power AI features. This work spans employee-built applications, its next-generation capital markets operating system Chatham Onyx, and its reengineering consulting service Process Zero, which accelerated trade validation from 30 minutes to under 4. “We are not approaching AI simply as a faster way to run every process. With OpenAI, we can start with the outcome we want, identify where judgment matters, and design the best way to deliver it using the capabilities now available.” Through Process Zero, Chatham reengineers workflows around outcomes. For each workflow, the firm identifies the minimum inputs and evidence required, determines where human judgment is essential, and decides how AI and AI-built tools should support the work. Trade validation is an early example. Chatham’s Controls and Data Integrity team protects the accuracy of transaction data by validating that each system record reflects what the client authorized and what was executed. Using Codex, Chatham developed a trade validation application that gathers supporting transaction evidence, compares key terms, and flags discrepancies for review. Chatham is comparing the app’s results with those of experienced reviewers. “In early measurement, the application reduced review from approximately 30 minutes to under 4 minutes. Just as important, we are validating its performance against real transactions and experienced reviewers before we expand automation. Ultimately, we will be able to produce easily auditable and more accurate results faster.” Chatham plans to extend the application to additional trade types and automate more of the workflow while maintaining appropriate controls and professional oversight. Chatham’s client-facing AI work grew from its own operating experience. Chatham’s employees use ChatGPT and Codex in research, analysis, drafting, software development, and other daily activities. AI has become a practical tool widely adopted across the firm. Employees have also become builders through Chatham Vibes, an internal platform for creating applications tailored to their work. Employees build with a range of models, and the AI features inside Vibes applications run on GPT‑5.6 Terra by default, with GPT‑5.6 Sol as an optional upgrade based on per-app configuration. These applications increasingly support client-facing workflows. One helps teams review maturing-cap trades and prepare pricing workbooks and client communications. Others support workflows such as producing fixed-income rate sheets, preparing hedging dashboards, and reviewing trade confirmations. Chatham professionals bring the market context, client understanding, and judgment to evaluate the work, refine it where needed, and determine what reaches the client. Chatham Onyx brings assets, debt, and derivatives into an environment where clients and advisors can work from connected, governed data and use AI without losing traceability to the underlying source. Chatham uses Codex across the Onyx development lifecycle. Teams use it to help plan, build, test, document, and review software, shortening the path from a concept to a durable product capability. “Codex is helping our teams turn product vision into working capabilities more quickly, while our standards for accuracy, security, and accountability remain the same.” The Onyx platform leverages GPT‑5.6 Sol, GPT‑5.6 Terra, GPT‑5.4, and GPT‑4.1. Tasks like simple analysis and non-production testing are routed to the most cost-effective models, while GPT‑5.6 is used for complex tasks that need to maximize accuracy and value. One example is ChatFIN, which summarizes patterns in historical market data, helps users understand their portfolios, and locates and links to legal documents for debt, derivative, and lease terms. These capabilities help clients and advisors access information and insights, while Chatham’s advisors bring the subject matter expertise needed to interpret that information and apply it to each client. Chatham is using OpenAI to perform structured comparisons, organize evidence, identify exceptions, and help teams explore information more efficiently. As a result, advisors can spend less time assembling information and more time interpreting it, managing difficult cases, and advising clients. Next, Chatham plans to expand trade validation across additional products, continue refining employee-built applications, and use Codex to help develop new capabilities for Onyx. “Our constraint has never been expertise. It is the hours our experts spend getting to the point where they can apply it. OpenAI is helping us take those hours back, and the further we go, the more time our experts can spend applying their judgment where it creates the most value for clients.”",
+          "title_zh": "OpenAI 推进开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Chatham scales its capital markets expertise with OpenAI",
+              "source_url": "https://openai.com/index/chatham-financial"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+              "source_url": "https://openai.com/index/chatham-financial"
+            }
+          ],
+          "slug": "chatham-scales-its-capital-markets-expertise-with-openai-a97398f7",
+          "localized_url": "/zh/items/2026-10-03/chatham-scales-its-capital-markets-expertise-with-openai-a97398f7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Anthropic’s IPO and Our Collective Leap Of Faith",
+          "title_original": "Anthropic’s IPO and Our Collective Leap Of Faith",
+          "title_en": "Anthropic’s IPO and Our Collective Leap Of Faith",
+          "summary_zh": "Anthropic 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The markets rest on the AI story fulfilling its potential. This week, we saw how tenuous that could be.",
+          "source_name": "Big Technology Podcast",
+          "source_url": "https://www.bigtechnology.com/",
+          "original_url": "https://www.bigtechnology.com/p/anthropics-ipo-and-our-collective",
+          "published_at": "Fri, 02 Oct 2026 18:10:13 GMT",
+          "fetched_at": "2026-10-03T01:13:41.891980+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "tech-media",
+            "ai",
+            "interview"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "75daced98fb2",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Anthropic 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：tech-media、ai、interview。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Anthropic’s IPO and Our Collective Leap Of Faith",
+              "source_url": "https://www.bigtechnology.com/p/anthropics-ipo-and-our-collective"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The markets rest on the AI story fulfilling its potential. This week, we saw how tenuous that could be.",
+              "source_url": "https://www.bigtechnology.com/p/anthropics-ipo-and-our-collective"
+            }
+          ],
+          "slug": "anthropics-ipo-and-our-collective-leap-of-faith-75daced9",
+          "localized_url": "/zh/items/2026-10-03/anthropics-ipo-and-our-collective-leap-of-faith-75daced9/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+          "title_original": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+          "title_en": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+          "published_at": "Fri, 02 Oct 2026 13:00:39 +0000",
+          "fetched_at": "2026-10-03T01:13:41.891980+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d4e3054526b7",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+          "extracted_excerpt": "NVIDIA DGX Spark 64GB runs local AI agents on-device with the full NVIDIA AI stack — and clusters for greater performance as workloads grow.",
+          "extracted_text_for_analysis": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, ASUS, Dell, Gigabyte, HP and MSI — giving developers, researchers and AI enthusiasts a new configuration with DGX OS and the NVIDIA AI software stack ready to use from day one. The new SKU runs capable local agents on device — privately, without cloud dependency. And when workloads grow, two units can cluster together via NVIDIA Sync Cluster Assistant without any additional setup. A New Starting Point for Personal AI Supercomputing DGX Spark combines NVIDIA Grace Blackwell compute, unified memory, NVIDIA ConnectX-7 networking and an NVIDIA CUDA-accelerated AI software stack in one system. It’s a complete local AI platform for agents, inference, fine-tuning, data science and edge development. The compact, personal AI supercomputer provides a place to experiment with models and developers’ own data without turning to a cloud instance for every task. The new 64GB configuration, available exclusively from manufacturer partners, keeps the platform at an accessible price point while retaining the GB10 Grace Blackwell Superchip, DGX OS and full NVIDIA AI software stack — same as the 128GB model. It supports up to 100-billion-parameter models and the agentic applications built on them, fully on device. Two 64GB units clustered together don’t just double the memory. In NVIDIA’s Qwen 3.8 27B test, two clustered 64 GB systems delivered up to 1.7x performance compared with a single system, with room to keep scaling as workloads demand. DGX Spark ships ready for agent development from day one — NVIDIA Agent Toolkit, CUDA-X AI libraries, Nemotron open models, and popular runtimes like Ollama, vLLM, and PyTorch with CUDA are all supported out of the box. Developers can go from power-on to running models in minutes. Blender is among the first major creator application providers to support the platform, with a prebuilt, downloadable installer coming soon. Scale Up With NVIDIA Sync Cluster Assistant Developers can start with the memory their projects need today and build on a platform designed to seamlessly scale multi-node clusters for larger workloads as their pipelines grow. Every DGX Spark ships with a built-in NVIDIA ConnectX-7 NIC right out of the box. Plus, two units can connect directly with a QSFP cable, pooling their memory to 128GB and expanding model support to up to 200 billion parameters while delivering twice the memory bandwidth and up to 1.7x the performance. The NVIDIA Sync app configures this multi-node cluster seamlessly. The cluster assistant feature detects connected units, validates device configuration and configures the ConnectX-7 network, so developers can focus on their work rather than the infrastructure. Every node runs the same NVIDIA software stack, so nothing needs to be reconfigured when scaling from one unit to two. And coming at the end of the month, NVIDIA Sync Model Launcher makes running local AI as simple as clicking a few buttons. Developers can download and launch Qwen3.8 27B on a single DGX Spark system or a cluster, with NVIDIA Sync configuring the model to run across connected devices and making it accessible from users’ laptops. The launcher will also set up OpenCode to use the model, so developers can start coding in their browser. Developer Use Cases on DGX Spark The new DGX Spark 64GB configuration supports practical work from day one. With up to 100-billion-parameter models running entirely on device, developers and enthusiasts can start with a single system for models that fit within its memory, or connect multiple DGX Spark systems with NVIDIA Sync Cluster Assistant for workloads that need more memory and compute. Here are three workflow examples: - Run an AI agent around the clock: Keep a coding or research agent running on DGX Spark, ready to review code, analyze documents or carry out multistep tasks. A cluster provides additional capacity for larger models, longer context windows or multiple agents working at once. - Power AI apps on your everyday PC: Run a language- or image-generation model on DGX Spark while using an agent or creative application on laptops or desktops. DGX Spark handles the model inference, freeing PCs for other work. - Scale when the work grows: When a single task outgrows one unit — running a larger model, a longer context window or concurrent agent requests — two DGX Spark 64GB systems connected over the 200 GbE fabric via NVIDIA Sync Cluster Assistant pool their memory to 128GB. The same workflow that ran on one unit scales to two without reconfiguring the software environment. Get Started With DGX Spark DGX Spark 64GB is available from Acer, ASUS, Dell, Gigabyte, HP and MSI on Friday, Oct. 23, starting at $4,999. To get started: - Download a supported inference framework — llama.cpp, Ollama, vLLM or LM Studio. - Download the recommended local model for the workflow. - To scale to two units, connect them via their NVIDIA ConnectX-7 ports and launch NVIDIA Sync Cluster Assistant — it configures the network and routes workloads automatically. For agentic AI playbooks on DGX Spark, visit the NemoClaw, OpenClaw, Hermes Agent and OpenShell pages on build.nvidia.com. #ICYMI: More Updates From NVIDIA Local AI Explore playbooks on build.nvidia.com/spark for DGX Spark. The following playbooks are coming soon to 64GB devices: - Serve LLMs With vLLM - Run OpenClaw With a Local LLM - Connect Multiple DGX Sparks for Distributed Workloads New Windows PCs powered by NVIDIA RTX Spark are coming this month from Acer, ASUS, Dell, HP, Lenovo, Microsoft and MSI. Sign up for the RTX Spark newsletter to receive future updates. Alibaba’s Qwen-Image-2.1 brings image generation and editing together in a lightweight, open-weight model. It runs locally on NVIDIA RTX GPUs, DGX Spark and DGX Station, giving creators more ways to create and refine images on their own hardware. Follow NVIDIA RTX Spark on X, Instagram, TikTok and Facebook — and stay informed by subscribing to the NVIDIA Local AI newsletter. Follow NVIDIA Workstation on LinkedIn and X. See notice regarding software product information.",
+          "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+              "source_url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally.",
+              "source_url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/"
+            }
+          ],
+          "slug": "nvidia-dgx-spark-64gb-gives-developers-more-ways-to-build-and-scale-loca-1f284fec",
+          "localized_url": "/zh/items/2026-10-03/nvidia-dgx-spark-64gb-gives-developers-more-ways-to-build-and-scale-loca-1f284fec/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+          "title_original": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+          "title_en": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/allenai/astabrief",
+          "published_at": "Fri, 02 Oct 2026 15:19:50 GMT",
+          "fetched_at": "2026-10-03T01:13:41.891980+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d599f0a282be",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+          "extracted_excerpt": "A Blog post by Ai2 on Hugging Face",
+          "extracted_text_for_analysis": "Language models can already help researchers search the literature, synthesize evidence, and work through complex questions. But scientific work places particular demands on these models—answers need to stay grounded in evidence, the models need to preserve what the evidence actually supports rather than quietly broadening a study’s conclusions, and researchers need to be able to verify the final outputs. We see that in how scientists use Asta, our agentic platform for scientific work. Instead of simple keyword searches, users often bring substantial context and many constraints—for example, asking Asta to compare approaches across a body of literature while accounting for a particular method, population, or setting. Many also return to generated reports later, treating them as working research artifacts rather than one-off answers. We wanted to help scientists generate cited reports faster, with a model they could download and run themselves. To do that, we tested whether a small, open model trained specifically for scientific report generation could match the report quality of the proprietary models we were using, while reducing generation time and serving costs. We built AstaBrief 8B, a model that turns a research question and retrieved literature excerpts into a cited report. AstaBrief is available in Asta’s Generate a report feature today as Fast mode alongside Claude-powered Thinking mode, and we’re also open-sourcing it and the training data so others can study, reproduce, and build on our approach. Developing AstaBrief required tens of thousands of real research queries, citation-focused filtering, preference data, and a redesigned report-generation pipeline that writes the full report in one pass rather than section by section. The result is nearly an order-of-magnitude reduction in report generation time compared to the proprietary models we tracked—across the full Asta pipeline, Fast mode averages 51.1 seconds per report compared with 178.5 seconds for Thinking mode, about 3.5× faster. Together, those efficiency gains made AstaBrief a useful test case for a broader goal: building open language models that can be adapted to the specific demands of scientific work. Open weights will also let institutions run AstaBrief on their own infrastructure, which is necessary when research questions reveal sensitive or unpublished work. Alongside the model weights, we’re releasing an example workflow that researchers can adapt to create reports from their own PDFs, providing a starting point for local report generation This post covers how we trained AstaBrief, what we learned about grounding it in scientific evidence, and which parts of our approach we think can carry forward to future models for science. Most of the training and evaluation described was completed in 2025, so the proprietary models used to generate training data and as comparison points reflect the frontier at the time. We haven’t rerun the full evaluation against today’s frontier models; the results below are best read as evidence about the particular training and system design choices we tested. Our goal with AstaBrief was to build an open-weights model with all the qualities that matter most for long-form scientific synthesis: answer quality, relevance, structure, and citation grounding. We started from Qwen3-8B and focused most of our effort on the post-training data, evaluation, and surrounding report-generation scaffolding. Adapting general-purpose models for scientific work – and training new scientific models from scratch – is something we're exploring broadly across Ai2. Through NSF OMAI, a U.S. national initiative led by Ai2 to build fully open AI infrastructure and models for scientific discovery, our researchers are working directly with scientific communities to understand what they need from future open models and where today's general-purpose models fall short. That includes studying how needs differ across scientific fields and workflows, with more findings from that research to share in the future. Recent work, including our DR Tulu, has shown that reinforcement-learning-based (RL) methods can improve long-form report generation for open-weights models, especially when judge models are involved in the training loop. We considered that path for AstaBrief, but ultimately focused on a simpler recipe built around supervised fine-tuning (SFT) and direct preference optimization (DPO). RL-based training can be unstable and expensive. We wanted to see how far we could push report generation quality with a cheaper, more operationally manageable setup—one that's also easier to debug and iterate on. That made the quality of the training data especially important. Rather than relying on a more complex optimization method to compensate for noisy examples, we spent much of the project figuring out how to generate, select, and filter examples that actually demonstrated the report-writing behavior we wanted. We also wanted AstaBrief to be faster so that users could get preliminary reports quickly that they could then iterate over in subsequent turns. For speed improvements, we decided to train AstaBrief to directly generate the final report in one pass given a user query and relevant retrieved snippets, bypassing the expensive snippet summarization and clustering stages our Claude-based Thinking mode uses and not writing out the answer section-by-section. Interestingly, we found it was possible to do so without sacrificing performance. The training pipeline began with real user queries submitted through the system described in our paper “Synthesizing scientific literature with retrieval-augmented LMs” and ScholarQA, the framework that now underpins Asta’s Generate a report feature. Rather than training only on synthetic prompts or benchmark-style tasks, we wanted AstaBrief to learn from real queries from real scientists. Our research suggests that scientists often ask different things of language models than users do of general-purpose chatbots or traditional search tools. In our analysis of hundreds of thousands of Asta queries, expert researchers frequently supplied substantial context, multiple constraints, and relationships between concepts rather than relying on short, keyword-style prompts. More recent Asta user studies have also surfaced differences in how researchers want AI involved in their work—some are comfortable using models for ideation or experimentation, while others prefer a narrower role in synthesis, literature surveillance, or pattern-finding. Across those differences, participants want clearer source traceability, more visibility into what a model is doing, and greater control over the context it uses. We filtered the user logs we collected for quality, relevance, and privacy, stripping out beta-tester and bot traffic, dropping queries that were too short to be meaningful, and using an LLM-based filtering pass to catch non-English queries, non-scientific requests, and prompts",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+              "source_url": "https://huggingface.co/blog/allenai/astabrief"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/allenai/astabrief"
+            }
+          ],
+          "slug": "open-sourcing-astabrief-the-fast-report-generation-model-in-asta-d599f0a2",
+          "localized_url": "/zh/items/2026-10-03/open-sourcing-astabrief-the-fast-report-generation-model-in-asta-d599f0a2/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+          "title_original": "AutoSynthData: Generating Training Data for Enterprise Agents",
+          "title_en": "AutoSynthData: Generating Training Data for Enterprise Agents",
+          "summary_zh": "Hugging Face Blog 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+          "published_at": "Fri, 02 Oct 2026 04:01:31 GMT",
+          "fetched_at": "2026-10-03T01:13:41.891980+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a885ed61f54a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+          "extracted_excerpt": "A Blog post by ServiceNow-AI on Hugging Face",
+          "extracted_text_for_analysis": "Enterprises need agents that work well in their own environments. The work they ask these agents to do is shaped by the systems they use, the rules they follow, and the state of their data. A model may be broadly capable and still struggle with a particular environment: a workflow it handles poorly, a combination of tools it misuses, or a constraint it fails to respect. Those are the weaknesses an enterprise needs to improve. The difficulty is turning those weaknesses into training data. An individual failure tells us something, but training a model requires many new tasks that exercise the same capability in different situations. Those tasks must also be possible to complete in the environment, resemble work someone would actually request, and have a reliable way to check whether the agent succeeded. At ServiceNow CoreAI, we built AutoSynthData to turn those capability gaps into training data. It uses a target model’s failures and a stronger teacher’s successes to decide what the model should learn next, then generates and validates new tasks that exercise those capabilities. As the model improves, the curriculum shifts toward what it still finds difficult. We illustrate the pipeline with EnterpriseOps Gym (Malay et al., 2026), using the released dataset. We begin by describing the environment an agent operates in and what makes a task useful for training. An agentic environment defines the world in which an agent operates: the state it can observe and modify, the tools and APIs it can invoke, and the state transitions produced by its actions. A task is instantiated within this environment. We use the following abstraction: task = (system specification, user prompt, verifier) The system specification defines the constraints under which the agent operates, including system instructions, environment policies, and, when applicable, task-specific initialization such as a seeded database state or a set of knowledge articles. The specification must be compatible with the environment’s tools, state, and supported actions. Its instructions should be clear and avoid arbitrary constraints introduced solely to manufacture difficulty. The user prompt specifies what the user wants the agent to accomplish, together with any user-level constraints. A generated task should satisfy three properties. Feasibility. There should exist at least one trajectory in the current environment that satisfies the user prompt while respecting the system specification. This rules out tasks that depend on unavailable tools, inaccessible knowledge, impossible state transitions, or actions prohibited by policy. Realism. The user prompt should resemble something a user would plausibly ask in the target environment. The space of executable behaviors is usually much larger than the space of realistic workflows. Difficulty. For training, the task should expose a weakness of the current agent. Tasks that are already solved reliably provide little new training signal. The useful region is therefore tasks that are feasible and realistic, but not yet consistently solved. The verifier determines whether the resulting trajectory successfully completes the task. It should satisfy three properties. Consistency. It should agree with the user prompt, the system specification, and the task-specific environment state. Soundness. It should reject trajectories that fail to satisfy the task or violate relevant constraints. Completeness. It should accept valid solutions rather than encode one particular reference trajectory. These properties matter directly during training. A lax verifier can reward incorrect behavior, while an overly restrictive verifier can penalize valid solutions. Given an environment and a target model, AutoSynthData generates training tasks consisting of a system specification, user prompt, and verifier. The generated tasks are grounded in the environment and selected to provide useful training signal for the current model. AutoSynthData first evaluates the target model in the environment using diagnostic tasks and identifies patterns in the tasks it struggles to complete. A stronger teacher helps characterize which of those tasks are solvable and what successful behavior looks like. AutoSynthData turns the resulting capability gaps into new executable tasks, checks each task in the environment, and uses accepted samples for post-training. Evaluating the updated model reveals which gaps remain and can guide the next round of generation. AutoSynthData uses evaluation runs in the target environment to identify what the model needs to learn next. In our EnterpriseOps Gym experiment, we run both the target model and a stronger teacher on the evaluation tasks. We examine those runs to identify: - the capability being tested; - the tools and workflow structure involved; - where the target model fails and how the teacher succeeds; - the properties that a correct final state must satisfy; - the dimensions that can vary while preserving the capability being tested. We distill these findings into sanitized capability specification cards. The evaluation tasks guide what the model should learn, but the generator does not receive their original prompts, entities, trajectories, or verifier details. It receives the cards and uses them to create new tasks with different prompts, states, and solution paths. Identifying a capability gap tells us what to teach, but training requires many varied tasks that exercise it. AutoSynthData uses the specification card to generate those tasks. Suppose the target model struggles with tasks that require the following workflow: The generator creates new tasks that exercise this workflow, varying the entities, initial environment state, workflow composition, tool combinations, wording, and difficulty. The stronger teacher then demonstrates a successful trajectory for each task. For supervised fine-tuning (SFT), these demonstrations teach the target model how to apply the capability in new situations. AutoSynthData builds the dataset in two phases: first generating and validating core samples, then expanding them into novel variants. The target phase creates the core set of training samples from the capability specifications. Workers generate independent tasks in parallel, picking up a new target when they finish. Each candidate goes through validation, execution, solver evaluation, and repair before acceptance. The result is a batch of vetted examples built around what the target model needs to learn. The multiply phase expands the dataset by creating novel variants of accepted target samples. Each variant has its own user request, environment state, entity configuration, reference trajectory, and verifier, and must pass the same validation and execution checks. A multiplied sample cannot seed another multiplied sample. This anchors expansion to the vetted target set and limits drift across generations. To support both phases, AutoSynthData separates generation control from",
+          "title_zh": "Hugging Face 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AutoSynthData: Generating Training Data for Enterprise Agents",
+              "source_url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+            }
+          ],
+          "slug": "autosynthdata-generating-training-data-for-enterprise-agents-a885ed61",
+          "localized_url": "/zh/items/2026-10-03/autosynthdata-generating-training-data-for-enterprise-agents-a885ed61/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+          "title_original": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+          "title_en": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+          "summary_zh": "Meta 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop products to how it serves guests.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/airbnb",
+          "published_at": "Fri, 02 Oct 2026 14:04:49 GMT",
+          "fetched_at": "2026-10-03T01:13:41.891980+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d81483cb0de8",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Meta 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Meta，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+              "source_url": "https://www.latent.space/p/airbnb"
+            },
+            {
+              "label": "公开摘要",
+              "text": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop products to how it serves guests.",
+              "source_url": "https://www.latent.space/p/airbnb"
+            }
+          ],
+          "slug": "inside-out-ai-rebuilding-airbnb-behind-the-scenes-and-across-the-guest-e-d81483cb",
+          "localized_url": "/zh/items/2026-10-03/inside-out-ai-rebuilding-airbnb-behind-the-scenes-and-across-the-guest-e-d81483cb/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+          "title_original": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+          "title_en": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+          "summary_zh": "Latent Space 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "the minimalist harness goes stable... and TypeScript!",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+          "published_at": "Fri, 02 Oct 2026 06:40:53 GMT",
+          "fetched_at": "2026-10-03T01:13:41.891980+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "22b95dcb283e",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+              "source_url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc"
+            },
+            {
+              "label": "公开摘要",
+              "text": "the minimalist harness goes stable... and TypeScript!",
+              "source_url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc"
+            }
+          ],
+          "slug": "ainews-pi-1-0-pi-durable-and-aie-nyc-22b95dcb",
+          "localized_url": "/zh/items/2026-10-03/ainews-pi-1-0-pi-durable-and-aie-nyc-22b95dcb/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Rogo ships agent-written code to production in 5 minutes on Vercel",
+          "title_original": "How Rogo ships agent-written code to production in 5 minutes on Vercel",
+          "title_en": "How Rogo ships agent-written code to production in 5 minutes on Vercel",
+          "summary_zh": "Vercel 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Rogo on Vercel 73,000+ deployments in a single month Agent-written code shipped to production in 5 minutes 6 production AI agents automating work from churn analysis to deal desk Zero manual triage during production incidents with agent swarms on AI SDK Rogo",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel",
+          "published_at": "2026-10-02T04:00:00.000Z",
+          "fetched_at": "2026-10-03T01:13:41.891980+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0f97007af36d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Rogo ships agent-written code to production in 5 minutes on Vercel",
+              "source_url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Rogo on Vercel 73,000+ deployments in a single month Agent-written code shipped to production in 5 minutes 6 production AI agents automating work from churn analysis to deal desk Zero manual triage during production",
+              "source_url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel"
+            }
+          ],
+          "slug": "how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel-0f97007a",
+          "localized_url": "/zh/items/2026-10-03/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel-0f97007a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Jev for Python engineers",
+          "title_original": "Jev for Python engineers",
+          "title_en": "Jev for Python engineers",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "It's simply impossible to not hear about Jev. Seemingly everyone is tinkering with it in some way, from using it to make trading decisions (what could possibly go wrong?) to generating UIs with it (maybe we're onto something here!) . Jev is a new kind of AI",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/jev-for-python-engineers",
+          "published_at": "2026-10-02T07:00:00.000Z",
+          "fetched_at": "2026-10-03T01:13:41.891980+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "87859686eafc",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Jev for Python engineers",
+              "source_url": "https://vercel.com/blog/jev-for-python-engineers"
+            },
+            {
+              "label": "公开摘要",
+              "text": "It's simply impossible to not hear about Jev. Seemingly everyone is tinkering with it in some way, from using it to make trading decisions (what could possibly go wrong?) to generating UIs with it (maybe we're onto",
+              "source_url": "https://vercel.com/blog/jev-for-python-engineers"
+            }
+          ],
+          "slug": "jev-for-python-engineers-87859686",
+          "localized_url": "/zh/items/2026-10-03/jev-for-python-engineers-87859686/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Speed Insights deprecates First Input Delay on November 1st",
+          "title_original": "Speed Insights deprecates First Input Delay on November 1st",
+          "title_en": "Speed Insights deprecates First Input Delay on November 1st",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Speed Insights is deprecating First Input Delay (FID) and will stop recording new measurements on November 1st. Speed Insights already uses Interaction to Next Paint (INP) , the Core Web Vital that replaced FID, as the responsiveness metric in your Real",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/speed-insights-deprecates-first-input-delay-on-november-first",
+          "published_at": "2026-10-01T12:39:14.942Z",
+          "fetched_at": "2026-10-03T01:13:41.891980+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8a252a6ffe60",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Speed Insights deprecates First Input Delay on November 1st",
+              "source_url": "https://vercel.com/changelog/speed-insights-deprecates-first-input-delay-on-november-first"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Speed Insights is deprecating First Input Delay (FID) and will stop recording new measurements on November 1st. Speed Insights already uses Interaction to Next Paint (INP) , the Core Web Vital that replaced FID, as the",
+              "source_url": "https://vercel.com/changelog/speed-insights-deprecates-first-input-delay-on-november-first"
+            }
+          ],
+          "slug": "speed-insights-deprecates-first-input-delay-on-november-1st-8a252a6f",
+          "localized_url": "/zh/items/2026-10-03/speed-insights-deprecates-first-input-delay-on-november-1st-8a252a6f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-10-02",
       "title_zh": "AI 新闻简报 · 2026-10-02",
