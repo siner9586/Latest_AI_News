@@ -1,7 +1,166 @@
 {
-  "updated_at": "2026-10-03T01:13:43.192556+00:00",
-  "count": 107,
+  "updated_at": "2026-10-04T00:41:37.711764+00:00",
+  "count": 108,
   "briefs": [
+    {
+      "date": "2026-10-04",
+      "title_zh": "AI 新闻简报 · 2026-10-04",
+      "title_en": "English AI News Brief · 2026-10-04",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 150 条，入选 2 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 150 previously displayed items excluded, and 2 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 150,
+      "selected_count": 2,
+      "categories": [
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "The Agent Said It Was Done. The Database Disagreed.",
+          "title_original": "The Agent Said It Was Done. The Database Disagreed.",
+          "title_en": "The Agent Said It Was Done. The Database Disagreed.",
+          "summary_zh": "Hugging Face Blog 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+          "published_at": "Sat, 03 Oct 2026 22:56:48 GMT",
+          "fetched_at": "2026-10-04T00:41:37.190346+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "89764eae0099",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "The Agent Said It Was Done. The Database Disagreed.",
+          "extracted_excerpt": "A Blog post by Microsoft on Hugging Face",
+          "extracted_text_for_analysis": "Figure 1: ThinkingBox runs an agent against isolated MCP tool sessions, then grades the terminal backend state and side effects it leaves behind. From our ThinkingBox paper. This is a joint blog by Microsoft and Hugging Face, special thanks to Tommy Guy (founder at Enderis AI, previously Microsoft), Sergio Paniego from Hugging Face and our former interns Zhuochun Li (University of Pittsburgh), Ali Keramati (UC Irvine), Youngmin Ko (Northwestern) for co-authoring/reviewing efforts. A customer writes in. Her $745 kitchen appliance has been stuck in a courier \"exception\" at a Nashville distribution center, fifteen days past its estimated delivery date. The AI agent does careful work. Nine tool calls: it pulls the order, checks tracking, looks up her customer profile, searches the refund policy twice, confirms no ticket exists, opens one, documents the timeline, and reads the policy correctly; her account segment genuinely does not qualify for late-delivery compensation. Then it closes the ticket as resolved and replies “ Since your query is resolved, is there anything I may assist you with? ” Two things are wrong. The carrier exception is still open, so the required end state was on hold, pending resolution. And the customer never got a real answer to what she actually asked. An AI grader checking tool calls would see nine well-formed ones. The grader checking whether the agent wrote to the database would see that too. The database is what disagrees. That gap is what ThinkingBox measures. Across 507 stateful business workflows, each run 20 times against various LLM models, it grades agents on terminal backend state and side effects. This post covers what we found, what consistency costs, and how to run the benchmark yourself through OpenEnv. You can run this one yourself: the example above is adapted from a benchmark task sandbox_external_retail_group1.py:test_case_ST003_006, and the executable check that fails is a single field: the ticket's status is solved where the required end state is hold. The full trace is in Appendix D.4, Case 3 of our paper. Contents Want to try it before reading the results? Skip to section Run it yourself. Final responses and valid tool calls are only proxies. An agent can sound correct while leaving the wrong value, changing the wrong record, or creating an extra side effect. Only the records it leaves behind settle the question. The gap is substantial. In a common-set ablation covering 121,680 valid trials across 12 LLM models, 79,853 attempts failed the executable checks. Of those failures, 67.24% still terminated cleanly, invoked a state-changing tool, and reported no final tool error. Executable checks nevertheless found wrong field values in 77.61% of them, unintended extra effects in 43.30%, and missing required effects in 25.36%. Those state-check findings overlap. A trajectory is a claim. Database state is the evidence. Repetition is the trust test. An agent that processes a refund correctly once and mishandles it the next four times is not a working refund agent. So every task runs 20 independent times, each from an identical clean backend, and we report three different things: Table 1: The three numbers we report, and the question each one answers. We use observed 20/20 in this blog post as the literal count of how many of the 507 tasks passed 20 out of 20. No estimator, no smoothing. Starting with the familiar view. The table below reports pass@1, the single-attempt score estimate, broken out by domain. This is the number most leaderboards publish, and on its own it reads like an ordinary capability ranking. Table 2: ThinkingBox-Bench pass@1 (%) by domain. Each model is evaluated on every task for 20 repeated trials. Bold marks the group leader; underline marks the runner-up. The standard errors for the single attempt score estimates are provided in Table 4 in our ThinkingBox paper. Claude Opus 5.5 leads overall at 67.16%, two-thirds of a point above Claude Opus 5. Kimi-K3 is the strongest open-weights model, within a point of GPT-6-Astra. Domain matters just as much: Claude Opus 4.6 scores 68.62% on retail but 8.30% on auto insurance. One good run tells you a model can do the work. It does not tell you whether it will do it again. So run every task 20 times and ask how much of that score survives. Figure 2: How much of each model's single-attempt score survives 20 repeats. Only three hold on to most of their pass@1 scores: GPT-6 Astra retains 78% of its single-attempt rate, and Claude Opus 5.5 and Claude Opus 5 each retain 71%. At the other end, GLM-5.1, Kimi-K2.6 and DeepSeek-V4-Pro each keep about 8%. The gap between what a model can do once and what it does every time is the whole story. Figure 3: Breadth and consistency pull apart. Twelve of the eighteen models are shown; six below 33% pass@1 are omitted for legibility. Kimi-K3 has the broadest coverage of any model we tested. It solves 93.89% of the benchmark at least once: 476 of 507 tasks. Only 31 tasks defeat it entirely, the lowest count in the field. On retail workflows it leads outright at 82.24% pass@1, ahead of every proprietary model. Kimi-K3 is also among the least consistent. Just 68 of 507 tasks, 13.41%, succeed in all 20 attempts. Claude Opus 5 inverts this. It solves fewer tasks at least once (79.09%; 106 defeat it entirely) but completes 47.53% of the benchmark on every single attempt. A newer model does not fix this. Claude Opus 5.5 scores higher than Claude Opus 5 on every-attempt average, 67.16% against 66.50%, and solves more tasks at least once. It passes exactly the same number of tasks on all 20 attempts: 241. Half a point of headline accuracy bought no additional dependability at all. - Kimi-K3 solves 75 more tasks at least once than Opus 5. - Opus 5 solves 173 more tasks consistently than Kimi-K3. If you are choosing a model for work that touches real records, pass@20 is the wrong column to look at. Capability comparisons usually stop at the score. For anyone deploying, the relevant question is what a successful unit of work costs. We measure that as cost per successful task attempt. We say task attempt because every benchmark task is run repeatedly and cost is incurred per attempt, so pass@1 is the matching quality denominator. We took each model's recorded token usage from its full 507 × 20 campaign and priced it at undiscounted list rates available on OpenRouter+, reversing promotional discounts and excluding endpoints that declare quantization. Input, output and cache rates all come from one provider endpoint per model. Then we divided one run's cost by the number of attempts that succeeded: Cost per successful task attempt = estimated cost for 507 attempts, one per task ÷ (507 × pass@1) This is a comparative efficiency index, not an invoice, and not the price of serving one production request. It also prices single successes, not consistency. We price consistency next. Example: GPT-5.4 costs $43.49 for 507 attempts (one attempt per task) and has",
+          "title_zh": "Hugging Face 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The Agent Said It Was Done. The Database Disagreed.",
+              "source_url": "https://huggingface.co/blog/microsoft/thinkingbox"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/microsoft/thinkingbox"
+            }
+          ],
+          "slug": "the-agent-said-it-was-done-the-database-disagreed-89764eae",
+          "localized_url": "/zh/items/2026-10-04/the-agent-said-it-was-done-the-database-disagreed-89764eae/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "🧠 Community Wisdom: Getting value from personal AI agents without handing over your inbox, the ego threat of going from IC to manager, uncommon perks to negotiate for, and more",
+          "title_original": "🧠 Community Wisdom: Getting value from personal AI agents without handing over your inbox, the ego threat of going from IC to manager, uncommon perks to negotiate for, and more",
+          "title_en": "🧠 Community Wisdom: Getting value from personal AI agents without handing over your inbox, the ego threat of going from IC to manager, uncommon perks to negotiate for, and more",
+          "summary_zh": "Community Wisdom 301",
+          "summary_en": "Community Wisdom 301",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from",
+          "published_at": "Sat, 03 Oct 2026 17:00:49 GMT",
+          "fetched_at": "2026-10-04T00:41:37.190346+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3e3437293d98",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lenny's Podcast 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lenny's Podcast，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "🧠 Community Wisdom: Getting value from personal AI agents without handing over your inbox, the ego threat of going from IC to manager, uncommon perks to",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Community Wisdom 301",
+              "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from"
+            }
+          ],
+          "slug": "community-wisdom-getting-value-from-personal-ai-agents-without-handing-o-3e343729",
+          "localized_url": "/zh/items/2026-10-04/community-wisdom-getting-value-from-personal-ai-agents-without-handing-o-3e343729/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-10-03",
       "title_zh": "AI 新闻简报 · 2026-10-03",
