@@ -1,7 +1,986 @@
 {
-  "updated_at": "2026-10-07T01:35:52.170009+00:00",
-  "count": 111,
+  "updated_at": "2026-10-08T01:59:23.707251+00:00",
+  "count": 112,
   "briefs": [
+    {
+      "date": "2026-10-08",
+      "title_zh": "AI 新闻简报 · 2026-10-08",
+      "title_en": "English AI News Brief · 2026-10-08",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 137 条，入选 14 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 137 previously displayed items excluded, and 14 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 137,
+      "selected_count": 14,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+          "title_original": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+          "title_en": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+          "published_at": "Wed, 07 Oct 2026 18:45:28 +0000",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "podcasts-interviews",
+          "people": [
+            "Satya Nadella",
+            "Jensen Huang"
+          ],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 66.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6f02344687c4",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+          "extracted_excerpt": "NVIDIA RTX Spark pre-orders open October 16, and DGX Station for Windows brings GB300 AI infrastructure to the enterprise desktop.",
+          "extracted_text_for_analysis": "At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you look at the entire journey of our company, Windows was at the core of it,” Huang said, tracing back NVIDIA’s support for Windows and Microsoft over several decades. “If not for Windows there would be no GeForce.” NVIDIA founder and CEO Jensen Huang connected that history — and his long-term vision — to the agentic era Wednesday during a fireside chat with Microsoft CEO Satya Nadella hosted by Sriram Krishnan, a former senior White House policy advisor on AI at the Windows AI and Surface event, held at Dogpatch Studios in San Francisco. “The thing that I really give Jensen all the credit for, quite frankly, is that consistency of vision of what this can be—not today, not tomorrow, but as a secular trend,” Nadella said. “And that’s what brings us to this moment.” “The personal computer is the ultimate tool, it’s my ultimate tool, and for a whole generation of people, it’s our ultimate tool,” Huang said. “What happens in the era of agents, when the agent is on your computer? It is now your personal assistant.” The event opened with Nadella before Pavan Davuluri, Microsoft’s EVP of Windows and Devices, walked through the Windows updates designed for the agentic era. Turning Windows into a secure platform for agents, Microsoft announced general availability of Microsoft Execution Containers (MXC), the OS-level infrastructure that lets agents run safely and persistently in the background, under operating system control. “We are building these primitives directly into Windows, so agents can be secured, observed and governed,” Davuluri explained. “With MXC, Microsoft Security, and Agent 365, we’re unlocking the full potential of agents on Windows.” Nadella returned to that theme in his talk with Huang. “We needed to make the desktop the most secure place for agents to execute,” Nadella said. “What Satya just said is going to be the foundation of the next generation of IT as we know it,” Huang said. “Just as Windows and DirectX revolutionized how applications were built, MXC is going to revolutionize how agents are built and deployed.” A New Beginning for Windows PCs: Preorder RTX Spark Laptops Today Among the announcements Huang and Nadella outlined Wednesday, RTX Spark puts the full NVIDIA AI stack into Windows laptops and compact desktops, with laptop preorders open today and available October 16. Compact desktops will be available for sale in November. Windows is bringing local AI closer to everyday work, while new hardware gives developers room to run increasingly capable models right on their PC. Introducing Surface Laptop Ultra, Pavan Davuluri tied that vision to NVIDIA RTX Spark. “We built Surface Laptop Ultra around NVIDIA RTX Spark. With up to 128 gigs of unified memory and up to a petaflop of AI compute, you can run models on this laptop that simply don’t fit on a traditional machine,” Davuluri said. Systems are coming from Acer, ASUS, Dell, HP, Lenovo, Microsoft, MSI and Gigabyte with designs ranging from slim laptops to compact desktops built for always-on agents. RTX Spark combines an NVIDIA Blackwell RTX GPU with up to 6,144 cores, and an up to 20-core NVIDIA Grace CPU connected at 600 GB/s. One petaflop of FP4 AI performance and up to 128GB unified memory makes RTX Spark effective for local AI. It can run models such as Qwen 3.8 Flash Next, a 125B model with 51B n-gram that matches the intelligence of many cloud models, unmetered and without sending data to the cloud. RTX Spark runs the full NVIDIA CUDA platform — the same software stack that runs across NVIDIA hardware — and is built for every way people use a PC: - Developers can move models, tools and workflows without rewriting, running the same NVIDIA AI stack from RTX Spark to DGX Station. - Creators get 5th-generation Tensor Cores with NVFP4 support, hardware-accelerated AV1, and 4:2:2 video encode and decode, DLSS and RTX ray tracing across the full production pipeline. - Gamers can run AAA games at 1440p over 100 frames per second with DLSS 5, Reflex and G-SYNC. The compact desktop configuration puts the same RTX Spark superchip in a small chassis designed for 24/7 operation — a dedicated local AI system that keeps agents running continuously. Preorder RTX Spark today. NVIDIA DGX Station for Windows: Frontier AI Compute on the Enterprise Desktop The event previewed NVIDIA DGX Station for Windows today — the first deskside AI supercomputer to bring GB300 Grace Blackwell-class AI infrastructure directly into the Windows ecosystem. “This unlocks the power to run frontier-class models locally,” Davuluri said. “Capabilities that once required renting a cluster, now in a deskside supercomputer.” Until now, DGX Station ran on Linux — which meant enterprise developers maintained two separate environments: Linux for heavy AI workloads and Windows for the productivity tools, applications and workflows. The vast majority of Fortune 500 companies are standardized on Windows, and that gap has cost developers time and resources — developers either moved to Linux to access AI compute, or stayed in Windows with limited hardware options for heavy-duty model development and multi-agent workloads. NVIDIA DGX Station for Windows runs on the GB300 Grace Blackwell Ultra Desktop Superchip, delivering 748GB of coherent memory and up to 20 petaFLOPS of FP4 AI compute — enough to run models up to a trillion-parameter scale locally. Teams of developers and researchers at AI-native companies, leading research labs and enterprises can build and run always-on AI agents that connect directly to the Windows applications and infrastructure they already use, and fine-tune and inference large models without leaving their primary machine. Linux AI toolchains remain accessible through WSL when needed. Learn more about NVIDIA DGX Station for Windows and sign up to be the first to know when it’s available. Follow NVIDIA RTX Spark on X, Instagram, TikTok and Facebook — and stay informed by subscribing to the NVIDIA Local AI newsletter. Follow NVIDIA Workstation on LinkedIn and X. See notice regarding software product information.",
+          "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+              "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on",
+              "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/"
+            }
+          ],
+          "slug": "nvidia-microsoft-kick-off-a-new-beginning-for-windows-pcs-with-rtx-spark-327e9639",
+          "localized_url": "/zh/items/2026-10-08/nvidia-microsoft-kick-off-a-new-beginning-for-windows-pcs-with-rtx-spark-327e9639/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Helping teens learn, plan, and shape the future of AI",
+          "title_original": "Helping teens learn, plan, and shape the future of AI",
+          "title_en": "Helping teens learn, plan, and shape the future of AI",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/teens-learn-and-plan",
+          "published_at": "Wed, 07 Oct 2026 12:00:00 GMT",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ad4e14640e35",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Helping teens learn, plan, and shape the future of AI",
+          "extracted_excerpt": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+          "extracted_text_for_analysis": "Since we introduced ChatGPT for Teens—the default experience automatically applied to accounts identified as under 18—we’ve seen young people use it to learn, explore ideas and solve everyday problems. Today, we’re sharing early progress on ChatGPT for Teens, including how teens are using its learning tools, along with new ways for teens to study and prepare for college. ChatGPT’s 1.2 billion users span many countries, communities and backgrounds. That reach makes it especially important to build tools that help young people with different resources and opportunities learn and prepare for their futures. ChatGPT for Teens is designed to help young people learn, think critically and deepen their understanding. As ChatGPT for Teens became available to more teens globally, those with access sent about 2.7 million more learning-related messages on average than those who didn’t have it yet. Once enrolled, teens use ChatGPT for Teens’ learning tools at scale. The most selected conversation starter prompts are “ask questions to develop my ideas,” “give feedback on my draft,” and “help me check my evidence.” In one week, nearly 1.2 million teens used Learning Visualizations to better understand math and science concepts, and more than 180,000 used Study Mode for step-by-step learning support. ChatGPT for Teens includes built-in reminders to encourage teens to take breaks. On average, teens spend under 15 minutes a day on ChatGPT. While less than 2% of teens spend more than three consecutive hours on ChatGPT, in almost half of teen conversations with a break reminder, teens took a break or ended their conversation within five minutes. These usage patterns remain well below the publicly reported(opens in a new window) average of 5 hours for teen social media usage, and reflect a different kind of experience: ChatGPT is designed for learning, building, and creativity, rather than passive scrolling. Among teens with sessions longer than three consecutive hours, over 80% had at least one prompt related to learning. These early signs are encouraging and we’ll continue to evaluate the experience and learn from teens, families and educators to improve ChatGPT for Teens. Hundreds of thousands of US teens use ChatGPT each week to plan for college. They’re using it to plan applications, track deadlines, research schools and understand financial aid. That’s why we’ll soon be adding College Planner to ChatGPT for Teens. We’re designing it to help students manage the practical steps of applying to college, without taking over the personal work of figuring out where they want to apply. Students have different levels of access to support with college applications. Our goal is to make help more accessible, regardless of financial circumstances, alongside guidance from counselors, advisers, and families. College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a student’s list in one plan. Students applying to several colleges can return to it to update their progress, use the timeline to plan ahead and see what’s left to do. They can also ask ChatGPT questions along the way, from what a requirement means to how to get started. By bringing these steps together, we aim to save students and families time and make a stressful process feel more manageable. We’re designing the initial US experience for high-school students in grades 10–12 who are planning to attend a four-year college. We plan to bring College Planner to students in more countries and expand support to two-year colleges, technical colleges, trade schools and more over time. College Planner also helps students figure out how to pay for college. They can get help understanding financial aid requirements, track each school’s aid deadlines, and explore scholarships and fee waivers. Keeping track of an application is only one part of preparing for college. Many students also need someone to help them make sense of their options. Alongside College Planner, we’re supporting College Advising Corps(opens in a new window), a nonprofit that places recent college graduates as advisers in under-resourced high schools to help students navigate the path to higher education. OpenAI’s contribution will help the organization expand into new states and create an AI fellowship program. Through the fellowship, advisers across participating states will test and share practical ways to use AI to help more students navigate the path to college. AI can help students manage application and enrollment tasks. Advisers can help them consider their options and decide what to do next. When we introduced ChatGPT for Teens, we committed to keep improving the experience. We’re supporting Boston Children’s Hospital’s Digital Wellness Lab(opens in a new window) and its independent Student Advisory Council(opens in a new window) over the next three years to learn directly from young people about how AI fits into their lives and to give teenagers a meaningful stake at the table as AI is being designed. For the 2026–27 school year, the Lab will bring together ~22 students across two tracks: ~12 students ages 14–18 working on digital wellbeing projects in their communities and ~10 students ages 16–20, focused on building AI chatbots and emerging technology. These students will work alongside researchers and clinicians on digital wellbeing and AI projects. Students in the AI track will test tools and recommend changes based on how they use AI in learning and their personal lives. We expect to seek feedback on teen safety defaults, parental controls and notifications and AI literacy. Teens should play a central role in developing the tools that will shape their future. Teens will test tools and develop recommendations for the people building them. Our aim is to bring those recommendations into product and model decisions early and to report back to students on what we change and why. This advisory board will give them a direct voice in that work and share their insights and recommendations to help the wider industry build better tools for young people. We heard from students that photographing and uploading their notes to ChatGPT can take hours. We’re making it easier for students to turn their notes into study materials like flashcards and quizzes. With continuous, multi-photo capture, students can photograph multiple pages of notes and automatically combine them into a single PDF, ready to upload to ChatGPT. This is available on iOS, and we’re working to bring it to Android. We’re also adding flashcards to help teens practice what they’re learning. A student preparing for a biology test, for example, can upload class notes or choose a topic, and ChatGPT can turn the material into cards to review. They can mark the cards they know, return to the ones they missed or shuffle the deck for another round. Decks are saved in a teen’s Library, so it’s easy to pick up where they left off. Students can also ask ChatGPT to",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Helping teens learn, plan, and shape the future of AI",
+              "source_url": "https://openai.com/index/teens-learn-and-plan"
+            },
+            {
+              "label": "公开摘要",
+              "text": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+              "source_url": "https://openai.com/index/teens-learn-and-plan"
+            }
+          ],
+          "slug": "helping-teens-learn-plan-and-shape-the-future-of-ai-ad4e1464",
+          "localized_url": "/zh/items/2026-10-08/helping-teens-learn-plan-and-shape-the-future-of-ai-ad4e1464/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+          "title_original": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+          "title_en": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/radisson",
+          "published_at": "Wed, 07 Oct 2026 07:00:00 GMT",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "04e9dc3828b5",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+          "extracted_excerpt": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+          "extracted_text_for_analysis": "Radisson Hotel Group brings hotel discovery into ChatGPT Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips. Booking conversion ~1.5× Early plugin conversion versus organic search (Jul–Aug 2026) Sponsored ads 54% Of recorded checkout and booking events attributed to ad views Delivery speed 6 Weeks to build and launch the ChatGPT plugin Travelers increasingly turn to AI to decide where to stay, often shortlisting hotels or building an entire itinerary before they ever visit a hotel website. Through its partnership with Accenture Song, Radisson Hotel Group is using OpenAI technology to reach guests earlier in that planning journey. The Radisson Hotels ChatGPT plugin(opens in a new window) helps travelers compare hotels and explore travel options through an interactive experience, and early results show booking conversion approximately 1.5 times that of Radisson’s organic search. Alongside the plugin, Radisson is among the hospitality pioneers running sponsored advertising in ChatGPT(opens in a new window), bringing its branded plugin and paid advertising together as part of an integrated discovery strategy. Radisson Hotel Group brings together ten distinctive hotel brands across EMEA and APAC, with more than 1,640 hotels in operation and under development. For the past seven years, Accenture has helped Radisson grow bookings through its direct digital channel, combining digital media strategy and execution with a transformation roadmap for its core digital capabilities. A stronger direct digital channel helps Radisson attract guests more efficiently and build relationships that encourage repeat stays. For hotel owners, this translates into stronger commercial performance and greater long-term value from their partnership with Radisson Hotel Group. This work meant Accenture had a front-row seat to AI’s transformative impact on the travel industry. “Almost overnight, there was a new surface where prospects were getting inspired, comparing different alternatives, and almost making their decision before even reaching a hotel’s website,” explains Borja Lizarraga Rodríguez, Data & AI Lead at Accenture Song. “It was critical for us to ensure the visibility of Radisson across this new experience.” As an Elite Partner of the OpenAI Partner Network, Accenture collaborated with OpenAI to explore strategies for organic positioning in ChatGPT. From these conversations, Accenture developed the idea of a ChatGPT plugin(opens in a new window): “We wanted to bring the value proposition of Radisson into ChatGPT and make it extremely user-friendly, ensuring things like maps, hotel details, and prices were integrated in the simplest way,” says Lizarraga. With the help of agentic development, the team built and launched the Radisson Hotels plugin(opens in a new window) in just six weeks. It lets users see Radisson Hotel suggestions on a map, compare pricing, and view hotel amenities in detail directly in ChatGPT, then continue to the Radisson site to complete their booking. Early results from the Radisson Hotels plugin in ChatGPT show a visit-to-booking conversion rate approximately 1.5 times Radisson’s organic search for July–August 2026. The plugin gives travelers a direct path from conversational hotel discovery to Radisson’s own booking channel. A recent ChatGPT update means users no longer have to type @RadissonHotels before their query; if they have the plugin installed, ChatGPT will automatically show it whenever relevant. “If you’re planning a trip to Madrid, and there’s a new Radisson Hotel you might want to consider, now in ChatGPT it will just automatically work,” says Brittny Cantor, Agentic Commerce Lead at Accenture. “We’re really excited about that change to increase discoverability.” The plugin gives Radisson a new way to reach travelers organically in ChatGPT. Radisson is also among the hospitality pioneers launching sponsored advertising campaigns in ChatGPT as part of an integrated discovery strategy. Since launching in July, its campaigns have expanded into additional markets across Europe and beyond. More than half of the campaign’s recorded checkout and booking events were attributed through view-through measurement, extending Radisson’s assessment of discovery beyond direct ad clicks. Accenture designed the underlying infrastructure to support more than a single application. The MCP server and APIs that Accenture developed for the Radisson plugin are also powering the ads experience and will play a role in other new features to come. Radisson is aware that with AI, the way users make decisions about travel has changed dramatically and will continue to evolve. They’re determined to be the first among their competitors to capitalize on these changes, becoming not only a hotel chain but an advisor on the entire travel experience. Its next priorities include encouraging plugin adoption and developing additional functionality within the ChatGPT experience. “What stands out about Radisson is its ability to move quickly while keeping a clear focus on guests and hotel owners. Together, we are applying new technology where it can make a meaningful difference: helping travelers find the right hotel, strengthening direct guest relationships, and supporting more profitable growth,” Borja Lizarraga says. “Great stays have always started with good advice. Today, more of that advice happens in conversation, and we moved quickly to be there. Initial results are encouraging, with our ChatGPT plugin converting at around 1.5 times organic search. This is just the start: wherever a journey begins, we want Radisson to be the advisor guests trust and the direct channel that delivers lasting value for our hotels and owners,” says Velit Dundar, Vice President, Global Ecommerce, Radisson Hotel Group.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+              "source_url": "https://openai.com/index/radisson"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+              "source_url": "https://openai.com/index/radisson"
+            }
+          ],
+          "slug": "radisson-hotel-group-brings-hotel-discovery-into-chatgpt-04e9dc38",
+          "localized_url": "/zh/items/2026-10-08/radisson-hotel-group-brings-hotel-discovery-into-chatgpt-04e9dc38/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GPT-6 and Intelligent UI for everyone",
+          "title_original": "GPT-6 and Intelligent UI for everyone",
+          "title_en": "GPT-6 and Intelligent UI for everyone",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/gpt-6-for-everyone",
+          "published_at": "Wed, 07 Oct 2026 00:00:00 GMT",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0ca1450969b5",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "GPT-6 and Intelligent UI for everyone",
+          "extracted_excerpt": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+          "extracted_text_for_analysis": "Last month we introduced the first GPT‑6 models for paid customers and today we're bringing that next generation of intelligence to more people with a new GPT‑6 model built for more than 1.2 billion people who use ChatGPT each week. GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment. We’ve trained GPT‑6 to compose responses using text, visuals and interactive elements, choosing how they fit together based on your question. With Intelligent UI, responses can include graphics, tappable buttons, forms, charts, and interactive experiences you can use directly in your conversation. The format depends on what you’re asking. A comparison might work best side by side. An explanation might be easier to understand through an interactive diagram. And when a simple text answer is the most useful response, ChatGPT can give you that. ChatGPT can make a plan easier to follow by showing how it fits together. The timing for a Sunday roast can sit alongside the recipe, or the stops on a road trip can appear on a map, with notes on what’s worth a detour. Visual and interactive explanations let you explore how something works, change an input to see what happens, or work through a problem step by step. You can also ask ChatGPT to create a tool for the task at hand, such as a calculator to explore how savings could grow, a bill splitter for dinner with friends, or a game you can play in the conversation. With Intelligent UI, we gave GPT‑6 the freedom to create the most useful interface for each question, while keeping the experience fast and familiar across web and mobile. We built a library of native, streamable components, along with a compiler that processes the interface as the model generates it. The library gives each response a familiar design foundation while leaving the model room to decide how the pieces fit together. The compiler allows the interface to appear progressively as the model generates it, without waiting for the entire response to be complete. We expanded our training methods to help the model make thoughtful decisions about content, layout, visuals, and interaction. This included evaluating the interfaces it creates for clarity, usefulness, and completeness. GPT‑6 learned to use the component library and make good design decisions, including how to organize information clearly, when to use interactivity, and when a simple text response is enough. There's still work ahead to improve the model's design judgment and expand what it can create, but Intelligent UI marks a significant shift in how people interact with ChatGPT. Instead of fitting every question into the same conversational format, ChatGPT can combine UI, data, and actions to create entirely new ways for people to explore, understand, and interact with information. With GPT‑6, we’re also making it possible for ChatGPT to begin answering while it continues to think. With the introduction of reasoning models, users could get help with much harder problems, but had to wait for the model to finish thinking before getting an answer. Now, ChatGPT can interleave thinking with answering. We trained it to take into account the user’s waiting time and progressively compose an answer using its knowledge and findings up to that point. It learned to build answers across multiple partial responses, each adding useful information without unnecessary filler, while keeping the full answer as cohesive and factual as one written all at once. In an internal evaluation of high-value, everyday agentic tasks, GPT‑6 Extra High is able to begin answering in the same amount of time as GPT‑5.6 Medium while achieving a better overall score than GPT‑5.6 Extra High. For questions that need web search, GPT‑6 Instant starts answering 44% sooner, on average, than GPT‑5.6 Instant. GPT‑6 also improves the quality of answers that require web search. It makes better decisions about when to look something up and more reliably finds information that supports its answer. In an internal evaluation of difficult problems, GPT‑6 correctly addressed the key aspect of the user’s question more often than GPT‑5.6. As we bring more intelligent AI to more people, we work to improve how it recognizes real-world risks, how honestly it responds, and how well it respects the limits that people set. GPT‑6 makes progress in each of these areas, building on several of Astra’s safety advances to better resist attempts to bypass its safety training, follow safeguards, and be clearer about what it can and can’t do relative to GPT‑5.6 Sol. We updated its safety training based on lessons from real-world use to strengthen protections against high-risk misuse involving cyberattacks, biological threats, and violence. In adversarial testing, GPT‑6 showed stronger resistance to attempts to bypass its safety training, particularly attacks that adapt across multiple turns. GPT‑6 is also trained to respond safely in higher-risk scenarios while avoiding unnecessary refusals of harmless requests. This includes using conversation history and relevant context to recognize risks that may not be apparent from a single prompt. We ran alignment evaluations throughout training, assessing honesty and responses to safety restrictions. GPT‑6 is better at recognizing and communicating the limits of its own capabilities, including when it lacks the information or tools needed to answer. More detail on the results and our review is available in the system card(opens in a new window). GPT‑6 with Intelligent UI starts rolling out globally to ChatGPT Plus, Pro, Business and Enterprise tiers today in the Chat tab. Starting tomorrow, the rollout expands to Free and Go tiers. Enterprise availability depends on workplace admin settings. GPT‑6 in ChatGPT is powered by GPT‑6 Sol for Plus, Pro, Business, and Enterprise tiers, and GPT‑6 Luna for Free and Go tiers. Both are tuned for everyday conversation. This update applies to the Chat experience in ChatGPT. The models powering Work and Codex are not changing as part of this release. Our mission is to deliver the benefits of artificial general intelligence safely to all of humanity. GPT‑6 brings our latest advances in intelligence to the more than 1.2 billion people who use ChatGPT every week. Intelligent UI is a step toward a ChatGPT that can shape an interface around what you’re trying to do. Over time, we want ChatGPT to create more of the interfaces people need for everyday tasks. You should be able to describe what you want to accomplish and work with an experience built around it. For decades, people have had to learn how to use software, navigating fixed interfaces designed around particular tasks. We believe the future will be different. Instead of people adapting to software, software will adapt to people.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GPT-6 and Intelligent UI for everyone",
+              "source_url": "https://openai.com/index/gpt-6-for-everyone"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+              "source_url": "https://openai.com/index/gpt-6-for-everyone"
+            }
+          ],
+          "slug": "gpt-6-and-intelligent-ui-for-everyone-0ca14509",
+          "localized_url": "/zh/items/2026-10-08/gpt-6-and-intelligent-ui-for-everyone-0ca14509/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+          "title_original": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+          "title_en": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+          "summary_zh": "Our head hurts.",
+          "summary_en": "Our head hurts.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+          "published_at": "Wed, 07 Oct 2026 04:55:44 GMT",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ad87805b0366",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years",
+              "source_url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Our head hurts.",
+              "source_url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
+            }
+          ],
+          "slug": "ainews-quasi-riemann-hypothesis-openai-publishes-722-math-papers-solving-ad87805b",
+          "localized_url": "/zh/items/2026-10-08/ainews-quasi-riemann-hypothesis-openai-publishes-722-math-papers-solving-ad87805b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "OpenAI Decisions API now available on AI Gateway",
+          "title_original": "OpenAI Decisions API now available on AI Gateway",
+          "title_en": "OpenAI Decisions API now available on AI Gateway",
+          "summary_zh": "OpenAI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI's Decisions API is now available on AI Gateway through an OpenAI-compatible /v1/decisions endpoint. Use it with GPT-6 Luna Decisions or any other decision model on AI Gateway. Decision models answer typed questions about a shared input and return",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/openai-decisions-api-now-available-on-ai-gateway",
+          "published_at": "2026-10-07T00:00:00.000Z",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0e16efad7624",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "OpenAI Decisions API now available on AI Gateway - Vercel",
+          "extracted_excerpt": "Vercel AI Gateway now supports OpenAI's Decisions API, with GPT-6 Luna Decisions and other decision models through the OpenAI SDK, AI SDK, and AI CLI",
+          "extracted_text_for_analysis": "OpenAI's Decisions API is now available on AI Gateway through an OpenAI-compatible /v1/decisions endpoint. Use it with GPT-6 Luna Decisions or any other decision model on AI Gateway. Decision models answer typed questions about a shared input and return probabilities, choices, and scores instead of generated text, which suits routing, triage, guardrails, and rubric scoring. You can ask predicate (yes/no), choice, and score questions against the same input in one request. openai/gpt-6-luna-decisions is a separate model ID from openai/gpt-6-luna, which stays a language model for text generation. Requests to the decisions ID go to the Decisions API and are billed at its rates. Call it with the OpenAI SDK, the AI SDK, the existing HTTP API at /v1/evaluate, or the AI CLI. Copy link to headingUpgrading decisions.create requires the OpenAI SDK 7.30.0 or later for JavaScript, or 3.26.0 or later for Python. In the AI SDK, experimental_decide requires ai 7.0.128 or later. Copy link to headingOpenAI SDK and AI SDK Point the OpenAI SDK at AI Gateway and call decisions.create as you would against OpenAI. In the AI SDK, questions are keyed by name and the yes/no type is called boolean. Each key in questions becomes a key in answers: import OpenAI from 'openai'; const openai = new OpenAI({ apiKey: process.env.AI_GATEWAY_API_KEY, baseURL: 'https://ai-gateway.vercel.sh/v1',}); const decision = await openai.decisions.create({ model: 'openai/gpt-6-luna-decisions', input: 'I was charged twice. Please refund me.', questions: [ { type: 'choice', name: 'department', instructions: 'Which team should handle this?', choices: [ { value: 'billing', description: 'Charges and refunds' }, { value: 'technical', description: 'Bugs and outages' }, ], }, ],}); console.log(decision.answers); Answers come back as an array in question order, each carrying the question's name. Set model to any decision model, including Jev, Liquid d1, and Laya. See the OpenAI-compatible Decisions API reference for request limits and error formats, the decision documentation for the AI SDK, or browse all decision models on AI Gateway.",
+          "title_zh": "OpenAI 发布开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "OpenAI Decisions API now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/openai-decisions-api-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI's Decisions API is now available on AI Gateway through an OpenAI-compatible /v1/decisions endpoint. Use it with GPT-6 Luna Decisions or any other decision model on AI Gateway. Decision models answer typed",
+              "source_url": "https://vercel.com/changelog/openai-decisions-api-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "openai-decisions-api-now-available-on-ai-gateway-0e16efad",
+          "localized_url": "/zh/items/2026-10-08/openai-decisions-api-now-available-on-ai-gateway-0e16efad/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Claude Haiku 5.5 now available on AI Gateway",
+          "title_original": "Claude Haiku 5.5 now available on AI Gateway",
+          "title_en": "Claude Haiku 5.5 now available on AI Gateway",
+          "summary_zh": "Anthropic 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Claude Haiku 5.5 from Anthropic is now available on AI Gateway . It is built for high-volume, cost-sensitive tasks such as summaries, context compaction, database queries, and classification, and works as a subagent alongside larger Claude models on coding",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/claude-haiku-5-5-now-available-on-ai-gateway",
+          "published_at": "2026-10-07T00:00:00.000Z",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e99f53f06cf4",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Claude Haiku 5.5 now available on AI Gateway - Vercel",
+          "extracted_excerpt": "Call Claude Haiku 5.5 through Vercel AI Gateway with one API key: no provider account, automatic fallbacks, spend tracking, and traces on every request.",
+          "extracted_text_for_analysis": "Claude Haiku 5.5 from Anthropic is now available on AI Gateway. It is built for high-volume, cost-sensitive tasks such as summaries, context compaction, database queries, and classification, and works as a subagent alongside larger Claude models on coding work. It is also the fastest Claude model at standard speed, which suits live customer support and browser use. Test it as a direct upgrade wherever you use Claude Haiku 4.5 today. Haiku 5.5 is the first Haiku model with effort levels. It uses adaptive thinking and supports low, medium, high, xhigh, and max effort, which set how much the model thinks and how many tokens it uses. You can turn thinking off at low, medium, and high. At xhigh and max, thinking must stay on. Haiku 5.5 supports Zero Data Retention on AI Gateway. It ships with biology and cybersecurity safeguards, so it may decline some requests in those areas. Call it through the AI SDK, the Chat Completions, Responses, and Anthropic Messages APIs, or a coding agent connected to AI Gateway. Set effort with reasoning in the AI SDK or reasoning_effort in Chat Completions. Use anthropic/claude-haiku-5.5 as the model name: import { streamText } from 'ai'; const result = streamText({ model: 'anthropic/claude-haiku-5.5', reasoning: 'low', prompt: 'Extract the city and date from: Meet me in Paris on May 3.',}); To use it in Claude Code, Codex, Cursor, and more, install the latest Vercel CLI and run setup: npm i -g vercel@latestvercel ai-gateway setup Then select anthropic/claude-haiku-5.5 in the agent. See the coding agents guide for details. Try Claude Haiku 5.5 in the model playground. AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more. AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests. You can view all language models available on AI Gateway.",
+          "title_zh": "Anthropic 发布AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Anthropic 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Claude Haiku 5.5 now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/claude-haiku-5-5-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Claude Haiku 5.5 from Anthropic is now available on AI Gateway . It is built for high-volume, cost-sensitive tasks such as summaries, context compaction, database queries, and classification, and works as a subagent",
+              "source_url": "https://vercel.com/changelog/claude-haiku-5-5-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "claude-haiku-5-5-now-available-on-ai-gateway-e99f53f0",
+          "localized_url": "/zh/items/2026-10-08/claude-haiku-5-5-now-available-on-ai-gateway-e99f53f0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Multimodal open d1 decision models for the edge",
+          "title_original": "Multimodal open d1 decision models for the edge",
+          "title_en": "Multimodal open d1 decision models for the edge",
+          "summary_zh": "Modal 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/LiquidAI/open-d1",
+          "published_at": "Wed, 07 Oct 2026 16:54:33 GMT",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0825a4897dea",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Multimodal open d1 decision models for the edge",
+          "extracted_excerpt": "A Blog post by Liquid AI on Hugging Face",
+          "extracted_text_for_analysis": "Why Is My AOL Account Locked? Step-by-Step Unlock and Recovery Guide If you are seeing a message that your ** 1-820-200-7370 AOL account is locked**, 1-820-200-7370 cannot sign in to AOL Mail, or keep getting asked to verify your account, there are several possible reasons. An 1-820-200-7370 AOL account may have a temporary sign-in restriction, a password problem, an account-verification issue, or another security-related access problem. The good news is that an account lock does not necessarily mean your AOL account has been permanently closed. This guide explains ** 1-820-200-7370 why an AOL account gets locked, how to unlock an AOL account, how AOL account recovery works, and 1-820-200-7370 what to do if you cannot sign in**. Why Is My AOL Account Locked? 1-820-200-7370 There are several reasons you may be unable to access an AOL account. Common possibilities include: - Entering an incorrect password several times 1-820-200-7370 - Unusual or unfamiliar sign-in activity - Attempting to sign in from a new device or location - Being asked to complete an additional security verification - Having an outdated recovery phone number or email address - Forgetting the AOL account password - Experiencing repeated AOL login or sign-in errors - Having difficulty completing the account recovery process 1-820-200-7370 A locked AOL account can therefore be a temporary security or access problem rather than a permanent account closure. AOL Account Locked After Too Many Login Attempts 1-820-200-7370 One common situation is entering the wrong AOL password repeatedly. If you have tried several passwords and none of them worked, stop attempting random passwords. Repeated unsuccessful sign-in attempts can make it harder to determine whether the problem is simply an incorrect password or another account-access issue.1-820-200-7370 Instead, use AOL's official password recovery process.1-820-200-7370 If you know the correct username but cannot remember the password, the appropriate solution is generally to reset the password rather than continue guessing. How to Unlock an AOL Account If your AOL account is locked, start with the following steps.1-820-200-7370 Step 1: Confirm Your AOL Username Make sure you are entering the correct AOL email address or username.1-820-200-7370 An incorrect username can look like a password problem because the sign-in process will not authenticate the account. Check for: - Spelling mistakes1-820-200-7370 - Missing characters1-820-200-7370 - Incorrect email domains - Extra spaces - An old AOL username you no longer use1-820-200-7370 Step 2: Check Your Password If you recently changed your password, make sure you are using the newest password rather than an older one saved in your browser or password manager. Do not repeatedly guess passwords. If you cannot remember the password, use AOL's official password-reset process.1-820-200-7370 Step 3: Complete Any Security Verification AOL may ask you to complete an additional verification step when you sign in. For example, you may be asked to verify information associated with the account. If you receive a verification prompt, follow the instructions displayed by AOL rather than attempting to bypass the security process. AOL maintains account-recovery information such as a recovery phone number or email address specifically to help users regain access when they encounter account or password problems. Step 4: Use AOL Account Recovery 1-820-200-7370 If you cannot sign in normally, use AOL's account-recovery or password-reset options. 1-820-200-7370 Recovery is particularly important if: - You forgot your password - Your password is no longer working - You cannot complete normal AOL login - Your account asks for verification - You changed phones or email addresses - Your recovery information is outdated The recovery options available to you can depend on the information currently associated with your AOL account. What If My AOL Account Is Locked but My Password Is Correct?1-820-200-7370 A correct password does not necessarily mean there is no account-access problem. If your password is correct but AOL still prevents you from signing in, look carefully at the message displayed on the screen. You may be dealing with: - An account verification request - A temporary account lock - A security-related sign-in restriction1-820-200-7370 - A browser or login-session problem1-820-200-7370 - An account recovery issue In this situation, avoid repeatedly entering the same password. Instead, follow the recovery or verification instructions provided by AOL. AOL Account Locked After Suspicious Activity1-820-200-7370 Another possibility is unusual activity associated with the account. For example, you may notice a sign-in problem after: - Signing in from a new device - Traveling - Changing your internet connection - Using a different browser - Attempting several unsuccessful logins - Changing account-security information A security prompt is designed to help protect the account. 1-820-200-7370 If you believe someone else may have accessed your AOL account, prioritize recovering the account and securing the password rather than simply trying to bypass the lock. 1-820-200-7370 How to Recover a Locked AOL Email Account If your AOL Mail account is inaccessible, the recovery process generally starts with identifying the account and following the available recovery instructions. Once access has been restored, review the account-security information associated with the account. AOL recommends keeping a valid recovery phone number or email address on the account so that you have a way to verify ownership if you lose your password or encounter an account-verification prompt. What If I Don't Have My Old Recovery Phone Number? 1-820-200-7370 This can make account recovery more difficult. If the recovery phone number associated with your AOL account is no longer active, look for another recovery method offered during the official AOL recovery process. Do not give your AOL password or verification codes to an unknown person claiming to be able to unlock the account. After you regain access, update your recovery information. AOL's current account-security instructions allow users to add, replace, or remove recovery phone numbers and email addresses after signing in. AOL Login Not Working After Resetting the Password Sometimes the password has been successfully changed but the AOL login still does not work. Try these basic troubleshooting steps: - Close the AOL login page. - Open a new browser window. - Make sure you are using the correct AOL username. - Enter the newly created password carefully. - Check that Caps Lock is not causing a problem.1-820-200-7370 - If necessary, try another supported browser or device. - Follow any additional verification instructions shown by AOL. If the problem continues, return to the official AOL account-recovery or support options. AOL Verification Code Not Working If AOL asks you for a verification code, make sure",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "multimodal",
+              "explanation": "同时处理文本、图像、音频或视频等多种输入输出形式。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Multimodal open d1 decision models for the edge",
+              "source_url": "https://huggingface.co/blog/LiquidAI/open-d1"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/LiquidAI/open-d1"
+            }
+          ],
+          "slug": "multimodal-open-d1-decision-models-for-the-edge-0825a489",
+          "localized_url": "/zh/items/2026-10-08/multimodal-open-d1-decision-models-for-the-edge-0825a489/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+          "title_original": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+          "title_en": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+          "published_at": "Wed, 07 Oct 2026 12:45:31 GMT",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "5bdd694c6290",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+              "source_url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
+            }
+          ],
+          "slug": "one-model-family-two-gold-level-results-fine-tuning-nemotron-for-ioi-and-5bdd694c",
+          "localized_url": "/zh/items/2026-10-08/one-model-family-two-gold-level-results-fine-tuning-nemotron-for-ioi-and-5bdd694c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+          "title_original": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+          "title_en": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+          "summary_zh": "Latent Space 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/stacklok",
+          "published_at": "Wed, 07 Oct 2026 14:10:45 GMT",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f2c199a6dd88",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+              "source_url": "https://www.latent.space/p/stacklok"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.",
+              "source_url": "https://www.latent.space/p/stacklok"
+            }
+          ],
+          "slug": "can-a-cloud-native-harness-make-agents-reliable-beyond-the-desktop-f2c199a6",
+          "localized_url": "/zh/items/2026-10-08/can-a-cloud-native-harness-make-agents-reliable-beyond-the-desktop-f2c199a6/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Microfrontends Routing is now free for Firewall-mitigated traffic",
+          "title_original": "Microfrontends Routing is now free for Firewall-mitigated traffic",
+          "title_en": "Microfrontends Routing is now free for Firewall-mitigated traffic",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Microfrontends Routing is now free for requests that the Web Application Firewall (WAF) denies, challenges, or rate limits. CDN Requests and Fast Data Transfer are already free for this traffic. The change applies automatically to every project using",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/microfrontends-routing-is-now-free-for-firewall-mitigated-traffic",
+          "published_at": "2026-10-07T00:00:00.000Z",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "11a865919033",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Microfrontends Routing is now free for Firewall-mitigated traffic",
+              "source_url": "https://vercel.com/changelog/microfrontends-routing-is-now-free-for-firewall-mitigated-traffic"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Microfrontends Routing is now free for requests that the Web Application Firewall (WAF) denies, challenges, or rate limits. CDN Requests and Fast Data Transfer are already free for this traffic. The change applies",
+              "source_url": "https://vercel.com/changelog/microfrontends-routing-is-now-free-for-firewall-mitigated-traffic"
+            }
+          ],
+          "slug": "microfrontends-routing-is-now-free-for-firewall-mitigated-traffic-11a86591",
+          "localized_url": "/zh/items/2026-10-08/microfrontends-routing-is-now-free-for-firewall-mitigated-traffic-11a86591/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Glyph Cluster is now available in stealth for free on AI Gateway",
+          "title_original": "Glyph Cluster is now available in stealth for free on AI Gateway",
+          "title_en": "Glyph Cluster is now available in stealth for free on AI Gateway",
+          "summary_zh": "Vercel AI 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Glyph Cluster is now available on AI Gateway as a stealth model for teams on Pro and Enterprise plans with purchased AI Gateway credits. It is free to use during the stealth period. Glyph Cluster is a reasoning model for coding and long-context analysis, and",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/glyph-cluster-is-now-available-in-stealth-for-free-on-ai-gateway",
+          "published_at": "2026-10-07T00:00:00.000Z",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "128d41b140c3",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Glyph Cluster is now available in stealth for free on AI Gateway",
+              "source_url": "https://vercel.com/changelog/glyph-cluster-is-now-available-in-stealth-for-free-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Glyph Cluster is now available on AI Gateway as a stealth model for teams on Pro and Enterprise plans with purchased AI Gateway credits. It is free to use during the stealth period. Glyph Cluster is a reasoning model",
+              "source_url": "https://vercel.com/changelog/glyph-cluster-is-now-available-in-stealth-for-free-on-ai-gateway"
+            }
+          ],
+          "slug": "glyph-cluster-is-now-available-in-stealth-for-free-on-ai-gateway-128d41b1",
+          "localized_url": "/zh/items/2026-10-08/glyph-cluster-is-now-available-in-stealth-for-free-on-ai-gateway-128d41b1/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Timestamp attributes are now supported in Vercel Flags",
+          "title_original": "Timestamp attributes are now supported in Vercel Flags",
+          "title_en": "Timestamp attributes are now supported in Vercel Flags",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Flags now supports timestamp attributes, so you can target entities by date and time. Use timestamp attributes to show a campaign page only between two dates, run a Black Friday promotion, or target users who registered before a cutoff. Configure a",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/timestamp-attributes-are-now-supported-in-vercel-flags",
+          "published_at": "2026-10-07T00:00:00.000Z",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ed9467d2c068",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Timestamp attributes are now supported in Vercel Flags",
+              "source_url": "https://vercel.com/changelog/timestamp-attributes-are-now-supported-in-vercel-flags"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Flags now supports timestamp attributes, so you can target entities by date and time. Use timestamp attributes to show a campaign page only between two dates, run a Black Friday promotion, or target users who",
+              "source_url": "https://vercel.com/changelog/timestamp-attributes-are-now-supported-in-vercel-flags"
+            }
+          ],
+          "slug": "timestamp-attributes-are-now-supported-in-vercel-flags-ed9467d2",
+          "localized_url": "/zh/items/2026-10-08/timestamp-attributes-are-now-supported-in-vercel-flags-ed9467d2/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+          "title_original": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+          "title_en": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+          "summary_zh": "Microsoft 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex frameworks. Agent Lightning connects existing agents to RL training, making it easier to improve them without rebuilding",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+          "published_at": "Wed, 07 Oct 2026 16:00:00 +0000",
+          "fetched_at": "2026-10-08T01:59:21.859560+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "c7de22c7db25",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex frameworks. Agent Lightning connects existing agents to RL training, making it",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/"
+            }
+          ],
+          "slug": "agent-lightning-v1-0-a-3-500-line-lightweight-agentic-rl-framework-for-t-565e2403",
+          "localized_url": "/zh/items/2026-10-08/agent-lightning-v1-0-a-3-500-line-lightweight-agentic-rl-framework-for-t-565e2403/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-10-07",
       "title_zh": "AI 新闻简报 · 2026-10-07",
