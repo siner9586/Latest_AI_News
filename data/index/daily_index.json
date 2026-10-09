@@ -1,7 +1,1236 @@
 {
-  "updated_at": "2026-10-08T01:59:23.707251+00:00",
-  "count": 112,
+  "updated_at": "2026-10-09T02:13:36.545310+00:00",
+  "count": 113,
   "briefs": [
+    {
+      "date": "2026-10-09",
+      "title_zh": "AI 新闻简报 · 2026-10-09",
+      "title_en": "English AI News Brief · 2026-10-09",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 131 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 131 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 131,
+      "selected_count": 18,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "title_original": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "title_en": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/oracle",
+          "published_at": "Thu, 08 Oct 2026 16:00:00 GMT",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "112b5f00879d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "extracted_excerpt": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+          "extracted_text_for_analysis": "How Oracle turns days of work into minutes with ChatGPT and Codex Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex. 98% Decrease in the time it takes for talent acquisition research 130K Active ChatGPT users at Oracle 95K+ Active Codex users at Oracle Over a hundred thousand employees across Oracle are using ChatGPT Work and Codex, from talent acquisition to Oracle Applications Lab to the IT organization. In each case, work that used to rely on specialists and take days can now be done by anyone and is complete in minutes. Recruiters skip days of market research, business users describe an outcome instead of hunting for a report, and technical leads build tools that used to take a full team months. “We’ve built our talent market intelligence tool using ChatGPT Work, and it’s really revolutionized how we do the front end of our recruitment process.” The talent acquisition team used ChatGPT Work to build a talent market intelligence tool that takes a job description, researches comparable roles, benchmarks compensation, and assesses the talent pool across relevant locations. The tool arms the recruiter with valuable information that they need going into a conversation with the hiring manager, information that previously took 2–4 days to compile. “We’ve gone from zero to a hundred,” says Jan Ackerman, Senior Vice President and Global Head of Talent Acquisition at Oracle. “Now we’re able to sit down and prep for about 15 to 20 minutes using the tool that we’ve built using [ChatGPT] Work.” Not only is the process faster, but it’s also more consistent. Recruiters used to run the intake process differently from one search to the next, but with the talent market intelligence tool, the process is consistent, so every hiring manager has the same quality of data and insights, no matter which recruiter they worked with. The Oracle Applications Lab team, which helps run many of Oracle’s core business processes, built an ontology of the company’s objects, relationships, and rules, so a plain-language business question can be turned into a reliable SQL query with Codex. A business user describes the outcome they want, and Codex decides which internal systems to call, gathers the information, and returns an analysis, a report, or an application. That’s a change from how work used to get done. Lam said one user came to him after asking a question that would normally have taken her a couple of hours to answer. She told Lam, “With the new tool, I put in the request and got a response almost immediately.” When she checked the result against the old manual process, the numbers matched exactly. In production engineering, site reliability engineers use Codex to gather relevant context about an incident and automatically pull up the right playbook. SREs spend more time guiding decisions and less time hunting for information. “A typical simple incident that used to take an hour to resolve can now be handled in minutes,” says Lam. Even as Codex takes on more of the work, Lam is careful to note that none of this runs on autopilot. Someone still has to make sure the underlying system is built right. “Business users now describe the outcome they want instead of hunting for a report. That is a major shift. I would even call it a business transformation.” While AI builds the tools, the people are still responsible for the output. A few lessons stand out: - Give the correct guardrails. “You have to still be very responsible about your system design, your architecture, your security, and how you would like Codex to structure the code for you,” says Lam. - Provide prototypes instead of specs. “Normally, I put [my idea] down on paper, but now I put it down in a prototype,” says Barry Shilmover, Vice President and Technical Advisor to the CIO. - Own the code. “If you don’t work alongside Codex, you’re going to get into a situation of having lots of code that is not going to be maintainable,” says Lam. The Oracle team is completely shifting how the company operates with AI. Across recruiting, analytics, and engineering, each line of business described an outcome and let Codex and ChatGPT handle how the work gets done. With thousands of ChatGPT and Codex users already, Oracle employees use AI across countless work tasks. As Shilmover puts it, “I don’t know what the answer is because I don’t know what my next problem to solve will be. I just know that one of the first things I’ll do is I’ll leverage Codex to do that.”",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+              "source_url": "https://openai.com/index/oracle"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+              "source_url": "https://openai.com/index/oracle"
+            }
+          ],
+          "slug": "how-oracle-turns-days-of-work-into-minutes-with-chatgpt-and-codex-112b5f00",
+          "localized_url": "/zh/items/2026-10-09/how-oracle-turns-days-of-work-into-minutes-with-chatgpt-and-codex-112b5f00/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "title_original": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "title_en": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/pollo-ai",
+          "published_at": "Thu, 08 Oct 2026 12:00:00 GMT",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ca1ec6c6a1a1",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+          "extracted_excerpt": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+          "extracted_text_for_analysis": "Pollo AI turns creative ideas into campaigns with OpenAI With GPT‑5.6, GPT‑6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads. Pollo AI(opens in a new window) was founded on the premise that people should be able to turn their creative ideas into finished images and videos without needing production expertise. Even with generative AI, creators and marketers can struggle to navigate different tools and choose between models to get the result they want. Some may even abandon their projects in frustration. “We want to do for video what Canva did for design. We want to make it easy enough that more people can actually use it, not just the ones who already know how,” explains Bill Zhu, the founder and CEO of Pollo AI. Today, Pollo AI serves more than 26 million users who use the platform to create videos, ads, and visual content. “As OpenAI’s models have improved, more of the workflows Pollo wanted to support have become practical inside the product. That means users can start from simpler inputs, spend less time figuring out the process, and get to stronger outputs more reliably.” The team’s first breakthrough was video templates. Now, 30% of creator sessions start from these templates or trending-format workflows. Building on this success, the company’s latest offering is Pollo Agent. It uses OpenAI models, including GPT‑6 Astra and GPT‑Image‑2.5, to provide a fully guided workflow for video creation, including this post-apocalyptic adventure from a Pollo AI user. Pollo Agent interprets the user’s rough ideas and visual references, and then develops storylines, scene flows, and scripts. CTO Peter Zhou says OpenAI models stood out for their ability to understand ambiguous creative inputs and their multimodal capability, sharing: “GPT‑5.6 performed especially well there.” The team also said they value the OpenAI API’s stability and release cadence. To balance reasoning depth, speed, and cost, Pollo AI uses GPT‑5.6 for routing and GPT‑6 Astra for more challenging work, such as developing a narrative or planning scene revisions. This model mix lets the system match the level of reasoning to the task based on the user’s prompt. Pollo AI reports that users spend more than 50% less time choosing or switching models, giving them more time for creativity. Pollo AI tests generative models against real user prompts and workflows, evaluating output quality, consistency, stylistic range, speed, and cost. GPT‑Image‑2.5 was selected to handle image generation, helping creators make posters, storyboards, and campaign visuals. “If we receive any task from a user to generate an image, we always use GPT-Image-2.5. It’s especially good at working with different types of characters and letters.” Pollo AI’s primary users are content creators, and the platform is especially popular for creating micro dramas with both AI and human actors. However, more marketers and business owners are starting to use Pollo AI to develop video content quickly and easily too. Pollo’s Photo to Video Ads tool in its Marketing Studio suite uses OpenAI models to turn a still image and prompt into a short video. It’s designed to help small businesses and DTC brands generate product ads for social media in minutes rather than days. One Pollo AI user wanted to use a product photo to make a fragrance ad that felt luxurious. The static photo alone could not convey that mood, and a professional video shoot was beyond their budget. Using Photo to Video Ad, the user turned their starting image into a roughly 15-second video ad. The tool generated velvet textures, warm spotlights, and close-ups of the bottle to establish the mood across the sequence and ended it with the fragrance framed against deep red fabric. Another customer, a jewelry brand, wanted a bold editorial campaign image, but its budget could not stretch to a high-concept studio shoot. Using Pollo Agent and GPT‑Image‑2.5, the brand was able to turn its creative vision of its statement jewelry on a model seated beside a cheetah into reality. The tool framed the scene with dark drapery and warm lighting and ensured that the brand’s jewelry products were highly visible. The customer got a finished luxury campaign visual with lower production effort, time, and cost compared to live shoot. Pollo AI also makes it easy for customers to start with a product photo and leverage OpenAI models to turn it into an image that’s far more creative. For example, a beverage brand wanted its peach soda to feel playful and imaginative in an advertising campaign, but a standard studio product shot could not capture what the team had in mind. Using Pollo Agent and GPT‑Image‑2.5, which brings sharper details and faster generation to creative workflows, the team transformed a simple bottle image into a snowy miniature landscape, complete with a train, lizards, and sparkling droplets. The finished image created a playful scene the brand could use in its campaign. Pollo wants AI video to become part of everyday content creation over the next 12 months. For Zhu, that depends on making it even easier to turn an idea into an asset ready to post, test, or use in a campaign, something Pollo AI is enabled to deliver with the continued improvement of OpenAI models and image generation. “We think the AI shift in content creation will favor products that make creation more repeatable from the start, with stronger formats, less trial and error, and a simpler workflow around the models themselves,” he says.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Pollo AI turns creative ideas into campaigns with OpenAI",
+              "source_url": "https://openai.com/index/pollo-ai"
+            },
+            {
+              "label": "公开摘要",
+              "text": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+              "source_url": "https://openai.com/index/pollo-ai"
+            }
+          ],
+          "slug": "pollo-ai-turns-creative-ideas-into-campaigns-with-openai-ca1ec6c6",
+          "localized_url": "/zh/items/2026-10-09/pollo-ai-turns-creative-ideas-into-campaigns-with-openai-ca1ec6c6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "LegalOn halves Codex costs while maintaining development speed",
+          "title_original": "LegalOn halves Codex costs while maintaining development speed",
+          "title_en": "LegalOn halves Codex costs while maintaining development speed",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/legalon-halves-codex-costs",
+          "published_at": "Thu, 08 Oct 2026 12:00:00 GMT",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f6d3626eb7c8",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "LegalOn halves Codex costs while maintaining development speed",
+          "extracted_excerpt": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+          "extracted_text_for_analysis": "LegalOn halves Codex costs while maintaining development speed LegalOn cut costs by 65% while maintaining development speed by matching Astra, Sol, and Luna to tasks and managing budgets strategically. Results -20% Cost reduction in mature business areas Results -65% Reduction in estimated daily costs LegalOn Technologies offers Professional AI globally, using AI to support legal work and other key business functions. By combining domain expertise with AI, it enables people to focus on complex judgments and decisions. Its goal is AI-driven management that improves the quality and speed of business decision-making. This approach extends beyond its products to making the organization itself AI-native. The company integrated Codex into its development process and expanded adoption across the organization through day-to-day use. As adoption took hold, a new challenge emerged: cost control. Unlimited use of high-performance models could drive up spending, while blanket restrictions risked undermining the productivity gains AI had enabled. How could it reduce costs without slowing development? LegalOn Technologies addressed this challenge by selecting among GPT‑6 (Astra, Luna) and GPT‑6.1 Sol based on task complexity and development stage, and aligning budgets with each business’s stage of growth. The company halved costs while maintaining development speed. The company initially gave developers unlimited access to its main model, GPT‑5.5 in Fast mode. They expanded its use to design, implementation, and everyday work, learning through experimentation how best to divide responsibilities between people and AI. Continuing to use high-performance models without limits, however, would inevitably exceed the annual budget. The company's AI-powered Development CoE (AID CoE) began developing guidelines for model selection. AID CoE tested and monitored models, while managers shared its findings with their teams. This enabled each engineer to independently choose the most suitable model for each task. The new guidelines shifted the company from using the highest-capability model for every task to choosing the right model for the job. Teams started with a lightweight model and moved to more capable models as task complexity increased. To support governance, the company also introduced system controls through administrator settings, with monthly usage limits for departments and individuals. AID CoE monitors usage and adjusts limits as business needs require. Internal testing under these controls helped make the selection criteria more specific. GPT‑6 Luna, the lightest model, handles code implementation with clear requirements; GPT‑6.1 Sol supports standard design, data analysis, and document preparation; and GPT‑6 Astra, the most capable model, handles advanced judgment, including architecture design. Matching models to tasks gradually became a shared practice across teams. Alongside model selection, the company began restricting Fast mode by default, allowing individual requests only when needed. Although the change raised concerns about development speed, teams used approaches such as running tasks in parallel to maintain performance and transition smoothly. It also introduced budget caps for AI spending at the department, group, and individual levels. The established LegalOn business was asked to improve cost efficiency by up to approximately 20%, while new businesses in the launch phase received generous budgets to encourage active use of AI. Yuta Tokitake, Senior Engineering Manager at LegalOn Technologies, explains that new businesses prioritized business speed over cost efficiency. The aim was to use AI extensively to increase output and ultimately drive business growth. Together, model selection, feature restrictions, and budgets tailored to each business reduced estimated daily costs by approximately 65%. This approach kept the overall budget under control while directing resources toward businesses the company wanted to grow. Model optimization and strategic resource allocation delivered the following results: - A shift from using the most capable model for every task to selecting GPT‑6 Astra, GPT‑6.1 Sol, or GPT‑6 Luna based on task complexity and development stage. - Development performance maintained after restricting Fast mode by default, supported by team practices such as parallel task execution. - Budget caps that combined approximately 20% greater efficiency in mature businesses with active investment in new businesses. - A 65% reduction in estimated daily costs compared with GPT‑5.5 by choosing among GPT‑6 and 6.1 models. Through model optimization, the company reduced costs without sacrificing development speed or quality. Teams are also seeing AI steadily shorten the cycle from development to release. But the company is looking further ahead. Does faster development alone make AI investment a success? The connection between faster development and customer value remained unclear. “It is almost a given that AI can accelerate system development and updates,” says Tokitake. “What we really want to understand is whether that faster development actually translates into value for customers.” This question prompted the company to develop its own metric, shifting the basis for evaluating AI investment from development speed and usage volume to customer value. Tokitake explains: “When using AI, we can track the cost of individual tasks, but the total cost of a complete piece of work—a feature release—often remains a black box. So we designed the measurement around each feature release as a single unit. By linking the customer value that release delivers to the actual AI costs invested in it, we aim to make the return on investment visible and accurate.” The company is currently building the pipeline to calculate this metric. Once complete, it will make the true ROI in terms of customer value visible. LegalOn Technologies is moving beyond AI cost management toward directly connecting technology investment with business value. The next goal is to turn individual engineers' AI know-how into an organization-wide capability. As a first step, the company plans to build a knowledge base to collect and share practical experience. It will capture knowledge such as the best model combinations for design, implementation, and review, and quickly turn individual successes into company-wide best practices. These changes, driven by teams' practical experience, are also shaping the organization and hiring. AI-driven productivity gains are prompting the company to fundamentally rethink how work is divided between people and AI, as well as its workforce plans. It has already begun emphasizing AI skills in hiring, as its investment strategy and organizational structure evolve. Turning AI adoption into a lasting competitive advantage requires continually refining the balance between governance and teams' freedom to act. AID CoE and the security team are working together to optimize",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "LegalOn halves Codex costs while maintaining development speed",
+              "source_url": "https://openai.com/index/legalon-halves-codex-costs"
+            },
+            {
+              "label": "公开摘要",
+              "text": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+              "source_url": "https://openai.com/index/legalon-halves-codex-costs"
+            }
+          ],
+          "slug": "legalon-halves-codex-costs-while-maintaining-development-speed-f6d3626e",
+          "localized_url": "/zh/items/2026-10-09/legalon-halves-codex-costs-while-maintaining-development-speed-f6d3626e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Disrupting AI-enabled “false front” operations",
+          "title_original": "Disrupting AI-enabled “false front” operations",
+          "title_en": "Disrupting AI-enabled “false front” operations",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+          "published_at": "Thu, 08 Oct 2026 00:00:00 GMT",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "077dea1e8a7a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Disrupting AI-enabled “false front” operations",
+          "extracted_excerpt": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+          "extracted_text_for_analysis": "Over the past two and a half years, we’ve reported on many of the ways in which threat actors tried to use our models to conduct cyber attacks, covert influence operations (IO), scams, and other violations of our Usage Policies. We publish these reports to inform regulators, our industry peers, and wider society of how we see threat actors trying to leverage AI, and to shine a light on the vulnerabilities they try to exploit. We recently banned two IO—one from Russia and one from Iran—that used our models in combination with more traditional techniques and technologies to support sophisticated “false front” entities. They used those entities to launder geopolitical, conflict-related messaging into their target audiences. The Iranian operation included a stable of seven “journalist” personas which it used to pitch long-form articles to small and medium online outlets around the world; the Russian operation appears to have co-opted unwitting people in Latin America to run a “think tank” on the ground. Both operations were multi-dimensional, trying a range of different tactics to achieve their goals. As well as long-form articles, the Iranian operation generated batches of social media comments, generally on topics related to the US-Iran war. As well as controlling the “think tank,” the Russian operation created fake “leaked” documents and audio scripts, some of which we identified being spread online. Both operations also made heavy use of AI to draft internal reports (the Russian operation did this more than anything else); in both cases, the actors used questionable or outright deceitful methodologies to exaggerate the operators’ effectiveness. What is most striking about these operations is that they closely resembled complex influence operations of the pre-AI age, but used AI to make some of the workflows easier. The journalist personas run by the Iranian operation bore a family resemblance to the fake journalist “Alice(opens in a new window) Donovan(opens in a new window),” a front for Russian military intelligence whose articles were published by a range of Western outlets in 2016-17. In 2020, individuals associated with past activity by the Russian Internet Research Agency ran a fake “news” outlet called “PeaceData(opens in a new window),” which co-opted unwitting journalists around the world into writing for it. These operations were also unusual for their potential reach. Using the IO Breakout Scale(opens in a new window), which rates IO on a scale of 1 (lowest) to 6 (highest), we would assess the Russia-origin operation as belonging in Category 5. This is the first Category 5 operation we’ve disrupted since we began our reporting. The Iran-origin operation reached Category 4. Both managed to land their content (not all of which was generated from our models) in mainstream media outlets, rather than simply posting it on social media. This is consistent with a pattern we’ve observed across the 30 covert influence operations we’ve exposed in the last two and a half years: the operations which try to land their content in real media outlets, rather than relying on fake social media distribution, tend to have the highest potential reach and impact. Matrix of the 30 IO we’ve exposed since early 2024, assessed by primary distribution method (social media, operation-run website, external publications) and score on the Breakout Scale. Operations which used more than one distribution method, such as running a website and promoting it on social media, are classified by the method which appeared to constitute the core of the operation. AI can give such false-front operations greater scale, efficiency, linguistic fluency, and editorial ability. The operators can use these advantages to exploit unsuspecting victims, such as employees or editors, and plant their content in front of audiences who have no idea who was behind it, or what their motivations were. These operations also demonstrate the complexity and sophistication of threat actors’ use of false personas and entities to achieve their goals. Understanding the vulnerabilities that threat actors exploit in these efforts, and how those vulnerabilities can translate into audience and reach, will be essential to maintaining robust defenses across organizations. But the covert nature of these false-front operations also makes them particularly vulnerable to responsible disclosure. Both “Alice Donovan” and “PeaceData” ceased their activity after they were exposed. That’s why our goal in reporting these false-front operations is to make further research and disruption easier—and make continuing the operations harder. Russia-origin actors running influence campaigns across Latin America. We banned a cluster of ChatGPT accounts that originated in Russia. They used ChatGPT for a range of tasks associated with covert influence operations targeting countries across Latin America. Much of this activity appeared aimed at undermining Ukraine’s reputation in the region, but some appeared aimed at influencing local political outcomes, especially in Argentina and Bolivia. Most of the operators prompted in Russian; one prompted in Spanish, but nevertheless appeared to be located in Russia. We have shared information on this case with the relevant authorities. The operators used ChatGPT to perform three main tasks: writing internal reports on their activities (and other people’s activities which they could plausibly take credit for), creating content for their operations, and drafting reports on the performance of a self-described “research platform” in Latin America called the Social Research Center (SRC). They appear to have controlled the SRC via a fake persona named “Mia Clark”; in honor of the name, we have nicknamed this operation “Dark Clark.” Since we do not allow access to our models from Russia, they used VPNs to connect to our services. In their internal reports, the operators claimed to have spread fake stories across Latin America to undermine Ukraine or local leaders. Some of these fakes have been attributed by open-source(opens in a new window) researchers(opens in a new window) to a Russian entity known as “Politology” or “La Compania,” a reported successor to the Wagner Group and other entities founded by Russian oligarch Yevgeniy Prigozhin. The operators also asked our models to translate or explain public reporting about Politology and Wagner, far more than asking about any other Russia-origin networks. This operation was unusual in two ways. First, it appears to have successfully co-opted individuals in Latin America to work for the SRC. The Russian operators’ reports on the SRC referred to decisions over issues such as pay scales, hiring, and firing, suggesting that they controlled the entity, rather than cooperating with it. The available evidence indicates that the SRC’s employees in Latin America were not aware that they were working for a Russian group. Unlike another Russia-linked “think tank” that we recently",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Disrupting AI-enabled “false front” operations",
+              "source_url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+              "source_url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+            }
+          ],
+          "slug": "disrupting-ai-enabled-false-front-operations-077dea1e",
+          "localized_url": "/zh/items/2026-10-09/disrupting-ai-enabled-false-front-operations-077dea1e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Grok Imagine Video 1.5 Lite on AI Gateway",
+          "title_original": "Grok Imagine Video 1.5 Lite on AI Gateway",
+          "title_en": "Grok Imagine Video 1.5 Lite on AI Gateway",
+          "summary_zh": "Grok 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Grok Imagine Video 1.5 Lite from xAI is now available on AI Gateway. This lightweight model turns text prompts and images into video with native audio. The model produces clips from 1 to 15 seconds long in 480p, 720p, and 1080p. Seven aspect ratios cover",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/grok-imagine-video-1-5-lite-on-ai-gateway",
+          "published_at": "2026-10-08T00:00:00.000Z",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "xAI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ba03c55012fb",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Grok Imagine Video 1.5 Lite on AI Gateway - Vercel",
+          "extracted_excerpt": "Call xAI's Grok Imagine Video 1.5 Lite through Vercel AI Gateway with one API key, unified billing, and request traces.",
+          "extracted_text_for_analysis": "Grok Imagine Video 1.5 Lite from xAI is now available on AI Gateway. This lightweight model turns text prompts and images into video with native audio. The model produces clips from 1 to 15 seconds long in 480p, 720p, and 1080p. Seven aspect ratios cover widescreen, square, and portrait formats, so you can create horizontal scenes or vertical videos from the same generation workflow. To start generating videos, set the model to spacexai/grok-imagine-video-1.5-lite in the AI SDK or in the AI CLI. Chain an image model with Grok Imagine Video 1.5 Lite to create a still and animate it in one flow. import { experimental_generateVideo as generateVideo } from 'ai';const { video } = await generateVideo({ model: 'spacexai/grok-imagine-video-1.5-lite', prompt: 'A paper sailboat drifts on a quiet pond at sunrise.', resolution: '1920x1080', aspectRatio: '16:9', duration: 10,}); You can also try Grok Imagine Video 1.5 Lite directly in the AI Gateway Playground. AI Gateway provides one API for calling models, tracking usage and cost, and configuring routing, retries, and failover. You can use an AI Gateway API key or bring your own provider key.",
+          "title_zh": "Grok 推进开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Grok 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Grok，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：xAI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Grok Imagine Video 1.5 Lite on AI Gateway",
+              "source_url": "https://vercel.com/changelog/grok-imagine-video-1-5-lite-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Grok Imagine Video 1.5 Lite from xAI is now available on AI Gateway. This lightweight model turns text prompts and images into video with native audio. The model produces clips from 1 to 15 seconds long in 480p, 720p,",
+              "source_url": "https://vercel.com/changelog/grok-imagine-video-1-5-lite-on-ai-gateway"
+            }
+          ],
+          "slug": "grok-imagine-video-1-5-lite-on-ai-gateway-ba03c550",
+          "localized_url": "/zh/items/2026-10-09/grok-imagine-video-1-5-lite-on-ai-gateway-ba03c550/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "研究、産業実装、プロダクトの最前線へ―Sakana AIニュースレター「Sakana AI Insider」―",
+          "title_original": "研究、産業実装、プロダクトの最前線へ―Sakana AIニュースレター「Sakana AI Insider」―",
+          "title_en": "研究、産業実装、プロダクトの最前線へ―Sakana AIニュースレター「Sakana AI Insider」―",
+          "summary_zh": "Sakana AI 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/sakana-ai-insider/",
+          "published_at": "2026-10-08T00:00:00+09:00",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [
+            "Sakana AI"
+          ],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4cb20dd1fd0f",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "研究、産業実装、プロダクトの最前線へ―Sakana AIニュースレター「Sakana AI Insider」―",
+          "extracted_text_for_analysis": "Sakana AIは、自然界から着想を得た独自の技術で、研究から産業実装、プロダクト開発までを一貫して手がけています。その最新情報をいち早くお届けするニュースレター「Sakana AI Insider」を配信しています。 Sakana AI Insiderで読めること ニュースレターでは、Sakana AIが手がける基盤モデルやエージェント開発、RSI LabやFrontier Intelligence Groupによる最新研究から、金融・防衛などでの産業実装、「Sakana Marlin」、「Sakana Fugu」といったプロダクトまで、Sakana AIの最新情報を月2回ほどのペースでお伝えします。 以下のような独自コンテンツを用意しています。 - 新プロダクトのリリースやアップデート情報の先行案内 - 研究成果に関する解説コンテンツの配信 - 対面イベントやウェビナーへの優先案内 - 開発やプロダクトの裏話など、Sakana AIチームによるInsiderのみのコンテンツ 登録方法 ご登録は、以下のフォームから承ります。購読は無料で、いつでも配信停止できます。 👉Sakana AI Insiderを購読する： https://forms.gle/z98Lydq95v5Vi8RP8 ぜひご登録ください。",
+          "title_zh": "Sakana AI 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。",
+            "涉及公司或机构：Sakana AI。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "研究、産業実装、プロダクトの最前線へ―Sakana AIニュースレター「Sakana AI Insider」―",
+              "source_url": "https://sakana.ai/sakana-ai-insider/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/sakana-ai-insider/"
+            }
+          ],
+          "slug": "sakana-aisakana-ai-insider-84680638",
+          "localized_url": "/zh/items/2026-10-09/sakana-aisakana-ai-insider-84680638/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+          "title_original": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+          "title_en": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+          "published_at": "Thu, 08 Oct 2026 21:06:35 +0000",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1112027d5901",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+          "extracted_excerpt": "See how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements.",
+          "extracted_text_for_analysis": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through natural-language instructions, review results and guide changes. Omniverse libraries provide GPU-accelerated physics, rendering and sensor simulation capabilities. Explore the projects below to see frontier AI models such as GPT-6 Astra at work, and check back for new examples from NVIDIA teams and developers across the ecosystem. Build a Humanoid Simulator for a Warehouse Environment 🔗 Explore a gamified, physics-based control of a humanoid robot in first- and third-person view. Before automating warehouse tasks, developers need an interactive simulation environment to explore task behavior and evaluate how the work gets done. Frank DeLise, Omniverse product manager at NVIDIA, used Astra to turn a SimReady warehouse and humanoid robot into an interactive simulator with first- and third-person views. DeLise directed Astra to connect NVIDIA Omniverse libraries for physics (ovphysx), scene updates (ovstage), rendering (ovrtx) and the user interface (ovui). He also used Astra with SimReady (simready-foundation) to create the physical scene in simulation. Astra then generated animation and application code to bring those capabilities together. Learn how to prepare and validate SimReady robot assets with frontier AI models and NVIDIA Omniverse libraries. Connect an Autonomous-Driving Testing Workflow 🔗 Changing a scene, sensor or driving model can significantly affect autonomous-vehicle simulations. Doyub Kim, a manager on the simulation technology team at NVIDIA, asked Astra to build Zero to Alpamayo — a reusable simulation environment based on San Francisco’s Market Street. Kim directed Astra to map out the workflow, then connect asset creation, traffic, Omniverse RTX sensor simulation and Alpamayo driving in stages, checking each integration. The resulting prototype was a testing ground for comparing models and tracing how scene or sensor changes affect downstream driving behavior. A separate Cosmos3-Nano experiment varied weather and lighting in recorded simulation videos, allowing Kim to compare the driving model’s responses to the same scenario under different conditions. Use Sensor Differences to Create and Improve Digital Twins 🔗 Comparing recorded and simulated camera and lidar outputs gives developers key performance indicator-based feedback for refining a scene. To test robots and autonomous vehicles, developers need to know how closely simulated sensors match real ones. Ashley Reid, who works on RTX sensor validation at NVIDIA, directed Astra and Claude Fable 5 agents to compare ovrtx camera and raw LiDAR outputs with recorded data. The agents created two digital twins from scratch and improved two existing ones. Over about three days, Reid guided an iterative workflow in which agents measured differences, created or modified OpenUSD scenes, and checked the results. Changes addressed missing objects, geometry and materials, with acceptance depending on camera and LiDAR metrics. This gives developers a way to use measured discrepancies to guide scene creation and improvement. Start by rendering an OpenUSD scene with the ovrtx minimal Python example, then define a sensor measure to compare with recorded data. Robo Olympics: Test Robot Skills With Simulation 🔗 Teaching robots new movements means checking whether those actions work under physical constraints. Tae Kim, who leads NVIDIA Omniverse engineering and product, used sports videos and natural-language instructions to guide Astra in building Robo Olympics, an experimental project that tests simulated Unitree G1 humanoids performing sports movements. Under Kim’s direction, Astra built controllers and refined them through physics trials. Newton Physics Engine simulated behavior, the open source NVIDIA Warp framework accelerated calculations and ovrtx rendered scenes and virtual-camera images. In one experiment, the robot cleared a single hurdle in 64 of 100 simulation trials. The trials gave Kim feedback for improving the robot’s timing and control. Watch Kim explore building simulations with Astra and NVIDIA Omniverse libraries. Test Robotic Disassembly With Computer-Aided Design and Simulation 🔗 Before a robot can disassemble a product, developers need to know whether its tools can reach and remove the parts. Jens Jebens, a senior product manager for OpenUSD at NVIDIA, directed Astra to model a car suspension in PTC Onshape and configure it in NVIDIA Isaac Sim. With Astra, Jebens explored computer-aided design and tooling revisions for robots informed by simulation. The agent measured the available space and designed a wrench the robot could use to reach the suspension’s bolts. Jebens reported successful removal of a suspension component in simulation. This connects design and tooling decisions to disassembly results, offering a starting point for robot policy training. Explore the Onshape importer guide. Bring the International Space Station Into the Browser 🔗 Turning 3D models into an application requires connecting assets, live data and an interface. Nic Johns, an engineering director at NVIDIA, prompted Astra to assemble NASA assets into an OpenUSD International Space Station model with telemetry. Johns built the application with a single prompt, then used a follow-up prompt to shift the scene to Earth’s daytime side so the planet was visible. The workflow used Blender for asset preparation and Omniverse libraries for rendering (ovrtx), scene runtime (ovstage) and streaming (ovstream). The application brings 3D models and operational data into the browser, with Johns guiding its development through prompts and corrections. Try the Omniverse Real-Time Viewer skill. Turn Captured Rooms Into Testing Environments 🔗 A digitally reconstructed room needs editable objects and accurate physical behavior before developers can test interactions. Chirag Majithia, from the Isaac engineering applications team at NVIDIA, directed Astra to turn stereo camera captures into an editable OpenUSD studio. The workflow combined PyCuSFM, FoundationStereo and nvblox for reconstruction, with user review guiding object selection and placement. Astra assembled generated and Blender-authored assets and used USD Content Agents to configure how objects move and interact in simulation. Isaac Sim tests guided collision and contact revisions for doors and drawers. The studio connects captured geometry to interaction testing, making gaps and object behavior easier to inspect. Have a simulation idea? Explore NVIDIA Omniverse libraries to start building with an AI agent.",
+          "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+              "source_url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA",
+              "source_url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
+            }
+          ],
+          "slug": "into-the-omniverse-how-developers-turn-ideas-into-simulations-with-front-baf7193e",
+          "localized_url": "/zh/items/2026-10-09/into-the-omniverse-how-developers-turn-ideas-into-simulations-with-front-baf7193e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
+          "title_original": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
+          "title_en": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
+          "published_at": "Thu, 08 Oct 2026 13:00:46 +0000",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6b3eb2e65b98",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
+          "extracted_excerpt": "Gears of War: E-Day leads the charge on GeForce NOW this week. Plus, discover 10 new games streaming from the cloud this week.",
+          "extracted_text_for_analysis": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through Amazon, creating a more seamless path from device setup to gameplay. Keep an eye out for availability in the coming weeks. There’s more in store this GFN Thursday, with the cloud serving up 10 games, including seven new releases. Emergence Day Is Here Gears of War: E-Day is now streaming on GeForce NOW following its global release on Tuesday, Oct. 6. Set 14 years before the original Gears of War, the prequel follows Marcus Fenix and Dom Santiago as they confront the terrifying arrival of the Locust Horde on Emergence Day. The series’ brutal combat, desperate survival and larger-than-life action return with a new origin story for the legendary partnership. Ultimate members can take on the Horde with GeForce RTX 5080-class performance in the cloud, plus technologies including NVIDIA DLSS and NVIDIA Reflex. From campaign missions to cooperative and competitive modes, GeForce NOW keeps the fight ready across low-power laptops, Macs, mobile devices, handhelds, Firefox and other browsers, and more — no massive downloads or expensive gaming rig required. New on the Cloud Menu Members can look forward to the following games joining the GeForce NOW library this week: - Gears of War: E-Day (New release on Steam and Xbox, Oct. 6), available on Game Pass - STAR WARS: Galactic Racer (New release on Steam, Oct. 6) - Clive Barker’s Hellraiser: Revival (New release on Steam, Oct. 8) - Forever Ago (New release on Steam, Oct. 8) - Order of the Sinking Star (New release on Steam, Oct. 8) - Silver Pines (New release on Steam, Oct. 8) - Permafrost (New release on Steam, Oct. 9) - Graveyard Keeper 2 (Steam) - Solasta II (Steam) - Tyr (Steam) The Xbox version of Dune: Awakening didn’t join GeForce NOW in September as previously shared. Stay tuned to GFN Thursday for updates on game availability. Dates listed above reflect when games are released on their respective stores. GeForce NOW availability may vary, as games are onboarded after they are released and added throughout the week. Keep an eye on GeForce NOW channels and GFN Thursdays for availability updates on announced titles. Gamers who want to test out high-performance GeForce NOW cloud gaming can start with a day pass to try premium cloud gaming before committing to a membership. Better yet, the cost of the day pass can be applied toward a first monthly membership — making it easy to try GeForce RTX-powered cloud gaming with the latest releases, then level up for more. What’s on the play list this weekend? Let us know on X or in the comments below.",
+          "title_zh": "NVIDIA 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
+              "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the",
+              "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/"
+            }
+          ],
+          "slug": "rally-up-gears-of-war-e-day-launches-on-geforce-now-22621a26",
+          "localized_url": "/zh/items/2026-10-09/rally-up-gears-of-war-e-day-launches-on-geforce-now-22621a26/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing Falcon ASR",
+          "title_original": "Introducing Falcon ASR",
+          "title_en": "Introducing Falcon ASR",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+          "published_at": "Wed, 07 Oct 2026 13:21:03 GMT",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "91ed3eb235f3",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 发布模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing Falcon ASR",
+              "source_url": "https://huggingface.co/blog/tiiuae/falcon-asr"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
+              "source_url": "https://huggingface.co/blog/tiiuae/falcon-asr"
+            }
+          ],
+          "slug": "introducing-falcon-asr-91ed3eb2",
+          "localized_url": "/zh/items/2026-10-09/introducing-falcon-asr-91ed3eb2/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The model that didn't exist, so you made it yourself",
+          "title_original": "The model that didn't exist, so you made it yourself",
+          "title_en": "The model that didn't exist, so you made it yourself",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/building-with-ml-intern",
+          "published_at": "Thu, 08 Oct 2026 00:00:00 GMT",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0f05fd4155a4",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The model that didn't exist, so you made it yourself",
+              "source_url": "https://huggingface.co/blog/building-with-ml-intern"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/building-with-ml-intern"
+            }
+          ],
+          "slug": "the-model-that-didn-t-exist-so-you-made-it-yourself-0f05fd41",
+          "localized_url": "/zh/items/2026-10-09/the-model-that-didn-t-exist-so-you-made-it-yourself-0f05fd41/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+          "title_original": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+          "title_en": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "A special Science pod and Engineering pod crossover.. with Forward Deployed Engineering kicker!",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/periodic",
+          "published_at": "Thu, 08 Oct 2026 16:27:54 GMT",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "dfe3686a9321",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+              "source_url": "https://www.latent.space/p/periodic"
+            },
+            {
+              "label": "公开摘要",
+              "text": "A special Science pod and Engineering pod crossover.. with Forward Deployed Engineering kicker!",
+              "source_url": "https://www.latent.space/p/periodic"
+            }
+          ],
+          "slug": "synthesis-superintelligence-from-semiconductors-to-superconductors-perio-dfe3686a",
+          "localized_url": "/zh/items/2026-10-09/synthesis-superintelligence-from-semiconductors-to-superconductors-perio-dfe3686a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
+          "title_original": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
+          "title_en": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
+          "summary_zh": "yay small models",
+          "summary_en": "yay small models",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+          "published_at": "Thu, 08 Oct 2026 07:27:51 GMT",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d52167838f81",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
+              "source_url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
+            },
+            {
+              "label": "公开摘要",
+              "text": "yay small models",
+              "source_url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than"
+            }
+          ],
+          "slug": "ainews-claude-haiku-5-5-better-than-gpt-6-luna-at-the-same-pricing-d5216783",
+          "localized_url": "/zh/items/2026-10-09/ainews-claude-haiku-5-5-better-than-gpt-6-luna-at-the-same-pricing-d5216783/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "OpenAI Ultrafast mode now available on AI Gateway",
+          "title_original": "OpenAI Ultrafast mode now available on AI Gateway",
+          "title_en": "OpenAI Ultrafast mode now available on AI Gateway",
+          "summary_zh": "OpenAI 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "AI Gateway now supports OpenAI's Ultrafast service tier, providing faster output for interactive applications and rapid coding iterations. Currently, GPT 6 Astra and GPT 6.1 Sol are supported. To use Ultrafast, request it for openai/gpt-6-astra or",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/openai-ultrafast-mode-now-available-on-ai-gateway",
+          "published_at": "2026-10-08T00:00:00.000Z",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3a8cfb26d617",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 发布代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "OpenAI Ultrafast mode now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/openai-ultrafast-mode-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI Gateway now supports OpenAI's Ultrafast service tier, providing faster output for interactive applications and rapid coding iterations. Currently, GPT 6 Astra and GPT 6.1 Sol are supported. To use Ultrafast, request",
+              "source_url": "https://vercel.com/changelog/openai-ultrafast-mode-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "openai-ultrafast-mode-now-available-on-ai-gateway-3a8cfb26",
+          "localized_url": "/zh/items/2026-10-09/openai-ultrafast-mode-now-available-on-ai-gateway-3a8cfb26/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Narrative intelligence and the human advantage",
+          "title_original": "Narrative intelligence and the human advantage",
+          "title_en": "Narrative intelligence and the human advantage",
+          "summary_zh": "Practical AI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "As AI reshapes how we work, create, and think about our roles, staying adaptable means understanding not just the technology, but our own stories and identities. Reed Frerichs joins Daniel and Chris to explore narrative intelligence, storytelling, leadership,",
+          "source_name": "Practical AI",
+          "source_url": "https://changelog.com/practicalai",
+          "original_url": "https://share.transistor.fm/s/f2fcb677",
+          "published_at": "Thu, 08 Oct 2026 05:00:00 -0400",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "engineering",
+            "podcast"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cb22648a6a15",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Practical AI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Practical AI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、engineering、podcast。"
+          ],
+          "background_zh": "这条内容来自 Practical AI，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Narrative intelligence and the human advantage",
+              "source_url": "https://share.transistor.fm/s/f2fcb677"
+            },
+            {
+              "label": "公开摘要",
+              "text": "As AI reshapes how we work, create, and think about our roles, staying adaptable means understanding not just the technology, but our own stories and identities. Reed Frerichs joins Daniel and Chris to explore narrative",
+              "source_url": "https://share.transistor.fm/s/f2fcb677"
+            }
+          ],
+          "slug": "narrative-intelligence-and-the-human-advantage-cb22648a",
+          "localized_url": "/zh/items/2026-10-09/narrative-intelligence-and-the-human-advantage-cb22648a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Skip sending request bodies to Routing Middleware",
+          "title_original": "Skip sending request bodies to Routing Middleware",
+          "title_en": "Skip sending request bodies to Routing Middleware",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now skip sending client request bodies to Routing Middleware with skipMiddlewareRequestBody . This reduces incoming Fast Origin Transfer usage for middleware invocations and can improve time to first byte, especially for requests with large bodies.",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/skip-sending-request-bodies-to-routing-middleware",
+          "published_at": "2026-10-08T16:05:00.000Z",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "72fbd17ba063",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Skip sending request bodies to Routing Middleware",
+              "source_url": "https://vercel.com/changelog/skip-sending-request-bodies-to-routing-middleware"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now skip sending client request bodies to Routing Middleware with skipMiddlewareRequestBody . This reduces incoming Fast Origin Transfer usage for middleware invocations and can improve time to first byte,",
+              "source_url": "https://vercel.com/changelog/skip-sending-request-bodies-to-routing-middleware"
+            }
+          ],
+          "slug": "skip-sending-request-bodies-to-routing-middleware-72fbd17b",
+          "localized_url": "/zh/items/2026-10-09/skip-sending-request-bodies-to-routing-middleware-72fbd17b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Sandbox creation now returns a ready sandbox",
+          "title_original": "Vercel Sandbox creation now returns a ready sandbox",
+          "title_en": "Vercel Sandbox creation now returns a ready sandbox",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "A new Vercel Sandbox is now ready to run commands and read or write files when creation completes. Sandbox.create() now resolves only after snapshot restoration completes, so the first command or file operation no longer waits for it. Startup errors also",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/sandbox-create-waits-until-ready",
+          "published_at": "2026-10-08T06:00:00.000Z",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4bbc7d4d0d9d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Sandbox creation now returns a ready sandbox",
+              "source_url": "https://vercel.com/changelog/sandbox-create-waits-until-ready"
+            },
+            {
+              "label": "公开摘要",
+              "text": "A new Vercel Sandbox is now ready to run commands and read or write files when creation completes. Sandbox.create() now resolves only after snapshot restoration completes, so the first command or file operation no",
+              "source_url": "https://vercel.com/changelog/sandbox-create-waits-until-ready"
+            }
+          ],
+          "slug": "vercel-sandbox-creation-now-returns-a-ready-sandbox-4bbc7d4d",
+          "localized_url": "/zh/items/2026-10-09/vercel-sandbox-creation-now-returns-a-ready-sandbox-4bbc7d4d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Liquid AI's d1 is available on AI Gateway",
+          "title_original": "Liquid AI's d1 is available on AI Gateway",
+          "title_en": "Liquid AI's d1 is available on AI Gateway",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Liquid d1 is now available on AI Gateway . d1 is a decision model that evaluates shared state against typed questions for classification, routing, and scoring. It returns structured answers with probabilities without generating text tokens. d1 also has vision",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/liquid-ai-d1-is-available-on-ai-gateway",
+          "published_at": "2026-10-08T00:00:00.000Z",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8bbfde4eec66",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Liquid AI's d1 is available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/liquid-ai-d1-is-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Liquid d1 is now available on AI Gateway . d1 is a decision model that evaluates shared state against typed questions for classification, routing, and scoring. It returns structured answers with probabilities without",
+              "source_url": "https://vercel.com/changelog/liquid-ai-d1-is-available-on-ai-gateway"
+            }
+          ],
+          "slug": "liquid-ai-s-d1-is-available-on-ai-gateway-8bbfde4e",
+          "localized_url": "/zh/items/2026-10-09/liquid-ai-s-d1-is-available-on-ai-gateway-8bbfde4e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Step 5 Preview now available on AI Gateway",
+          "title_original": "Step 5 Preview now available on AI Gateway",
+          "title_en": "Step 5 Preview now available on AI Gateway",
+          "summary_zh": "Vercel AI 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Step 5 Preview , StepFun's flagship model, is now available on AI Gateway . It's built for agentic coding, professional knowledge work, and financial analysis, from building apps and debugging code to research and analytical reports. Step 5 Preview supports",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/step-5-preview-now-available-on-ai-gateway",
+          "published_at": "2026-10-08T00:00:00.000Z",
+          "fetched_at": "2026-10-09T02:13:34.488990+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b9826b494377",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Step 5 Preview now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/step-5-preview-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Step 5 Preview , StepFun's flagship model, is now available on AI Gateway . It's built for agentic coding, professional knowledge work, and financial analysis, from building apps and debugging code to research and",
+              "source_url": "https://vercel.com/changelog/step-5-preview-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "step-5-preview-now-available-on-ai-gateway-b9826b49",
+          "localized_url": "/zh/items/2026-10-09/step-5-preview-now-available-on-ai-gateway-b9826b49/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-10-08",
       "title_zh": "AI 新闻简报 · 2026-10-08",
