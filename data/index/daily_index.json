@@ -1,7 +1,719 @@
 {
-  "updated_at": "2026-10-09T02:13:36.545310+00:00",
-  "count": 113,
+  "updated_at": "2026-10-10T01:46:34.436550+00:00",
+  "count": 114,
   "briefs": [
+    {
+      "date": "2026-10-10",
+      "title_zh": "AI 新闻简报 · 2026-10-10",
+      "title_en": "English AI News Brief · 2026-10-10",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 142 条，入选 10 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 142 previously displayed items excluded, and 10 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 142,
+      "selected_count": 10,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+          "title_original": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+          "title_en": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/sophos",
+          "published_at": "Fri, 09 Oct 2026 07:00:00 GMT",
+          "fetched_at": "2026-10-10T01:46:32.785758+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "edd58468d564",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+          "extracted_excerpt": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+          "extracted_text_for_analysis": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak With OpenAI Daybreak, Sophos combines frontier intelligence with cybersecurity expertise to investigate threats faster and protect customers at scale. 89 seconds average response time for cases using AI agents 96% reduction in investigation time using OpenAI models 52% of MDR cases resolved end-to-end by AI Frontier AI is changing cybersecurity on both sides(opens in a new window). Advanced models can help defenders find and investigate threats faster. But those capabilities are also spreading to open-weight models, giving attackers new ways to discover vulnerabilities and accelerate exploitation. Sophos(opens in a new window) is one of the companies standing in their way, protecting more than 625,000 organisations across sectors and regions. “We see a huge variety of different attacks,” says John Peterson, the company’s Chief Technology Officer. “We’ve cultivated vast expertise in combating them over four decades in the cybersecurity business.” Through OpenAI Daybreak, Sophos is combining OpenAI models with its own threat intelligence, response playbooks and security expertise. The aim isn’t simply to give analysts another tool. It’s to increase the impact of Sophos’s expertise across every customer it protects. “Sophos brings the domain expertise and the know-how to combat attacks at scale. Programmes like Daybreak, and companies like OpenAI, bring frontier intelligence that allows us to take that domain expertise and scale it to support all of our customers.” At the centre of the work is Sophos Fusion, the Sophos AI-native cyber defense system that includes Sophos Managed Detection and Response (MDR). It brings together sensor data from more than 500 third-party integrations alongside Sophos’s own products. Together, those sensors generate trillions of events every day, which Sophos distills into roughly 1,000 to 2,000 cases for its nine security operations centres to investigate. Agents built through Daybreak have changed how those cases are handled. An investigation agent gathers the customer context, detections, indicators of compromise (IoCs) and relevant threat intelligence for each case. A planning model then creates a plan–execute–review loop: building an investigation plan, completing the steps and producing a summary with recommended response actions for analysts to review. Other agents can carry out parts of the response. Before Daybreak, investigating and responding to a case depended primarily on human expertise. Sophos’s existing process averaged around 38 minutes — performance Peterson says was better than 96% of professional security operations centres. “Now, because of the agents we’ve been able to build through the Daybreak programme, the average response time for cases using those agents has fallen to about 89 seconds. About half of the cases we handle are now being automated by agents we developed using the Daybreak models.” Sophos has built customer control into its MDR service through three operating modes: - Notify: Sophos investigates the case and recommends a response, but the customer acts. - Collaborate: Sophos and the customer work together before action is taken. - Authorise: Sophos can respond directly on the customer’s behalf. The same boundaries apply whether work is completed by a person or an agent. Sophos uses automation to move quickly and make better use of analysts’ time, but potentially destructive actions still require the right level of human oversight. “Anything we don’t feel comfortable with an agent handling gets passed off for human judgement,” Peterson confirms. - Reduced the average response time for cases using agents from approximately 38 minutes to 89 seconds. - Enabled Sophos to resolve 52% of MDR cases end-to-end with AI, within boundaries calibrated by Sophos analysts. - Gives customers a faster and more consistent investigation experience. - Helps Sophos scale compute rather than relying on equivalent growth in scarce cybersecurity headcount. - Returns analysts’ attention to the threats, exceptions and decisions where their expertise matters most. Peterson says Sophos will keep expanding what its agents can do. “The response capabilities are going to continue to become more sophisticated, and we’re going to broaden the range of use cases we address with the agents we’ve built.” “With programmes like Daybreak, we have an opportunity to stay a step ahead of the attacker community.” His advice for other security leaders is simple: “The one thing security leaders should do tomorrow is really come back to focusing on the security fundamentals for their organization,” he says. “That of course includes patching. But patches are only ever going to include vulnerabilities that are known by the vendor.” The answer is to maintain “a layered security approach” that includes endpoint protection, multifactor authentication (MFA), network segmentation and strong security operations. “Vulnerabilities are being discovered at an alarming rate and exploited at a scale that we’ve never seen. So I think doing the fundamentals well is more important today than it’s ever been.”",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+              "source_url": "https://openai.com/index/sophos"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+              "source_url": "https://openai.com/index/sophos"
+            }
+          ],
+          "slug": "sophos-cuts-threat-investigation-time-by-96-with-openai-daybreak-edd58468",
+          "localized_url": "/zh/items/2026-10-10/sophos-cuts-threat-investigation-time-by-96-with-openai-daybreak-edd58468/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+          "title_original": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+          "title_en": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/asana-browser-agent",
+          "published_at": "Fri, 09 Oct 2026 07:00:00 GMT",
+          "fetched_at": "2026-10-10T01:46:32.785758+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "90995f7dbc9c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+          "extracted_excerpt": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+          "extracted_text_for_analysis": "Asana cuts model costs 76x in browser tests with GPT‑6.1 Sol Using GPT‑6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models. 76x Lower estimated model costs with the optimized GPT-6.1 Sol workflow 5x Faster browser runs with the optimized GPT-6.1 Sol workflow $0.47 Average estimated model cost with the optimized GPT-6.1 Sol workflow With GPT‑6 Astra in Codex running experiments, Asana optimized its browser agent’s workflow on GPT‑6.1 Sol to run 76x cheaper and 5x faster. Asana helps customers automate work across business applications through StackAI(opens in a new window), a platform it acquired(opens in a new window). Using StackAI, customers can build workflows that navigate websites, fill out forms, and gather information without writing code. At Asana’s scale, small inefficiencies in these workflows add up. Asana’s StackAI CTO, Frank Hidalgo, PhD, set out to make the browser agent faster and cheaper to run. He directed GPT‑6 Astra in Codex to investigate the agent, test improvements, and compare the results. Work he estimates would have taken one to two months by hand took about a week. Asana’s 144-run study(opens in a new window) tested GPT‑6.1 Sol and three other frontier models, called here Models A, B and C. The optimized workflow that emerged on GPT‑6.1 Sol averaged $0.47 in estimated model costs and about four minutes per run, 76x cheaper and 5x faster than the original production setup on Model B. “This is what teams of humans and agents look like in practice. An engineer set the direction, GPT-6 Astra ran the experiments, and the results went through Command to production. This demonstrates how Asana brings human and agent teams to life.” To move quickly, Hidalgo started by using GPT‑6 Astra in Codex to map the codebase and explain how the agent built each model request. GPT‑6 Astra discovered that the agent cached its fixed instructions and tool definitions, but not the growing history of page text and screenshots it gathered, so every request resent that history at full price. The agent also dropped older screenshots and trimmed text at nearly every step. Each edit altered the history, so caching the history alone would not have helped, and losing those facts could require the agent to revisit pages it had already read. Hidalgo reviewed GPT‑6 Astra’s proposed fixes and selected three to test: - Extending caching to the agent’s browsing history - Increasing the amount of text it could retain - Removing screenshots in batches rather than at every step GPT‑6 Astra began with quick tests to establish which variables mattered. Because the code was not designed for controlled experiments, it then refactored the code so one frontend and backend could support many workflows in parallel, each with its own settings. Astra conducted the full study: history budgets of 120,000 and 480,000 characters and six caching and screenshot policies, each tested three times on each of the four models (see the table below). The best-performing policy allowed screenshots to accumulate to 20 before cutting back to the most recent one. This kept earlier history unchanged for longer stretches between removals. Combined with the larger history budget, it became the optimized workflow. Each configuration performed the same task: collecting six fields for each of 32 books from a public demo catalog, representative of what some Asana customers run in StackAI. GPT‑6 Astra ran the workflows and examined the requests, usage records and outputs, and separate model sessions reviewed the work. Every session’s requests, data traces and results were recorded in Command(opens in a new window), Asana’s software delivery platform, so the team could review the complete study afterward. From Command, the findings were turned into tickets, then pull requests, and the changes went to production. “This would have taken me one to two months by hand. With GPT-6 Astra in Codex, it took about a week: I’d set a /goal before going to bed and review the results in the morning.” For Model B, the optimization reduced estimated model cost from at least $36.21 (some original runs reached the step limit before they finished) to $1.24 per run, a reduction of 29x. The optimized workflow on GPT‑6.1 Sol was 2.6x cheaper still, at $0.47. Every run in the optimized workflow completed the task and returned the correct answer. On GPT‑6.1 Sol alone, with the larger history budget, the new caching and screenshot policy reduced cost 4x, from $1.97 to $0.47 per run. Each call was about 3x cheaper, because 89% of the input came from cache at 5% of the uncached price. Runs also became faster: at least 22.5 minutes on the original setup on Model B, roughly four minutes with the optimized workflow on GPT‑6.1 Sol. The investigation also showed how history management affected whether the agent produced an answer at all. Giving GPT‑6.1 Sol more room to retain its browsing history increased the number of runs that produced an answer from three of 18 with the smaller history budget to all 18 with the larger budget, each with the correct answer. For Hidalgo, the business value is giving customers access to faster, more capable models while keeping operating costs sustainable. “Cost used to limit which models we could offer customers for these workloads. By making the agent more efficient, we can give customers a better, faster model while lowering our operating costs.” Asana has released the changes to browser navigation in StackAI and is developing tools to make similar experiments easier to repeat. Over time, the team plans to incorporate this testing into the platform’s evaluations, so customers and internal teams can compare cost, runtime, and answer quality when configuring their agents. “Shipping speed is no longer the bottleneck; human attention is. We’re close to a world where every engineer is a PM leading a fleet of agents.” Asana is now using GPT‑6 Astra in Codex to test product features before release: Astra navigates the platform, tries different inputs and reports bugs for human QA reviewers. Hidalgo views this as the foundation for a new software development lifecycle, with many cloud agent sessions testing features in parallel.",
+          "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+              "source_url": "https://openai.com/index/asana-browser-agent"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+              "source_url": "https://openai.com/index/asana-browser-agent"
+            }
+          ],
+          "slug": "asana-cuts-model-costs-76x-in-browser-tests-with-gpt-6-1-sol-90995f7d",
+          "localized_url": "/zh/items/2026-10-10/asana-cuts-model-costs-76x-in-browser-tests-with-gpt-6-1-sol-90995f7d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+          "title_original": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+          "title_en": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+          "summary_zh": "DeepMind 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://www.latent.space/p/biohub-deepmind",
+          "published_at": "Sat, 10 Oct 2026 00:31:26 GMT",
+          "fetched_at": "2026-10-10T01:46:32.785758+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Google DeepMind"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d2e5912a3db6",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "DeepMind 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 DeepMind，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：Google DeepMind。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+              "source_url": "https://www.latent.space/p/biohub-deepmind"
+            },
+            {
+              "label": "公开摘要",
+              "text": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
+              "source_url": "https://www.latent.space/p/biohub-deepmind"
+            }
+          ],
+          "slug": "why-alphafold-didn-t-solve-protein-folding-pushmeet-kohli-google-deepmin-d2e5912a",
+          "localized_url": "/zh/items/2026-10-10/why-alphafold-didn-t-solve-protein-folding-pushmeet-kohli-google-deepmin-d2e5912a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Impactful scheduling for GPU clusters",
+          "title_original": "Impactful scheduling for GPU clusters",
+          "title_en": "Impactful scheduling for GPU clusters",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+          "published_at": "Fri, 09 Oct 2026 15:20:29 GMT",
+          "fetched_at": "2026-10-10T01:46:32.785758+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "43ef54e74d27",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Impactful scheduling for GPU clusters",
+          "extracted_excerpt": "A Blog post by Ai2 on Hugging Face",
+          "extracted_text_for_analysis": "On the AI Infrastructure team at Ai2, we’re responsible for providing the institute’s GPU compute capacity, specifically targeting large, distributed training workloads. We think about this task as a pyramid of four metrics that build on each other. The foundation is availability: how often the hardware is healthy and ready for work. Above this is occupancy: the fraction of available time assigned to a specific workload. Next is impact: how often the most valuable workloads are chosen to receive resources. The capstone of the pyramid is utilization: the fraction of GPU capacity used over the lifetime of a workload. This post is about improving the impact of our scheduling decisions. We recently replaced a priority-based scheduler with a system including GPU time budgets, hierarchical fair-share allocation, and a time-slicing contract. As a result, we shifted the debate about how much GPU time each research project deserves from a case-by-case operational task to a transparent administrative budgeting process. At Ai2, we manage thousands of NVIDIA H100, B200, and B300 GPUs arranged in clusters ranging in size from 88 to 1024 GPUs. These clusters are built for large-scale distributed training of AI models, and they serve a group of about 150 internal researchers whose work covers a diverse set of AI domains, including the full model flow of LLM and VLM training, robotics reinforcement learning (RL) simulation, and post-training for scientific agentic use cases. Like many labs, we have demand for GPU time that far exceeds supply. Based on submitted workloads, at any moment in time we have outstanding requests for 2-3x more GPUs than are available. One way to think about this is that every available GPU hour on our cluster has 2-3 different research workloads competing for it. Historically, we used a priority-based scheduler, and we allowed workloads to opt out of preemptability. Each team had a limit on concurrent GPUs that could be used by workloads which were protected from preemption. Preemptible workloads could exceed that limit on idle GPUs. This strategy produced predictable pathologies. For example, we observed instances of GPU “squatting” where users would park no-op workloads they could connect to when the need arose. This occurred because researchers found they could not launch debugging workloads with low enough latency to tackle problems in real time. We also observed priority inflation, where eventually 100% of scheduled workloads used HIGH priority. This meant that lower priority levels were starved of GPU time altogether. Since preemptability was optional, we also found that our on-call engineers spent a majority of their ticket response time negotiating the organized shutdown of non-preemptable workloads running on hosts with known maintenance problems. When these problems emerged, we were slow to identify their root causes. Our initial attempts to ensure the most important work received GPU time were focused on tighter control of how priorities were set, and, ultimately, working around the priority-based scheduler by explicitly assigning GPU monopolies to important projects. While we didn’t recognize it at first, we had built a perfect laboratory for observing the “tragedy of the commons.” Individuals were competing over a scarce, shared resource and, by seeking to maximize individual outcomes, achieving a non-optimal global result and abusing the underlying resource. We were far from the first to observe this kind of interaction. Resource allocation is a fascinating research domain that mixes algorithm development, economics, and system management. A central problem is that users often know the value of their own jobs better than the organization does, but they may have incentives to hide that value or hold on to resources even when doing so hurts total performance. For example, in their 2011 paper introducing Dominant Resource Fairness, Ghodsi et al. recount an anecdote in which a search company provided dedicated machines to jobs only if their users could guarantee high utilization. They soon discovered “users would sprinkle their code with infinite loops to artificially inflate utilization levels.” The hardware changes, but the fundamental problems that make resource allocation complex persist. The classic solution to a tragedy of the commons is to privatize the shared resource—owners are incentivized to maximize the value of their property. When we assigned teams monopolies over sets of GPUs, we were already doing a version of this, but it was too coarse. It caused GPUs to sit idle due to the seasonality of research. Teams are ready to run experiments and training at different times, so assigning a monopoly would ensure that there would be times when no jobs were ready to execute, with another team left waiting for capacity. We were manually solving a knapsack problem, trying to fit dynamically changing research needs into a static schedule. We wanted the ownership incentive, but we also wanted to maintain full occupancy of the GPUs. We decided to iterate on the ownership model. Instead of issuing teams GPUs, we chose to allocate a portion of GPU time. Predicting demand into the future would require knowing the result of novel science experiments, so it cannot be forecast with precision. Priority across research efforts, however, is a question of strategy, and it can be more easily debated and decided in advance. Instead of trying to solve the scheduling puzzle, we enabled leadership to think like investors. Before the workloads exist, decide how to fund each research effort with GPU time based on their judgment of its likely impact. The scheduler could then use that information when prioritizing arriving workloads. With this in mind, we devised a hierarchical system where managers could proportionally allocate GPU time to the projects and researchers they were responsible for. As the diagram below illustrates, this translates program strategy directly into a guaranteed share of GPU time. Project A1 knows it has a 35% claim on total capacity, regardless of how many other projects are queuing up elsewhere. Parenthetical values represent the total cluster capacity assigned to a leaf project. In this system, every request for GPU time must be funded by a budget, or it is not protected from preemption. In the old system, HIGH priority carried no cost and non-preemptibility allowed a team to fill their concurrent GPU limit indefinitely, so everyone used them. Now, nothing is free, so any trick to get GPU time draws from the benefiting user’s allocation. A squatting workload is spending team budget on nothing. Our strategy is to make gaming the scheduler more expensive than honestly engaging in the debate for a larger budget. We are constantly iterating on this budget review process, but the key requirements are that there are frequent opportunities for researchers to advocate for the time they need, and the decisions are made by managers with the most",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Impactful scheduling for GPU clusters",
+              "source_url": "https://huggingface.co/blog/allenai/impactful-scheduling"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/allenai/impactful-scheduling"
+            }
+          ],
+          "slug": "impactful-scheduling-for-gpu-clusters-43ef54e7",
+          "localized_url": "/zh/items/2026-10-10/impactful-scheduling-for-gpu-clusters-43ef54e7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "医師向け検索ツール「Evidence Finder」にSakana Namazuを導入：日本仕様のAIを、医療の現場へ",
+          "title_original": "医師向け検索ツール「Evidence Finder」にSakana Namazuを導入：日本仕様のAIを、医療の現場へ",
+          "title_en": "医師向け検索ツール「Evidence Finder」にSakana Namazuを導入：日本仕様のAIを、医療の現場へ",
+          "summary_zh": "Sakana AI Blog 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/namazu-aillis/",
+          "published_at": "2026-10-09T00:00:00+09:00",
+          "fetched_at": "2026-10-10T01:46:32.785758+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b501efaaaa98",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "医師向け検索ツール「Evidence Finder」にSakana Namazuを導入：日本仕様のAIを、医療の現場へ",
+          "extracted_text_for_analysis": "Sakana AIの開発する日本仕様のLLM「Sakana Namazu」が、医師向けエビデンス検索ツール「Evidence Finder」に採用されました。Evidence Finderは、医療AIを手がけるアイリス株式会社が提供するサービスです。 医師がエビデンスへ速やかに到達できる導線を提供する 医療の現場では、日々更新される論文や診療ガイドラインから必要な知見を探し、読み、比較する作業が欠かせません。一方で、診療を本業とする医師が文献調査に充てられる時間は限られています。 Evidence Finderは、医師の質問に対してPubMedなどのデータベースから文献を検索し、引用元を明示しながら回答を生成するサービスです。AIが引用した文献の実在性を自動検証するVerify機能を備え、医師が一次文献へ速やかにたどり着けるよう設計されています。 アイリスの医療知見 × Sakana Namazuの日本語能力 今回の取り組みでは、アイリスが培ってきた検索・検証のアルゴリズムに、Sakana NamazuのLLM技術を組み合わせています。 医師の質問に対してアイリス独自のアルゴリズムが関連文献を選び、それらの文献を比較・統合するとともに回答を生成する部分をNamazuが担います。これにより、「医師が信頼できる一次文献へ速やかに到達する」というワークフローに、Sakana Namazuが自然な形で組み込まれました。 今回の導入は、Sakana Namazuの日本語での回答能力、そして後述する医療領域での性能を評価いただいた結果となります。 「Evidence Finder」の回答画面 医師国家試験で96.4%の正解率 医学的な問いに正しく答えるには、専門知識や推論能力に加えて、日本語の質問の意図を正確に理解し、医師が確認しやすい形で整理する力が求められます。 Sakana Namazuを用いたEvidence Finderの評価用モデルは、2026年2月の第120回医師国家試験の成績で正解率96.4%を記録しました。アイリス社によれば、これは経済産業省GENIACが指定する国産基盤モデルの（公開されている中では）最高得点にあたります（※）。 国家試験の成績はあくまで知識や推論能力の一面を示すものであり、臨床現場での有用性をそのまま示すものではありません。しかし、こうした結果に加え、実際の回答による定性評価で実務での有用性を認めていただいたことから、Evidence FinderにNamazuを採用していただくことができました。 ※ 2026年9月1日時点、アイリス株式会社調べ。経済産業省GENIACが指定する国産基盤モデルについて、各社公表資料等で確認可能な第118回以降の医師国家試験の評価結果を比較。 Sakana Namazu：能力を保ったまま日本へ適応 高性能なオープンモデルを日本語向けに追加学習すると、既存の知識や推論能力が失われる「破滅的忘却（catastrophic forgetting）」や、特定タスクへの過度な最適化がしばしば問題になります。Namazuはそうした課題を独自の事後学習技術で解決し、ベースモデルの推論・知識・コーディング能力を主要ベンチマーク上で維持しながら、日本語や日本の文化・業務文脈への適応と、中立的な応答能力を強化したモデルです。 現行のSakana Namazuは、ベースモデルが持つ数学的推論、一般知識・推論、コーディングの性能を維持しています。そのうえで、日本語の指示追従、翻訳、日本固有の文脈に関する評価ではベースモデルを上回りました。 私たちが目指すのは、単に日本語が上手なモデルではなく、世界の優れたオープンモデルの能力を日本で使える形にすることです。あわせて、国内で推論が完結する基盤の整備も進めており、データの取り扱いや運用を含めて、日本の企業や組織が選びやすいAI基盤を整えていきます。 おわりに：Sakana Namazuを専門業務へ 日本語や日本の文脈に沿った処理が求められる領域は、医療にとどまりません。人事、マーケティング、カスタマーサポート、社内調査など、日本の制度や商習慣を踏まえた業務は多岐にわたります。Namazuが特に力を発揮するのは、日本語の指示や資料を正確に理解し、情報の検索から整理・説明までを一貫して行う業務です。 こうした業務は繰り返し発生するため、品質とコストの両立も重要です。サービスの体験を損なわずにAIを組み込みたい事業者の皆様にとって、最良の選択肢でありたいと考えています。 活用先を広げるうえで鍵となるのは、各領域の専門家やサービス提供者の皆様との協働です。実際の利用から得た知見が共有され、それが次のユースケースを生む。私たちはそうした循環が生まれるコミュニティを支援し、Namazuの適用領域を広げていきます。 各業界でのAI導入を検討されている方は、お気軽にこちらよりご相談ください。 Sakana AI Sakana AIは、AIの未来を私たちと一緒に切り拓いてくださる方を募集しています。当社の募集要項をご覧ください。",
+          "title_zh": "Sakana AI Blog 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI Blog，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "医師向け検索ツール「Evidence Finder」にSakana Namazuを導入：日本仕様のAIを、医療の現場へ",
+              "source_url": "https://sakana.ai/namazu-aillis/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/namazu-aillis/"
+            }
+          ],
+          "slug": "evidence-findersakana-namazu-ai-0fbed2fe",
+          "localized_url": "/zh/items/2026-10-10/evidence-findersakana-namazu-ai-0fbed2fe/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Agents can now buy domains with the Vercel CLI",
+          "title_original": "Agents can now buy domains with the Vercel CLI",
+          "title_en": "Agents can now buy domains with the Vercel CLI",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Your agent can now use the Vercel CLI to buy a domain. The agent discovers candidates with vercel domains search , checks availability and registrar pricing with vercel domains check and vercel domains price , and initiates the purchase with vercel domains",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli",
+          "published_at": "2026-10-09T20:24:00.000Z",
+          "fetched_at": "2026-10-10T01:46:32.785758+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "418297e30be7",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Agents can now buy domains with the Vercel CLI - Vercel",
+          "extracted_excerpt": "Your agents can now use the Vercel CLI to search for and purchase a domain. The agent can search for domains, check availability, and initiate the purchasing process. Completing the transaction requires human approval.",
+          "extracted_text_for_analysis": "Your agent can now use the Vercel CLI to buy a domain. buy a domain for this site with the vercel CLI, something like \"shipsf26\" Prompt your agent to search for and buy a domain. The agent discovers candidates with vercel domains search, checks availability and registrar pricing with vercel domains check and vercel domains price, and initiates the purchase with vercel domains buy. The purchase decision itself stays with you by design. Run non-interactively, vercel domains buy returns a structured, machine-readable error and the suggested next commands, so the agent hands the confirmation back to you, prohibiting it from spending money without your approval. You can confirm the price, the auto-renew choice, and the registrant contact details in an interactive terminal or the dashboard. The CLI ships an agent-facing skill covering the discovery, pricing, and purchase workflow, so agents will follow the full sequence without being told the steps. Read the documentation to get started.",
+          "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Agents can now buy domains with the Vercel CLI",
+              "source_url": "https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Your agent can now use the Vercel CLI to buy a domain. The agent discovers candidates with vercel domains search , checks availability and registrar pricing with vercel domains check and vercel domains price , and",
+              "source_url": "https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli"
+            }
+          ],
+          "slug": "agents-can-now-buy-domains-with-the-vercel-cli-418297e3",
+          "localized_url": "/zh/items/2026-10-10/agents-can-now-buy-domains-with-the-vercel-cli-418297e3/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "New Pro teams now default to 30-day deployment retention",
+          "title_original": "New Pro teams now default to 30-day deployment retention",
+          "title_en": "New Pro teams now default to 30-day deployment retention",
+          "summary_zh": "Vercel AI 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "New Pro teams now default to a 30-day deployment retention period. Coding agents have accelerated development, increasing deployment frequency and the amount of stored deployment history. Shorter retention keeps recent history available while limiting older",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention",
+          "published_at": "2026-10-09T18:00:00.000Z",
+          "fetched_at": "2026-10-10T01:46:32.785758+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3526dea6816f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "New Pro teams now default to 30-day deployment retention - Vercel",
+          "extracted_excerpt": "New Pro teams use 30-day deployment retention by default. Choose longer history when needed and review storage usage to control deployment storage charges.",
+          "extracted_text_for_analysis": "New Pro teams now default to a 30-day deployment retention period. Coding agents have accelerated development, increasing deployment frequency and the amount of stored deployment history. Shorter retention keeps recent history available while limiting older history and its storage costs. You can choose a longer retention period in your team's settings when you need more history for inspection or rollback. Deployment Storage and Functions Storage each cost $0.10 per GB-month. Older deployments may be deleted under your retention policy. Deleted deployments cannot be restored or used for rollback. Review the Deployment Retention Policy and storage optimization guide.",
+          "title_zh": "Vercel AI 推进代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "New Pro teams now default to 30-day deployment retention",
+              "source_url": "https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention"
+            },
+            {
+              "label": "公开摘要",
+              "text": "New Pro teams now default to a 30-day deployment retention period. Coding agents have accelerated development, increasing deployment frequency and the amount of stored deployment history. Shorter retention keeps recent",
+              "source_url": "https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention"
+            }
+          ],
+          "slug": "new-pro-teams-now-default-to-30-day-deployment-retention-3526dea6",
+          "localized_url": "/zh/items/2026-10-10/new-pro-teams-now-default-to-30-day-deployment-retention-3526dea6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Deployment Storage billing begins for existing Pro teams",
+          "title_original": "Deployment Storage billing begins for existing Pro teams",
+          "title_en": "Deployment Storage billing begins for existing Pro teams",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Deployment Storage and Functions Storage billing will begin for all Pro teams at $0.10 per GB-month. Check your email for details about when billing will start for your team. To keep storage costs low, the deployment retention window also changes to 30 days.",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/deployment-storage-pricing-expands-to-existing-teams",
+          "published_at": "2026-10-09T18:00:00.000Z",
+          "fetched_at": "2026-10-10T01:46:32.785758+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bc0fa275bad2",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Deployment Storage billing begins for existing Pro teams - Vercel",
+          "extracted_excerpt": "Deployment Storage and Functions Storage billing begins for existing Pro teams at $0.10 per GB-month. Deployment retention changes to 30 days on October 23. Opt out in retention settings before then to keep older deployments.",
+          "extracted_text_for_analysis": "Deployment Storage and Functions Storage billing will begin for all Pro teams at $0.10 per GB-month. Check your email for details about when billing will start for your team. To keep storage costs low, the deployment retention window also changes to 30 days. Deployments older than 30 days will be deleted starting October 23, unless you opt out in your retention settings before then. Retention settings already at 30 days or shorter are unchanged. Copy link to headingControl your Deployment Storage Review retention periods for Pre-Production, Production, Canceled, and Errored deployments with a Deployment Retention Policy. Shorter periods reduce stored history, and deleted deployments cannot be used for rollback. See Deployment Storage and Functions Storage per project on the Usage page. Reduce future deployment size by removing unnecessary build files, moving large assets to Vercel Blob, and shrinking Function bundles. Read the storage optimization guide.",
+          "title_zh": "Vercel AI 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Deployment Storage billing begins for existing Pro teams",
+              "source_url": "https://vercel.com/changelog/deployment-storage-pricing-expands-to-existing-teams"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Deployment Storage and Functions Storage billing will begin for all Pro teams at $0.10 per GB-month. Check your email for details about when billing will start for your team. To keep storage costs low, the deployment",
+              "source_url": "https://vercel.com/changelog/deployment-storage-pricing-expands-to-existing-teams"
+            }
+          ],
+          "slug": "deployment-storage-billing-begins-for-existing-pro-teams-bc0fa275",
+          "localized_url": "/zh/items/2026-10-10/deployment-storage-billing-begins-for-existing-pro-teams-bc0fa275/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Rillet ships 3× faster with AI agents on Vercel",
+          "title_original": "How Rillet ships 3× faster with AI agents on Vercel",
+          "title_en": "How Rillet ships 3× faster with AI agents on Vercel",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Rillet on Vercel Tripled shipping rate in three months with eve agents deployed on Vercel Two-person team closed 800+ Linear tickets in its first 4 months Builder access via Enterprise Managed Users, SSO, and Directory Sync Ships customer-requested changes to",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel",
+          "published_at": "2026-10-09T04:00:00.000Z",
+          "fetched_at": "2026-10-10T01:46:32.785758+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "019aa04ab24b",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Rillet ships 3× faster with AI agents on Vercel",
+              "source_url": "https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Rillet on Vercel Tripled shipping rate in three months with eve agents deployed on Vercel Two-person team closed 800+ Linear tickets in its first 4 months Builder access via Enterprise Managed Users, SSO, and Directory",
+              "source_url": "https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel"
+            }
+          ],
+          "slug": "how-rillet-ships-3-faster-with-ai-agents-on-vercel-019aa04a",
+          "localized_url": "/zh/items/2026-10-10/how-rillet-ships-3-faster-with-ai-agents-on-vercel-019aa04a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Microsoft Decision-1 now available on AI Gateway",
+          "title_original": "Microsoft Decision-1 now available on AI Gateway",
+          "title_en": "Microsoft Decision-1 now available on AI Gateway",
+          "summary_zh": "Microsoft 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Decision-1 from Microsoft is now available on AI Gateway . It answers typed questions about text with probabilities, choices, and scores. It can be used to classify support requests, select the next step in a workflow, or assess an AI response against a",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway",
+          "published_at": "2026-10-09T00:00:00.000Z",
+          "fetched_at": "2026-10-10T01:46:32.785758+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "84f0e3fa3584",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Microsoft Decision-1 now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Decision-1 from Microsoft is now available on AI Gateway . It answers typed questions about text with probabilities, choices, and scores. It can be used to classify support requests, select the next step in a workflow,",
+              "source_url": "https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "microsoft-decision-1-now-available-on-ai-gateway-84f0e3fa",
+          "localized_url": "/zh/items/2026-10-10/microsoft-decision-1-now-available-on-ai-gateway-84f0e3fa/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-10-09",
       "title_zh": "AI 新闻简报 · 2026-10-09",
