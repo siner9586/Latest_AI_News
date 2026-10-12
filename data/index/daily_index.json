@@ -1,7 +1,161 @@
 {
-  "updated_at": "2026-10-11T01:02:06.260879+00:00",
-  "count": 115,
+  "updated_at": "2026-10-12T01:22:37.724307+00:00",
+  "count": 116,
   "briefs": [
+    {
+      "date": "2026-10-12",
+      "title_zh": "AI 新闻简报 · 2026-10-12",
+      "title_en": "English AI News Brief · 2026-10-12",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 150 条，入选 2 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 150 previously displayed items excluded, and 2 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 150,
+      "selected_count": 2,
+      "categories": [
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
+          "title_original": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
+          "title_en": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
+          "summary_zh": "Gemini 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think",
+          "published_at": "Sun, 11 Oct 2026 12:31:59 GMT",
+          "fetched_at": "2026-10-12T01:22:33.006020+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "490ac16a59aa",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Gemini 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
+              "source_url": "https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think"
+            }
+          ],
+          "slug": "why-every-company-now-needs-to-think-and-operate-like-a-lab-team-josh-wo-490ac16a",
+          "localized_url": "/zh/items/2026-10-12/why-every-company-now-needs-to-think-and-operate-like-a-lab-team-josh-wo-490ac16a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Recursive Self-Improvement through Collective Intelligence",
+          "title_original": "Recursive Self-Improvement through Collective Intelligence",
+          "title_en": "Recursive Self-Improvement through Collective Intelligence",
+          "summary_zh": "Sakana AI Blog 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/mass/",
+          "published_at": "2026-10-12T00:00:00+09:00",
+          "fetched_at": "2026-10-12T01:22:33.006020+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c63dc4de752f",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "Recursive Self-Improvement through Collective Intelligence",
+          "extracted_text_for_analysis": "As AI systems tackle increasingly open-ended research problems, human experts may struggle to assess results and guide further progress. The model itself may be the best available optimizer and evaluator. The challenge is obtaining useful self-supervision within that homogeneous loop, where a model risks reinforcing its own blind spots rather than correcting them. We ask whether a model can learn from the collective intelligence of its own team. Introducing our new paper, Recursive Self-Improvement through Multi-Agent Self-Supervision: We introduce Multi-Agent Self-Supervision (MASS). One shared model solves tasks through a team of virtual subagents, searches for better multi-agent workflows, then uses its own judgments to select the best ones. Training on the best team’s executions distills the team’s collective experience back into the shared model. We ran two cycles using a 27B open-weights model on synthetic open-ended research tasks. After the second cycle, score per output token reached 1.2-1.6x the base model’s level across four research benchmarks. Three key results: - MASS enables role generalization within an RSI loop: training only on task-solving data from the optimizee naturally improves the capabilities of both the optimizer and the evaluator. - multi-agent trajectories are more efficient training data than single-agent trajectories for RSI. - optimizer capacity, rather than evaluator capacity, can be the bottleneck in the speed of improvement. We believe the community needs to investigate homogeneous RSI carefully to support AI safety. When a model is also its own evaluator, shared blind spots could allow mistakes to be accepted as progress and reinforced through training. For AI to improve beyond human expertise safely, we need to understand these failures and preserve effective ways to detect them and intervene. This work was done by Hyunin Lee, Jinglue Xu, Jeffrey Seely, Yujin Tang, and our collaborators from UC Berkeley (Somayeh Sojoudi, Matei Zaharia, Donghyun Lee).",
+          "title_zh": "Sakana AI Blog 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI Blog，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Recursive Self-Improvement through Collective Intelligence",
+              "source_url": "https://sakana.ai/mass/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://sakana.ai/mass/"
+            }
+          ],
+          "slug": "recursive-self-improvement-through-collective-intelligence-eab8257f",
+          "localized_url": "/zh/items/2026-10-12/recursive-self-improvement-through-collective-intelligence-eab8257f/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-10-11",
       "title_zh": "AI 新闻简报 · 2026-10-11",
