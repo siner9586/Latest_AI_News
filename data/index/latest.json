@@ -1,174 +1,46 @@
 {
-  "date": "2026-10-18",
-  "title_zh": "AI 新闻简报 · 2026-10-18",
-  "title_en": "English AI News Brief · 2026-10-18",
-  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 144 条，入选 7 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
-  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 144 previously displayed items excluded, and 7 selected items. Chinese pages link to internal research digests while preserving original source links.",
+  "date": "2026-10-19",
+  "title_zh": "AI 新闻简报 · 2026-10-19",
+  "title_en": "English AI News Brief · 2026-10-19",
+  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 151 条，入选 1 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 151 previously displayed items excluded, and 1 selected items. Chinese pages link to internal research digests while preserving original source links.",
   "source_count": 181,
   "candidate_count": 152,
-  "skipped_history_count": 144,
-  "selected_count": 7,
+  "skipped_history_count": 151,
+  "selected_count": 1,
   "categories": [
-    "company-industry",
-    "models-products",
     "podcasts-interviews"
   ],
   "category_labels_zh": {
-    "company-industry": "公司与产业",
-    "models-products": "模型与产品",
     "podcasts-interviews": "访谈与播客"
   },
   "items": [
     {
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "title_original": "Benefit Street Partners answers questions faster with Codex",
-      "title_en": "Benefit Street Partners answers questions faster with Codex",
-      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/benefit-street-partners",
-      "published_at": "Fri, 16 Oct 2026 00:00:00 GMT",
-      "fetched_at": "2026-10-18T00:04:50.940009+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "4a2f3ca18eb9",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "Benefit Street Partners answers questions faster with Codex",
-      "extracted_excerpt": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "extracted_text_for_analysis": "Benefit Street Partners answers questions faster with Codex Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups. ~1 day First BDC mark tracker version; ~10–12 total development hours, including refinements. ~20 min First-pass credit agreement analysis, followed by 1+ hour of human review. At Benefit Street Partners, a credit-focused investment manager, answering an investment committee’s follow-up questions used to take days or weeks. Portfolio manager Anant Kumar says analysts can now turn a round of comments in a day with Codex, and often answer questions during the meeting itself. BSP is using these tools to add more review capacity and rigor to underwriting within the same timeframe, rather than to do more deals. “I’ve gone from being just an analyst and a portfolio manager to being a developer as well now. I can build things.” To create a dashboard he could share with colleagues, Kumar used to need someone with software expertise to build a website and pull in the data. Now he builds his own tools, using AI to draft code and review it for errors. His tracker uses public SEC filings from business development companies (BDCs) to compare how firms value the same loan. The team can see how its marks compare with other holders’ valuations. Kumar built the tracker and used Codex for code review. The first version took a day. After adding features and refining the interface over subsequent weeks, he estimates total development time at 10–12 hours total. Kumar’s other tool analyzes credit agreements, which are often 300 pages or longer. Investors need to find clauses that could shift value away from lenders, a task that previously meant asking outside counsel to work through the agreement page by page. Kumar brought together memos from leading law firms on clauses and risks to watch for. He describes the analyzer as a “second brain within our organization.” An uploaded credit agreement takes about 20 minutes to process into a first-pass analysis, followed by an hour or more of human review. BSP has refactored the tool with GPT‑6 Astra, and it is now live in the company-hosted portal. “The AI is very helpful in collating data, ingesting it, synthesizing analysis, but the ultimate investment decision needs to be made by a human,” he says. Underwriting is typically a multi-round process. A round consists of further diligence and a revised memo responding to the investment committee’s questions. Deal timelines range from a few days to a few weeks, so the number of rounds varies. Kumar says, “We feel more confident in our decision making because we have more information at our disposal.” “The quality of my analysis has become so much better and so much faster.” - Built the first BDC tracker in a day, using Codex for code review; about 10–12 hours total including later additions. - Produces a first-pass analysis of a credit agreement in about 20 minutes, followed by an hour or more of human review. - Answers committee follow-up questions faster with Codex, often during the meeting, according to Kumar. BSP is working to connect information across deals. Continuous underwriting is a longer-term aspiration: the team could monitor loans as news happens and examine the effects across its portfolio, rather than re-underwriting only after an event. “Codex has unlocked my day, because I have many more hours in the day to do more high-level work and less routine work,” says Kumar.",
-      "title_zh": "OpenAI 推进模型或产品能力更新",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Benefit Street Partners answers questions faster with Codex",
-          "source_url": "https://openai.com/index/benefit-street-partners"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-          "source_url": "https://openai.com/index/benefit-street-partners"
-        }
-      ],
-      "slug": "benefit-street-partners-answers-questions-faster-with-codex-4a2f3ca1",
-      "localized_url": "/zh/items/2026-10-18/benefit-street-partners-answers-questions-faster-with-codex-4a2f3ca1/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
-      "title_original": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
-      "title_en": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
-      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring",
-      "source_name": "NVIDIA AI Podcast",
-      "source_url": "https://blogs.nvidia.com/ai-podcast/",
-      "original_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
-      "published_at": "Sat, 17 Oct 2026 21:00:13 +0000",
-      "fetched_at": "2026-10-18T00:04:50.940009+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [
-        "NVIDIA"
-      ],
-      "tags": [
-        "nvidia",
-        "chips",
-        "podcast"
-      ],
-      "importance_score": 48.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "af59b3284175",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
-      "extracted_excerpt": "NVIDIA celebrates the arrival of RTX Spark with retail launch events around the world, bringing gamers, creators and AI enthusiasts together for hands-on experiences.",
-      "extracted_text_for_analysis": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with additional systems on the way. NVIDIA celebrated the launch with events around the world, including one in Berlin, where NVIDIA founder and CEO Jensen Huang made a surprise appearance. A New Generation of Windows PCs Has Arrived RTX Spark brings decades of NVIDIA accelerated computing innovation into a single superchip, combining an NVIDIA Blackwell RTX GPU and NVIDIA Grace CPU with up to 1 petaflop of AI compute and up to 128GB of unified memory. Read more in the press release. RTX Spark Launch Celebrations Light Up Berlin The arrival of RTX Spark brought fans, creators and PC enthusiasts together in Berlin during the Festival of Lights, an annual autumn art festival that transforms the German capital’s most famous landmarks, streets and squares into glowing canvases. This year, the festival featured RTX Spark-themed lighting on the Berlin TV Tower. Fans gathered hours ahead in anticipation for the launch celebration at XPERION, the gaming venue inside Saturn at Alexanderplatz, where attendees got hands-on with RTX Spark laptops from leading PC makers, exploring the latest gaming experiences, content-creation workflows and local AI capabilities. The celebration included a special appearance by Huang, who greeted an enthusiastic crowd, passed out popcorn and posed for selfies. He also gave out five personally signed RTX Spark laptops. Berlin held one of six RTX Spark retail launch celebrations worldwide. From San Francisco to Seoul: How the World Welcomed RTX Spark A massive crowd gathered at the JD MALL Shuangjing Store in Beijing to celebrate the highly anticipated launch, enjoying a night of innovation and community connection. Attendees at Vatan Bilgisayar Topkapı in Istanbul experienced a lively event filled with interactive demonstrations and specialized programming led by local creators. Seoul’s COEX East Lobby transformed into a bustling hub of creativity, hosting an eager crowd for engaging hands-on demos and captivating evening sessions dedicated to gaming and AI. Tech enthusiasts in San Francisco visited the local Best Buy store for an unforgettable morning of hands-on RTX Spark demos, fireside chats with local founders and a special appearance by tech influencer iJustine. The energy at Muse Garden in Taipei was electric as the local AI community came together for a vibrant evening of music, engaging discussions and incredible product showcases. Developers and AI enthusiasts can explore NVIDIA-tested recipes, playbooks and resources for running local AI on RTX Spark. Follow NVIDIA RTX Spark on X, Instagram, TikTok and Facebook — and stay informed by subscribing to the NVIDIA Local AI newsletter. Follow NVIDIA Workstation on LinkedIn and X. See notice regarding software product information.",
-      "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：nvidia、chips、podcast。",
-        "涉及公司或机构：NVIDIA。"
-      ],
-      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
-          "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
-        },
-        {
-          "label": "公开摘要",
-          "text": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS,",
-          "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
-        }
-      ],
-      "slug": "rtx-spark-ignites-global-celebration-as-new-windows-pcs-arrive-c850cbc2",
-      "localized_url": "/zh/items/2026-10-18/rtx-spark-ignites-global-celebration-as-new-windows-pcs-arrive-c850cbc2/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "🧠 Community Wisdom: PRDs for agents, tracking competitor messaging, whether software moats still exist, exercising startup options when you leave, and more",
-      "title_original": "🧠 Community Wisdom: PRDs for agents, tracking competitor messaging, whether software moats still exist, exercising startup options when you leave, and more",
-      "title_en": "🧠 Community Wisdom: PRDs for agents, tracking competitor messaging, whether software moats still exist, exercising startup options when you leave, and more",
-      "summary_zh": "Community Wisdom 302",
-      "summary_en": "Community Wisdom 302",
+      "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+      "title_original": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+      "title_en": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+      "summary_zh": "Anthropic 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Anthropic is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
       "source_name": "Lenny's Podcast",
       "source_url": "https://www.lennysnewsletter.com/",
-      "original_url": "https://www.lennysnewsletter.com/p/community-wisdom-prds-for-agents",
-      "published_at": "Sat, 17 Oct 2026 13:53:57 GMT",
-      "fetched_at": "2026-10-18T00:04:50.940009+00:00",
+      "original_url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
+      "published_at": "Sun, 18 Oct 2026 12:31:36 GMT",
+      "fetched_at": "2026-10-19T00:13:30.249928+00:00",
       "category": "podcasts-interviews",
       "people": [],
-      "companies": [],
+      "companies": [
+        "Anthropic"
+      ],
       "tags": [
         "podcast",
         "product",
         "ai-products",
         "startups"
       ],
-      "importance_score": 40.0,
+      "importance_score": 56.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "4c96a2001c70",
+      "duplicate_group_id": "20469758d30f",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -179,320 +51,33 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Lenny's Podcast 讨论AI 代理工程与工具调用能力",
+      "title_zh": "Anthropic 讨论行业访谈中的判断与经验",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
-        "主体是 Lenny's Podcast，核心变化集中在AI 代理工程与工具调用能力。",
+        "主体是 Anthropic，核心变化集中在行业访谈中的判断与经验。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：podcast、product、ai-products、startups。"
+        "相关标签包括：podcast、product、ai-products、startups。",
+        "涉及公司或机构：Anthropic。"
       ],
       "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
       "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        }
-      ],
+      "terms_zh": [],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "🧠 Community Wisdom: PRDs for agents, tracking competitor messaging, whether software moats still exist, exercising startup options when you leave, and more",
-          "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-prds-for-agents"
+          "text": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+          "source_url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on"
         },
         {
           "label": "公开摘要",
-          "text": "Community Wisdom 302",
-          "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-prds-for-agents"
+          "text": "Anthropic is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on"
         }
       ],
-      "slug": "community-wisdom-prds-for-agents-tracking-competitor-messaging-whether-s-4c96a200",
-      "localized_url": "/zh/items/2026-10-18/community-wisdom-prds-for-agents-tracking-competitor-messaging-whether-s-4c96a200/",
+      "slug": "inside-the-black-box-of-ai-how-ai-models-actually-think-emmanuel-ameisen-20469758",
+      "localized_url": "/zh/items/2026-10-19/inside-the-black-box-of-ai-how-ai-models-actually-think-emmanuel-ameisen-20469758/",
       "source_license_mode": "summary_only",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "[AINews] High Taste Testers Ep. 1",
-      "title_original": "[AINews] High Taste Testers Ep. 1",
-      "title_en": "[AINews] High Taste Testers Ep. 1",
-      "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "a quiet day lets us pilot a new show",
-      "source_name": "Latent Space",
-      "source_url": "https://www.latent.space/",
-      "original_url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
-      "published_at": "Sat, 17 Oct 2026 07:47:38 GMT",
-      "fetched_at": "2026-10-18T00:04:50.940009+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "llm",
-        "agents",
-        "ai-engineering"
-      ],
-      "importance_score": 40.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "25f370b6a2f3",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：llm、agents、ai-engineering。"
-      ],
-      "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "[AINews] High Taste Testers Ep. 1",
-          "source_url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1"
-        },
-        {
-          "label": "公开摘要",
-          "text": "a quiet day lets us pilot a new show",
-          "source_url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1"
-        }
-      ],
-      "slug": "ainews-high-taste-testers-ep-1-25f370b6",
-      "localized_url": "/zh/items/2026-10-18/ainews-high-taste-testers-ep-1-25f370b6/",
-      "source_license_mode": "summary_only",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "AI Gateway logs now show session affinity",
-      "title_original": "AI Gateway logs now show session affinity",
-      "title_en": "AI Gateway logs now show session affinity",
-      "summary_zh": "Claude 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "AI Gateway logs now have a Sessions view that groups requests into sessions and shows how session affinity routed each one. Each row shows the coding agent or app that ran the session, such as Claude Code, Codex, or Cursor, along with its cost, models,",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
-      "published_at": "2026-10-17T20:03:00.000Z",
-      "fetched_at": "2026-10-18T00:04:50.940009+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "f3b4b96b5bbd",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "AI Gateway logs now show session affinity - Vercel",
-      "extracted_excerpt": "Vercel AI Gateway logs now group requests into sessions, with cache hit rate, cost, turns, and the coding agent behind each conversation.",
-      "extracted_text_for_analysis": "AI Gateway logs now have a Sessions view that groups requests into sessions and shows how session affinity routed each one. Each row shows the coding agent or app that ran the session, such as Claude Code, Codex, or Cursor, along with its cost, models, providers, and how much of its input was cached across every turn. Open a session to see its cache hit rate, duration, and path. The path lists each turn with its model and timing, and names the provider serving the session along with any earlier ones. Session affinity sends each turn to the provider that served the one before it, so the provider already has most of the prompt in cache. A session that stays on one provider reads more of each prompt from cache. Filter sessions by turns, client, model, provider, authentication, or cost. Single-turn sessions are hidden until you clear the minimum turns filter. Session affinity runs by default on text and chat requests. To group requests yourself, send the same sessionId in providerOptions.gateway, or the same x-session-id header, on every request in a conversation. Requests without one are grouped by a fingerprint of the conversation's opening and appear as fingerprinted sessions. Read the session affinity documentation for more information on how AI Gateway identifies sessions.",
-      "title_zh": "Claude 推进代码评测可靠性问题",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Claude，核心变化集中在代码评测可靠性问题。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        },
-        {
-          "term": "coding",
-          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "AI Gateway logs now show session affinity",
-          "source_url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity"
-        },
-        {
-          "label": "公开摘要",
-          "text": "AI Gateway logs now have a Sessions view that groups requests into sessions and shows how session affinity routed each one. Each row shows the coding agent or app that ran the session, such as Claude Code, Codex, or",
-          "source_url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity"
-        }
-      ],
-      "slug": "ai-gateway-logs-now-show-session-affinity-f3b4b96b",
-      "localized_url": "/zh/items/2026-10-18/ai-gateway-logs-now-show-session-affinity-f3b4b96b/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "DeepSeek V4.1 Flash 1017 now available on AI Gateway",
-      "title_original": "DeepSeek V4.1 Flash 1017 now available on AI Gateway",
-      "title_en": "DeepSeek V4.1 Flash 1017 now available on AI Gateway",
-      "summary_zh": "Vercel AI 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "DeepSeek V4.1 Flash 1017 is now available on AI Gateway . DeepSeek V4.1 Flash 1017 is a minor update to DeepSeek V4.1 Flash that improves reasoning, coding, agentic tasks, and image understanding. The coding gains show up in terminal work and in building and",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway",
-      "published_at": "2026-10-17T00:00:00.000Z",
-      "fetched_at": "2026-10-18T00:04:50.940009+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "e5cf11d8304f",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "DeepSeek V4.1 Flash 1017 now available on AI Gateway - Vercel",
-      "extracted_excerpt": "Call DeepSeek V4.1 Flash 1017 through Vercel AI Gateway with one API key, image input, spend tracking, and traces on every request.",
-      "extracted_text_for_analysis": "DeepSeek V4.1 Flash 1017 is now available on AI Gateway. DeepSeek V4.1 Flash 1017 is a minor update to DeepSeek V4.1 Flash that improves reasoning, coding, agentic tasks, and image understanding. The coding gains show up in terminal work and in building and editing whole repositories, and the agentic gains in multi-step automation. With images, the model reads charts and handles visual reasoning more accurately when it can call tools. DeepSeek V4.1 Flash 1017 also finishes tasks faster and with shorter outputs than the previous snapshot, so agent runs tend to take less time and use fewer output tokens. Use deepseek/deepseek-v4.1-flash-1017 as the model name: import { streamText } from 'ai'; const result = streamText({ model: 'deepseek/deepseek-v4.1-flash-1017', prompt: 'Write a script that retries failed uploads with exponential backoff.',}); To use it in Claude Code, Codex, Cursor, and more, install the latest Vercel CLI and run setup: npx vercel ai-gateway setup Try DeepSeek V4.1 Flash 1017 in the model playground. AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more. AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests. You can view all language models available on AI Gateway.",
-      "title_zh": "Vercel AI 发布代码评测可靠性问题",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Vercel AI，核心变化集中在代码评测可靠性问题。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        },
-        {
-          "term": "coding",
-          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "DeepSeek V4.1 Flash 1017 now available on AI Gateway",
-          "source_url": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway"
-        },
-        {
-          "label": "公开摘要",
-          "text": "DeepSeek V4.1 Flash 1017 is now available on AI Gateway . DeepSeek V4.1 Flash 1017 is a minor update to DeepSeek V4.1 Flash that improves reasoning, coding, agentic tasks, and image understanding. The coding gains show",
-          "source_url": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway"
-        }
-      ],
-      "slug": "deepseek-v4-1-flash-1017-now-available-on-ai-gateway-e5cf11d8",
-      "localized_url": "/zh/items/2026-10-18/deepseek-v4-1-flash-1017-now-available-on-ai-gateway-e5cf11d8/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Elorian AI's Glimpse now available on AI Gateway",
-      "title_original": "Elorian AI's Glimpse now available on AI Gateway",
-      "title_en": "Elorian AI's Glimpse now available on AI Gateway",
-      "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Glimpse from Elorian is now available on AI Gateway. The visual reasoning model accepts images and video to follow objects through motion, interpret spatial relationships, and connect an action to its physical consequences. Glimpse can return to visual",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/elorian-ai-glimpse-now-available-on-ai-gateway",
-      "published_at": "2026-10-16T00:00:00.000Z",
-      "fetched_at": "2026-10-18T00:04:50.940009+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "a256c10c316c",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "Elorian AI's Glimpse now available on AI Gateway - Vercel",
-      "extracted_excerpt": "Call Elorian's Glimpse through Vercel AI Gateway with one API key, no provider account, spend tracking, and request traces.",
-      "extracted_text_for_analysis": "Glimpse from Elorian is now available on AI Gateway. The visual reasoning model accepts images and video to follow objects through motion, interpret spatial relationships, and connect an action to its physical consequences. Glimpse can return to visual evidence as it works: zooming into a detail, revisiting a short interval of video, or tracking the same feature across frames. This allows the model to support use cases like scientific chart analysis, video captioning, visual counting, and robotics data annotation. Some examples include checking a train's motion to determine whether it is slowing down, keeping objects distinct through camera movement, and labeling completed actions in robot footage. Use elorian/glimpse as the model name: import { streamText } from 'ai'; const result = streamText({ model: 'elorian/glimpse', messages: [{ role: 'user', content: [ { type: 'text', text: 'Describe this image in one sentence.' }, { type: 'file', mediaType: 'image/jpeg', data: new URL('https://elorian.ai/assets/blog/glimpse/open-pliers.jpg'), }, ], }], maxOutputTokens: 4096, reasoning: 'low'}); for await (const text of result.textStream) { process.stdout.write(text);} With AI SDK 7, you can send a video as a file part. Replace the placeholder URL with a public or signed HTTPS URL for your video: import { streamText } from 'ai'; const result = streamText({ model: 'elorian/glimpse', maxOutputTokens: 4096, messages: [{ role: 'user', content: [ { type: 'text', text: 'Describe the visible scene in at most five words. Do not use code or search.' }, { type: 'file', data: new URL('https://example.com/your-video.mp4'), mediaType: 'video/mp4', }, ], }], reasoning: 'low', providerOptions: { elorian: { video_fps: 1 } }}); for await (const text of result.textStream) { process.stdout.write(text);} To configure AI Gateway in Claude Code, Codex, Cursor, and more, install the latest Vercel CLI and run setup: npx vercel ai-gateway setup Try Glimpse in the model playground. AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more. AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests.",
-      "title_zh": "Vercel AI 发布开发者接口与平台能力",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Elorian AI's Glimpse now available on AI Gateway",
-          "source_url": "https://vercel.com/changelog/elorian-ai-glimpse-now-available-on-ai-gateway"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Glimpse from Elorian is now available on AI Gateway. The visual reasoning model accepts images and video to follow objects through motion, interpret spatial relationships, and connect an action to its physical",
-          "source_url": "https://vercel.com/changelog/elorian-ai-glimpse-now-available-on-ai-gateway"
-        }
-      ],
-      "slug": "elorian-ai-s-glimpse-now-available-on-ai-gateway-a256c10c",
-      "localized_url": "/zh/items/2026-10-18/elorian-ai-s-glimpse-now-available-on-ai-gateway-a256c10c/",
-      "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     }
