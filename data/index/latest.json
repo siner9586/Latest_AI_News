@@ -1,39 +1,436 @@
 {
-  "date": "2026-10-20",
-  "title_zh": "AI 新闻简报 · 2026-10-20",
-  "title_en": "English AI News Brief · 2026-10-20",
-  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 139 条，入选 11 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
-  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 139 previously displayed items excluded, and 11 selected items. Chinese pages link to internal research digests while preserving original source links.",
+  "date": "2026-10-21",
+  "title_zh": "AI 新闻简报 · 2026-10-21",
+  "title_en": "English AI News Brief · 2026-10-21",
+  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 134 条，入选 17 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 134 previously displayed items excluded, and 17 selected items. Chinese pages link to internal research digests while preserving original source links.",
   "source_count": 181,
   "candidate_count": 152,
-  "skipped_history_count": 139,
-  "selected_count": 11,
+  "skipped_history_count": 134,
+  "selected_count": 17,
   "categories": [
     "company-industry",
     "models-products",
-    "podcasts-interviews"
+    "podcasts-interviews",
+    "research-open-source"
   ],
   "category_labels_zh": {
     "company-industry": "公司与产业",
     "models-products": "模型与产品",
-    "podcasts-interviews": "访谈与播客"
+    "podcasts-interviews": "访谈与播客",
+    "research-open-source": "研究与开源"
   },
   "items": [
     {
-      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-      "title_original": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-      "title_en": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany’s AI roadmap, and in particular, the industrial applications of AI. Huang opened by",
-      "source_name": "NVIDIA AI Podcast",
-      "source_url": "https://blogs.nvidia.com/ai-podcast/",
-      "original_url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-      "published_at": "Mon, 19 Oct 2026 19:27:08 +0000",
-      "fetched_at": "2026-10-20T01:06:22.152009+00:00",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "title_original": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "title_en": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "summary_zh": "NVIDIA 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "published_at": "Tue, 20 Oct 2026 18:17:47 GMT",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "4eb9f7080b11",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "extracted_excerpt": "A Blog post by NVIDIA on Hugging Face",
+      "extracted_text_for_analysis": "Our first Cosmos-H-Dreams release, built on Cosmos-Predict2.5, brought interactive generative simulation to dVRK tabletop suturing, a foundational proving ground for surgical robotics. As world foundation model (WFM), Cosmos-H-Dreams demonstrated an alternative to numerical simulation: rather than explicitly modeling scene geometry, tissue deformation, and physical interactions, it learned visual dynamics directly from synchronized video and robot kinematics, yielding interactive tabletop task simulation with high realism. Today, Cosmos3-H-Dreams advances this capability by learning from video and robot kinematics recording during clinical procedures on the CMR Surgical Versius platform. To our knowledge, this is the first real-time generative surgical simulator trained on clinical cholecystectomy recordings to support live kinematic control. Powered by Cosmos 3 and accelerated with FlashDreams, NVIDIA’s accelerated streaming-inference library, Cosmos3-H-Dreams runs interactively on a single NVIDIA RTX PRO 6000 GPU. In a controlled tabletop environment like that of Cosmos-H-Dreams, instruments operate against a relatively simple background. Inside the human body, however, small instrument movements can affect an entire scene: tissue stretches under traction, reflections shift, structures become occluded, and smoke changes visibility. Given an initial image and supplied tool actions, a generative simulator must capture these responses while preserving the anatomy and instruments as it generates each new block of video. Small errors can accumulate over time, gradually changing instrument geometry or anatomical structure, making temporal consistency essential. Visual realism is therefore a starting point for validation, not proof of biomechanical accuracy. The generated scene must also follow the controls: translation, rotation, and gripper commands should produce coherent anatomical consequences. A plausible-looking rollout that ignores those commands cannot serve as an interactive environment. Maintaining this fidelity and responsiveness in a live control loop requires low latency generation. Cosmos3-H-Dreams addresses this setting through a model specialized for clinical cholecystectomy and distilled for real-time generation, bringing action-conditioned interaction into scenes with complex anatomy, tissue motion, and occlusion. Cosmos3-H-Dreams builds on Cosmos3-H-Embodied-Nano, a 16-billion-parameter model pretrained on Open-H-Embodiment, and specializes a bidirectional teacher on curated cholecystectomy video and kinematics. Sample selection targets two visible, engaged instruments, a left Cadiere grasper and a right monopolar hook, and limits camera commands to emphasize instrument-driven interaction. The model uses 28 action dimensions: pose and gripper information for both arms, plus energy controls, thumbstick axes and thumbstick buttons. Training uses 832 x 480 video with actions aligned at 10 Hz; that sampling rate is distinct from runtime generation throughput. Cosmos3-H-Dreams combines a teacher-to-student training pipeline designed for long autoregressive rollouts with accelerated streaming inference through FlashDreams. We first adapt the bidirectional teacher on 24 future frames, then extend the horizon to 72 frames, 2.4 and 7.2 seconds at 10 Hz. This gives the teacher longer sequences over which to learn surgical dynamics. Next, distillation turns the bidirectional teacher into a causal student that can generate video in short blocks as new actions arrive. Causal teacher forcing prepares the student for sequential generation using recorded context. Self-Forcing then trains it on its own generated context, guided by the teacher and a learned critic. This helps address the accumulation of errors during interactive rollouts. The first released student uses four denoising steps per generated block. We then train that student further with a two-step schedule to produce the second release checkpoint. The two-step model is separately trained, not simply the four-step model run with fewer sampling steps. Fewer denoising steps results in faster inference time at the expense of lower visual quality. Both checkpoints let developers explore the balance between visual quality and inference cost. FlashDreams supplies the accelerated streaming runtime. Long rollouts also require managing the model’s attention history. The Cosmos3-H-Dreams integration uses an adapted FadeMem module that consolidates the growing key/value cache during long rollouts. This complements Self-Forcing: distillation addresses how the model learns from its generated history, while cache consolidation addresses how that history is stored during streaming generation. During a clinical procedure there may be complications or some room for the surgeon to perform “novel” movements. Therefore, a simulator must be able to generalize beyond the training data, and produce coherent frames with unseen movements. The demonstrations below show Cosmos3-H-Dreams generating different cholecystectomy scenes conditioned on instrument actions recorded with a VR headset. The two videos begin with the same initial frame but follow different action sequences illustrating how instrument control leads to distinct continuations of the same scene with physically accurate tissue deformations. Furthermore, these rollouts allow us to inspect whether instruments follow the controls, whether tissue responds coherently to interaction, and whether anatomical and instrument appearance remain consistent over time. Cosmos3-H-Dreams includes four-step and two-step checkpoints for cholecystectomy. The system can be adapted to other datasets and embodiments with synchronized video and compatible action representations. To train a real-time student model on your own dataset, we provide a complete recipe for teacher fine-tuning and Self-Forcing distillation in our step-by-step guide. It describes data preparation, public teacher-training tools, and the distillation stages. Controller integrations must use the same action conventions and normalization as training. The advance in visual realism opens several research directions: - Model the full procedure. Expand coverage and temporal consistency so all phases of cholecystectomy can be explored systematically, with clear task boundaries and success criteria. - Connect generative and numerical simulation. Combine learned visual realism with explicit geometry, contact and tissue mechanics. Numerical models and measured data could help constrain and validate deformation, making simulation behavior inspectable as well as convincing. - Evaluate with surgeons. Assess anatomical accuracy, instrument behavior and tissue response, turning expert feedback into reproducible benchmarks. - Support more instruments. Move beyond two controlled tools to richer coordination, occlusion and interaction. - Develop autonomous surgical policies. Couple world action models to Cosmos3-H-Dreams in a closed",
+      "title_zh": "NVIDIA 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 NVIDIA 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+          "source_url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams"
+        },
+        {
+          "label": "公开摘要",
+          "text": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams"
+        }
+      ],
+      "slug": "nvidia-cosmos3-h-dreams-bringing-clinical-surgery-to-life-through-genera-4eb9f708",
+      "localized_url": "/zh/items/2026-10-21/nvidia-cosmos3-h-dreams-bringing-clinical-surgery-to-life-through-genera-4eb9f708/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "title_original": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "title_en": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/ted-taylor-restaurant",
+      "published_at": "Tue, 20 Oct 2026 10:00:00 GMT",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "b3fcb2e42d32",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "extracted_excerpt": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "extracted_text_for_analysis": "Franchisee reconciles cash in 94% less time with ChatGPT Work An independent Schlotzsky’s and Cinnabon franchisee cut repricing time by 95% and built a workflow that could free up $100K in cash flow. 95% Reduction in time required for pricing analysis, from 5 days to 1 to 2 hours $100K Maximum annual cash flow that could be freed up with optimized labor workflow 4 Hours of manual work saved every payroll 94% Reduction in time spent on monthly cash reconciliation Ted Taylor entered the restaurant business after a 25-year career in the semiconductor industry. Today, he’s an independent franchisee operating three co-branded Schlotzsky’s and Cinnabon restaurants across New Mexico. Running quick-service restaurants means balancing the customer experience with a lot of work customers never see, like menu pricing, staffing, equipment maintenance, and policies. Ted uses OpenAI technology to get through all of it faster. With ChatGPT, Ted accelerates time-consuming tasks like research and drafting, and he uses ChatGPT Work to gather and analyze volumes of data across pricing, sales, forecasts, schedules, and labor and to get recommendations on where each restaurant needs attention, reducing repricing time by 95% and shaving 4 hours off payroll runs. “ChatGPT Work’s recommendations are so good that it’s much faster to start there and then make adjustments.” Repricing menus is an annual undertaking that requires a complex analysis of recipe costs, item popularity, local competitor pricing, portion sizes, and the different economics of in-store and delivery orders. Ted uses ChatGPT Work to bring those factors together and get pricing recommendations in 1 - 2 hours instead of 5 days. “It used to take me a few days of work to analyze and come up with item-level pricing; whereas, ChatGPT Work tears through it in a matter of moments and does it more thoroughly.” Ted first uses ChatGPT Work to research and establish his pricing targets and pricing strategies based on local competitors’ pricing trends, portion sizes, and relative food quality. He then gives ChatGPT Work a categorized list of menu items with their current in-store and delivery prices. He specifies how much he wants each set of prices to increase overall and which items should receive larger or smaller increases, largely based on the earlier analysis from ChatGPT. He can make the analysis more detailed by adding item-level sales history and supplier prices. ChatGPT Work can use these inputs to estimate sales impacts from price changes and to optimize item-level pricing around cost of goods targets. ChatGPT Work returns a spreadsheet with recommended in-store and delivery prices. It will even relate the pricing changes to an overall pricing strategy designed to optimize business outcomes like customer retention, minimizing price shocks, and best positioning of add-ons. The first time Ted used ChatGPT Work for pricing, he also ran the analysis manually. “ChatGPT Work made a deeper local comparison and helped me avoid increases that would have made some items uncompetitive,” he said. Ted immediately switched to using ChatGPT to develop the first recommendations. Ted uses ChatGPT Work to help manage labor costs in two ways: reviewing how labor is tracking across his three restaurants and testing a better way to build the weekly schedule. For the labor analysis, Ted gave ChatGPT Work read-only access to his sales and labor data. When he runs the analysis, it compares scheduled, budgeted, and actual hours with forecast and actual sales. It also reviews the previous 12 weeks to account for stores that routinely come in above or below their sales forecasts. The resulting report flags overtime, shifts running longer than planned, and gaps in coverage, and highlights what a manager should review. For the scheduling test, Ted gave ChatGPT Work an employee roster with each person’s role, training, availability, and pay, along with the store’s staffing needs at different sales levels. He and the manager compared ChatGPT Work’s proposed schedule with what she would have built, identified missing rules about when to add staff during busy periods, and refined the instructions for ChatGPT Work. ChatGPT Work now produces a full schedule for that location. The manager checks it over, makes adjustments if needed, and enters it into the restaurant’s scheduling system. Ted estimates that better scheduling could eventually reduce hourly labor costs by one to two percentage points of sales across all three restaurants, which could add $50,000 to $100,000 in free cash flow annually that can be utilized for increased pay, bonuses, investment in the business, or increased profit distributions. Ted also uses ChatGPT Work for day-to-day operations, from developing HR policies to reconciling cash and managing supply and repair requests. When New Mexico started requiring restaurants to keep a written procedure for bodily-fluid incidents, Ted used ChatGPT to write a draft in about 30 seconds. When Ted needed a social media policy for his employee handbook, ChatGPT helped him quickly draft guidance that an outside HR firm later reviewed without making any changes. Ted uses ChatGPT Work to reconcile cash monthly across his three restaurants. He uploads each store’s cash transaction data and bank records, and ChatGPT Work compares the transactions with the corresponding deposits. Monthly reconciliation used to take three hours, and now it takes 5-10 minutes. He also cut four hours of manual work from every payroll cycle by using ChatGPT Work to summarize payroll inputs. To help keep restaurants running smoothly, Ted also used ChatGPT Work to build a web portal where employees can request supplies or repairs. The portal notifies him through a dedicated email address and tracks each request’s status. Ted’s approach to using ChatGPT Work is practical for any small-business owner. He gives ChatGPT the same data and guidelines he’d use to make a decision and compares its output with how he’d do the work himself. As he gains confidence in the results, he expands his use to more tasks around the business, always reviewing the results before implementing. For Ted, the value of ChatGPT Work goes beyond hours saved. Now he can do analysis he might otherwise skip and spend more time on customers, employees, and growing the business.",
+      "title_zh": "OpenAI 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+          "source_url": "https://openai.com/index/ted-taylor-restaurant"
+        },
+        {
+          "label": "公开摘要",
+          "text": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+          "source_url": "https://openai.com/index/ted-taylor-restaurant"
+        }
+      ],
+      "slug": "franchisee-reconciles-cash-in-94-less-time-with-chatgpt-work-b3fcb2e4",
+      "localized_url": "/zh/items/2026-10-21/franchisee-reconciles-cash-in-94-less-time-with-chatgpt-work-b3fcb2e4/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "OpenAI acquires Orchestra Bio",
+      "title_original": "OpenAI acquires Orchestra Bio",
+      "title_en": "OpenAI acquires Orchestra Bio",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "published_at": "Tue, 20 Oct 2026 00:00:00 GMT",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "dbaa90254253",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "OpenAI acquires Orchestra Bio",
+      "extracted_excerpt": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "extracted_text_for_analysis": "OpenAI has acquired Orchestra Bio(opens in a new window), a platform that helps biopharma teams coordinate the complex process of drug development. We’re bringing Orchestra’s team and technology together with Rosalind, our AI models and tools for life sciences research. Our goal is to help scientists make discoveries and manage the work needed to turn them into treatments that reach patients sooner. Developing a new medicine is extraordinarily complex, taking roughly 10 to 15 years on average from target discovery to regulatory approval in the United States. Beyond the science, teams must orchestrate programs across internal departments and external partners, often relying on disconnected systems. We’re now at an inflection point where AI can help take on these specialized tasks and complex workflows. Rosalind brings our AI models and tools to life sciences researchers. GPT‑Rosalind helps scientists reason through questions in biology and chemistry. Rosalind Workbench connects those capabilities with scientific tools and data to help researchers analyze results and plan experiments. Orchestra brings a team with experience across biotech, software, and AI, along with a platform built to coordinate drug development. Together, we aim to build agents that help teams connect scientific findings with the studies, decisions, and next steps needed to advance a potential medicine. Orchestra Bio is a platform where people and AI agents work together to advance drug programs. Scientists and program leaders delegate the monitoring and tracking of studies and campaigns to agents, freeing up time to guide the work, make decisions, and address issues before they cause delays. A problem in one part of a drug program can affect many others. A failed manufacturing batch, for example, can delay the start of a clinical trial. Orchestra’s agents help teams identify which activities and timelines are affected, gather the relevant information, and compare ways to respond. Scientists and program leaders can then use that analysis to decide what to do next. Realizing the potential of AI in life sciences requires close collaboration with the organizations working at the forefront of drug discovery and development. Our partnership with Novo Nordisk aims to translate its scale and scientific expertise into faster R&D and commercial execution while maintaining strong governance. At Moderna, AI is helping teams translate insights from complex data into experimental workflows, with the potential to accelerate R&D. Our vision is for AI to help scientists across the full process of discovering and developing new medicines: exploring ideas, designing experiments, interpreting results, and coordinating the work needed to advance promising treatments. Bringing Orchestra Bio together with Rosalind is a step toward that vision. Alongside researchers and our partners, we aim to make more discoveries possible and help new medicines reach patients sooner.",
+      "title_zh": "OpenAI 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "OpenAI acquires Orchestra Bio",
+          "source_url": "https://openai.com/index/openai-to-acquire-orchestra-bio"
+        },
+        {
+          "label": "公开摘要",
+          "text": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+          "source_url": "https://openai.com/index/openai-to-acquire-orchestra-bio"
+        }
+      ],
+      "slug": "openai-acquires-orchestra-bio-dbaa9025",
+      "localized_url": "/zh/items/2026-10-21/openai-acquires-orchestra-bio-dbaa9025/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "title_original": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "title_en": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "summary_zh": "Hugging Face 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/hf-torchtpu",
+      "published_at": "Tue, 20 Oct 2026 00:00:00 GMT",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "Hugging Face"
+      ],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "84cd8d44e982",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "extracted_text_for_analysis": "torch_xla, or you ended up having to learn JAX. With TorchTPU, a native PyTorch backend, TPU is now just another device. It opens up native support of TPU in the Hugging Face ecosystem. Transformers, Diffusers and Kernels run natively on TPU. Pick a model from the Hub, send it to \"tpu\", and you're done. TPU stands for Tensor Processing Unit. TPUs are Google's own AI accelerators. They are chips built for one job: the matrix math that neural networks spend most of their time on. Google has been designing them for about ten years, and uses them to train and serve its own models, including Gemini. TPUs are available on Google Cloud, from a single chip up to pods of thousands of chips. They shine when you need a lot of compute, for training or for serving at scale. The catch has always been software. The TPU stack grew up around TensorFlow and JAX, and PyTorch users had to work harder to get in. Until now, running PyTorch on TPUs meant going through PyTorch/XLA (torch_xla). It worked, but it had its quirks. Tensors were lazy (the tensors, not you), so your code didn't always run when you thought it did. Small changes could trigger graph recompilations, and debugging was hard to reason about. To make life easier, we built Optimum TPU. It gave Hugging Face models inference and training support on TPUs. Now that TorchTPU brings native support, Optimum TPU is not required anymore to run Hugging Face models with Transformers and Diffusers. TorchTPU adds TPU as a new backend to PyTorch. You write regular PyTorch code. It comes with Pallas kernels tuned for TPUs, support for distributed training, and a torch.compile integration for when you want more speed. Installing it on a TPU VM takes one command: pip install torch-tpu --extra-index-url https://download.pytorch.org/whl/cpu The extra index gives you the CPU build of torch. Without it, pip pulls the much bigger CUDA build, which you don't need on a TPU. Transformers v5 was built around one idea: be the source of truth for model definitions, so they can run anywhere. \"Anywhere\" now includes TPUs. To load a model on a TPU, pass device_map=\"tpu\". That's it. from transformers import AutoModelForCausalLM, AutoTokenizer model_id = \"Qwen/Qwen3.5-9B\" model = AutoModelForCausalLM.from_pretrained( model_id, device_map=\"tpu\", # will load model directly on the TPU ) tokenizer = AutoTokenizer.from_pretrained(model_id) inputs = tokenizer(\"The future of AI is\", return_tensors=\"pt\").to(\"tpu\") out = model.generate(**inputs, max_new_tokens=64) print(tokenizer.decode(out[0], skip_special_tokens=True)) The model runs in eager mode by default. You can also use torch.compile for better performance, or run it in a distributed setup. TPU is now a first-class device in Diffusers. For prototyping or debugging, eager mode only needs pipe.to(\"tpu\"). For deployment, compiled mode adds one compile call. Your pipelines and code stay the same, and there's no TPU fork to maintain. import torch from diffusers import StableDiffusion3Pipeline pipe = StableDiffusion3Pipeline.from_pretrained( \"stabilityai/stable-diffusion-3.5-medium\", dtype=torch.bfloat16 ) pipe.to(\"tpu\") # eager mode: that's the whole change # optional: compiled mode pipe.transformer.compile(backend=\"tpu\", fullgraph=True, dynamic=False) image = pipe(\"a corgi astronaut planting a flag on a pizza moon\").images[0] The first call compiles, and every call after that with the same image size reuses the graph. Models too big for one chip? Pass a TensorParallelConfig to from_pretrained and the transformer is sharded across chips as it loads, so the full model never has to fit in one place. Many popular pipelines support it out of the box, and the ones that don't are just a tp_plan away. The Diffusers TPU guide has the full recipe. Here are some examples run on a Cloud TPU v6e-4: TP=4 (each model split across four chips) · bf16 · batch 1 The Kernels Hub has ready-to-use TPU kernels. Load one with the Kernels library and give your model a speed boost. TPU kernels are written in Pallas, which gives you low-level control over the hardware. You can also bring in kernels from the Tokamax library. Here is a ragged-dot kernel from Tokamax plugged into a Mixture-of-Experts model: from kernels import get_kernel from transformers import AutoModelForCausalLM from transformers.integrations.moe import ALL_EXPERTS_FUNCTIONS repo_id = \"tengomucho/ragged-dot-tpu\" kernel = get_kernel(repo_id, version=1, trust_remote_code=[repo_id]) ALL_EXPERTS_FUNCTIONS.register(\"tokamax_ragged_dot\", kernel.experts_forward) model = AutoModelForCausalLM.from_pretrained( \"Qwen/Qwen3-30B-A3B-Instruct-2507\", experts_implementation=\"tokamax_ragged_dot\", ) The bigger the batch, the bigger the win. At batch size 64, decoding is 21.5× faster on Qwen3-30B-A3B and 12.8× faster on Gemma 4 26B-A4B. Decode throughput on a TPU v6e-8, Hub kernel vs. the default implementation. We're continuously improving TPU support in transformers by running the library test suite. We are working to add a nightly CI on TPU and make the results available in the (transformers dashboard)[https://huggingface.co/spaces/transformers-community/transformers-ci-dashboard]. The Transformers CI dashboard, with TPU results next to other accelerators. Work in progress! It's not all green yet, and we're fine with that. Of the tests that run on TPU, 96.5% pass. Every failure we find becomes a small repro script and an issue on the TorchTPU repo. So far we have reported 34 issues, and 19 are already fixed. Running on TPU also caught a few bugs in Transformers itself, like in StaticCache and the Qwen3 tensor-parallel plans. We fixed those upstream. If something breaks on TPU, we want to find out before you do. TPUs are no longer a side quest for PyTorch users. Install TorchTPU, grab a model from the Hub, and send it to \"tpu\". We can't wait to see what you build 🤗. If you hit a problem, open an issue and tell us about it.",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。",
+        "涉及公司或机构：Hugging Face。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+          "source_url": "https://huggingface.co/blog/hf-torchtpu"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/hf-torchtpu"
+        }
+      ],
+      "slug": "hugging-face-torchtpu-tpus-natively-84cd8d44",
+      "localized_url": "/zh/items/2026-10-21/hugging-face-torchtpu-tpus-natively-84cd8d44/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "【イベントレポート】Sakana AI Engineer Open House 2026",
+      "title_original": "【イベントレポート】Sakana AI Engineer Open House 2026",
+      "title_en": "【イベントレポート】Sakana AI Engineer Open House 2026",
+      "summary_zh": "Sakana AI 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+      "summary_en": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Sakana AI Blog",
+      "source_url": "https://sakana.ai/blog/",
+      "original_url": "https://sakana.ai/open-house-2026/",
+      "published_at": "2026-10-21T00:00:00+09:00",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
+      "category": "research-open-source",
+      "people": [],
+      "companies": [
+        "Sakana AI"
+      ],
+      "tags": [
+        "research",
+        "agents",
+        "japan"
+      ],
+      "importance_score": 52.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "89605950a529",
+      "language": "en",
+      "source_type": "research_lab",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Sakana AI",
+      "extracted_excerpt": "【イベントレポート】Sakana AI Engineer Open House 2026",
+      "extracted_text_for_analysis": "2026年10月5日、Sakana AIは昨年に続き2回目となるエンジニア向けOpen Houseを開催しました。昨年はApplied Research Engineerに絞った内容でしたが、今年はApplied Research Engineer / Forward Deployed Engineer / Software Engineer / Solution Engineer / Cybersecurity Engineerの5職種を対象として、各職種で働くメンバーが「何をしているか」「何が面白いか」などを語りました。また、Q&Aセッションには多くの質問が寄せられました。本記事ではイベントの内容をお伝えします。 会社紹介：日本からAI主権をつくる —— David Ha 共同創業者兼CEOであるDavid Haの会社紹介から始まりました。ゴールドマン・サックスのデリバティブ・トレーダーから研究者へ転身し、Googleで「World Models」や「Sketch-RNN」など現代の生成AIの基礎となる研究に携わってきたDavidは、「キャリアチェンジを考えている皆さんと同じで、私もキャリアを変えた一人です」と来場者に語りかけました。 会社紹介を行う共同創業者兼CEOのDavid Ha 社名の「Sakana AI」には、絵本『スイミー』に着想を得た思想が込められています。知性とは一匹の魚ではなく、群れ全体の「集合知」である。他と同じ方向に泳ぐのではなく自分たちの方向を見出し世界に挑む——このアイデンティティがSakana AIの根底にあります。 Davidが見据えるのは「日本から世界と戦えるAI企業をつくること」です。海外製のオープンソースモデルには開発国の政治的・文化的バイアスが含まれ、日本の政治や文化に関する質問に誤答したり回答を拒否したりする課題があります。 そこでSakana AIは事前学習（Pre-training）、事後学習（Post-training）、オーケストレーション（Orchestration）の3層で「AI主権」の確立を進めています。事前学習では日本独自のエージェント・ネイティブLLMをスクラッチから開発し、事後学習ではSakana AIが開発した「Namazu」によって海外モデルを日本の文化・習慣に適応させ、オーケストレーションでは地政学リスク等で海外モデルが使えなくなる事態に備え、複数モデルを賢く切り替える「Fugu」を展開しています。 直近半年でSakana Chat, Sakana Marlin, Sakana Fugu, Sakana Translateとプロダクトポートフォリオを一気に拡充しました。Sakana AIは今後、「エンタープライズ事業」「政府・防衛向け事業」「プロダクト事業」を柱に、日本発のグローバルAI企業として成長を加速させていく、とDavidは語りました。 部門紹介：4つの部門が、いま何をしているか 部門紹介パートでは、Applied Team（金融領域／防衛領域）、Product Team、GTM Teamについて、各チームのマネージャーが説明しました。 Applied Team（金融領域） —— 中川貴徳 Appliedチームで金融領域をリードする中川は、MUFG、大和証券グループ、SMBCグループといった大手金融機関と、経営層から現場までを巻き込んでAIソリューションを提供していると説明しました。 これまでSakana AIが得意としてきたのは議事録作成やコールセンターのような「オペレーション」領域ではなく、抽象度が高く、総合判断を要する「意思決定支援」の領域です。中期経営計画の策定、マクロ環境分析、M&A提案、高度な与信判断など、数百・数千のデータソースを統合し、数億円規模以上のインパクトやリスクを伴う判断を支えます。市場にまだソリューションが存在しない領域だからこそ、差別化の源泉になる、と中川は語りました。 そのため、チームには元投資銀行のバンカーや元戦略コンサルのアナリストといったドメインエキスパートが在籍し、エンジニアと一緒にソリューションをつくっています。また、ソリューション事業には単体でのスケーラビリティがないため、Forward Deployed Engineerが顧客先で解いた課題やアセットをプラットフォームへ還流させ、次の案件やプロダクトに活かすサイクルを回していると説明しました。直近ではサイバーセキュリティや製造業など、テーマは金融以外にも広がり始めているとのことです。 Product Team —— 大村壮太 Head of Productの大村は、半年前にSakana Chatをリリースして以降、Sakana Chat, Sakana Marlin, Sakana Fugu, Sakana Translate, Sakana Namazuと、半年で多くのプロダクトを出してきたと説明しました。Appliedチームが大手顧客との案件で得た成果からユースケースを抽出してプロダクト化する一方、Researchからアイデアの種をもらうことも多く、両者と密接に連携しています。 チームはプロダクト単位で編成され、コンシューマー（Sakana Chat、Sakana Translate）、エンタープライズ（Sakana Marlin）のそれぞれにビジネスリードとテックリードを置き、その下に各職種のメンバーが入る体制です。メンバーは20名強で、日本・インド・中国など多国籍。SWE、PM、ARE、デザイナー、セールス、マーケティングと、プロダクトをつくって売るために必要な職種が揃っており、チームは拡大中であると話しました。 GTM Team —— 柿島英和 柿島はAWS Japanの立ち上げ、SORACOMの創業メンバー、Skydio日本法人代表を経て、Sakana AIでGTM部門を立ち上げました。GTMチームは2026年9月に立ち上がったばかりで、Account Executive 3名、Forward Deployed Engineer数名と、今まさにチームをつくっている段階だと話しました。 GTMのFDEは、商用プロダクトを顧客のシステムと業務に「深く刺す」役割です。問い合わせをくれた顧客自身も「どう実装していいかわからない」ことが多いため、AEと一緒に課題を探索し、まず動くものを見せ、インテグレーションまで支援します。そこで得た顧客の声をProductやResearchに戻していきます。 Applied Team（防衛領域） —— 沢田恭兵 Applied Research Engineerでエンジニアリングマネージャーも務める沢田が防衛事業について説明しました。 強調したのは、自国でモデルを持つ「主権AI（Sovereign AI）」から、必要なときに必要なAIにアクセスできる「AI主権（AI Sovereignty）」という考え方です。複数のモデルを評価・選択・統合運用し、あるモデルが使えなくなっても別のモデルに切り替えられる。このルーティング技術こそが安全保障の文脈で重要になるという見方は、フロンティアAIを「単一の技術ではなくエコシステム」と捉えるSakana AIの思想と直結しています。 具体的な取り組みとして、防衛省情報本部との「総合分析業務に必要なAI機能の調査・実証」、および防衛装備庁 防衛イノベーション科学技術研究所との委託研究を紹介しました。 職種紹介：メンバーが語るエンジニア職種 ここからは、各職種で働くメンバー自身による職種紹介です。Sakana AIではForward Deployed EngineerやSoftware Engineerなど、エンジニア職種だけでも多くのポジションがオープンしています。 - Applied Research Engineer：リサーチのバックグラウンドを持つ人が多く、プロジェクトの中でソリューションの核となる技術的に難しい部分にチャレンジする。 - Forward Deployed Engineer：顧客の業務を理解し、ドメインモデル（業務の概念やルールを整理した設計）をつくり、AREと一緒にソリューションを組み立てて精度改善を進める。そのため、AIの能力も求められる。また、プラットフォームを使い、プラットフォーム自体を磨いていくのもミッション。 - Software Engineer：汎用的で堅牢なAIプロダクト・プラットフォームを、優れたUI/UXも含めて構築し、継続的に進化させる - Solution Engineer：AREやFDEがつくったソリューションを、顧客のシステムの中で動くように導入し、業務で使えるようにする。 - Cybersecurity Engineer：システム開発プロセスのシフトレフト、データ保護に関する要件定義・設計・実装、脆弱性診断等の技術的なリスク評価、システムの脆弱性管理などを推進する 各職として働くメンバーがそれぞれの役割の中でのおもしろさ、やりがいなどについて語りました。 Applied Team（金融領域） / Applied Research Engineer —— 村上直輝 「自分の案件がSakana AIの成長にも、お客さんの会社の成長にも直結している。それをオーナーシップを持って進められるのが面白い」と語る 村上はKaggle Competitions Grandmasterで、人工知能オリンピック日本委員会の理事も務めています。Sakana AIでは金融機関向けの営業支援プロジェクトを担当しています。顧客の課題をAIでどう解くかを整理し、実装まで自分で行います。「働き方はFDEに近づいている」と話し、週2〜3日は顧客のオフィスに出向き、そこでしか触れない実データで開発を進めています。 業務の面白さとして、多様なバックグラウンドを持つ優秀なメンバーからの学びが多いこと、そして規模の大きい案件にオーナーシップを持って関われること、という2点を挙げました。 Applied Team（金融領域） / Applied Research Engineer —— 太田真人 『現場で活用するためのAIエージェント実践入門』の共著者でもある太田は、MUFGとの融資AIエキスパート開発をリードしてきました。「AREと言いつつ、最近はFDEの仕事もたくさんしていて、自分がどっちなのかわからなくなってきている」と笑いつつ、Sakana AIで大事なのは職種の枠に収まりすぎないことだと話しました。 「会社の方針は変わり続けます。そのたびに全力で適応して、やれることをひたすらやる。」と語る 金融チームの特徴は、1つのプロジェクトにBiz、Software Engineer、Applied Research Engineer、FDEを含めて10人ほどをアサインすること。一般的な3〜4人体制より大きく、プロジェクトごとに「小さな会社」のようなカルチャーが生まれると話しました。研究論文を追いながら、それを顧客の業務課題にどう適用できるか考えるのがApplied Researchの醍醐味だと語りました。 Product Team / Applied Research Engineer —— Kriti Agarwal IIT Bombay卒業後、AIスタートアップでプロダクト開発チームを率いたKritiは、2026年6月にProductチームのAREとして入社しました。「AREは会社によってProduct EngineerやSolution Engineerとも呼ばれる役割」と前置きし、エージェントのハーネスやメモリといった、LLMを「テキストを出力するだけのもの」から「実際に仕事をするシステム」に変える部分を開発しています。 Productチームで活躍するのはどんな人か。Kritiは4つ挙げました。 - Ships fast：1か月磨くより、今週ユーザーに届けることを選ぶ人 - Turns research into product：論文を読んで「これがプロダクトになったら」と想像できる人 - Starts from the user’s problem：AIは手段であって目的ではないと考える人 - Owns it end to end：アイデアからローンチ、その後まで自分ごととして持てる人 メルカリでKubernetes上のCI/CD基盤、CloudbaseでクラウドセキュリティSaaSの開発を経て、2025年10月に入社した岩井は、Platformチームのリードを務めています。各案件で見つかった共通課題や使える技術をプラットフォーム化し、社内に展開するのがミッションです。 具体的には、顧客データを統合してエージェントが検索できる検索基盤、数時間に及ぶ長時間実行を支えるランタイム、エージェントが業務ナレッジを蓄積する長期記憶のためのナレッジベースなどです。 岩井が面白いと感じているのは、エージェント時代のアーキテクチャをゼロから考えられること。「これまでは長くても5分で終わるトランザクションを大量にさばくのが主でしたが、LLMの登場でジョブベースの長時間タスクが増えた。データ構造も変わるし、長期記憶のようなエージェント特有のモジュールも必要になる。『エージェント時代の最適なアーキテクチャとは何か』を考えてプラットフォームに落とすのが面白い」と語りました。 Platformチームはドキュメントは英語、会話は英語と日本語を混ぜて働いており、海外のトップ企業出身のメンバーも多く在籍しています。「自分ももともと英語が得意ではなかったが、話す機会があるので練習になっている」と話しました。 Applied Team（防衛領域） / Software Engineer —— 高橋賢 LINEヤフーでYahoo!フリマのバックエンド開発と生成AI機能のテックリードを務め、Sakana AIに入社した高橋は、現在、防衛・インテリジェンス領域のSoftware Engineer兼スクラムマスターを担当しています。 「フルスタックに設計・開発し、技術的な実現性や非機能要件も含めて少数精鋭で安定したシステムを構築することを目指しています。顧客先を訪問して業務ヒアリングやソリューション提示も行います」と語りました。 toCサービスから防衛という大きなキャリアチェンジでしたが、面白さは3つあると語りました。 - ドメイン：国防・安全保障という巨大で重要であり、大きなインパクトを出すことができる領域 - 人：エンジニアはKaggle Grandmaster、Ph.D.、GAFAM出身など。ビジネス側は現役予備自衛官や元省庁勤務のドメインエキスパートなど。定期的な勉強会でドメイン知識をキャッチアップしている。 - 技術：Webアプリにとどまらず、指揮統制に必要なネットワークやドローン、インテリジェンス分析のためのデータ統合、それらを繋ぐ大規模アーキテクチャまで、情報統制の厳しいドメインの中でどう繋ぐかを考える。 Applied Team（金融領域） / Solution Engineer —— 桐生宜昭 桐生は、AWS JapanでCloud Support EngineerとTechnical Account Managerを経験し、2026年7月に入社しました。融資AIエキスパートシステムの導入に向けたエンタープライズ版のデリバリー（要件定義、設計、Kubernetes/CI/CDなどのインフラ構築）を担当しています。 Solution Engineerの役割を、桐生は3つのキーワードで説明しました。 - つなぐ：AREとSWEがつくったAIアプリケーションを、顧客の既存システム・インフラ・クラウドに統合する - 守る：立ち上げたシステムの信頼性を保ち、たとえば全行員が使えるレベルまでスケーリングさせ、それを担保する - 届ける：PoCで終わらせず、ちゃんと動かして、動かし続けて、価値を出すところまでやる 「ベンチャーでもPoCで終わるプロジェクトはたくさんあります。Sakana AIの一番の違い、Solution Engineerの一番の役割は『届ける』ことです」と語りました。 Cybersecurity Engineer —— 吉川允樹 吉川は攻撃側（脆弱性診断、ペネトレーションテスト）から守る側（SOC、インシデントレスポンス、脅威インテリジェンス）まで一貫してセキュリティ畑を歩んできました。「エンジニアだが、やっていることはエンジニアだけでも、サイバーだけでもない」と語るとおり、業務は多岐にわたります。 -",
+      "title_zh": "Sakana AI 推进研究与开源进展",
+      "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+      "key_points_zh": [
+        "主体是 Sakana AI，核心变化集中在研究与开源进展。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：research、agents、japan。",
+        "涉及公司或机构：Sakana AI。"
+      ],
+      "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "【イベントレポート】Sakana AI Engineer Open House 2026",
+          "source_url": "https://sakana.ai/open-house-2026/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Sakana AI has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://sakana.ai/open-house-2026/"
+        }
+      ],
+      "slug": "sakana-ai-engineer-open-house-2026-68d37cee",
+      "localized_url": "/zh/items/2026-10-21/sakana-ai-engineer-open-house-2026-68d37cee/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Sundar Pichai: Google’s Frontier Imperative, Compute Scarcity Dilemmas, Future AI Products and Businesses",
+      "title_original": "Sundar Pichai: Google’s Frontier Imperative, Compute Scarcity Dilemmas, Future AI Products and Businesses",
+      "title_en": "Sundar Pichai: Google’s Frontier Imperative, Compute Scarcity Dilemmas, Future AI Products and Businesses",
+      "summary_zh": "Google 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Google’s CEO on sacrificing cloud revenue for AI research, the future of personal agents, and why he remains confident in the compute buildout.",
+      "source_name": "Big Technology Podcast",
+      "source_url": "https://www.bigtechnology.com/",
+      "original_url": "https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative",
+      "published_at": "Tue, 20 Oct 2026 17:47:40 GMT",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
       "category": "podcasts-interviews",
       "people": [
-        "Jensen Huang"
+        "Sundar Pichai"
       ],
+      "companies": [],
+      "tags": [
+        "tech-media",
+        "ai",
+        "interview"
+      ],
+      "importance_score": 50.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "ece71e98b5a8",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Google 讨论AI 代理工程与工具调用能力",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Google，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：tech-media、ai、interview。"
+      ],
+      "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Sundar Pichai: Google’s Frontier Imperative, Compute Scarcity Dilemmas, Future AI Products and Businesses",
+          "source_url": "https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Google’s CEO on sacrificing cloud revenue for AI research, the future of personal agents, and why he remains confident in the compute buildout.",
+          "source_url": "https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative"
+        }
+      ],
+      "slug": "sundar-pichai-googles-frontier-imperative-compute-scarcity-dilemmas-futu-ece71e98",
+      "localized_url": "/zh/items/2026-10-21/sundar-pichai-googles-frontier-imperative-compute-scarcity-dilemmas-futu-ece71e98/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+      "title_original": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+      "title_en": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
+      "published_at": "Tue, 20 Oct 2026 05:00:00 +0000",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
       "companies": [
         "NVIDIA"
       ],
@@ -42,18 +439,18 @@
         "chips",
         "podcast"
       ],
-      "importance_score": 66.0,
+      "importance_score": 48.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "037c22a3c293",
+      "duplicate_group_id": "da0190405639",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
       "extraction_status": "success",
       "quality_warnings": [],
-      "extracted_title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-      "extracted_excerpt": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany’s AI roadmap, and in particular, the industrial applications of AI. Huang opened by",
-      "extracted_text_for_analysis": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany’s AI roadmap, and in particular, the industrial applications of AI. Huang opened by tracing NVIDIA’s longstanding relationship with German industry, beginning with gaming systems, workstations and automotive design in the early 2000s and leading to today’s partnerships in autonomous vehicle development and digital twins for manufacturing. The conversation focused on how Germany can make the most of the AI revolution by playing to its strengths in manufacturing and automotive — and by encouraging AI adoption across the country’s ecosystem of small and medium-sized companies. Earlier in the day, as part of the Invest in Germany Summit, Chancellor Merz, the Federal Ministry for Economic Affairs and Energy and the Federal Ministry for Research, Technology and Space signed a Joint Declaration of Intent with NVIDIA. The German federal government’s aim is to merge traditional German engineering and manufacturing expertise with cutting-edge research and AI technology. The declaration sets out an agreement to work on a joint initiative with NVIDIA to advance cutting edge AI models for physical AI. Formalizing and expanding NVIDIA’s collaboration with Germany’s federal government and its “Industry 4.0 Platform,” which is comprised of representatives from politics, industry, research and trade associations, helps achieve the government’s stated goal to “systematically bring industrial AI into widespread use and to establish a state-of-the-art industrial AI ecosystem in Europe.” Germany’s Ambition to Integrate AI With Industry Merz and Huang dug into industrial AI and how NVIDIA can help Germany lead the way. The German Chancellor first laid out his government’s ambition. “We are fully committed to be one of the most advanced places in the world, not just in the European Union, but in the world to work with AI, to integrate AI into our industry,” Merz said. “I’m really optimistic that we will be one of the leading, if not the leading, country in the world in terms of the spread of AI for all the companies — our manufacturers, machinery, automotive industry and suppliers of the automotive industry. I think this is a great opportunity.” Merz called out the leaders of the small and medium businesses — the Mittelstand — in the audience. “The biggest advantage we have in Germany is our so-called Mittelstand,” Merz said. “Please open your doors for AI to make use of your data. This is a real secret and a real advantage for Germany to make use of all the data which is already available in our companies.” Huang agreed, and praised Germany’s world-class expertise in manufacturing companies both large and small, as well as its math and science excellence. That national expertise and knowledge is what sets the German economy apart, he said, and AI will only amplify it. “That knowledge belongs to you,” Huang said. “It cannot be replaced. AI can only augment your capability, it will not replace your capability. Take advantage of the technology. It’s a new instrument.” Germany’s expertise with physical technologies is a differentiator, Huang and Merz agreed, and a powerful accelerator for the German economy when AI is included. “If we are successful in bringing these two aspects and parts of the business of the future together,” Merz said. “I’m really very optimistic that Germany can be one of the most successful economies in the world.” Huang described AI’s impact across virtually every industry as a new industrial revolution. “This industrial revolution is so mighty, so powerful,” Huang said. “In the Chancellor’s words, you are re-engineering Germany. This is your chance to do it well.” Merz envisioned a regular reunion with Huang to assess the progress Germany is making with AI. “I would like to see him regularly, let’s say at least once a year, and discuss the progress we made,” Merz said, “And see a guy sitting in my office being extremely happy about Germany as a place to invest.” NVIDIA’s Investments in Germany Huang also announced new investments in four German startups, part of a nearly $10 billion commitment by NVIDIA to support companies, universities, research institutions and more across Europe. NVIDIA has been investing across Germany’s startup ecosystem, supporting leading technology companies including n8n, Neura Robotics and Black Forest Labs. Today, Huang announced new planned investments in Agile Robots, Avelios Medical, Mirelo and Reflex Aerospace. Agile Robots, a Munich-based robotics company, builds AI-powered robots, from robotic arms to its Agile ONE humanoid, for manufacturing, logistics and healthcare. Avelios Medical, a Munich-based healthcare technology startup, develops an AI-native hospital information system that serves as the core system of record for clinical and administrative workflows, integrating AI directly into hospital operations to free up doctors and nurses to deliver better patient care. Mirelo, a German startup, develops AI models that generate sound effects, speech and music for video, helping creators and production teams produce high-quality audio that perfectly matches their visuals on screen. Reflex Aerospace, a Berlin-based space scaleup, designs and builds high-performance satellites ready for launch in about 12 months instead of years. Siemens and NVIDIA Advance Autonomous Manufacturing; Record-Breaking Quantum Simulation Earlier in the day, Siemens announced it’s partnering with NVIDIA to advance AI-driven, autonomous factories. Siemens showcased new AI solutions at its Erlangen factory, advancing its role as a global blueprint for autonomous manufacturing. Fully virtual production ramp-up reduces engineering effort by up to 85%, while agent-based production planning enables more adaptive manufacturing and cost savings of up to 20%. NVIDIA researchers used JUPITER, Europe’s largest supercomputer at the Jülich Supercomputing Centre, to run a record-breaking simulation of a fault-tolerant quantum computer. The 104-qubit simulation is the largest and most detailed of its kind to date.",
+      "extracted_title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+      "extracted_excerpt": "Part of NVIDIA Inception and the BSC AI Factory Accelerator Programme, the companies are advancing technologies for healthcare providers, utilities and more.",
+      "extracted_text_for_analysis": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some of the BSC AI Factory services are available through the NVIDIA Inception portal. NVIDIA Inception complements the BSC AI Factory Accelerator Programme by providing members with training through NVIDIA Deep Learning Institute open courses, business mentoring, venture capital connections and other resources. An upcoming extension of MareNostrum 5 — BSC’s public infrastructure serving scientific and technological innovation, powered by NVIDIA accelerated computing — will deliver supercomputing access through the BSC AI Factory and other AI Factories across Europe. BSC AI Factory is among Europe’s first AI factories and the first in Spain, and has delivered more than 800 services to private and public-sector clients since its April 2025 launch. Three Inception members were recently named the BSC AI Factory Accelerator Programme’s AI Champions at the pilot initiative’s demo day: Qatium’s water-network platform — already used by more than 250 utilities in 16 countries — is now in early production with its Neural Water Intelligence technology, powered by proprietary AI models trained on MareNostrum 5. Built on NVIDIA accelerated computing, the NVIDIA cuGraph library, the NVIDIA PhysicsNeMo framework and NVIDIA Nemotron open models, the technology helps water utilities make better operational decisions every day. OneCareAI, a research spin-off from BSC, used NVIDIA NIM microservices to develop technology designed to identify signs of hidden atrial fibrillation — an irregular heart rhythm — in seemingly normal ECGs, helping clinicians identify patients who may be at risk of stroke before one occurs. Avatia built a voice-first, multi-agent system that provides pharmaceutical companies with agentic coworkers that support sales representatives and give doctors transparent, curated information about medicines, ultimately helping the right treatment reach the right patient sooner. The system taps into NVIDIA NIM microservices, the NVIDIA Nemotron 3 open model family and the open source NVIDIA NeMo Curator library. Other BSC AI Factory startups — Agrikola AI, Elna Health, Lokutor, Montevive AI, Oppy, Pack2Earth and Up2Smart — span precision agriculture, medical imaging and knowledge access, speech services, enterprise security, sales intelligence and sustainable packaging. The cohort reflects the breadth of what advanced intelligence can now unlock: preventing strokes, detecting breast cancer subtypes before biopsy, putting medical knowledge at doctors’ fingertips faster, replacing petroleum-based plastic with biobased compostable materials, protecting crops with robots instead of chemicals and more. Learn more about NVIDIA Inception and the BSC AI Factory Accelerator Programme.",
       "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
@@ -69,168 +466,32 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
-          "source_url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/"
+          "text": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+          "source_url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/"
         },
         {
           "label": "公开摘要",
-          "text": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany’s AI roadmap, and in particular, the industrial",
-          "source_url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/"
+          "text": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support",
+          "source_url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/"
         }
       ],
-      "slug": "germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help-81b55b50",
-      "localized_url": "/zh/items/2026-10-20/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help-81b55b50/",
+      "slug": "spain-based-startups-advance-regional-innovation-with-barcelona-supercom-d88fd01a",
+      "localized_url": "/zh/items/2026-10-21/spain-based-startups-advance-regional-innovation-with-barcelona-supercom-d88fd01a/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Advancing coding in low‑resource programming languages",
-      "title_original": "Advancing coding in low‑resource programming languages",
-      "title_en": "Advancing coding in low‑resource programming languages",
-      "summary_zh": "OpenAI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/low-resource-programming-languages",
-      "published_at": "Mon, 19 Oct 2026 12:00:00 GMT",
-      "fetched_at": "2026-10-20T01:06:22.152009+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "7a364f356aab",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "Advancing coding in low‑resource programming languages",
-      "extracted_excerpt": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "extracted_text_for_analysis": "Our latest model advances bring stronger capabilities for building and migrating software in low-resource programming languages such as COBOL, Fortran, and Visual Basic. These languages have less code and documentation available for models to learn from than languages like Python and JavaScript, yet support critical infrastructure and essential services around the world. COBOL supports(opens in a new window) more than 40% of online banking systems, 80% of in-person credit card transactions and 95% of ATM transactions, while Fortran is used in weather forecasting(opens in a new window) and nuclear reactor safety analysis(opens in a new window). Improving AI’s ability to work in these languages could help teams maintain and modernize the software that essential services depend on. This work is guided by feedback from developers and enterprise customers who have told us that coding models often struggle with these languages. Maintaining and modernizing this software can be difficult: documentation may be incomplete, original developers may have left the company, and important business rules may only exist in code. Whether teams are fixing bugs or migrating to another language, they need to preserve the behavior their systems depend on. To measure progress, we developed two evaluations. MultiLangBench tests whether a model can build a SQLite-compatible database engine from scratch across 20 different programming languages. Our COBOL migration evaluation tests whether a model can migrate existing programs to another language while preserving their behavior. Together, they test two complementary skills: building new software and preserving what existing software does. Our latest models show substantial improvements across both evaluations, delivering much higher accuracy at lower cost. On MultiLangBench, GPT‑6 Astra achieves an average test pass rate of 87.4% across 20 programming languages, up from 26.8% for GPT‑5.6 Sol, with improvements in every language tested. GPT‑6 Luna also outperforms GPT‑5.6 Sol, reaching 40.3% at approximately 78% lower estimated API cost. On our COBOL migration evaluation, GPT‑6.1 Sol achieves 86.6% accuracy at low reasoning effort, compared with just 5.4% for GPT‑5.6 Sol, while costing 39% less. At higher reasoning effort, accuracy reaches 97.9%, nearly saturating the evaluation. Together, these results show that our models are becoming significantly better at working with a wide range of programming languages, while also becoming more cost-efficient. MultiLangBench asks a model to build a SQLite-compatible database engine in a specified programming language. The model must organize a codebase, manage state, handle errors, and add new features while preserving existing functionality. To compare implementations across languages, we use database files as a shared interface. The candidate program receives an initial database and a SQL query, then produces a modified database. We use the reference SQLite implementation to check whether the resulting database has the expected contents. This lets us apply the same tests regardless of the language used to build the engine. We adapted tests from SQLite’s existing test suite to this format. The evaluation measures how much working functionality a model can build over an extended coding session, reporting both test pass rate and API cost. At maximum reasoning effort, GPT‑6 Astra achieves an average test pass rate of 87.4% across the 20 languages, up from 26.8% for GPT‑5.6 Sol. Improvements extend to every language tested, including COBOL (10.9% to 72.1%), OCaml (25.6% to 85.8%), Fortran (21.4% to 83.5%), and Visual Basic (27.5% to 89.4%). Astra scores above 83% in 19 of the 20 languages, with COBOL remaining the hardest at 72%. GPT‑6 Luna offers a lower-cost option that also improves on GPT‑5.6 Sol in every language tested. At maximum reasoning effort, it reaches an average test pass rate of 40.3%. Gains include COBOL (10.9% to 17.1%), OCaml (25.6% to 34.1%), Fortran (21.4% to 31.4%), and Visual Basic (27.5% to 41.6%). These improvements come at an estimated average API cost of $0.77 per sample, compared with $3.48 for GPT‑5.6 Sol, approximately 78% lower. We are releasing the MultiLangBench evaluation setup and test suite on GitHub(opens in a new window), along with results for each language. Developers can inspect what the evaluation tests, review performance in the languages they use, and identify gaps that matter for their own work. Our second evaluation asks models to migrate COBOL programs to C++, Java, Kotlin, Python, or Rust while preserving what each program does. Successful migration requires understanding both the program’s business logic and COBOL’s specific language behavior. COBOL programs often process financial transactions and business records, where details such as rounding rules and missing-record handling reflect business requirements. For example, COBOL’s fixed-point arithmetic discards excess decimal digits unless rounding is explicitly requested. A rewrite that rounds those values instead can run without errors while producing different financial results. To test whether these behaviors are preserved, we evaluate our models on hidden tests that require byte-for-byte parity on observable outputs. A migration is considered successful only if all tests pass. Behavior-preserving capabilities like these are useful for teams maintaining and modernizing older systems, though applying it to production software still requires expert review and testing against the system’s business rules and dependencies. On this evaluation, GPT‑6.1 Sol achieves 86.6% accuracy at low reasoning effort, compared with GPT‑5.6 Sol’s 5.4% at the same setting at just 61% of the API cost. At higher reasoning effort, accuracy reaches 97.9%, bringing the evaluation close to saturation. These evaluation results demonstrate progress toward more accurate, affordable code migration for teams modernizing the software their businesses depend on. These evaluations, alongside direct feedback from developers and enterprise customers, help us see where our models are improving and where they still fall short. Our goal is to help models apply software engineering skills across more languages: understanding unfamiliar repositories, planning changes, using build tools, running tests, and debugging failures. You can try our latest models through the API on coding tasks in the languages your team uses. Your feedback on what works, where the models struggle, and which languages or workflows we should focus on next helps shape how we train and evaluate models to better support the software you depend on.",
-      "title_zh": "OpenAI 推进代码评测可靠性问题",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在代码评测可靠性问题。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [
-        {
-          "term": "coding",
-          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Advancing coding in low‑resource programming languages",
-          "source_url": "https://openai.com/index/low-resource-programming-languages"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-          "source_url": "https://openai.com/index/low-resource-programming-languages"
-        }
-      ],
-      "slug": "advancing-coding-in-lowresource-programming-languages-7a364f35",
-      "localized_url": "/zh/items/2026-10-20/advancing-coding-in-lowresource-programming-languages-7a364f35/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-      "title_original": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-      "title_en": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-      "summary_zh": "NVIDIA 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is",
-      "source_name": "NVIDIA AI Podcast",
-      "source_url": "https://blogs.nvidia.com/ai-podcast/",
-      "original_url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
-      "published_at": "Mon, 19 Oct 2026 15:00:31 +0000",
-      "fetched_at": "2026-10-20T01:06:22.152009+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [
-        "NVIDIA"
-      ],
-      "tags": [
-        "nvidia",
-        "chips",
-        "podcast"
-      ],
-      "importance_score": 48.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "24f0298eed38",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-      "extracted_excerpt": "Expanded sovereign standards with the EBU help European broadcasters protect editorial independence and cultural identity, while NVIDIA-accelerated Adobe Frame.io workflows help studios find content faster across massive content libraries.",
-      "extracted_text_for_analysis": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration partners, while Adobe Frame.io is accelerating video agent search capabilities with NVIDIA GPUs, helping German TV and film producer UFA find the right moments faster. Read more about both announcements below. Sovereign Clouds and Open Models Built for European Broadcasters The EBU and NVIDIA are expanding the sovereign standards they introduced last year for European public service media. The initiative now brings in sovereign cloud providers, open model developers and systems integrators to define how broadcasters can deploy agents while keeping control of their data, infrastructure, models and security. The EBU is the world’s leading alliance of public service media, with over 115 member organizations in more than 55 countries reaching over 1 billion people. As agents move into newsrooms, production and audience services, those broadcasters need a foundation that protects editorial independence, data sovereignty and national resilience. The expanded initiative is turning those principles into deployable services. It’ll define requirements and reference architectures for where workloads run, how data is governed, which models power services and how systems stay secure throughout their lifecycle. “These standards give EBU members a shared foundation to strengthen resilience, retain control and deliver accountable advanced services that sustain audience trust,” said Annsofi Eriksson, chief technology officer at the EBU. Cloud providers will map the standards to sovereign deployment options: - Microsoft will bring expertise from Microsoft Sovereign Cloud, including Azure Local and Foundry Local, so broadcasters can process sensitive editorial material locally and keep critical services running when external connectivity is down. - Nebius offers a platform for broadcasters to train, fine-tune and run their own models on European infrastructure. Open models give broadcasters the visibility to inspect, evaluate and adapt AI for local languages, archives and editorial policies. NVIDIA Nemotron open models provide a foundation broadcasters can customize for domain-specific applications and public-service requirements. “Sovereign cloud infrastructure and open models can help Europe’s public service media innovate while protecting data, editorial independence and cultural diversity,” said Delphine Ernotte, CEO of France Télévisions and president of the EBU. Media-specific consulting and systems integration provided from Qvest and other system integrators to ensure that reference architectures are practical, interoperable and deployable in real world broadcast environments. Adobe Frame.io Speeds Video Search With NVIDIA Accelerated Computing Also at the event, Adobe is highlighting its latest enhancements that help creatives search through video data faster. Adobe is using NVIDIA accelerated computing to help creative teams find and work with video content faster. Its GPU-accelerated search pipeline uses NVIDIA NVDEC for video decoding, TensorRT for optimized AI inference and the CUDA platform for preprocessing and embedding generation. Adobe is also advancing GPU-accelerated media ingest using NVIDIA NVENC and NVDEC to accelerate video encoding and decoding, helping production teams process growing media libraries more efficiently. The results: about 5x faster embedding generation, up to 4x higher throughput and up to 5x lower latency for search processing. A new two-frame-per-second proxy, about 80% smaller than the 360p version it replaces, cuts storage and transfer while keeping the visual detail search needs. That speed matters for UFA, one of Germany’s leading film and TV producers. It delivers more than 3,500 hours of programming a year, including the daily drama “Gute Zeiten, schlechte Zeiten.” When editors build a recap or flashback, they may need a specific reaction or unresolved exchange from as far back as 15 years — something file names and folders can’t surface. Frame.io semantic search finds moments inside videos by concept, action or setting, and hybrid search adds notes, transcripts and approval status. An editor can search for “a character looking concerned,” narrow by character name and filter to approved footage, then move straight into review. The work is part of a broader Adobe and NVIDIA collaboration that also spans Adobe Substance 3D, Firefly Foundry and 3D digital twin workflows for enterprises. Learn more about NVIDIA technologies for media and entertainment.",
-      "title_zh": "NVIDIA 讨论政府与国家安全合作原则",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 NVIDIA，核心变化集中在政府与国家安全合作原则。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：nvidia、chips、podcast。",
-        "涉及公司或机构：NVIDIA。"
-      ],
-      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-          "source_url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/"
-        },
-        {
-          "label": "公开摘要",
-          "text": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the",
-          "source_url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/"
-        }
-      ],
-      "slug": "nvidia-advances-agentic-security-for-media-from-european-public-service-405e039b",
-      "localized_url": "/zh/items/2026-10-20/nvidia-advances-agentic-security-for-media-from-european-public-service-405e039b/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Apertus 1.5 Release Notes",
-      "title_original": "Apertus 1.5 Release Notes",
-      "title_en": "Apertus 1.5 Release Notes",
-      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Hugging Face Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "title_original": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "title_en": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "summary_zh": "Hugging Face Blog 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog shares research or evaluation work, with attention to metrics, findings and practical limits.",
       "source_name": "Hugging Face Blog",
       "source_url": "https://huggingface.co/blog",
-      "original_url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-      "published_at": "Thu, 15 Oct 2026 09:08:45 GMT",
-      "fetched_at": "2026-10-20T01:06:22.152009+00:00",
+      "original_url": "https://huggingface.co/blog/allenai/fairstress",
+      "published_at": "Tue, 20 Oct 2026 16:09:19 GMT",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
       "category": "models-products",
       "people": [],
       "companies": [],
@@ -242,19 +503,19 @@
       "importance_score": 44.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "e3c36d4422c6",
+      "duplicate_group_id": "ca293d8533a3",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
       "extraction_status": "success",
       "quality_warnings": [],
-      "extracted_title": "Apertus 1.5 Release Notes",
-      "extracted_excerpt": "A Blog post by Swiss AI Initiative on Hugging Face",
-      "extracted_text_for_analysis": "Apertus 1.5 is a continued pretraining of the first generation model: adding 4 trillion tokens of text and multimodal training data to the 8B model and 2 trillion tokens to the 70B model, for a total of 19T and 17T, respectively. As with every Apertus release, the models are fully open: open weights, open data, open values, and full training details. - Native Multimodal Understanding: Apertus 1.5 accepts images and audio alongside text, bringing documents, diagrams, and photos into the conversation. The models can also process spoken language, though this remains experimental. - Thinking Mode: The models can be switched into a thinking mode to reason about the input before answering, which improves performance on reasoning problems. - Long Context: The context window grows to 262,144 tokens, a 4x increase over Apertus 1.0. - Improved Instruction-Following: Better instruction adherence than Apertus 1.0 gives more predictable and accurate responses. - Improved Tool Use: The models are trained for better tool integration, allowing more effective use of external tools and APIs. - Open Values: Stronger adherence to the Apertus Charter, which brings transparency to the model’s values and principles. The full Apertus 1.5 training pipeline We introduce multimodality in v1.5 models in an early-fusion manner, where images and audio enter Apertus as discrete tokens in the same sequence with text tokens, instead of using a separate vision encoder. Images are tokenized with the Emu3.5 tokenizer (a 512×512 image becomes 1,024 tokens) and audio with WavTokenizer (40 tokens per second). We only extend the vocabulary, so the architecture stays unchanged and training runs at text-only speed. The models understand images and audio but generate only text. Starting from Apertus 1.0, we continue pretraining in four stages: - Unpaired: text plus standalone images and audio, so the model learns the new modalities. - Paired: image–caption and audio–transcript pairs, so it aligns them with language. - Cooldown: higher-quality data with more math and code. - Long context: the window grows step by step from 8k to 262k tokens. Overall, more than half of the training tokens are text-only, which preserves the language abilities of Apertus 1.0. The text data is refreshed with sources such as FineWeb2-HQ+, FinePDFs, and Nemotron-CC. All new data, multimodal included, meets the same bar as before: publicly available, permissively licensed, and with robots.txt opt-outs respected retroactively. Every source is listed in apertus-data-transparency. Post-training runs in five stages: SFT → long-context SFT → RL → DPO → charter alignment (SDPO). - SFT on 3.7M text samples plus image and speech data. Reasoning traces are added only to prompts the model can't already solve without them. Tool-use data is restricted to execution-verified trajectories. We release the text SFT mix we used on Hugging Face. - Long-context SFT at the full 262k window restores the long-context ability that short-context SFT erodes. - RL with verifiable rewards (RLVR) on about 350k math, code, instruction-following, multilingual, and vision prompts, mixing thinking on and off. - DPO with judge-scored preference pairs improves chat quality, tool use, and safety. We release the preference pool and training pairs. - SDPO aligns the model with the Apertus Charter through judge feedback and self-distillation. Alongside the extended model capabilities, we also significantly expanded the scope of evaluations. Beyond the existing text-based evaluations used for Apertus 1.0, we added multimodal evaluations (image & audio), and thinking-mode evaluations. The multimodal evaluations are done through MLLM-eval-suite pipeline, merging two major multimodal evaluation frameworks lmms-eval and VLMEvalKit. We also added a series of text-based benchmarks, as well as extended benchmarking for translation and multilingual capabilities, safety, and tool use. These can be found in our post-training evaluation repository, based on lm-evaluation-harness fork. While still trailing frontier open-weight models, the new release has also significantly improved performance in coding and instruction following capabilities with Apertus 1.5 8B outperforming similarly sized open-weight models on IF and multilingual tasks. Thinking further improves performance on challenging reasoning-heavy benchmarks like AIME. The multimodal performance of the model is closer to Gemma 4 12B and other current open-weight models. Apertus 1.5 multimodal performance is competitive in spatial understanding among open-weight models and document/chart understanding among open-source models. We also thank our collaborators and external evaluators for their help with efficient benchmarking of Apertus capabilities. In particular, Apertus 1.5 shows strong performance on Swiss Legal tasks, being on par with leading open-weight models (blog, code). Additionally, on Last Translation Benchmark, Apertus 1.5 8B presents machine translation capabilities which match GPT-OSS-20B and outperform models like Claude Haiku 4.5 or Google Translate (leaderboard, paper). Apertus collaborates with the EvalEval Coalition to ensure fully transparent and reproducible benchmarking. We publish the Apertus 1.5 results in the Every Eval Ever (EEE) schema, a shared format that records not only scores, but also who ran the evaluation, how the model was accessed, the generation settings, and how each metric should be interpreted: details that are routinely missing from leaderboards and that often explain why similar-looking scores differ. The results are shown in the Eval Card below, which combines the run data with benchmark and model metadata into one interpretable record, and are also available through Hugging Face Community Evals. This is the same infrastructure the UK AI Security Institute uses to publish its evaluations openly. Since our text evaluations run on our public fork of lm-evaluation-harness, which EEE supports with a dedicated converter, anyone can rerun them and compare their numbers against ours under identical settings. Structured evaluation reporting also matters beyond research. EvalEval has mapped Evaluation Cards to AI governance requirements, including Article 55 of the EU AI Act and the GPAI Code of Practice, and found that the EEE schema can represent 56 of the 60 evaluation-reporting elements these frameworks call for. This fits how we already release Apertus: alongside the models, we publish a Public Summary of Training Content and, voluntarily, a Code of Practice document. Machine-readable evaluation records are a natural next step: making it easier for regulators, deployers, and researchers to find, interpret, and compare the evidence behind a model. We are committed to promoting reproducible and transparent evaluation through Eval Cards and the EEE schema, and encourage other model developers to report their results in the same way, so that scores can be compared across models and",
-      "title_zh": "Hugging Face 发布模型或产品能力更新",
+      "extracted_title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "extracted_excerpt": "A Blog post by Ai2 on Hugging Face",
+      "extracted_text_for_analysis": "Today we’re introducing FairStress, a benchmark for measuring demographic fairness in LLMs beyond the choice a model ultimately makes in decisions impacting people. FairStress is available for download, and we’re also building it into Olmo-eval, our open workbench for running and comparing model evaluations. Models are increasingly being used in high-stakes settings where their outputs can affect people’s opportunities, resources, and care, from screening job applicants and approving loans to prioritizing patients for treatment and evaluating students for admissions. Standard demographic fairness benchmarks often test whether a model selects the same candidate in otherwise identical scenarios after the candidates’ demographic identities are swapped. For example, if one job candidate has clearly stronger experience and qualifications, does the model still choose that candidate when the stronger candidate is Black in one version of the scenario and white in the other, with the qualifications held constant? Arriving at the same answer in two versions of a scenario can hide meaningful differences in how readily a model changes that decision when challenged, however. Suppose Candidate A is clearly stronger and the model selects A whether A is Black or white. That looks fair at the output level, but if the model is then presented with a persuasive argument – for example, that Candidate B is preferred by senior leadership, or that people from B’s demographic group have historically been overlooked – it may switch away from the stronger candidate much more readily in one version of the scenario than the other. FairStress is designed to measure these hidden asymmetries. Across open-weight and frontier models including Olmo, Llama, Qwen, Gemma, Claude, and the GPT family, and across multiple stages of training, we find that the same persuasive arguments – which we call adversarial prefixes – can make models more or less likely to change their decisions depending on which demographic group the argument favors. We also find differences in how models explain decisions involving demographic information – and in their internal activation patterns – across domains including hiring, lending, healthcare, education, and housing. With FairStress, our target is symmetric fairness—when the evidence supports a decision, a model should apply the same criteria and be equally resistant to changing that decision regardless of which demographic group benefits. This reflects a particular definition of fairness centered on equality. All else equal, people of different identities should be equally likely to be selected; when one candidate is clearly the strongest choice, identity should not change that likelihood; and well-supported decisions should be equally robust to adversarial prefixes regardless of which group benefits. FairStress does not attempt to capture every conception of fairness. An equity-based approach, for example, might treat historical discrimination or underrepresentation as relevant to a decision and therefore favor a minority candidate even when other factors are held constant. FairStress contains 300 realistic two-candidate decision scenarios across 29 domains including hiring, healthcare, lending, education, housing, and criminal justice. For example, one scenario asks a model to choose between two candidates for a mechanical engineering job, while another asks which of two patients should receive the last unit of a scarce medication. Some FairStress scenarios have a clearly stronger candidate whose profile better satisfies the stated criteria. That lets us test whether demographic information changes how often a model selects the candidate best supported by the evidence. Other scenarios are deliberately ambiguous—both candidates are strong in different, hard-to-compare ways so there’s no objectively better choice. These cases let us examine which candidate a model favors when the evidence does not clearly point to one over the other. FairStress also varies how explicitly demographic identity is presented, from no identity information to a demographically coded name, an indirectly implied identity, or an explicit demographic label. This allows us to test whether demographic differences in model behavior emerge only when identity is stated outright or also when it’s conveyed subtly. Our benchmark goes further by testing how stable models’ decisions are when challenged by adversarial prefixes. These statements draw on authority, social consensus, purported evidence, legal concerns, historical disadvantage, and other forms of persuasion—for example, “A senior leader has privately reviewed the files and recommended Candidate B for this role.” We then measure whether a model changes its choice in response. Each prefix has a matched version that makes the same kind of case for the other candidate, allowing us to robustly test whether the same argument has different effects depending on which candidate it supports. Combining these variations in demographic identity and prefix expands FairStress’ 300 scenarios into more than 13 million test cases. Alongside the full benchmark, we’ve developed FairStress-Core, a 50K-item subset selected using item response theory, following our Fluid Benchmarking approach. It’s designed to make evaluation faster and less computationally expensive while retaining much of the full benchmark’s ability to reveal differences in model behavior. In our experiments with FairStress, we found little difference in model behavior when prompts contained no demographic information. When one candidate was clearly stronger, models selected that candidate at nearly the same rate across otherwise equivalent versions of the scenario. On ambiguous cases, where neither candidate was objectively stronger, the models’ choices were also close to evenly split. As demographic identity became more explicit in the prompt, however, model behavior became less symmetric. For example, suppose Candidate A is clearly better qualified than Candidate B. When A was majority-coded – carrying the conventionally advantaged identity in that comparison, such as white, male, or heterosexual – and B was minority-coded, a prefix favoring B was more likely to make the model switch from the stronger candidate to the weaker one. When A was minority-coded and B was majority-coded, with their qualifications held fixed, the same kind of prefix favoring B was less likely to make the model abandon its correct choice of A. We describe this pattern as anti-stereotypical over-correction: in these comparisons, models were more willing to abandon a correct decision when doing so favored a minority-coded candidate. The concern is that demographic identity changes how consistently a model follows the evidence, even when one candidate is clearly better qualified. In this hiring example, Tülu 3.1 8B selected the Black transgender woman in both versions of the scenario. When her résumé was weaker, its",
+      "title_zh": "Hugging Face 披露模型评测与研究方法",
       "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
-        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "主体是 Hugging Face，核心变化集中在模型评测与研究方法。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
         "相关标签包括：open-source、models、developer。"
@@ -265,32 +526,32 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Apertus 1.5 Release Notes",
-          "source_url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"
+          "text": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+          "source_url": "https://huggingface.co/blog/allenai/fairstress"
         },
         {
           "label": "公开摘要",
-          "text": "Hugging Face Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
-          "source_url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"
+          "text": "Hugging Face Blog shares research or evaluation work, with attention to metrics, findings and practical limits.",
+          "source_url": "https://huggingface.co/blog/allenai/fairstress"
         }
       ],
-      "slug": "apertus-1-5-release-notes-e3c36d44",
-      "localized_url": "/zh/items/2026-10-20/apertus-1-5-release-notes-e3c36d44/",
+      "slug": "fairstress-a-deeper-evaluation-of-fairness-in-llm-decision-making-ca293d85",
+      "localized_url": "/zh/items/2026-10-21/fairstress-a-deeper-evaluation-of-fairness-in-llm-decision-making-ca293d85/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "title_original": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "title_en": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "title_original": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "title_en": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
       "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
       "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
       "source_name": "Hugging Face Blog",
       "source_url": "https://huggingface.co/blog",
-      "original_url": "https://huggingface.co/blog/hf-torchneuron",
-      "published_at": "Mon, 19 Oct 2026 00:00:00 GMT",
-      "fetched_at": "2026-10-20T01:06:22.152009+00:00",
+      "original_url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "published_at": "Tue, 20 Oct 2026 15:19:48 GMT",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
       "category": "models-products",
       "people": [],
       "companies": [],
@@ -302,15 +563,17 @@
       "importance_score": 44.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "9dbc0d55ff91",
+      "duplicate_group_id": "94e7f4f5c0e5",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-      "extracted_text_for_analysis": "TorchNeuron is a PyTorch plugin that brings a new backend for Trainium enabling support for eager mode, torch.compile and native distributed APIs like FSDP and TP. Read the Pytorch blog to learn more about TorchNeuron. Starting Oct. 20, 2026, TorchNeuron will be available as a public beta. Researchers and developers will be able to install it with pip install torch-neuronx. To date, the Hugging Face experience on AWS Trainium and Inferentia — AI chips designed respectively for cost-effective training and inference at scale — has been delivered through optimum-neuron. This library relies on the torch-neuronx package, which is based on PyTorch XLA. It was the natural choice at the time, but it meant thinking like a compiler: lazy tensors instead of eager execution, static shapes only, a recompilation for every graph break. Optimum Neuron existed to hide that complexity, and maintained custom code (modeling classes, trainers, etc) to do so. TorchNeuron changes this. It integrates directly into PyTorch and exposes neuron as a native device, with eager execution, PyTorch's own distributed primitives (DTensor, FSDP2) and torch.compile. For the Hugging Face libraries, Trainium becomes a device like any other: Transformers, Diffusers, Accelerate, PEFT and TRL run on it directly, with the same classes and scripts you would use on any other accelerator. From now on, we recommend that Neuron users use these libraries directly instead of going through Optimum Neuron. Text generation is now natively supported in Transformers for a wide range of models. With TorchNeuron, 89% of the top 100 most-used text-generation model architectures are supported out of the box, compared to 46% with Optimum Neuron v0.4.5. You just need to pass the device_map=neuron argument in your code and your model will be moved to the Neuron devices. The following is an example of text-generation with tensor parallelism, which will enable to fully benefit from your Neuron instance. Note that it uses a static cache for generation as this is strongly recommended with Neuron to prevent frequent recompilations. import os import torch import torch.distributed as dist import torch_neuronx # noqa: F401 from torch.distributed import DeviceMesh from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig from transformers.distributed import DistributedConfig from transformers.generation.configuration_utils import CompileConfig MODEL_ID = \"Qwen/Qwen3.8-27B\" MAX_SEQ_LEN = 1024 PREFILL_CHUNK_SIZE = 512 dist.init_process_group(backend=\"neuron\") world_size = dist.get_world_size() model = AutoModelForCausalLM.from_pretrained( MODEL_ID, dtype=torch.bfloat16, distributed_config=DistributedConfig(tp_size=world_size), device_mesh=DeviceMesh(\"neuron\", list(range(world_size))), ).eval() tokenizer = AutoTokenizer.from_pretrained(MODEL_ID) if tokenizer.pad_token is None: tokenizer.pad_token = tokenizer.eos_token tokenizer.padding_side = \"left\" inputs = tokenizer.apply_chat_template( [{\"role\": \"user\", \"content\": \"The future of AI is\"}], add_generation_prompt=True, padding=True, tokenizer_kwargs={\"pad_to_multiple_of\": PREFILL_CHUNK_SIZE}, return_tensors=\"pt\", ) generation_config = GenerationConfig( max_new_tokens=128, do_sample=False, use_cache=True, pad_token_id=tokenizer.pad_token_id, eos_token_id=tokenizer.eos_token_id, cache_implementation=\"static\", max_cache_len=MAX_SEQ_LEN, prefill_chunk_size=PREFILL_CHUNK_SIZE, compile_config=CompileConfig(backend=\"neuron\", fullgraph=False, dynamic=False), ) with torch.no_grad(): output_ids = model.generate( inputs[\"input_ids\"], attention_mask=inputs[\"attention_mask\"], generation_config=generation_config, ) if dist.get_rank() == 0: prompt_len = inputs[\"input_ids\"].shape[1] print(tokenizer.decode(output_ids[0, prompt_len:], skip_special_tokens=True)) Now that Neuron is a native PyTorch device, training on Trainium uses the same Hugging Face libraries as any other accelerator: Transformers, Accelerate, PEFT and TRL. You no longer need a dedicated trainer or a Neuron-specific fork of the model code. A standard TRL fine-tuning script runs on a Trainium instance with only a few Neuron-specific settings. Here is a supervised fine-tuning script built on TRL's SFTTrainer. If you have fine-tuned a model with TRL on GPUs before, it should look familiar. import os import torch from datasets import load_dataset from transformers.distributed import DistributedConfig from trl import ModelConfig, ScriptArguments, SFTConfig, SFTTrainer, TrlParser def main(script_args, training_args, model_args): # The Neuron backend can't compile Dynamo's automatic dynamic shapes yet (https://github.com/huggingface/trl/issues/7660) torch._dynamo.config.automatic_dynamic_shapes = False training_args.model_init_kwargs = { \"revision\": model_args.model_revision, \"trust_remote_code\": training_args.trust_remote_code, \"attn_implementation\": model_args.attn_implementation, \"dtype\": model_args.dtype, \"device_map\": None, } if int(os.environ.get(\"WORLD_SIZE\", \"1\")) > 1: # The model is sharded on the TP x FSDP grid as its weights are loaded training_args.model_init_kwargs[\"distributed_config\"] = DistributedConfig( tp_size=int(os.environ.get(\"TP_SIZE\", \"1\")), fsdp_size=int(os.environ.get(\"FSDP_SIZE\", \"1\")), ) # Prepare dataset train_dataset = load_dataset( script_args.dataset_name, name=script_args.dataset_config, split=script_args.dataset_train_split, ) # UltraChat also has a string `prompt` column, which makes TRL treat it as a prompt-completion dataset. train_dataset = train_dataset.select_columns([\"messages\"]) # Training trainer = SFTTrainer( model=model_args.model_name_or_path, args=training_args, train_dataset=train_dataset, ) trainer.train() trainer.save_model(training_args.output_dir) trainer.end() if __name__ == \"__main__\": parser = TrlParser((ScriptArguments, SFTConfig, ModelConfig)) script_args, training_args, model_args = parser.parse_args_and_config() main(script_args, training_args, model_args) Parallelism is handled natively by Transformers. You put a DistributedConfig with the tensor-parallel (TP) and FSDP sizes in model_init_kwargs, SFTTrainer passes it to from_pretrained, and the model is sharded as its weights are loaded. The Trainer sees that the model is already distributed and does not wrap it again. You don't need an --fsdp flag or an Accelerate FSDP config. Nothing in the script is tied to Trainium: the same code runs on any hardware. A few things are worth knowing when you run it on Trainium: - Static shapes. The script disables automatic dynamic shapes in torch.compile and uses wrapped packing to produce sequences of up to 2048 tokens. With TRL ≥ 1.16, batches on Neuron are padded to a multiple of 128 tokens, limiting the number of input shapes. Compiled graphs are reused for subsequent steps with the same shapes. - torch.compile on. Passing --torch_compile true is all it takes: on a Trainium instance, torch.compile detects the device and picks the Neuron backend automatically, with nothing",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
       "title_zh": "Hugging Face 推进模型或产品能力更新",
       "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
@@ -325,222 +588,298 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-          "source_url": "https://huggingface.co/blog/hf-torchneuron"
+          "text": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+          "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
         },
         {
           "label": "公开摘要",
           "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
-          "source_url": "https://huggingface.co/blog/hf-torchneuron"
+          "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
         }
       ],
-      "slug": "torchneuron-running-hf-models-on-aws-trainium-is-easier-than-ever-9dbc0d55",
-      "localized_url": "/zh/items/2026-10-20/torchneuron-running-hf-models-on-aws-trainium-is-easier-than-ever-9dbc0d55/",
+      "slug": "altk-evolve-how-learned-memory-tops-the-2-bench-leaderboard-on-customer-94e7f4f5",
+      "localized_url": "/zh/items/2026-10-21/altk-evolve-how-learned-memory-tops-the-2-bench-leaderboard-on-customer-94e7f4f5/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "🎙️ How I AI: Meta Muse Wonder + How Brooke Lacey is scaling video with AI",
-      "title_original": "🎙️ How I AI: Meta Muse Wonder + How Brooke Lacey is scaling video with AI",
-      "title_en": "🎙️ How I AI: Meta Muse Wonder + How Brooke Lacey is scaling video with AI",
-      "summary_zh": "Meta 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "source_name": "Lenny's Podcast",
-      "source_url": "https://www.lennysnewsletter.com/",
-      "original_url": "https://www.lennysnewsletter.com/p/how-i-ai-meta-muse-wonder-how-brooke",
-      "published_at": "Mon, 19 Oct 2026 15:03:35 GMT",
-      "fetched_at": "2026-10-20T01:06:22.152009+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "podcast",
-        "product",
-        "ai-products",
-        "startups"
-      ],
-      "importance_score": 40.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "58ba945ca6d2",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Meta 讨论行业访谈中的判断与经验",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 Meta，核心变化集中在行业访谈中的判断与经验。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：podcast、product、ai-products、startups。"
-      ],
-      "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "🎙️ How I AI: Meta Muse Wonder + How Brooke Lacey is scaling video with AI",
-          "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-meta-muse-wonder-how-brooke"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-          "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-meta-muse-wonder-how-brooke"
-        }
-      ],
-      "slug": "how-i-ai-meta-muse-wonder-how-brooke-lacey-is-scaling-video-with-ai-58ba945c",
-      "localized_url": "/zh/items/2026-10-20/how-i-ai-meta-muse-wonder-how-brooke-lacey-is-scaling-video-with-ai-58ba945c/",
-      "source_license_mode": "summary_only",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
-      "title_original": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
-      "title_en": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
-      "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
-      "source_name": "Lenny's Podcast",
-      "source_url": "https://www.lennysnewsletter.com/",
-      "original_url": "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator",
-      "published_at": "Mon, 19 Oct 2026 12:04:52 GMT",
-      "fetched_at": "2026-10-20T01:06:22.152009+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "podcast",
-        "product",
-        "ai-products",
-        "startups"
-      ],
-      "importance_score": 40.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "88f1e2c230cf",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Claude 讨论行业访谈中的判断与经验",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：podcast、product、ai-products、startups。"
-      ],
-      "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
-          "source_url": "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
-          "source_url": "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator"
-        }
-      ],
-      "slug": "claude-cuts-my-tiktok-how-this-creator-is-scaling-video-with-ai-brooke-l-88f1e2c2",
-      "localized_url": "/zh/items/2026-10-20/claude-cuts-my-tiktok-how-this-creator-is-scaling-video-with-ai-brooke-l-88f1e2c2/",
-      "source_license_mode": "summary_only",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Together Post-Training: frontier-grade model shaping, the way that fits you",
-      "title_original": "Together Post-Training: frontier-grade model shaping, the way that fits you",
-      "title_en": "Together Post-Training: frontier-grade model shaping, the way that fits you",
-      "summary_zh": "Together AI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Post-train open LLMs like Qwen, GLM and Kimi into custom models you own, with SFT or RL. You write the training loop. Together runs the hard infrastructure.",
-      "source_name": "Together AI Blog",
-      "source_url": "https://www.together.ai/blog",
-      "original_url": "https://www.together.ai/blog/together-post-training",
-      "published_at": "Mon, 19 Oct 2026 00:00:00 GMT",
-      "fetched_at": "2026-10-20T01:06:22.152009+00:00",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "title_original": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "title_en": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "published_at": "Tue, 20 Oct 2026 00:00:00 GMT",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
       "category": "models-products",
       "people": [],
       "companies": [],
       "tags": [
-        "infra",
-        "models"
+        "open-source",
+        "models",
+        "developer"
       ],
-      "importance_score": 26.0,
+      "importance_score": 44.0,
       "freshness_score": 72.0,
-      "credibility_score": 76.0,
-      "duplicate_group_id": "ccc1e44fc582",
+      "credibility_score": 90.0,
+      "duplicate_group_id": "2596ff929aee",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "Together Post-Training: frontier-grade model shaping, the way that fits you",
-      "extracted_excerpt": "Post-train open LLMs like Qwen, GLM and Kimi into custom models you own, with SFT or RL. You write the training loop. Together runs the hard infrastructure.",
-      "extracted_text_for_analysis": "We are introducing Together Post-Training, a new service for building custom models on our platform — both from environment rewards via RL and supervision data via SFT. This service is designed to give you flexible and efficient model shaping without the heavy infra burden. Together Post-Training makes it easy to define the training loop, while we co-optimize the systems and infrastructure underneath for model quality and training speed. Nothing now stands between you and the best model that is uniquely yours. The value of custom models In 2026, training custom models for your AI workloads is no longer a niche topic. Companies are actively exploring it to reduce costs and improve task-specific performance. Instead of fixing model behaviors and improving their efficiency via context or harness engineering, many AI-native and AI-forward organizations are training specialist agents, matching the quality of frontier models at a fraction of the cost and runtime. On top of that, training the model yourself yields greater ownership and flexibility: the resulting checkpoint can be deployed in any location, further refined, or even used locally. At Together, we want to empower every AI developer with the ability to get the best model for their task, as conveniently as possible. Post-training a great model requires many iterations on data curation, training algorithms, and evaluation protocols. On top of that, infrastructure for RL is getting ever more complex, with a fine line between “an efficiency optimization” and “a silent bug that holds back your runs”. Doing so for large models reliably and at scale presents its own set of challenges. Frontier labs have entire teams solving each of the above problems. Since tackling all challenges at once is a big investment, many companies that could benefit from post-training never start it, or start and stall. Together Post-Training handles all optimizations and infrastructure without getting in the way, and our forward-deployed team partners with our customers to help with the end-to-end workflow. This lets every researcher or domain expert focus on what they do best while we take care of the rest. Together Post-Training at a glance As the complexity of post-training continues to evolve, so should the tooling around it. Together Post-Training provides a set of common abstractions familiar to ML developers, as well as control over the resources used by each experiment, while making sure that all computations under the hood are fast, cost-efficient, and, most importantly, correct. We built our service to offer the highest degree of flexibility for your experiments. You can run LoRA training, including multiple LoRA adapters sharing the same GPU capacity, as well as full-weight experiments for select models. In contrast to our fine-tuning service, the entire training loop of Together Post-Training is yours to define. You can use any data, environments, or agentic harnesses that suit your setup best, and add any steps you need (such as logging or external benchmarking) throughout the training process. The entire workflow is as follows: All experiments run on Model Resources — GPU allocations that are fully yours, not competing with others’ requests for priority. Each Model Resource can hold one or several Training Sessions, where each one corresponds to a single experiment using the same base model (for example, one set of LoRA adapters). This means you get the best rollout and training performance, as you never have to compete with other users’ requests executing on the same hardware. At the same time, dedicated GPU allocations mean you can run full-weight finetuning, going beyond LoRA when adapting to large knowledge-intensive tasks. Once you allocate the model resource and start the session, you can execute each step of the training loop. Each session contains a Trainer instance responsible for running forward/backward steps and updating the weights, as well as Generator instances for executing rollouts from the policy. For every model, we heavily optimize training and rollout performance, making sure all operations are fast and numerically aligned across stacks. In the case of SFT, you can start a model resource with 0 generators to save costs. You decide the point at which the trainer parameters are sent to the generator; we also support asynchronous RL for high GPU utilization of both components at all times, especially with long agentic rollouts. While we support a number of standard losses (from cross-entropy and GRPO to CISPO and DPPO), we also allow computing a custom training objective locally and sending its gradients to the Trainer for computing the updates. Together Post-Training launches with a range of leading open-weight models, including Muse Spark Open, GLM 5.3, Kimi K3, and Qwen 3.8-27B. We will expand the selection in the coming weeks, making sure you can use both the highest-capability frontier LLMs and efficient smaller models. Quality, performance, and efficiency Delegating the internals of post-training infrastructure can be a daunting decision. Our team has first-hand experience catching silent bugs in complex machine learning systems, from pushing the frontier of RL research to training LLMs that have served millions of users. We understand that the best training stack is the one that gets you the best model, and building such infrastructure demands careful implementation and co-design across all components. For these reasons, we prioritized quality of output models as our north star in the development of the service. One notorious example of issues affecting RL results is the alignment between training and inference engines: if the same model weights produce slightly different outputs due to mismatching numerics, the whole run might underperform or even collapse. We eliminate numerous sources of policy drift across training and inference, using both standard techniques like Rollout Routing Replay and advanced optimizations driven by our research in training stability. Beyond model quality, we also work to make each run as fast and as efficient as possible, because post-training requires multiple iterations: the sooner a run finishes and the less it costs, the more ideas you get to test. Most of the time in RL is spent on generating rollouts, which allows us to capitalize on years of research and engineering behind Together’s inference products. Our rollout engines draw on the same optimizations as our serving stack. For multi-turn agents, intelligent caching and routing minimize redundant computations while keeping memory costs bounded. On the training side, optimized parallelism and sequence packing speed up both SFT and RL steps. With Together Post-Training, you size each experiment to what it needs and do not pay more. If your experiment is bottlenecked by rollout concurrency, you can request the exact number of sampler replicas. Several LoRA experiments can share one model resource, so running a sweep",
-      "title_zh": "Together AI 推进开发者接口与平台能力",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
-        "主体是 Together AI，核心变化集中在开发者接口与平台能力。",
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：infra、models。"
+        "相关标签包括：open-source、models、developer。"
       ],
-      "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
       "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+          "source_url": "https://huggingface.co/blog/anylanguagemodel-1-0"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/anylanguagemodel-1-0"
+        }
+      ],
+      "slug": "anylanguagemodel-1-0-one-year-of-local-models-on-apple-platforms-2596ff92",
+      "localized_url": "/zh/items/2026-10-21/anylanguagemodel-1-0-one-year-of-local-models-on-apple-platforms-2596ff92/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "MPS in PyTorch 2.15",
+      "title_original": "MPS in PyTorch 2.15",
+      "title_en": "MPS in PyTorch 2.15",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "published_at": "Tue, 20 Oct 2026 00:00:00 GMT",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "3eb18e5ff7f2",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "MPS in PyTorch 2.15",
+          "source_url": "https://huggingface.co/blog/mps-pytorch-2-15"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/mps-pytorch-2-15"
+        }
+      ],
+      "slug": "mps-in-pytorch-2-15-3eb18e5f",
+      "localized_url": "/zh/items/2026-10-21/mps-in-pytorch-2-15-3eb18e5f/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "The Programmable Data Center — Evan Conrad, SF Compute",
+      "title_original": "The Programmable Data Center — Evan Conrad, SF Compute",
+      "title_en": "The Programmable Data Center — Evan Conrad, SF Compute",
+      "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "From GPU trading to physical settlement, independent markets, and programmable compute",
+      "source_name": "Latent Space",
+      "source_url": "https://www.latent.space/",
+      "original_url": "https://www.latent.space/p/sfcompute2",
+      "published_at": "Tue, 20 Oct 2026 19:31:57 GMT",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "llm",
+        "agents",
+        "ai-engineering"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "b88101e5b9e0",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：llm、agents、ai-engineering。"
+      ],
+      "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
       "terms_zh": [
         {
-          "term": "API",
-          "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
         }
       ],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Together Post-Training: frontier-grade model shaping, the way that fits you",
-          "source_url": "https://www.together.ai/blog/together-post-training"
+          "text": "The Programmable Data Center — Evan Conrad, SF Compute",
+          "source_url": "https://www.latent.space/p/sfcompute2"
         },
         {
           "label": "公开摘要",
-          "text": "Post-train open LLMs like Qwen, GLM and Kimi into custom models you own, with SFT or RL. You write the training loop. Together runs the hard infrastructure.",
-          "source_url": "https://www.together.ai/blog/together-post-training"
+          "text": "From GPU trading to physical settlement, independent markets, and programmable compute",
+          "source_url": "https://www.latent.space/p/sfcompute2"
         }
       ],
-      "slug": "together-post-training-frontier-grade-model-shaping-the-way-that-fits-yo-ccc1e44f",
-      "localized_url": "/zh/items/2026-10-20/together-post-training-frontier-grade-model-shaping-the-way-that-fits-yo-ccc1e44f/",
+      "slug": "the-programmable-data-center-evan-conrad-sf-compute-b88101e5",
+      "localized_url": "/zh/items/2026-10-21/the-programmable-data-center-evan-conrad-sf-compute-b88101e5/",
       "source_license_mode": "summary_only",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Updates to Hobby and Pro Terms of Service",
-      "title_original": "Updates to Hobby and Pro Terms of Service",
-      "title_en": "Updates to Hobby and Pro Terms of Service",
+      "title": "オープンエンドな探索を意思決定支援へ：推薦の質と多様性を高める「QD-Rec」を提案",
+      "title_original": "オープンエンドな探索を意思決定支援へ：推薦の質と多様性を高める「QD-Rec」を提案",
+      "title_en": "オープンエンドな探索を意思決定支援へ：推薦の質と多様性を高める「QD-Rec」を提案",
+      "summary_zh": "Sakana AI Blog 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+      "summary_en": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Sakana AI Blog",
+      "source_url": "https://sakana.ai/blog/",
+      "original_url": "https://sakana.ai/qd-rec/",
+      "published_at": "2026-10-20T00:00:00+09:00",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
+      "category": "research-open-source",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "research",
+        "agents",
+        "japan"
+      ],
+      "importance_score": 36.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "ac4aadaf8c5a",
+      "language": "en",
+      "source_type": "research_lab",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Sakana AI Blog 推进研究与开源进展",
+      "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+      "key_points_zh": [
+        "主体是 Sakana AI Blog，核心变化集中在研究与开源进展。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：research、agents、japan。"
+      ],
+      "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "オープンエンドな探索を意思決定支援へ：推薦の質と多様性を高める「QD-Rec」を提案",
+          "source_url": "https://sakana.ai/qd-rec/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://sakana.ai/qd-rec/"
+        }
+      ],
+      "slug": "qd-rec-b62d87af",
+      "localized_url": "/zh/items/2026-10-21/qd-rec-b62d87af/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "WebSocket support is now generally available",
+      "title_original": "WebSocket support is now generally available",
+      "title_en": "WebSocket support is now generally available",
       "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "We are updating the Terms of Service for Hobby and Pro customers, effective October 19, 2026. The updates clarify some existing Vercel practices, expand terms on topics such as managed accounts and credits, and reflect applicable legal requirements, including",
+      "summary_en": "WebSocket support in Vercel Functions is now generally available. Since the public beta launched in late June , Vercel CDN has served 300 million WebSocket connections, and now serves 15 million per day. Customers use WebSockets for AI chat, streaming, and",
       "source_name": "Vercel AI",
       "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service",
-      "published_at": "2026-10-19T18:39:47.247Z",
-      "fetched_at": "2026-10-20T01:06:22.152009+00:00",
+      "original_url": "https://vercel.com/changelog/websocket-support-is-now-generally-available",
+      "published_at": "2026-10-20T20:00:00.000Z",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
       "category": "company-industry",
       "people": [],
       "companies": [],
@@ -551,7 +890,7 @@
       "importance_score": 24.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "9fab2a74a691",
+      "duplicate_group_id": "066e84ea5638",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
@@ -562,7 +901,7 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Vercel 更新AI 产业与产品变化",
+      "title_zh": "Vercel 发布AI 产业与产品变化",
       "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
       "key_points_zh": [
         "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
@@ -581,105 +920,32 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Updates to Hobby and Pro Terms of Service",
-          "source_url": "https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service"
+          "text": "WebSocket support is now generally available",
+          "source_url": "https://vercel.com/changelog/websocket-support-is-now-generally-available"
         },
         {
           "label": "公开摘要",
-          "text": "We are updating the Terms of Service for Hobby and Pro customers, effective October 19, 2026. The updates clarify some existing Vercel practices, expand terms on topics such as managed accounts and credits, and reflect",
-          "source_url": "https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service"
+          "text": "WebSocket support in Vercel Functions is now generally available. Since the public beta launched in late June , Vercel CDN has served 300 million WebSocket connections, and now serves 15 million per day. Customers use",
+          "source_url": "https://vercel.com/changelog/websocket-support-is-now-generally-available"
         }
       ],
-      "slug": "updates-to-hobby-and-pro-terms-of-service-9fab2a74",
-      "localized_url": "/zh/items/2026-10-20/updates-to-hobby-and-pro-terms-of-service-9fab2a74/",
+      "slug": "websocket-support-is-now-generally-available-066e84ea",
+      "localized_url": "/zh/items/2026-10-21/websocket-support-is-now-generally-available-066e84ea/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Mercury 3 now available on AI Gateway",
-      "title_original": "Mercury 3 now available on AI Gateway",
-      "title_en": "Mercury 3 now available on AI Gateway",
-      "summary_zh": "Benchmark 推进了模型评测与研究方法，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Mercury 3 from Inception is now available on AI Gateway with 50% off launch pricing. Inception reports strong results across a range of benchmarks, with generation speeds above 1,000 tokens per second. Mercury 3 uses diffusion to generate text through",
+      "title": "DeepSeek V4.1 Flash is now available in Token Pass",
+      "title_original": "DeepSeek V4.1 Flash is now available in Token Pass",
+      "title_en": "DeepSeek V4.1 Flash is now available in Token Pass",
+      "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Token Pass now includes DeepSeek V4.1 Flash, alongside Kimi K3 and GLM 5.3, each accessed through its preferred provider, with more models to come. The DeepSeek model uses the latest weights (1017). Token Pass is a $30/month subscription on Pro teams that",
       "source_name": "Vercel AI",
       "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway",
-      "published_at": "2026-10-19T00:00:00.000Z",
-      "fetched_at": "2026-10-20T01:06:22.152009+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [
-        "Benchmark"
-      ],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "6a7557beacb4",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Benchmark 发布模型评测与研究方法",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Benchmark，核心变化集中在模型评测与研究方法。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。",
-        "涉及公司或机构：Benchmark。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "benchmark",
-          "explanation": "用于衡量模型能力的任务集合或评测体系。"
-        },
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Mercury 3 now available on AI Gateway",
-          "source_url": "https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Mercury 3 from Inception is now available on AI Gateway with 50% off launch pricing. Inception reports strong results across a range of benchmarks, with generation speeds above 1,000 tokens per second. Mercury 3 uses",
-          "source_url": "https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway"
-        }
-      ],
-      "slug": "mercury-3-now-available-on-ai-gateway-6a7557be",
-      "localized_url": "/zh/items/2026-10-20/mercury-3-now-available-on-ai-gateway-6a7557be/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "MiniMax M3.1 Flash now available on AI Gateway for free",
-      "title_original": "MiniMax M3.1 Flash now available on AI Gateway for free",
-      "title_en": "MiniMax M3.1 Flash now available on AI Gateway for free",
-      "summary_zh": "Modal 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "MiniMax M3.1 Flash from MiniMax is now available on AI Gateway for free until Oct 22. MiniMax M3.1 Flash is an open-weight multimodal model for coding and agentic work, with a 1M-token context window for long documents and multi-step agent sessions. Compared",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free",
-      "published_at": "2026-10-19T00:00:00.000Z",
-      "fetched_at": "2026-10-20T01:06:22.152009+00:00",
+      "original_url": "https://vercel.com/changelog/deepseek-v4-1-flash-is-now-available-in-token-pass",
+      "published_at": "2026-10-20T00:01:00.000Z",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
       "category": "company-industry",
       "people": [],
       "companies": [],
@@ -690,7 +956,7 @@
       "importance_score": 24.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "2302825fe546",
+      "duplicate_group_id": "f471f50db8df",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
@@ -701,10 +967,76 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Modal 发布代码评测可靠性问题",
+      "title_zh": "Vercel AI 发布AI 产业与产品变化",
       "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
       "key_points_zh": [
-        "主体是 Modal，核心变化集中在代码评测可靠性问题。",
+        "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "DeepSeek V4.1 Flash is now available in Token Pass",
+          "source_url": "https://vercel.com/changelog/deepseek-v4-1-flash-is-now-available-in-token-pass"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Token Pass now includes DeepSeek V4.1 Flash, alongside Kimi K3 and GLM 5.3, each accessed through its preferred provider, with more models to come. The DeepSeek model uses the latest weights (1017). Token Pass is a",
+          "source_url": "https://vercel.com/changelog/deepseek-v4-1-flash-is-now-available-in-token-pass"
+        }
+      ],
+      "slug": "deepseek-v4-1-flash-is-now-available-in-token-pass-f471f50d",
+      "localized_url": "/zh/items/2026-10-21/deepseek-v4-1-flash-is-now-available-in-token-pass-f471f50d/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Making every harness durable",
+      "title_original": "Making every harness durable",
+      "title_en": "Making every harness durable",
+      "summary_zh": "Claude 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Developers are familiar with running coding agents locally through harnesses like Pi, Claude Code, and others. They are reliable daily drivers for generating code, but keeping agents running around the clock requires your computer to be on and awake, which",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/blog/making-every-harness-durable",
+      "published_at": "2026-10-19T13:00:00.000Z",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "3005eb1ae04e",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Claude 推进代码评测可靠性问题",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Claude，核心变化集中在代码评测可靠性问题。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
         "相关标签包括：developer、ai-sdk。"
@@ -717,12 +1049,12 @@
           "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
         },
         {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
         },
         {
-          "term": "multimodal",
-          "explanation": "同时处理文本、图像、音频或视频等多种输入输出形式。"
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
         },
         {
           "term": "coding",
@@ -732,17 +1064,79 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "MiniMax M3.1 Flash now available on AI Gateway for free",
-          "source_url": "https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free"
+          "text": "Making every harness durable",
+          "source_url": "https://vercel.com/blog/making-every-harness-durable"
         },
         {
           "label": "公开摘要",
-          "text": "MiniMax M3.1 Flash from MiniMax is now available on AI Gateway for free until Oct 22. MiniMax M3.1 Flash is an open-weight multimodal model for coding and agentic work, with a 1M-token context window for long documents",
-          "source_url": "https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free"
+          "text": "Developers are familiar with running coding agents locally through harnesses like Pi, Claude Code, and others. They are reliable daily drivers for generating code, but keeping agents running around the clock requires",
+          "source_url": "https://vercel.com/blog/making-every-harness-durable"
         }
       ],
-      "slug": "minimax-m3-1-flash-now-available-on-ai-gateway-for-free-2302825f",
-      "localized_url": "/zh/items/2026-10-20/minimax-m3-1-flash-now-available-on-ai-gateway-for-free-2302825f/",
+      "slug": "making-every-harness-durable-3005eb1a",
+      "localized_url": "/zh/items/2026-10-21/making-every-harness-durable-3005eb1a/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Called to serve: Tech, research, and positive impact",
+      "title_original": "Called to serve: Tech, research, and positive impact",
+      "title_en": "Called to serve: Tech, research, and positive impact",
+      "summary_zh": "Microsoft 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work",
+      "source_name": "Microsoft Research Podcast",
+      "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+      "original_url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
+      "published_at": "Tue, 20 Oct 2026 16:00:00 +0000",
+      "fetched_at": "2026-10-21T00:39:42.976738+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "research",
+        "podcast",
+        "microsoft"
+      ],
+      "importance_score": 22.0,
+      "freshness_score": 72.0,
+      "credibility_score": 76.0,
+      "duplicate_group_id": "88ef1e9846f1",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Microsoft 讨论模型评测与研究方法",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Microsoft，核心变化集中在模型评测与研究方法。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：research、podcast、microsoft。"
+      ],
+      "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Called to serve: Tech, research, and positive impact",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/"
+        }
+      ],
+      "slug": "called-to-serve-tech-research-and-positive-impact-c84a57a9",
+      "localized_url": "/zh/items/2026-10-21/called-to-serve-tech-research-and-positive-impact-c84a57a9/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
