@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-22",
-  "title_zh": "AI 新闻简报 · 2026-10-22",
-  "title_en": "English AI News Brief · 2026-10-22",
-  "overview_zh": "本期从 181 个结构化来源中生成，候选 144 条，跨期排除历史已展示 108 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
-  "overview_en": "This brief is generated from 181 structured sources with 144 candidates, 108 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+  "date": "2026-10-23",
+  "title_zh": "AI 新闻简报 · 2026-10-23",
+  "title_en": "English AI News Brief · 2026-10-23",
+  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 108 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 108 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
   "source_count": 181,
-  "candidate_count": 144,
+  "candidate_count": 152,
   "skipped_history_count": 108,
   "selected_count": 18,
   "categories": [
@@ -18,16 +18,16 @@
   },
   "items": [
     {
-      "title": "Broad access through consistent standards",
-      "title_original": "Broad access through consistent standards",
-      "title_en": "Broad access through consistent standards",
-      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "title": "Build more responsive apps with the Decisions API",
+      "title_original": "Build more responsive apps with the Decisions API",
+      "title_en": "Build more responsive apps with the Decisions API",
+      "summary_zh": "OpenAI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Fast, focused, low-cost decisions for any application.",
       "source_name": "OpenAI News",
       "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/broad-access-through-consistent-standards",
-      "published_at": "Wed, 21 Oct 2026 21:00:00 GMT",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
+      "original_url": "https://openai.com/index/decisions-api",
+      "published_at": "Thu, 22 Oct 2026 19:00:00 GMT",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
       "category": "models-products",
       "people": [],
       "companies": [
@@ -41,334 +41,19 @@
       "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "2ed22a61b2f1",
+      "duplicate_group_id": "27825e300358",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
       "extraction_status": "success",
       "quality_warnings": [],
-      "extracted_title": "Broad access through consistent standards",
-      "extracted_excerpt": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "extracted_text_for_analysis": "Over the past few months, we’ve worked with customers and partners to align safety policies across services that provide our models. We’re also updating our Usage Policies to make those requirements clearer and easier for developers to follow. Models such as GPT‑6 Astra expand what developers and businesses can build. As those capabilities grow, we’re working to keep safeguards effective and consistently applied across the services that offer our models. Before deploying a model, we evaluate its capabilities and risks, train it to follow safety requirements, and test whether its safeguards hold up when people deliberately try to bypass them. As we describe in our approach to safety and alignment, we combine safeguards designed to reinforce one another. After deployment, we monitor for potential abuse and investigate concerns. To mitigate cyber misuse, for example, we train models to refuse harmful requests and use systems that look for suspicious patterns across interactions to decide how to respond. Trusted access programs provide another layer of protection and set eligibility requirements and conditions for access to our most powerful capabilities. Some safeguards are built into the model and others depend on the systems and people around it. Both need to be effective whether people access our models directly or through a partner. Developers and businesses should be able to choose where they access our models, with consistent safeguards across those services. We developed policies to align our safeguards across providers and are working with each of our partners to ensure their implementation meets or exceeds our safety standards. These policies apply whether people access our models directly through OpenAI, partners that host them, or through reseller partners. These policies require partners that provide access to OpenAI models to maintain safeguards consistent with our own, investigate potential violations, and take appropriate action when concerns are identified. That includes coordinating on enforcement so that restrictions remain effective across services providing access to our models. Putting this into practice means accounting for how different services work and how customers use them. Our work with customers and partners on Private Safety Processing is one example of how we can develop effective safeguards while giving customers greater choice and control over their sensitive data. We’re also updating our Usage Policies, effective November 20, 2026, to clarify the rules for safe model development and sensitive uses of AI. The updated Usage Policies build on that work by requiring services that provide direct access to our models such as model routers or AI gateways to get our review and approval before offering that access. We’ll keep explaining what’s allowed, what’s restricted, and how customers and partners can ask questions or resolve compliance concerns. As our models become more capable, we’ll keep improving how we detect, investigate, and respond to misuse. Customers can face misuse through their end users, compromised accounts, or leaked API keys and we work with them to understand and address those problems. We’re also working with customers to introduce SafetyIDs, which customers can provide to help us distinguish between individual end users in an investigation without OpenAI learning those users’ identities. With SafetyIDs, we can respond to potential misuse more precisely while reducing disruption to others. We base enforcement decisions on documented conduct and risk, apply our rules consistently, and respond in proportion to the circumstances. When we restrict access, we revisit those restrictions if meaningful changes in conduct, commitments, or safeguards address the concerns behind our decision. We want more people to benefit from AI. Clear rules and consistent safeguards should make it easier for developers and businesses to build, compete, and choose the services that work best for them.",
-      "title_zh": "OpenAI 推进模型或产品能力更新",
+      "extracted_title": "Build more responsive apps with the Decisions API",
+      "extracted_excerpt": "Fast, focused, low-cost decisions for any application.",
+      "extracted_text_for_analysis": "Applications and agents make many small decisions throughout a workflow: how to classify an input, where to route a request, or which action to take next. Individually, they are simple. At scale, their latency and cost add up. Today, we’re making the Decisions API generally available. Built with GPT‑6 Luna, the Decisions API focuses Luna’s intelligence on questions with bounded answers, helping applications and agents make near real-time decisions from text, images, and structured inputs up to 10x faster than GPT‑6 Luna through the Responses API. Since public beta, we’ve added a native GPT‑Live integration, prompt caching for reused context, and inference residency in the US and EU. Developers can also pass native JSON inputs, include images in question instructions, and ask up to 400 questions per request, twice the previous limit. We’ve also continued to improve latency, including additional capacity in several regions in Asia. Early adoption of Decisions has shown its applicability across a variety of use cases. Across OpenAI, teams are applying the Decisions API across product and business workflows. The dots team is using it to reduce response times and improve interactivity. Our Personal Finance team is using it to categorize transaction descriptions, while our Communications team is using Decisions to classify coverage by the themes and scores whether it reinforces or challenges key narratives—helping identify what warrants closer review. These early examples show how fast, structured decision-making can turn incoming information into useful action across a wide range of use cases. Customers are applying the Decisions API just as broadly, from accurately attributing AI costs to making language-learning experiences more interactive. Using the Decisions API is simple: developers define a question and its allowed answers, then provide context as text, images, or native JSON. The API returns one of three supported answer types—a probability, choice, or score—that applications can use to determine what happens next. The variety of answer types allows Decisions to be applicable across a wide variety of use cases. Decisions API supports three answer types: With GPT‑Live, you can bring natural, expressive conversation to your voice applications, with smooth interruption handling that keeps conversations flowing. Decisions API now integrates natively with GPT‑Live(opens in a new window), helping applications make fast, focused decisions during live conversations. A customer support agent can decide whether to ask a clarifying question, route a request, or escalate an issue. An avatar can adjust its facial expressions as a user speaks to it, and based on the user’s words, respond with a wink or a smile to create a more interactive experience. The example below uses transcript updates to select an avatar’s expression. Add this configuration to session.triggers in an existing GPT‑Live session. Live emits a decision.event; the application reads the selected reaction and animates the character accordingly. Learn more about connecting voice to Decisions API. (opens in a new window) Expression palette Live decisions Watch as the Decisions API chooses a facial expression based on what each of you says. Your words Watch the reaction as you speak. Assistant’s words Watch the face as the assistant replies. I rehearsed my audition for my cat. She walked out halfway through. Decisions API is generally available today with GPT‑6 Luna through the dedicated Decisions endpoint. See the pricing and availability guide(opens in a new window) for current rates and caching details. Start with one recurring decision your application makes often. Define the question, the possible answers, and the context needed to distinguish them. Test it on examples that reflect real usage, in the Decisions Playground(opens in a new window) with your own text or images, or follow the developer guide(opens in a new window) to make your first request. Decisions API costs $0.10 per million input tokens. Cached input costs $0.01 per million tokens. For 30-minute and 12-hour cached writes, read our pricing guide.(opens in a new window) You only pay for input tokens: there are no output-token charges. Regional processing is available in the US and EU, and Zero Data Retention(opens in a new window) is available to eligible customers. See pricing and caching(opens in a new window) and data controls (opens in a new window)for details.",
+      "title_zh": "OpenAI 推进开发者接口与平台能力",
       "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Broad access through consistent standards",
-          "source_url": "https://openai.com/index/broad-access-through-consistent-standards"
-        },
-        {
-          "label": "公开摘要",
-          "text": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-          "source_url": "https://openai.com/index/broad-access-through-consistent-standards"
-        }
-      ],
-      "slug": "broad-access-through-consistent-standards-2ed22a61",
-      "localized_url": "/zh/items/2026-10-22/broad-access-through-consistent-standards-2ed22a61/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-      "title_original": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-      "title_en": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-      "summary_zh": "NVIDIA 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "NVIDIA has an AI update relevant to product, industry or technical direction.",
-      "source_name": "Hugging Face Blog",
-      "source_url": "https://huggingface.co/blog",
-      "original_url": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "published_at": "Wed, 21 Oct 2026 18:26:30 GMT",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "NVIDIA"
-      ],
-      "tags": [
-        "open-source",
-        "models",
-        "developer"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "7104bc51c295",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-      "extracted_excerpt": "A Blog post by NVIDIA on Hugging Face",
-      "extracted_text_for_analysis": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required NVIDIA Kumo Relational is a pre-trained relational foundation model that makes predictions directly on enterprise databases. Given a predictive query, it gathers up to 10,000 historical examples as context and predicts outcomes such as churn, demand, or fraud in a single forward pass. It needs no task-specific training, no feature engineering, and no flattening of tables. Kumo Relational is the first few-shot foundation model to outperform supervised machine learning on common relational benchmarks. Across 41 tasks on 15 databases, it beats supervised relational deep learning models and expert-engineered gradient-boosted tree pipelines, and on the SAP SALT enterprise benchmark it surpasses AutoGluon ensembles by 8% in mean reciprocal rank (MRR). It scales to databases with 500B+ rows and works for humans and agents alike, through NVIDIA's open-source, GPU-native structured-data-models library or as an NVIDIA NIM. - Paper: https://arxiv.org/abs/2604.12596 - Documentation: https://docs.nvidia.com/sdgm/rfm/overview Foundation models have already rewritten the playbook for language and vision. Not long ago, production NLP meant a dedicated model per task, each fed by its own pipeline of tokenization, lemmatization, and n-grams. LLMs made that stack largely obsolete for three reasons: they were more accurate than the best task-specific models, far simpler to put into production, and flexible enough to open a new era of agentic applications. The same shift is now underway for structured data. Relational databases power the world's most critical business decisions, yet predictive modeling on them still requires weeks of feature engineering, task-specific training, and tuned pipelines. Structured data foundation models change that for the same three reasons: Better accuracy today: As drop-in replacements, these models already beat many production pipelines, especially XGBoost. On RelBench V1 classification tasks, Kumo Relational outperforms gradient-boosted trees on expert-engineered features by nearly 4 AUROC points on average. On SAP SALT, it beats XGBoost on engineered features by 7 MRR points out of the box and by 13 MRR points after fine-tuning. These results make a compelling case for replacing production XGBoost pipelines with Kumo Relational. Simplicity and agility: One pre-trained model replaces separate pipelines for individual tasks. A new prediction becomes a query instead of a project, so ML teams can finally take on use cases that traditional ML made too laborious to build at every level of the organization. Agents that can predict: LLMs let agents read, write, and reason. Structured data foundation models let them anticipate what happens next, such as which customer will churn, and act on it. Kumo Relational is already built to be called by agents, and its Predictive Query Language (PQL) gives them a simple interface for asking predictive questions. Today, we are introducing Kumo Relational (paper, documentation), a pre-trained foundation model that brings this paradigm to relational data. Connect a database, describe what to predict, and get predictions in a single forward pass. No training required. Most foundation models for structured data operate on a single flat table. Real-world data lives in relational databases instead: users connected to orders connected to products, all evolving over time. Flattening these relationships into one row through manual aggregation (e.g., \"average order value in the last 30 days\") loses fine-grained structural signals and takes significant human effort. Kumo Relational is a Relational Foundation Model that operates directly on the database, respecting its tables, foreign keys, and timestamps. It is pre-trained once on synthetic relational data that reflects real-world datasets and adapts to each new task through in-context learning, reading up to 10,000 context examples at inference time. Each example pairs a local subgraph around an entity at a point in time with its ground-truth target (e.g., \"this user churned\" or \"this item sold 142 units\"). ![Overview of the NVIDIA Kumo Relational system: (a) database integration, (b) a prompting interface that turns natural language into a predictive query, and (c) automatic context generation feeding the NVIDIA Kumo Relational model, which scales horizontally across tenants.] Figure 1. Overview of the Kumo Relational system. Connect a database, specify a predictive query, and Kumo Relational handles the rest, from context generation to model inference. To make a prediction, Kumo Relational has to do three things: (1) understand the values within each table, (2) relate records across tables, and (3) relate context examples with known targets to the entity being predicted. Here is how it works: ![Kumo Relational architecture: (a) context input with task, users, orders and items tables; (b) column and row attention within tables with injected context targets; (c) graph attention and cross-sample attention across tables.] Figure 2. Kumo Relational architecture: (a) context input, (b) reasoning within tables, (c) reasoning across tables. Automatic Context Generation: Tasks are written in the Predictive Query Language (PQL), a declarative interface where you state what to predict rather than how. For temporal tasks, Kumo Relational replays historical database states: it samples entity-centric subgraphs up to an anchor timestamp and computes each target from events after that timestamp, while serving the model only the data from before it. This prevents data leakage. Reasoning Within Tables: A lightweight network processes each table independently, alternating column attention (relating values within a column) and row attention (relating features within a row). The model learns which columns and rows matter for the current prediction and filters out noise before it propagates. Reasoning Across Tables: A larger network distributes the row embeddings across the relational structure via graph attention over primary-key/foreign-key relationships, interleaved with cross-sample attention across context examples. This is where relational reasoning happens, such as linking a user's profile to their transaction history. Because this stage works on row embeddings rather than on every cell in every table, the design avoids quadratic cost and scales to large contexts and deeper subgraphs. Kumo Relational is pre-trained on entirely synthetic relational data simulated to reflect real-world relational databases with diverse predictive queries. Pre-training proceeds in stages, from single tables to increasingly complex relational structures. The diverse relational databases needed for pre-training are rarely public, so synthetic data fills the gap. Kumo Relational's generator builds on the approach of PluRel (Kothapalli et al., ICML 2026), which extends single-table data generators to full relational",
-      "title_zh": "NVIDIA 推进模型或产品能力更新",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 NVIDIA 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 NVIDIA，核心变化集中在模型或产品能力更新。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：open-source、models、developer。",
-        "涉及公司或机构：NVIDIA。"
-      ],
-      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-          "source_url": "https://huggingface.co/blog/nvidia/kumo-relational"
-        },
-        {
-          "label": "公开摘要",
-          "text": "NVIDIA has an AI update relevant to product, industry or technical direction.",
-          "source_url": "https://huggingface.co/blog/nvidia/kumo-relational"
-        }
-      ],
-      "slug": "nvidia-kumo-relational-outperforms-supervised-machine-learning-on-relati-7104bc51",
-      "localized_url": "/zh/items/2026-10-22/nvidia-kumo-relational-outperforms-supervised-machine-learning-on-relati-7104bc51/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "title_original": "How AT&T is rethinking in-house legal work with OpenAI",
-      "title_en": "How AT&T is rethinking in-house legal work with OpenAI",
-      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/att-legal",
-      "published_at": "Wed, 21 Oct 2026 17:00:00 GMT",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "4ab93569e260",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "extracted_excerpt": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "extracted_text_for_analysis": "AT&T’s in-house legal department has hundreds of lawyers and legal professionals around the world. Before they can advise the business, they need to assemble facts, documents, and relevant past work, often drawing on expertise held across different teams. For David McAtee, AT&T’s Senior Executive Vice President and General Counsel, making that experience easier to access is central to how the department’s work can improve. AT&T is working with OpenAI to build that next phase. “Our partnership with OpenAI is going to allow us to build that plumbing that powers the knowledge layer throughout the company and that all of us will draw into,” McAtee says. The collaboration builds on LegalEdge, AT&T’s team of attorneys, legal professionals, technologists, and project managers focused on applying AI to major legal matters. The next step is to connect more of the company’s accumulated expertise to the work arriving on a lawyer’s desk. Requests arrive from across the business, and legal teams need to respond quickly without overlooking risks. Before they can advise, they have to understand the issue, gather the relevant context and decide what needs attention first. That makes intake a critical part of protecting the business. Bill Ryan, AT&T’s Chief Compliance Officer, describes one planned initiative as an intake system with “a front door where we have natural language intake.” The system would classify and prioritize requests, connect them with relevant precedent, research, and past work, and give the responsible legal professional historical context and recommended first steps. That would give lawyers a more informed starting point, with less time spent gathering the material they need to assess a matter. Ryan sees the opportunity in helping the department bring its judgment to more of the business’s needs. “What most excites me about the future is expanding our ability to provide legal judgment at greater scale,” he says. For McAtee, the principle guiding that work remains clear: “The decision making will always remain with the lawyers.” The partnership’s goal is to put better information within reach so those lawyers can spend more time applying their expertise. Watch McAtee and Ryan discuss LegalEdge and the next phase of AT&T’s legal work with OpenAI.",
-      "title_zh": "OpenAI 推进模型或产品能力更新",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "How AT&T is rethinking in-house legal work with OpenAI",
-          "source_url": "https://openai.com/index/att-legal"
-        },
-        {
-          "label": "公开摘要",
-          "text": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-          "source_url": "https://openai.com/index/att-legal"
-        }
-      ],
-      "slug": "how-at-t-is-rethinking-in-house-legal-work-with-openai-4ab93569",
-      "localized_url": "/zh/items/2026-10-22/how-at-t-is-rethinking-in-house-legal-work-with-openai-4ab93569/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "title_original": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "title_en": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "published_at": "Wed, 21 Oct 2026 13:00:00 GMT",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "74fcf21eca7a",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "extracted_excerpt": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "extracted_text_for_analysis": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT. More than 1.2 billion people use ChatGPT each week to explore ideas, compare options and make decisions. Ads can help people discover products and services that fit their needs, including options they might not have found otherwise. Since we launched ads just over eight months ago, over 100,000 advertisers have run campaigns on ChatGPT. Today, we’re expanding ChatGPT Ads to 26 additional countries, extending availability to 89 countries worldwide. This launch builds on our recent expansions across Europe and Southeast Asia and Taiwan. Advertising helps support free and low-cost access to ChatGPT for people around the world. Our mission is to ensure that artificial general intelligence benefits all of humanity. Ads will appear only on the Free and Go plans. Plus, Pro, and Enterprise subscriptions will remain ad-free. Following our launches in Mexico and Brazil, we’re bringing ChatGPT Ads to 14 more Latin American countries, including Argentina, Chile, Colombia, and Peru. We’re also launching in more markets across Europe, the Middle East, Africa, and Asia, including Nigeria, South Africa, Serbia, Ukraine, Cambodia, Bangladesh, and Pakistan. Advertisers can access ChatGPT Ads in these countries through technology partners or self-service access through Ads Manager(opens in a new window). In ChatGPT, people can explain what they’re looking for, ask follow-up questions, and refine their options through conversation. Someone training for their first marathon might start by exploring meal ideas for race week, then narrow their options based on their dietary preferences and how much time they have to cook. An ad relevant to that conversation could introduce them to a grocery delivery service they hadn’t considered. For local businesses, regional brands, and international companies, ChatGPT Ads gives businesses a way to introduce their products during these moments of consideration, when people are still evaluating their options and deciding what’s right for them. Protecting the trust people place in ChatGPT is foundational to our approach to advertising. Guided by OpenAI’s ads principles, we keep conversations private from advertisers and do not sell customer data. Ads in ChatGPT are clearly labeled and separate from ChatGPT’s answers, and advertising does not influence the answers ChatGPT provides. Our goal is to make ads useful to people as they pursue their goals and make decisions—and effective for the businesses that advertise with us. Our focus remains expanding access to AI while staying true to our principles. With ChatGPT Ads now available in 89 countries, our next phase of growth will include the development of additional formats, objectives, buying options, and measurement capabilities. We are also continuing to explore new ways for businesses to interact with consumers in more native ways in ChatGPT. As more people turn to ChatGPT to explore needs, evaluate options, and make decisions, we see an opportunity to help them discover products and services—and to help businesses of every size grow and thrive.",
-      "title_zh": "OpenAI 更新模型或产品能力更新",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-          "source_url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
-        },
-        {
-          "label": "公开摘要",
-          "text": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-          "source_url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
-        }
-      ],
-      "slug": "chatgpt-ads-expands-to-26-new-countries-as-over-100-000-advertisers-have-74fcf21e",
-      "localized_url": "/zh/items/2026-10-22/chatgpt-ads-expands-to-26-new-countries-as-over-100-000-advertisers-have-74fcf21e/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "OpenAI models are coming to Google Cloud",
-      "title_original": "OpenAI models are coming to Google Cloud",
-      "title_en": "OpenAI models are coming to Google Cloud",
-      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/openai-models-google-cloud",
-      "published_at": "Wed, 21 Oct 2026 12:00:00 GMT",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "61f4d0141ff3",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "OpenAI models are coming to Google Cloud",
-      "extracted_excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "extracted_text_for_analysis": "OpenAI and Google Cloud(opens in a new window) are partnering to bring OpenAI’s frontier models and Codex(opens in a new window) agentic workflows into Google Cloud’s Model Garden. The integration will give customers native access to these models to power complex agentic workflows at scale, backed by Google Cloud’s data governance and high-performance infrastructure. Google Cloud’s longstanding investment in machine learning and AI has made it a destination for AI workloads and the developers and data scientists building them. Bringing OpenAI models to its model garden gives these teams access to OpenAI’s frontier models within the environment where they already work, enabling enterprises to modernize their software development lifecycle, build agentic workflows, and change how people work. For organizations in regulated industries, deploying AI requires control over who can access sensitive data and how it is used. The integration will pair OpenAI’s frontier models with Google Cloud’s built-in access controls, centralized data governance, and high-performance infrastructure to support demanding enterprise workloads. Google Cloud customers will be able to purchase OpenAI frontier models via model garden, transacted through the Google Cloud Marketplace. Enterprises with Google Cloud spend commitments will be able to draw down their GCP commitments for these purchases. Additionally, OpenAI models will soon be available in Google Antigravity and the Gemini Agent, providing enterprise customers with model choice flexibility and the best model for each task. By expanding access through Google Cloud, we are giving enterprises greater choice in how they discover and use frontier models, with a path from evaluation to broader adoption. Microsoft remains OpenAI’s primary cloud partner.",
-      "title_zh": "OpenAI 推进模型或产品能力更新",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "OpenAI models are coming to Google Cloud",
-          "source_url": "https://openai.com/index/openai-models-google-cloud"
-        },
-        {
-          "label": "公开摘要",
-          "text": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-          "source_url": "https://openai.com/index/openai-models-google-cloud"
-        }
-      ],
-      "slug": "openai-models-are-coming-to-google-cloud-61f4d014",
-      "localized_url": "/zh/items/2026-10-22/openai-models-are-coming-to-google-cloud-61f4d014/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "title_original": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "title_en": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "published_at": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "d3f519557f32",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "extracted_excerpt": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "extracted_text_for_analysis": "Over the past two months, we led a coalition of maintainers, researchers, and security providers to address critical vulnerabilities in PHP, an open-source programming language used to run websites and web applications. Calif identified a critical flaw using GPT‑5.6 Sol as part of our Patch the Planet(opens in a new window) initiative, with Wiz also independently discovering and reporting both vulnerabilities. PHP’s maintainers led the fixes and release, with our teams and partners like Wiz, Cloudflare, and others contributing research, technical support, and coordination to prepare protections ahead of disclosure. For organizations using PHP, the priority now is applying the fixes. We’re sharing a PHP version checker as a Codex skill(opens in a new window) to help operators identify potentially vulnerable PHP versions and, alongside PHP’s and their providers’ guidance, determine which updates apply. Given the severity of these flaws and PHP’s widespread use, we consider this one of the most impactful security issues in recent memory. It highlights how AI can uncover security flaws with internet-scale impact, but the same capabilities can also help attackers rapidly develop offensive tools and exploits. To our knowledge, frontier AI found these vulnerabilities before attackers did, opening a Defender’s Window for maintainers and security providers to prepare fixes and protections ahead of disclosure. To help more defenders use these capabilities, we’ve committed $1 billion in subsidized Daybreak access through Daybreak for Frontline Defenders, focused on organizations with limited security resources protecting essential services. As significant as they are, these bugs are among several significant vulnerabilities we’ve already found and are working to fix, and we expect similar findings to increase sharply in the coming months. Drawing on our experience thus far, we’re sharing a proposed approach, appropriate for the AI era, to responding to critical vulnerabilities in widely used software, and we’re asking the security community to help improve this framework. It brings together our models, security expertise, and maintainers to help turn findings into protection and build a response that can scale as AI capabilities advance. Getting a fix into use can mean adapting it for older releases, preparing provider mitigations, and updating systems across many organizations. A repeatable process helps those teams act quickly as more vulnerabilities are discovered. Through Patch the Planet, we contributed security expertise and model access to support the PHP response, and worked with maintainers and research partners to test fixes and prepare guidance. We also helped coordinate with infrastructure providers on protections for affected systems and engaged government cyber agencies to help guidance reach critical organizations. This supported the maintainer-led response and helped other defenders prepare. For some findings, researchers can work directly with the software’s maintainers to investigate the issue and develop a fix. Others need a wider response because they affect many products or because distributors and service providers need time (which may be in short supply if frontier capabilities are not too far ahead of those that are broadly available) to prepare updates and protections. In those cases, the proposed framework can help maintainers identify who needs to be involved and coordinate the work. The response can involve five stages: - Validate and fix the upstream vulnerability. The maintainer, researchers, and essential technical partners confirm the finding, assess its impact, and develop and test a fix. This process includes adversarial testing with frontier models to look for ways around the patch and related variants of the vulnerability. - Give affected organizations time to act. We propose a framework for considering which organizations need advance information to prepare protections, while maintainers decide whom to involve. We help with outreach, information-sharing agreements, and coordination between teams. A distributor might adapt a fix for an older release, a hosting provider might test a mitigation, and a security provider might prepare detection or prevention measures, including web application firewall (WAF) rules. - Coordinate with government partners to help protect critical systems. Government agencies play an essential role in coordinating a wider response and helping security guidance reach organizations responsible for critical infrastructure and other essential services. In the case of PHP, we worked, in collaboration with our partners, to engage with multiple parts of the U.S. government, including the White House’s Super Intelligence Force, the Office of the National Cyber Director (ONCD), the Cybersecurity and Infrastructure Security Agency (CISA), as well as international partners to support that effort. - Prepare updates across affected products. As the fix, guidance, and disclosure plans become stable, maintainers can involve additional distributors, hosting and service providers, response teams, and operators to prepare updates and address gaps in coverage. - Once a patch is available, publish guidance and support deployment. Public guidance helps people assess their exposure, find authoritative updates or interim mitigations, and check that a fix is running. The response continues as operators deploy updates and report where they need help. The proposed framework considers an organization’s protective role, including protecting its own systems and customers, the time needed to act, and its ability to handle sensitive information. The same criteria would apply to comparable organizations, with maintainers deciding whom to involve ahead of disclosure. Each participant receives the information needed to carry out their protective work, from network logs with indicators of compromise to more sensitive working proof-of-concept exploits. Even limited details can reveal a vulnerability, so we weigh the risk of sharing them against the protection they enable. Teams following this framework would work with maintainers to give defenders time to prepare and reassess the timeline if there’s active exploitation in the wild, a leak, a revealing public patch, or increased risk to users from stalled remediation. The Patch the Planet website(opens in a new window) brings together public disclosures and guidance to help operators identify affected systems, find the right update, and verify that the updated software is running properly. For PHP, it points to the maintainers’ official patch and upgrade instructions and our partners’ technical research. The guidance also covers interim mitigations, when to involve a provider or expert, and backup and recovery. Interim protections can reduce risk, but we’ll make their limits and operational tradeoffs clear. Operators can use CISA’s guidance on prioritization and remediation(opens in a new window) to",
-      "title_zh": "OpenAI 推进政府与国家安全合作原则",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+        "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
         "相关标签包括：openai、models、product。",
@@ -378,47 +63,39 @@
       "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
       "terms_zh": [
         {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "open source",
-          "explanation": "可公开查看、使用或修改的代码与模型资源。"
+          "term": "API",
+          "explanation": "让开发者通过程序调用模型或平台能力的接口。"
         }
       ],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-          "source_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+          "text": "Build more responsive apps with the Decisions API",
+          "source_url": "https://openai.com/index/decisions-api"
         },
         {
           "label": "公开摘要",
-          "text": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-          "source_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+          "text": "Fast, focused, low-cost decisions for any application.",
+          "source_url": "https://openai.com/index/decisions-api"
         }
       ],
-      "slug": "patch-the-planet-global-response-coordination-as-agents-uncover-critical-d3f51955",
-      "localized_url": "/zh/items/2026-10-22/patch-the-planet-global-response-coordination-as-agents-uncover-critical-d3f51955/",
+      "slug": "build-more-responsive-apps-with-the-decisions-api-27825e30",
+      "localized_url": "/zh/items/2026-10-23/build-more-responsive-apps-with-the-decisions-api-27825e30/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "title_original": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "title_en": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "title": "What FDE means at OpenAI",
+      "title_original": "What FDE means at OpenAI",
+      "title_en": "What FDE means at OpenAI",
       "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "summary_en": "What forward deployed engineering means at OpenAI",
       "source_name": "OpenAI News",
       "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "published_at": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
+      "original_url": "https://openai.com/index/forward-deployed-engineering-means",
+      "published_at": "Thu, 22 Oct 2026 06:00:00 GMT",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
       "category": "models-products",
       "people": [],
       "companies": [
@@ -432,15 +109,15 @@
       "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "edef63b51aed",
+      "duplicate_group_id": "63c31ca523f9",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
       "extraction_status": "success",
       "quality_warnings": [],
-      "extracted_title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "extracted_excerpt": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "extracted_text_for_analysis": "Traditional advertising systems are built to respond to discrete units of user intent. A user searches for or views something online, the ads system receives those queries and page views as events, and the system looks for matching ads based on those events. Building an ads stack for ChatGPT was different: user intent develops across conversations and shifts over multiple turns of a conversation, sometimes without a fitting advertising moment. To support this new paradigm, we built a bespoke ads delivery system. This new type of ad stack is based on a custom, post-trained frontier LLM that makes tool calls for retrieval (identifying the top options), ranking (predicting user engagement), relevance (evaluating the usefulness of the ad), and running auctions for final ad selection and pricing. Our ads system supports the nuance of evolving user goals by making three key design decisions: 1) implementing stateful ads sessions, meaning information is remembered across turns of a conversation and across multiple conversations, 2) relying on a custom, post-trained LLM that uses a tool call architecture to interpret a conversation’s context and underlying intent, and then effectively select, rank, and deliver ads, and 3) running the ads selection process separately from ChatGPT’s answer generation, in its own service, to keep ads from influencing answers and maintain ChatGPT’s neutral voice. We use our post-trained LLM to orchestrate the entire ads flow, determining the right ad to surface at the right time based on both the user’s current turn and conversation history. While bootstrapping a self-improving ads system like this used to take years, ChatGPT Ads reached $1 billion in annualized revenue run rate less than 200 days after launch; now, more than 100,000 advertisers have run ads on ChatGPT since launch. A conventional advertising request usually starts with a well-defined event. A user submits a search query or opens a webpage and the ads system receives a request. This type of system is fairly simple: it retrieves potential ad candidates, ranks them, runs an auction to appropriately price the opportunity, and shows the resulting ad to the user. ChatGPT does not naturally produce such a concrete moment. In a ChatGPT conversation, people arrive with goals rather than a one-answer search query. They might be planning a trip, choosing software for their business, furnishing a home, or learning a new hobby. This doesn’t all happen in one turn of a conversation. ChatGPT often helps the user clarify what matters along the way. As an example, our engineering team asked ChatGPT how to train for a race: A conversation begins with a general question about running. Several turns later, they ask about shoes to help train. The commercial meaning of the conversation changes as each constraint arrives—and this personalized context evolves across multiple sessions. A system that acted on the first message could retrieve the wrong intent entirely, potentially degrading the user’s experience and getting in their way. Building our ads system required us to move beyond the request-response advertising architecture and build an ads stack from scratch to find potential economic opportunities while prioritizing user trust and value. Turning every message into a standalone request, like a traditional ads system, would have carried a few risks in our chat use case: 1) misreading the user goal by oversimplifying it, 2) beginning the advertising flow too soon, before the user’s real need has become clear, 3) showing ads that get in the way of the user journey instead of supporting it, and 4) inefficiently rerunning the ads flow every time the request changes, creating noise and wasting cost. Instead of building around individual events, the ads system (consisting of retrieval, ranking, and delivery) maintains a stateful session, meaning the ads session runs for the duration of an eligible turn, remembering and updating information as it evolves. ChatGPT sends the initial request context to the ads server. The ads system follows and adapts to the developing exchange rather than relying on a single flattened query. The ads selection process runs alongside ChatGPT’s normal response generation to ensure the ads flow doesn’t influence ChatGPT’s responses. Ads are filtered and selected through a separate system consuming the conversation under its own eligibility, quality, and delivery constraints. This important architectural boundary—different services that use separate models and separate code—lets core ChatGPT servers handle generating the organic response; meanwhile, the ads system independently evaluates whether there’s an appropriate advertising opportunity and, if so, prepares a sponsored placement through a separate serving process. Beyond protecting the user experience, this separation has some practical consequences. ChatGPT has no dependency on the ads system—the services are in no way intertwined and don’t share a content generation model. So if the ads serving system is unavailable or slow, ChatGPT’s organic response continues unaffected. This means the ads system can’t take down or delay the ChatGPT product. The other benefit of this separation is that it keeps the bar very high for valuable ads. Returning no ad is an ordinary, successful outcome. The system only delivers an ad if it’s clearly beneficial to users and advertisers. The other key architectural component in our ads stack is the post-trained LLM that interprets conversations and runs the entire ads flow in an agentic loop—making tool calls to the core functions of the ads system, from the retrieval stage to ranking to auction and, ultimately, delivery. We call this LLM the orchestrator. The first part of an ads flow is understanding user intent to start the retrieval process, which is a fast and deliberately broad sourcing of potential ads to later filter through. Receiving the conversation incrementally creates a richer but more ambiguous retrieval problem because the ads system needs to distinguish current intent from stale context. The orchestrator must interpret references to earlier messages, recognize when a user is speaking hypothetically, and avoid treating every mention of a product or service as a request to buy something. The ads orchestrator uses the available conversation and user context, iterating to find good ads and repeatedly choosing when to call which tool with the underlying goal of finding the most appropriate ad (the ad that balances high user value and high advertiser value) for that conversation and context. If the user chooses to personalize ads, the orchestrator also considers available nonsensitive information about the user’s past conversations to find the best ad matches. As the conversation progresses and the ads orchestrator gets more updated information, the orchestrator can run a fresh set of tool calls with the updated context to find better ads and return them to the client, which can",
+      "extracted_title": "What FDE means at OpenAI",
+      "extracted_excerpt": "What forward deployed engineering means at OpenAI",
+      "extracted_text_for_analysis": "What FDE means at OpenAI What we do, how we work, and how we solve enterprise’s toughest problems to deliver real impact. By: Colin Jarvis, Head of Forward Deployed Engineering at OpenAI When Codex came out, someone on the team asked me, “What do we do when Codex can just one-shot the use cases we spent the last few months building?” That question gets to the heart of what FDE means at OpenAI. We work alongside customers to understand their hardest problems and build solutions they can depend on. What we learn helps shape our products and gives Research concrete problems to solve. That is progress. If we make ourselves obsolete every couple of months, our FDE team is doing its job. I founded the team in early 2025 to close what we call “the deployment gap”: the distance between what models appear capable of and what people can reliably use to do their work. Model capabilities have moved faster than the systems and processes needed to put them to use. Sometimes the missing piece is a product. Sometimes a model performs well on a benchmark but cannot do the job with real-life variables and constraints. We focus on customers’ hardest problems. Where our models can do the job today, we work with Product and our customer to make the solution repeatable and, where they fall short, we work with customers and Research to define the gap and make improvements. Our goal is for each engagement to leave the next customer with a better starting point—if we raise the floor to the point our customers don’t need FDEs to solve this class of problem the next time, we have done our job well. The challenge for John Deere, a 200 year-old agriculture business, was how to scale personalized advice for farmers. One example is See & Spray, its precision weed-control technology, which uses cameras and machine learning to identify and spray weeds rather than treating entire fields to reduce chemical use by up to 70%. But realizing those benefits depends on farmers knowing how to configure the technology, plan their season, and adjust their practices as conditions change. John Deere deployed OpenAI’s APIs to help make that support personalized and scalable. AI can answer farmers’ questions in natural language, provide tailored setup guidance and recommendations, identify when equipment may not be delivering its full potential, and help farmers understand the value they’re getting from the technology. The opportunity extends beyond any single interaction: to deliver relevant guidance throughout the customer journey, helping farmers make better use of their equipment while improving efficiency and sustainability. This is the kind of challenge OpenAI FDEs work to solve: helping organizations move from AI capabilities to systems that deliver practical value in complex, real-world environments. But the problems are often wide open, there may be no established ground truth, and there is no playbook. Everyone wants to build something that has never existed. Fewer people want to do what it takes to get there. Finding talented FDEs while raising the baseline for “good enough” has meant constant experimentation and application. At the start of every FDE team session, I put up a slide with one core value: “Start with the outcome, do what it takes to succeed, then follow with scale”. An impressive demo can go a long way before anyone asks whether it works in the real world. Our job is to solve the customer’s problem to a standard we can stand behind in production. In mid-2025, we had around 15 FDEs working with a large semiconductor customer on 10+ use cases. The ambition was to make their verification process AI-native, covering: - Directed test generation - Root cause analysis and debugging - An architecture assistant Verification can account for ~70% of a project’s effort in this industry. The opportunity was enormous, and there were many possible places to start. Some FDEs had joined OpenAI just days earlier and had never worked in semiconductors. They embedded with the customer’s verification team, studied chip design in their spare time, and built evals with the engineers to test whether the AI could generate useful tests and correctly diagnose chip failures. Alongside that learning, we built custom harnesses for the individual use cases. Over the first 3-6 months, all of them reached production and early user adoption. The payoff was seeing the metrics: - ~48% time saved through AI-based directed test generation. - 22% median performance improvement through kernel optimisation. - Weeks of debugging compressed into hours When we played this all back the Chief Hardware Officer asked, “Did you guys work as chip designers before coming here?” Our FDEs don’t need to know the industry on day one but it is their responsibility to learn it. As coding assistants make software faster to build, understanding the customer’s business becomes even more important. We build teams with a mix of generalists and domain experts. You need enough knowledge to make sound judgments, and enough curiosity to question assumptions about the status quo. In life sciences, for example, our FDEs’ scientific backgrounds help them earn trust with researchers working on pre-clinical drug discovery tasks such as target validation and prioritization, gene-expression analysis, and chemical synthesis-route reconstruction. That expertise lets them contribute informed judgment about how those workflows could improve. We had shown that these workflows could deliver value, but each still required too much custom integration to extend to another team. The next challenge was to preserve those results while making the software easier to deploy and maintain. By then, Codex had grown in capability. One FDE tested rebuilding their application around it, then worked with the team to move the use cases onto a common harness with Codex at its core. Custom applications became plugins and skills built on common Codex primitives. Codex also became the interface, allowing us to retire the separate terminal UIs and CLIs we had written for individual use cases. We were able to remove roughly 90% of the custom code from each project, and this changed how we built, maintained and scaled these workflows: - We could benefit from centralized improvements to Codex, reducing the amount of glue code required for each individual use case - Key functionalities were bundled as skills and plugins, making them easier to share with each other and to be centrally controlled by the AI CoE. This meant that extending from one team to the next could be as simple as swapping in new connectors/MCP servers, building fresh evals (which we also had a skill for) and getting up and running. - In one August 2026 example, the initial deployment took two months. Extending the solution to a second team took one day. The next teams onboarded faster as we scaled—this has continued, with a use case in August 2026 taking 1 day for the second team after the initial deployment took 2 months.",
       "title_zh": "OpenAI 推进模型或产品能力更新",
       "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
@@ -456,32 +133,32 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-          "source_url": "https://openai.com/index/building-chatgpt-ad-stack"
+          "text": "What FDE means at OpenAI",
+          "source_url": "https://openai.com/index/forward-deployed-engineering-means"
         },
         {
           "label": "公开摘要",
-          "text": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-          "source_url": "https://openai.com/index/building-chatgpt-ad-stack"
+          "text": "What forward deployed engineering means at OpenAI",
+          "source_url": "https://openai.com/index/forward-deployed-engineering-means"
         }
       ],
-      "slug": "how-we-built-chatgpts-novel-ad-stack-for-user-trust-and-relevance-edef63b5",
-      "localized_url": "/zh/items/2026-10-22/how-we-built-chatgpts-novel-ad-stack-for-user-trust-and-relevance-edef63b5/",
+      "slug": "what-fde-means-at-openai-63c31ca5",
+      "localized_url": "/zh/items/2026-10-23/what-fde-means-at-openai-63c31ca5/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "title_original": "Using thousands of AI agents to uncover new leads in biological data",
-      "title_en": "Using thousands of AI agents to uncover new leads in biological data",
-      "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "title_original": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "title_en": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
       "source_name": "OpenAI News",
       "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "published_at": "Wed, 21 Oct 2026 04:50:00 GMT",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
+      "original_url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "published_at": "Thu, 22 Oct 2026 00:00:00 GMT",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
       "category": "models-products",
       "people": [],
       "companies": [
@@ -495,93 +172,19 @@
       "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "1de8e62ff715",
+      "duplicate_group_id": "ba6fa07d677a",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
       "extraction_status": "success",
       "quality_warnings": [],
-      "extracted_title": "Using thousands of AI agents to uncover new leads in biological data",
-      "extracted_excerpt": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "extracted_text_for_analysis": "Using thousands of AI agents to uncover new leads in biological data How OpenAI, PerturbAI, and Scripps Research used distributed AI agents to help scientists identify promising research leads in data from millions of brain cells What if scientists could uncover new clues about Alzheimer’s and Parkinson’s in minutes instead of months? Working together, OpenAI, PerturbAI(opens in a new window), and Scripps Research(opens in a new window) used thousands of AI agents powered by GPT‑Rosalind(opens in a new window) to analyze and interpret existing experimental data from millions of mouse brain cells(opens in a new window) in just 32 minutes. The agents connected the effects of gene disruptions with findings from scientific literature, uncovering unexpected biological connections that can help scientists understand disease and identify research directions for new treatments. The work shows how AI can help researchers explore more of what large biological experiments reveal. Modern experiments generate far more data than scientists can thoroughly investigate. Researchers can now alter thousands of genes and measure their effects across millions of cells. But understanding what these results mean for human disease requires connecting complex experimental findings with decades of scattered scientific knowledge. This is where AI can help scientists uncover promising leads that might otherwise be missed. “We build cell atlases so that other scientists can make discoveries we haven’t imagined yet. AI could help more researchers explore these resources and turn unexpected observations into new questions to test.” The team divided the analysis among thousands of AI agents powered by GPT‑Rosalind, an approach we call distributed biological reasoning. The agents examined a whole-brain CRISPR atlas(opens in a new window), a dataset showing how gene disruptions affect different types of cells across the mouse brain. Each agent investigated a gene disruption, analyzed cellular responses, searched scientific literature, and proposed explanations for the results. Their reports were combined into a reasoning atlas linking genes, cellular effects, relevant publications, and possible biological mechanisms. The research team estimated that comparable human analysis and literature review, conducted one perturbation at a time, would take months to a year. The agents reproduced findings from human analyses while uncovering additional leads. Their assessments of novelty and scientific value also aligned with judgments from blinded human experts. These findings help prioritize further experiments needed to test the proposed biological mechanisms. Some of these insights point to new leads for understanding brain disease. The agents identified unexpected differences in how two disease-linked genes affect brain cells differently, as well as a potential connection between cholesterol regulation and neurodegeneration. These findings could help scientists investigate how disease develops and where future treatments might intervene. “Sometimes the clues are already there, scattered across different fields—we just haven’t connected them. The possible link between neuronal function and cholesterol metabolism shows how those pieces, once brought together, can give us a new way to think about disease biology.” Researchers can begin exploring these findings today. The reasoning atlas is available(opens in a new window), allowing scientists to compare related genes, investigate unexpected responses, and identify promising leads to pursue. New discoveries often emerge when researchers from different fields bring their expertise together and connect familiar ideas in unexpected ways. AI can significantly scale these connections by linking new data with knowledge scattered across disciplines. The opportunity goes beyond analyzing data faster. By combining AI with experimental biology, human expertise, and scientific literature, we can help scientists turn more of their data into testable ideas. Some of an experiment’s most interesting clues lie outside the story scientists set out to investigate. In a dataset spanning thousands of perturbations, those clues can be easy to miss. The agents identified an unexpected difference between Tsc1 and Tsc2, two genes that work together to control mTOR, a major regulator of cell growth, metabolism, and aging. Disrupting either gene had similar effects in several groups of neurons. But in the cerebellum, which helps coordinate movement, Tsc2 disruption altered the activity of dozens of genes involved in neuronal communication, while Tsc1 disruption produced little change. That difference may be relevant to human disease. In people with tuberous sclerosis, abnormalities in the cerebellum are strongly linked to TSC2 mutations. While medicines that reduce mTOR activity can treat certain brain tumors and seizures, learning and behavioral difficulties associated with the disease remain challenging to address. The agents pinpointed a specific group of neurons and cellular changes worth investigating: which changes might existing medicines correct, and which might point to new treatment approaches? This gives researchers a more specific set of questions to test in the lab. Could a single agent given the entire dataset do just as well as thousands of agents working in parallel? We tested this while keeping the model and resources fixed. As the workload grew, the single agent searched less of the literature, citing only 11 references at the largest workload, while the distributed agents cited more than 700 references. Human experts also preferred the distributed-agent interpretations. Scientists have limited time and often focus on the strongest signals in their data. Distributed agents can help examine a wider range of responses, including subtle or unexpected ones, and connect them with relevant scientific literature. Running the agents in parallel allows many perturbations to be investigated at once. This helps scientists explore more of what an experiment contains and identify promising leads that might otherwise be missed. A finding becomes more valuable when it points to an experiment worth doing. The agents found one such lead in DCTN1, a gene whose mutations cause Perry syndrome, a neurodegenerative disease with Parkinson-like symptoms. DCTN1 is involved in moving cargo inside neurons. In the whole-brain CRISPR atlas, disrupting Dctn1 increased the expression of genes involved in making cholesterol. The agents connected this observation with research suggesting that problems with cholesterol transport may cause cells to make more cholesterol. This raised a question for follow-up experiments: could DCTN1 disruption change how cholesterol is distributed within neurons, and could those changes contribute to neurodegeneration? If so, could restoring normal cholesterol distribution help protect neurons? Human experts also considered this hypothesis novel, consequential and worth",
-      "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+      "extracted_title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "extracted_excerpt": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "extracted_text_for_analysis": "Uber announced the company-wide rollout of ChatGPT Work, an agent that helps employees take on a wide range of tasks within ChatGPT Enterprise, starting today. The rollout will make ChatGPT Work available to more than 30,000 employees across Uber’s global workforce. Expanding from an initial pilot of 1,000 employees, the rollout will give teams across Uber access to an agentic platform designed to take on complex, multi-step tasks and deliver finished work. The expansion makes ChatGPT Work Uber’s first company-wide deployment of an agentic platform tailored for knowledge work. ChatGPT Work connects with tools companies like Uber use on a daily basis, including Google Drive, Gmail, Google Calendar, and Slack, enabling workers to research information, prepare meeting briefs, create presentations, analyze data and complete workflows across applications. ChatGPT Work also gives Uber access to OpenAI’s portfolio of frontier models. Uber will benefit from models like GPT‑6.1 Sol which will be deployed as the default capability within ChatGPT Work, balancing frontier performance and cost efficiency. Uber teams will also be supported by OpenAI multimodal capabilities, including voice and image generation, giving them the flexibility to choose the right models and tools for different needs. The rollout will be supported by Uber’s internal AI skills library, approved integrations and dedicated employee training, helping teams across functions including operations, finance, marketing and product put the technology to work. Uber’s developers and software engineering teams will also continue using Codex to accelerate software development and streamline coding workflows. The expansion marks another step in Uber’s broader AI strategy and its collaboration with OpenAI. The companies plan to share further insights into adoption, use cases and measurable outcomes as the rollout progresses.",
+      "title_zh": "OpenAI 推进模型评测与研究方法",
       "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Using thousands of AI agents to uncover new leads in biological data",
-          "source_url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data"
-        },
-        {
-          "label": "公开摘要",
-          "text": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-          "source_url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data"
-        }
-      ],
-      "slug": "using-thousands-of-ai-agents-to-uncover-new-leads-in-biological-data-1de8e62f",
-      "localized_url": "/zh/items/2026-10-22/using-thousands-of-ai-agents-to-uncover-new-leads-in-biological-data-1de8e62f/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "title_original": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "title_en": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/empowering-cyber-defenders",
-      "published_at": "Wed, 21 Oct 2026 00:00:00 GMT",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "b2deaf97c98c",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "OpenAI 推进政府与国家安全合作原则",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+        "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
         "相关标签包括：openai、models、product。",
@@ -593,47 +196,46 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-          "source_url": "https://openai.com/index/empowering-cyber-defenders"
+          "text": "Uber brings ChatGPT Work to all employees with OpenAI",
+          "source_url": "https://openai.com/index/uber-chatgpt-work-rollout"
         },
         {
           "label": "公开摘要",
-          "text": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-          "source_url": "https://openai.com/index/empowering-cyber-defenders"
+          "text": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+          "source_url": "https://openai.com/index/uber-chatgpt-work-rollout"
         }
       ],
-      "slug": "democratic-governance-of-frontier-ai-part-ii-empowering-cyber-defenders-b2deaf97",
-      "localized_url": "/zh/items/2026-10-22/democratic-governance-of-frontier-ai-part-ii-empowering-cyber-defenders-b2deaf97/",
+      "slug": "uber-brings-chatgpt-work-to-all-employees-with-openai-ba6fa07d",
+      "localized_url": "/zh/items/2026-10-23/uber-brings-chatgpt-work-to-all-employees-with-openai-ba6fa07d/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Claude Duet is beautiful. I still forgot to use it",
-      "title_original": "Claude Duet is beautiful. I still forgot to use it",
-      "title_en": "Claude Duet is beautiful. I still forgot to use it",
-      "summary_zh": "Anthropic 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Anthropic is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
-      "source_name": "Lenny's Podcast",
-      "source_url": "https://www.lennysnewsletter.com/",
-      "original_url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
-      "published_at": "Wed, 21 Oct 2026 20:25:18 GMT",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
+      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+      "title_original": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+      "title_en": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+      "summary_zh": "OpenAI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "The Big Hardening begins",
+      "source_name": "Latent Space",
+      "source_url": "https://www.latent.space/",
+      "original_url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+      "published_at": "Thu, 22 Oct 2026 07:42:44 GMT",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
       "category": "podcasts-interviews",
       "people": [],
       "companies": [
-        "Anthropic"
+        "OpenAI"
       ],
       "tags": [
-        "podcast",
-        "product",
-        "ai-products",
-        "startups"
+        "llm",
+        "agents",
+        "ai-engineering"
       ],
       "importance_score": 56.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "a76f8995ad56",
+      "duplicate_group_id": "4e2ec0dca813",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -644,265 +246,56 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Anthropic 讨论行业访谈中的判断与经验",
+      "title_zh": "OpenAI 讨论行业访谈中的判断与经验",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
-        "主体是 Anthropic，核心变化集中在行业访谈中的判断与经验。",
+        "主体是 OpenAI，核心变化集中在行业访谈中的判断与经验。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：podcast、product、ai-products、startups。",
-        "涉及公司或机构：Anthropic。"
+        "相关标签包括：llm、agents、ai-engineering。",
+        "涉及公司或机构：OpenAI。"
       ],
-      "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
       "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [],
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Claude Duet is beautiful. I still forgot to use it",
-          "source_url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still"
+          "text": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol;",
+          "source_url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program"
         },
         {
           "label": "公开摘要",
-          "text": "Anthropic is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
-          "source_url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still"
+          "text": "The Big Hardening begins",
+          "source_url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program"
         }
       ],
-      "slug": "claude-duet-is-beautiful-i-still-forgot-to-use-it-a76f8995",
-      "localized_url": "/zh/items/2026-10-22/claude-duet-is-beautiful-i-still-forgot-to-use-it-a76f8995/",
+      "slug": "ainews-openais-patch-the-planet-program-is-1-of-2-parties-to-discover-ph-4e2ec0dc",
+      "localized_url": "/zh/items/2026-10-23/ainews-openais-patch-the-planet-program-is-1-of-2-parties-to-discover-ph-4e2ec0dc/",
       "source_license_mode": "summary_only",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-      "title_original": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-      "title_en": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-      "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station serves enterprise",
-      "source_name": "NVIDIA AI Podcast",
-      "source_url": "https://blogs.nvidia.com/ai-podcast/",
-      "original_url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
-      "published_at": "Wed, 21 Oct 2026 10:50:37 +0000",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [
-        "NVIDIA"
-      ],
-      "tags": [
-        "nvidia",
-        "chips",
-        "podcast"
-      ],
-      "importance_score": 48.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "4ad89d65a44a",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：nvidia、chips、podcast。",
-        "涉及公司或机构：NVIDIA。"
-      ],
-      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-          "source_url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/"
-        },
-        {
-          "label": "公开摘要",
-          "text": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on",
-          "source_url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/"
-        }
-      ],
-      "slug": "bringing-the-spark-to-europe-local-intelligence-powers-next-wave-of-agen-0b1d731f",
-      "localized_url": "/zh/items/2026-10-22/bringing-the-spark-to-europe-local-intelligence-powers-next-wave-of-agen-0b1d731f/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
-      "title_original": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
-      "title_en": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
-      "summary_zh": "NVIDIA 的新访谈把焦点放在推理容量与成本控制方案，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together",
-      "source_name": "NVIDIA AI Podcast",
-      "source_url": "https://blogs.nvidia.com/ai-podcast/",
-      "original_url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
-      "published_at": "Wed, 21 Oct 2026 10:45:17 +0000",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [
-        "NVIDIA"
-      ],
-      "tags": [
-        "nvidia",
-        "chips",
-        "podcast"
-      ],
-      "importance_score": 48.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "db73069fa994",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "NVIDIA 讨论推理容量与成本控制方案",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 NVIDIA，核心变化集中在推理容量与成本控制方案。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：nvidia、chips、podcast。",
-        "涉及公司或机构：NVIDIA。"
-      ],
-      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [
-        {
-          "term": "inference",
-          "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
-          "source_url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
-        },
-        {
-          "label": "公开摘要",
-          "text": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud",
-          "source_url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/"
-        }
-      ],
-      "slug": "google-cloud-and-nvidia-announce-general-availability-of-nvidia-vera-rub-7dbdc8f6",
-      "localized_url": "/zh/items/2026-10-22/google-cloud-and-nvidia-announce-general-availability-of-nvidia-vera-rub-7dbdc8f6/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
-      "title_original": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
-      "title_en": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
-      "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by design. NVIDIA Cloud",
-      "source_name": "NVIDIA AI Podcast",
-      "source_url": "https://blogs.nvidia.com/ai-podcast/",
-      "original_url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
-      "published_at": "Wed, 21 Oct 2026 10:30:41 +0000",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [
-        "NVIDIA"
-      ],
-      "tags": [
-        "nvidia",
-        "chips",
-        "podcast"
-      ],
-      "importance_score": 48.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "3df8ce2aed7d",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：nvidia、chips、podcast。",
-        "涉及公司或机构：NVIDIA。"
-      ],
-      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
-          "source_url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure",
-          "source_url": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/"
-        }
-      ],
-      "slug": "nvidia-cloud-partners-scale-across-europe-sovereign-open-and-built-for-s-f47072a3",
-      "localized_url": "/zh/items/2026-10-22/nvidia-cloud-partners-scale-across-europe-sovereign-open-and-built-for-s-f47072a3/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
-      "title_original": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
-      "title_en": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "title_original": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "title_en": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
       "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and",
+      "summary_en": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into",
       "source_name": "NVIDIA AI Podcast",
       "source_url": "https://blogs.nvidia.com/ai-podcast/",
-      "original_url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/",
-      "published_at": "Wed, 21 Oct 2026 10:30:40 +0000",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
+      "original_url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+      "published_at": "Thu, 22 Oct 2026 15:00:02 +0000",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
       "category": "podcasts-interviews",
       "people": [],
       "companies": [
@@ -916,7 +309,264 @@
       "importance_score": 48.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "d290a28d4409",
+      "duplicate_group_id": "99c8819be3a7",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "extracted_excerpt": "New AIOps platform connects infrastructure and workload telemetry to help operators increase uptime and maximize AI factory yield.",
+      "extracted_text_for_analysis": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast numbers of GPUs working across high-speed networks to train models and serve AI applications. At that scale, a single degraded component can slow an entire job. The warning signs may be easy to miss, such as a GPU running hotter than its peers or an NVMe drive losing performance under load. The platform focuses on AI factory yield, a measure of the useful work infrastructure produces through GPU hours, goodput, cluster uptime and token production. Delivering a Dynamic View of an AI Factory Traditional monitoring tools often divide the data center into separate views. Networking, compute, site reliability and machine learning teams each see a different part of the operation. Minerva connects those signals across NVIDIA GPUs, networking, storage, schedulers and workloads. With these signals, Minerva builds a dynamic knowledge graph that logically maps the infrastructure — GPUs, SuperNICs, switches and cables — and the jobs running on it. This context helps operators trace a slow training job to the component affecting it, even across a factory with hundreds of thousands of GPUs. It analyzes billions of data points per hour using supervised and unsupervised machine learning. It learns normal behavior, detects previously unseen anomalies, predicts emerging failures and correlates related events based on the factory’s topology. Instead of sending every symptom to an operator, it can group an event storm into a focused incident with a likely root cause. Minerva comes with a native AI assistant and connects to external agentic AI tools. This adds a natural-language interface grounded in live telemetry. Operators can investigate cluster health and receive recommended remediation through conversation. Teams can keep a person in the loop to manually implement fixes or connect Minerva to automation through infrastructure application programming interfaces and external systems. Results That Maximize AI Factory Yield The ability to correlate workload and infrastructure issues along with its agentic AI capabilities help simplify AI factory operations. Instead of dealing with a blizzard of alerts, Minerva aggregates related problems into a single actionable item. This allows AIOps teams to move from reactive to proactive maintenance. And all of this helps AI factories maximize GPU uptime. Minerva delivers value for the key metrics AI factories focus on: - Longer time between interruptions: Minerva spots trouble before it happens, so jobs run longer without incident. - Faster time to repair: When an incident does happen, Minerva pinpoints the problem, leading to a significantly quicker resolution. - Greater insight: Modern AI infrastructure generates a flood of data; Minerva filters it out, leaving only the handful of alerts that actually matter. IREN is among the NVIDIA partners using Minerva to optimize its AI factories. “As we scale our AI factories, the key to providing the best service for our customers is maximizing the productivity of our GPUs,” said Denis Skrinnikoff, chief technology officer of IREN. “NVIDIA Minerva gives our operations team one view across the network, the GPUs and the jobs running on them, so we focus more on proactive maintenance rather than troubleshooting. That visibility strengthens our operating model for the infrastructure we’re building next.” Joining IREN, Aolani, Bitdeer AI, IBM, Jio, Lambda, Quake AI and Tesla plan to deploy Minerva. In addition to Dell Technologies, Lenovo and Supermicro will offer Minerva as part of their AI factory operations portfolios. Learn more about NVIDIA Minerva. See notice regarding software product information.",
+      "title_zh": "NVIDIA 发布行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+          "source_url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies",
+          "source_url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/"
+        }
+      ],
+      "slug": "nvidia-unveils-minerva-to-bring-end-to-end-observability-for-ai-factorie-06769efc",
+      "localized_url": "/zh/items/2026-10-23/nvidia-unveils-minerva-to-bring-end-to-end-observability-for-ai-factorie-06769efc/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+      "title_original": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+      "title_en": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+      "published_at": "Thu, 22 Oct 2026 13:00:20 +0000",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "1703863d36a8",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+      "extracted_excerpt": "Get memberships through Amazon on Fire TV, rally a party in ‘FINAL FANTASY RESONANCE’ and explore Season Two of ‘The Elder Scrolls Online.’",
+      "extracted_text_for_analysis": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ultimate members, bringing support for ray-tracing features in the cloud. There’s a new way to join the cloud, too: Existing supported Fire TV Stick users can now purchase one-month Performance or Ultimate memberships directly through Amazon, making it easier to sign up and start streaming on the big screen. Plus, Square Enix’s FINAL FANTASY RESONANCE brings cinematic pixel art and strategic battles to the cloud, and The Elder Scrolls Online’s Echoes of Skyrim Season adds the entire Greymoor Chapter free for all ESO Standard Edition owners. It’s all part of six games joining the GeForce NOW library this week. Deployment Without the Downloads Squad up and answer the call on the cloud. Activision and Infinity Ward’s Call of Duty: Modern Warfare 4 launches today on GeForce NOW. Members can drop into the trenches in Korea, close-quarter combat in New York, high-octane chases through Paris, night raids in Mumbai and city-wide engagements to reclaim occupied territory. Fight as Private Park, a young South Korean soldier facing live combat for the first time alongside his squad as a routine patrol turns into a desperate fight for survival. Beyond the front lines, operator-turned-outlaw Captain Price is operating outside the system he once served, pursuing revenge through covert missions as the conflict spreads. Multiplayer pairs precise combat with fluid movement, a dozen core 6v6 maps from around the world and battlegrounds that are shaped by the campaign’s global conflict. The DMZ extraction mode sends players into contested territory to recover valuable technology, weigh objectives and decide when to get out. Loot, fight, negotiate, betray and extract — it’s all fair in the cloud and battleground. Ultimate members can now experience the campaign with ray tracing, powered by newly added GeForce RTX 5080-class performance across PCs, Macs, handhelds, mobile devices, browsers, supported TVs and more. With game downloads and installs handled by GeForce NOW, members can spend less time preparing a local rig and more time preparing the next loadout. A New Way to Play GeForce NOW in-app purchase is rolling out to existing supported Fire TV Stick users, making it possible to purchase a membership directly through Amazon using an existing account. Transactions are processed through Amazon’s billing system, creating a more seamless path from setup to gameplay. GeForce NOW transforms Fire TV into a powerful PC gaming rig in the cloud. Members can stream supported PC games they already own or purchase new titles from digital stores including Steam, Epic Games Store, Ubisoft Connect, Xbox PC Game Pass, GOG and EA. The library includes thousands of ready-to-play games, including many of the world’s most-played titles and more than 100 free-to-play games. No downloads, installs, patches or updates stand between a new game and playtime. An Amazon Fire TV Stick, the GeForce NOW app and an Ultimate membership are all it takes to level up the living room with GeForce RTX 5080-powered gaming. A Pixel-Perfect Fantasy Classic roots. A new adventure. Square Enix’s FINAL FANTASY RESONANCE launches today on GeForce NOW, bringing the series’ classic roots into a cinematic pixel-art world. Travel with companions bound by fate and uncover the truth behind a force threatening to bring everything to ruin. Strengthen the party with Visions of beloved FINAL FANTASY characters, each bringing unique skills and abilities to battle. Dynamic camera angles and pixelized 3D models give familiar fantasy a fresh perspective. Exploit enemy weaknesses to stagger foes, break their defenses and seize extra turns before finishing the bonus phase with powerful Resonance attacks. Airships, crystals, espers and moogles bring familiar series favorites to a world filled with secrets to discover. GeForce NOW handles the game’s downloads and storage in the cloud, leaving more space on supported devices for everyday essentials. Save the inventory management for potions and Phoenix Downs. Step Into a New Season in Tamriel Familiar lands. Fresh reasons to return. The Elder Scrolls Online’s second season, Echoes of Skyrim, launched Wednesday, Oct. 21, free for all ESO players and ready to stream through GeForce NOW. Season Two gives everyone who owns ESO Standard Edition access to its Skyrim content and the Antiquities treasure-hunting system. The Markarth downloadable content follows Monday, Nov. 9, rounding out the additions with two classic zones to explore. The Season also introduces Solo Dungeons, reimagining challenges previously designed for groups. Moon Hunter Keep and March of Sacrifices have been redesigned and rebalanced for players ready to tackle their dangers alone. Earn new rewards and take on new challenges at your own pace without needing to find a group. A new Tamriel Tome also launched Oct. 21, offering both free and premium battle pass reward tracks. In addition, members can look for the following titles joining the GeForce NOW library this week: - We Were Here Tomorrow (New release on Steam, Oct. 20) - FINAL FANTASY RESONANCE (New release on Steam, Oct. 22) - Call of Duty: Modern Warfare 4 (New release on Oct 23, available in the Call of Duty app) - CONTROL Resonant (Epic Game Store) - Crimson Desert (Epic Games Store) - Planet Zoo 2 (Xbox app, supports XBOX Play Anywhere) Dates listed above reflect when games are released on their respective stores. GeForce NOW availability may vary, as games are onboarded after release and added throughout the week. Keep an eye on GeForce NOW channels and GFN Thursdays for availability updates on announced titles. Gamers who want to test out high-performance GeForce NOW cloud gaming can start with a day pass to try premium cloud gaming before committing to a membership. Better yet, the cost of the day pass can be applied toward a first monthly membership — making it easy to try GeForce RTX-powered cloud gaming with the latest releases, then level up for more. What’s on the mission board this weekend? Let us know on X or in the comments below.",
+      "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+          "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The",
+          "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/"
+        }
+      ],
+      "slug": "cloud-deployment-incoming-call-of-duty-modern-warfare-4-arrives-on-gefor-0d155a8c",
+      "localized_url": "/zh/items/2026-10-23/cloud-deployment-incoming-call-of-duty-modern-warfare-4-arrives-on-gefor-0d155a8c/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+      "title_original": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+      "title_en": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/",
+      "published_at": "Thu, 22 Oct 2026 05:00:56 +0000",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "e12302cd4e2c",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+      "extracted_excerpt": "From transaction foundation models to sovereign cloud deployments, leading financial institutions across Europe are scaling intelligent technologies with advanced computing.",
+      "extracted_text_for_analysis": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their own infrastructure. Revolut is rebuilding its technology stack on a single foundation model PRAGMA, powered by NVIDIA accelerated computing. Using the NVIDIA cuDF toolkit and Dynamo-Triton software on NVIDIA Blackwell Ultra GPUs, Revolut is scaling PRAGMA in production, servicing an initial 80 million customers and engineered to scale 3x. “Revolut processes billions of transactions — the opportunity was always there, but the question was whether foundation models could operate at that scale and across domains. PRAGMA answers that,” said Pavel Nesterov, head of AI at Revolut. “Built in collaboration with NVIDIA, it’s the clearest proof yet that the gap between a research breakthrough and a production banking system can be closed.” Training on Accelerated Infrastructure Starling Bank, the first bank to train an agentic model on U.K. sovereign cloud infrastructure, has developed “Starling Intelligence” — the intelligence layer that underpins its AI capability — on Civo’s U.K. cloud using the bank’s own transaction data. Lloyds Banking Group built ATUM, a transaction foundation model that converts billions of banking transactions into reusable intelligence — accelerated with NVIDIA RTX PRO 6000 Blackwell GPUs and improving efficiency across bank-wide use cases. SBS launched a banking sovereign intelligence platform so banks can run generative and agentic models without their data leaving their own walls. Open Models at a Fraction of the Cost Open weight models give European financial institutions proprietary intelligence built on data they own, at costs they control. NVIDIA’s accelerated computing platform is the engine running beneath them. Neobank bunq’s agentic assistant Finn now runs on open weight models. Powered by NVIDIA accelerated computing, deploying on Nebius matches the quality of leading closed models at 60% of the cost per answer. NatWest is building technology designed to recognize the full range of British accents, dialects and financial terminology, developed with NVIDIA’s speech models, including Nemotron 3.5 ASR. Modulr is building specialized models for distinct parts of payment operations, based on the NVIDIA Nemotron-3-Ultra-550B open model. Santander is an early adopter of the new NVIDIA Kumo family of open weight foundation models for structured financial data, using them to build specialized intelligence for core banking workloads. Accelerated Computing Transforms Financial Research LSEG is working with NVIDIA to help financial institutions analyze large volumes of historical tick data up to 10x faster with the Polars GPU engine, accelerated by NVIDIA cuDF on NVIDIA RTX PRO 6000 Blackwell GPUs. RavenPack built a dataset generation pipeline on Bigdata.com that takes a plain-language research hypothesis and returns a labeled, backtest-ready dataset — running on a fine-tuned NVIDIA Nemotron model. Investors can use these datasets to identify, analyze and visualize market trends. Speeding Data Pipelines to Improve Fraud Detection RTX PRO 6000 Blackwell Server Edition GPUs and NVIDIA cuDF help accelerate data processing across multi-terabyte-scale, siloed, regulated sources, compressing the time from data to decision for fraud and other scenarios. HSBC provides near-real-time client insights that support customer processes and on-demand decision-making while minimizing risk and fraud, powered by 5x faster data processing on Starburst Enterprise’s GPU Engine. Stripe, a global provider of programmable financial services, sees 42x faster data pipelines and 92% cost savings for its Stripe Radar fraud-detection platform with NVIDIA GPU-accelerated Ray Data in offline testing. This enables Stripe Radar’s machine learning pipelines to continuously optimize model training and improve fraud detection. Learn more about NVIDIA accelerated computing in financial services. See notice regarding software product information.",
+      "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Leading European Financial Services Organizations Embrace Open Models to Build Proprietary Intelligence",
+          "source_url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "At GTC Berlin, banks, payment companies and financial data providers are showing what production-scale intelligence looks like — built on NVIDIA accelerated computing, powered by open weight models and running on their",
+          "source_url": "https://blogs.nvidia.com/blog/european-financial-services-organizations-open-models-proprietary-intelligence/"
+        }
+      ],
+      "slug": "leading-european-financial-services-organizations-embrace-open-models-to-8eb5c126",
+      "localized_url": "/zh/items/2026-10-23/leading-european-financial-services-organizations-embrace-open-models-to-8eb5c126/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "title_original": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "title_en": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在开发者接口与平台能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "published_at": "Thu, 22 Oct 2026 05:00:27 +0000",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "c3ecf70aef54",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "extracted_excerpt": "New tools joining NVIDIA Cosmos are helping accelerate data pipelines, train, evaluate and optimize world models more efficiently, and improve accuracy at lower cost.",
+      "extracted_text_for_analysis": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open models — as well as data, training and optimization tools and recipes — to scale training data, adapt models, test behavior and optimize for performance before deployment. Build Better Training Data Building world models begins with multimodal, multisensory data. NVIDIA Cosmos Data Factory brings together the tools and skills for labeling, curating, augmenting and evaluating data at scale for training physical AI. Cosmos Curator, a GPU-accelerated solution for curating video training datasets, has now added support for multimodal multisensory inputs and processing blocks. Cosmos Data Factory now offers the following five cloud-native blueprints and is available through GitHub, Microsoft Azure, Nebius and CoreWeave: - Autonomous Vehicle Dataset Generation: Curates and labels driving data, then adds synthetic examples of hard-to-capture scenarios to expand training coverage. - Image Attribute Augmentation: Varies object appearance to improve image search. - Event Video Generation: Turns still images into synthetic videos of rare or unsafe events. - Defect Image Generation: Generates printed circuit board, metal and glass defect images for inspection models. - Video Data Augmentation: Changes weather and lighting in existing footage while preserving scene structure. Cosmos Data Factory accelerates data curation, processing and synthetic data generation with agentic skills. Companies are already putting Cosmos Data Factory blueprints to work to speed their physical AI development workflows. Porsche is leading the development of a shared AV data flywheel across Volkswagen Group brands, using Cosmos Data Factory through Voxel51 on Microsoft Azure. This is expected to reduce repeated physical test drives by up to 90% and shorten development cycle times by up to 85%. Porsche searching and augmenting autonomous vehicle data footage in Voxel51, powered by Cosmos Data Factory. ANYbotics generated over 1,500 synthetic video clips with Cosmos Data Factory blueprints, curating real-world data and validating outputs with Encord’s platform, to train its industrial-inspection robots to recognize liquid spills and other changes between facility visits. ANYbotics generating anomaly clips with Encord powered by NVIDIA Cosmos Data Factory. Ultralytics, a computer vision company, retrained its YOLO model with real images and targeted synthetic defects generated using Cosmos Data Factory, improving defect localization and recall. Train, Adapt and Optimize Models With training data prepared, developers may train their own architecture or start with a pretrained model. At GTC Berlin, NVIDIA extended Cosmos Framework training, optimization and deployment tools and recipes as agent skills to more open models, along with Cosmos 3, giving world model builders a faster path from experimentation to deployment. Developers and agents can now adapt open models like GR00T, Alpamayo, QWEN, Pi0.5 and other compatible Hugging Face models through fine-tuning and reinforcement learning, optimize the model with distillation and quantization, and deploy with high-performing inference. To develop a world model specialized for egocentric manipulation, robotics research lab MicroAGI post-trained Cosmos 3 on videos of humans manipulating objects and distilled its 32-billion-parameter reasoner down to an 8-billion-parameter Nano model with no loss in accuracy. Developers can label data and post-train Cosmos 3 on Roboflow for their specific environments and tasks, then deploy those models to RoboFlow hosted or on-premises NVIDIA GPUs to bring video reasoning into factories and warehouses. Test Policies and Run Models Faster Alongside these tools, NVIDIA continues advancing foundational technology through its work on Cosmos models. New Cosmos 3 Nano model variants for simulation enable developers to test autonomous policies in repeatable, hard-to-capture, multiview multisensor scenarios. Accompanying code allows developers to adapt the models to train and evaluate their own policies for autonomous vehicles and bimanual robots in interactive simulations before real-world testing. Developers can deploy core Cosmos models using updated NVIDIA Cosmos 3 NIM microservices, which deliver up to 2x faster inference with no quality loss in validated configurations, while continuous video analysis enables sub-second alerts. For vision AI developers, the new NVIDIA Metropolis Blueprint for video search and summarization (VSS) 3.3, built on Cosmos NIM microservices, turns one prompt into an efficient video AI application and helps teams monitor 40% more video streams with the same GPU. ADNOC uses Fogsphere’s MistIQ agentic platform, built with Cosmos and the NVIDIA Metropolis VSS Blueprint, to detect safety hazards in real time across 65 sites. For rare events, Fogsphere also uses the Cosmos Data Factory to generate synthetic training data, improving detection without needing to physically stage dangerous situations. The Cosmos platform is fully modular and open. Developers can use Cosmos Data Factory to generate training datasets, Cosmos Framework to train and adapt world models, then deploy supported Cosmos models through NIM microservices.",
+      "title_zh": "NVIDIA 披露开发者接口与平台能力",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在开发者接口与平台能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "API",
+          "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+          "source_url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos",
+          "source_url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/"
+        }
+      ],
+      "slug": "nvidia-cosmos-opens-new-tools-to-train-evaluate-and-deploy-world-models-381130e2",
+      "localized_url": "/zh/items/2026-10-23/nvidia-cosmos-opens-new-tools-to-train-evaluate-and-deploy-world-models-381130e2/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+      "title_original": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+      "title_en": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem. Power is now the",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/dsx-power/",
+      "published_at": "Thu, 22 Oct 2026 05:00:25 +0000",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "f298fb1604b9",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -942,32 +592,103 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA",
-          "source_url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/"
+          "text": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+          "source_url": "https://blogs.nvidia.com/blog/dsx-power/"
         },
         {
           "label": "公开摘要",
-          "text": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open",
-          "source_url": "https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/"
+          "text": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds",
+          "source_url": "https://blogs.nvidia.com/blog/dsx-power/"
         }
       ],
-      "slug": "europes-industrial-leaders-reinvent-engineering-and-manufacturing-with-n-0c405e6f",
-      "localized_url": "/zh/items/2026-10-22/europes-industrial-leaders-reinvent-engineering-and-manufacturing-with-n-0c405e6f/",
+      "slug": "how-companies-are-using-nvidia-dsx-to-break-the-power-bottleneck-761a1716",
+      "localized_url": "/zh/items/2026-10-23/how-companies-are-using-nvidia-dsx-to-break-the-power-bottleneck-761a1716/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
-      "title_original": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
-      "title_en": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
-      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircraft to industrial systems —– depend on",
+      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "title_original": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "title_en": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在推理容量与成本控制方案，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin.",
       "source_name": "NVIDIA AI Podcast",
       "source_url": "https://blogs.nvidia.com/ai-podcast/",
-      "original_url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
-      "published_at": "Wed, 21 Oct 2026 10:30:25 +0000",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
+      "original_url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+      "published_at": "Thu, 22 Oct 2026 05:00:23 +0000",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA",
+        "Physical Intelligence"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "8ed037559253",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "NVIDIA 讨论推理容量与成本控制方案",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在推理容量与成本控制方案。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA、Physical Intelligence。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "inference",
+          "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+          "source_url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is",
+          "source_url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/"
+        }
+      ],
+      "slug": "nvidia-transforms-european-retail-from-digital-discovery-to-physical-ope-23161528",
+      "localized_url": "/zh/items/2026-10-23/nvidia-transforms-european-retail-from-digital-discovery-to-physical-ope-23161528/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+      "title_original": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+      "title_en": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms,",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/",
+      "published_at": "Thu, 22 Oct 2026 05:00:19 +0000",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
       "category": "podcasts-interviews",
       "people": [],
       "companies": [
@@ -981,7 +702,7 @@
       "importance_score": 48.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "147a52922e17",
+      "duplicate_group_id": "67906ae6df39",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -992,7 +713,7 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "NVIDIA 发布行业访谈中的判断与经验",
+      "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
         "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
@@ -1007,32 +728,32 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
-          "source_url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/"
+          "text": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+          "source_url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/"
         },
         {
           "label": "公开摘要",
-          "text": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to",
-          "source_url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/"
+          "text": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking",
+          "source_url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction/"
         }
       ],
-      "slug": "nvidia-cudss-now-generally-available-to-accelerate-engineering-and-scien-64ae1d1e",
-      "localized_url": "/zh/items/2026-10-22/nvidia-cudss-now-generally-available-to-accelerate-engineering-and-scien-64ae1d1e/",
+      "slug": "pioneers-across-europe-deploy-nvidia-earth-2-open-models-to-power-real-w-6d8a31a2",
+      "localized_url": "/zh/items/2026-10-23/pioneers-across-europe-deploy-nvidia-earth-2-open-models-to-power-real-w-6d8a31a2/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-      "title_original": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-      "title_en": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-      "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVIDIA Confidential",
+      "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+      "title_original": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+      "title_en": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and public services, run them on infrastructure",
       "source_name": "NVIDIA AI Podcast",
       "source_url": "https://blogs.nvidia.com/ai-podcast/",
-      "original_url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
-      "published_at": "Wed, 21 Oct 2026 10:30:02 +0000",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
+      "original_url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+      "published_at": "Thu, 22 Oct 2026 05:00:02 +0000",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
       "category": "podcasts-interviews",
       "people": [],
       "companies": [
@@ -1046,7 +767,7 @@
       "importance_score": 48.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "82603c5be230",
+      "duplicate_group_id": "5346e68360b4",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -1057,162 +778,10 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "NVIDIA 更新AI 代理工程与工具调用能力",
+      "title_zh": "NVIDIA 讨论政府与国家安全合作原则",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
-        "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：nvidia、chips、podcast。",
-        "涉及公司或机构：NVIDIA。"
-      ],
-      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
-          "source_url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/"
-        },
-        {
-          "label": "公开摘要",
-          "text": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy",
-          "source_url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/"
-        }
-      ],
-      "slug": "nvidia-confidential-computing-expands-enabling-frontier-model-builders-t-9e8b8c2e",
-      "localized_url": "/zh/items/2026-10-22/nvidia-confidential-computing-expands-enabling-frontier-model-builders-t-9e8b8c2e/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
-      "title_original": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
-      "title_en": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
-      "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control agents, use company data to",
-      "source_name": "NVIDIA AI Podcast",
-      "source_url": "https://blogs.nvidia.com/ai-podcast/",
-      "original_url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
-      "published_at": "Wed, 21 Oct 2026 10:10:01 +0000",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [
-        "NVIDIA"
-      ],
-      "tags": [
-        "nvidia",
-        "chips",
-        "podcast"
-      ],
-      "importance_score": 48.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "cc5dc25c23d0",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "NVIDIA 更新AI 代理工程与工具调用能力",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：nvidia、chips、podcast。",
-        "涉及公司或机构：NVIDIA。"
-      ],
-      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "open source",
-          "explanation": "可公开查看、使用或修改的代码与模型资源。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
-          "source_url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and",
-          "source_url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/"
-        }
-      ],
-      "slug": "nvidia-agent-toolkit-expands-grounding-enterprise-agents-in-company-data-7d592934",
-      "localized_url": "/zh/items/2026-10-22/nvidia-agent-toolkit-expands-grounding-enterprise-agents-in-company-data-7d592934/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
-      "title_original": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
-      "title_en": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
-      "summary_zh": "NVIDIA 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the",
-      "source_name": "NVIDIA AI Podcast",
-      "source_url": "https://blogs.nvidia.com/ai-podcast/",
-      "original_url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
-      "published_at": "Wed, 21 Oct 2026 10:00:07 +0000",
-      "fetched_at": "2026-10-22T00:42:40.858344+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [
-        "NVIDIA"
-      ],
-      "tags": [
-        "nvidia",
-        "chips",
-        "podcast"
-      ],
-      "importance_score": 48.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "140f65345f1e",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "NVIDIA 讨论模型评测与研究方法",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 NVIDIA，核心变化集中在模型评测与研究方法。",
+        "主体是 NVIDIA，核心变化集中在政府与国家安全合作原则。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
         "相关标签包括：nvidia、chips、podcast。",
@@ -1224,26 +793,407 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
-          "source_url": "https://blogs.nvidia.com/blog/open-models-europe-industry/"
+          "text": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+          "source_url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/"
         },
         {
           "label": "公开摘要",
-          "text": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages",
-          "source_url": "https://blogs.nvidia.com/blog/open-models-europe-industry/"
+          "text": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and",
+          "source_url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/"
         }
       ],
-      "slug": "nvidia-open-models-advance-europes-sovereign-intelligence-across-industr-be11c18d",
-      "localized_url": "/zh/items/2026-10-22/nvidia-open-models-advance-europes-sovereign-intelligence-across-industr-be11c18d/",
+      "slug": "nvidia-open-models-power-a-new-wave-of-european-public-sector-projects-2d9cc8be",
+      "localized_url": "/zh/items/2026-10-23/nvidia-open-models-power-a-new-wave-of-european-public-sector-projects-2d9cc8be/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "title_original": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "title_en": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "summary_zh": "Hugging Face Blog 更新了推理容量与成本控制方案，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "published_at": "Wed, 21 Oct 2026 17:35:36 GMT",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "354f89a6c7db",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Hugging Face 推进推理容量与成本控制方案",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在推理容量与成本控制方案。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "inference",
+          "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+          "source_url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
+        }
+      ],
+      "slug": "how-specializing-the-vocabulary-of-slms-can-cut-inference-cost-by-77-in-354f89a6",
+      "localized_url": "/zh/items/2026-10-23/how-specializing-the-vocabulary-of-slms-can-cut-inference-cost-by-77-in-354f89a6/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "title_original": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "title_en": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "published_at": "Wed, 21 Oct 2026 16:04:43 GMT",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "f9b499debdda",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+          "source_url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1"
+        }
+      ],
+      "slug": "profiling-torchneuron-part-1-system-level-profiling-on-aws-trainium-f9b499de",
+      "localized_url": "/zh/items/2026-10-23/profiling-torchneuron-part-1-system-level-profiling-on-aws-trainium-f9b499de/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "title_original": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "title_en": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "published_at": "Wed, 21 Oct 2026 14:58:18 GMT",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "9b35c0bfb2f0",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+          "source_url": "https://huggingface.co/blog/ibm-granite/granite-speech-5"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/ibm-granite/granite-speech-5"
+        }
+      ],
+      "slug": "granite-speech-5-0-transcribe-translate-and-attribute-more-accurately-an-9b35c0bf",
+      "localized_url": "/zh/items/2026-10-23/granite-speech-5-0-transcribe-translate-and-attribute-more-accurately-an-9b35c0bf/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "title_original": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "title_en": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "summary_zh": "Hugging Face Blog 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "published_at": "Thu, 22 Oct 2026 22:24:34 GMT",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "95eb6975ad24",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Hugging Face 推进AI 代理工程与工具调用能力",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+          "source_url": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+        }
+      ],
+      "slug": "turning-database-grading-into-rl-rewards-post-training-agents-with-think-95eb6975",
+      "localized_url": "/zh/items/2026-10-23/turning-database-grading-into-rl-rewards-post-training-agents-with-think-95eb6975/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "title_original": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "title_en": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "published_at": "Thu, 22 Oct 2026 16:11:31 GMT",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "eaa0ebff7daf",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+          "source_url": "https://huggingface.co/blog/allenai/olmoearth-v1-3"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/allenai/olmoearth-v1-3"
+        }
+      ],
+      "slug": "olmoearth-v1-3-state-of-the-art-embeddings-for-the-whole-planet-eaa0ebff",
+      "localized_url": "/zh/items/2026-10-23/olmoearth-v1-3-state-of-the-art-embeddings-for-the-whole-planet-eaa0ebff/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "title_original": "Ensemble forecasting with IBM Granite time-series models",
+      "title_en": "Ensemble forecasting with IBM Granite time-series models",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "published_at": "Thu, 22 Oct 2026 07:51:31 GMT",
+      "fetched_at": "2026-10-23T00:42:46.378682+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "5d118fadbe79",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Ensemble forecasting with IBM Granite time-series models",
+          "source_url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"
+        }
+      ],
+      "slug": "ensemble-forecasting-with-ibm-granite-time-series-models-5d118fad",
+      "localized_url": "/zh/items/2026-10-23/ensemble-forecasting-with-ibm-granite-time-series-models-5d118fad/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     }
   ],
-  "failures": [
-    {
-      "source": "Microsoft Research Podcast",
-      "error": "The read operation timed out"
-    }
-  ]
+  "failures": []
 }
