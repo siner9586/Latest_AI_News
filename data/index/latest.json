@@ -1,31 +1,614 @@
 {
-  "date": "2026-10-26",
-  "title_zh": "AI 新闻简报 · 2026-10-26",
-  "title_en": "English AI News Brief · 2026-10-26",
-  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 151 条，入选 1 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
-  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 151 previously displayed items excluded, and 1 selected items. Chinese pages link to internal research digests while preserving original source links.",
+  "date": "2026-10-27",
+  "title_zh": "AI 新闻简报 · 2026-10-27",
+  "title_en": "English AI News Brief · 2026-10-27",
+  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 134 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 134 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
   "source_count": 181,
   "candidate_count": 152,
-  "skipped_history_count": 151,
-  "selected_count": 1,
+  "skipped_history_count": 134,
+  "selected_count": 18,
   "categories": [
+    "company-industry",
+    "models-products",
     "podcasts-interviews"
   ],
   "category_labels_zh": {
+    "company-industry": "公司与产业",
+    "models-products": "模型与产品",
     "podcasts-interviews": "访谈与播客"
   },
   "items": [
     {
-      "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
-      "title_original": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
-      "title_en": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
-      "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "title_original": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "title_en": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "published_at": "Mon, 26 Oct 2026 22:00:00 GMT",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "250e5d8f3024",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "extracted_excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "extracted_text_for_analysis": "Greptile takes bug detection beyond code review with GPT‑6 Astra How Greptile uses GPT‑6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework. Greptile(opens in a new window) builds AI agents that review and test code changes with full context of the codebase. “We are in the business of reducing bugs and making the world’s software more reliable,” says Co-founder and CEO Daksh Gupta. For Daksh, that mission requires testing an application’s behavior as well as reading its code, and GPT‑6 Astra’s computer use gives Greptile a way to automate testing at scale. Validating a pull request involves checking whether the code is logically correct, does what the developer intended, is secure, and avoids breaking existing functionality. For some of that testing, you need to actually run the application because reading the code alone might not reveal the problem. Daksh gives the example of a button that disappears when a website is viewed on an iPhone. With GPT‑6 Astra, Greptile can start a development server for a pull request, resize the browser to an iPhone-sized viewport, and simulate a user moving through the application. The model’s visual understanding lets it inspect the screen and spot the hidden button. “A QA firm testing all of your changes is just impractically slow considering how fast we’re able to ship code with these models,” he says. With GPT‑6 Astra, Greptile can automate this kind of application testing at scale. Daksh says more powerful models also make it easier for attackers to exploit applications, putting companies at risk, even those that previously would not have been typical targets. “We want to make it very easy for even a startup to secure their systems,” says Daksh. “With Daybreak, we’re able to do this in a way that is very safe, and we can ensure that our customers have more sophisticated defense mechanisms than the adversaries have offense mechanisms.” Greptile’s Knowledge Base indexes a company’s codebase and documents how it works in a form people and agents can read. The company makes that documentation available to Codex through a Model Context Protocol (MCP) server. This allows Codex to write code that follows the customer’s existing patterns, and thousands of customers have connected Codex to Greptile’s knowledge base, according to Daksh. To measure the impact, the team tracks how often AI-generated code is reverted. “When we provide agents with context, fewer reverts happen and customers save time and save inference,” Daksh says. Customers can put those savings toward new work instead of reworking the same changes. Greptile also uses Codex to build its own software and agents. “We are massive users of Codex,” Daksh says. “We have enormous amounts of usage across every single function, engineering in particular.” For Greptile, Daksh explains, the only real bottleneck is how quickly the team can turn ideas into working software. He says model intelligence is already sufficient for many tasks, so he sees Ultrafast as a way to speed up development. His longer-term goal is to make changing and shipping critical enterprise software as easy as shipping a side project, with OpenAI helping Greptile build the validation that requires.",
+      "title_zh": "OpenAI 推进政府与国家安全合作原则",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+          "source_url": "https://openai.com/index/greptile-code-review-codex-astra"
+        },
+        {
+          "label": "公开摘要",
+          "text": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+          "source_url": "https://openai.com/index/greptile-code-review-codex-astra"
+        }
+      ],
+      "slug": "greptile-takes-bug-detection-beyond-code-review-with-gpt-6-astra-250e5d8f",
+      "localized_url": "/zh/items/2026-10-27/greptile-takes-bug-detection-beyond-code-review-with-gpt-6-astra-250e5d8f/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Working with academic communities to build scientific understanding",
+      "title_original": "Working with academic communities to build scientific understanding",
+      "title_en": "Working with academic communities to build scientific understanding",
+      "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "published_at": "Mon, 26 Oct 2026 14:30:00 GMT",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "f16aefe89a6e",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Working with academic communities to build scientific understanding",
+      "extracted_excerpt": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "extracted_text_for_analysis": "We are announcing three new discoveries in mathematics, computer science, and physics about harmonic analysis, complexity theory, and quantum field theory. Our release process continues to evolve in response to feedback from the associated academic communities. In our view, these manuscripts are best understood as a form of raw research data. To convert this raw research data into scientific understanding, in this release we are experimenting with a new approach. We reached out to external experts and asked them to act as shepherds, organizing groups to understand the new results. They advised three different release strategies: - For the math result, release the AI output, leaving researchers free to organize their own efforts to explain the result. - For the computer science result, form an external group of collaborators to explain the result, while making the AI output publicly available for anyone to examine and build on. - For the physics result, form an external group of collaborators and defer to them on the release of materials. We do not yet know which of these three approaches will be most useful, and we welcome feedback on what works and what we can improve. The external collaborations will follow four principles: - Transparency. We are transparent about the existence of our collaborations. Participants will not be asked to sign nondisclosure agreements and will be free to discuss the work, share intermediate products, and publish their conclusions. - No Academic Credit. We do not seek academic credit for the discoveries produced by our internal models. Inviting a researcher to help steward a collaboration also does not imply that they or their working group made the original discovery. - Recognition. This group should receive recognition for the understanding they develop, the writeups they author, and the other materials they create. The group will also help ensure that the work appropriately credits researchers, techniques, and ideas that it draws on. - Independence. Participation is voluntary and unpaid. Working-group members participate independently, and their conclusions are their own. They do not speak on behalf of OpenAI, and OpenAI does not speak on their behalf. We will turn over materials and artifacts related to these results to the collaborations. For the computer science collaboration, the group has decided to make the natural language proof and Lean formalization public immediately, and we are publishing them directly to our GitHub repository. For the physics collaboration, the group has decided to hold off on releasing the AI-produced artifacts and instead work on writing it up themselves. All of these approaches involve tradeoffs. On the one hand, the collaborations empower experts to foster unpacking the results and contextualizing them in the broader academic community. On the other hand, choosing initial shepherds necessarily shapes who gets involved first and creates asymmetry of information. We welcome feedback on how to broaden participation and make this process more useful. The result in mathematics concerns harmonic analysis. In 1991, Sogge proposed the local smoothing conjecture, which concerns the behavior of waves as they become focused. In particular, the conjecture states that the most extreme focusing must be short-lived. The amount of focusing at a typical random time is always much smaller than what can happen at the worst-case time. This is a familiar pattern throughout mathematics: what can happen in the worst case is more extreme than what is observed after averaging. Because of how fundamental this conjectured phenomenon is, it also has wide ranging implications throughout mathematical analysis. For instance, it implies the Kakeya conjecture and Stein’s restriction conjecture. In 2019, Guth, Wang, and Zhang(opens in a new window) proved the local smoothing conjecture in two spatial dimensions. In 2025, Wang and Zahl(opens in a new window) proved the Kakeya conjecture in three dimensions. Our models produced a proof of the local smoothing conjecture in every dimension and therefore also resolve the Kakeya conjecture and Stein’s restriction conjecture in all dimensions. The new proof is based on a novel auxiliary partial differential equation. We obtained our AI output on October 18th, 2026, which was formalized in Lean the following day, and then we reached out to an expert to discuss forming a collaboration around this result. Following their recommendation, we decided to release the AI output publicly, following the same strategy for this result as our October 6th, 2026 release. We have released both an AI natural language output writeup(opens in a new window) produced by our models and a Lean proof (opens in a new window)in our public GitHub repository. The computer science collaboration will understand and explain a result concerning the Exponential Time Hypothesis (ETH), a longstanding conjecture about the computational complexity of Boolean formula satisfiability, a problem deeply related to the P vs. NP problem. The ETH has been widely believed to be true, and has been used in hundreds of papers to derive conditional computational hardness results across a wide variety of fields including graph theory, computational biology, databases, computational geometry, and more. Surprisingly, our system has recently proved that the ETH is false, a result that was subsequently verified in Lean. The refutation of the ETH reopens questions about how much faster these tasks could become, and may help guide the search for better algorithms. Finding such algorithms, and turning theoretical advances into practical improvements, will require significant further research. This work will be verified and shepherded by a group led by Russell Impagliazzo (UC San Diego), Ramamohan Paturi (UC San Diego), and Ryan Williams (MIT). All three are experts in algorithm design and complexity theory. - Impagliazzo and Paturi, along with Francis Zane, are the original proposers of the Exponential Time Hypothesis, and have authored a (opens in a new window)number(opens in a new window) of (opens in a new window)influential(opens in a new window) (opens in a new window)papers(opens in a new window) on the topic(opens in a new window) over the last 30 years. - Williams has refuted (opens in a new window)strong(opens in a new window) (opens in a new window)versions(opens in a new window) of the ETH, used ETH for (opens in a new window)hardness(opens in a new window) (opens in a new window)results(opens in a new window), and connected (opens in a new window)algorithms(opens in a new window) and (opens in a new window)lower bounds(opens in a new window). We have agreed to the group’s requests that all raw data of the results be made public to facilitate independent verification by the community, and that OpenAI commit to funding a conference to understand the implications of this work on the field as a whole. The group invites the community to help",
+      "title_zh": "OpenAI 推进模型评测与研究方法",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Working with academic communities to build scientific understanding",
+          "source_url": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
+        },
+        {
+          "label": "公开摘要",
+          "text": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+          "source_url": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
+        }
+      ],
+      "slug": "working-with-academic-communities-to-build-scientific-understanding-f16aefe8",
+      "localized_url": "/zh/items/2026-10-27/working-with-academic-communities-to-build-scientific-understanding-f16aefe8/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "ChatGPT’s expanding world of work",
+      "title_original": "ChatGPT’s expanding world of work",
+      "title_en": "ChatGPT’s expanding world of work",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "published_at": "Mon, 26 Oct 2026 10:00:00 GMT",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "64d59b55a8fb",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "ChatGPT’s expanding world of work",
+      "extracted_excerpt": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "extracted_text_for_analysis": "Today, we are releasing OpenAI Signals data that explores 165 work activities across nearly 100 countries, revealing how consumers use ChatGPT for work. This data gives researchers a new way to study AI’s role in the economy, with new information on the work activities people bring to ChatGPT—from preparing instructional materials and developing marketing content to programming and analyzing business data. Researchers can use this data to explore how ChatGPT use for work differs across countries, track changes over time, and match this data to other economic indicators. The release connects ChatGPT usage to 165 work activity categories called Intermediate Work Activities (IWAs). IWAs are commonly-used categories of tasks for the kinds of work people do across occupations. The data is represented quarterly, spanning a period from the first quarter of 2025 through the third quarter of 2026. Our new data draws on O*NET, a standardized framework that groups occupation-specific tasks into broader categories of work activities shared across occupations. Using a common framework helps researchers compare ChatGPT use with other types of occupational and employment data. The interactive chart below can be used to explore these work activities within a specific country over time, moving from broad activity groups to more specific activities. The data shows wide variation across countries in how people use ChatGPT for work. Connecting this data to IWAs revealed that work-related use became less concentrated in the most common activities. That means that countries tended to specialize in their work over time, and different countries specialized in different types of work. These differences might reflect variation in the kind of work done across countries or varying access to AI tools. Exploring these questions is one example of many that researchers can pursue with this new data. Connecting ChatGPT usage data with IWAs lets researchers compare ChatGPT messages with activities performed across U.S. jobs. The paired visualizations below compare how people use ChatGPT with the activities performed across U.S. jobs. This comparison shows the difference in how people use ChatGPT for work and the actual work being done in the U.S. economy. The two distributions differ substantially, largely because about 43% of the employment-weighted task mix for mapped U.S. occupations falls into Other IWAs, outside the individually reported categories. These include activities such as moving materials, operating vehicles, and maintaining health or medical records. These omitted categories did not meet our threshold for consistent representation in the original U.S. ChatGPT sample. This release builds on OpenAI Signals, our ongoing effort to share evidence about how people use AI. The data covers work-related messages on individual ChatGPT plans and does not include enterprise messages or Codex use. We invite researchers to explore the data, connect it with other sources, and investigate what these patterns mean for workers and businesses. To protect users’ privacy, researchers do not read individual conversations. Automated systems classify messages after identifying information is removed. We publish aggregated statistics, withhold results for small groups, and add statistical noise to protect individual messages.",
+      "title_zh": "OpenAI 更新模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "ChatGPT’s expanding world of work",
+          "source_url": "https://openai.com/index/chatgpt-expanding-world-of-work"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+          "source_url": "https://openai.com/index/chatgpt-expanding-world-of-work"
+        }
+      ],
+      "slug": "chatgpts-expanding-world-of-work-64d59b55",
+      "localized_url": "/zh/items/2026-10-27/chatgpts-expanding-world-of-work-64d59b55/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "title_original": "How Fanatics and OpenAI streamline the fan experience",
+      "title_en": "How Fanatics and OpenAI streamline the fan experience",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "published_at": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "eb7708c5f537",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "How Fanatics and OpenAI streamline the fan experience",
+      "extracted_excerpt": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "extracted_text_for_analysis": "Engagement 10% Higher engagement than the previous Shop the Look experience. Testing scale ~30,000 MLB products included in recommendation testing. Testing speed <24 hours To test the first 50 products. Fanatics and OpenAI are collaborating to improve the fan experience. As part of that work, Fanatics is launching an OpenAI-powered version of Shop the Look, which uses AI models to recommend coordinated merchandise to help fans complete their game-day outfits. Fanatics, a global digital sports platform, uses ChatGPT Work and Codex across Fanatics Corporate, Commerce, Collectibles, and Betting and Gaming. Shop the Look is now live across many sites across the Fanatics network—including Fanatics.com and the official NFL, NBA, MLB and NHL online stores. With it, fans can more easily find recommended merchandise to match with items they’re looking to wear. When fans browse for their favorite team’s jersey, Shop the Look suggests coordinated outfits on the product page, using in-stock items that match their team and intended style. OpenAI models draw on enriched product data, team and inventory information to assemble the recommendations. Fanatics’ merchandising rules keep the selections compatible and relevant, and looks are refreshed daily as catalogs change. Using Codex, OpenAI and the Fanatics engineering team quickly developed custom recommendation tools to enrich product and catalog data, find compatible merchandise, evaluate recommendations, and generate looks for each product. Testing the new approach on 50 products took less than a day to complete. Fanatics reviewed the looks and gave feedback directly to the builders. After a couple days of iteration, the company approved the minimum viable product that same week. OpenAI helped design the solution which enabled Fanatics to implement the new Shop the Look experience in their production environment and scale the approach across thousands of products. After testing the recommendations across roughly 30,000 MLB products, the OpenAI-powered Shop the Look experience achieved 10% higher engagement than the previous experience.",
+      "title_zh": "OpenAI 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "How Fanatics and OpenAI streamline the fan experience",
+          "source_url": "https://openai.com/index/fanatics-streamline-fan-experience"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+          "source_url": "https://openai.com/index/fanatics-streamline-fan-experience"
+        }
+      ],
+      "slug": "how-fanatics-and-openai-streamline-the-fan-experience-eb7708c5",
+      "localized_url": "/zh/items/2026-10-27/how-fanatics-and-openai-streamline-the-fan-experience-eb7708c5/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "title_original": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "title_en": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/openai-cut-incident-investigation",
+      "published_at": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "8f2f08b6e197",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "extracted_excerpt": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+      "extracted_text_for_analysis": "How Ultrafast cut incident investigation from hours to minutes at OpenAI This is part of our series sharing internal examples of how OpenAI is using its own technology and APIs. These tools are being used internally, at OpenAI, and are shared here as illustrative examples of how frontier AI is supporting use cases across our teams. Ultrafast is a high-speed mode in Codex, and for engineers at OpenAI, it’s become the default for incident response. When something breaks, engineers often don’t have time to wait minutes for an answer while the issue compounds. With Ultrafast, they can investigate multiple potential causes at once and get answers without splitting their attention. Aaron Friel, Member of the Technical Staff at OpenAI, is usually the one running point on an incident. He spins up a Slack channel for incident response and then points Codex at the problem, asking Codex to monitor, investigate, and answer any questions as they come in. “In any incident, there are usually many hops along the way of what could have gone wrong, and finding the right needle in the right haystack is really the chief job of the people on that channel,” he says. “Using Ultrafast, I’m able to essentially search all of those haystacks at the same time, and respond to incidents much faster.” AJ Trbojevic, Member of the Technical Staff and a Datacenter Security Architect, says investigations into security issues used to take an hour or two to pull structured and unstructured data together, normalize it, and provide context to make a decision. “Now that happens in 10 to 15 minutes,” he says. “And at times it’s near real time.” Adam Perry and Sayan Sisodiya both work on the core agent team, building the code that lets Codex take actions, run commands, and use tools. Ultrafast has changed how they operate during security incidents. “Before, I’d ask Codex to look into something, and then go look into it myself at the same time, because I knew it wouldn’t be fast enough to just wait on,” Adam says. “Now with Ultrafast, Codex is fast enough that I can just stay focused instead of splitting my attention.” Sayan appreciates how Ultrafast lets him get immediate answers from multiple data sources: “Beyond just digging through logs in an incident, I use Codex to dig through Slack to see if there are references to changes that might be suspect or people talking about similar symptoms elsewhere in Slack,” he says. If it takes more than 30 seconds to find an answer with AI, Jeff Niu, another Member of the Technical Staff, says he’ll check Slack or chat with a coworker. But most of his work is now under that threshold with Ultrafast. He used to ask Codex a question, switch over to something else while it thought, and come back having lost his train of thought. Now that conversation happens in real time; it helps him stay focused on the task at hand. Ultrafast also makes Jeff more willing to tackle large refactors, because reworking existing code takes less time. “Technical debt is much easier to pay down now than it ever was before,” he says. “Code is cheap, and now it’s very quick to produce. A refactor that used to cost a lot happens almost instantly.” Adam keeps a running Codex thread that he calls his chief of staff. Every morning it tells him what meetings he has and which messages he might have forgotten to reply to. “It’s already looked at all the data to write that summary, so when I ask a followup, it’s not waiting to go fetch more,” he says. “I can just keep asking questions in the same conversation just like an actual chief of staff.” Sayan uses Codex to do tedious manual work in the browser, like filling out forms—something he’d previously avoided because it was too slow. “It would open a browser, sit there thinking for five seconds, click something, sit there again,” he says. With the latest models’ improvements in computer use, he’s more comfortable letting Codex handle that work. “Now I’m totally fine letting it click through the browser and it’s fast enough that I’m not losing time by not doing it myself.” Across incident response, daily planning, and refactoring, Ultrafast lets OpenAI’s Technical Staff work with Codex at the pace of their questions. They can follow up on an answer, try another approach, and keep working without losing their train of thought. That shorter wait also changes what they’re willing to take on, from a refactor they’d put off to a routine task that’s finally worth delegating. - Codex - 2026",
+      "title_zh": "OpenAI 推进政府与国家安全合作原则",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+          "source_url": "https://openai.com/index/openai-cut-incident-investigation"
+        },
+        {
+          "label": "公开摘要",
+          "text": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+          "source_url": "https://openai.com/index/openai-cut-incident-investigation"
+        }
+      ],
+      "slug": "how-ultrafast-cut-incident-investigation-from-hours-to-minutes-at-openai-8f2f08b6",
+      "localized_url": "/zh/items/2026-10-27/how-ultrafast-cut-incident-investigation-from-hours-to-minutes-at-openai-8f2f08b6/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Introducing GPT-6.1 Terra",
+      "title_original": "Introducing GPT-6.1 Terra",
+      "title_en": "Introducing GPT-6.1 Terra",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Bringing fast and capable computer use to everyone",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "published_at": "Mon, 26 Oct 2026 00:00:00 GMT",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "1758535ac6be",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Introducing GPT-6.1 Terra",
+      "extracted_excerpt": "Delivering fast and capable computer use at scale",
+      "extracted_text_for_analysis": "Delivering fast and capable computer use at scale We’re introducing GPT-6.1 Terra, a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing. A significant step up from GPT‑5.6 Terra, it excels at the communication and computer-based tasks that fill the workday, from drafting proposals and interpreting technical drawings to filling out forms and editing videos. Terra continues to advance the cost-intelligence frontier across our model families, providing a new balance of speed, capability, and cost. Its standard API prices are 50% lower than those of GPT-5.6 Terra and GPT-6.1 Sol, making it practical for developers to automate high-volume work, like reading incoming invoices and entering their details into accounting software. In ChatGPT Work and Codex, your plan goes further with GPT-6.1 Terra—the same usage allowance covers more tasks than with GPT‑5.6 Terra and substantially more than with GPT‑6.1 Sol or GPT‑6 Astra. From visual understanding to action We measured GPT-6.1 Terra’s computer-use capabilities on Agents’ Last Exam, a benchmark of professional tasks that includes turning architectural drawings into a 3D model and reviewing an animated film shot by shot to create a time-coded log for a restoration team. At medium reasoning effort, GPT-6.1 Terra scores 15 percentage points higher than GPT-5.6 Terra at about one-third the cost. It even performs on par with GPT-6 Astra at only one-tenth its price per token. At max effort, Terra is over three times as token efficient as Claude Opus 5.5, and one-fourth its price per token, resulting in a ~9x lower cost per task. Terra is also much quicker, completing tasks over three times faster than both GPT-6 Astra and GPT-6.1 Sol. On MMMU-Pro, a benchmark of visual reasoning, GPT-6.1 Terra outperforms GPT-5.6 Terra at every reasoning setting. It even nearly matches the scores of our most capable frontier model, GPT-6 Astra, and GPT-6.1 Sol at much lower cost. OSWorld 2.1 tests how well AI agents use desktop apps to complete multistep tasks, such as building a 3D model from a technical drawing. At medium reasoning effort, GPT-6.1 Terra surpasses GPT-5.6 Terra’s best score at a fraction of the cost per task. A significant step up on factuality and coding This year, we’ve invested heavily in reducing hallucinations and factual errors produced by our models. On our internal benchmark of error-inducing prompts, the error rate at low reasoning effort fell from 53.6% with GPT-5.6 Terra to 16.7% with GPT-6.1 Terra, a drop of nearly 37 percentage points. At maximum effort, the error rate fell by 18 percentage points to 4.3%, nearly matching the rates for GPT-6 Astra and GPT-6.1 Sol. GPT-6.1 Terra marks a substantial improvement over GPT-5.6 Terra for software engineering. Terminal-Bench 4.0 tests how well coding agents solve problems from the command line, such as fixing a webpage whose layout shifts as it loads. At maximum reasoning effort, GPT‑6.1 Terra solves 50.3% of tasks, more than double GPT‑5.6 Terra’s published score of 21.5%. For the most complex coding tasks, GPT-6.1 Sol and GPT-6 Astra remain the better choice. Terminal-Bench-Science 0.1 tests how well agents use code to carry out scientific research tasks, such as tracking cell divisions in a time-lapse video. At max reasoning, GPT-6.1 Terra surpasses GPT-6.1 Sol at lower cost, coming within five points of Opus 5.5 at less than one-fifth the estimated cost. Safety and alignment As we make powerful AI more efficient and accessible, we continue training, testing, and refining our safeguards. GPT‑6.1 Terra meets the Critical threshold in cybersecurity under our Preparedness Framework, and maintains the protections developed for GPT‑6 Astra. GPT-6.1 Terra brings with it the alignment improvements of the GPT-6 series. According to our evaluations, GPT-6.1 Terra is more likely to stay within scope and honestly disclose limitations and potential blockers to the user compared to GPT-5.6 Terra. In our prompt-injection tests, GPT-6.1 Terra also showed strong resistance to malicious instructions designed to divert it from the user’s task. More detail is available in the system card(opens in a new window). Pricing and availability Starting today, GPT-6.1 Terra is available to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex. Developers can also access it through the OpenAI API as gpt-6.1-terra. Standard API pricing is $1 per million input tokens, $0.05 per million cached input tokens, and $5 per million output tokens.",
+      "title_zh": "OpenAI 发布模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Introducing GPT-6.1 Terra",
+          "source_url": "https://openai.com/index/introducing-gpt-6-1-terra"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Bringing fast and capable computer use to everyone",
+          "source_url": "https://openai.com/index/introducing-gpt-6-1-terra"
+        }
+      ],
+      "slug": "introducing-gpt-6-1-terra-1758535a",
+      "localized_url": "/zh/items/2026-10-27/introducing-gpt-6-1-terra-1758535a/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "title_original": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "title_en": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "summary_zh": "OpenAI 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "published_at": "Mon, 26 Oct 2026 13:45:00 GMT",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 56.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "1a1d4bf2fc11",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "extracted_excerpt": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "extracted_text_for_analysis": "As AI accelerates software development, engineering and application-security teams need ways to investigate code changes and address vulnerabilities while keeping people in control. CodeRabbit is using GPT‑6.1 Sol as the primary model in its security agent to extend review beyond individual changes and help developers understand risks across complex codebases. A pull request can affect shared libraries, dependencies and safeguards elsewhere in an application. GPT‑6.1 Sol helps CodeRabbit connect behavior across files and components to surface potential security issues. CodeRabbit’s review is independent of the agent that wrote the code and complements established scanners. Its system also uses other frontier models and security tooling. During pull-request review, Sol helps analyze changes as developers work. In Deep Scan, it supports broader investigation across repositories, including dependencies and how components interact. CodeRabbit Secure extends that investigation to linked repositories, such as a shared authentication library, to help teams understand how a weakness could affect the wider system. CodeRabbit reports using GPT‑6.1 Sol to flag security-related issues across thousands of repositories and organizations. These findings feed into the pull-request workflows developers already use to review and improve their code. CodeRabbit Secure connects investigation to remediation. For user-selected findings, it can attempt exploit verification in an isolated sandbox without testing production systems. For supported issues, it can draft a pull request with a proposed fix for a person to review and approve. This work shows how frontier reasoning can support software security: understanding risks beyond an individual change, helping validate findings and turning them into proposed fixes. Human reviewers remain responsible for deciding which changes to ship.",
+      "title_zh": "OpenAI 讨论政府与国家安全合作原则",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+          "source_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+        },
+        {
+          "label": "公开摘要",
+          "text": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+          "source_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+        }
+      ],
+      "slug": "gpt-6-1-sol-helps-coderabbit-strengthen-security-across-complex-codebase-1a1d4bf2",
+      "localized_url": "/zh/items/2026-10-27/gpt-6-1-sol-helps-coderabbit-strengthen-security-across-complex-codebase-1a1d4bf2/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "GPT-6.1 Terra now available on AI Gateway",
+      "title_original": "GPT-6.1 Terra now available on AI Gateway",
+      "title_en": "GPT-6.1 Terra now available on AI Gateway",
+      "summary_zh": "OpenAI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "GPT-6.1 Terra from OpenAI is now available on AI Gateway . GPT-6.1 Terra is a fast model for visual reasoning, computer use, and writing, and it improves on the previous Terra model in visual reasoning, factual accuracy, and coding. It suits high-volume work",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/gpt-6-1-terra-now-available-on-ai-gateway",
+      "published_at": "2026-10-26T00:00:00.000Z",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 52.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "6303c52341bf",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "GPT-6.1 Terra now available on AI Gateway - Vercel",
+      "extracted_excerpt": "Call OpenAI's GPT-6.1 Terra through Vercel AI Gateway with one API key: no provider account, spend tracking, request traces, and coding agent support.",
+      "extracted_text_for_analysis": "GPT-6.1 Terra from OpenAI is now available on AI Gateway. GPT-6.1 Terra is a fast model for visual reasoning, computer use, and writing, and it improves on the previous Terra model in visual reasoning, factual accuracy, and coding. It suits high-volume work in documents and desktop apps, such as filling out forms, interpreting technical drawings, or entering invoice details into accounting software. OpenAI still recommends its larger GPT-6 models for the most complex coding tasks. The model accepts text and images and returns text, with a context window of more than 1M tokens. It supports configurable reasoning effort, structured outputs, tool calling, and implicit and explicit prompt caching. For latency-sensitive work, fast mode is available as openai/gpt-6.1-terra-fast. GPT-6.1 Terra works with the AI SDK, the OpenAI-compatible Chat Completions API, the Responses API, and coding agents connected to AI Gateway. Use openai/gpt-6.1-terra as the model name: To use it in Codex, Cursor, and more, install the latest Vercel CLI and run setup: npx vercel ai-gateway setup Then select openai/gpt-6.1-terra in the agent. See the coding agents guide for details. Try GPT-6.1 Terra in the model playground. AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more. AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests. You can view all language models available on AI Gateway.",
+      "title_zh": "OpenAI 发布代码评测可靠性问题",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在代码评测可靠性问题。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        },
+        {
+          "term": "coding",
+          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "GPT-6.1 Terra now available on AI Gateway",
+          "source_url": "https://vercel.com/changelog/gpt-6-1-terra-now-available-on-ai-gateway"
+        },
+        {
+          "label": "公开摘要",
+          "text": "GPT-6.1 Terra from OpenAI is now available on AI Gateway . GPT-6.1 Terra is a fast model for visual reasoning, computer use, and writing, and it improves on the previous Terra model in visual reasoning, factual",
+          "source_url": "https://vercel.com/changelog/gpt-6-1-terra-now-available-on-ai-gateway"
+        }
+      ],
+      "slug": "gpt-6-1-terra-now-available-on-ai-gateway-6303c523",
+      "localized_url": "/zh/items/2026-10-27/gpt-6-1-terra-now-available-on-ai-gateway-6303c523/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "#503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+      "title_original": "#503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+      "title_en": "#503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+      "summary_zh": "Lex Fridman Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Ankur Moitra, Steven Brunton and Alex Kontorovich are three mathematicians who can speak to this incredible moment in the history of mathematics, when AI solved some of its hardest problems: Navier-Stokes, the quasi-Riemann hypothesis, the unique games",
+      "source_name": "Lex Fridman Podcast",
+      "source_url": "https://lexfridman.com/podcast/",
+      "original_url": "https://lexfridman.com/math-ai-crisis/?utm_source=rss&utm_medium=rss&utm_campaign=math-ai-crisis",
+      "published_at": "Mon, 26 Oct 2026 22:52:28 +0000",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "interview",
+        "agi",
+        "research"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "bcd59c0c42ed",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Lex Fridman Podcast 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Lex Fridman Podcast，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：interview、agi、research。"
+      ],
+      "background_zh": "这条内容来自 Lex Fridman Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "#503 – AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+          "source_url": "https://lexfridman.com/math-ai-crisis/?utm_source=rss&utm_medium=rss&utm_campaign=math-ai-crisis"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Ankur Moitra, Steven Brunton and Alex Kontorovich are three mathematicians who can speak to this incredible moment in the history of mathematics, when AI solved some of its hardest problems: Navier-Stokes, the",
+          "source_url": "https://lexfridman.com/math-ai-crisis/?utm_source=rss&utm_medium=rss&utm_campaign=math-ai-crisis"
+        }
+      ],
+      "slug": "503-ai-crisis-in-math-navier-stokes-riemann-hypothesis-complexity-theory-a6e502b6",
+      "localized_url": "/zh/items/2026-10-27/503-ai-crisis-in-math-navier-stokes-riemann-hypothesis-complexity-theory-a6e502b6/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+      "title_original": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+      "title_en": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+      "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
       "source_name": "Lenny's Podcast",
       "source_url": "https://www.lennysnewsletter.com/",
-      "original_url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
-      "published_at": "Sun, 25 Oct 2026 12:31:34 GMT",
-      "fetched_at": "2026-10-26T00:25:29.170529+00:00",
+      "original_url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+      "published_at": "Mon, 26 Oct 2026 15:00:53 GMT",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
       "category": "podcasts-interviews",
       "people": [],
       "companies": [],
@@ -38,7 +621,70 @@
       "importance_score": 40.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "a1d2b210a521",
+      "duplicate_group_id": "2f03fd1eedbd",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Claude 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：podcast、product、ai-products、startups。"
+      ],
+      "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+          "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+          "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review"
+        }
+      ],
+      "slug": "how-i-ai-claude-duet-honest-review-why-reddit-built-its-own-ai-prototypi-2f03fd1e",
+      "localized_url": "/zh/items/2026-10-27/how-i-ai-claude-duet-honest-review-why-reddit-built-its-own-ai-prototypi-2f03fd1e/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+      "title_original": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+      "title_en": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+      "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+      "source_name": "Lenny's Podcast",
+      "source_url": "https://www.lennysnewsletter.com/",
+      "original_url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+      "published_at": "Mon, 26 Oct 2026 12:04:20 GMT",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "podcast",
+        "product",
+        "ai-products",
+        "startups"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "c6373e1c5267",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -63,18 +709,511 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
-          "source_url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf"
+          "text": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+          "source_url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping"
         },
         {
           "label": "公开摘要",
           "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
-          "source_url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf"
+          "source_url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping"
         }
       ],
-      "slug": "an-86-minute-guide-to-finding-pmf-rob-snyder-author-the-power-of-pull-a1d2b210",
-      "localized_url": "/zh/items/2026-10-26/an-86-minute-guide-to-finding-pmf-rob-snyder-author-the-power-of-pull-a1d2b210/",
+      "slug": "why-reddit-built-its-own-ai-prototyping-tool-blair-metcalf-c6373e1c",
+      "localized_url": "/zh/items/2026-10-27/why-reddit-built-its-own-ai-prototyping-tool-blair-metcalf-c6373e1c/",
       "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Run Scale AI’s AgentEnv evals on Vercel Sandbox",
+      "title_original": "Run Scale AI’s AgentEnv evals on Vercel Sandbox",
+      "title_en": "Run Scale AI’s AgentEnv evals on Vercel Sandbox",
+      "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "AgentEnv , Scale AI's framework for testing agents against tasks and scoring their results, now runs on Vercel Sandbox . The Vercel provider ships in AgentEnv 0.9.1334 and later, and runs the agent and its task environment in separate Sandboxes. Try the",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox",
+      "published_at": "2026-10-26T19:00:00.000Z",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [
+        "Scale AI"
+      ],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "817b7a2e27ae",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。",
+        "涉及公司或机构：Scale AI。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Run Scale AI’s AgentEnv evals on Vercel Sandbox",
+          "source_url": "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox"
+        },
+        {
+          "label": "公开摘要",
+          "text": "AgentEnv , Scale AI's framework for testing agents against tasks and scoring their results, now runs on Vercel Sandbox . The Vercel provider ships in AgentEnv 0.9.1334 and later, and runs the agent and its task",
+          "source_url": "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox"
+        }
+      ],
+      "slug": "run-scale-ais-agentenv-evals-on-vercel-sandbox-817b7a2e",
+      "localized_url": "/zh/items/2026-10-27/run-scale-ais-agentenv-evals-on-vercel-sandbox-817b7a2e/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Discover 1000+ services on Vercel Connect from the CLI",
+      "title_original": "Discover 1000+ services on Vercel Connect from the CLI",
+      "title_en": "Discover 1000+ services on Vercel Connect from the CLI",
+      "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "You and your agents can now browse and search more than 1000 services available in Vercel Connect without leaving your terminal. vercel connect discover searches by name, alias, keyword, and description. type: embedded-entry-inline id: H1F06IGrASdIU5HbPDOFM",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli",
+      "published_at": "2026-10-26T20:00:00.000Z",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "2aa62c4cdc83",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Discover 1000+ services on Vercel Connect from the CLI",
+          "source_url": "https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli"
+        },
+        {
+          "label": "公开摘要",
+          "text": "You and your agents can now browse and search more than 1000 services available in Vercel Connect without leaving your terminal. vercel connect discover searches by name, alias, keyword, and description. type:",
+          "source_url": "https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli"
+        }
+      ],
+      "slug": "discover-1000-services-on-vercel-connect-from-the-cli-2aa62c4c",
+      "localized_url": "/zh/items/2026-10-27/discover-1000-services-on-vercel-connect-from-the-cli-2aa62c4c/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Create custom monitors in Vercel Observability",
+      "title_original": "Create custom monitors in Vercel Observability",
+      "title_en": "Create custom monitors in Vercel Observability",
+      "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "You can now create custom monitors to get alerts based on your Vercel Observability query results. For example, you can track signals such as AI Gateway costs, Core Web Vitals and other performance metrics, Workflow and external API failure rates, or Vercel",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/create-custom-monitors-in-vercel-observability",
+      "published_at": "2026-10-26T06:00:00.000Z",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "ecdfda4399e2",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 推进开发者接口与平台能力",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        },
+        {
+          "term": "API",
+          "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Create custom monitors in Vercel Observability",
+          "source_url": "https://vercel.com/changelog/create-custom-monitors-in-vercel-observability"
+        },
+        {
+          "label": "公开摘要",
+          "text": "You can now create custom monitors to get alerts based on your Vercel Observability query results. For example, you can track signals such as AI Gateway costs, Core Web Vitals and other performance metrics, Workflow and",
+          "source_url": "https://vercel.com/changelog/create-custom-monitors-in-vercel-observability"
+        }
+      ],
+      "slug": "create-custom-monitors-in-vercel-observability-ecdfda43",
+      "localized_url": "/zh/items/2026-10-27/create-custom-monitors-in-vercel-observability-ecdfda43/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Vercel Agent can now validate alerts before paging",
+      "title_original": "Vercel Agent can now validate alerts before paging",
+      "title_en": "Vercel Agent can now validate alerts before paging",
+      "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Vercel Agent can now investigate alerts from Vercel monitors before they reach your paging system. With validation enabled for a webhook destination, only alerts Agent classifies as Critical are sent to it. To enable validation: Open a monitor’s notification",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/vercel-agent-can-now-validate-alerts-before-paging-you",
+      "published_at": "2026-10-26T06:00:00.000Z",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "7e4752d55b8d",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Vercel Agent can now validate alerts before paging",
+          "source_url": "https://vercel.com/changelog/vercel-agent-can-now-validate-alerts-before-paging-you"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Vercel Agent can now investigate alerts from Vercel monitors before they reach your paging system. With validation enabled for a webhook destination, only alerts Agent classifies as Critical are sent to it. To enable",
+          "source_url": "https://vercel.com/changelog/vercel-agent-can-now-validate-alerts-before-paging-you"
+        }
+      ],
+      "slug": "vercel-agent-can-now-validate-alerts-before-paging-7e4752d5",
+      "localized_url": "/zh/items/2026-10-27/vercel-agent-can-now-validate-alerts-before-paging-7e4752d5/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Vercel Sandbox commands now support stdin",
+      "title_original": "Vercel Sandbox commands now support stdin",
+      "title_en": "Vercel Sandbox commands now support stdin",
+      "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Vercel Sandbox now lets you send input to running commands through standard input (stdin). Use it to exchange messages with stdio MCP servers such as agent-browser , or send data to other command-line programs while they run. In the TypeScript SDK, set stdin:",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/vercel-sandbox-commands-now-support-stdin",
+      "published_at": "2026-10-26T06:00:00.000Z",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "9cbcc4614d3c",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 更新AI 代理工程与工具调用能力",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Vercel Sandbox commands now support stdin",
+          "source_url": "https://vercel.com/changelog/vercel-sandbox-commands-now-support-stdin"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Vercel Sandbox now lets you send input to running commands through standard input (stdin). Use it to exchange messages with stdio MCP servers such as agent-browser , or send data to other command-line programs while",
+          "source_url": "https://vercel.com/changelog/vercel-sandbox-commands-now-support-stdin"
+        }
+      ],
+      "slug": "vercel-sandbox-commands-now-support-stdin-9cbcc461",
+      "localized_url": "/zh/items/2026-10-27/vercel-sandbox-commands-now-support-stdin-9cbcc461/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Customizable widgets for project cards",
+      "title_original": "Customizable widgets for project cards",
+      "title_en": "Customizable widgets for project cards",
+      "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "The Overview tab in the dashboard now lets you choose which metric appears on each project card. Project cards used to show a fixed Real Experience Score in the top right, but not everyone on your team watches the same signal. You can now swap that slot for",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/customizable-widgets-for-project-cards",
+      "published_at": "2026-10-26T00:00:00.000Z",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "35c1c95fc031",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel AI 推进AI 产业与产品变化",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Customizable widgets for project cards",
+          "source_url": "https://vercel.com/changelog/customizable-widgets-for-project-cards"
+        },
+        {
+          "label": "公开摘要",
+          "text": "The Overview tab in the dashboard now lets you choose which metric appears on each project card. Project cards used to show a fixed Real Experience Score in the top right, but not everyone on your team watches the same",
+          "source_url": "https://vercel.com/changelog/customizable-widgets-for-project-cards"
+        }
+      ],
+      "slug": "customizable-widgets-for-project-cards-35c1c95f",
+      "localized_url": "/zh/items/2026-10-27/customizable-widgets-for-project-cards-35c1c95f/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Faster pnpm installs",
+      "title_original": "Faster pnpm installs",
+      "title_en": "Faster pnpm installs",
+      "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "pnpm installs on Vercel are now faster, reducing the time spent installing dependencies before your build. For Pro deployments with restored build cache, we observed 14% lower average install times with the optimization enabled. Vercel now reuses successful",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/faster-pnpm-installs",
+      "published_at": "2026-10-26T00:00:00.000Z",
+      "fetched_at": "2026-10-27T01:30:24.962711+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "a21d1e2894dc",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 推进AI 产业与产品变化",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Faster pnpm installs",
+          "source_url": "https://vercel.com/changelog/faster-pnpm-installs"
+        },
+        {
+          "label": "公开摘要",
+          "text": "pnpm installs on Vercel are now faster, reducing the time spent installing dependencies before your build. For Pro deployments with restored build cache, we observed 14% lower average install times with the optimization",
+          "source_url": "https://vercel.com/changelog/faster-pnpm-installs"
+        }
+      ],
+      "slug": "faster-pnpm-installs-a21d1e28",
+      "localized_url": "/zh/items/2026-10-27/faster-pnpm-installs-a21d1e28/",
+      "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     }
