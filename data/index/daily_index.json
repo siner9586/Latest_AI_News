@@ -1,7 +1,1268 @@
 {
-  "updated_at": "2026-10-27T01:30:27.718411+00:00",
-  "count": 131,
+  "updated_at": "2026-10-28T01:26:07.881371+00:00",
+  "count": 132,
   "briefs": [
+    {
+      "date": "2026-10-28",
+      "title_zh": "AI 新闻简报 · 2026-10-28",
+      "title_en": "English AI News Brief · 2026-10-28",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 130 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 130 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 130,
+      "selected_count": 18,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Retell uses OpenAI models to help power 100M monthly calls",
+          "title_original": "Retell uses OpenAI models to help power 100M monthly calls",
+          "title_en": "Retell uses OpenAI models to help power 100M monthly calls",
+          "summary_zh": "OpenAI 更新了实时语音交互模型能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/retell-ai",
+          "published_at": "Tue, 27 Oct 2026 15:00:00 GMT",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Benchmark"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d42fb1eb3362",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Retell uses OpenAI models to help power 100M monthly calls",
+          "extracted_excerpt": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+          "extracted_text_for_analysis": "Retell uses OpenAI models to help power 100M monthly calls GPT‑6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee. 100M+ Monthly calls handled 80%+ Customer resolution rates 1 trillion OpenAI tokens consumed $1.6M Annual revenue run rate per employee Retell AI(opens in a new window) is a voice AI platform for contact center operations, helping businesses build agents that can answer questions, take action, and connect a caller with a person when needed. Its platform now serves more than 4,000 businesses, with monthly call volume growing from 30 million in early 2026 to more than 100 million by September. As Retell serves more enterprises with complex workflows, it uses OpenAI models to keep call quality and reliability high. Today, OpenAI models generate responses for 80% of calls on Retell, with customers achieving resolution rates above 80%. Retell has also surpassed 1 trillion tokens consumed across OpenAI models, reflecting the scale of that adoption. Retell’s engineers use Codex throughout development, from researching unfamiliar code to building features and debugging issues, and GPT‑6 Astra to test front-end interfaces. “We choose models the way our customers choose vendors: on real calls, not demos. OpenAI keeps earning its spot.” Enterprise voice agents need to follow company policies and stay within their assigned roles, even as conversations change. Retell built its vCX benchmark to compare dozens of models using difficult, multi-turn conversations drawn from real production scenarios. It tests how well models follow instructions, stay grounded in the information they are given, call the right tools, and use natural conversational language. In Retell’s October 13, 2026 benchmark, GPT‑6 Astra ranked first for instruction following at 89.7%. Retell also shared evaluations conducted before the launch of the GPT‑6 Astra model that showed GPT‑5.5 ranking highest among models on both non-hallucination rate (88.0%) and tool-call correctness (88.3%) with reasoning enabled, outperforming Gemini‑3.1‑Pro and Claude‑4.6 on both measures. It also led on non-hallucination rate with reasoning off. Retell says new customers who choose OpenAI models continue using them. Customers also have access to OpenAI Realtime models through the Realtime API and OpenAI text-to-speech as a voice engine. Retell makes new OpenAI models available the day they launch and reruns its benchmark as models improve. Contact center teams use Retell to define their agents’ business context, goals, and rules. Developers can further configure workflows and integrations. During a call, Retell’s harness runs the audio models, tracks the conversation, and manages when the agent speaks, listens, or responds to interruptions. OpenAI models, including GPT‑6.1 Sol, GPT‑6 Astra, and GPT‑5.5, use the customer’s instructions and conversation context to generate responses and request tool calls. Retell executes those calls through integrations with the customer’s systems and can write outcomes back to a customer record. When human judgment is needed, the voice agent briefs the representative with context, answers their follow-up questions, and confirms they are ready before connecting the customer. After a call, Retell uses GPT‑5.6 Terra to analyze the transcript and extract outcomes and other data. With this approach, Retell reports customer resolution rates above 80%. At electronics company Anker, agents handle Tier‑1 post-sales support in the US and UK, including order tracking, warranty checks, and troubleshooting. Anker reported an 80.4% case resolution rate and a Net Promoter Score (NPS) of 63. Its team also said the agents’ tone, pacing, and warmth met the standard they expected of a human agent. At Pine Park Health, Retell agents handle appointment reminders and proactive scheduling and record the outcomes in patients’ medical charts. The team recovered medical-assistant time equivalent to 2.1 full-time roles and redirected it to patient care. Its scheduling agent achieved a 55.7% booking rate when it reached a patient. Daytime traffic on Retell’s platform can reach more than 50 times its overnight low. To help keep calls responsive even at peak demand, Retell uses dedicated servers with OpenAI, shared across its customers. In Retell’s October 13, 2026 benchmark, GPT‑6 Astra and GPT‑6 Sol each recorded median first-sentence latency of 883 milliseconds, with GPT‑5.6 Luna ranking highest at 497 milliseconds. OpenAI’s regional API endpoints allow developers to route traffic to specific geographic regions, which helps Retell reduce network travel time and meet customers’ data residency requirements in industries such as healthcare and financial services. Retell also builds redundancy into each layer of the service. It runs its own telephony stack with a second stack ready to take over, along with backups for voice and model services, to help keep calls running when a service fails. As Retell’s enterprise growth brings more requests for custom workflows and integrations, its engineers often need to work in unfamiliar parts of the codebase. Before writing code, they give Codex a high-level requirement. Codex surveys the code, checks it against actual data, and explains what needs to change. One engineer said Codex did this research better and much faster than he could. During implementation, engineers say Codex often catches details they had not considered. For debugging, Codex cross-references logs and database records with the code to investigate what is happening. Retell’s engineers also use Codex in their work with customers building on OpenAI models to speed up tasks such as writing the instructions that guide how a model responds in a customer’s application. To test changes to its web interface, Retell relies on GPT‑6 Astra’s computer use. When an engineer opens a front-end pull request, GPT‑6 Astra opens the interface, clicks through it, tests flows, tries to break them, and reports the issues it finds. Retell says earlier models could not perform this work reliably. Retell continues to hire, but its engineering team hasn’t needed to grow at the same pace as the business. Retell reports $1.6 million in annual revenue run rate per employee. “By using Codex, the engineering team has a virtual teammate that can pair with them on any kind of difficult task.” Every business knows how it wants to serve its customers. Retell’s goal is to let the people closest to that work apply their expertise directly, using advanced voice AI and a platform that lets them build, test, and improve their own agents. Next, Retell plans to expand quality assurance and simulation, support more languages, and develop knowledge base auto-learning. As OpenAI models continue to advance, Retell expects its customers to deliver world-class service to millions of callers, on their own terms. “No one knows a company’s customers better than the company itself. We give",
+          "title_zh": "OpenAI 推进实时语音交互模型能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI、Benchmark。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "benchmark",
+              "explanation": "用于衡量模型能力的任务集合或评测体系。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Retell uses OpenAI models to help power 100M monthly calls",
+              "source_url": "https://openai.com/index/retell-ai"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+              "source_url": "https://openai.com/index/retell-ai"
+            }
+          ],
+          "slug": "retell-uses-openai-models-to-help-power-100m-monthly-calls-d42fb1eb",
+          "localized_url": "/zh/items/2026-10-28/retell-uses-openai-models-to-help-power-100m-monthly-calls-d42fb1eb/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "title_original": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "title_en": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "published_at": "Tue, 27 Oct 2026 07:00:00 GMT",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a3a879144b29",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "extracted_excerpt": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+          "extracted_text_for_analysis": "OpenAI and Oracle are bringing Oracle applications and data into ChatGPT and powering new Oracle products and services with OpenAI models and products. Together, we aim to help businesses use AI to run core operations, build better applications, and strengthen security. This builds on our commercial relationship across the OpenAI API, ChatGPT Work, and Codex. Oracle reported 130,000 active ChatGPT users and more than 95,000 active Codex users. Its recruiting team uses ChatGPT Work for market research that once took two to four days to compile, with preparation now taking 15–20 minutes. OpenAI and Oracle share a vision for an agent-ready enterprise where people and AI agents work across business applications in one connected environment. Our goal is to make Oracle software easier to discover, use, and manage, with simpler administration, unified sign-in, and access governed by each organization’s permissions and approvals. This would help businesses scale AI across core operations and get more value from the software they already use. Oracle is developing Oracle AI Workspace to bring that vision into ChatGPT through integrations with Oracle applications and data. The goal is to let people describe what they need to accomplish, find the right information, and complete approved business workflows in one place. For example, a new finance team member could use ChatGPT to investigate costs, understand purchasing decisions, and identify what remains before month-end close. The intended experience would bring information from finance, procurement, and planning applications together, helping more employees use Oracle software within their organization’s permissions and approvals. Alongside Oracle AI Workspace, Oracle is announcing updates and new offerings built with OpenAI models and tools: - Oracle AI Security Mesh is designed to help customers find and fix vulnerabilities in applications and infrastructure using OpenAI cyber models. Oracle manages the testing infrastructure, helping customers put these capabilities to work safely and within their authorized scope. - Oracle AI SMB Bundle combines ChatGPT Business and Codex with Oracle applications and recurring Oracle Cloud Infrastructure credits to help small businesses build products and manage operations. - Oracle App Composer is designed to help teams build apps with Codex and other AI tools, connect them to approved Oracle data and workflows, and share them across their organization. Oracle manages deployment on Oracle Cloud Infrastructure, with company permissions and access controls built in.",
+          "title_zh": "OpenAI 更新AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+              "source_url": "https://openai.com/index/oracle-apps-in-chatgpt"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+              "source_url": "https://openai.com/index/oracle-apps-in-chatgpt"
+            }
+          ],
+          "slug": "openai-expands-partnership-with-oracle-to-bring-its-apps-to-chatgpt-a3a87914",
+          "localized_url": "/zh/items/2026-10-28/openai-expands-partnership-with-oracle-to-bring-its-apps-to-chatgpt-a3a87914/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Check Point accelerates vulnerability research with Daybreak",
+          "title_original": "How Check Point accelerates vulnerability research with Daybreak",
+          "title_en": "How Check Point accelerates vulnerability research with Daybreak",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/check-point-daybreak",
+          "published_at": "Tue, 27 Oct 2026 00:00:00 GMT",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8cb333260a17",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How Check Point accelerates vulnerability research with Daybreak",
+          "extracted_excerpt": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+          "extracted_text_for_analysis": "How Check Point accelerates vulnerability research with Daybreak With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster. Results Hours to minutes Vulnerability research with Daybreak Check Point’s vulnerability research workflow used to take hours to complete. As part of the OpenAI Daybreak Defense Network, the company uses Daybreak to reduce that work to minutes, according to Jonathan Zanger, CTO of Check Point. Daybreak gives defenders access to OpenAI’s frontier cyber models that can analyze vulnerabilities, reason through attack paths, and identify security gaps in code and configurations. Check Point helps secure over 100,000 organizations through its AI, workspace, cloud, and network security products. Check Point Research brings vulnerability research expertise to the company’s prevention-first approach, investigating emerging vulnerabilities and translating findings into protections for customers. Daybreak accelerates that research, shortening the path from understanding a vulnerability to developing a defense. “OpenAI is putting frontier cybersecurity intelligence in the hands of defenders and enabling companies like Check Point to turn this intelligence into threat prevention.” “We’re seeing more cyber threats, and those threats are becoming increasingly sophisticated,” Zanger says. For Check Point, keeping pace means quickly turning information about newly disclosed vulnerabilities into protections for customers. “When a new vulnerability emerges, our job is to make sure our customers are protected against it as fast as possible.” That work depends on expert analysts who investigate vulnerabilities and translate their findings into security signatures or indicators of compromise that Check Point’s systems use to recognize threats. This research requires specialized expertise, and the team’s capacity was previously constrained by the number of analysts available to do it. Check Point uses OpenAI Daybreak to automate more of this workflow. “We leverage Daybreak to speed up and automate this process, and we can now do it in minutes instead of hours,” Zanger says. The value comes from the models’ ability to reason about security problems. “OpenAI Daybreak can understand vulnerabilities, analyze different attack patterns and scan the code to identify gaps.” Zanger also points to advances in understanding complex code and configurations, and identifying how systems could be exposed to attack. Check Point now considers those capabilities mature enough to incorporate into its cybersecurity workflows. For vulnerability research, Daybreak supports the investigative work that informs the development of a signature or indicator of compromise, giving analysts a faster path from understanding a threat to developing protections. Check Point is also working with OpenAI to develop its Agentic Network Security Orchestration solution using Daybreak. The approach Zanger describes would combine continuous monitoring of customer environments with clearly defined operating boundaries and human approval for consequential actions. Customers would set their security objectives, and the system would explain its findings, recommended actions, and associated risks so they could decide how to proceed. With vulnerability research now taking minutes to complete, Check Point’s next priority is remediation. The company is looking to use Daybreak’s capabilities to make it easier for their security teams to address the gaps they identify. “Combining OpenAI’s Daybreak with our existing security workflows unlocks a level of automation that can prevent threats in real time.” For Check Point customers, faster research supports the development of protections against newly discovered vulnerabilities. With Daybreak, Check Point aims to extend that progress toward more autonomous defenses, with customers setting security objectives and approving consequential actions.",
+          "title_zh": "OpenAI 推进政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Check Point accelerates vulnerability research with Daybreak",
+              "source_url": "https://openai.com/index/check-point-daybreak"
+            },
+            {
+              "label": "公开摘要",
+              "text": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+              "source_url": "https://openai.com/index/check-point-daybreak"
+            }
+          ],
+          "slug": "how-check-point-accelerates-vulnerability-research-with-daybreak-8cb33326",
+          "localized_url": "/zh/items/2026-10-28/how-check-point-accelerates-vulnerability-research-with-daybreak-8cb33326/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+          "title_original": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+          "title_en": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+          "summary_zh": "Anthropic 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/opus55/",
+          "published_at": "Tue, 27 Oct 2026 18:53:10 GMT",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "80e5637a67e1",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Anthropic 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+              "source_url": "https://latent.space/p/opus55/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+              "source_url": "https://latent.space/p/opus55/"
+            }
+          ],
+          "slug": "how-anthropic-ships-claude-with-claude-separating-the-brain-from-the-han-de0ff86e",
+          "localized_url": "/zh/items/2026-10-28/how-anthropic-ships-claude-with-claude-separating-the-brain-from-the-han-de0ff86e/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+          "title_original": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+          "title_en": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+          "summary_zh": "Anthropic 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable managed agents. A new introduction ...",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+          "published_at": "Tue, 27 Oct 2026 18:40:19 GMT",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "beb92a3cbb63",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Anthropic 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+              "source_url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable",
+              "source_url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/"
+            }
+          ],
+          "slug": "how-anthropic-ships-the-1-llm-in-the-world-safely-separating-the-brain-f-a3f4375d",
+          "localized_url": "/zh/items/2026-10-28/how-anthropic-ships-the-1-llm-in-the-world-safely-separating-the-brain-f-a3f4375d/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+          "title_original": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+          "title_en": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+          "summary_zh": "Anthropic 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The S-1, the numbers, and the reactions.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/ainews-anthropic-s1/",
+          "published_at": "Tue, 27 Oct 2026 07:24:59 GMT",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "95af72b561e4",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Anthropic 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank",
+              "source_url": "https://latent.space/p/ainews-anthropic-s1/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The S-1, the numbers, and the reactions.",
+              "source_url": "https://latent.space/p/ainews-anthropic-s1/"
+            }
+          ],
+          "slug": "ainews-anthropic-files-for-2t-ipo-in-2-weeks-1400-growth-rate-48-of-reve-b021226a",
+          "localized_url": "/zh/items/2026-10-28/ainews-anthropic-files-for-2t-ipo-in-2-weeks-1400-growth-rate-48-of-reve-b021226a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+          "title_original": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+          "title_en": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease.",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+          "published_at": "Tue, 27 Oct 2026 15:00:20 +0000",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4a299d1e9f3d",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+          "extracted_excerpt": "The Consortium for Biomedical Research and AI in Neurodegeneration is working with NVIDIA to deploy open source AI tools to accelerate the science that makes new treatments possible.",
+          "extracted_text_for_analysis": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for Biomedical Research and AI in Neurodegeneration (C-BRAIN), working with NVIDIA, is using AI to change that. Alzheimer’s disease is one of today’s leading global health challenges, with over 10 million new dementia cases diagnosed each year. Despite a 7x increase in National Institutes of Health funding in the last 15 years — reaching $3.9 billion annually — no treatment has been found to stop, prevent or reverse the disease yet. The bottlenecks are not enough high impact scientific findings, too much data living in institutional silos and too slow a pace of synthesis to keep up with the research that is published. C-BRAIN, led by Dr. Randall Bateman and a consortium of 18 member institutions across academic, philanthropic, pharma and research organizations, launched in November 2025 to help scientists make better, faster discoveries by accelerating the research that makes new treatments possible. “We have a window of opportunity with artificial intelligence to do research fundamentally different than we’ve ever done before, in a way that accelerates discoveries to help patients,” said Bateman, founder and director of C-BRAIN and the Charles F. and Joanne Knight Distinguished Professor of Neurology at the Washington University School of Medicine in St. Louis. He described their work as “AI tools built by scientists, for scientists.” The consortium is building a system that harnesses previously untapped Alzheimer’s research data to support scientists’ work. Speeding Research From Weeks to Hours Essential assets in Alzheimer’s research are datasets that have never been publicly accessible to AI tools or human researchers. This includes unpublished findings, negative results and governed proprietary data from member institutions. “A lot of life sciences data doesn’t make its way into the frontier models,” said Dr. Ade Ojewole, chief technology officer of C-BRAIN. “The consequence of that is we’re leaving a lot of intelligence on the table.” C-BRAIN refers to this as “dark data,” which slows down Alzheimer’s research. Some dark data is directly deposited into secure computer systems for AI tools to access. To use this data without compromising patient privacy or institutional governance, C-BRAIN uses a hybrid centralized and federated approach — where AI models learn from data at each institution without that data ever having to leave its walls. This kind of infrastructure is technically demanding to build and scale, which is part of what NVIDIA brings to the collaboration. C-BRAIN currently runs 64 NVIDIA data center GPUs on premises alongside cloud-based nodes on Microsoft Azure, with additional NVIDIA GPU capacity, including NVIDIA Blackwell systems, on the horizon as the consortium’s ambitions scale. To explore how AI and accelerated computing can advance Alzheimer’s research while navigating its technical demands, C-BRAIN is working with NVIDIA to incorporate technologies including the NVIDIA BioNeMo open developer platform and the MONAI framework for C-BRAIN’s research pipelines. “The C-BRAIN collaboration with NVIDIA aims to unlock those models in a way that they can deliver something quite impactful and important,” said Bateman. “A great deal of optimization is going to be needed as we push the boundaries of what today’s spatial omics machine learning architectures can model,” Ojewole said. “NVIDIA software is definitely going to come into play there.” Researchers at C-BRAIN have already built two tools: OpenScientist — built with Lawrence Berkeley National Laboratory in an effort led by research scientist Justin Reese — and InsightEngine, built with 387 Labs. OpenScientist is an open source agentic AI co-scientist that takes a scientist’s research question and dataset, then semi-autonomously generates hypotheses, runs analyses and produces verifiable, auditable insights. InsightEngine is an open source research platform that uses agentic AI to test hypotheses against the scientific literature, analyzing user-supplied datasets, exploring a biomedical knowledge graph and checking every claim against evidence to catch hallucinations before researchers commit to costly experiments. In published case studies, OpenScientist completed analyses in minutes that domain scientists estimated would take weeks to months, at a cost of under $10 per run. At C-BRAIN’s current reach of over 200 research groups, this capability could release substantial research capacity, potentially exceeding one million hours annually at scale. From Correlation to Cause Looking ahead, C-BRAIN aims to build a multimodal biological foundation model trained on the full breadth of its data — neuroimaging, multi-omics, fluid biomarkers and longitudinal clinical measures. By year three, it aims to discover new causal mechanisms of brain aging and Alzheimer’s disease, moving to testable scientific principles using the full scope of available research and data. Bateman said, “AI that can think and reason has the potential to accelerate discoveries that will lead to powerful and implementable preventions and treatments for the entire population.”",
+          "title_zh": "NVIDIA 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+              "source_url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of",
+              "source_url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/"
+            }
+          ],
+          "slug": "how-ai-is-changing-the-pace-of-discovery-for-millions-living-with-dement-df8156dd",
+          "localized_url": "/zh/items/2026-10-28/how-ai-is-changing-the-pace-of-discovery-for-millions-living-with-dement-df8156dd/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Taking Japan-Born AI Products to the World: An Interview with Sakana AI’s VP of GTM",
+          "title_original": "Taking Japan-Born AI Products to the World: An Interview with Sakana AI’s VP of GTM",
+          "title_en": "Taking Japan-Born AI Products to the World: An Interview with Sakana AI’s VP of GTM",
+          "summary_zh": "Sakana AI 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Sakana AI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/vp-of-gtm-interview/",
+          "published_at": "2026-10-27T00:00:00+09:00",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Sakana AI"
+          ],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "18ff4e0015ef",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "Taking Japan-Born AI Products to the World: An Interview with Sakana AI’s VP of GTM",
+          "extracted_text_for_analysis": "Switch to the Japanese section - 日本語版はこちら In 2026, Sakana AI released a series of products: Sakana Chat, Sakana Marlin, Sakana Fugu, and Sakana Translate. Known until now as an R&D company, Sakana AI has entered the stage of delivering products born from its research to companies and government agencies. The Go-To-Market (GTM) team that sells and scales those products launched in earnest in September 2026. Leading the team is Hidekazu Kakishima, who has driven the business launches of new technologies like cloud, IoT, and drones right from the dawn of their respective industries. Why Sakana AI, and why now? How do you sell products that come out of research, and what kind of team do you build to grow them? And what makes it interesting to join a team that still has few established systems? We sat down with him to find out. Interviewee The Frontier of Technology Draws Talented People Who Love What’s New — From AWS to SORACOM, Skydio, and now Sakana AI, you seem to have chosen the early days of a new technology every time. Tell us about your career. At the root is a belief that technology makes the world better. That is why I have always wanted to work at the leading edge of fields where new technology is emerging. I was not that conscious of it in my twenties, but once I encountered cloud computing at AWS, I switched firmly into that mode. After that came IoT at SORACOM, drones at Skydio, and now AI. Each is a field where a new industry is being born, and my job is to take the technology at the frontier and put it to work in the market from the inside. That is what I want to do, and I have chosen every step of my career by that standard. There is one more reason I keep choosing the launch phase. When a new trend emerges, its leading edge attracts talented people who love new things. Learning the latest technology, implementing it, and seeing customers happy is enjoyable in itself. But working alongside those people is the particular pleasure of the early days. — Given that, why Sakana AI? Because I thought it was the best AI company in Japan. It is growing fast as a startup, its valuation is rising rapidly, and it is a Japan-born company aiming at the global market with research and development as its foundation. I had been following the company for some time. Then an acquaintance introduced me, and I had the chance to actually hear the story. Before joining, I spoke with Ren Ito, co-founder and chairman. Hearing his vision of scaling Sakana AI as a business not just in Japan but globally was exciting. The founders and the members are all wonderful people, and in the end, the desire to work with good people was what decided it. Because the company started from R&D, it has excellent technology and attracts talented people. But turning that into something the world can use is not easy. I felt the company was building a team for exactly that and expanding rapidly, and the GTM team now owns that part: making it usable. From Research Insights to Products That Reach More Customers — Let’s talk about that mission of making the technology usable. Where does the GTM team stand today? Alongside its research, Sakana AI has focused on industries such as finance and defense and implemented AI on the ground at customers. We have now entered a phase of turning the knowledge accumulated there into products and delivering them to a broader range of customers. That said, releasing a product does not mean customers can use it right away. There will always be situations where the product alone cannot meet a customer’s requirements. To close that gap, we are currently hiring Forward Deployed Engineers (FDEs). FDEs feed what they learn at the customer’s site back into the product. As that accumulates, we want to increase the number of cases where the product can be used on its own, without an FDE. Many AI companies are investing in the FDE role right now. At the same time, people sometimes ask how it differs from an engineer who goes on site and builds things for the customer. The difference is precisely this feedback loop. Solving the customer’s problem is not the end. Reflecting that experience back into product improvement is part of the job. That is the role of an FDE at Sakana AI and the model we are aiming for. The Product Opens the Conversation; the Customer’s Problem Is What We Solve — The job descriptions for the GTM team use the phrase “product-driven GTM.” It sounds different from both system-integrator development and deploying a SaaS product as is. What is the approach? When people hear “product-driven,” many picture a one-way push to sell a product that already exists. Our stance is a little different. For us, product-driven means using the product as the starting point for a conversation with the customer. We present the product first, watch the customer’s reaction, and then propose the best way to apply it as a solution. It is less about going out to sell a product and more about matching the product to the customer’s problem. There are also cases where the customer does not know how to implement it, or where security has to be tailored to specific requirements. These requirements differ by industry and by company, so an FDE steps in to move the deployment forward. When there are no special requirements, customers can use the product as is. Our API services, for example, are called directly from the customer’s own systems. Sakana Marlin is a research product for business users, aimed mainly at people who do research work every day. — We understand you are not selling only through your own team, but also place importance on working with partners. Our resources are limited, so partners are essential. One type is system integrators, whom we are encouraging to build Sakana AI products into their own solutions. The other is technology companies with partner ecosystems, where Sakana AI products are offered through their marketplaces. This model lets us grow the user base not just in Japan but globally. Orchestrating Multiple Models, and the Growing Demand for AI Sovereignty — A bit more on products. Orchestration, which brings in multiple frontier models, is one of Sakana AI’s technical strengths. How are customers responding? Many companies have recently released features that let you switch between different models. Sakana Fugu does not simply switch models, though. It takes the approach of having multiple frontier models work together on a single task. I think that is a very distinctive feature. Behind the demand for this approach is a wariness about continuing to depend on a single model, however good it is. In February 2026, the US government instructed federal agencies to stop using Anthropic products, and the US Department of Defense designated the company a supply chain risk. No matter how strong the performance, a model can become unavailable for political or contractual reasons. Many companies must have felt that firsthand. More and more companies want to use multiple",
+          "title_zh": "Sakana AI 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Sakana AI，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。",
+            "涉及公司或机构：Sakana AI。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Taking Japan-Born AI Products to the World: An Interview with Sakana AI’s VP of GTM",
+              "source_url": "https://sakana.ai/vp-of-gtm-interview/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://sakana.ai/vp-of-gtm-interview/"
+            }
+          ],
+          "slug": "taking-japan-born-ai-products-to-the-world-an-interview-with-sakana-ais-ff764513",
+          "localized_url": "/zh/items/2026-10-28/taking-japan-born-ai-products-to-the-world-an-interview-with-sakana-ais-ff764513/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Build specialized multimodal models with LFM3",
+          "title_original": "Build specialized multimodal models with LFM3",
+          "title_en": "Build specialized multimodal models with LFM3",
+          "summary_zh": "Modal 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/LiquidAI/lfm3",
+          "published_at": "Tue, 27 Oct 2026 17:16:52 GMT",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "db98bf59a6c7",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "multimodal",
+              "explanation": "同时处理文本、图像、音频或视频等多种输入输出形式。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Build specialized multimodal models with LFM3",
+              "source_url": "https://huggingface.co/blog/LiquidAI/lfm3"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/LiquidAI/lfm3"
+            }
+          ],
+          "slug": "build-specialized-multimodal-models-with-lfm3-db98bf59",
+          "localized_url": "/zh/items/2026-10-28/build-specialized-multimodal-models-with-lfm3-db98bf59/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Can we trust LLMs to judge whether a research idea is novel?",
+          "title_original": "Can we trust LLMs to judge whether a research idea is novel?",
+          "title_en": "Can we trust LLMs to judge whether a research idea is novel?",
+          "summary_zh": "Hugging Face Blog 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog shares research or evaluation work, with attention to metrics, findings and practical limits.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/allenai/novelty-bench",
+          "published_at": "Tue, 27 Oct 2026 16:12:42 GMT",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "34370e88c88d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Can we trust LLMs to judge whether a research idea is novel?",
+              "source_url": "https://huggingface.co/blog/allenai/novelty-bench"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog shares research or evaluation work, with attention to metrics, findings and practical limits.",
+              "source_url": "https://huggingface.co/blog/allenai/novelty-bench"
+            }
+          ],
+          "slug": "can-we-trust-llms-to-judge-whether-a-research-idea-is-novel-34370e88",
+          "localized_url": "/zh/items/2026-10-28/can-we-trust-llms-to-judge-whether-a-research-idea-is-novel-34370e88/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Genie 4: A new generation of world simulation",
+          "title_original": "Genie 4: A new generation of world simulation",
+          "title_en": "Genie 4: A new generation of world simulation",
+          "summary_zh": "DeepMind 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+          "published_at": "Tue, 27 Oct 2026 16:01:38 +0000",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "5ef94984dce4",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "DeepMind 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 DeepMind，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Genie 4: A new generation of world simulation",
+              "source_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+              "source_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+            }
+          ],
+          "slug": "genie-4-a-new-generation-of-world-simulation-d17d13a0",
+          "localized_url": "/zh/items/2026-10-28/genie-4-a-new-generation-of-world-simulation-d17d13a0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Coding From the Himalayas With an Offline AI Agent",
+          "title_original": "Coding From the Himalayas With an Offline AI Agent",
+          "title_en": "Coding From the Himalayas With an Offline AI Agent",
+          "summary_zh": "Latent Space 的新访谈把焦点放在代码评测可靠性问题，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/offline-coding/",
+          "published_at": "Tue, 27 Oct 2026 14:41:25 GMT",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6dd70bb9a79d",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论代码评测可靠性问题",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Coding From the Himalayas With an Offline AI Agent",
+              "source_url": "https://latent.space/p/offline-coding/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+              "source_url": "https://latent.space/p/offline-coding/"
+            }
+          ],
+          "slug": "coding-from-the-himalayas-with-an-offline-ai-agent-6c511312",
+          "localized_url": "/zh/items/2026-10-28/coding-from-the-himalayas-with-an-offline-ai-agent-6c511312/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "ElevenLabs on AI Gateway",
+          "title_original": "ElevenLabs on AI Gateway",
+          "title_en": "ElevenLabs on AI Gateway",
+          "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel and ElevenLabs are partnering to bring 14 ElevenLabs models to AI Gateway . To celebrate the launch, all ElevenLabs models are 50% off on AI Gateway for the first 14 days, through November 9th. AI Gateway supports six different types of ElevenLabs",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/elevenlabs-on-ai-gateway",
+          "published_at": "2026-10-27T07:00:00.000Z",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [
+            "ElevenLabs"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a654f105f1b2",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：ElevenLabs。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "ElevenLabs on AI Gateway",
+              "source_url": "https://vercel.com/blog/elevenlabs-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel and ElevenLabs are partnering to bring 14 ElevenLabs models to AI Gateway . To celebrate the launch, all ElevenLabs models are 50% off on AI Gateway for the first 14 days, through November 9th. AI Gateway",
+              "source_url": "https://vercel.com/blog/elevenlabs-on-ai-gateway"
+            }
+          ],
+          "slug": "elevenlabs-on-ai-gateway-a654f105",
+          "localized_url": "/zh/items/2026-10-28/elevenlabs-on-ai-gateway-a654f105/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The Big Technology Guide To: Enterprise AI",
+          "title_original": "The Big Technology Guide To: Enterprise AI",
+          "title_en": "The Big Technology Guide To: Enterprise AI",
+          "summary_zh": "Big Technology Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "An in-depth look at the opportunities, pitfalls, and capabilities of a technology with the potential to transform the nature of business today.",
+          "source_name": "Big Technology Podcast",
+          "source_url": "https://www.bigtechnology.com/",
+          "original_url": "https://www.bigtechnology.com/p/the-big-technology-guide-to-enterprise",
+          "published_at": "Tue, 27 Oct 2026 19:31:28 GMT",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "tech-media",
+            "ai",
+            "interview"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c33f7d207e62",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Big Technology Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Big Technology Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：tech-media、ai、interview。"
+          ],
+          "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The Big Technology Guide To: Enterprise AI",
+              "source_url": "https://www.bigtechnology.com/p/the-big-technology-guide-to-enterprise"
+            },
+            {
+              "label": "公开摘要",
+              "text": "An in-depth look at the opportunities, pitfalls, and capabilities of a technology with the potential to transform the nature of business today.",
+              "source_url": "https://www.bigtechnology.com/p/the-big-technology-guide-to-enterprise"
+            }
+          ],
+          "slug": "the-big-technology-guide-to-enterprise-ai-c33f7d20",
+          "localized_url": "/zh/items/2026-10-28/the-big-technology-guide-to-enterprise-ai-c33f7d20/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
+          "title_original": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
+          "title_en": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
+          "summary_zh": "Together AI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Together GPU Clusters auto repair detects GPU, host and fabric faults, picks the lightest fix, and lets you decide per fault and per Xid code which repairs run automatically. Here is how it works.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/auto-repair-for-together-gpu-clusters",
+          "published_at": "Tue, 27 Oct 2026 00:00:00 GMT",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "92255bce1663",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Together AI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
+              "source_url": "https://www.together.ai/blog/auto-repair-for-together-gpu-clusters"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Together GPU Clusters auto repair detects GPU, host and fabric faults, picks the lightest fix, and lets you decide per fault and per Xid code which repairs run automatically. Here is how it works.",
+              "source_url": "https://www.together.ai/blog/auto-repair-for-together-gpu-clusters"
+            }
+          ],
+          "slug": "auto-repair-for-together-gpu-clusters-from-gpu-fault-to-healthy-node-92255bce",
+          "localized_url": "/zh/items/2026-10-28/auto-repair-for-together-gpu-clusters-from-gpu-fault-to-healthy-node-92255bce/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Plugin now available in OpenCode",
+          "title_original": "Vercel Plugin now available in OpenCode",
+          "title_en": "Vercel Plugin now available in OpenCode",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "The Vercel Plugin is now available in OpenCode . The plugin provides on-demand guidance on Vercel APIs and recommended patterns, with skills for AI SDK, Vercel Functions, Workflow, and more. It also includes specialist agents for deployment, performance",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-plugin-now-available-in-opencode",
+          "published_at": "2026-10-27T00:00:00.000Z",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c7808e3da983",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 发布AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Plugin now available in OpenCode",
+              "source_url": "https://vercel.com/changelog/vercel-plugin-now-available-in-opencode"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The Vercel Plugin is now available in OpenCode . The plugin provides on-demand guidance on Vercel APIs and recommended patterns, with skills for AI SDK, Vercel Functions, Workflow, and more. It also includes specialist",
+              "source_url": "https://vercel.com/changelog/vercel-plugin-now-available-in-opencode"
+            }
+          ],
+          "slug": "vercel-plugin-now-available-in-opencode-c7808e3d",
+          "localized_url": "/zh/items/2026-10-28/vercel-plugin-now-available-in-opencode-c7808e3d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Deploy a container from a plain Dockerfile",
+          "title_original": "Deploy a container from a plain Dockerfile",
+          "title_en": "Deploy a container from a plain Dockerfile",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now deploy a plain root Dockerfile or Containerfile on Vercel's Container runtime when no other framework is detected. Vercel selects the Container preset, builds that file, and routes all traffic to the resulting image. To get started with containers",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/deploy-a-container-from-a-plain-dockerfile",
+          "published_at": "2026-10-27T00:00:00.000Z",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "51e6ed7fa8fe",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Deploy a container from a plain Dockerfile",
+              "source_url": "https://vercel.com/changelog/deploy-a-container-from-a-plain-dockerfile"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now deploy a plain root Dockerfile or Containerfile on Vercel's Container runtime when no other framework is detected. Vercel selects the Container preset, builds that file, and routes all traffic to the",
+              "source_url": "https://vercel.com/changelog/deploy-a-container-from-a-plain-dockerfile"
+            }
+          ],
+          "slug": "deploy-a-container-from-a-plain-dockerfile-51e6ed7f",
+          "localized_url": "/zh/items/2026-10-28/deploy-a-container-from-a-plain-dockerfile-51e6ed7f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI traffic insights now available in Vercel Observability",
+          "title_original": "AI traffic insights now available in Vercel Observability",
+          "title_en": "AI traffic insights now available in Vercel Observability",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now query AI traffic in Vercel Observability to understand how AI bots are accessing your site. AI traffic insights show: Requests by verified AI bot: how many requests each bot makes Most-crawled pages: pages most frequently requested by AI crawlers",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ai-traffic-insights-now-available-in-vercel-observability",
+          "published_at": "2026-10-27T00:00:00.000Z",
+          "fetched_at": "2026-10-28T01:26:06.687619+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ce48b5bc1ddd",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 发布AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI traffic insights now available in Vercel Observability",
+              "source_url": "https://vercel.com/changelog/ai-traffic-insights-now-available-in-vercel-observability"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now query AI traffic in Vercel Observability to understand how AI bots are accessing your site. AI traffic insights show: Requests by verified AI bot: how many requests each bot makes Most-crawled pages: pages",
+              "source_url": "https://vercel.com/changelog/ai-traffic-insights-now-available-in-vercel-observability"
+            }
+          ],
+          "slug": "ai-traffic-insights-now-available-in-vercel-observability-ce48b5bc",
+          "localized_url": "/zh/items/2026-10-28/ai-traffic-insights-now-available-in-vercel-observability-ce48b5bc/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-10-27",
       "title_zh": "AI 新闻简报 · 2026-10-27",
