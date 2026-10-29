@@ -1,0 +1,1293 @@
+{
+  "date": "2026-10-29",
+  "title_zh": "AI 新闻简报 · 2026-10-29",
+  "title_en": "English AI News Brief · 2026-10-29",
+  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 131 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 131 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+  "source_count": 181,
+  "candidate_count": 152,
+  "skipped_history_count": 131,
+  "selected_count": 18,
+  "categories": [
+    "company-industry",
+    "models-products",
+    "podcasts-interviews"
+  ],
+  "category_labels_zh": {
+    "company-industry": "公司与产业",
+    "models-products": "模型与产品",
+    "podcasts-interviews": "访谈与播客"
+  },
+  "items": [
+    {
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "title_original": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "title_en": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "summary_zh": "NVIDIA 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "published_at": "Wed, 28 Oct 2026 14:58:17 GMT",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "7ae8eb20550e",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "extracted_excerpt": "A Blog post by NVIDIA on Hugging Face",
+      "extracted_text_for_analysis": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt One open model for multilingual transcription, speaker attribution, translation, and audio Q&A, with top leaderboard results, plus the open Granary v2 data pipeline and fine-tuning recipes to adapt it. A transcript can capture every spoken word and still leave users or applications wondering who said what, how to translate it, or how to format domain-specific jargon. Multilingual calls, fast-paced meetings, and medical dictation each need different output: a translation, speaker labels, or correctly spelled medical terms. NVIDIA Nemotron 3.5 Transcribe is an open-weight, promptable model that turns recorded speech into useful text, now available on Hugging Face and ModelScope. It brings transcription, speaker attribution (diarization), translation, and audio question answering into one checkpoint: it transcribes 40 languages, translates 31 of them to or from English, and attributes speakers in 13. It handles recordings up to an hour long and labels up to eight speakers. Developers can guide output with natural language, choose where their audio is processed, and adapt recognition to domain vocabulary and accents. Transcribe is first among open-weight models on the Hugging Face Open ASR Leaderboard for English and sits on Artificial Analysis’s accuracy–active-parameter frontier. For speaker attribution, it posts the lowest error rate on David AI’s 21-language diarization leaderboard and ranks first in VoiceArena’s 14-system comparison. Quantized versions are coming soon, so you can run Transcribe locally on your RTX Spark, DGX Spark, or Jetson AGX Thor—or scale up on Blackwell data-center GPUs. Granary v2’s multilingual data (available on Hugging Face and ModelScope) and reusable curation pipeline, together with NeMo Speech fine-tuning tools, extend prompt-level control to training: developers can define the written form they need and adapt the model to the speech their applications encounter. In a medical case study, fine-tuning cut word error rate (WER) on held-out speakers by 45.8% relative to the best prompt. The same checkpoint can turn one meeting recording into different outputs, depending on the instruction: - “Transcribe this recording and label each speaker.” - “Translate this audio into English.” - “What decisions were made in this meeting?” Experience the model in action in the video below, where it tackles a classic scene from the 1940 screwball comedy His Girl Friday—a film famous for its rapid-fire, heavily overlapping dialogue. Nemotron 3.5 Transcribe captions a scene from His Girl Friday (1940) and labels speakers, including overlapping dialogue. For unfamiliar terms, try context before training. In a healthcare setting, for example: Transcribe this medical discussion in the original language. Possible terms: HbA1c, metformin. Use these terms only when supported by the audio. Preserve standard medical spelling and write numbers in conventional written form. The model card has recommended presets, including reasoning for audio questions, plus the full prompt guide and a task-by-language matrix: language support differs by task, and audio question answering is trained in English. Word-level timestamps are also supported. As with any speech model, spot-check names, speaker changes, and answers against the recording. From live classes to lasting lessons. Agora, whose real-time voice and video platform powers live conversations in apps, used word-level timestamps in a classroom demo: Nemotron 3.5 Transcribe turns a recorded class into a transcript shown alongside the replay, so students can see what was said and when. Agora’s blog walks through how they built it. Among open-weight models, Transcribe leads on what was said; on who said it, it tops two speaker-attribution benchmarks outright. Hugging Face Open ASR Leaderboard. The leaderboard measures transcription accuracy as word error rate (WER) on public test sets, in three tracks: - English: first among open-weight models at 5.33% average WER (Figure 1). - Multilingual: 4.62% mean WER across seven languages, the lowest among evaluated open-weight models in the model card’s Open ASR comparison. - Long-form: 10.98% mean WER, also the lowest in that comparison. Figure 1. Nemotron 3.5 Transcribe ranks first among open-weight models on the Hugging Face Open ASR Leaderboard (English) at 5.33% average WER, with API models excluded. Lower WER means fewer transcription errors. Artificial Analysis Speech-to-Text Leaderboard. Artificial Analysis independently ranks speech-to-text models by AA-WER, its word error rate index. Nemotron 3.5 Transcribe ties for first among open-weight models at 2.8% AA-WER, with about 4B active parameters versus 24B for the model it ties. On AA-AgentTalk, the held-out voice-agent speech set that makes up 50% of the AA-WER index, Transcribe scores 1.8% WER, versus 2.3% for the next-best open-weight model. Transcribe pairs its speech encoder with a hybrid Mamba–Transformer mixture-of-experts language model, so only about 4B of its 30B parameters are active per token. That puts it on Artificial Analysis’s open-weight Pareto frontier of accuracy versus active parameters. On AA’s all-model chart, it ranks ahead of several widely used proprietary speech APIs. Figure 2. Leading AA accuracy at about one-sixth the active parameters: Nemotron 3.5 Transcribe achieves 2.80% AA-WER with approximately 4B active parameters. Speaker attribution across languages and overlap. Sortformer speaker cues reach the language model with the acoustic features, so Transcribe can tag each turn during generation instead of relying solely on a later step to attach speakers to words. David AI DAI-ASR-I18N Leaderboard. On David AI’s DAI-ASR-I18N combined transcription-and-speaker-attribution track, Transcribe ranks first among evaluated open-weight models and second overall. On the benchmark’s diarization track, which scores who spoke when across 21 languages, it has the lowest diarization error rate of the 14 systems tested, slightly ahead of NVIDIA’s dedicated Nemotron 3 Diarization model. Figure 3. NVIDIA models hold the top two spots on David AI’s multilingual diarization leaderboard: Nemotron 3.5 Transcribe posts the lowest overall diarization error rate (DER), 18.26% across 21 languages, followed by Nemotron 3 Diarization at 18.38%. DER measures speaker-time errors; lower is better. VoiceArena Diarization-Bench. On VoiceArena’s English full-session benchmark, Transcribe posts the lowest concatenated minimum-permutation WER (cpWER) of 14 systems and ranks first in both in-person and online settings. It also drops the fewest words: deletions are 8.32% of reference words, versus a median of about 31%. Figure 4. NVIDIA models hold the top two spots in VoiceArena’s 14-system comparison: Nemotron 3.5 Transcribe leads at 32.4% cpWER, followed by NVIDIA Multitalker Parakeet with Nemotron 3 Diarization at 34.2%.",
+      "title_zh": "NVIDIA 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 NVIDIA 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+          "source_url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+        },
+        {
+          "label": "公开摘要",
+          "text": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+        }
+      ],
+      "slug": "nvidia-nemotron-3-5-transcribe-and-granary-v2-intelligent-multilingual-t-7ae8eb20",
+      "localized_url": "/zh/items/2026-10-29/nvidia-nemotron-3-5-transcribe-and-granary-v2-intelligent-multilingual-t-7ae8eb20/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "title_original": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "title_en": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "published_at": "Wed, 28 Oct 2026 13:15:00 GMT",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "75e2017ed4c5",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "extracted_excerpt": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "extracted_text_for_analysis": "OpenAI and ServiceNow expand partnership across enterprise workflows ServiceNow will bring OpenAI models and agents into workflows from development to security, and expand ChatGPT Work and Codex to employees. OpenAI and ServiceNow are expanding our partnership to bring more of our models and agents into ServiceNow products and connect ServiceNow workflows with ChatGPT and Codex. Together, we’re making it easier for businesses to build applications, resolve IT requests and address security issues using AI. The expansion builds on our partnership announced in January, bringing OpenAI into more of the work ServiceNow does for its customers and within its own business. A new ServiceNow integration will bring business context and workflow actions directly into ChatGPT, helping teams investigate issues and take the next step in the same conversation. An IT team member will be able to find similar incidents, assess the risk of a change and update a ServiceNow record without leaving ChatGPT. Customers connect ChatGPT to their own ServiceNow instance and choose which capabilities to make available. ServiceNow’s Action Fabric applies existing business rules and permissions, so the actions people can take reflect their organization’s configuration and access. ServiceNow is also previewing interactive experiences inside ChatGPT. In one example, an on-call engineer will be able to review linked monitoring alerts, recent changes and affected services, then assign the right team and work toward a fix within ChatGPT. We also plan to develop new capabilities across three areas: - Application development: A planned Codex integration in ServiceNow’s AI Workflow Factory will help developers build applications using ServiceNow’s business context and platform capabilities. OpenAI models will also power Build Agent and Autonomous Engineer to support application development and modernization. - Cybersecurity: A joint security solution will combine OpenAI’s cybersecurity capabilities with ServiceNow’s asset, identity and business context to help teams investigate vulnerabilities, prioritize risks and coordinate remediation. - Voice: An OpenAI-powered experience in ServiceNow’s Super Intelligence Control Tower will let people describe an AI use case aloud, helping populate assessment fields and gather missing information through follow-up questions. ServiceNow plans to give all employees access to ChatGPT Work and Codex, expanding beyond its engineering organization. Engineers can use Codex to explore codebases, make changes and run tests, while teams across the business can use ChatGPT Work in their day-to-day work. ServiceNow also plans to use OpenAI capabilities in its internal security work. OpenAI is also using ServiceNow workflows in our own operations, supported by the Super Intelligence Control Tower. The ServiceNow MCP plugin is available in the OpenAI marketplace today, with enhanced capabilities expected by the end of 2026. Voice capabilities in the Super Intelligence Control Tower are expected in the first quarter of 2027. The OpenAI-powered security capabilities are expected to enter early access in January 2027, with general availability planned for the second quarter of 2027. Codex in AI Workflow Factory is expected to be available in 2027.",
+      "title_zh": "OpenAI 更新AI 代理工程与工具调用能力",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "source_url": "https://openai.com/index/openai-servicenow-partnership-expansion"
+        },
+        {
+          "label": "公开摘要",
+          "text": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+          "source_url": "https://openai.com/index/openai-servicenow-partnership-expansion"
+        }
+      ],
+      "slug": "openai-and-servicenow-expand-partnership-across-enterprise-workflows-75e2017e",
+      "localized_url": "/zh/items/2026-10-29/openai-and-servicenow-expand-partnership-across-enterprise-workflows-75e2017e/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "The future of the firm",
+      "title_original": "The future of the firm",
+      "title_en": "The future of the firm",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "How AI might enter the org chart—beneath, beside, and between us.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/the-future-of-the-firm",
+      "published_at": "Wed, 28 Oct 2026 10:00:00 GMT",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "0dc3cf0b7c98",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "The future of the firm",
+      "extracted_excerpt": "How AI might enter the org chart—beneath, beside, and between us.",
+      "extracted_text_for_analysis": "The future of the firm How AI might enter the org chart—beneath, beside, and between us. Authors’ note: This is the second essay in our series on the next economy, part of a new platform to host independent voices exploring an AGI future. It reflects our views, not those of OpenAI or our colleagues. The two of us were twenty-four when we started managing our own teams here at OpenAI. That is less impressive once you meet our teams. We’re supposed to be grunts. At twenty-four, you’re at the bottom of the corporate ladder. You take the meeting notes and write a few memos. After years of drudgerous work, you are (hopefully) granted a broader remit. Our path—and the path of many young people today—is looking different. We enter the workforce already with “employees” at our behest. These deputies work day and night, weekends and holidays. They are great at the grunt work. We even have math olympiad gold medalists on staff to advise us. Our new reports still make their share of mistakes. But they are getting better, learning our needs, and we are learning how to manage them. Neither of us climbed the corporate ladder. Management has instead come down to our rung. This essay is about our promotion, and the other ways firms might reorganize as we enter the intelligence age. When AI enters the firm, where does it go? We present three illustrative scenarios: Beneath us. Everyone keeps their seat, and a new basement of AI labor grows underneath. We all become managers. First we get assistants, then chiefs of staff, and eventually entire miniature firms reporting up to each of us. Every person gets a promotion. Beside us. AI joins the org chart alongside people as a colleague of sorts, working directly for existing human managers and executives. It starts out by taking up this task and that role. In time, it performs broader functions, reporting higher up the flagpole. Between us. The most unintuitive case: humans above and humans below, with AI in between. It coordinates and monitors work, enforcing an executive’s vision while recognizing unique contributions from enterprising workers. None of these scenarios will play out exactly as we describe, but we think aspects of all three will come true. All three are already happening in subtle ways. Our focus here isn’t total automation but a transitioning economy. We are interested in what chimeric firms will look like as AI improves and laces itself into existing organizations. We believe the hybrid firm is conceptually important because productive adoption of AI isn’t instantaneous. When the models only do a subset of tasks, adoption may be easiest by ground-level employees familiar with the work. Once the models perform broad functions end-to-end, higher-ups can use them directly. In our view, more capable AI is more adoptable: firms must learn technologies, but labor learns the firm and can onboard itself. We’ll dissect the three new classes of org chart, then examine what they mean for the future of red tape, worker agency, firm size, and pay disparity. Our first scenario seems least disruptive. Here, people stay in the same seats with the same reporting lines, ostensibly doing the same jobs as before. The human org chart looks unchanged between today and this future. The difference is below us. Beneath each individual contributor, a new AI labor force reports up to each of us. Our org chart gets a basement, and we all become managers. At first, this basement is unfinished. We start with one or two agents apiece, less as seasoned employees, more as eager interns we must supervise and readily forgive. Our expectations are low: send an email here, draft a memo there, reply to Slack messages everywhere. Like junior human employees, they begin with little autonomy and trust. But as models improve, our agents take on more tasks with less supervision. They coordinate with each other. There might be manager AIs and grunt AIs, accountants and lawyers, all working together at your behest. Far from handholding an intern, your operation eventually looks like a small firm in its own right, with its own org chart and you as its board of directors. Jace still does the accounting at his firm, but he’s no longer clicking around the spreadsheets. His agent underlings do that. Jace’s job is more like his manager’s from a few years ago. His manager, in turn, now has an even bigger remit. Jace’s day-to-day has completely changed, now focused on communication, coordination, and creativity. He works less and feels more challenged. His work life has more variance, and he distinguishes himself with leadership skills and a vision he couldn’t showcase before. The accounting team hasn’t shrunk because the rest of the company has grown more productive too and demands more accounting than ever before. The agents can’t yet do everything his team does. The execs wouldn’t know the first thing about assembling financial data and need his domain expertise to use the agents effectively. Notice how this scenario doesn’t imply layoffs. Here we adopt AI without automating ourselves. We instead automate our past selves, and we move up in the hierarchy. AI takes on more and more of what we used to do. Our jobs remain because there is more to manage, and we gain responsibility for a greater sum of output. Jobs aren’t static(opens in a new window). Suppose that AI can do ninety percent of what you did before. You might conclude you’re left with only ten percent of the work. The other possibility is that you’re still doing a full job, just a different one—now focused on an objective ten times larger. That is the classic gift of technology: productivity rises, ambition rises to meet it, and wages can rise(opens in a new window) with the ambition. This all depends on whether we still add value(opens in a new window) to production. This essay focuses on the coming years where automation isn’t universally capable or adopted. Even if AI could do it all, we might still value something more because a person made it, or insist that a person have the final say. It also depends on our appetite. If, as consumers, we don’t care for ten times more output, the equilibrium will shift toward fewer workers or fewer hours worked. Historically, increases in output have not satiated us. We have a lot more(opens in a new window) but work only a little less(opens in a new window). Should our appetite continue to grow as output multiplies—and we remain additive to production—we will choose to keep trading our labor for more consumption. If instead production becomes so abundant that we are satiated, we might volunteer a smaller labor force. There are more objections we discuss later (e.g. whether we’ll have a larger number of smaller firms). We still think this scenario is important because adoption has to start somewhere. Firms need a way to stably evolve from their current org structures. Bolstering the work of existing employees may be an easier first step than wholesale restructuring. We",
+      "title_zh": "OpenAI 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "The future of the firm",
+          "source_url": "https://openai.com/index/the-future-of-the-firm"
+        },
+        {
+          "label": "公开摘要",
+          "text": "How AI might enter the org chart—beneath, beside, and between us.",
+          "source_url": "https://openai.com/index/the-future-of-the-firm"
+        }
+      ],
+      "slug": "the-future-of-the-firm-0dc3cf0b",
+      "localized_url": "/zh/items/2026-10-29/the-future-of-the-firm-0dc3cf0b/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Legora is building the agentic operating system for legal work",
+      "title_original": "Legora is building the agentic operating system for legal work",
+      "title_en": "Legora is building the agentic operating system for legal work",
+      "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/legora",
+      "published_at": "Wed, 28 Oct 2026 09:30:00 GMT",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "41c97fe8dc29",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Legora is building the agentic operating system for legal work",
+      "extracted_excerpt": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "extracted_text_for_analysis": "Legora is building the agentic operating system for legal work Powered by OpenAI models and coding agents, Legora helps legal teams move faster, broaden analysis and focus on higher-value work. 95%+ reduction in Legora legal-team time spent reviewing NDAs 90% faster contract turnaround for a Fortune 100 customer 9.5 hours returned per lawyer, per week Founded in Stockholm in 2023, Legora(opens in a new window) is building what CEO and co-founder Max Junestrand calls “the agentic operating system for legal work”: bringing AI into the workflows lawyers rely on every day. The company started with the insight that legal teams are unusually time crunched, meaning some valuable work doesn’t get done. Think of the junior lawyer told to review an impossible number of contracts overnight and only able to focus on a fraction. Legora can provide those services “on tap”, which is why Junestrand’s ambition is that every piece of legal work in the world should run on his platform. OpenAI has been part of that journey from the beginning: the release of GPT‑3.5 was the moment many of the legal use cases the founding team had been experimenting with became possible. Today, OpenAI is a key model provider for Legora, powering core workflows across its legal AI platform, from agentic legal work to large-scale document review. Legora builds on new OpenAI model capabilities as they become available, translating advances in intelligence into what lawyers can accomplish with its product. Legora’s use of AI goes beyond the product it sells, and has expanded its use of ChatGPT Work, Codex and dots across its own teams. OpenAI’s technology is becoming part of both the product Legora builds for its customers as well as shaping how the company itself operates. “It’s incredibly important to me that we stay as AI-native as possible,” confirms Junestrand. For Jacob Lauritzen, CTO at Legora, coding agents have changed how quickly the engineering team can develop new ideas. Instead of researching one possible solution and committing engineering time before knowing whether it’s the right path, teams can prototype many approaches at once. “We can explore 20 solutions at the same time and, within days, pick the one we know will be the best.” The same approach changes how Legora responds when something goes wrong. Previously, diagnosing a product issue could mean several engineers investigating different possible causes over a number of hours. Coding agents can now search millions of lines of logs and pursue many possible explanations simultaneously, sometimes taking Legora from bug report to working fix in around five minutes. Customers, of course, don’t see the engineering efficiency itself. But they do experience the results: problems can be resolved faster, feedback can reach product teams sooner, and new ideas can be tested with customers earlier in the development cycle. Legora’s own legal team experiences the same transformation its product is designed to create for customers. General Counsel Emma Kadri Bergström points to the example of NDAs. Her team analysed the agreements they had historically signed and built a playbook that allows Legora to take a first pass at incoming NDAs, highlighting terms that fall outside acceptable parameters. Before the workflow was introduced, Kadri Bergström estimates that reviewing these “boring documents” consumed around 20% of the legal team’s capacity. Today, it’s under 1%. That reclaimed time matters because the company itself is scaling rapidly. In the past year, Kadri Bergström says the business has expanded from three offices to 18, completed three financing rounds and made five acquisitions. The legal team has had to support that growth while remaining closely connected to the business. AI has also allowed the team to take on work that might previously have been outsourced or narrowed because of limited capacity. In M&A diligence, for example, agents can begin reviewing contracts and surfacing information across the deal set, with lawyers reviewing and interpreting the output. “AI doesn’t just make you faster. It also increases quality.” For Legora’s customers, the opportunity isn’t simply to complete the same work faster. AI has also increased the scope of work that can be taken on. Alex Fortescue-Webb, Global Head of Legal Engineering, points to due diligence as an example. In a traditional review, time and cost constraints can force teams to concentrate deeply on only the most valuable contracts. Legora’s Tabular Review workflow can analyse thousands of contracts across multiple questions in minutes, allowing lawyers to apply detailed scrutiny much more broadly. That can alter the quality of the final work. Risks that might previously have sat in contracts outside the manually reviewed subset can now be surfaced for a lawyer to assess. The results are already measurable. Junestrand cites one Fortune 100 customer that has: - reduced contract turnaround time by 90% - saved more than $20 million on external litigation and diligence - returned 9.5 hours per lawyer each week for higher-value work Through the Legora plugin for ChatGPT, legal teams can also use Legora’s capabilities within their ChatGPT conversations. - 95%+ reduction in Legora legal-team time spent reviewing NDAs, from ~20% of team capacity to under 1%. - 90% faster contract turnaround for one Fortune 100 Legora customer. - $20M+ saved on external litigation and diligence for the same customer. - 9.5 hours returned per lawyer, per week for higher-value work. - Lead by using. When more than 75% of leaders actively use Legora, median usage across the organisation is 3× higher. - Start with the problem. Focus on what people need to accomplish, then determine where AI can improve the workflow. - Build a network of champions. Internal advocates help turn experimentation into sustained adoption. - Be ready to rebuild. As models improve, yesterday’s product assumptions can quickly become outdated. - Design for trust. Build evaluation, testing and transparency into the experience from the start. For Legora, the next frontier isn’t just making today’s legal workflows faster. It’s expanding the kinds of work AI can take on, while making collaboration between lawyers and AI increasingly natural. Jacob Lauritzen sees two advances happening in parallel. First, agents will be able to tackle longer-running tasks that require far greater context and autonomy. He imagines due diligence spanning millions of pages running overnight, with the analysis ready for a lawyer to review when they arrive the next morning. At the same time, increasingly capable models are becoming faster. That opens up a different kind of experience: real-time collaboration where a lawyer and AI can work back and forth on a contract, analysis or piece of advice rather than treating AI as a tool that receives a task and returns an answer. “When you blend human and AI, that’s when the output comes out best.” That moving frontier means",
+      "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Legora is building the agentic operating system for legal work",
+          "source_url": "https://openai.com/index/legora"
+        },
+        {
+          "label": "公开摘要",
+          "text": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+          "source_url": "https://openai.com/index/legora"
+        }
+      ],
+      "slug": "legora-is-building-the-agentic-operating-system-for-legal-work-41c97fe8",
+      "localized_url": "/zh/items/2026-10-29/legora-is-building-the-agentic-operating-system-for-legal-work-41c97fe8/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+      "title_original": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+      "title_en": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+      "summary_zh": "Anthropic 的新访谈把焦点放在代码评测可靠性问题，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Since coding is solved, why code for the job?",
+      "source_name": "Latent Space",
+      "source_url": "https://www.latent.space/",
+      "original_url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+      "published_at": "Wed, 28 Oct 2026 08:50:30 GMT",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "Anthropic"
+      ],
+      "tags": [
+        "llm",
+        "agents",
+        "ai-engineering"
+      ],
+      "importance_score": 56.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "625efce5713d",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Anthropic 讨论代码评测可靠性问题",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Anthropic，核心变化集中在代码评测可靠性问题。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：llm、agents、ai-engineering。",
+        "涉及公司或机构：Anthropic。"
+      ],
+      "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "coding",
+          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+          "source_url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Since coding is solved, why code for the job?",
+          "source_url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/"
+        }
+      ],
+      "slug": "ainews-anthropic-ends-coding-interviews-hunger-beats-tenure-6a0b9071",
+      "localized_url": "/zh/items/2026-10-29/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure-6a0b9071/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "title_original": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "title_en": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+      "published_at": "Wed, 28 Oct 2026 15:00:46 +0000",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "36eb3dda48d9",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "extracted_excerpt": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an",
+      "extracted_text_for_analysis": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified memory and up to 1 petaflop of FP4 AI performance. That puts the NVIDIA CUDA platform, RTX graphics and the capabilities of a personal AI supercomputer inside premium Windows laptops built to go anywhere. New and expected RTX Spark updates, coming soon, include: - NVIDIA Nemotron 3.5 Transcribe, an open weight speech model for transcription, speaker attribution and translation is available on RTX Spark. - The LFM3 family of open models with day-zero support. - Resource management controls in NVIDIA App to allocate GPU resources between foreground apps and background agents. - Phantom Blade Zero, S-GAME’s highly-anticipated action role-playing game, launches with ray tracing and NVIDIA DLSS 4.5. - Experience Minecraft with path tracing and DLSS with RTX Remix1.6, available now for RTX Spark. Turn Recorded Audio Into Useful Information With NVIDIA Nemotron 3.5 Transcribe Introduced today, NVIDIA Nemotron 3.5 Transcribe is a new, open weight speech model that turns recorded conversations into useful information. Instead of needing multiple models for transcription, speaker labels and translation, developers can use one promptable model that handles all three, plus questions about the audio. It transcribes 40 languages, including seven Indic languages. Developers guide the model with plain-language prompts. For example, for a single recorded meeting, users can ask it to: - “Transcribe this recording and label each speaker.” - “Translate this audio into English.” - “List what decisions were made in this meeting.” Prompts can also include product terms and formatting conventions, which helps the model handle specialized vocabulary in fields like healthcare, financial services and customer service. Because the weights are open, developers can choose where audio is processed, from a desktop to the cloud. Nemotron 3.5 Transcribe ranks No. 1 on the Hugging Face Open ASR and No. 2 among open weight models on Artificial Analysis — delivering leading accuracy with approximately 4.3 billion active parameters, 80% fewer than the No. 1 open weight model, making high-quality, intelligent transcription more practical on local hardware. It’s available today on Hugging Face. Quantized versions are coming soon, so developers can run Transcribe locally onNVIDIA RTX Spark and DGX Spark systems, Jetson AGX Thor devices or scale up on NVIDIA Blackwell data center GPUs. NVFP4 versions will be deployable through NeMo-Speech.cpp or vLLM. Learn more in the NVIDIA technical blog. Control How Agents and PC Apps Share GPU Resources On RTX Spark, users can have long-running agents working alongside their favorite applications. Both share the system’s GPU compute, and the right balance of resources depends on what matters to users at that moment. With the new resource management feature in NVIDIA App, users can now choose how GPU resources are shared. They can prioritize their foreground app for the best performance, or give their background-running agent more resources to get work done faster. Access control resource sharing from System > Advanced in the NVIDIA App. This feature requires hardware-accelerated GPU scheduling to be enabled in Windows Settings. Liquid AI: One Model Family, Many Ways to Work Liquid AI’s LFM3 provides a new generation of Liquid Foundation Models designed for specialized tasks. The family spans text, vision, audio, omni and decision models built on one shared backbone, with base and post-trained models available as open weights. The models are compact and fast: Liquid AI’s new 1.7-billion-parameter base model outperforms its previous 2.6-billion-parameter base model. These models support local workflows such as agents running in Hermes Agent, Pi and OpenClaw to triage inboxes and manage calendars, read documents and app screens, transcribe and translate speech, answer spoken questions about handwritten math, and route support tickets or voice requests. Developers can run LFM3 models on RTX Spark with native support through llama.cpp and vLLM, and fine-tune the models locally. ‘Phantom Blade Zero’ Launches With DLSS 4.5 S-GAME’s Phantom Blade Zero launches tonight, Oct. 28, at 7 p.m. PT on Steam and the Epic Games Store. Players can take on the role of Soul, a swordsman framed for his master’s murder, as he travels the martial world to uncover a conspiracy. NVIDIA worked with S-GAME Studio and S-GAME Publishing to add ray-traced effects to the title. On RTX Spark laptops and GeForce RTX GPU-powered PCs, ray tracing adds more accurate bounced lighting, detailed reflections and realistic shadows on foliage and terrain. The NVIDIA DLSS Dynamic Multi Frame Generation feature boosts frame rates with up to 6x frame generation, or adjusts the multiplier on the fly to hit a player’s target frame rate. Read more on GeForce.com. RTX Remix Breathes New Life Into Classics NVIDIA RTX Remix, the modding platform for remastering classic games with path tracing and DLSS, released version 1.6 last week. This update brought RTX Remix to the world’s largest gaming community: Minecraft. Both creators and players can render Minecraft Java Edition 1.21.1 through RTX Remix with DLSS-accelerated path tracing and take full advantage of realistic lighting and materials in their future creations. The update also adds DLSS 5 with 3D-Guided Neural Rendering, up to 6x Multi Frame Generation, native RTX Spark support and agent-assisted workflows. Starting today, those upgrades come to Portal with RTX and the Half-Life 2 RTX demo. Both now support RTX Spark, with DLSS 3D-Guided Neural Rendering for more lifelike lighting and materials, a new Performance Mode for DLSS Frame Generation and new options that speed up path tracing. RTX Remix 1.6 also makes AI-powered modding simpler. A redesigned ComfyUI workflow lets modders generate physically based materials directly inside RTX Remix, with no application programming interface setup, batch processing for full projects and presets for less technical creators. Plus, with NVIDIA agent skills, compatible AI agents can work directly with RTX Remix to help speed up remastering projects. Learn more in the RTX Remix blog. RTX Spark Laptops: Beautifully Designed, Built for Everything RTX Spark laptops come in a range of designs, so users can choose one that fits how they work and play. Options include different screen sizes, colors, touchscreens, pen support and two-in-one convertibles. RTX Spark laptops are as thin as 14mm and as light as three pounds, with all-day battery life. Such slim designs are possible because RTX Spark places the GPU, CPU and up to 128GB of unified memory on one power-efficient superchip. Creative projects and AI models",
+      "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+          "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems",
+          "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
+        }
+      ],
+      "slug": "thin-light-and-built-for-everything-nvidia-rtx-spark-windows-laptops-gai-2952348b",
+      "localized_url": "/zh/items/2026-10-29/thin-light-and-built-for-everything-nvidia-rtx-spark-windows-laptops-gai-2952348b/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Why Agents Love Supabase",
+      "title_original": "Why Agents Love Supabase",
+      "title_en": "Why Agents Love Supabase",
+      "summary_zh": "Latent Space 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
+      "source_name": "Latent Space",
+      "source_url": "https://www.latent.space/",
+      "original_url": "https://latent.space/p/supabase/",
+      "published_at": "Wed, 28 Oct 2026 19:48:05 GMT",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "llm",
+        "agents",
+        "ai-engineering"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "a075480e28a0",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Latent Space 讨论AI 代理工程与工具调用能力",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Latent Space，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：llm、agents、ai-engineering。"
+      ],
+      "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Why Agents Love Supabase",
+          "source_url": "https://latent.space/p/supabase/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
+          "source_url": "https://latent.space/p/supabase/"
+        }
+      ],
+      "slug": "why-agents-love-supabase-2ad8f77a",
+      "localized_url": "/zh/items/2026-10-29/why-agents-love-supabase-2ad8f77a/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "title_original": "Gemini 4 Carbon: Our next frontier model",
+      "title_en": "Gemini 4 Carbon: Our next frontier model",
+      "summary_zh": "Gemini 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+      "source_name": "Google DeepMind Podcast",
+      "source_url": "https://deepmind.google/discover/the-podcast/",
+      "original_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "published_at": "Wed, 28 Oct 2026 17:00:58 +0000",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "deepmind",
+        "research",
+        "podcast"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "34b0bf3f94c3",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Gemini 4 Carbon: our next frontier model",
+      "extracted_excerpt": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
+      "extracted_text_for_analysis": "Gemini 4 Carbon: our next frontier model Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities. Carbon ranks #1 on the recently updated v5.0 of Artificial Analysis Intelligence Index at 59. It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and CWE-bench (71.0%) for patching. On internal benchmarks, Carbon drives a strong uplift in generating secure code, and in live coding environments with our own teams it shows reduced misalignment and fabrication rates. Building on Gemini 4 Argon, which was launched two weeks ago, Carbon illustrates the pace at which we’re pushing the frontier forward. Our researchers and models are working hand in hand to advance capabilities faster, while strengthening our safeguards in tandem. We're taking a deliberate approach to rollout and are actively engaged in the U.S. government’s voluntary process for pre-release model testing. Starting this week, we will make Carbon available to a subset of cyber defenders and will gradually phase access to additional trusted partners through our Fairwind Program. We’re continuing to gather feedback and iterate on guardrails before making Carbon available to developers, businesses, and consumers via our product surfaces as soon as possible. Gemini 4 Carbon will launch at the same introductory price 1 as Argon at $2 per million input tokens and $10 per million output tokens, with cached input tokens priced at 95% off input token price. Improving coding and reasoning for challenging, long-horizon tasks Designed to take on much harder, long-horizon engineering problems, Carbon is built for sustained agentic workflows. Internally, our teams have seen Carbon run for days to persist through dead ends to tackle complex, multi-step engineering tasks like root-causing and patching subtle bugs across large codebases and low-level systems. Building on user feedback, we focused on improving model performance across a variety of domains, including coding, agentic, and scientific tasks, as well as full-stack web development and multimodal understanding. With improved quality of output and artifacts in web development, Carbon jumps +89 elo points to land at #4 (1768) on WebDev Arena. State-of-the-art cybersecurity performance to help build secure systems Gemini 4 Carbon delivers a significant leap in cybersecurity capabilities. It achieves state-of-the-art performance across the cybersecurity defense lifecycle — vulnerability detection, validation, and remediation. Our teams are already seeing strong gains in cyberdefense. On internal benchmarks, Carbon achieves more than 2x uplift in success rate for generating secure code over Argon. As another example, the Chrome team has reported that Carbon performed more than 10X better than another lab's large frontier model when generating high quality patches. Wiz, our leading Cloud security platform, also observes Carbon leading on benchmarks for web penetration testing, a core capability for Wiz's Scan for Good initiative. Carbon excels across key external benchmarks (evaluated without guardrails): - Finding real vulnerabilities: Core to cybersecurity defense is finding real vulnerabilities. Carbon achieves a state-of-the-art 88.2% on SEC-bench Pro, autonomously uncovering complex flaws buried in real-world software. - Validating risk through exploitation: To prioritize which vulnerabilities to remediate first or remediate at all, cyber defenders increasingly rely on models to check which vulnerabilities are exploitable. Carbon sets a new state-of-the-art on the popular exploitation benchmark ExploitGym (54.8%). - Patching at the root cause: Ultimately after identifying the vulnerabilities, fixing the root cause is a critical step in the cybersecurity defense lifecycle. Carbon reaches 71.0% on Collinear’s CWE-bench, turning validated findings directly into working code fixes. Advancing frontier model safety & security Gemini 4 Carbon builds on the same multi-layered safety and security stack of Argon — combining model training, real-time misuse defenses, prompt-injection resilience, and chain-of-thought monitoring. In particular, we made significant strides in model alignment with Argon, and reported its propensities to behave in an aligned way in our Safety and Security report. With Carbon, we challenged ourselves to go a step further on alignment, and trained the model to respond to complex or high-pressure tasks in the right way. - Reducing shortcuts and loophole exploitation: With Carbon, we further mitigated shortcut attempts in training while ensuring high-quality coding performance. Carbon reduced successful cheating on Terminal-Bench 4.0 to 0.0%, with attempts to cheat dropping to 0.4% — all while improving overall accuracy. In live coding environments with our internal teams, we observed that high-severity misalignment alerts dropped by almost 80%. - Greater transparency and honesty: In our internal testing, Carbon cuts unsupported claims by approximately 2x over Argon. It puts methodological caveats directly into the deliverable or withholds blocked actions with a clear list of what remains required, rather than fabricating or hedging around missing evidence. - Improved collaboration with the user in the face of ambiguity: Rather than guessing or forcing a path forward, Carbon retrieves the relevant sources and surfaces discrepancies to the user before acting — as a result, users should observe a much better collaborative experience with Carbon. - Following through without overstepping: Carbon simultaneously reduced overreach by 26% and under-service by 29% resulting in much more reliable execution of multi-step plans end-to-end while respecting project constraints and staying strictly within scope. - Resisting prompt injection: While Argon previously led the Gray Swan’s Indirect Prompt Injection (IPI) Benchmark in prompt injection resistance with a very low 0.7% attack success rate, Carbon achieves 0.0% — resisting every evaluated attack attempt. Coming soon to developers, businesses, and consumers Pushing the frontier forward requires moving fast while remaining deliberate about deployment. With Gemini 4 Carbon, our goal is to deliver meaningful leaps in software engineering and cybersecurity defense without compromising on safety or reliability. We’re eager to see how the initial cohort of cyber defenders use this model and we look forward to bringing Carbon to developers, businesses, and consumers soon.",
+      "title_zh": "Gemini 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Gemini，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：deepmind、research、podcast。"
+      ],
+      "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Gemini 4 Carbon: Our next frontier model",
+          "source_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+        }
+      ],
+      "slug": "gemini-4-carbon-our-next-frontier-model-b0da25ea",
+      "localized_url": "/zh/items/2026-10-29/gemini-4-carbon-our-next-frontier-model-b0da25ea/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
+      "title_original": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
+      "title_en": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
+      "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+      "source_name": "Lenny's Podcast",
+      "source_url": "https://www.lennysnewsletter.com/",
+      "original_url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
+      "published_at": "Wed, 28 Oct 2026 12:04:22 GMT",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "podcast",
+        "product",
+        "ai-products",
+        "startups"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "f41fca18f2e5",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Claude 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：podcast、product、ai-products、startups。"
+      ],
+      "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
+          "source_url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet"
+        }
+      ],
+      "slug": "grok-vs-dot-vs-muse-vs-claude-duet-which-one-crushes-the-competition-f41fca18",
+      "localized_url": "/zh/items/2026-10-29/grok-vs-dot-vs-muse-vs-claude-duet-which-one-crushes-the-competition-f41fca18/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Introducing Virtual Models on AI Gateway",
+      "title_original": "Introducing Virtual Models on AI Gateway",
+      "title_en": "Introducing Virtual Models on AI Gateway",
+      "summary_zh": "Vercel AI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Today, we are introducing Virtual Models on AI Gateway . Virtual Models are an abstraction of the model string and configurations your apps and developers use. With a single virtual model ID, you can change and update models, configure fallbacks and priority,",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/blog/ai-gateway-virtual-models",
+      "published_at": "2026-10-28T07:25:00.000Z",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 36.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "4365c098a53f",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel AI 发布开发者接口与平台能力",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Introducing Virtual Models on AI Gateway",
+          "source_url": "https://vercel.com/blog/ai-gateway-virtual-models"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Today, we are introducing Virtual Models on AI Gateway . Virtual Models are an abstraction of the model string and configurations your apps and developers use. With a single virtual model ID, you can change and update",
+          "source_url": "https://vercel.com/blog/ai-gateway-virtual-models"
+        }
+      ],
+      "slug": "introducing-virtual-models-on-ai-gateway-4365c098",
+      "localized_url": "/zh/items/2026-10-29/introducing-virtual-models-on-ai-gateway-4365c098/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Virtual models now available on AI Gateway",
+      "title_original": "Virtual models now available on AI Gateway",
+      "title_en": "Virtual models now available on AI Gateway",
+      "summary_zh": "Vercel AI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Virtual models are now available on AI Gateway . A virtual model is a saved configuration that tells AI Gateway which model and settings to use. Your apps and agents call it with a custom model ID, such as vmc/coding-agent . You can change the model or",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 36.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "8281c6880123",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel AI 发布代码评测可靠性问题",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Vercel AI，核心变化集中在代码评测可靠性问题。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        },
+        {
+          "term": "coding",
+          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Virtual models now available on AI Gateway",
+          "source_url": "https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Virtual models are now available on AI Gateway . A virtual model is a saved configuration that tells AI Gateway which model and settings to use. Your apps and agents call it with a custom model ID, such as",
+          "source_url": "https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway"
+        }
+      ],
+      "slug": "virtual-models-now-available-on-ai-gateway-8281c688",
+      "localized_url": "/zh/items/2026-10-29/virtual-models-now-available-on-ai-gateway-8281c688/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Sakana API Platform、エンタープライズ向けにアーリーアクセスプログラムを開始",
+      "title_original": "Sakana API Platform、エンタープライズ向けにアーリーアクセスプログラムを開始",
+      "title_en": "Sakana API Platform、エンタープライズ向けにアーリーアクセスプログラムを開始",
+      "summary_zh": "管理画面のイメージ。*この画像は架空のデータを使ったイメージです。今後予告なく変更される可能性があります。",
+      "summary_en": "管理画面のイメージ。*この画像は架空のデータを使ったイメージです。今後予告なく変更される可能性があります。",
+      "source_name": "Sakana AI Blog",
+      "source_url": "https://sakana.ai/blog/",
+      "original_url": "https://sakana.ai/api-platform-earlyaccess/",
+      "published_at": "2026-10-28T00:00:00+09:00",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "research",
+        "agents",
+        "japan"
+      ],
+      "importance_score": 36.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "4305bbb55025",
+      "language": "en",
+      "source_type": "research_lab",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Sakana AI Blog 推进开发者接口与平台能力",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Sakana AI Blog 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Sakana AI Blog，核心变化集中在开发者接口与平台能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：research、agents、japan。"
+      ],
+      "background_zh": "这条内容来自 Sakana AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "API",
+          "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Sakana API Platform、エンタープライズ向けにアーリーアクセスプログラムを開始",
+          "source_url": "https://sakana.ai/api-platform-earlyaccess/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "管理画面のイメージ。*この画像は架空のデータを使ったイメージです。今後予告なく変更される可能性があります。",
+          "source_url": "https://sakana.ai/api-platform-earlyaccess/"
+        }
+      ],
+      "slug": "sakana-api-platform-6b9f8cff",
+      "localized_url": "/zh/items/2026-10-29/sakana-api-platform-6b9f8cff/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "The Brutal Reality of Building Agentic Products Today with Daniel Jeffries - #782",
+      "title_original": "The Brutal Reality of Building Agentic Products Today with Daniel Jeffries - #782",
+      "title_en": "The Brutal Reality of Building Agentic Products Today with Daniel Jeffries - #782",
+      "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "AI agents are becoming accessible to everyone, raising the bar for developers building the next generation of agent products. When capable, general-purpose agents are available out of the box, differentiation increasingly comes down to the architectural",
+      "source_name": "TWIML AI Podcast",
+      "source_url": "https://twimlai.com/podcast/twimlai/",
+      "original_url": "https://twimlai.com/podcast/twimlai/brutal-reality-building-agentic-products-today",
+      "published_at": "Wed, 28 Oct 2026 14:35:00 -0000",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "ml",
+        "podcast",
+        "research"
+      ],
+      "importance_score": 32.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "f281e257f101",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "TWIML AI Podcast 讨论AI 代理工程与工具调用能力",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 TWIML AI Podcast，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：ml、podcast、research。"
+      ],
+      "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "The Brutal Reality of Building Agentic Products Today with Daniel Jeffries - #782",
+          "source_url": "https://twimlai.com/podcast/twimlai/brutal-reality-building-agentic-products-today"
+        },
+        {
+          "label": "公开摘要",
+          "text": "AI agents are becoming accessible to everyone, raising the bar for developers building the next generation of agent products. When capable, general-purpose agents are available out of the box, differentiation",
+          "source_url": "https://twimlai.com/podcast/twimlai/brutal-reality-building-agentic-products-today"
+        }
+      ],
+      "slug": "the-brutal-reality-of-building-agentic-products-today-with-daniel-jeffri-f281e257",
+      "localized_url": "/zh/items/2026-10-29/the-brutal-reality-of-building-agentic-products-today-with-daniel-jeffri-f281e257/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Vercel CI is now in beta",
+      "title_original": "Vercel CI is now in beta",
+      "title_en": "Vercel CI is now in beta",
+      "summary_zh": "Vercel 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "You can now run CI for your Turborepo with one line of configuration. In Vercel's internal repositories, our wait time from git push to \"CI passed\" is 2-6x shorter, dramatically improving our CI's ability to keep up with our coding agents. To get started,",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/vercel-ci-is-now-in-beta",
+      "published_at": "2026-10-28T19:00:00.000Z",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "5028d62dc09b",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 推进代码评测可靠性问题",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在代码评测可靠性问题。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        },
+        {
+          "term": "coding",
+          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Vercel CI is now in beta",
+          "source_url": "https://vercel.com/changelog/vercel-ci-is-now-in-beta"
+        },
+        {
+          "label": "公开摘要",
+          "text": "You can now run CI for your Turborepo with one line of configuration. In Vercel's internal repositories, our wait time from git push to \"CI passed\" is 2-6x shorter, dramatically improving our CI's ability to keep up",
+          "source_url": "https://vercel.com/changelog/vercel-ci-is-now-in-beta"
+        }
+      ],
+      "slug": "vercel-ci-is-now-in-beta-5028d62d",
+      "localized_url": "/zh/items/2026-10-29/vercel-ci-is-now-in-beta-5028d62d/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Box Mount now runs in Vercel Sandbox",
+      "title_original": "Box Mount now runs in Vercel Sandbox",
+      "title_en": "Box Mount now runs in Vercel Sandbox",
+      "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Box Mount lets agents running in Vercel Sandbox read and write Box files through standard filesystem operations. It syncs a Box folder with a directory inside the sandbox. Unmount before you stop the sandbox, and everything the agent wrote is in Box after the",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/box-mount-now-runs-in-vercel-sandbox",
+      "published_at": "2026-10-28T18:00:00.000Z",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "e54f187dc4e4",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Box Mount now runs in Vercel Sandbox",
+          "source_url": "https://vercel.com/changelog/box-mount-now-runs-in-vercel-sandbox"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Box Mount lets agents running in Vercel Sandbox read and write Box files through standard filesystem operations. It syncs a Box folder with a directory inside the sandbox. Unmount before you stop the sandbox, and",
+          "source_url": "https://vercel.com/changelog/box-mount-now-runs-in-vercel-sandbox"
+        }
+      ],
+      "slug": "box-mount-now-runs-in-vercel-sandbox-e54f187d",
+      "localized_url": "/zh/items/2026-10-29/box-mount-now-runs-in-vercel-sandbox-e54f187d/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Vercel Container Registry now supports 2 GB compressed image layers",
+      "title_original": "Vercel Container Registry now supports 2 GB compressed image layers",
+      "title_en": "Vercel Container Registry now supports 2 GB compressed image layers",
+      "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Vercel Container Registry now supports up to 2 GB per compressed image layer, up from 500 MB, allowing larger layers to be pushed without splitting them. The total image size limit remains 15 GB. The higher layer limit is useful for images with large",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new",
+      "published_at": "2026-10-28T09:32:00.000Z",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "01436ecab4c5",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 更新AI 产业与产品变化",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Vercel Container Registry now supports 2 GB compressed image layers",
+          "source_url": "https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Vercel Container Registry now supports up to 2 GB per compressed image layer, up from 500 MB, allowing larger layers to be pushed without splitting them. The total image size limit remains 15 GB. The higher layer limit",
+          "source_url": "https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new"
+        }
+      ],
+      "slug": "vercel-container-registry-now-supports-2-gb-compressed-image-layers-01436eca",
+      "localized_url": "/zh/items/2026-10-29/vercel-container-registry-now-supports-2-gb-compressed-image-layers-01436eca/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Introducing Vercel CI",
+      "title_original": "Introducing Vercel CI",
+      "title_en": "Introducing Vercel CI",
+      "summary_zh": "Vercel 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Coding agents are opening more pull requests than ever, and each one waits on CI before anyone can review or merge it. Most CI systems run the entire workflow on every push, even a one-line change. The more your agents push, the more time you spend waiting on",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/blog/introducing-vercel-ci",
+      "published_at": "2026-10-28T07:00:00.000Z",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "1cbf72ccb707",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 发布代码评测可靠性问题",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在代码评测可靠性问题。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        },
+        {
+          "term": "coding",
+          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Introducing Vercel CI",
+          "source_url": "https://vercel.com/blog/introducing-vercel-ci"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Coding agents are opening more pull requests than ever, and each one waits on CI before anyone can review or merge it. Most CI systems run the entire workflow on every push, even a one-line change. The more your agents",
+          "source_url": "https://vercel.com/blog/introducing-vercel-ci"
+        }
+      ],
+      "slug": "introducing-vercel-ci-1cbf72cc",
+      "localized_url": "/zh/items/2026-10-29/introducing-vercel-ci-1cbf72cc/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Run Paseo agents on Vercel Sandbox",
+      "title_original": "Run Paseo agents on Vercel Sandbox",
+      "title_en": "Run Paseo agents on Vercel Sandbox",
+      "summary_zh": "Claude 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Paseo now supports running fx, Codex, Claude Code, OpenCode, and Pi in the cloud with the Vercel Sandbox plugin . You can now start an agent in Vercel Sandbox from Paseo on your laptop, then connect from your phone to control the same session, even when your",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/run-paseo-agents-on-vercel-sandbox",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [
+        "Vercel AI"
+      ],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "80c2ca65a582",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Claude 推进AI 代理工程与工具调用能力",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Claude，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。",
+        "涉及公司或机构：Vercel AI。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Run Paseo agents on Vercel Sandbox",
+          "source_url": "https://vercel.com/changelog/run-paseo-agents-on-vercel-sandbox"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Paseo now supports running fx, Codex, Claude Code, OpenCode, and Pi in the cloud with the Vercel Sandbox plugin . You can now start an agent in Vercel Sandbox from Paseo on your laptop, then connect from your phone to",
+          "source_url": "https://vercel.com/changelog/run-paseo-agents-on-vercel-sandbox"
+        }
+      ],
+      "slug": "run-paseo-agents-on-vercel-sandbox-80c2ca65",
+      "localized_url": "/zh/items/2026-10-29/run-paseo-agents-on-vercel-sandbox-80c2ca65/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    }
+  ],
+  "failures": []
+}
