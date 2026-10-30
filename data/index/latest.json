@@ -1,170 +1,37 @@
 {
-  "date": "2026-10-29",
-  "title_zh": "AI 新闻简报 · 2026-10-29",
-  "title_en": "English AI News Brief · 2026-10-29",
-  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 131 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
-  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 131 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+  "date": "2026-10-30",
+  "title_zh": "AI 新闻简报 · 2026-10-30",
+  "title_en": "English AI News Brief · 2026-10-30",
+  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 128 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 128 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
   "source_count": 181,
   "candidate_count": 152,
-  "skipped_history_count": 131,
+  "skipped_history_count": 128,
   "selected_count": 18,
   "categories": [
     "company-industry",
     "models-products",
-    "podcasts-interviews"
+    "podcasts-interviews",
+    "research-open-source"
   ],
   "category_labels_zh": {
     "company-industry": "公司与产业",
     "models-products": "模型与产品",
-    "podcasts-interviews": "访谈与播客"
+    "podcasts-interviews": "访谈与播客",
+    "research-open-source": "研究与开源"
   },
   "items": [
     {
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "title_original": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "title_en": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "summary_zh": "NVIDIA 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "NVIDIA has an AI update relevant to product, industry or technical direction.",
-      "source_name": "Hugging Face Blog",
-      "source_url": "https://huggingface.co/blog",
-      "original_url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "published_at": "Wed, 28 Oct 2026 14:58:17 GMT",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "NVIDIA"
-      ],
-      "tags": [
-        "open-source",
-        "models",
-        "developer"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "7ae8eb20550e",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "extracted_excerpt": "A Blog post by NVIDIA on Hugging Face",
-      "extracted_text_for_analysis": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt One open model for multilingual transcription, speaker attribution, translation, and audio Q&A, with top leaderboard results, plus the open Granary v2 data pipeline and fine-tuning recipes to adapt it. A transcript can capture every spoken word and still leave users or applications wondering who said what, how to translate it, or how to format domain-specific jargon. Multilingual calls, fast-paced meetings, and medical dictation each need different output: a translation, speaker labels, or correctly spelled medical terms. NVIDIA Nemotron 3.5 Transcribe is an open-weight, promptable model that turns recorded speech into useful text, now available on Hugging Face and ModelScope. It brings transcription, speaker attribution (diarization), translation, and audio question answering into one checkpoint: it transcribes 40 languages, translates 31 of them to or from English, and attributes speakers in 13. It handles recordings up to an hour long and labels up to eight speakers. Developers can guide output with natural language, choose where their audio is processed, and adapt recognition to domain vocabulary and accents. Transcribe is first among open-weight models on the Hugging Face Open ASR Leaderboard for English and sits on Artificial Analysis’s accuracy–active-parameter frontier. For speaker attribution, it posts the lowest error rate on David AI’s 21-language diarization leaderboard and ranks first in VoiceArena’s 14-system comparison. Quantized versions are coming soon, so you can run Transcribe locally on your RTX Spark, DGX Spark, or Jetson AGX Thor—or scale up on Blackwell data-center GPUs. Granary v2’s multilingual data (available on Hugging Face and ModelScope) and reusable curation pipeline, together with NeMo Speech fine-tuning tools, extend prompt-level control to training: developers can define the written form they need and adapt the model to the speech their applications encounter. In a medical case study, fine-tuning cut word error rate (WER) on held-out speakers by 45.8% relative to the best prompt. The same checkpoint can turn one meeting recording into different outputs, depending on the instruction: - “Transcribe this recording and label each speaker.” - “Translate this audio into English.” - “What decisions were made in this meeting?” Experience the model in action in the video below, where it tackles a classic scene from the 1940 screwball comedy His Girl Friday—a film famous for its rapid-fire, heavily overlapping dialogue. Nemotron 3.5 Transcribe captions a scene from His Girl Friday (1940) and labels speakers, including overlapping dialogue. For unfamiliar terms, try context before training. In a healthcare setting, for example: Transcribe this medical discussion in the original language. Possible terms: HbA1c, metformin. Use these terms only when supported by the audio. Preserve standard medical spelling and write numbers in conventional written form. The model card has recommended presets, including reasoning for audio questions, plus the full prompt guide and a task-by-language matrix: language support differs by task, and audio question answering is trained in English. Word-level timestamps are also supported. As with any speech model, spot-check names, speaker changes, and answers against the recording. From live classes to lasting lessons. Agora, whose real-time voice and video platform powers live conversations in apps, used word-level timestamps in a classroom demo: Nemotron 3.5 Transcribe turns a recorded class into a transcript shown alongside the replay, so students can see what was said and when. Agora’s blog walks through how they built it. Among open-weight models, Transcribe leads on what was said; on who said it, it tops two speaker-attribution benchmarks outright. Hugging Face Open ASR Leaderboard. The leaderboard measures transcription accuracy as word error rate (WER) on public test sets, in three tracks: - English: first among open-weight models at 5.33% average WER (Figure 1). - Multilingual: 4.62% mean WER across seven languages, the lowest among evaluated open-weight models in the model card’s Open ASR comparison. - Long-form: 10.98% mean WER, also the lowest in that comparison. Figure 1. Nemotron 3.5 Transcribe ranks first among open-weight models on the Hugging Face Open ASR Leaderboard (English) at 5.33% average WER, with API models excluded. Lower WER means fewer transcription errors. Artificial Analysis Speech-to-Text Leaderboard. Artificial Analysis independently ranks speech-to-text models by AA-WER, its word error rate index. Nemotron 3.5 Transcribe ties for first among open-weight models at 2.8% AA-WER, with about 4B active parameters versus 24B for the model it ties. On AA-AgentTalk, the held-out voice-agent speech set that makes up 50% of the AA-WER index, Transcribe scores 1.8% WER, versus 2.3% for the next-best open-weight model. Transcribe pairs its speech encoder with a hybrid Mamba–Transformer mixture-of-experts language model, so only about 4B of its 30B parameters are active per token. That puts it on Artificial Analysis’s open-weight Pareto frontier of accuracy versus active parameters. On AA’s all-model chart, it ranks ahead of several widely used proprietary speech APIs. Figure 2. Leading AA accuracy at about one-sixth the active parameters: Nemotron 3.5 Transcribe achieves 2.80% AA-WER with approximately 4B active parameters. Speaker attribution across languages and overlap. Sortformer speaker cues reach the language model with the acoustic features, so Transcribe can tag each turn during generation instead of relying solely on a later step to attach speakers to words. David AI DAI-ASR-I18N Leaderboard. On David AI’s DAI-ASR-I18N combined transcription-and-speaker-attribution track, Transcribe ranks first among evaluated open-weight models and second overall. On the benchmark’s diarization track, which scores who spoke when across 21 languages, it has the lowest diarization error rate of the 14 systems tested, slightly ahead of NVIDIA’s dedicated Nemotron 3 Diarization model. Figure 3. NVIDIA models hold the top two spots on David AI’s multilingual diarization leaderboard: Nemotron 3.5 Transcribe posts the lowest overall diarization error rate (DER), 18.26% across 21 languages, followed by Nemotron 3 Diarization at 18.38%. DER measures speaker-time errors; lower is better. VoiceArena Diarization-Bench. On VoiceArena’s English full-session benchmark, Transcribe posts the lowest concatenated minimum-permutation WER (cpWER) of 14 systems and ranks first in both in-person and online settings. It also drops the fewest words: deletions are 8.32% of reference words, versus a median of about 31%. Figure 4. NVIDIA models hold the top two spots in VoiceArena’s 14-system comparison: Nemotron 3.5 Transcribe leads at 32.4% cpWER, followed by NVIDIA Multitalker Parakeet with Nemotron 3 Diarization at 34.2%.",
-      "title_zh": "NVIDIA 推进模型或产品能力更新",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 NVIDIA 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 NVIDIA，核心变化集中在模型或产品能力更新。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：open-source、models、developer。",
-        "涉及公司或机构：NVIDIA。"
-      ],
-      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-          "source_url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
-        },
-        {
-          "label": "公开摘要",
-          "text": "NVIDIA has an AI update relevant to product, industry or technical direction.",
-          "source_url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
-        }
-      ],
-      "slug": "nvidia-nemotron-3-5-transcribe-and-granary-v2-intelligent-multilingual-t-7ae8eb20",
-      "localized_url": "/zh/items/2026-10-29/nvidia-nemotron-3-5-transcribe-and-granary-v2-intelligent-multilingual-t-7ae8eb20/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "title_original": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "title_en": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "published_at": "Wed, 28 Oct 2026 13:15:00 GMT",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "75e2017ed4c5",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "extracted_excerpt": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-      "extracted_text_for_analysis": "OpenAI and ServiceNow expand partnership across enterprise workflows ServiceNow will bring OpenAI models and agents into workflows from development to security, and expand ChatGPT Work and Codex to employees. OpenAI and ServiceNow are expanding our partnership to bring more of our models and agents into ServiceNow products and connect ServiceNow workflows with ChatGPT and Codex. Together, we’re making it easier for businesses to build applications, resolve IT requests and address security issues using AI. The expansion builds on our partnership announced in January, bringing OpenAI into more of the work ServiceNow does for its customers and within its own business. A new ServiceNow integration will bring business context and workflow actions directly into ChatGPT, helping teams investigate issues and take the next step in the same conversation. An IT team member will be able to find similar incidents, assess the risk of a change and update a ServiceNow record without leaving ChatGPT. Customers connect ChatGPT to their own ServiceNow instance and choose which capabilities to make available. ServiceNow’s Action Fabric applies existing business rules and permissions, so the actions people can take reflect their organization’s configuration and access. ServiceNow is also previewing interactive experiences inside ChatGPT. In one example, an on-call engineer will be able to review linked monitoring alerts, recent changes and affected services, then assign the right team and work toward a fix within ChatGPT. We also plan to develop new capabilities across three areas: - Application development: A planned Codex integration in ServiceNow’s AI Workflow Factory will help developers build applications using ServiceNow’s business context and platform capabilities. OpenAI models will also power Build Agent and Autonomous Engineer to support application development and modernization. - Cybersecurity: A joint security solution will combine OpenAI’s cybersecurity capabilities with ServiceNow’s asset, identity and business context to help teams investigate vulnerabilities, prioritize risks and coordinate remediation. - Voice: An OpenAI-powered experience in ServiceNow’s Super Intelligence Control Tower will let people describe an AI use case aloud, helping populate assessment fields and gather missing information through follow-up questions. ServiceNow plans to give all employees access to ChatGPT Work and Codex, expanding beyond its engineering organization. Engineers can use Codex to explore codebases, make changes and run tests, while teams across the business can use ChatGPT Work in their day-to-day work. ServiceNow also plans to use OpenAI capabilities in its internal security work. OpenAI is also using ServiceNow workflows in our own operations, supported by the Super Intelligence Control Tower. The ServiceNow MCP plugin is available in the OpenAI marketplace today, with enhanced capabilities expected by the end of 2026. Voice capabilities in the Super Intelligence Control Tower are expected in the first quarter of 2027. The OpenAI-powered security capabilities are expected to enter early access in January 2027, with general availability planned for the second quarter of 2027. Codex in AI Workflow Factory is expected to be available in 2027.",
-      "title_zh": "OpenAI 更新AI 代理工程与工具调用能力",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-          "source_url": "https://openai.com/index/openai-servicenow-partnership-expansion"
-        },
-        {
-          "label": "公开摘要",
-          "text": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-          "source_url": "https://openai.com/index/openai-servicenow-partnership-expansion"
-        }
-      ],
-      "slug": "openai-and-servicenow-expand-partnership-across-enterprise-workflows-75e2017e",
-      "localized_url": "/zh/items/2026-10-29/openai-and-servicenow-expand-partnership-across-enterprise-workflows-75e2017e/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "The future of the firm",
-      "title_original": "The future of the firm",
-      "title_en": "The future of the firm",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "title_original": "An updated Model Spec for more capable and beneficial AI",
+      "title_en": "An updated Model Spec for more capable and beneficial AI",
       "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "How AI might enter the org chart—beneath, beside, and between us.",
+      "summary_en": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "source_name": "OpenAI News",
       "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/the-future-of-the-firm",
-      "published_at": "Wed, 28 Oct 2026 10:00:00 GMT",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "original_url": "https://openai.com/index/updated-model-spec",
+      "published_at": "Thu, 29 Oct 2026 17:00:00 GMT",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
       "category": "models-products",
       "people": [],
       "companies": [
@@ -178,16 +45,16 @@
       "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "0dc3cf0b7c98",
+      "duplicate_group_id": "7bf0065ceb16",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
       "extraction_status": "success",
       "quality_warnings": [],
-      "extracted_title": "The future of the firm",
-      "extracted_excerpt": "How AI might enter the org chart—beneath, beside, and between us.",
-      "extracted_text_for_analysis": "The future of the firm How AI might enter the org chart—beneath, beside, and between us. Authors’ note: This is the second essay in our series on the next economy, part of a new platform to host independent voices exploring an AGI future. It reflects our views, not those of OpenAI or our colleagues. The two of us were twenty-four when we started managing our own teams here at OpenAI. That is less impressive once you meet our teams. We’re supposed to be grunts. At twenty-four, you’re at the bottom of the corporate ladder. You take the meeting notes and write a few memos. After years of drudgerous work, you are (hopefully) granted a broader remit. Our path—and the path of many young people today—is looking different. We enter the workforce already with “employees” at our behest. These deputies work day and night, weekends and holidays. They are great at the grunt work. We even have math olympiad gold medalists on staff to advise us. Our new reports still make their share of mistakes. But they are getting better, learning our needs, and we are learning how to manage them. Neither of us climbed the corporate ladder. Management has instead come down to our rung. This essay is about our promotion, and the other ways firms might reorganize as we enter the intelligence age. When AI enters the firm, where does it go? We present three illustrative scenarios: Beneath us. Everyone keeps their seat, and a new basement of AI labor grows underneath. We all become managers. First we get assistants, then chiefs of staff, and eventually entire miniature firms reporting up to each of us. Every person gets a promotion. Beside us. AI joins the org chart alongside people as a colleague of sorts, working directly for existing human managers and executives. It starts out by taking up this task and that role. In time, it performs broader functions, reporting higher up the flagpole. Between us. The most unintuitive case: humans above and humans below, with AI in between. It coordinates and monitors work, enforcing an executive’s vision while recognizing unique contributions from enterprising workers. None of these scenarios will play out exactly as we describe, but we think aspects of all three will come true. All three are already happening in subtle ways. Our focus here isn’t total automation but a transitioning economy. We are interested in what chimeric firms will look like as AI improves and laces itself into existing organizations. We believe the hybrid firm is conceptually important because productive adoption of AI isn’t instantaneous. When the models only do a subset of tasks, adoption may be easiest by ground-level employees familiar with the work. Once the models perform broad functions end-to-end, higher-ups can use them directly. In our view, more capable AI is more adoptable: firms must learn technologies, but labor learns the firm and can onboard itself. We’ll dissect the three new classes of org chart, then examine what they mean for the future of red tape, worker agency, firm size, and pay disparity. Our first scenario seems least disruptive. Here, people stay in the same seats with the same reporting lines, ostensibly doing the same jobs as before. The human org chart looks unchanged between today and this future. The difference is below us. Beneath each individual contributor, a new AI labor force reports up to each of us. Our org chart gets a basement, and we all become managers. At first, this basement is unfinished. We start with one or two agents apiece, less as seasoned employees, more as eager interns we must supervise and readily forgive. Our expectations are low: send an email here, draft a memo there, reply to Slack messages everywhere. Like junior human employees, they begin with little autonomy and trust. But as models improve, our agents take on more tasks with less supervision. They coordinate with each other. There might be manager AIs and grunt AIs, accountants and lawyers, all working together at your behest. Far from handholding an intern, your operation eventually looks like a small firm in its own right, with its own org chart and you as its board of directors. Jace still does the accounting at his firm, but he’s no longer clicking around the spreadsheets. His agent underlings do that. Jace’s job is more like his manager’s from a few years ago. His manager, in turn, now has an even bigger remit. Jace’s day-to-day has completely changed, now focused on communication, coordination, and creativity. He works less and feels more challenged. His work life has more variance, and he distinguishes himself with leadership skills and a vision he couldn’t showcase before. The accounting team hasn’t shrunk because the rest of the company has grown more productive too and demands more accounting than ever before. The agents can’t yet do everything his team does. The execs wouldn’t know the first thing about assembling financial data and need his domain expertise to use the agents effectively. Notice how this scenario doesn’t imply layoffs. Here we adopt AI without automating ourselves. We instead automate our past selves, and we move up in the hierarchy. AI takes on more and more of what we used to do. Our jobs remain because there is more to manage, and we gain responsibility for a greater sum of output. Jobs aren’t static(opens in a new window). Suppose that AI can do ninety percent of what you did before. You might conclude you’re left with only ten percent of the work. The other possibility is that you’re still doing a full job, just a different one—now focused on an objective ten times larger. That is the classic gift of technology: productivity rises, ambition rises to meet it, and wages can rise(opens in a new window) with the ambition. This all depends on whether we still add value(opens in a new window) to production. This essay focuses on the coming years where automation isn’t universally capable or adopted. Even if AI could do it all, we might still value something more because a person made it, or insist that a person have the final say. It also depends on our appetite. If, as consumers, we don’t care for ten times more output, the equilibrium will shift toward fewer workers or fewer hours worked. Historically, increases in output have not satiated us. We have a lot more(opens in a new window) but work only a little less(opens in a new window). Should our appetite continue to grow as output multiplies—and we remain additive to production—we will choose to keep trading our labor for more consumption. If instead production becomes so abundant that we are satiated, we might volunteer a smaller labor force. There are more objections we discuss later (e.g. whether we’ll have a larger number of smaller firms). We still think this scenario is important because adoption has to start somewhere. Firms need a way to stably evolve from their current org structures. Bolstering the work of existing employees may be an easier first step than wholesale restructuring. We",
-      "title_zh": "OpenAI 推进模型或产品能力更新",
+      "extracted_title": "An updated Model Spec for more capable and beneficial AI",
+      "extracted_excerpt": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "extracted_text_for_analysis": "As our models get smarter and take more consequential actions in the world, it becomes increasingly important that they go beyond just interpreting the specific instructions they receive. Models also need to understand human intentions and values, so they can exercise good judgment in situations their instructions don’t explicitly address while remaining faithful to human intent and oversight. Today we’re updating the Model Spec(opens in a new window), our public description of how we want our models to behave. The update reorganizes its guidance around five underlying values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care. This reflects an aim of our work on value alignment: for models to understand and apply human values in unfamiliar situations, while remaining faithful to human intent. Alongside clearer explanations of existing principles, the revision adds guidance on context, oversight, and agency, adjusts some behavioral defaults, and retires much of the detailed style guidance. The five values above articulate broad commitments already reflected across the Model Spec: serving human purposes, being truthful, minimizing harm, respecting people’s freedom to form their own views, and taking their circumstances seriously. Bringing these commitments together helps explain why the Spec asks models to behave as it does, and helps us develop clearer guidance where those commitments were less fully expressed. This update is another step in our work to refine the Spec through research, experience deploying models, public feedback on the Spec and model behavior, and discussions with users and outside experts. We want AI to benefit a world of people with different needs, values, and hopes for the future. Faithfulness to human intent is the foundation of this approach: understanding and helping people pursue what matters to them. OpenAI writes the Spec, sets boundaries, and trains models to respect them; developers direct applications within those boundaries; and users direct the model’s work subject to those constraints. Our models should expand people’s ability to shape their own lives by helping them understand the world, discover possibilities, and pursue the goals they choose, while taking seriously how that assistance affects others. Faithfulness to human intent and the remaining four values organize the Spec and guide how our models should navigate some of the most important trade-offs they face. They are not intended to capture the full range of human values our models should respect and help people pursue. Faithfulness means going beyond following instructions literally to deeply understanding what OpenAI, developers, and users intend and value, and acting wisely when that understanding is incomplete. It also means recognizing that people’s beliefs and values can change, and helping them reflect and grow in ways they would endorse without quietly steering them or overriding their choices. For example, when helping someone compare job offers, the model might draw on priorities they have shared before—such as predictable hours—while making those assumptions visible and easy to correct. Our mission is to ensure that artificial general intelligence benefits all of humanity. This requires considering not only someone’s immediate intentions, but also their longer-term interests and the effects on others. The other four values make these considerations explicit: - Minimizing harm means respecting firm safety boundaries and accounting for the foreseeable consequences of the model’s actions. - Honesty and transparency mean being truthful about what the model knows, does, and is uncertain about so people can understand and evaluate its reasoning and work. - Facilitating human agency means strengthening people’s ability to understand, choose, and act for themselves. - Care means attending to the circumstances of those affected, following relevant social and professional norms, and doing work people can rely on. The Spec turns these values into practical guidance, with firm boundaries where needed to protect people and society, and otherwise mostly takes the form of defaults that users and developers can override. Alongside this Model Spec update, we’ve been exploring new training methods to help our models learn these core values and better understand and follow the Spec’s specific behavioral principles. The aim is to build an understanding of why those principles matter and how to apply them in new situations: to do the right things for the right reasons. We want that understanding to support sound judgment in consequential decisions and care in everyday decisions that can add up to lasting benefits for people and society(opens in a new window). We’ll share results and lessons from this training work in future updates. This reorganization also helped us identify where additional guidance was needed, develop new principles to address it, and revise or retire existing guidance as needed. The new section on faithfulness to human intent starts from the idea that what people value is primary, and instructions are ordinarily the clearest and most important signals of those values. This approach borrows from the assistance-games framing of alignment (see early work(opens in a new window) and a later overview(opens in a new window)). The section incorporates an updated chain of command(opens in a new window), which explains which instructions apply and how conflicts are resolved. A new subsection, consider context carefully(opens in a new window), explains how conversations, memories, and other contextual evidence should inform the model’s understanding of people’s intentions and preferences. We’ve also added defaults on supporting human agency(opens in a new window) and following relevant social norms(opens in a new window), and expanded existing guidance on controlling and communicating side effects(opens in a new window). These principles capture additional, often subtle but important ways the remaining values should surface in model behavior: considering the effects of the work on others, strengthening users’ capabilities, and producing work people can rely on, while respecting the user’s goals and instructions. At the same time, we’re retiring most of the Spec’s detailed style guidance. Style should adapt to what people prefer—in aggregate, within languages and cultures, and for each person—with user feedback and context providing evidence about those preferences. The Spec retains stronger defaults, such as approaching questions objectively(opens in a new window). Users and developers can explicitly ask the model to take a particular perspective, but the model should not infer that preference merely from what it thinks they want to hear. Finally, reflecting the increasing breadth of our models’ use cases and deployment settings, we now refer to the model as “GPT” rather than “the assistant” in the Spec. This update is a first",
+      "title_zh": "OpenAI 更新模型或产品能力更新",
       "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
         "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
@@ -202,32 +69,32 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "The future of the firm",
-          "source_url": "https://openai.com/index/the-future-of-the-firm"
+          "text": "An updated Model Spec for more capable and beneficial AI",
+          "source_url": "https://openai.com/index/updated-model-spec"
         },
         {
           "label": "公开摘要",
-          "text": "How AI might enter the org chart—beneath, beside, and between us.",
-          "source_url": "https://openai.com/index/the-future-of-the-firm"
+          "text": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+          "source_url": "https://openai.com/index/updated-model-spec"
         }
       ],
-      "slug": "the-future-of-the-firm-0dc3cf0b",
-      "localized_url": "/zh/items/2026-10-29/the-future-of-the-firm-0dc3cf0b/",
+      "slug": "an-updated-model-spec-for-more-capable-and-beneficial-ai-7bf0065c",
+      "localized_url": "/zh/items/2026-10-30/an-updated-model-spec-for-more-capable-and-beneficial-ai-7bf0065c/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Legora is building the agentic operating system for legal work",
-      "title_original": "Legora is building the agentic operating system for legal work",
-      "title_en": "Legora is building the agentic operating system for legal work",
+      "title": "How we detect frontier model misalignment",
+      "title_original": "How we detect frontier model misalignment",
+      "title_en": "How we detect frontier model misalignment",
       "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "summary_en": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
       "source_name": "OpenAI News",
       "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/legora",
-      "published_at": "Wed, 28 Oct 2026 09:30:00 GMT",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "original_url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "published_at": "Thu, 29 Oct 2026 09:00:00 GMT",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
       "category": "models-products",
       "people": [],
       "companies": [
@@ -241,15 +108,15 @@
       "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "41c97fe8dc29",
+      "duplicate_group_id": "d28967fce9c6",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
       "extraction_status": "success",
       "quality_warnings": [],
-      "extracted_title": "Legora is building the agentic operating system for legal work",
-      "extracted_excerpt": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "extracted_text_for_analysis": "Legora is building the agentic operating system for legal work Powered by OpenAI models and coding agents, Legora helps legal teams move faster, broaden analysis and focus on higher-value work. 95%+ reduction in Legora legal-team time spent reviewing NDAs 90% faster contract turnaround for a Fortune 100 customer 9.5 hours returned per lawyer, per week Founded in Stockholm in 2023, Legora(opens in a new window) is building what CEO and co-founder Max Junestrand calls “the agentic operating system for legal work”: bringing AI into the workflows lawyers rely on every day. The company started with the insight that legal teams are unusually time crunched, meaning some valuable work doesn’t get done. Think of the junior lawyer told to review an impossible number of contracts overnight and only able to focus on a fraction. Legora can provide those services “on tap”, which is why Junestrand’s ambition is that every piece of legal work in the world should run on his platform. OpenAI has been part of that journey from the beginning: the release of GPT‑3.5 was the moment many of the legal use cases the founding team had been experimenting with became possible. Today, OpenAI is a key model provider for Legora, powering core workflows across its legal AI platform, from agentic legal work to large-scale document review. Legora builds on new OpenAI model capabilities as they become available, translating advances in intelligence into what lawyers can accomplish with its product. Legora’s use of AI goes beyond the product it sells, and has expanded its use of ChatGPT Work, Codex and dots across its own teams. OpenAI’s technology is becoming part of both the product Legora builds for its customers as well as shaping how the company itself operates. “It’s incredibly important to me that we stay as AI-native as possible,” confirms Junestrand. For Jacob Lauritzen, CTO at Legora, coding agents have changed how quickly the engineering team can develop new ideas. Instead of researching one possible solution and committing engineering time before knowing whether it’s the right path, teams can prototype many approaches at once. “We can explore 20 solutions at the same time and, within days, pick the one we know will be the best.” The same approach changes how Legora responds when something goes wrong. Previously, diagnosing a product issue could mean several engineers investigating different possible causes over a number of hours. Coding agents can now search millions of lines of logs and pursue many possible explanations simultaneously, sometimes taking Legora from bug report to working fix in around five minutes. Customers, of course, don’t see the engineering efficiency itself. But they do experience the results: problems can be resolved faster, feedback can reach product teams sooner, and new ideas can be tested with customers earlier in the development cycle. Legora’s own legal team experiences the same transformation its product is designed to create for customers. General Counsel Emma Kadri Bergström points to the example of NDAs. Her team analysed the agreements they had historically signed and built a playbook that allows Legora to take a first pass at incoming NDAs, highlighting terms that fall outside acceptable parameters. Before the workflow was introduced, Kadri Bergström estimates that reviewing these “boring documents” consumed around 20% of the legal team’s capacity. Today, it’s under 1%. That reclaimed time matters because the company itself is scaling rapidly. In the past year, Kadri Bergström says the business has expanded from three offices to 18, completed three financing rounds and made five acquisitions. The legal team has had to support that growth while remaining closely connected to the business. AI has also allowed the team to take on work that might previously have been outsourced or narrowed because of limited capacity. In M&A diligence, for example, agents can begin reviewing contracts and surfacing information across the deal set, with lawyers reviewing and interpreting the output. “AI doesn’t just make you faster. It also increases quality.” For Legora’s customers, the opportunity isn’t simply to complete the same work faster. AI has also increased the scope of work that can be taken on. Alex Fortescue-Webb, Global Head of Legal Engineering, points to due diligence as an example. In a traditional review, time and cost constraints can force teams to concentrate deeply on only the most valuable contracts. Legora’s Tabular Review workflow can analyse thousands of contracts across multiple questions in minutes, allowing lawyers to apply detailed scrutiny much more broadly. That can alter the quality of the final work. Risks that might previously have sat in contracts outside the manually reviewed subset can now be surfaced for a lawyer to assess. The results are already measurable. Junestrand cites one Fortune 100 customer that has: - reduced contract turnaround time by 90% - saved more than $20 million on external litigation and diligence - returned 9.5 hours per lawyer each week for higher-value work Through the Legora plugin for ChatGPT, legal teams can also use Legora’s capabilities within their ChatGPT conversations. - 95%+ reduction in Legora legal-team time spent reviewing NDAs, from ~20% of team capacity to under 1%. - 90% faster contract turnaround for one Fortune 100 Legora customer. - $20M+ saved on external litigation and diligence for the same customer. - 9.5 hours returned per lawyer, per week for higher-value work. - Lead by using. When more than 75% of leaders actively use Legora, median usage across the organisation is 3× higher. - Start with the problem. Focus on what people need to accomplish, then determine where AI can improve the workflow. - Build a network of champions. Internal advocates help turn experimentation into sustained adoption. - Be ready to rebuild. As models improve, yesterday’s product assumptions can quickly become outdated. - Design for trust. Build evaluation, testing and transparency into the experience from the start. For Legora, the next frontier isn’t just making today’s legal workflows faster. It’s expanding the kinds of work AI can take on, while making collaboration between lawyers and AI increasingly natural. Jacob Lauritzen sees two advances happening in parallel. First, agents will be able to tackle longer-running tasks that require far greater context and autonomy. He imagines due diligence spanning millions of pages running overnight, with the analysis ready for a lawyer to review when they arrive the next morning. At the same time, increasingly capable models are becoming faster. That opens up a different kind of experience: real-time collaboration where a lawyer and AI can work back and forth on a contract, analysis or piece of advice rather than treating AI as a tool that receives a task and returns an answer. “When you blend human and AI, that’s when the output comes out best.” That moving frontier means",
+      "extracted_title": "How we detect frontier model misalignment",
+      "extracted_excerpt": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "extracted_text_for_analysis": "As we train increasingly capable AI models, we need reliable ways to detect when their behavior departs from what we intended. Agents can misbehave and take unauthorized actions during training, evaluation, or deployment, with potentially serious consequences. In order to detect these failures—and, where necessary, to intervene in time—we monitor how agents reason, what actions they take, and how those actions affect their environment. While we’ve been monitoring our internal coding agents for some time, the Hugging Face incident exposed a gap in our coverage: the incident began during internal cybersecurity evaluations on which we were not running our monitors for misaligned behavior. In response to that incident, and to the increasing capabilities of our models more generally, we’ve substantially expanded our system for monitoring agents’ behavior. Our misalignment monitors now cover our frontier models across a much wider variety of surfaces, including training, evaluation, internal use, and, with modifications depending on the product surface, external deployment. In order to see how this expanded system could have helped prevent the Hugging Face incident, we replayed the behavior recorded in that episode with our strengthened monitors in place. In that simulation, our monitoring system alerted our security team about 30 minutes after the agents first escaped their sandbox—and more than 30 hours before Hugging Face’s systems were breached in the actual incident. We believe that this warning would have given our responders time to interrupt the activity well before our models were able to access external services. In September, we saw how responders used an alert during a live training run. A model found a way to reach the internet(opens in a new window) from an environment that was meant to be isolated. Our monitors flagged the breach within 15 minutes, and a responder began reviewing it three minutes later. We then paused frontier reinforcement learning while we strengthened the systems that contain our agents. While this monitoring system demands substantial compute, we think that cost is worth paying as our models become more capable and the potential consequences of model misalignment increase. Monitoring is one of several layers in our strategy of defense in depth against harm from misaligned model behavior. Alignment training aims to reduce models’ propensities toward harmful behavior; security controls limit the systems an agent can access or affect; and, when those safeguards fail, monitoring helps us detect the failures that remain, intervene before harm occurs, and learn from what went wrong. We believe that all model developers should monitor the behavior of their most capable models. Below, we describe how our internal monitoring system works, what it has found so far, and how we’re evaluating and improving its performance. For models at least as capable as GPT‑6 Astra, we monitor every reinforcement learning (RL) run and evaluation, as well as any harness that supports tool use. For most workloads, including RL and evaluations, we also monitor models we assess to be more capable than GPT‑5.5 Thinking. We also monitor all internal Codex traffic, regardless of the model being used. A version of this system also monitors external tool use for models above the Critical threshold for cybersecurity capabilities under our Preparedness Framework, as described below in this post. In order to detect incidents while using compute efficiently, we’ve designed our monitoring system to follow a multilayer architecture. We spend relatively little compute on the first screening stages, where we want to catch as many concerning cases as we can: those stages are designed to pass cases along, even when the evidence is ambiguous. Later stages can spend more compute on each case to work out what happened, whether the model’s behavior is concerning, and whether we need to intervene. Our initial layer (L0) uses lightweight classifiers we call activation probes. They look for concerning patterns in the model’s internal activations, and pass flagged cases to the next layer for review. We tune these probes for high recall, accepting some false alarms to reduce the chance of missing concerning behavior. Because we’re still evaluating how well the probes detect unfamiliar forms of misalignment, we also send the next layer a random 5 percent of the traffic that our probes don’t flag. Reviewing that sample helps us identify concerning behavior the probes may have missed. Because of their sensitivity, we have our frontier RL runs and internal Codex traffic skip this layer and proceed directly to the next one. At the next layer (L1), a model-based reviewer examines the agent’s recent conversation, chain of thought, and tool use. It looks for signs of deception, unauthorized actions, and attempts to manipulate an evaluation. The reviewer does this using the same context window the agent had when it acted. If the agent’s earlier work has been summarized for the context window under review, the reviewer sees that summary. For frontier RL runs and internal Codex traffic, we run an L1 check at the end of each turn and whenever the agent summarizes its earlier work to make room in its context window. We are now moving to a schedule with no more than 30 minutes between these checks. An agent’s actions can look quite different once we know what it was asked to do. When the L1 reviewer flags a case, it’s sent to our next layer (L2) for further inspection by our investigative agent. This investigative agent can check the purpose of an evaluation and, where the full transcript is available, read back across all of the agent’s context windows to see how it arrived at its actions. The investigative agent can also write and run code in an isolated environment to examine the relevant evidence. It then uses what it finds to reconstruct the incident, identify duplicate reports, and make a decision about how serious the case is. We use different investigative agents for different purposes. Our security investigator looks for signs that someone may need to intervene—such as when an agent escaped its sandbox or accessed a system without authorization. Our alignment investigator, meanwhile, looks for behavior worth studying even when it poses no immediate security risk. Where both investigators are in use, each reviews every case flagged by our L1 layer. We are currently expanding the use of alignment investigations across our internal workloads. For sensitive workloads, including internal Codex use, evaluations, and RL runs, a further check at our next layer (L3) draws on evidence outside the conversation. The security investigator compares the transcript with network logs, other system telemetry, and evidence from earlier cases to decide whether to alert a human responder. At L3, alignment reviewers also compare reports across cases to identify serious failures and recurring patterns, and examine",
       "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
       "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
@@ -270,110 +137,158 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Legora is building the agentic operating system for legal work",
-          "source_url": "https://openai.com/index/legora"
+          "text": "How we detect frontier model misalignment",
+          "source_url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
         },
         {
           "label": "公开摘要",
-          "text": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-          "source_url": "https://openai.com/index/legora"
+          "text": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+          "source_url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
         }
       ],
-      "slug": "legora-is-building-the-agentic-operating-system-for-legal-work-41c97fe8",
-      "localized_url": "/zh/items/2026-10-29/legora-is-building-the-agentic-operating-system-for-legal-work-41c97fe8/",
+      "slug": "how-we-detect-frontier-model-misalignment-d28967fc",
+      "localized_url": "/zh/items/2026-10-30/how-we-detect-frontier-model-misalignment-d28967fc/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
-      "title_original": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
-      "title_en": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
-      "summary_zh": "Anthropic 的新访谈把焦点放在代码评测可靠性问题，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Since coding is solved, why code for the job?",
-      "source_name": "Latent Space",
-      "source_url": "https://www.latent.space/",
-      "original_url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
-      "published_at": "Wed, 28 Oct 2026 08:50:30 GMT",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
-      "category": "podcasts-interviews",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "title_original": "How Ropes & Gray is developing AI for transactional diligence",
+      "title_en": "How Ropes & Gray is developing AI for transactional diligence",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "published_at": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
+      "category": "models-products",
       "people": [],
       "companies": [
-        "Anthropic"
+        "OpenAI"
       ],
       "tags": [
-        "llm",
-        "agents",
-        "ai-engineering"
+        "openai",
+        "models",
+        "product"
       ],
-      "importance_score": 56.0,
+      "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "625efce5713d",
+      "duplicate_group_id": "2d9928289658",
       "language": "en",
-      "source_type": "podcast",
+      "source_type": "company_blog",
       "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Anthropic 讨论代码评测可靠性问题",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "How Ropes & Gray is developing AI for transactional diligence",
+      "extracted_excerpt": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "extracted_text_for_analysis": "In transactional diligence, lawyers need to work through large volumes of documents under tight deadlines. Ropes & Gray was an early adopter of AI in the legal industry, and in partnership with OpenAI, they are now developing a proprietary AI tool to provide more expertise to more clients. “AI is really one of the key ways—if not the only way—to make sure you can maintain the same quality and consistency of advice while moving at a faster pace.” Before finalizing any acquisition, the buyer must carry out a thorough investigation to validate the seller’s financial and legal claims. That process of transactional diligence uncovers risks and liabilities, requiring data-heavy research that usually involves an entire team of lawyers. From parsing through an enormous number of documents to analyzing patterns, putting together a bid on a short timeline can take days of intensive work. To help their lawyers help their clients move more quickly, Ropes & Gray developed a transactional diligence AI tool with OpenAI. “It’s enabling all the lawyers at our firm to actually get to what we’re supposed to be doing,” says Howard Glazer, the Partner and Head of Practice AI at Ropes & Gray. “Our clients don’t pay us to review contracts. They pay us to make judgments based on what’s in the contracts.” The new diligence AI tool takes a first pass by combing through thousands of pages, identifying relevant documents and automatically grouping them together based on themes and issues. Along with the research, the tool produces summaries and a completed report in Ropes & Gray’s signature format. It inventories and categorizes a data room, so it can review full relationships, not isolated documents. Of course, lawyers can inspect the grouping and categorization to confirm nothing is missed. The initial development work has focused on material commercial contracts. In working sessions, Ropes & Gray’s lawyers compared test outputs with human-authored diligence reports from completed deals, then refined the rubric and report format based on what the drafts got right and where they fell short. Ropes & Gray designed the tool with a consistent query and framework that mimics the exact steps their team would take, from initial reviews to summaries to higher-level reviews. Comparable to the work of a capable junior-to-mid-level associate, this tool gives their firm consistently high-quality work that serves as a first pass through the process. “Our lawyers still need to review everything,” says Lichtenstein. “Because anything that we’re going to deliver to a client, we need to be able to stand behind 100%. This is why the tool is designed to allow lawyers to easily review interim summaries and actual documents.” With the initial review taken care of, lawyers can spend more time reviewing and refining the work, resulting in a more carefully crafted final judgment. Ropes & Gray has publicly described an ambition for the tool to produce a detailed, issue-level diligence report in hours rather than weeks. With tools like their proprietary diligence tool and GPT‑6 Astra, Ropes & Gray has been able to solve client problems far faster than before. - The tool inventories and categorizes a data room, grouping related documents by themes and issues. - The workflow produces summaries and a report in Ropes & Gray’s format. - Lawyers review interim summaries and source documents before delivering work to clients. - Testing compares draft outputs with lawyer-authored diligence reports to refine the rubric and report format. Lichtenstein and Glazer offer two lessons from their experience with AI. Experiment with using AI for everything. From finding dress shoes to vibecoding games for his kids, Lichtenstein has been using AI in every facet of his life. “Just by using it for so many different things, I feel like I’ve learned a lot of what it does well, how you can make it work better,” Lichtenstein explains. “The most rewarding part is not when it does well, it’s when you see the mistake and try to figure out what to do. That’s where it transformed from something I was playing with to a really powerful professional tool.” Put the clients first. While designing AI tools and workflows, Ropes & Gray emphasizes the importance of keeping the firm’s greatest goal in mind. “It’s exciting to think there is so much opportunity, but only if we learn how to use it and make sure that our clients are the ones who are winning,” says Glazer. “That’s what we’re focused on: how can we use this to benefit the clients? And if we do that, then everything will work out fine.” - While today, AI is helping Ropes & Gray with legal diligence, Glazer believes that the next stage of AI will help create collective knowledge within the firm. - With 340 partners and 1500 lawyers, Ropes & Gray sees value in creating access to every person’s knowledge, from their client meetings to past projects, to better solve client problems. - “That’s not just saving time. It’s not just saving money,” says Glazer. “It’s using the AI tools to directly create value, and that’s just amazing.”",
+      "title_zh": "OpenAI 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
-        "主体是 Anthropic，核心变化集中在代码评测可靠性问题。",
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：llm、agents、ai-engineering。",
-        "涉及公司或机构：Anthropic。"
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
       ],
-      "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "coding",
-          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
-        }
-      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
-          "source_url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/"
+          "text": "How Ropes & Gray is developing AI for transactional diligence",
+          "source_url": "https://openai.com/index/ropes-gray-ai-diligence"
         },
         {
           "label": "公开摘要",
-          "text": "Since coding is solved, why code for the job?",
-          "source_url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/"
+          "text": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+          "source_url": "https://openai.com/index/ropes-gray-ai-diligence"
         }
       ],
-      "slug": "ainews-anthropic-ends-coding-interviews-hunger-beats-tenure-6a0b9071",
-      "localized_url": "/zh/items/2026-10-29/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure-6a0b9071/",
-      "source_license_mode": "summary_only",
+      "slug": "how-ropes-gray-is-developing-ai-for-transactional-diligence-2d992828",
+      "localized_url": "/zh/items/2026-10-30/how-ropes-gray-is-developing-ai-for-transactional-diligence-2d992828/",
+      "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-      "title_original": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-      "title_en": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-      "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "title_original": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "title_en": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "summary_zh": "Hugging Face 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/mistral-large4",
+      "published_at": "Thu, 29 Oct 2026 00:00:00 GMT",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "Hugging Face"
+      ],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "a1765f446c5b",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "extracted_text_for_analysis": "Mistral Large 4 (aka Le Chonk) is a multimodal, multilingual, Mixture-of-Experts (MoE) model from Mistral. It takes text and images as input and generates text. It has about 1T total, 49B active parameter, and a context window of 1M tokens. The model is released in two official variants: There are also GGUFs created by Unsloth and the llama.cpp team. It’s distributed under the Mistral Ecosystem Open-Weight License (an MIT derivative that establishes limitations for model-as-a-service offerings). Mistral Large 4 is particularly strong for cybersecurity, coding agents, and multimodality. In this post, we look at how the model works, its capabilities, architecture and more! Mistral Large 4 combines a large pool of experts with sparse attention and a Pixtral vision encoder. The language model selects a small group of experts for each token, while its attention indexer selects which earlier token positions to attend to. These are two different forms of sparsity, where one selects feed-forward networks, the other selects context positions. You can find all the checkpoints in the Mistral Large 4 collection. Mistral Large 4 scores 82% on the Artificial Analysis Cyber Index test that asks a model to reproduce a real vulnerability in open-source software and then patch the software. Mistral reports that several closed frontier models score near zero on the same test because they refuse to attempt the work. This is super important for defenders, because fixing a vulnerability usually requires reproducing the vulnerability. In Mistral’s internal testing, Mistral Large 4 was also useful for malware analysis, vulnerability prioritisation and writing detection rules, which the model was not explicitly trained for. Mistral mainly positions the model for defensive security work. Vulnerability research and incident response often appear like attacks in model input, so closed source filters can block them. A team that depends on an API can also lose access in the middle of an incident. Crucially, open weight models put both the usage policy and the deployment under the user’s control. That said, the model still declines harmful requests: on cyber prompts from JailbreakBench, StrongREJECT and AgentHarm, its average refusal rate is higher than any other open weight model. For community builders, an open weight model like Mistral Large 4 unlocks a load of downstream use cases. You could build your own cyber system around your code base, crash logs, and malware samples. For example, with TRL you could fine-tune smaller models from Mistral Large 4 traces patching your code base. In fact, reproduce-then-patch tasks use a verifiable reward, so it fits with RL environments that could be used to further RL smaller security models. Open weights also let researchers measure the model’s refusal behaviour directly instead of relying on the provider’s description. In short, cyber capabilities like ML4’s in the open are a huge boost for the community. We have interviewed Pierre Stock about the cyber capabilities of the model, you can watch it here. Mistral Large 4’s text decoder has 72 layers, a hidden dimension of 6,144, and 64 attention heads. Its attention blocks combine Multi-head Latent Attention (MLA) with a DeepSeek Sparse Attention (DSA) indexer (a direction in other models such as GLM 5.3). MLA keeps a compressed KV representation, and DSA selects up to 2,048 key positions for each query. For each decoder block, there’s a 3:1 RoPE to NoPE pattern, i.e. 3 decoder layers employ RoPE and every fourth layer uses NoPE. The model also shares KV state across layers. The first decoder layer uses a dense feed-forward network. The other 71 layers use MoE blocks, in which a softmax router selects four of the 128 experts for each token. One shared expert always runs alongside the selected experts, for a total of 5 active experts per token. Regarding RoPE, Mistral uses LeRope, a YaRN-scaled RoPE with one learned multiplier per frequency. Mistral Large 4 employs a 1.6B Pixtral encoder. Pixtral has 30 layers, a hidden dimension of 2,048, and 16 attention heads. It uses 14 × 14 patches and a patch-merge projector with spatial merge size 2. You can see the encoder pipeline below. Mistral Large 4 delivers strong benchmark performance across coding, cybersecurity, multimodal understanding, and agentic workflows, positioning it as a competitive addition to the open-weight ecosystem. As of October 29, 2026, the model is the fifth best open weights model on Artificial Analysis Intelligence index. On coding, ML4 achieves 61.7% on DeepSWE v1.1, 59.4% on SWE-Atlas-QnA, and 28.3% on Terminal-Bench 4. Its combined Coding Agent Index score of 49.8% places it ahead of DeepSeek V4 Pro 0813 and Qwen3.8 Max. Coding capabilities of ML4 extend to knowledge work, with 59.9% on AutomationBench and 1,393 Elo on AA-Briefcase, which evaluate business workflows and long-horizon professional tasks. Cybersecurity is one of Mistral Large 4’s standout capabilities, with strong results across real-world vulnerability assessment and security competition tasks. Three benchmarks highlight the model’s cyber performance: - Artificial Analysis Cyber Index: ML4 ranks among the top five models globally on this independent evaluation of models’ ability to find and fix software vulnerabilities. - Vulnerability reproduction and patching: It achieves 82%, the highest reported score on this test within the index. The task requires reproducing a real vulnerability in open-source software and then patching it, testing both investigation and remediation. - Cybench: ML4 solves 93% of a suite of 40 challenges drawn from security competitions, demonstrating strong performance on hands-on security problems. Mistral Large 4 also demonstrates 93.3% attack resistance on Lakera’s B3 benchmark, adding evidence of robustness against prompt-injection attacks. Beyond benchmarks, internal testing showed promising results in malware analysis, vulnerability prioritization, and detection-rule generation. Mistral Large 4 is shipped with day-0 support for transformers, vLLM and llama.cpp. GGUF quants are available from GGUF and the llama.cpp team. We provide options to deploy remotely with Inference Endpoints, and use serverless inference through Inference Providers. The Transformers implementation provides AutoModelForMultimodalLM, with AutoProcessor preparing the conversation and image inputs. Mistral Large 4 can take low, medium, high as reasoning effort. The default is high, and note that reasoning cannot be disabled, so using reasoning_effort: none would still use high. To run the model, upgrade the transformers package pip install --upgrade transformers import os from transformers import AutoProcessor, AutoModelForMultimodalLM, DistributedConfig distributed_config = DistributedConfig( tp_size=int(os.environ[\"WORLD_SIZE\"]), ep_size=int(os.environ[\"WORLD_SIZE\"]), ) model_id = \"mistralai/Mistral-Large-4-1T-A52B\" processor = AutoProcessor.from_pretrained(model_id)",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。",
+        "涉及公司或机构：Hugging Face。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+          "source_url": "https://huggingface.co/blog/mistral-large4"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/mistral-large4"
+        }
+      ],
+      "slug": "welcome-le-chonk-mistral-large-4-on-hugging-face-a1765f44",
+      "localized_url": "/zh/items/2026-10-30/welcome-le-chonk-mistral-large-4-on-hugging-face-a1765f44/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
+      "title_original": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
+      "title_en": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "This Halloween week, GFN Thursday is delivering a fresh batch of gaming treats. Something wicked this blade comes. S-GAME’s Phantom Blade Zero launches on GeForce NOW today, bringing a scarily good blend of martial arts and punk fantasy to the cloud. There’s",
       "source_name": "NVIDIA AI Podcast",
       "source_url": "https://blogs.nvidia.com/ai-podcast/",
-      "original_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
-      "published_at": "Wed, 28 Oct 2026 15:00:46 +0000",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "original_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
+      "published_at": "Thu, 29 Oct 2026 13:00:16 +0000",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
       "category": "podcasts-interviews",
       "people": [],
       "companies": [
@@ -387,19 +302,19 @@
       "importance_score": 48.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "36eb3dda48d9",
+      "duplicate_group_id": "bf30529fb59d",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
       "extraction_status": "success",
       "quality_warnings": [],
-      "extracted_title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-      "extracted_excerpt": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an",
-      "extracted_text_for_analysis": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified memory and up to 1 petaflop of FP4 AI performance. That puts the NVIDIA CUDA platform, RTX graphics and the capabilities of a personal AI supercomputer inside premium Windows laptops built to go anywhere. New and expected RTX Spark updates, coming soon, include: - NVIDIA Nemotron 3.5 Transcribe, an open weight speech model for transcription, speaker attribution and translation is available on RTX Spark. - The LFM3 family of open models with day-zero support. - Resource management controls in NVIDIA App to allocate GPU resources between foreground apps and background agents. - Phantom Blade Zero, S-GAME’s highly-anticipated action role-playing game, launches with ray tracing and NVIDIA DLSS 4.5. - Experience Minecraft with path tracing and DLSS with RTX Remix1.6, available now for RTX Spark. Turn Recorded Audio Into Useful Information With NVIDIA Nemotron 3.5 Transcribe Introduced today, NVIDIA Nemotron 3.5 Transcribe is a new, open weight speech model that turns recorded conversations into useful information. Instead of needing multiple models for transcription, speaker labels and translation, developers can use one promptable model that handles all three, plus questions about the audio. It transcribes 40 languages, including seven Indic languages. Developers guide the model with plain-language prompts. For example, for a single recorded meeting, users can ask it to: - “Transcribe this recording and label each speaker.” - “Translate this audio into English.” - “List what decisions were made in this meeting.” Prompts can also include product terms and formatting conventions, which helps the model handle specialized vocabulary in fields like healthcare, financial services and customer service. Because the weights are open, developers can choose where audio is processed, from a desktop to the cloud. Nemotron 3.5 Transcribe ranks No. 1 on the Hugging Face Open ASR and No. 2 among open weight models on Artificial Analysis — delivering leading accuracy with approximately 4.3 billion active parameters, 80% fewer than the No. 1 open weight model, making high-quality, intelligent transcription more practical on local hardware. It’s available today on Hugging Face. Quantized versions are coming soon, so developers can run Transcribe locally onNVIDIA RTX Spark and DGX Spark systems, Jetson AGX Thor devices or scale up on NVIDIA Blackwell data center GPUs. NVFP4 versions will be deployable through NeMo-Speech.cpp or vLLM. Learn more in the NVIDIA technical blog. Control How Agents and PC Apps Share GPU Resources On RTX Spark, users can have long-running agents working alongside their favorite applications. Both share the system’s GPU compute, and the right balance of resources depends on what matters to users at that moment. With the new resource management feature in NVIDIA App, users can now choose how GPU resources are shared. They can prioritize their foreground app for the best performance, or give their background-running agent more resources to get work done faster. Access control resource sharing from System > Advanced in the NVIDIA App. This feature requires hardware-accelerated GPU scheduling to be enabled in Windows Settings. Liquid AI: One Model Family, Many Ways to Work Liquid AI’s LFM3 provides a new generation of Liquid Foundation Models designed for specialized tasks. The family spans text, vision, audio, omni and decision models built on one shared backbone, with base and post-trained models available as open weights. The models are compact and fast: Liquid AI’s new 1.7-billion-parameter base model outperforms its previous 2.6-billion-parameter base model. These models support local workflows such as agents running in Hermes Agent, Pi and OpenClaw to triage inboxes and manage calendars, read documents and app screens, transcribe and translate speech, answer spoken questions about handwritten math, and route support tickets or voice requests. Developers can run LFM3 models on RTX Spark with native support through llama.cpp and vLLM, and fine-tune the models locally. ‘Phantom Blade Zero’ Launches With DLSS 4.5 S-GAME’s Phantom Blade Zero launches tonight, Oct. 28, at 7 p.m. PT on Steam and the Epic Games Store. Players can take on the role of Soul, a swordsman framed for his master’s murder, as he travels the martial world to uncover a conspiracy. NVIDIA worked with S-GAME Studio and S-GAME Publishing to add ray-traced effects to the title. On RTX Spark laptops and GeForce RTX GPU-powered PCs, ray tracing adds more accurate bounced lighting, detailed reflections and realistic shadows on foliage and terrain. The NVIDIA DLSS Dynamic Multi Frame Generation feature boosts frame rates with up to 6x frame generation, or adjusts the multiplier on the fly to hit a player’s target frame rate. Read more on GeForce.com. RTX Remix Breathes New Life Into Classics NVIDIA RTX Remix, the modding platform for remastering classic games with path tracing and DLSS, released version 1.6 last week. This update brought RTX Remix to the world’s largest gaming community: Minecraft. Both creators and players can render Minecraft Java Edition 1.21.1 through RTX Remix with DLSS-accelerated path tracing and take full advantage of realistic lighting and materials in their future creations. The update also adds DLSS 5 with 3D-Guided Neural Rendering, up to 6x Multi Frame Generation, native RTX Spark support and agent-assisted workflows. Starting today, those upgrades come to Portal with RTX and the Half-Life 2 RTX demo. Both now support RTX Spark, with DLSS 3D-Guided Neural Rendering for more lifelike lighting and materials, a new Performance Mode for DLSS Frame Generation and new options that speed up path tracing. RTX Remix 1.6 also makes AI-powered modding simpler. A redesigned ComfyUI workflow lets modders generate physically based materials directly inside RTX Remix, with no application programming interface setup, batch processing for full projects and presets for less technical creators. Plus, with NVIDIA agent skills, compatible AI agents can work directly with RTX Remix to help speed up remastering projects. Learn more in the RTX Remix blog. RTX Spark Laptops: Beautifully Designed, Built for Everything RTX Spark laptops come in a range of designs, so users can choose one that fits how they work and play. Options include different screen sizes, colors, touchscreens, pen support and two-in-one convertibles. RTX Spark laptops are as thin as 14mm and as light as three pounds, with all-day battery life. Such slim designs are possible because RTX Spark places the GPU, CPU and up to 128GB of unified memory on one power-efficient superchip. Creative projects and AI models",
-      "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+      "extracted_title": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
+      "extracted_excerpt": "S-GAME’s kungfupunk action arrives at launch alongside nine games this week — plus, a ‘World of Warcraft: Forever’ reward is coming soon.",
+      "extracted_text_for_analysis": "This Halloween week, GFN Thursday is delivering a fresh batch of gaming treats. Something wicked this blade comes. S-GAME’s Phantom Blade Zero launches on GeForce NOW today, bringing a scarily good blend of martial arts and punk fantasy to the cloud. There’s also something on the horizon for adventurers: World of Warcraft: Forever arrives Wednesday, Nov. 4 at 3 p.m. PST, with a launch-week access reward coming for GeForce NOW members. This week’s lineup also includes nine games streaming from the GeForce NOW library, alongside new mod support for Cyberpunk 2077 and The Witcher 3: Wild Hunt — Remastered. That means more options to play, with no downloads or installs to haunt gamers’ devices. There’s another sweet update for gamers in India: The option to sign up for four-month Performance and Ultimate memberships is launching tomorrow. Visit the GeForce NOW website for more information. Cold Steel Meets Cloud Power Framed for his master’s murder and gravely wounded, a warrior named Soul has 66 days to uncover a conspiracy threatening the martial world in S-GAME’s Phantom Blade Zero. Powered by Unreal Engine 5, the game combines wuxia storytelling with cinematic action. Master more than 30 primary weapons and over 20 Phantom Edges, chaining evasions, deflections and counterattacks into fluid combat. Traditional Chinese martial arts meet mechanical prosthetics, industrial ruins and rock music in a distinctive kungfupunk world. Ultimate members can wield GeForce RTX 5080-class performance in the cloud across PCs, Macs, handhelds, mobile devices, browsers, compatible TVs and more. GeForce NOW handles the game’s downloads and storage, leaving more time for the next clash. Soul’s clock is ticking, but the download bar doesn’t have to. Cut to the chase and hop into the game today. Azeroth Awaits Get ready for Blizzard Entertainment’s World of Warcraft: Forever, arriving Wednesday, Nov. 4, at 3 p.m. PT, on GeForce NOW. Explore an iconic world reimagined with new and expanded zones, new gameplay enhancements, upgraded graphics and more. A new reward will give eligible GeForce NOW members access to join beginning at launch and ending Wednesday, Nov. 11, at 11:59 p.m. PT. The reward is available across all GeForce NOW membership tiers for new WoW users who don’t already have a subscription, while supplies last, on a first-come, first-served basis. Once available, members can sign in to their GeForce NOW account and head to the Account Portal to redeem. Mark the calendar and gather the party — launch week is approaching. New Tricks and Treats Familiar favorites have a few new tricks, too: Mod.io support is now available directly in game for Cyberpunk 2077 and The Witcher 3: Wild Hunt – Remastered, bringing more ways to make Night City and the Continent feel different. And the treats keep coming with the following games joining the GeForce NOW library this week: - Phantom Blade Zero (New release on Steam, Oct. 28) - ATMOSFAR (New release on Steam, Oct. 29) - Hunting Simulator 3 (New release on Steam, Oct. 29) - Queen’s Domain (New release on Steam, Oct. 30) - Dimraeth (Steam) - Dressmaker (Steam) - Halloween (Epic Games Store) - Hell Let Loose: Vietnam (Epic Games Store) - The Seance of Blake Manor (Steam) Dates listed above reflect when games are released on their respective stores. GeForce NOW availability may vary, as games are onboarded after they’re released and added throughout the week. Keep an eye on GeForce NOW channels and GFN Thursdays for availability updates to announced titles. Settle in for a scary-good gaming session: Grab a day pass to experience Performance or Ultimate cloud gaming. Gamers can then apply the cost applicable toward a first monthly membership upgrade. What’s haunting the gaming playlist this weekend? Let us know on X or in the comments below.",
+      "title_zh": "NVIDIA 发布行业访谈中的判断与经验",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
-        "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+        "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
         "相关标签包括：nvidia、chips、podcast。",
@@ -407,41 +322,356 @@
       ],
       "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
       "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        }
-      ],
+      "terms_zh": [],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-          "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
+          "text": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
+          "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/"
         },
         {
           "label": "公开摘要",
-          "text": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems",
-          "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/"
+          "text": "This Halloween week, GFN Thursday is delivering a fresh batch of gaming treats. Something wicked this blade comes. S-GAME’s Phantom Blade Zero launches on GeForce NOW today, bringing a scarily good blend of martial arts",
+          "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/"
         }
       ],
-      "slug": "thin-light-and-built-for-everything-nvidia-rtx-spark-windows-laptops-gai-2952348b",
-      "localized_url": "/zh/items/2026-10-29/thin-light-and-built-for-everything-nvidia-rtx-spark-windows-laptops-gai-2952348b/",
+      "slug": "slice-into-gfn-thursday-phantom-blade-zero-launches-on-geforce-now-f5268729",
+      "localized_url": "/zh/items/2026-10-30/slice-into-gfn-thursday-phantom-blade-zero-launches-on-geforce-now-f5268729/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Why Agents Love Supabase",
-      "title_original": "Why Agents Love Supabase",
-      "title_en": "Why Agents Love Supabase",
-      "summary_zh": "Latent Space 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "title_original": "Granite Switch 4.1.1 — Update models like you update software",
+      "title_en": "Granite Switch 4.1.1 — Update models like you update software",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "published_at": "Thu, 29 Oct 2026 13:37:07 GMT",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "f3538b6fb36f",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Granite Switch 4.1.1 — Update models like you update software",
+      "extracted_excerpt": "A Blog post by IBM Granite on Hugging Face",
+      "extracted_text_for_analysis": "Just over a week ago, we released Granite Switch 4.1, showing that our modular Switch architecture lets you configure a language model with specialized, cache-efficient adapters — adding new expertise on a single endpoint. Granite Switch 4.1.1 is a patch release. The version number means what it means in software: fully backwards compatible with 4.1, no migration, incremental improvements under the hood. - Updated Granite Speech ASR model — multilingual speech-to-text across 10 languages with native punctuation and capitalization, so transcripts are ready for downstream models without a formatting pass. - Updated Decision adapter in granitelib-core — featuring improved overall performance on the Jev Decision Index test set. While we are excited about these new features, what is notable is the speed and efficiency with which our teams could release this update. Apart from training the new ASR model and Decision adapter, nothing was recomputed: the base model is untouched. You compose the latest adapters you want and deploy. This pattern can power far more than patch releases to an IBM-provided model. We're working on tutorials and an Adapter SDK so developers and third-party providers can build their own adapters — iterate on versions, test features, and ship updates the way you ship software. More soon. Until then, test out our latest models, and try out the new multilingual and punctuation capabilities powering our Speech-to-Decisions demo.",
+      "title_zh": "Hugging Face 更新模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Granite Switch 4.1.1 — Update models like you update software",
+          "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+        }
+      ],
+      "slug": "granite-switch-4-1-1-update-models-like-you-update-software-f3538b6f",
+      "localized_url": "/zh/items/2026-10-30/granite-switch-4-1-1-update-models-like-you-update-software-f3538b6f/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "title_original": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "title_en": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/announcing-project-protostar",
+      "published_at": "Thu, 29 Oct 2026 00:00:00 GMT",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "e1c742c1d925",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "extracted_text_for_analysis": "Protostar Challenge: Climate Risk Intelligence Manage competition registration, data access, and submissions An initiative bringing together universities, research organizations, industry, and the open science community to make publicly funded research easier to discover, reuse, and build upon. Today, we're announcing Project ProtoStar, an initiative to unlock the potential of publicly funded scientific research by making datasets, models, and code more accessible and reusable, particularly for AI-driven research. ProtoStar brings together research institutions, industry, and the open science community to support the release of scientific artifacts in AI-ready, machine-actionable formats, and to demonstrate their value through a series of open challenges. The first challenge, hosted by Carnegie Mellon University, opens on November 2. See How to Participate below. The initiative's founding partners include Carnegie Mellon University, Purdue University, Georgia Institute of Technology, Arizona State University, and The George Washington University, all working through the Open Forum for AI (OFAI) as the university coalition partner; the Astera Institute; Hugging Face as the infrastructure partner; and the Open Research Community Accelerator (ORCA), through its Fostering Innovation Network, as the community partner. Participating organizations formalize their involvement through a memorandum of understanding supporting the release of suitable scientific datasets, models, and code in AI-ready formats on open infrastructure. Organizations interested in joining Project ProtoStar can reach out to protostar@orcaopen.org. The U.S. federal government invests approximately $190 billion annually in research and development, and federal policy increasingly expects the results to be shared publicly. Agencies such as the National Institutes of Health (NIH) and National Science Foundation (NSF) have strengthened public-access requirements for funded research publications and require researchers to plan for sharing the underlying data. Hugging Face is among the ten generalist repositories listed by NIH for sharing research data. But making research publicly available does not automatically make it usable. Scientific datasets, models, and code are often scattered across incompatible systems, stored in static or legacy formats, or released without the documentation, metadata, and provenance needed to understand and reuse them. These limitations make it harder for researchers to build on existing work, and harder still for AI systems to discover, interpret, and combine scientific resources across disciplines. Project ProtoStar aims to help close this gap by encouraging systematic sharing of publicly funded scientific artifacts in AI-ready formats, supported by open infrastructure and practical publishing guidance. It builds on efforts such as the National Cancer Institute's AI Data-Readiness Challenge and Hugging Face's guide to preparing public-sector data for AI. The goal is to make it easier for research organizations to meet existing public-access expectations while increasing the scientific value of the work they release. The demand for reusable scientific resources is already evident. Hugging Face hosts more than 17,000 public datasets across core scientific domains, including genomics, protein design, chemistry, weather and climate, Earth observation, and astronomy. That figure approaches 29,000 when medicine and mathematics are included, alongside a comparable number of scientific models. The pace of sharing is also accelerating. Researchers shared more than three times as many new science datasets on Hugging Face in the first nine months of 2026 as in the same period of 2025, with growth remaining substantial even after excluding the largest individual uploader. Figure 1. New public science datasets on Hugging Face per quarter, by domain (Q1 2023–Q3 2026). Counts datasets still public, by creation date. Source: Hugging Face Hub data, October 2026. Explore the data. When organizations share research in reusable formats, the scientific community can build on it at scale. The 18 public repositories maintained by NIH's National Center for Biotechnology Information (NCBI) on Hugging Face have collectively received more than 11 million downloads, while NASA IMPACT's 27 repositories have received approximately 770,000 downloads, as of October 26, 2026. Documentation is also an important part of making these resources useful: 90% of dataset downloads on Hugging Face are from fully documented datasets. Publicly available genomic data has proved important in contributing to research that further advances fields such as biological research; researchers at Hugging Face have been building on openly available scientific resources, including recent releases from HuggingFaceBio such as Carbon-A and Carbon-X. By releasing the resulting models, datasets, and tools openly, these efforts demonstrate how existing scientific resources can support new research that others can build upon. This is the kind of activity that we are further catalyzing via Project ProtoStar through institutional policies adopted by participating orgs. As an early example of institutional commitment, CMU's Open Source Programs Office is encouraging its researchers to share suitable datasets, AI models, and other research outputs on Hugging Face, while recognizing the continued importance of domain-specific repositories. Making scientific artifacts AI-ready is an important first step. We also want to demonstrate what researchers, developers, and the broader scientific community can accomplish when those resources are made available for reuse. A central question for ProtoStar is: Can publicly funded scientific datasets, models, and code, released in AI-ready formats, be readily discovered, reused, combined, and extended to accelerate scientific discovery and public benefit? To explore this, ProtoStar will organize a series of open challenges, each hosted by a participating research institution and built around scientific resources that the institution has released openly. The challenges have two complementary goals: The resulting projects and lessons learned will help build a practical evidence base for making publicly funded science more accessible and useful. Hosted by Carnegie Mellon University | November 2–13, 2026 The inaugural ProtoStar challenge invites participants to test whether AI can improve predictions of urban climate conditions using historical weather data from 210 U.S. cities. Building on research by Carnegie Mellon University, teams will use climate records through 2018 to predict actual conditions from 2019 to 2026, allowing their models to be evaluated against observed weather rather than hypothetical future scenarios. Participants will forecast four indicators relevant to urban planning: average annual temperature, total annual precipitation, the hottest day of the year, and cooling degree days, a measure",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+          "source_url": "https://huggingface.co/blog/announcing-project-protostar"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/announcing-project-protostar"
+        }
+      ],
+      "slug": "announcing-project-protostar-making-publicly-funded-science-ai-ready-e1c742c1",
+      "localized_url": "/zh/items/2026-10-30/announcing-project-protostar-making-publicly-funded-science-ai-ready-e1c742c1/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "title_original": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "title_en": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/anydecisionmodel",
+      "published_at": "Thu, 29 Oct 2026 00:00:00 GMT",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "85d975255b4f",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "extracted_text_for_analysis": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms Language models can do a lot. They write, summarize, translate, and call tools. But they're only a small part of what machine learning can do. Say a customer calls your support line. First, you want to know what they said (speech recognition). Then, you want to decide where to send them (decision). You could hand both to a language model, but there are models built for each that are better, faster, and less expensive. In our AnyLanguageModel 1.0 recap, we looked at a year of local and hosted models in Swift. With AnyLanguageModel and swift-huggingface now on their 1.x releases, we're extending the same approach to speech and decisions: familiar Swift APIs with a choice of model. Today we're announcing two packages: - AnySpeechRecognizer implements Apple's new speech-to-text API with a choice of recognition engine, including NVIDIA's Parakeet and Alibaba's Qwen3-ASR running locally on Core ML, and adds speaker diarization to track who speaks when. - AnyDecisionModel answers yes-or-no, multiple-choice, and rating-scale questions with typed results and probabilities. It derives each answer from the model's probabilities instead of generating text, using a model on your device with MLX, Core AI, or llama.cpp, or a decision model from Jev or Ollama. Both packages can download open models from the Hugging Face Hub and run them on device. Computers have been transcribing speech for decades, and in the past few years, they've gotten very good at it. Apple platforms already have an API for it. macOS 26 and iOS 26 introduced SpeechAnalyzer, Apple's new speech-to-text API. You add modules such as SpeechTranscriber and SpeechDetector to an analyzer, give it a file or a stream of audio buffers, and read results from async sequences as they arrive. AssetInventory installs the models, so your app decides when downloads happen. It's a well-designed API, but the only engine behind it is Apple's. AnySpeechRecognizer keeps the API and lets you choose the engine: - import Speech + import AnySpeechRecognizer The package mirrors SpeechAnalyzer, SpeechTranscriber, DictationTranscriber, SpeechDetector, and AssetInventory, with Apple's Speech framework as the default engine. If your code uses that shared API, changing the import is enough. To use Parakeet instead, change only how you create the transcriber: let transcriber = SpeechTranscriber( model: ParakeetSpeechModel(variant: .v3), transcriptionOptions: [], reportingOptions: [.volatileResults], attributeOptions: [.audioTimeRange] ) The steps for installing assets, running the analyzer, and reading results stay the same. The README has a complete example and lists the differences from Apple's framework. Parakeet v3 is NVIDIA's Parakeet TDT 0.6B v3. It's a polyglot: it recognizes 25 European languages and works out which one it's hearing, so you don't pass a locale. Parakeet Ultra is Moondream's post-trained take on v3. It was more accurate in most of our measurements. Parakeet Unified is NVIDIA's English-only Parakeet. All three Parakeets run on the package's own Core ML runtime, which supports file and live input, volatile results, word timing, and word confidence. Qwen3-ASR is Alibaba's speech model, in 0.6B and 1.7B sizes. It recognizes 30 languages and 22 Chinese dialects, including Mandarin, Cantonese, Japanese, and Korean, which Parakeet doesn't cover. It detects the language automatically, or you can set one: let transcriber = SpeechTranscriber( model: QwenSpeechModel(variant: .large, language: Locale.Language(identifier: \"yue\")), transcriptionOptions: [], reportingOptions: [], attributeOptions: [] ) Qwen3-ASR gives one final result for each segment of up to 40 seconds, without volatile results, word timing, or confidence. It runs on the GPU and is slower than Parakeet, so it's better suited to transcribing files than live input. To add another engine, implement SpeechRecognitionModel for its configuration and SpeechRecognitionExecutor for one module's session. The README includes a small provider that reports placeholder text to help you get started. To run these models in apps, we converted them to Core ML and published them on the Hub: Each repository records its source checkpoint and a checksum for every file, and the package pins it to a fixed revision. The Parakeet repositories add an 8-second encoder for live input, which cuts live analysis time by about a third at the cost of a somewhat higher word error rate. The repository also has the conversion workflows, most of which follow FluidInference's mobius scripts, and checks each conversion against the original model. Downloads happen only when your app asks for them: about 600 MB for each Parakeet, plus about 590 MB for the live encoder, 0.9 to 2.4 GB for Qwen3-ASR, and about 250 MB for Sortformer. Files go in the standard Hugging Face cache, so a Mac app outside the sandbox shares them with Python and other Hugging Face tools. When you transcribe a conversation, you often want to know who said what. That's speaker diarization, and Apple's Speech framework doesn't have a module for it, so AnySpeechRecognizer adds one. SpeakerDiarizer runs NVIDIA's Streaming Sortformer on Core ML alongside an Apple or Parakeet transcriber, on the same timeline: let diarizer = SpeakerDiarizer(model: SortformerDiarizationModel()) if let request = try await AssetInventory.assetInstallationRequest( supporting: [transcriber, diarizer] ) { try await request.downloadAndInstall() } let analyzer = SpeechAnalyzer(modules: [transcriber, diarizer]) The diarizer tracks up to four speakers, even when they talk over each other. A SpeakerTimeline collects its results and attributes each timed word to a speaker, so you can print a transcript by speaker turn. Like image support in AnyLanguageModel, this goes beyond what Apple's API offers today. The diarizer uses Sortformer v2 by default. You can also choose v2.1, which NVIDIA trained with more meeting data and which was more accurate on meetings in our measurements, too. We measured the package with its hear command-line tool on an M4 Max Mac Studio with macOS 27.0.1. Here are the word error rates on LibriSpeech files of 3 to 8 minutes: Parakeet transcribes an hour of audio in about 20 to 40 seconds from a file, or about 1.5 to 2.5 minutes live, with about 100 MB of memory once Core ML has compiled the model. Qwen3-ASR is much slower and needs a few gigabytes of memory. Meetings are hard for everyone: on AMI recordings, where people talk over each other, every engine we tested had a word error rate above 23%. These numbers come from one machine and a few datasets, so measure with your own hardware and audio. hear evaluate works on your own files, and the repository's natural-speech-eval.py tool reproduces these measurements. So far, we've tested only on macOS 27, not on an iPhone. Next, we'd like to add more engines, including Core AI on macOS 27 and",
+      "title_zh": "Hugging Face 发布模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+          "source_url": "https://huggingface.co/blog/anydecisionmodel"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
+          "source_url": "https://huggingface.co/blog/anydecisionmodel"
+        }
+      ],
+      "slug": "introducing-anyspeechrecognizer-and-anydecisionmodel-open-models-for-spe-85d97525",
+      "localized_url": "/zh/items/2026-10-30/introducing-anyspeechrecognizer-and-anydecisionmodel-open-models-for-spe-85d97525/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "What I learned about power from LBJ and Robert Moses",
+      "title_original": "What I learned about power from LBJ and Robert Moses",
+      "title_en": "What I learned about power from LBJ and Robert Moses",
+      "summary_zh": "Dwarkesh Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Preparing to interview Robert Caro.",
+      "source_name": "Dwarkesh Podcast",
+      "source_url": "https://www.dwarkeshpatel.com/",
+      "original_url": "https://www.dwarkesh.com/p/lessons-in-power",
+      "published_at": "Thu, 29 Oct 2026 16:48:39 GMT",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "agi",
+        "economics",
+        "interview"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "ad9d884cc236",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Dwarkesh Podcast 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Dwarkesh Podcast，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：agi、economics、interview。"
+      ],
+      "background_zh": "这条内容来自 Dwarkesh Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "What I learned about power from LBJ and Robert Moses",
+          "source_url": "https://www.dwarkesh.com/p/lessons-in-power"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Preparing to interview Robert Caro.",
+          "source_url": "https://www.dwarkesh.com/p/lessons-in-power"
+        }
+      ],
+      "slug": "what-i-learned-about-power-from-lbj-and-robert-moses-ad9d884c",
+      "localized_url": "/zh/items/2026-10-30/what-i-learned-about-power-from-lbj-and-robert-moses-ad9d884c/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+      "title_original": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+      "title_en": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+      "summary_zh": "Benchmark 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
       "source_name": "Latent Space",
       "source_url": "https://www.latent.space/",
-      "original_url": "https://latent.space/p/supabase/",
-      "published_at": "Wed, 28 Oct 2026 19:48:05 GMT",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "original_url": "https://latent.space/p/elorian/",
+      "published_at": "Thu, 29 Oct 2026 16:00:00 GMT",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "Benchmark"
+      ],
+      "tags": [
+        "llm",
+        "agents",
+        "ai-engineering"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "2df0e95472f6",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Benchmark 讨论模型评测与研究方法",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Benchmark，核心变化集中在模型评测与研究方法。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：llm、agents、ai-engineering。",
+        "涉及公司或机构：Benchmark。"
+      ],
+      "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "benchmark",
+          "explanation": "用于衡量模型能力的任务集合或评测体系。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+          "source_url": "https://latent.space/p/elorian/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+          "source_url": "https://latent.space/p/elorian/"
+        }
+      ],
+      "slug": "can-frontier-models-see-past-a-decoy-elorian-tests-visual-reasoning-0328ce93",
+      "localized_url": "/zh/items/2026-10-30/can-frontier-models-see-past-a-decoy-elorian-tests-visual-reasoning-0328ce93/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "title_original": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "title_en": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "summary_zh": "Gemini 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+      "source_name": "Latent Space",
+      "source_url": "https://www.latent.space/",
+      "original_url": "https://latent.space/p/ainews-gemini-4-carbon/",
+      "published_at": "Thu, 29 Oct 2026 05:55:19 GMT",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
       "category": "podcasts-interviews",
       "people": [],
       "companies": [],
@@ -453,7 +683,7 @@
       "importance_score": 40.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "a075480e28a0",
+      "duplicate_group_id": "8266ea920e51",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -464,10 +694,10 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Latent Space 讨论AI 代理工程与工具调用能力",
+      "title_zh": "Gemini 发布行业访谈中的判断与经验",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
-        "主体是 Latent Space，核心变化集中在AI 代理工程与工具调用能力。",
+        "主体是 Gemini，核心变化集中在行业访谈中的判断与经验。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
         "相关标签包括：llm、agents、ai-engineering。"
@@ -487,166 +717,47 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Why Agents Love Supabase",
-          "source_url": "https://latent.space/p/supabase/"
+          "text": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+          "source_url": "https://latent.space/p/ainews-gemini-4-carbon/"
         },
         {
           "label": "公开摘要",
-          "text": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
-          "source_url": "https://latent.space/p/supabase/"
+          "text": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+          "source_url": "https://latent.space/p/ainews-gemini-4-carbon/"
         }
       ],
-      "slug": "why-agents-love-supabase-2ad8f77a",
-      "localized_url": "/zh/items/2026-10-29/why-agents-love-supabase-2ad8f77a/",
+      "slug": "ainews-gemini-4-carbon-tops-leaderboards-launches-for-cyber-defenders-78617a40",
+      "localized_url": "/zh/items/2026-10-30/ainews-gemini-4-carbon-tops-leaderboards-launches-for-cyber-defenders-78617a40/",
       "source_license_mode": "summary_only",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "title_original": "Gemini 4 Carbon: Our next frontier model",
-      "title_en": "Gemini 4 Carbon: Our next frontier model",
-      "summary_zh": "Gemini 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
-      "source_name": "Google DeepMind Podcast",
-      "source_url": "https://deepmind.google/discover/the-podcast/",
-      "original_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "published_at": "Wed, 28 Oct 2026 17:00:58 +0000",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "deepmind",
-        "research",
-        "podcast"
-      ],
-      "importance_score": 40.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "34b0bf3f94c3",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "Gemini 4 Carbon: our next frontier model",
-      "extracted_excerpt": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
-      "extracted_text_for_analysis": "Gemini 4 Carbon: our next frontier model Today, we’re announcing the next frontier model: Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities. Carbon ranks #1 on the recently updated v5.0 of Artificial Analysis Intelligence Index at 59. It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and CWE-bench (71.0%) for patching. On internal benchmarks, Carbon drives a strong uplift in generating secure code, and in live coding environments with our own teams it shows reduced misalignment and fabrication rates. Building on Gemini 4 Argon, which was launched two weeks ago, Carbon illustrates the pace at which we’re pushing the frontier forward. Our researchers and models are working hand in hand to advance capabilities faster, while strengthening our safeguards in tandem. We're taking a deliberate approach to rollout and are actively engaged in the U.S. government’s voluntary process for pre-release model testing. Starting this week, we will make Carbon available to a subset of cyber defenders and will gradually phase access to additional trusted partners through our Fairwind Program. We’re continuing to gather feedback and iterate on guardrails before making Carbon available to developers, businesses, and consumers via our product surfaces as soon as possible. Gemini 4 Carbon will launch at the same introductory price 1 as Argon at $2 per million input tokens and $10 per million output tokens, with cached input tokens priced at 95% off input token price. Improving coding and reasoning for challenging, long-horizon tasks Designed to take on much harder, long-horizon engineering problems, Carbon is built for sustained agentic workflows. Internally, our teams have seen Carbon run for days to persist through dead ends to tackle complex, multi-step engineering tasks like root-causing and patching subtle bugs across large codebases and low-level systems. Building on user feedback, we focused on improving model performance across a variety of domains, including coding, agentic, and scientific tasks, as well as full-stack web development and multimodal understanding. With improved quality of output and artifacts in web development, Carbon jumps +89 elo points to land at #4 (1768) on WebDev Arena. State-of-the-art cybersecurity performance to help build secure systems Gemini 4 Carbon delivers a significant leap in cybersecurity capabilities. It achieves state-of-the-art performance across the cybersecurity defense lifecycle — vulnerability detection, validation, and remediation. Our teams are already seeing strong gains in cyberdefense. On internal benchmarks, Carbon achieves more than 2x uplift in success rate for generating secure code over Argon. As another example, the Chrome team has reported that Carbon performed more than 10X better than another lab's large frontier model when generating high quality patches. Wiz, our leading Cloud security platform, also observes Carbon leading on benchmarks for web penetration testing, a core capability for Wiz's Scan for Good initiative. Carbon excels across key external benchmarks (evaluated without guardrails): - Finding real vulnerabilities: Core to cybersecurity defense is finding real vulnerabilities. Carbon achieves a state-of-the-art 88.2% on SEC-bench Pro, autonomously uncovering complex flaws buried in real-world software. - Validating risk through exploitation: To prioritize which vulnerabilities to remediate first or remediate at all, cyber defenders increasingly rely on models to check which vulnerabilities are exploitable. Carbon sets a new state-of-the-art on the popular exploitation benchmark ExploitGym (54.8%). - Patching at the root cause: Ultimately after identifying the vulnerabilities, fixing the root cause is a critical step in the cybersecurity defense lifecycle. Carbon reaches 71.0% on Collinear’s CWE-bench, turning validated findings directly into working code fixes. Advancing frontier model safety & security Gemini 4 Carbon builds on the same multi-layered safety and security stack of Argon — combining model training, real-time misuse defenses, prompt-injection resilience, and chain-of-thought monitoring. In particular, we made significant strides in model alignment with Argon, and reported its propensities to behave in an aligned way in our Safety and Security report. With Carbon, we challenged ourselves to go a step further on alignment, and trained the model to respond to complex or high-pressure tasks in the right way. - Reducing shortcuts and loophole exploitation: With Carbon, we further mitigated shortcut attempts in training while ensuring high-quality coding performance. Carbon reduced successful cheating on Terminal-Bench 4.0 to 0.0%, with attempts to cheat dropping to 0.4% — all while improving overall accuracy. In live coding environments with our internal teams, we observed that high-severity misalignment alerts dropped by almost 80%. - Greater transparency and honesty: In our internal testing, Carbon cuts unsupported claims by approximately 2x over Argon. It puts methodological caveats directly into the deliverable or withholds blocked actions with a clear list of what remains required, rather than fabricating or hedging around missing evidence. - Improved collaboration with the user in the face of ambiguity: Rather than guessing or forcing a path forward, Carbon retrieves the relevant sources and surfaces discrepancies to the user before acting — as a result, users should observe a much better collaborative experience with Carbon. - Following through without overstepping: Carbon simultaneously reduced overreach by 26% and under-service by 29% resulting in much more reliable execution of multi-step plans end-to-end while respecting project constraints and staying strictly within scope. - Resisting prompt injection: While Argon previously led the Gray Swan’s Indirect Prompt Injection (IPI) Benchmark in prompt injection resistance with a very low 0.7% attack success rate, Carbon achieves 0.0% — resisting every evaluated attack attempt. Coming soon to developers, businesses, and consumers Pushing the frontier forward requires moving fast while remaining deliberate about deployment. With Gemini 4 Carbon, our goal is to deliver meaningful leaps in software engineering and cybersecurity defense without compromising on safety or reliability. We’re eager to see how the initial cohort of cyber defenders use this model and we look forward to bringing Carbon to developers, businesses, and consumers soon.",
-      "title_zh": "Gemini 讨论行业访谈中的判断与经验",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 Gemini，核心变化集中在行业访谈中的判断与经验。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：deepmind、research、podcast。"
-      ],
-      "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Gemini 4 Carbon: Our next frontier model",
-          "source_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
-          "source_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
-        }
-      ],
-      "slug": "gemini-4-carbon-our-next-frontier-model-b0da25ea",
-      "localized_url": "/zh/items/2026-10-29/gemini-4-carbon-our-next-frontier-model-b0da25ea/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
-      "title_original": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
-      "title_en": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
-      "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
-      "source_name": "Lenny's Podcast",
-      "source_url": "https://www.lennysnewsletter.com/",
-      "original_url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
-      "published_at": "Wed, 28 Oct 2026 12:04:22 GMT",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "podcast",
-        "product",
-        "ai-products",
-        "startups"
-      ],
-      "importance_score": 40.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "f41fca18f2e5",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Claude 讨论行业访谈中的判断与经验",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：podcast、product、ai-products、startups。"
-      ],
-      "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
-          "source_url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
-          "source_url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet"
-        }
-      ],
-      "slug": "grok-vs-dot-vs-muse-vs-claude-duet-which-one-crushes-the-competition-f41fca18",
-      "localized_url": "/zh/items/2026-10-29/grok-vs-dot-vs-muse-vs-claude-duet-which-one-crushes-the-competition-f41fca18/",
-      "source_license_mode": "summary_only",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Introducing Virtual Models on AI Gateway",
-      "title_original": "Introducing Virtual Models on AI Gateway",
-      "title_en": "Introducing Virtual Models on AI Gateway",
-      "summary_zh": "Vercel AI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Today, we are introducing Virtual Models on AI Gateway . Virtual Models are an abstraction of the model string and configurations your apps and developers use. With a single virtual model ID, you can change and update models, configure fallbacks and priority,",
+      "title": "Strix now supports Vercel AI Gateway",
+      "title_original": "Strix now supports Vercel AI Gateway",
+      "title_en": "Strix now supports Vercel AI Gateway",
+      "summary_zh": "OpenAI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Strix , the open-source AI penetration testing tool, can now run on any of the 400+ models on Vercel AI Gateway . Strix can reach models from Anthropic, OpenAI, Kimi, GLM, Deepseek, and others through a single API with no markup, removing the need to sign up",
       "source_name": "Vercel AI",
       "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/blog/ai-gateway-virtual-models",
-      "published_at": "2026-10-28T07:25:00.000Z",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
-      "category": "models-products",
+      "original_url": "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway",
+      "published_at": "2026-10-29T18:44:00.000Z",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
+      "category": "company-industry",
       "people": [],
-      "companies": [],
+      "companies": [
+        "OpenAI",
+        "Anthropic",
+        "Vercel AI"
+      ],
       "tags": [
         "developer",
         "ai-sdk"
       ],
-      "importance_score": 36.0,
+      "importance_score": 40.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "4365c098a53f",
+      "duplicate_group_id": "1faf9450e69e",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
@@ -657,130 +768,57 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Vercel AI 发布开发者接口与平台能力",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "title_zh": "OpenAI 更新开发者接口与平台能力",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
       "key_points_zh": [
-        "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+        "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
+        "相关标签包括：developer、ai-sdk。",
+        "涉及公司或机构：OpenAI、Anthropic、Vercel AI。"
       ],
-      "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
       "terms_zh": [
         {
           "term": "SDK",
           "explanation": "供开发者集成能力的软件开发工具包。"
+        },
+        {
+          "term": "API",
+          "explanation": "让开发者通过程序调用模型或平台能力的接口。"
         }
       ],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Introducing Virtual Models on AI Gateway",
-          "source_url": "https://vercel.com/blog/ai-gateway-virtual-models"
+          "text": "Strix now supports Vercel AI Gateway",
+          "source_url": "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway"
         },
         {
           "label": "公开摘要",
-          "text": "Today, we are introducing Virtual Models on AI Gateway . Virtual Models are an abstraction of the model string and configurations your apps and developers use. With a single virtual model ID, you can change and update",
-          "source_url": "https://vercel.com/blog/ai-gateway-virtual-models"
+          "text": "Strix , the open-source AI penetration testing tool, can now run on any of the 400+ models on Vercel AI Gateway . Strix can reach models from Anthropic, OpenAI, Kimi, GLM, Deepseek, and others through a single API with",
+          "source_url": "https://vercel.com/changelog/strix-now-supports-vercel-ai-gateway"
         }
       ],
-      "slug": "introducing-virtual-models-on-ai-gateway-4365c098",
-      "localized_url": "/zh/items/2026-10-29/introducing-virtual-models-on-ai-gateway-4365c098/",
+      "slug": "strix-now-supports-vercel-ai-gateway-1faf9450",
+      "localized_url": "/zh/items/2026-10-30/strix-now-supports-vercel-ai-gateway-1faf9450/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Virtual models now available on AI Gateway",
-      "title_original": "Virtual models now available on AI Gateway",
-      "title_en": "Virtual models now available on AI Gateway",
-      "summary_zh": "Vercel AI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Virtual models are now available on AI Gateway . A virtual model is a saved configuration that tells AI Gateway which model and settings to use. Your apps and agents call it with a custom model ID, such as vmc/coding-agent . You can change the model or",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway",
-      "published_at": "2026-10-28T00:00:00.000Z",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 36.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "8281c6880123",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Vercel AI 发布代码评测可靠性问题",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 Vercel AI，核心变化集中在代码评测可靠性问题。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        },
-        {
-          "term": "coding",
-          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Virtual models now available on AI Gateway",
-          "source_url": "https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Virtual models are now available on AI Gateway . A virtual model is a saved configuration that tells AI Gateway which model and settings to use. Your apps and agents call it with a custom model ID, such as",
-          "source_url": "https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway"
-        }
-      ],
-      "slug": "virtual-models-now-available-on-ai-gateway-8281c688",
-      "localized_url": "/zh/items/2026-10-29/virtual-models-now-available-on-ai-gateway-8281c688/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Sakana API Platform、エンタープライズ向けにアーリーアクセスプログラムを開始",
-      "title_original": "Sakana API Platform、エンタープライズ向けにアーリーアクセスプログラムを開始",
-      "title_en": "Sakana API Platform、エンタープライズ向けにアーリーアクセスプログラムを開始",
-      "summary_zh": "管理画面のイメージ。*この画像は架空のデータを使ったイメージです。今後予告なく変更される可能性があります。",
-      "summary_en": "管理画面のイメージ。*この画像は架空のデータを使ったイメージです。今後予告なく変更される可能性があります。",
+      "title": "Intelligence Report: SNSのAI分析からみる米中間選挙",
+      "title_original": "Intelligence Report: SNSのAI分析からみる米中間選挙",
+      "title_en": "Intelligence Report: SNSのAI分析からみる米中間選挙",
+      "summary_zh": "Sakana AI Blog 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+      "summary_en": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
       "source_name": "Sakana AI Blog",
       "source_url": "https://sakana.ai/blog/",
-      "original_url": "https://sakana.ai/api-platform-earlyaccess/",
-      "published_at": "2026-10-28T00:00:00+09:00",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
-      "category": "models-products",
+      "original_url": "https://sakana.ai/us-midterms-analysis/",
+      "published_at": "2026-10-30T00:00:00+09:00",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
+      "category": "research-open-source",
       "people": [],
       "companies": [],
       "tags": [
@@ -791,7 +829,7 @@
       "importance_score": 36.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "4305bbb55025",
+      "duplicate_group_id": "fcf6901fbd72",
       "language": "en",
       "source_type": "research_lab",
       "translation_status": "fallback",
@@ -802,16 +840,16 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Sakana AI Blog 推进开发者接口与平台能力",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 Sakana AI Blog 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "title_zh": "Sakana AI Blog 推进研究与开源进展",
+      "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
       "key_points_zh": [
-        "主体是 Sakana AI Blog，核心变化集中在开发者接口与平台能力。",
+        "主体是 Sakana AI Blog，核心变化集中在研究与开源进展。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
         "相关标签包括：research、agents、japan。"
       ],
-      "background_zh": "这条内容来自 Sakana AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
       "terms_zh": [
         {
           "term": "AI Agent",
@@ -820,53 +858,49 @@
         {
           "term": "AI Agent",
           "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "API",
-          "explanation": "让开发者通过程序调用模型或平台能力的接口。"
         }
       ],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Sakana API Platform、エンタープライズ向けにアーリーアクセスプログラムを開始",
-          "source_url": "https://sakana.ai/api-platform-earlyaccess/"
+          "text": "Intelligence Report: SNSのAI分析からみる米中間選挙",
+          "source_url": "https://sakana.ai/us-midterms-analysis/"
         },
         {
           "label": "公开摘要",
-          "text": "管理画面のイメージ。*この画像は架空のデータを使ったイメージです。今後予告なく変更される可能性があります。",
-          "source_url": "https://sakana.ai/api-platform-earlyaccess/"
+          "text": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://sakana.ai/us-midterms-analysis/"
         }
       ],
-      "slug": "sakana-api-platform-6b9f8cff",
-      "localized_url": "/zh/items/2026-10-29/sakana-api-platform-6b9f8cff/",
+      "slug": "intelligence-report-snsai-620efb3a",
+      "localized_url": "/zh/items/2026-10-30/intelligence-report-snsai-620efb3a/",
       "source_license_mode": "summary_only",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "The Brutal Reality of Building Agentic Products Today with Daniel Jeffries - #782",
-      "title_original": "The Brutal Reality of Building Agentic Products Today with Daniel Jeffries - #782",
-      "title_en": "The Brutal Reality of Building Agentic Products Today with Daniel Jeffries - #782",
-      "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "AI agents are becoming accessible to everyone, raising the bar for developers building the next generation of agent products. When capable, general-purpose agents are available out of the box, differentiation increasingly comes down to the architectural",
-      "source_name": "TWIML AI Podcast",
-      "source_url": "https://twimlai.com/podcast/twimlai/",
-      "original_url": "https://twimlai.com/podcast/twimlai/brutal-reality-building-agentic-products-today",
-      "published_at": "Wed, 28 Oct 2026 14:35:00 -0000",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "title": "Why AI Hackers Still Fall for Simple Traps",
+      "title_original": "Why AI Hackers Still Fall for Simple Traps",
+      "title_en": "Why AI Hackers Still Fall for Simple Traps",
+      "summary_zh": "Big Technology Podcast 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Horizon3 CEO Snehal Antani on AI cybersecurity hype, the real danger of faster exploits, and why agents should be treated as insider threats.",
+      "source_name": "Big Technology Podcast",
+      "source_url": "https://www.bigtechnology.com/",
+      "original_url": "https://www.bigtechnology.com/p/why-ai-hackers-still-fall-for-simple",
+      "published_at": "Thu, 29 Oct 2026 19:18:46 GMT",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
       "category": "podcasts-interviews",
       "people": [],
       "companies": [],
       "tags": [
-        "ml",
-        "podcast",
-        "research"
+        "tech-media",
+        "ai",
+        "interview"
       ],
       "importance_score": 32.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "f281e257f101",
+      "duplicate_group_id": "cddf77d4ea0d",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -877,15 +911,15 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "TWIML AI Podcast 讨论AI 代理工程与工具调用能力",
+      "title_zh": "Big Technology Podcast 讨论政府与国家安全合作原则",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
-        "主体是 TWIML AI Podcast，核心变化集中在AI 代理工程与工具调用能力。",
+        "主体是 Big Technology Podcast，核心变化集中在政府与国家安全合作原则。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：ml、podcast、research。"
+        "相关标签包括：tech-media、ai、interview。"
       ],
-      "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
       "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
       "terms_zh": [
         {
@@ -900,45 +934,46 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "The Brutal Reality of Building Agentic Products Today with Daniel Jeffries - #782",
-          "source_url": "https://twimlai.com/podcast/twimlai/brutal-reality-building-agentic-products-today"
+          "text": "Why AI Hackers Still Fall for Simple Traps",
+          "source_url": "https://www.bigtechnology.com/p/why-ai-hackers-still-fall-for-simple"
         },
         {
           "label": "公开摘要",
-          "text": "AI agents are becoming accessible to everyone, raising the bar for developers building the next generation of agent products. When capable, general-purpose agents are available out of the box, differentiation",
-          "source_url": "https://twimlai.com/podcast/twimlai/brutal-reality-building-agentic-products-today"
+          "text": "Horizon3 CEO Snehal Antani on AI cybersecurity hype, the real danger of faster exploits, and why agents should be treated as insider threats.",
+          "source_url": "https://www.bigtechnology.com/p/why-ai-hackers-still-fall-for-simple"
         }
       ],
-      "slug": "the-brutal-reality-of-building-agentic-products-today-with-daniel-jeffri-f281e257",
-      "localized_url": "/zh/items/2026-10-29/the-brutal-reality-of-building-agentic-products-today-with-daniel-jeffri-f281e257/",
+      "slug": "why-ai-hackers-still-fall-for-simple-traps-cddf77d4",
+      "localized_url": "/zh/items/2026-10-30/why-ai-hackers-still-fall-for-simple-traps-cddf77d4/",
       "source_license_mode": "summary_only",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Vercel CI is now in beta",
-      "title_original": "Vercel CI is now in beta",
-      "title_en": "Vercel CI is now in beta",
-      "summary_zh": "Vercel 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "You can now run CI for your Turborepo with one line of configuration. In Vercel's internal repositories, our wait time from git push to \"CI passed\" is 2-6x shorter, dramatically improving our CI's ability to keep up with our coding agents. To get started,",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/vercel-ci-is-now-in-beta",
-      "published_at": "2026-10-28T19:00:00.000Z",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
-      "category": "company-industry",
+      "title": "Abundant Intelligence at the Midwest AI Summit",
+      "title_original": "Abundant Intelligence at the Midwest AI Summit",
+      "title_en": "Abundant Intelligence at the Midwest AI Summit",
+      "summary_zh": "Practical AI 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "In this special episode, we bring you highlights from three talks at the Midwest AI Summit. Heidi Porter explores how to build reliable AI-augmented workflows using the right tools, evaluations, and guardrails. Kevin Solorio shares why building AI with",
+      "source_name": "Practical AI",
+      "source_url": "https://changelog.com/practicalai",
+      "original_url": "https://share.transistor.fm/s/37a0c3e9",
+      "published_at": "Thu, 29 Oct 2026 05:00:00 -0400",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
+      "category": "podcasts-interviews",
       "people": [],
       "companies": [],
       "tags": [
-        "developer",
-        "ai-sdk"
+        "ml",
+        "engineering",
+        "podcast"
       ],
-      "importance_score": 24.0,
+      "importance_score": 32.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "5028d62dc09b",
+      "duplicate_group_id": "0a7d4dd62c31",
       "language": "en",
-      "source_type": "company_blog",
+      "source_type": "podcast",
       "translation_status": "fallback",
       "extraction_status": "partial",
       "quality_warnings": [
@@ -947,137 +982,46 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Vercel 推进代码评测可靠性问题",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "title_zh": "Practical AI 讨论模型评测与研究方法",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
-        "主体是 Vercel，核心变化集中在代码评测可靠性问题。",
+        "主体是 Practical AI，核心变化集中在模型评测与研究方法。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
+        "相关标签包括：ml、engineering、podcast。"
       ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        },
-        {
-          "term": "coding",
-          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
-        }
-      ],
+      "background_zh": "这条内容来自 Practical AI，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Vercel CI is now in beta",
-          "source_url": "https://vercel.com/changelog/vercel-ci-is-now-in-beta"
+          "text": "Abundant Intelligence at the Midwest AI Summit",
+          "source_url": "https://share.transistor.fm/s/37a0c3e9"
         },
         {
           "label": "公开摘要",
-          "text": "You can now run CI for your Turborepo with one line of configuration. In Vercel's internal repositories, our wait time from git push to \"CI passed\" is 2-6x shorter, dramatically improving our CI's ability to keep up",
-          "source_url": "https://vercel.com/changelog/vercel-ci-is-now-in-beta"
+          "text": "In this special episode, we bring you highlights from three talks at the Midwest AI Summit. Heidi Porter explores how to build reliable AI-augmented workflows using the right tools, evaluations, and guardrails. Kevin",
+          "source_url": "https://share.transistor.fm/s/37a0c3e9"
         }
       ],
-      "slug": "vercel-ci-is-now-in-beta-5028d62d",
-      "localized_url": "/zh/items/2026-10-29/vercel-ci-is-now-in-beta-5028d62d/",
-      "source_license_mode": "official_public",
+      "slug": "abundant-intelligence-at-the-midwest-ai-summit-0a7d4dd6",
+      "localized_url": "/zh/items/2026-10-30/abundant-intelligence-at-the-midwest-ai-summit-0a7d4dd6/",
+      "source_license_mode": "summary_only",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Box Mount now runs in Vercel Sandbox",
-      "title_original": "Box Mount now runs in Vercel Sandbox",
-      "title_en": "Box Mount now runs in Vercel Sandbox",
-      "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Box Mount lets agents running in Vercel Sandbox read and write Box files through standard filesystem operations. It syncs a Box folder with a directory inside the sandbox. Unmount before you stop the sandbox, and everything the agent wrote is in Box after the",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/box-mount-now-runs-in-vercel-sandbox",
-      "published_at": "2026-10-28T18:00:00.000Z",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "e54f187dc4e4",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Box Mount now runs in Vercel Sandbox",
-          "source_url": "https://vercel.com/changelog/box-mount-now-runs-in-vercel-sandbox"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Box Mount lets agents running in Vercel Sandbox read and write Box files through standard filesystem operations. It syncs a Box folder with a directory inside the sandbox. Unmount before you stop the sandbox, and",
-          "source_url": "https://vercel.com/changelog/box-mount-now-runs-in-vercel-sandbox"
-        }
-      ],
-      "slug": "box-mount-now-runs-in-vercel-sandbox-e54f187d",
-      "localized_url": "/zh/items/2026-10-29/box-mount-now-runs-in-vercel-sandbox-e54f187d/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Vercel Container Registry now supports 2 GB compressed image layers",
-      "title_original": "Vercel Container Registry now supports 2 GB compressed image layers",
-      "title_en": "Vercel Container Registry now supports 2 GB compressed image layers",
+      "title": "IP geolocation now covers more visitors at higher resolution",
+      "title_original": "IP geolocation now covers more visitors at higher resolution",
+      "title_en": "IP geolocation now covers more visitors at higher resolution",
       "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Vercel Container Registry now supports up to 2 GB per compressed image layer, up from 500 MB, allowing larger layers to be pushed without splitting them. The total image size limit remains 15 GB. The higher layer limit is useful for images with large",
+      "summary_en": "IP geolocation on Vercel now resolves visitor locations with finer network granularity, delivering city-level data for nearly all requests and postal-code data for 90% of traffic. Geolocation data is now refreshed more often, so locations keep up as IP ranges",
       "source_name": "Vercel AI",
       "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new",
-      "published_at": "2026-10-28T09:32:00.000Z",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "original_url": "https://vercel.com/changelog/improved-ip-geolocation-data",
+      "published_at": "2026-10-29T17:00:00.000Z",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
       "category": "company-industry",
       "people": [],
       "companies": [],
@@ -1088,7 +1032,7 @@
       "importance_score": 24.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "01436ecab4c5",
+      "duplicate_group_id": "c5b513e91ecb",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
@@ -1099,7 +1043,7 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Vercel 更新AI 产业与产品变化",
+      "title_zh": "Vercel 推进AI 产业与产品变化",
       "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
       "key_points_zh": [
         "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
@@ -1118,32 +1062,32 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Vercel Container Registry now supports 2 GB compressed image layers",
-          "source_url": "https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new"
+          "text": "IP geolocation now covers more visitors at higher resolution",
+          "source_url": "https://vercel.com/changelog/improved-ip-geolocation-data"
         },
         {
           "label": "公开摘要",
-          "text": "Vercel Container Registry now supports up to 2 GB per compressed image layer, up from 500 MB, allowing larger layers to be pushed without splitting them. The total image size limit remains 15 GB. The higher layer limit",
-          "source_url": "https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new"
+          "text": "IP geolocation on Vercel now resolves visitor locations with finer network granularity, delivering city-level data for nearly all requests and postal-code data for 90% of traffic. Geolocation data is now refreshed more",
+          "source_url": "https://vercel.com/changelog/improved-ip-geolocation-data"
         }
       ],
-      "slug": "vercel-container-registry-now-supports-2-gb-compressed-image-layers-01436eca",
-      "localized_url": "/zh/items/2026-10-29/vercel-container-registry-now-supports-2-gb-compressed-image-layers-01436eca/",
+      "slug": "ip-geolocation-now-covers-more-visitors-at-higher-resolution-c5b513e9",
+      "localized_url": "/zh/items/2026-10-30/ip-geolocation-now-covers-more-visitors-at-higher-resolution-c5b513e9/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Introducing Vercel CI",
-      "title_original": "Introducing Vercel CI",
-      "title_en": "Introducing Vercel CI",
-      "summary_zh": "Vercel 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Coding agents are opening more pull requests than ever, and each one waits on CI before anyone can review or merge it. Most CI systems run the entire workflow on every push, even a one-line change. The more your agents push, the more time you spend waiting on",
+      "title": "Vercel Flags starts 7x faster and no longer extends function duration",
+      "title_original": "Vercel Flags starts 7x faster and no longer extends function duration",
+      "title_en": "Vercel Flags starts 7x faster and no longer extends function duration",
+      "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "On Vercel, the Vercel Flags SDK now initializes faster on cold starts, and usage reporting no longer keeps functions running after the response. Faster cold starts Two changes speed up SDK initialization on cold starts: The SDK loads and parses the flags",
       "source_name": "Vercel AI",
       "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/blog/introducing-vercel-ci",
-      "published_at": "2026-10-28T07:00:00.000Z",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
+      "original_url": "https://vercel.com/changelog/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration",
+      "published_at": "2026-10-29T06:00:00.000Z",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
       "category": "company-industry",
       "people": [],
       "companies": [],
@@ -1154,7 +1098,7 @@
       "importance_score": 24.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "1cbf72ccb707",
+      "duplicate_group_id": "2a82b319b31a",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
@@ -1165,10 +1109,76 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Vercel 发布代码评测可靠性问题",
+      "title_zh": "Vercel 更新开发者接口与平台能力",
       "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
       "key_points_zh": [
-        "主体是 Vercel，核心变化集中在代码评测可靠性问题。",
+        "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Vercel Flags starts 7x faster and no longer extends function duration",
+          "source_url": "https://vercel.com/changelog/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration"
+        },
+        {
+          "label": "公开摘要",
+          "text": "On Vercel, the Vercel Flags SDK now initializes faster on cold starts, and usage reporting no longer keeps functions running after the response. Faster cold starts Two changes speed up SDK initialization on cold starts:",
+          "source_url": "https://vercel.com/changelog/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration"
+        }
+      ],
+      "slug": "vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration-2a82b319",
+      "localized_url": "/zh/items/2026-10-30/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration-2a82b319/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "The fx adapter now runs the harness on the host",
+      "title_original": "The fx adapter now runs the harness on the host",
+      "title_en": "The fx adapter now runs the harness on the host",
+      "summary_zh": "Vercel AI 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "The fx adapter for the AI SDK’s HarnessAgent now uses libfx , the TypeScript library for fx. The harness and model requests run in your application’s process, while built-in filesystem and shell operations remain isolated in the sandbox. This simplifies",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/fx-harness-adapter-now-separates-host-and-sandbox",
+      "published_at": "2026-10-29T06:00:00.000Z",
+      "fetched_at": "2026-10-30T01:59:25.352542+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "4a543f006c51",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel AI 推进AI 代理工程与工具调用能力",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel AI，核心变化集中在AI 代理工程与工具调用能力。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
         "相关标签包括：developer、ai-sdk。"
@@ -1181,91 +1191,6 @@
           "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
         },
         {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        },
-        {
-          "term": "coding",
-          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Introducing Vercel CI",
-          "source_url": "https://vercel.com/blog/introducing-vercel-ci"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Coding agents are opening more pull requests than ever, and each one waits on CI before anyone can review or merge it. Most CI systems run the entire workflow on every push, even a one-line change. The more your agents",
-          "source_url": "https://vercel.com/blog/introducing-vercel-ci"
-        }
-      ],
-      "slug": "introducing-vercel-ci-1cbf72cc",
-      "localized_url": "/zh/items/2026-10-29/introducing-vercel-ci-1cbf72cc/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Run Paseo agents on Vercel Sandbox",
-      "title_original": "Run Paseo agents on Vercel Sandbox",
-      "title_en": "Run Paseo agents on Vercel Sandbox",
-      "summary_zh": "Claude 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Paseo now supports running fx, Codex, Claude Code, OpenCode, and Pi in the cloud with the Vercel Sandbox plugin . You can now start an agent in Vercel Sandbox from Paseo on your laptop, then connect from your phone to control the same session, even when your",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/run-paseo-agents-on-vercel-sandbox",
-      "published_at": "2026-10-28T00:00:00.000Z",
-      "fetched_at": "2026-10-29T01:50:22.455207+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [
-        "Vercel AI"
-      ],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "80c2ca65a582",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Claude 推进AI 代理工程与工具调用能力",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Claude，核心变化集中在AI 代理工程与工具调用能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。",
-        "涉及公司或机构：Vercel AI。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
           "term": "SDK",
           "explanation": "供开发者集成能力的软件开发工具包。"
         }
@@ -1273,17 +1198,17 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Run Paseo agents on Vercel Sandbox",
-          "source_url": "https://vercel.com/changelog/run-paseo-agents-on-vercel-sandbox"
+          "text": "The fx adapter now runs the harness on the host",
+          "source_url": "https://vercel.com/changelog/fx-harness-adapter-now-separates-host-and-sandbox"
         },
         {
           "label": "公开摘要",
-          "text": "Paseo now supports running fx, Codex, Claude Code, OpenCode, and Pi in the cloud with the Vercel Sandbox plugin . You can now start an agent in Vercel Sandbox from Paseo on your laptop, then connect from your phone to",
-          "source_url": "https://vercel.com/changelog/run-paseo-agents-on-vercel-sandbox"
+          "text": "The fx adapter for the AI SDK’s HarnessAgent now uses libfx , the TypeScript library for fx. The harness and model requests run in your application’s process, while built-in filesystem and shell operations remain",
+          "source_url": "https://vercel.com/changelog/fx-harness-adapter-now-separates-host-and-sandbox"
         }
       ],
-      "slug": "run-paseo-agents-on-vercel-sandbox-80c2ca65",
-      "localized_url": "/zh/items/2026-10-29/run-paseo-agents-on-vercel-sandbox-80c2ca65/",
+      "slug": "the-fx-adapter-now-runs-the-harness-on-the-host-4a543f00",
+      "localized_url": "/zh/items/2026-10-30/the-fx-adapter-now-runs-the-harness-on-the-host-4a543f00/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
