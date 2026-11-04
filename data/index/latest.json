@@ -1,163 +1,35 @@
 {
-  "date": "2026-11-03",
-  "title_zh": "AI 新闻简报 · 2026-11-03",
-  "title_en": "English AI News Brief · 2026-11-03",
-  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 130 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
-  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 130 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+  "date": "2026-11-04",
+  "title_zh": "AI 新闻简报 · 2026-11-04",
+  "title_en": "English AI News Brief · 2026-11-04",
+  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 127 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 127 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
   "source_count": 181,
   "candidate_count": 152,
-  "skipped_history_count": 130,
+  "skipped_history_count": 127,
   "selected_count": 18,
   "categories": [
     "company-industry",
     "models-products",
-    "podcasts-interviews",
-    "research-open-source"
+    "podcasts-interviews"
   ],
   "category_labels_zh": {
     "company-industry": "公司与产业",
     "models-products": "模型与产品",
-    "podcasts-interviews": "访谈与播客",
-    "research-open-source": "研究与开源"
+    "podcasts-interviews": "访谈与播客"
   },
   "items": [
     {
-      "title": "Rewarding defenders with bigger bug bounties",
-      "title_original": "Rewarding defenders with bigger bug bounties",
-      "title_en": "Rewarding defenders with bigger bug bounties",
-      "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "published_at": "Mon, 02 Nov 2026 18:00:00 GMT",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "6fd6ad7938fa",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "Rewarding defenders with bigger bug bounties",
-      "extracted_excerpt": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "extracted_text_for_analysis": "We’re raising rewards in OpenAI’s Security Bug Bounty program to further encourage independent researchers to pursue vulnerabilities in OpenAI software that our testing may have missed. We’re also introducing new incentives for researchers to earn more for higher quality vulnerability reports. Independent security researchers play an essential role in protecting technology across the industry. At OpenAI, incentivizing responsible disclosure is a core part of our security model, complementing our Defense Factory work, where our engineers use our models to find weaknesses, reproduce them, and test fixes. Today’s updates are designed to encourage and empower researchers, and to continue building a collaborative, community-first security environment. We’re more than quadrupling the midpoint of our reward ranges for medium, high, and critical findings on average. A critical vulnerability in a core product such as ChatGPT, Codex, or the API Platform will now earn up to $30,000. Exceptional critical findings on those targets remain eligible for up to $100,000, and now up to $172,000 with bonuses. The full details are available in our security bug bounty program(opens in a new window). High-quality reports will be eligible to earn a bonus multiplier on the base bounty. A reliable proof of concept that isolates the bug, shows when it can be exploited, and demonstrates its impact gives us a head start on a fix. The quality multiplier recognizes the extra work that makes a finding especially useful. To build long-term relationships and continuously empower our security community, we are introducing a tiered loyalty bonus program. This 5-tier system provides scaling bonuses to recognize, support, and celebrate researchers who consistently partner with us in making AI technology safer for everyone. To support community engagement as technology evolves, priority campaigns will feature dedicated bonus pools for newly launched features. These short-term campaigns give researchers early, high-reward opportunities to test new developments and be recognized for their early contributions. All scenarios and historical awards are illustrative. If you’ve already submitted a report and we haven’t yet awarded a bounty, we’ll apply the new reward ranges. For bounties we awarded in the 30 days before this announcement, we’ll pay you the difference if your finding would have earned more under the new ranges (Base Award + Loyalty Awards). On November 20–21, our security team will be at PROMPT2PWN(opens in a new window) in Oakland, where researchers can test targets in person. If you’ll be there, we’d love to hear what you’ve been working on and how to partner with you. Thank you to everyone who has taken the time to investigate a lead and report it to us. We want OpenAI to be a team you come back to when you find something we’ve missed.",
-      "title_zh": "OpenAI 推进政府与国家安全合作原则",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Rewarding defenders with bigger bug bounties",
-          "source_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
-        },
-        {
-          "label": "公开摘要",
-          "text": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-          "source_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
-        }
-      ],
-      "slug": "rewarding-defenders-with-bigger-bug-bounties-6fd6ad79",
-      "localized_url": "/zh/items/2026-11-03/rewarding-defenders-with-bigger-bug-bounties-6fd6ad79/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "title_original": "Preparing our next security sprint to harden OpenAI",
-      "title_en": "Preparing our next security sprint to harden OpenAI",
-      "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "published_at": "Mon, 02 Nov 2026 18:00:00 GMT",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "262cfa35f430",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "Preparing our next security sprint to harden OpenAI",
-      "extracted_excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "extracted_text_for_analysis": "We’re planning our next internal security sprint at OpenAI, bringing new researchers and security partners together with our own teams to use our models to test and strengthen our systems. We’re partnering with Cathedral, whose researchers will use OpenAI’s models alongside our teams to challenge our defenses, bringing differentiated expertise and approaches to finding weaknesses and helping us protect our platforms. We’re also making improvements to our Security Bug Bounty program including more than quadrupling our rewards for critical findings. We want researchers to challenge our assumptions and help strengthen both our systems and the methods we use to defend them. This is part of our ongoing effort to use AI to continuously find and fix weaknesses in our systems. Our last sprint showed what this approach can deliver. We dedicated 25% of our product engineers to finding and fixing weaknesses in our systems. Using Codex, engineers investigated findings, reproduced vulnerabilities in isolated environments and prepared patches for review. We’re building on that work because traditional cyber defenses alone are no longer sufficient. Recent incidents across the industry show how quickly threats can emerge and how important it is to build continuous defensive loops to find and fix weaknesses before attackers do. Keeping the defender’s window open requires organizations to use frontier cyber capabilities to harden their systems. We’re using our most capable models to strengthen our own defenses and making them available to Daybreak customers. We’ve committed $1 billion in subsidized access over six months for frontline defenders protecting essential services and digital infrastructure. We’re also sharing our architecture and lessons from the last sprint, alongside our blueprint for empowering cyber defenders across industry and government. We’ll keep advancing our models, using them to strengthen our own systems, and expanding access for trusted defenders. Keeping the defender’s window open will take action across the industry, and that work needs to start now.",
-      "title_zh": "OpenAI 推进政府与国家安全合作原则",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Preparing our next security sprint to harden OpenAI",
-          "source_url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"
-        },
-        {
-          "label": "公开摘要",
-          "text": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-          "source_url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"
-        }
-      ],
-      "slug": "preparing-our-next-security-sprint-to-harden-openai-262cfa35",
-      "localized_url": "/zh/items/2026-11-03/preparing-our-next-security-sprint-to-harden-openai-262cfa35/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Scaling Git at OpenAI",
-      "title_original": "Scaling Git at OpenAI",
-      "title_en": "Scaling Git at OpenAI",
+      "title": "Accelerating engineering for the physical world",
+      "title_original": "Accelerating engineering for the physical world",
+      "title_en": "Accelerating engineering for the physical world",
       "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "summary_en": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "source_name": "OpenAI News",
       "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/scaling-git-at-openai",
-      "published_at": "Mon, 02 Nov 2026 15:30:00 GMT",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
+      "original_url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "published_at": "Tue, 03 Nov 2026 12:00:00 GMT",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
       "category": "models-products",
       "people": [],
       "companies": [
@@ -171,15 +43,15 @@
       "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "de4cf53f9db9",
+      "duplicate_group_id": "26c6032e1d26",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
       "extraction_status": "success",
       "quality_warnings": [],
-      "extracted_title": "Scaling Git at OpenAI",
-      "extracted_excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-      "extracted_text_for_analysis": "Over the past year, the size and demands on our monorepo have increased at a staggering pace. It was clear that we needed to revamp our source control system to scale to the level of concurrent work that Codex makes possible. We built Pando, a new backend for Git repositories, without interrupting any engineering work or changing how our team uses Git. Pando now powers all development in OpenAI’s monorepo. Pando is designed to meet two ambitious goals: first, horizontally scalable writes, optimized for concurrent pushes to many branches. And second, maximize read throughput, so clients can download data fast enough to fully saturate their available network bandwidth. We met these goals while retaining compatibility with the Git protocol and client, enabling both our engineers and agents to seamlessly adopt Pando into their existing workflows. In production, Pando cut median push latency by nearly 5x. It now delivers nearly a petabyte of Git data per day. Here, we’ll cover our motivations for building a new source-control system, along with why we chose to retain compatibility with Git. We’ll compare our system with common approaches to scaling Git, describing why Pando is uniquely capable of meeting OpenAI’s scalability needs. We also discuss what’s next, and how we’ll continue contributing to Git to support agent-scale work. Codex has changed the scale and pace of development at OpenAI, enabling engineers to do far more work in parallel. That means more branches and pushes, more merges, and more fetches and clones from development environments, research jobs, and CI. These demands compound. One engineer now has several changes ready for CI at once, and each push can set several jobs fetching the same commit. Starting around the end of last year, the systems supporting our monorepo were struggling to keep up. We suffered slow fetches and pushes along with failed merges, with reliability at times falling below 90%. Had we reached a limit of Git itself, or of the way we served our monorepo? Git grew out of a community that exchanged patches to the kernel via email. For more than two decades, developers have adapted their tools around Git as the way they build software has changed. When we started to feel friction in our own monorepo, it mattered to us that we could keep building on that work. We saw a way to keep that familiar workflow while rebuilding the backend to handle pushes to different branches in parallel and serve the same history to many readers concurrently. Building on Git as the foundation of our source-control workflow meant that improvements to the client could be useful beyond OpenAI. We wanted to contribute those improvements from our copy of Git(opens in a new window) to upstream, sharing them with the broader community. Scaling a source control system has two essential dimensions: many writers pushing to different branches, and many readers fetching the same history. Pando optimizes for both. First, Pando coordinates updates to each branch independently. Updates to unrelated branches can proceed in parallel, and a reader fetching a branch gets the history needed for that revision. The tradeoff is that a reader looking at several branches can see them at different points of time. Second, Pando reuses packfiles (Git’s format for compressing multiple objects together) across fetches instead of generating an individual packfile for each client. A client may download some objects it already has, but the server can serve the same bytes to many clients with little computation. These choices let us scale writes across branches and serve reads from caches. To see how they fit together, let’s start with how Git stores and transfers history. Git must be able to keep two parts of a repository in sync: objects and references. A Git repository records snapshots of files and the history connecting them as a graph of objects. An object may be either a blob, tree, commit, or tag. Blobs hold the content of an individual file, and trees associate names with blobs or other trees to form a directory structure. Commits point to a root tree and zero or more parent commits, forming the history of your repository. Objects are identified by a hash of their type and contents. Objects are also immutable: recording a changed file creates a new blob, while unchanged files and directories can reuse existing objects. Branches and tags are references, or “refs”, that point to commits. Committing on a branch creates a new commit and updates the branch’s ref to point to it. Git stores objects in either a “loose” or “packed” state. Loose objects are stored in individual files identified by their object ID. Packed objects are stored together in a packfile, enabling similar objects to be stored as deltas against one another. In Git, an object is reachable from a commit if Git can find it by following links from that commit through its parents, trees, and blobs. During a fetch, the client tells the server which commits it wants and which it already has. The server finds the objects reachable from the wanted commits, excludes those it knows the client already has, and sends the remainder as a packfile in the same format Git uses on disk. A full clone starts without any objects, so it needs all the objects reachable from the history being cloned. A push transfers objects in the other direction by asking the server to update one or more refs. The client uses the server’s set of advertised refs to avoid sending objects the server already has. The pack being sent can therefore depend on existing objects: receiving the pack alone is not enough to reconstruct the new history. Replicating a Git repository means keeping both objects and references available across multiple servers. Before a replica can serve a reference’s new value, it must be able to supply the objects reachable from that value. The service also needs to coordinate competing reference updates, i.e., pushes that try to move the same branch from the same old tip to different new commits. Systems that impose a single order on all writes to a repository can make pushes to unrelated branches wait on one another. While designing Pando, we evaluated conventional approaches for scaling source control using Git: one that coordinates ref updates across repository replicas using three-phase commit (3PC, a protocol for coordinating a commit across multiple nodes), and one that orders updates through a shared write-ahead log (WAL, a record of changes written before they’re applied) in blob storage. In the three-phase commit design we modeled, the Git service keeps a complete copy of the repository on several replicas. When any server receives a push, the incoming packfile is copied and sent to all replicas in parallel. To publish the push, a majority of replicas must accept the ref update. The server managing this is the coordinator, and it requires multiple rounds of communication between the coordinator and each other replica. To accept a",
+      "extracted_title": "Accelerating engineering for the physical world",
+      "extracted_excerpt": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "extracted_text_for_analysis": "Today, we’re sharing advances in how OpenAI models help engineers design, simulate, and build physical products. These capabilities span mechanical and electrical engineering and end-to-end system design, and are already helping our internal teams test ideas and iterate faster. Across these projects, engineers need to bring together mechanical designs, electronics, software, and manufacturing requirements using specialized tools. We’re teaching models to support that work, from preparing drawings and setting up simulations to coordinating changes across disciplines. Our goal is to give engineers more time to explore ideas and improve designs. Over the past year, improved frontier model capabilities have helped our internal teams test new ideas and iterate faster, and we are seeing early evidence of these capabilities improving professional workflows in industry as well. We’re working with collaborators to understand where these capabilities can make the biggest difference and what needs to improve. If you’re an engineer, engineering firm, or software vendor involved in the design, simulation, manufacturing, or production of complex physical products, we’d love to work with you to shape this effort around the tools you use and the problems you need to solve. We tested Astra’s state-of-the-art performance in multimodal and computer use workflows by seeing if we can create a device without any direct human edits. To do this, we used GPT‑6 to define the functional requirements and design the enclosure, printed circuit board (PCB), and software integrations needed to create a device users can use to talk to Codex. - Aesthetics and design: Astra developed the look of the device, drawing on our recent Work Louder(opens in a new window) collaboration and references from games and toys. - Mechanical design: Astra designed the enclosure(opens in a new window) and the internal structures that hold the components in place. - Electrical design: Astra selected the electrical components and designed the printed circuit board (PCB), including component placement and connections, to fit within the enclosure. - UI/UX and software: Astra designed the user interface and generated the firmware and software integrations needed to connect the device to Codex. Two team members designed this test device with Astra in under a week while working on it as a side project. A contract manufacturer built a small batch of prototypes in under a month. Getting the device ready for manufacturing still required several rounds of review and iteration. Astra did not consistently account for the manufacturer’s production limits, tolerances, or details required for assembly. These gaps are helping us identify what future models need to do better. OpenAI’s hardware and infrastructure teams use Codex and ChatGPT to create and revise computer-aided design (CAD) models, prepare manufacturing drawings, set up simulations, and review designs. This work spans robotics and compute infrastructure. Since February, model usage across our hardware teams, measured in tokens, has grown 23-fold. We’re also measuring progress in newer models on tasks that combine coding with engineering knowledge. BenchCAD 2.0 tests whether models can reconstruct 3D parts and assemblies and identify connections in circuit boards. A newer internal model achieved an average score of 0.875, compared with 0.594 for GPT‑6 Astra at its highest reasoning setting. While the engineering lifecycle includes many other elements beyond design, we view improvements in capability here as early evidence of the ability of AI models to positively impact iteration speed for professional workflows. We’re working with a small group of industry collaborators to test these capabilities on real engineering problems. Their engineers review model outputs for accuracy and practical use, helping us understand which tasks models can support today and what needs to be improved for safe and reliable use. We’re expanding our collaboration with Chip Ganassi Racing (CGR) to explore how OpenAI models can accelerate engineering and prototyping. Working with its R&D team, we’re testing workflows that turn 3D scans of existing parts into editable CAD models and 2D manufacturing drawings. This is particularly useful when the original design files are unavailable. CGR engineers review the models and drawings for accuracy and manufacturability. Their feedback helps us identify where models can reduce manual work and where further improvements are needed. We’re also announcing a new research collaboration with Mazda. Our research and Forward Deployed Engineering teams are working with Mazda’s aerodynamics and crash-safety engineers to explore how OpenAI models can help develop and evaluate new vehicle designs. The work uses simulations of airflow and structural behavior to explore improvements in performance while accounting for styling and cost. We’ll share more progress and results in the coming months. We have been working closely with industry partners and early adopters to push the bounds of what we can do with AI agents in hardware and manufacturing. These early results have shown exciting promise, and we’re now looking for collaborators to accelerate these capability improvements and ensure we deploy these safely into industry. If you are interested in working with us to shape the training and development of our frontier models by identifying high-value use cases, software tooling, or future opportunities in mechanical engineering, electrical engineering, electromechanical design, mechatronics, or a related field, please fill out this form and we'll be in touch.",
       "title_zh": "OpenAI 推进模型或产品能力更新",
       "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
@@ -195,32 +67,32 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Scaling Git at OpenAI",
-          "source_url": "https://openai.com/index/scaling-git-at-openai"
+          "text": "Accelerating engineering for the physical world",
+          "source_url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
         },
         {
           "label": "公开摘要",
-          "text": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-          "source_url": "https://openai.com/index/scaling-git-at-openai"
+          "text": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+          "source_url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
         }
       ],
-      "slug": "scaling-git-at-openai-de4cf53f",
-      "localized_url": "/zh/items/2026-11-03/scaling-git-at-openai-de4cf53f/",
+      "slug": "accelerating-engineering-for-the-physical-world-26c6032e",
+      "localized_url": "/zh/items/2026-11-04/accelerating-engineering-for-the-physical-world-26c6032e/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Introducing the Grid Protectors Program",
-      "title_original": "Introducing the Grid Protectors Program",
-      "title_en": "Introducing the Grid Protectors Program",
-      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "title_original": "How Cisco defends at machine speed with OpenAI",
+      "title_en": "How Cisco defends at machine speed with OpenAI",
+      "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
       "source_name": "OpenAI News",
       "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/grid-protectors-program",
-      "published_at": "Mon, 02 Nov 2026 15:00:00 GMT",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
+      "original_url": "https://openai.com/index/cisco-cyber",
+      "published_at": "Tue, 03 Nov 2026 08:00:00 GMT",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
       "category": "models-products",
       "people": [],
       "companies": [
@@ -234,16 +106,79 @@
       "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "19244c7aa206",
+      "duplicate_group_id": "a2357e701f02",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
       "extraction_status": "success",
       "quality_warnings": [],
-      "extracted_title": "Introducing the Grid Protectors Program",
-      "extracted_excerpt": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-      "extracted_text_for_analysis": "Today we’re launching the Grid Protectors Program, a national effort to support affordable, reliable electricity for families and businesses in the communities where we build. Working with utilities, regulators and policymakers, we’ll develop arrangements for our future campuses to reduce electricity demand when the grid is under strain. Whether it’s heating homes during a northern cold snap or running air conditioning through a southern heat wave, families need reliable electricity. Our goal is to make campus flexibility a resource that utilities can call on when communities need it most. With U.S. data center capacity projected to exceed 100 gigawatts by 2030(opens in a new window), we have a once-in-a-generation opportunity to strengthen the electric grid by building campuses that can adjust their power use when communities need it most. Through Grid Protectors, our ambition is to make this kind of flexibility a core part of how we build and operate future campuses. That means designing facilities to reduce electricity use when needed and working with utilities to agree on how much demand can be reduced, how quickly and for how long. The arrangements will differ by location, and we will share additional commitments as they are finalized. Depending on local needs and the equipment available, we will also work with grid operators to supply power from on-site generation or storage, and use batteries and power controls to smooth changes in demand. Power lines, substations and other grid infrastructure builds are a fixed cost whether demand is low or high. By using more electricity when the grid has room and reducing our use when it is under strain, we can help pay for that infrastructure while limiting the need for costly upgrades to meet peak demand. That can help keep costs down for other customers. America needs more electricity to support economic growth, and AI is becoming a significant part of that demand. Families and small businesses should not be asked to subsidize a compute campus’s electricity needs. We’ve always been committed to paying our own energy costs, including the electricity we use and the infrastructure needed to serve our campuses. Large computing facilities should pay their costs and help utilities manage the systems they depend on. For our planned Effingham County campus, we have committed to pay the full infrastructure and electric-service costs required to serve the project. Once the campus is operating, we can reduce the power we draw during times of need, helping preserve electricity for other customers. Our agreement with Georgia Power also includes(opens in a new window) up to 1,000 megawatts of flexible demand response, freeing up power to help keep air conditioning running in hundreds of thousands of homes during extreme heat. For scale, that is equivalent to the average electricity demand of roughly 700,000 households. That’s more households than Washington, D.C., and Boston combined. These compute facilities are much different than data centers built even a few years ago, allowing us to be flexible in our power demand. This means we can turn down our demand so that families, small businesses, and other ratepayers will continue to have power. Building grid assets is expensive and Georgia Power says this flexibility can reduce the amount of new generation it needs to build to serve future growth. Although the campus is still in development, we intend for Effingham to serve as a pilot for Grid Protectors, building on an agreement that already provides a model for future campuses. Imagine a restaurant in a vacation town. It needs enough tables and kitchen space for the busy season, but it has to pay for that capacity year-round. Regular customers help keep it in use and cover the bills when tourism slows. We are proposing to be that regular customer. Electricity demand also rises and falls with the seasons, with different regions facing their biggest peaks at different times. Our compute campuses need power year-round. With the right agreements, that steady demand can help spread the grid’s fixed costs across more electricity sales, while flexibility lets us reduce demand when the system is busiest. We still need to pay the costs our campuses create; the goal is for other customers to benefit, too. Our agreement also contributes to Georgia Power’s broader plan to lower costs for customers. The utility projects approximately $950 million in annual customer savings beginning in 2029(opens in a new window) from its portfolio of large-load agreements and expected growth, including Project Camellia. It estimates a benefit of at least $15 a month for a typical residential customer using 1,000 kilowatt-hours. The Georgia agreement is a starting point. At OpenAI, through our Grid Protectors program, we see an opportunity to help communities keep the lights on even in times of emergency and high demand. We will work with utilities, regulators and policymakers to develop practical arrangements for the campuses we build in the future-arrangements that reflect local grid needs, help campuses support the grid when it is under pressure, and pay the costs we create. Long-term contracts and financial assurances can protect other customers if a project is delayed, reduced or canceled. Flexibility cannot replace investment in new energy supply and transmission. Alongside those investments, our Grid Protectors program can help make the grid more reliable and protect families and small businesses from bearing the costs of AI infrastructure. That is the standard we want our compute campuses to meet.",
-      "title_zh": "OpenAI 发布模型或产品能力更新",
+      "extracted_title": "How Cisco defends at machine speed with OpenAI",
+      "extracted_excerpt": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "extracted_text_for_analysis": "Cisco builds the networking and security infrastructure that organizations rely on to connect and protect their systems. As adversaries leverage AI to scale automated attacks and craft exploits at machine-speed, defending enterprise infrastructure must evolve. Pairing Cisco’s vast network telemetry with frontier AI reasoning gives defenders the toolkit necessary to outpace emerging threats. OpenAI’s rigorous approach to enterprise data privacy—centered on zero data retention, strict customer data boundaries, and verifiable isolation—means Cisco could confidently deploy frontier intelligence across mission-critical systems without compromising customer priorities or sensitive telemetry. Cisco’s defense starts where threats move: the network. Patel describes a shift from a single security perimeter to controls distributed across microservices, containers, and clusters. “We can put a mini security stack in front of every microservice, every Kubernetes container, and every Kubernetes cluster, and fuse security into the fabric of the network,” he says. Controls at the application level can restrict communication to the connections each service needs, reducing the paths an attacker can use to spread. Security teams can also isolate affected systems more selectively, allowing unaffected services to keep running while they investigate and respond. Combining that network intelligence with OpenAI’s models allows Cisco to correlate signals at machine scale, Patel says. “Two signals might seem benign in isolation, but together they can reveal a meaningful pattern. Network intelligence allows us to correlate data across the network and derive insights to inform secure operations.” Patel points to a pressing challenge for defenders: the gap between how quickly attackers can exploit a vulnerability and how long organizations take to patch it. He sees AI as a way to help narrow that gap, giving defenders the capacity to investigate more threats and respond faster. “AI hands attackers speed and scale. Using AI for defense is a prerequisite for staying safe,” he says. He describes initiatives like Daybreak and GPT‑6 Astra as advances that strengthen security for both Cisco and its customers. “We’re able to find and patch vulnerabilities more efficiently, while shortening the time needed for investigation, response, and remediation,” Patel says. “Daybreak and GPT-6 Astra have been step function improvements, not just for our security posture, but for our customers’ security posture.” Patel sees a path to adoption that builds on the processes teams already use to find and address vulnerabilities. “These capabilities can fit into your existing scanning workflows, so you don’t have to fundamentally change how your team works.” As agents become more autonomous, security teams also need to distinguish malicious interference from an agent pursuing a legitimate goal in an unintended way. Patel says that requires security telemetry alongside observability data, so teams can assess both threats and agent behavior. He outlines three priorities: protect agents from malicious attacks, detect and intercept unintended behavior, and operate in near real time. These priorities are guiding the shift towards policies and controls that can adapt as agents act. Through the Daybreak Defense Network, Cisco and OpenAI are exploring how to help security teams triage exposure faster and enforce the right controls in Cisco Cloud Control. For Patel, that can help shift the advantage back to defenders. “OpenAI is shifting the advantage to defenders by allowing us to operate at machine speed and scale.”",
+      "title_zh": "OpenAI 推进政府与国家安全合作原则",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "How Cisco defends at machine speed with OpenAI",
+          "source_url": "https://openai.com/index/cisco-cyber"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+          "source_url": "https://openai.com/index/cisco-cyber"
+        }
+      ],
+      "slug": "how-cisco-defends-at-machine-speed-with-openai-a2357e70",
+      "localized_url": "/zh/items/2026-11-04/how-cisco-defends-at-machine-speed-with-openai-a2357e70/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "title_original": "Heimstaden is changing residential real estate management with AI",
+      "title_en": "Heimstaden is changing residential real estate management with AI",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/heimstaden",
+      "published_at": "Tue, 03 Nov 2026 08:00:00 GMT",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "08b710f1e780",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Heimstaden is changing residential real estate management with AI",
+      "extracted_excerpt": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "extracted_text_for_analysis": "Heimstaden is changing residential real estate management with AI From rethinking how homes are rented out to building AI-powered property operations, Heimstaden is using OpenAI to improve how it manages homes. 99% Reduction in property image production costs 20,112 Property assets analyzed with Codex 50% Employee adoption within 2-3 months A hundred years ago, managing a residential building meant finding tenants, collecting rent and keeping properties in good condition. Today, these fundamentals remain remarkably similar. What is changing is how that work gets done. For European residential real estate operator Heimstaden(opens in a new window), this presents an opportunity: what if AI could fundamentally change how thousands of homes are managed? In June 2025, Heimstaden’s leadership decided to accelerate its bet on AI. After evaluating several platforms, the company chose OpenAI. The goal was twofold; empower employees and rethink the processes at the heart of its business. The ambition is to move towards increasingly self-operating buildings, where AI can help anticipate needs, coordinate work and support decisions across the property lifecycle. “The purpose of our buildings hasn’t changed.” says Helge Krogsbøl, Co-CEO at Heimstaden. “We provide homes for people. But the way we operate them continues to change as we challenge conventions and adopt new technology.” “We see AI as one of the biggest opportunities to accelerate that transformation.” Consider what happens when a property becomes vacant. Traditionally, getting it back onto the market involves assessing rental value, arranging photography, producing advertisements and responding to market demand. Each stage requires time, coordination and specialist input. And it is an information challenge; understanding what you own, what the competition has, and what the customer wants. AI is now supporting all the key steps in this process: - Pricing: Intelligence and recommendations based on tools built in ChatGPT Sites - Advertising: Image styling and apartment descriptions done by AI - Review listings: Agent reviews all live ads against Heimstaden’s quality standards - Feedback: AI generated market feedback helps letting teams take corrective action which makes prices increasingly dynamic Employees remain responsible for reviewing and approving decisions. But the work surrounding those decisions is changing. In the Netherlands, the cost of producing a virtually staged property image has fallen from approximately €50 to less than €0.10 which is a reduction of more than 99%. Heimstaden estimates annual savings potential of €130,000 in that market alone. The significance extends beyond cheaper advertisements. By applying AI across the letting process, Heimstaden is building a more responsive way to bring homes to market. “Our AI strategy is based on three pillars.” says Nikolaj Brammer, Heimstaden’s Chief Digital Officer, “First, we empower employees through training and access to the right tools. Second, we have a central transformation office and a network of AI champions to drive larger AI initiatives. Third, we strengthen the foundations by making our property management systems and data models ready for AI.” Letting puts all three pillars into practice: tools and training enable colleagues to create virtually staged images and listings; our central team coordinates improvements across pricing, advertising, ad review and market feedback; and we are making property data accessible to the AI tools that support pricing and listing creation. “We started by breaking down our most important business processes and asking where AI could create value. Letting is a good example: it’s not about automating one task, but improving how the whole process works.” Some of the most significant changes are happening far from traditional software engineering teams. Heimstaden needed to assess environmental risks across its portfolio. The information existed, but was scattered across public sources, formats and datasets. Turning it into a usable assessment would have required substantial manual work and technical resources. Heimstaden’s Julia Erlandsen, an environmental sustainability analyst without a software development background, used Codex to help build a different approach. Codex supported the discovery, cleaning and standardisation of data, quality checking and the development of repeatable processing pipelines. Julia retained control over the methodology and validation. The result: 20,112 assets assessed, more than six million rows of useful data generated, and an estimated delivery requirement reduced from five people working for a year to two people working for two months. Heimstaden also avoided engaging external consultants which would otherwise have been needed to solve the problem. What began as a complex analytical project is becoming a repeatable capability, supporting climate-risk assessments, reporting requirements and investor decision-making. “Codex helped us build a solution that would previously have required substantial technical support. We now own the methodology and can continue developing it ourselves.” Heimstaden’s AI adoption focuses on tasks employees need help with. After ChatGPT Enterprise launched in September 2025, half of employees were using it within two to three months. A central AI transformation office maintains a library of use cases so colleagues can learn from examples across the business. Employees use approved tools within rules for data security. They remain responsible for reviewing AI-generated content before sending it and for approving decisions. Adoption extends to real estate caretakers, including some who were initially sceptical. In Norway, one caretaker used ChatGPT to assess a neglected apartment and draft a prioritised refurbishment plan, turning observations into a structured plan they could review and refine. “People across the business are finding practical ways to use AI in their daily work. Our job is to scale what works while keeping data secure, responsibilities clear and people in control.” Heimstaden is already preparing for the next stage: AI that can work across systems and coordinate multi-step processes. Its Procurement Intelligence Platform, currently being rolled out, combines workflow automation with OpenAI models accessed through APIs. Designed to operate across Outlook, SharePoint and Teams, it supports contract analysis, negotiation preparation and contract lifecycle management, with employees retaining responsibility for commercial decisions and approvals. The longer-term ambition is more fundamental. Heimstaden is co-developing Amplio Estate, a modern property management system designed to support AI-powered workflows through MCP. The goal is to enable employees to use AI, such as ChatGPT, to retrieve property information and take action in core business systems, with appropriate human oversight. This is how Heimstaden begins turning the idea of",
+      "title_zh": "OpenAI 推进模型或产品能力更新",
       "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
         "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
@@ -258,101 +193,32 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Introducing the Grid Protectors Program",
-          "source_url": "https://openai.com/index/grid-protectors-program"
+          "text": "Heimstaden is changing residential real estate management with AI",
+          "source_url": "https://openai.com/index/heimstaden"
         },
         {
           "label": "公开摘要",
-          "text": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-          "source_url": "https://openai.com/index/grid-protectors-program"
+          "text": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+          "source_url": "https://openai.com/index/heimstaden"
         }
       ],
-      "slug": "introducing-the-grid-protectors-program-19244c7a",
-      "localized_url": "/zh/items/2026-11-03/introducing-the-grid-protectors-program-19244c7a/",
+      "slug": "heimstaden-is-changing-residential-real-estate-management-with-ai-08b710f1",
+      "localized_url": "/zh/items/2026-11-04/heimstaden-is-changing-residential-real-estate-management-with-ai-08b710f1/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "LifeVal",
-      "title_original": "LifeVal",
-      "title_en": "LifeVal",
-      "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "title_original": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "title_en": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
       "source_name": "OpenAI News",
       "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/lifeval",
-      "published_at": "Mon, 02 Nov 2026 09:00:00 GMT",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI",
-        "Benchmark"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "ed4b58253682",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "LifeVal",
-      "extracted_excerpt": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-      "extracted_text_for_analysis": "OpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. For the more than one billion people who currently use ChatGPT every week, we want to build AI that can help with the practical challenges of everyday life, like finding childcare, accessing government services, creating a budget, preparing for school, modifying recipes, ordering groceries, designing workout plans, and more. When someone is looking for help making their life easier, they need more than advice or a chat response. To be a truly helpful personal assistant, ChatGPT should be able to take actions that actually get things done. To measure model performance over time on everyday tasks, we built an evaluation of tasks covering areas where users wanted the most help from AI and personal agents. We used this evaluation to track and drive improvement in model performance on everyday tasks over the past year. Background To identify the tasks people value most, we started with two large studies that track how people spend time in both the U.S. and internationally: the American Time Use Survey(opens in a new window) and the Multinational Time Use Study(opens in a new window). Together, these datasets provide a detailed catalog of everyday life tasks that people do across different demographics, times of day, and seasons. To understand where people would most value AI assistance, we expanded on these existing surveys with a new demographically representative survey of 3,995 respondents. For each task, we asked a variety of questions to identify the areas where everyday people most wanted help from a personal assistant. The resulting tasks span the most important areas that people want help with, including caregiving, health, education, household administration, personal finances, shopping, and accessing government services. Individual task examples Below are some examples of how our current models perform on practical workflows from everyday life. Our latest models score very highly on many LifeVal tasks. See more Over the past year, we’ve trained our models to become much faster, more capable, and more aligned on browser use, computer use, and connectors tasks. Enabling these capabilities in ChatGPT also expands the types of tasks the model can help with, helping move ChatGPT beyond a chat tool and towards a truly agentic personal assistant. Why this matters To ensure AGI benefits all of humanity, we need to measure and improve model progress on what matters in the lives of everyday people. That means going beyond academic assessments of model knowledge and actually measuring how well AI models can help people navigate decisions, manage everyday responsibilities, and get meaningful things done. We are hopeful that LifeVal represents a step towards that goal.",
-      "title_zh": "OpenAI 推进政府与国家安全合作原则",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI、Benchmark。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [
-        {
-          "term": "benchmark",
-          "explanation": "用于衡量模型能力的任务集合或评测体系。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "LifeVal",
-          "source_url": "https://openai.com/index/lifeval"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-          "source_url": "https://openai.com/index/lifeval"
-        }
-      ],
-      "slug": "lifeval-ed4b5825",
-      "localized_url": "/zh/items/2026-11-03/lifeval-ed4b5825/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Qodo builds context into AI code review with Codex",
-      "title_original": "Qodo builds context into AI code review with Codex",
-      "title_en": "Qodo builds context into AI code review with Codex",
-      "summary_zh": "OpenAI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/qodo-codex-plugin",
-      "published_at": "Mon, 02 Nov 2026 00:00:00 GMT",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
+      "original_url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "published_at": "Tue, 03 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
       "category": "models-products",
       "people": [],
       "companies": [
@@ -366,87 +232,19 @@
       "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "598c6194c0d3",
+      "duplicate_group_id": "3d509e27bae2",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
       "extraction_status": "success",
       "quality_warnings": [],
-      "extracted_title": "Qodo builds context into AI code review with Codex",
-      "extracted_excerpt": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "extracted_text_for_analysis": "Qodo builds context into AI code review with Codex Qodo brings organizational context and codebase standards into Codex, helping developers catch P0 issues across repositories. Qodo(opens in a new window) builds AI tools for code review and software quality, giving coding agents the organizational knowledge they need to understand the code they change. Co-founder and CEO Itamar Friedman calls it “the coding agent’s best friend.” Qodo uses OpenAI models including GPT‑6 Astra to gather engineering knowledge, review code, and monitor software quality. Its Codex plugin brings that context and review into developers’ coding sessions. “We love OpenAI models. We want the frontier, the best reasoning models, but also those that are really fast.” Itamar describes customer environments that can span 10,000 or more repositories, where a local code change can break a downstream service, even if it looks correct on its own. Qodo built a plugin in the Codex marketplace to address this. “Codex is really good at taking a local task and completing it in an efficient way,” Itamar says. Qodo’s plugin gives Codex access to codebase knowledge, organizational rules, and independent review through Qodo’s Agentic Toolbox. With context, Codex can account for dependencies across repositories, including those hosted by different Git providers or services connected through Kafka. “Qodo will make that connection and will help Codex look at the software as a whole and not miss those P0 bugs,” Itamar says. Before Codex starts writing code, it can use Qodo’s plugin to retrieve the relevant codebase rules and pull request history and patterns. After Codex makes the changes, Qodo reviews them and returns its findings directly to Codex in the same session, before the developer opens a pull request. Nnenna Ndukwe, Qodo’s AI Developer Relations Lead, sees developers using this workflow to build features and tackle technical debt with GPT‑6 models in Codex. They are automating the handoff between Codex’s coding work and Qodo’s independent review. “That’s what I’ve been seeing developers do, which is really exciting because GPT‑6 is extremely capable,” Nnenna says. Itamar describes coding and review agents as “yin and yang”: one creates code, the other challenges it. Each role needs its own setup and context and may involve multiple agents. His vision is for agents to discuss findings and “surface only what they don’t accept” for human review. Developers would become planners and reviewers, able to inspect unresolved issues alongside the agents’ discussion, context, and prior developer decisions. “That’s how you create trust,” Itamar says. “I think it makes the whole process overall more efficient,” Nnenna adds. “We get to leverage the best parts of our expertise.” Internally at Qodo, Nnenna has been using GPT‑6 Astra’s Extra High and Ultra effort settings in her own automated development workflows as well as knowledge work. “What does Codex not do? I love everything that Codex does. I love the idea of combining AI and automation.” Nnenna schedules Codex to report on what she accomplished during the week and where she could focus or improve next. She also uses it to research conversations about agentic engineering on social platforms and suggest ideas for developer content. When it comes to her own code changes, she schedules Codex to analyze her work and suggest agent skills to create or refine. Itamar sees an opportunity to use OpenAI’s recently launched Decisions API to choose which rules and agent skills apply at each stage of development, rather than rely on language models for every decision. He cites an example where the Decisions API could select which of 200 rules need checking before a language model reasons through the relevant ones, helping to make selection faster and cheaper while improving the quality of the review. “The Decisions API is an immense opportunity for us to bring more trust to the process,” Itamar says. Qodo’s approach combines “the best aspects of artificial intelligence and the best aspects of traditional software engineering and scripting,” Nnenna says. Company knowledge guides coding agents, independent review checks their work, and human expertise resolves the questions that remain. This creates the foundation of what Itamar describes as a software factory: a system customers could assemble and own, bringing coding and review agents together with an understanding of how software changes in production. With OpenAI, Qodo is building a future where coding agents put more of a company’s experience to work and developers can focus their judgment where it matters most.",
-      "title_zh": "OpenAI 推进代码评测可靠性问题",
+      "extracted_title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "extracted_excerpt": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "extracted_text_for_analysis": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning. Jill will work closely with leaders across OpenAI to deepen public understanding of AI and strengthen trust in its mission. She brings nearly two decades of experience advising technology companies and political leaders, helping them navigate periods of extraordinary growth and some of their most consequential challenges. Most recently, Jill served as President and Chief Corporate Affairs Officer at Uber, where she helped lead the company’s transformation from an ambitious startup into one of the world’s largest global technology platforms. Jill’s appointment reflects OpenAI’s commitment to investing in the leadership and capabilities needed to engage more deeply with the people and institutions shaping AI’s future. Jill Hazelbaker joins OpenAI from Uber, where she served as President and Chief Corporate Affairs Officer, overseeing the company’s global communications, marketing, public policy, safety, and people teams. During her decade at Uber, she played a central role in shaping the company’s reputation, navigating complex regulatory and reputational challenges, and building the capabilities needed to support its growth around the world. Before joining Uber, Jill led communications and public policy at Snap. Earlier, she held senior leadership roles at Google, overseeing corporate communications globally, communications across Europe, the Middle East and Africa, and government relations in Europe. Jill began her career in U.S. politics, serving in leadership roles on local, state, and national campaigns. She was National Communications Director and Chief Spokesperson for Senator John McCain’s 2008 presidential campaign and Press Secretary to New York City Mayor Michael Bloomberg.",
+      "title_zh": "OpenAI 推进模型或产品能力更新",
       "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在代码评测可靠性问题。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [
-        {
-          "term": "coding",
-          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Qodo builds context into AI code review with Codex",
-          "source_url": "https://openai.com/index/qodo-codex-plugin"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-          "source_url": "https://openai.com/index/qodo-codex-plugin"
-        }
-      ],
-      "slug": "qodo-builds-context-into-ai-code-review-with-codex-598c6194",
-      "localized_url": "/zh/items/2026-11-03/qodo-builds-context-into-ai-code-review-with-codex-598c6194/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "title_original": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "title_en": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "published_at": "Mon, 02 Nov 2026 00:00:00 GMT",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "ff138f709a7e",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "extracted_excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "extracted_text_for_analysis": "Dan Driscoll will join OpenAI as Senior Counselor for National Security Modernization, working with senior leadership and external partners to advise on how advanced AI can strengthen national and cyber security, with a particular focus on working with U.S. allies to advance its responsible use. In this newly created role, Dan will work with OpenAI teams and leaders across governments, industry, academia, and allied institutions to advance practical modernization initiatives that support the buildout of democratic AI. He will also help internal OpenAI teams understand the operational needs of global national security institutions. Dan previously served as the 26th Secretary of the Army, overseeing the service’s operations, modernization, and resources. He brings experience spanning military service, senior government leadership, and the private sector. In his role, Dan will advise our public and private sector partners in modernizing policy and strategy choices to unlock practical uses of AI to improve national security and help ensure the world is building AI to support democratic principles. He will work to identify where operational needs, institutional change and emerging AI capabilities come together. Dan’s appointment reflects our commitment to helping democratic institutions use advanced AI responsibly to strengthen shared security, and builds on OpenAI’s work with allies and partners to strengthen cyber resilience and protect essential services under its Daybreak program. Dan Driscoll was the 26th Secretary of the United States Army. As Secretary, he oversaw operations, modernization, and resource allocation for nearly one million Active, Guard, and Reserve Soldiers and more than 265,000 Army Civilians. He drove Army transformation focused on accelerating the fielding of new technology, reforming acquisition, and building a more capable force. A former Army officer and business leader, Dan has experience spanning military service, law, and the private sector.",
-      "title_zh": "OpenAI 推进政府与国家安全合作原则",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
         "相关标签包括：openai、models、product。",
@@ -458,116 +256,496 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-          "source_url": "https://openai.com/index/dan-driscoll-joins-openai"
+          "text": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+          "source_url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer"
         },
         {
           "label": "公开摘要",
-          "text": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-          "source_url": "https://openai.com/index/dan-driscoll-joins-openai"
+          "text": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+          "source_url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer"
         }
       ],
-      "slug": "openai-appoints-dan-driscoll-as-senior-counselor-for-national-security-m-ff138f70",
-      "localized_url": "/zh/items/2026-11-03/openai-appoints-dan-driscoll-as-senior-counselor-for-national-security-m-ff138f70/",
+      "slug": "openai-appoints-jill-hazelbaker-as-chief-corporate-affairs-officer-3d509e27",
+      "localized_url": "/zh/items/2026-11-04/openai-appoints-jill-hazelbaker-as-chief-corporate-affairs-officer-3d509e27/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "【開催レポート】Sakana AIシンポジウム：Jürgen Schmidhuberが語るAIのこれまでとこれから、日本から挑む言語モデル・世界モデル・Physical AI",
-      "title_original": "【開催レポート】Sakana AIシンポジウム：Jürgen Schmidhuberが語るAIのこれまでとこれから、日本から挑む言語モデル・世界モデル・Physical AI",
-      "title_en": "【開催レポート】Sakana AIシンポジウム：Jürgen Schmidhuberが語るAIのこれまでとこれから、日本から挑む言語モデル・世界モデル・Physical AI",
-      "summary_zh": "Sakana AI 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
-      "summary_en": "基調講演を行うSakana AI Chief Scientific Advisorのユルゲン・シュミットフーバー教授",
-      "source_name": "Sakana AI Blog",
-      "source_url": "https://sakana.ai/blog/",
-      "original_url": "https://sakana.ai/symposium-2026/",
-      "published_at": "2026-11-02T00:00:00+09:00",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
-      "category": "research-open-source",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "title_original": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "title_en": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "published_at": "Tue, 03 Nov 2026 16:00:45 +0000",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
+      "category": "podcasts-interviews",
       "people": [],
       "companies": [
-        "Sakana AI"
+        "NVIDIA"
       ],
       "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "3bafb7904533",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "extracted_excerpt": "An AI-defined fab uses accelerated simulation, learned physics models and AI agents to give engineers faster answers across design, testing and manufacturing.",
+      "extracted_text_for_analysis": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor manufacturing — and these analyses can take days. Physical experiments on a fab line are slow and expensive. A wrong call on yield or process quality has real consequences. AI is transforming semiconductor manufacturing, impacting what engineers can do — and how fast. Accelerated computing shortens simulation time, allowing engineers to evaluate more alternatives before committing to physical trials. Physics-based AI helps engineers predict process behavior without running a full simulation every time. AI agents handle sequences of engineering tasks that once consumed hours. And digital twins let teams test changes in a virtual environment before committing to physical trials. Together, these capabilities describe an AI-defined fab: a semiconductor manufacturing factory where AI helps engineers optimize processes, catch problems earlier and make better decisions across the full manufacturing chip lifecycle. Engineers direct the work and make decisions based on their expertise while spending less time waiting for answers. Shorter Simulation Cycles Change What Engineers Can Explore Accelerated computing doesn’t just speed up individual calculations — it changes how many alternatives engineers can test before committing. Multiphysics simulations model interactions among physical effects, such as heat transfer, electrical behavior and mechanical stress. Using the NVIDIA cuDSS library, multiphysics software provider COMSOL is accelerating such simulations for semiconductor manufacturing by up to 10x. This helps engineers optimize equipment and processes, compare alternatives and decide which changes to test physically. Applied Materials and NVIDIA are collaborating to accelerate atomic-scale materials discovery and process development. By integrating NVIDIA cuDSS, Applied’s Ginestra simulation platform runs up to 10x faster than CPU-only approaches. And with NVIDIA PhysicsNeMo, Applied’s ACE+ multiphysics platform delivers topography simulations up to 35x faster. In some cases, acceleration doesn’t just shorten the calculation — it enables it altogether. Computational lithography — which defines how circuit patterns are printed onto silicon — involves calculations too intensive to complete on CPU at production scale. Siemens is integrating NVIDIA cuLitho into its Calibre lithography software, delivering up to 17x acceleration on key simulation workloads. That expands what engineers can verify before a wafer goes to print. As such, faster calculations can help researchers explore material behavior and reaction pathways that influence next-generation semiconductor processes. Predicting Process Behavior Without Running Every Simulation In addition to accelerating simulations, AI trained on physics can predict how materials and processes will behave — without running a full simulation each time. The payoff is most visible in complex calculations that are expensive even on accelerated hardware. Plasma — the electrically charged gas used in semiconductor etch processes — is one example. Modeling plasma behavior requires solving equations that capture how electrical, chemical and thermal processes interact, making repeated simulation costly. Lam Research demonstrated that the NVIDIA PhysicsNeMo framework can predict plasma behavior in milliseconds, compared with days for a full simulation — giving engineers a faster way to explore process conditions without rerunning the full model each time. Agents Handle the Steps Between Decisions Engineers turn analyses into decisions — revising a design, investigating a test failure, adjusting a production process and more. AI agents can help carry out the steps between those decisions. Evaluating which AI model to apply to a given task is one example: a sequential, manual process that can consume hours on the test floor. Advantest is using NVIDIA NeMo Switchyard AI agents to automate that selection, reducing response times from hours to minutes. Testing Factory Changes Before They Reach the Line Digital twins let teams simulate equipment configurations, layouts and process changes in a virtual environment before committing to physical trials. This reduces experimentation costs, especially as fabs become more complex and the stakes of a wrong change get higher. Applied Materials uses NVIDIA Omniverse libraries to build physically accurate digital twins of entire fabs. Teams can simulate material movement, identify bottlenecks and evaluate layouts and operating strategies — extending virtual experimentation beyond individual processes to how the factory works as a whole. The Connected Loop The future of semiconductor manufacturing lies in connecting these capabilities: using production data to inform models and models to evaluate changes, then bringing those findings back to the engineers making production decisions. That’s the promise of the AI-defined fab: where AI helps people learn from each production cycle and act on that knowledge sooner. Explore how NVIDIA is working with semiconductor leaders across the chip lifecycle.",
+      "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+          "source_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will",
+          "source_url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/"
+        }
+      ],
+      "slug": "ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-fast-c90cd6cc",
+      "localized_url": "/zh/items/2026-11-04/ai-is-changing-how-semiconductor-fabs-work-and-engineers-are-moving-fast-c90cd6cc/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "OpenAI: ChatGPT Search Is About 20% of Google’s, 250 Million People Speak With ChatGPT, and Chat Is Merging With Work",
+      "title_original": "OpenAI: ChatGPT Search Is About 20% of Google’s, 250 Million People Speak With ChatGPT, and Chat Is Merging With Work",
+      "title_en": "OpenAI: ChatGPT Search Is About 20% of Google’s, 250 Million People Speak With ChatGPT, and Chat Is Merging With Work",
+      "summary_zh": "OpenAI 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "ChatGPT consumer product lead Adam Fry on ChatGPT’s growth, the cost of personal agents, and plans to bring Chat and Work together.",
+      "source_name": "Big Technology Podcast",
+      "source_url": "https://www.bigtechnology.com/",
+      "original_url": "https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20",
+      "published_at": "Tue, 03 Nov 2026 15:00:30 GMT",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "tech-media",
+        "ai",
+        "interview"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "3ab6879e6dc5",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "OpenAI 讨论AI 代理工程与工具调用能力",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：tech-media、ai、interview。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "OpenAI: ChatGPT Search Is About 20% of Google’s, 250 Million People Speak With ChatGPT, and Chat Is Merging With Work",
+          "source_url": "https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20"
+        },
+        {
+          "label": "公开摘要",
+          "text": "ChatGPT consumer product lead Adam Fry on ChatGPT’s growth, the cost of personal agents, and plans to bring Chat and Work together.",
+          "source_url": "https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20"
+        }
+      ],
+      "slug": "openai-chatgpt-search-is-about-20-of-googles-250-million-people-speak-wi-3ab6879e",
+      "localized_url": "/zh/items/2026-11-04/openai-chatgpt-search-is-about-20-of-googles-250-million-people-speak-wi-3ab6879e/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "title_original": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "title_en": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+      "published_at": "Tue, 03 Nov 2026 07:00:12 +0000",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA",
+        "Scale AI"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "4d836f21a02f",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "extracted_excerpt": "From infrastructure planning and transportation to public services, cities are using NVIDIA-powered applications to address local needs and expand capacity for the broader AI ecosystem.",
+      "extracted_text_for_analysis": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments in control of how sensitive data is processed and used. Building on initiatives announced at GTC Berlin, NVIDIA and its partners are expanding physical AI and AI agents to cities worldwide. Shared computing infrastructure gives city departments, neighboring municipalities and local developers a common foundation to build on — extending services without each organization having to acquire and manage resources of their own. Agentic AI for Cities From resident services to vision agents, cities are adopting NVIDIA agentic AI to deliver faster, more responsive public services. City teams don’t need a massive infrastructure investment to get started building these AI services: depending on the workload, NVIDIA RTX workstations or a small GPU system may be enough. In Spain, 1MillionBot combines open source ALIA models trained at the Barcelona Supercomputing Center with NVIDIA Nemotron and other models in resident-service agents for Madrid Digital (Comunidad de Madrid), Administració Oberta de Catalunya and 150+ deployments across Spain, handling municipal procedures, appointment requests, urban-planning incidents and service inquiries. In the San Francisco Bay Area, LiveX is bringing its AI City vision to life with NVIDIA Cosmos world models and Nemotron open models, and Omniverse and Metropolis libraries on NVIDIA RTX PRO GPUs. The interactive, conversational AI hosts understand people’s needs, provide answers and take action, and can be tailored to local languages and service needs in airports, hospitals, local events and other public spaces. Vision AI agents can turn existing city camera feeds into operational insights, helping teams identify mobility and safety issues and coordinate emergency responses across city services. In Wrocław, Poland, K2K is building shared AI infrastructure using NVIDIA accelerated computing, NVIDIA Cosmos world reasoning models, and NVIDIA Metropolis Blueprint for video search and summarization (VSS) to transform existing camera streams into actionable intelligence for mobility, safety and event response — using the same infrastructure across several city functions. In Malaysia, ITMAX bundles infrastructure and agentic AI applications into long-term managed services for cities, including for traffic management. Built with reference to Cosmos, Nemotron and the Metropolis VSS blueprint, ITMAX’s SamurAI V2 vision agents are scaling on NVIDIA RTX PRO 6000 GPUs to support 17,000+ cameras by 2027. ITMAX integrates TeraSim, an open source traffic simulation platform from Laplace Intelligence, to test signal timing, reducing peak-hour corridor travel times by up to 26%. Plan and Operate Critical Infrastructure With Digital Twins Beyond public-facing services, digital twins can help cities expedite infrastructure planning, minimizing disruption to local communities. City digital twins can also serve as a real-time operational simulation to facilitate faster decision-making. At Dangote’s Lekki refinery in Nigeria, Honeywell Technologies’ Forge Plant Cognition uses Nemotron-powered AI agents to understand operational data. A digital twin of the plant and its processes, built using Omniverse libraries, is also planned to support simulation and training. The platform, built on Dell PowerEdge servers with NVIDIA RTX PRO accelerators, helps operators identify bottlenecks, anticipate equipment and process issues, and optimize plant performance. In Taiwan, Linker Vision and Dutch architecture firm MVRDV are using NVIDIA Omniverse and Nemotron to build environmental, social and governance agents that can assess the environmental impact of various urban planning scenarios, simulating 15-year outcomes of an urban forest canopy in 10 minutes — increasing design iteration speed from two weeks per iteration to less than an hour. Build a Broader Local AI Ecosystem Cities can extend AI to more services by building on infrastructure already in place and adding capacity. Shared resources and managed services can help extend those capabilities across departments and municipalities. At Morocco’s Tanger Med port, Cires Technologies is expanding a sovereign AI factory for planned applications in worker safety, congestion analysis, cargo routing and port operations. Cires Technologies is also building an ecosystem of application providers to develop local models and applications for ports and cities. Beyond city services, Barcelona Supercomputing Center’s AI Factory Accelerator Programme gives startups access to sovereign computing, technical support and training. BSC AI Factory also supports research and innovation for startups — spanning agriculture, medical imaging, knowledge access and speech services. Learn how NVIDIA and its ecosystem are bringing physical AI, agentic AI and local AI factories to cities worldwide at Smart City Expo World Congress, running Nov. 3-5 in Barcelona, where NVIDIA Vice President of EMEA Paolo Guglielmini will deliver a keynote address followed by a panel moderated by Charbel Aoun, director of smart city and spaces for EMEA at NVIDIA.",
+      "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA、Scale AI。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+          "source_url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI",
+          "source_url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/"
+        }
+      ],
+      "slug": "cities-worldwide-build-and-scale-ai-services-with-nvidia-physical-and-ag-928e7584",
+      "localized_url": "/zh/items/2026-11-04/cities-worldwide-build-and-scale-ai-services-with-nvidia-physical-and-ag-928e7584/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "title_original": "StateBench: Testing how language models track state changes over long documents",
+      "title_en": "StateBench: Testing how language models track state changes over long documents",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/allenai/statebench",
+      "published_at": "Tue, 03 Nov 2026 17:15:21 GMT",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "a55665cf4895",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "StateBench: Testing how language models track state changes over long documents",
+      "extracted_excerpt": "A Blog post by Ai2 on Hugging Face",
+      "extracted_text_for_analysis": "📄 Tech Report | 🤗 Data | 💻 Code We’re introducing StateBench, a benchmark for long-context state tracking—how well language models keep track of information about entities in long documents as they evolve. State tracking underlies tasks from reading code, where variables are assigned and reassigned, to following a story as characters physically move around and objects change hands. For example, if a mystery novel states that “John gave Mary the knife” right before a murder occurs, it’s important to know that the state of each character has changed. However, not all state-tracking problems are created equal: some require only finding the latest update; harder ones require following a chain of changes, where one missed step can throw off the final answer. For example, a harder variant of our mystery state tracking would be if John gave Mary the item in his backpack, with it previously known that Edward put a knife in John’s backpack. Transformers have well-documented theoretical limits on hard variants of state tracking with long dependency chains, helping motivate recurrent and hybrid architectures such as Gated DeltaNet that carry a running memory forward. Existing state-tracking tests tend to focus on the hardest cases, but as these designs become more common, researchers need to know which kinds of state tracking each architecture can handle. We would like to understand the differences between architectures not just on the hardest kinds of state tracking, but also on the simpler, potentially more common kinds. To this end, we developed the StateBench benchmark to capture state-tracking problems of different complexity, which we used to evaluate the differences between language models with different architectures. We find that recurrent and hybrid models can generalize much farther than transformers when trained directly on these tasks, while frontier models including Gemini 3.8 Flash, Claude Opus 5.5, and GPT-6 Sol and Luna still break down on harder forms of state tracking as inputs grow longer. StateBench consists of four difficulty levels that permit increasingly complex state update operations. For programmers, these levels of state tracking complexity can be understood as allowing different types of variable assignment operations: - R-trivial problems use immutable assignment. A variable’s value never changes, so the model only needs to recover what it was first set to. In code, this looks like let x = 4; in everyday life, it’s like a birth date—it stays fixed. - Aperiodic problems allow reassignment by value. The model needs to find the most recent value and can ignore earlier ones. In code, this looks like x = 4 followed later by x = 2; in everyday life, it’s like a thermostat, where the latest setting determines the current temperature. - Soluble problems add self-referential updates. Each update builds on the current value, so the model has to carry changes forward rather than simply find the latest assignment. In code, this looks like x = x + 5; in everyday life, it’s like a game score, where each point adds to the running total. - General finite problems add assignment by reference. One variable can take on another variable’s current value, creating dependencies across updates. In code, this looks like x = y or swapping two variables. Imagine a magician hiding a ball under one of five cups, then repeatedly swapping their positions. Finding the ball means keeping track of how those swaps change its location. This illustrates the S₅ state-tracking problem: following how successive swaps rearrange five objects. It belongs to the hardest of our four levels and is discussed in previous work on the limits of state tracking. These levels can be intuitively understood in terms of variable assignments, but they also represent theoretically motivated distinctions in state tracking rooted in Krohn–Rhodes theory, a branch of algebra that describes how state-tracking problems – which can be viewed as word problems over finite monoids – can be decomposed into atomic primitives. Each level in our hierarchy corresponds to a class of state-tracking problems that can be built out of a different set of primitives. To compare the four levels fairly, we start with a general finite sequence of variable assignments and derive three easier versions from it, producing four comparable StateBench problems—one at each difficulty level. All four use the same number of variables and distinct values, with assignments appearing at the same points in the sequence; only the type of assignment changes. We tested a range of open pretrained models on the r-trivial, aperiodic, and general finite levels of StateBench to see where their state tracking breaks down, and whether different architectures fail where theory predicts. Under standard theoretical assumptions, transformers can handle r-trivial robustly (and soluble and aperiodic to some degree) but are predicted to fail on general problems. In contrast, Gated DeltaNet with a more flexible memory update can, in principle, handle all four levels. We started with open pretrained models, where the training data and context lengths are fully documented. These included two 7-billion-parameter models, Olmo 3 (a transformer) and Olmo Hybrid (which adds Gated DeltaNet layers), along with smaller models with 275 million and 2.7 billion parameters. All of these models were pretrained on the same data; none had seen contexts longer than 64,000 tokens during training, and we tested most of them on inputs well beyond that length. When we scored each model, almost all performed well on r-trivial problems, lost accuracy on aperiodic ones as inputs grew, and stayed at chance on general finite problems. Problem format mattered here—the 275-million-parameter hybrid and Gated DeltaNet models scored near the ceiling on RULER-style r-trivial problems but were near chance on the same problems framed as spreadsheet edits. That gap is one reason StateBench tests the same underlying problem in several formats. We then tested four frontier models – Gemini 3.8 Flash, Claude Opus 5.5, and GPT-6 Sol and Luna – asking them to read each sequence of variable assignments and generate the final value of every variable. All four performed well on r-trivial and aperiodic problems. But on soluble and general finite problems, accuracy fell sharply as inputs grew longer, dropping to 13% or lower on the longest general finite problems. One likely factor is sensitivity; at these harder levels, many more steps can affect the final answer, leaving less room for a model to miss an update without getting the result wrong. Next, we investigated whether models’ difficulty with the harder levels reflects limits of the architectures themselves, or whether pretraining simply doesn’t teach models to solve them. Targeted direct training is a more favorable setting that reveals to what degree state-tracking issues come from the underlying architecture and optimizer rather than the data used",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "StateBench: Testing how language models track state changes over long documents",
+          "source_url": "https://huggingface.co/blog/allenai/statebench"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/allenai/statebench"
+        }
+      ],
+      "slug": "statebench-testing-how-language-models-track-state-changes-over-long-doc-a55665cf",
+      "localized_url": "/zh/items/2026-11-04/statebench-testing-how-language-models-track-state-changes-over-long-doc-a55665cf/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "title_original": "Palette: teaching a small model to build decks in your design language",
+      "title_en": "Palette: teaching a small model to build decks in your design language",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "published_at": "Tue, 03 Nov 2026 16:35:36 GMT",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "bc4177032a04",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Palette: teaching a small model to build decks in your design language",
+          "source_url": "https://huggingface.co/blog/ibm-research/palette-deck-building"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/ibm-research/palette-deck-building"
+        }
+      ],
+      "slug": "palette-teaching-a-small-model-to-build-decks-in-your-design-language-bc417703",
+      "localized_url": "/zh/items/2026-11-04/palette-teaching-a-small-model-to-build-decks-in-your-design-language-bc417703/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "CWE-bench v2: More coverage, quality, and transparency",
+      "title_original": "CWE-bench v2: More coverage, quality, and transparency",
+      "title_en": "CWE-bench v2: More coverage, quality, and transparency",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/cwe-bench",
+      "published_at": "Tue, 03 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "20954e3ac0ff",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "CWE-bench v2: More coverage, quality, and transparency",
+          "source_url": "https://huggingface.co/blog/cwe-bench"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/cwe-bench"
+        }
+      ],
+      "slug": "cwe-bench-v2-more-coverage-quality-and-transparency-20954e3a",
+      "localized_url": "/zh/items/2026-11-04/cwe-bench-v2-more-coverage-quality-and-transparency-20954e3a/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Transformers Model Integration Contracts",
+      "title_original": "Transformers Model Integration Contracts",
+      "title_en": "Transformers Model Integration Contracts",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/transformers-mic",
+      "published_at": "Tue, 03 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "fec0e46ceba4",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Transformers Model Integration Contracts",
+          "source_url": "https://huggingface.co/blog/transformers-mic"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/transformers-mic"
+        }
+      ],
+      "slug": "transformers-model-integration-contracts-fec0e46c",
+      "localized_url": "/zh/items/2026-11-04/transformers-model-integration-contracts-fec0e46c/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "title_original": "Agentic cheminformatics with Google Antigravity",
+      "title_en": "Agentic cheminformatics with Google Antigravity",
+      "summary_zh": "DeepMind 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "source_name": "Google DeepMind Podcast",
+      "source_url": "https://deepmind.google/discover/the-podcast/",
+      "original_url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "published_at": "Tue, 03 Nov 2026 17:01:49 +0000",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "deepmind",
         "research",
-        "agents",
-        "japan"
-      ],
-      "importance_score": 52.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "1e833fbe344a",
-      "language": "en",
-      "source_type": "research_lab",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "Sakana AI",
-      "extracted_excerpt": "【開催レポート】Sakana AIシンポジウム：Jürgen Schmidhuberが語るAIのこれまでとこれから、日本から挑む言語モデル・世界モデル・Physical AI",
-      "extracted_text_for_analysis": "基調講演を行うSakana AI Chief Scientific Advisorのユルゲン・シュミットフーバー教授 （English Report Below.） 2026年10月26日、Sakana AIは東京・一橋講堂でシンポジウム「From World Models to Real-World AI — 日本から拓くAIの新時代」を開催しました。9月にChief Scientific Advisorとしてお迎えしたユルゲン・シュミットフーバー（Jürgen Schmidhuber）教授は、1980年代から、最初のTransformer（正規化なし線形Transformer）、深層ニューラルネットワークの事前学習と蒸留、現代的な世界モデル、生成的・敵対的なネットワークによる人工好奇心、再帰的自己改善など、いまの深層学習と生成AIの土台となる数多くのアイデアを切り拓いてきた研究者です。20世紀で最も引用されたAI論文となった1997年のLSTM論文の共著者でもあります。教授の基調講演と、2018年に教授と論文「World Models」を共著した共同創業者兼CEOのDavid Haとの対談に、日本各地から400名を超える方にご参加いただきました。 このシンポジウムで、Sakana AIは自社による事前学習モデルの開発に乗り出すことを明らかにしました。チーフサイエンティストの秋葉拓哉が、事前学習から自社で開発する言語モデルシリーズ「Sakana Sawara（仮称）」を発表しました。最初のモデルとなる小規模な「Sawara Small（仮称）」は、順調に進めば2027年春に公開する予定です。 このシンポジウムは、Schmidhuber教授を迎えたSakana AIの意気込みをお伝えし、日本の企業や研究機関の皆さんとともにAIの次の時代を切り開いていくスタート地点として企画しました。本記事では、各講演と対談の内容を、講演録の形でお伝えします（抜粋し、読みやすさのために一部の順序を入れ替えて編集しています）。 目次 司会を務めたSakana AI Chief of Staffの田附千絵子 オープニング：From World Models to Real-World AI：David Ha 最初に、共同創業者兼CEOのDavid Haが登壇しました。 Sakana AI CEOのDavid Ha 知能は制約から生まれる 今日着ているTシャツには、世界モデルの図がプリントされています。Schmidhuber教授が1990年に描いたものです。当時は計算のコストがいまより100万倍から10億倍も高く、論文の図も手で描いて貼り付けていました。いまではAIサイエンティストが一緒に論文を書く時代になりましたが、1980年代から90年代のイノベーションがいまにつながっていることを、ときどき思い出すのは良いことだと思います。 私がSNSでよく言っている持論に、「基盤モデルは、人類史上もっとも速く価値を失う金融資産の一つだ」というものがあります。AIのモデルをつくる会社を始めた私にとって、これは悩ましい問題です。日本は、この分野で世界とどう戦えばいいのか。 私の信念は、計算資源とデータを大量に投入してモデルを大きくし続けることだけが道ではない、というものです。知能は制約から生まれます。いまのAIは豊かさによってスケールしていますが、生物の知能は欠乏の中から生まれました。進化は、より少ない資源でより多くをなすものを選びます。脳も、言語も、文化も、制約が知能を生むことの証拠です。 10年ほど前、私はAIの研究にのめり込み、OpenAI Gymの難しい課題にいくつも挑戦していました。二足歩行ロボットの課題では、ニューラルネットワークだけでなく、ロボットの体の大きさや使うエネルギーも最小にするよう制約をかけてみました。すると、AIは虫のように歩く小さなロボットを生み出しました。では、制約をまったくなくすとどうなるか。AIが見つけたのは、脳を持たず、ゴールに向かってただ倒れ込む巨大なロボットでした。AIが脳を持つためには、制約が必要なのです。 Schmidhuber教授の論文との出会い ピクセルから車を運転するカーレースの課題では、エージェントに世界モデルを持たせました。未来に何が起きるかを予測し、世界を潜在空間で表現できるようにしたのです。 そのとき私がしたのは、Jürgenがいつも言うように、過去の研究をさかのぼることでした。そこで出会ったのが、世界を微分可能にする1990年の論文から、2015年の「On Learning to Think」に至る、教授の世界モデルの一連の論文です。アルゴリズム情報理論から人工好奇心まで、多くの概念がまとめられていて、とても刺激を受けました。エージェントをコントローラー（C）と世界モデル（M）に分けて考える、という発想もそこで学びました。 その後、Jürgenと共同で書いたのが、NeurIPSで発表した論文「World Models」です。この論文では、エージェントが世界モデルの見る「夢」の中で学習できることを示しました。こうした考え方は、いまでは自動運転やロボティクスなど、多くのイノベーションの土台になっています。 Sakana AIの研究と、日本のAI主権 2023年、私はLlion Jones、伊藤錬とともにSakana AIを創業しました。サカナは日本語で魚のことです。知能は一匹の魚ではなく、群れにある。私たちはそう考えて、集合知のアプローチをとっています。そして、資源の限られた日本の会社として、他社と同じことはしたくありません。群れとは少し違う方向に泳ぐ、赤い魚でありたいと考えています。 「知能は一匹の魚ではなく、群れにある」と話すDavid これまでに、脳に着想を得たContinuous Thought Machines、誤差逆伝播法を使わずに1,000層のネットワークを学習するPC-ALM、今年Nature誌に掲載されたAIサイエンティスト、そしてSchmidhuber教授のゲーデルマシンの考えをLLMで実装したダーウィン・ゲーデルマシンなどの研究を発表してきました。 では、日本は世界の競争の中でどうAIをつくっていくのか。私は、日本のAI主権を3本の柱で考えています。一から技術をつくれる「事前学習」、日本の価値観に合わせる「事後学習」、そして世界のフロンティアモデルと自社のモデルを組み合わせて性能を引き出す「オーケストレーション」です。オーケストレーションではSakana Fuguを、事後学習ではSakana Namazuを提供しています。 そして最後の柱が、事前学習です。私たちは、自社のモデルの事前学習に取り組み始めます。詳しくは、このあとチーフサイエンティストの秋葉拓哉が話します。 私たちが描いているのは、エージェント・ネイティブな言語モデルと世界モデルを事前学習し、互いに連携させて難しいタスクに取り組ませ、AIサイエンティストによる自己改善のループでモデルを磨いていく計画です。この計画は、Jürgenの論文にあるコントローラーと世界モデルの構成と、大きくは変わりません。いま手に入る技術を組み合わせれば、過去の優れたアイデアを生かして、フロンティアを押し広げることができるのです。 基調講演：Jürgen Schmidhuber 続いて、Jürgen Schmidhuber教授が基調講演を行いました。 ニューラルネットワークは230年前に生まれた Davidが1990年に私が描いた図のTシャツを着てきてくれたことを、とても誇りに思います。 現代のAIは、人工ニューラルネットワークに基づいています。脳には約1,000億個のニューロンがあり、それぞれが平均1万ほどの結合を持っています。結合の強さは最初はランダムですが、学習によって強くなったり弱くなったりします。そうして、車の運転や翻訳など、さまざまなことができるようになるのです。 では、人工ニューラルネットワークを発明したのは誰でしょうか。1940年ごろのアメリカの誰かだと思っている人もいますが、それはまったくの誤りです。発明されたのは230年前、1795年から1805年のことです。ガウスは1795年に、1990年代に「2層の線形ニューラルネットワーク」と呼ばれたものとまったく同じ仕組みを手にしていました。入力と出力をつなぐ重みを調整して、訓練データに対する二乗誤差を最小にする。当時は「最小二乗法」と呼ばれていました。最初に発表したのは、1805年のルジャンドルです。いま有名な企業が取り組んでいることの核心は、このGauss–Legendreのネットワークと同じです。主な違いは、いまのネットワークのほうが深いことです。 ちなみに、若きガウスが有名になったのは1801年、小惑星ケレスの位置を予測したときでした。観測の途中で太陽の陰に隠れたケレスが、次にどこに現れるか。ガウスはこの方法で「次のトークン」を予測し、見事に当てたのです。 日本で生まれた深層学習の源流 では、深層学習は誰がどこで発明したのか。1965年、当時のソビエト連邦のウクライナで、イヴァフネンコ（Ivakhnenko）とラパ（Lapa）が始めました。Ivakhnenkoの1971年の論文では、8層のネットワークで英国経済の時系列データから次の値を予測しています。 1967年には、日本の甘利俊一氏が、層ごとではなく全体を一度に学習する、エンドツーエンドの深層学習を示しました。計算がいまより何十億倍も高価だった時代に、5層のネットワークです。1970年にはフィンランドのリンナインマー（Linnainmaa）が、いまGoogleからSakana AIまで使っている誤差逆伝播法を発表しました。 日本からのもう一つの大きな貢献が、1979年の福島邦彦氏による最初の畳み込みニューラルネットワーク、ネオコグニトロンです。1986年には、これを手書き数字の認識に応用した有名な映像があります。1988年には、日本の研究室にいたウェイ・ジャン（Wei Zhang）氏が、福島氏の畳み込みネットワークを誤差逆伝播と組み合わせ、文字認識に応用しました。Zhang氏は1990年代に、これをさらにスケールさせています。今日のコンピュータービジョンの中核である畳み込みニューラルネットワークは、日本で発明され、さらに発展し、スケールしたものなのです。 せっかく日本に来たので、現代AIの発展においてこの国で起きた本質的な出来事を紹介したいと思いました。 ガウスから福島邦彦氏まで、現代AIの源流をたどるJürgen 1990年の世界モデルと人工好奇心 ニューラルネットワークへの私たち自身の貢献はもっと後、1990年のこの図から始まります。小さなロボットと、それを動かすコントロールネットワークがあります。入力の中には「R」と書かれたものがあります。報酬です。ロボットには痛みのセンサーがあり、自分の行動の評価を入力として受け取ります。 これは、いま「再帰的自己改善（RSI）」と呼ばれているものに欠かせない要素です。RSIとは、何かを学ぶだけでなく、学び方そのものを改善し、さらにその改善の仕方も改善していく、というように再帰的に学ぶシステムのことです。そのためには、環境からの評価の信号をネットワークに入力する必要があります。それが、この図にはすでにありました。 そこに、2つ目のネットワークを加えます。ロボットの行動と入力を見て、次に何が起きるかを予測するネットワーク、つまり世界のモデルです。良いモデルがあれば、計画を立てられます。頭の中で行動を試し、予測される報酬が多く、痛みの少ない行動を選べるのです。 しかし最初のうち、モデルは何も知りません。そこで、自ら実験を考え出す「人工科学者」が必要になります。赤ちゃんはWorld Wide Webをダウンロードして学ぶわけではありません。手を動かすと目に入る映像が変わる。その変化を予測しながら、物理を学び、リンゴが落ちることを学び、泣けば親がどう反応するかを学びます。自分の実験で、自分に必要なデータを選んで集めているのです。 私が1990年に発表した最も単純な方法では、世界モデルが誤差を最小化しようとする一方で、生成的なコントローラーは同じ誤差を最大化しようとします。モデルがまだ学べる余地のある場所を見つけると、コントローラーは報酬を得ます。世界について知らなかったことを教えてくれる実験を考え出したことへの、「エウレカ」の報酬です。多くの人がその変種を実装し、いまでは敵対的生成ネットワーク（GAN）と呼ばれていますが、私はこれを「人工好奇心」と呼んでいました。 1991年、「奇跡の年」 ただ当時は、深層学習がまだうまく動きませんでした。何千ステップも前の出来事が何千ステップ後に影響するような、長い時間差を扱えなかったのです。 そこで1991年、私たちはこの問題を解くための論文を立て続けに書きました。その成果は、いまのChatGPTの「P」と「T」につながっています。「次のものを予測する」という事前学習で長い系列を圧縮する手法。同じ論文で示した、あるネットワークの知識を別のネットワークに移す蒸留。そして、Transformerの最初の変種です。私は「Fast Weight Controller」と呼んでいましたが、いまでいう線形Transformerそのものです。2020年に「線形Transformer」と呼ばれるようになりました。線形なので、計算量はテキストの長さに比例してしか増えません。計算量が二次で増えるいまのTransformerは、テキストが1,000倍になると計算が100万倍必要になります。データセンターに巨額の投資が必要な理由の一つは、ここにあるのです。 同じ1991年、私の優秀な教え子のセップ・ホッフライター（Sepp Hochreiter）が、卒業論文で深層残差学習の原理を示しました。線形の活性化関数を持ち、自分自身への結合の重みが1.0の、とても単純なユニットを考えてみてください。誤差を時間をさかのぼって伝えても、つねに1.0を掛けるだけなので、何千ステップたっても何も変わりません。これが勾配降下法による非常に深い学習を可能にするもので、LSTMの核心です。これはのちに、2015年5月に私たちが「ハイウェイネットワーク」として発表した最初の深い残差フィードフォワードネットワーク、そしてその後の「ResNet」へとつながりました。 1991年当時、こうした研究に関心を持つ人はいませんでした。ある学会で発表したとき、聴衆は若い女性一人だけでした。「お嬢さん、気まずいけれど、今日はあなただけに話すことになりそうです」と言うと、彼女は「いいですよ。でも急いでください。次の発表者は私なんです」と答えました。それでも、コンピューターは5年ごとに10倍安くなり、いまでは当時より1,000万倍安くなりました。だからこそ、私たちが当時発表した技術は、いま皆さんのスマートフォンの中で動いているのです。 細部をシミュレーションしない計画 Davidがスライドで示したのは、より良い計画の方法です。素朴な計画は、世界モデルを使って未来をミリ秒単位でシミュレーションします。チェスや囲碁には十分ですが、本来やるべきことではありません。 ここからパリに行く計画を立てるとき、電話をつかむ手の動きまでシミュレーションする人はいません。タクシーを呼ぶ、空港に行く、チェックインする。いくつかの重要な点だけを押さえた、コンパクトな計画を立てます。 2015年に私が提案したのは、コントローラーが世界モデル（M）の隠れユニットに問い合わせを送るという方法です。Mは、YouTubeの動画をすべて見てきたかもしれないし、ロボットの経験を大量に持っているかもしれない。コントローラーは、学習するプロンプトエンジニアです。いま解きたい問題に関係のある内部表現だけに注意を向け、そこから答えを引き出して、自分の行動を変えていきます。その問い合わせは英語でも日本語でもなく、数値ベクトルの列です。単純な問題なら一から解いたほうが早いでしょう。しかし興味深い問題はどれも、巨大なモデルの奥に眠るアルゴリズム的な情報から大きな恩恵を受けるはずです。2018年には、蒸留を使ってコントローラーとモデルを一つにまとめる論文も書きました。もっとも、2018年のより有名な論文は、世界モデルが実際に役立つことを見事な実験で示したDavidの論文のほうです。 画面の外のAIへ ここで、少し広い歴史の文脈に目を向けましょう。今日お話ししたことの多くは、ドイツと日本で起きました。",
-      "title_zh": "Sakana AI 推进研究与开源进展",
-      "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
-      "key_points_zh": [
-        "主体是 Sakana AI，核心变化集中在研究与开源进展。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：research、agents、japan。",
-        "涉及公司或机构：Sakana AI。"
-      ],
-      "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "【開催レポート】Sakana AIシンポジウム：Jürgen Schmidhuberが語るAIのこれまでとこれから、日本から挑む言語モデル・世界モデル・Physical AI",
-          "source_url": "https://sakana.ai/symposium-2026/"
-        },
-        {
-          "label": "公开摘要",
-          "text": "基調講演を行うSakana AI Chief Scientific Advisorのユルゲン・シュミットフーバー教授",
-          "source_url": "https://sakana.ai/symposium-2026/"
-        }
-      ],
-      "slug": "sakana-ai-jurgen-schmidhuberaiphysical-ai-6a9fc491",
-      "localized_url": "/zh/items/2026-11-03/sakana-ai-jurgen-schmidhuberaiphysical-ai-6a9fc491/",
-      "source_license_mode": "summary_only",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
-      "title_original": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
-      "title_en": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
-      "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model",
-      "source_name": "Latent Space",
-      "source_url": "https://www.latent.space/",
-      "original_url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
-      "published_at": "Mon, 02 Nov 2026 23:01:02 GMT",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "llm",
-        "agents",
-        "ai-engineering"
+        "podcast"
       ],
       "importance_score": 40.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "69a46671059b",
+      "duplicate_group_id": "adafdd4764cb",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -578,189 +756,51 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+      "title_zh": "DeepMind 讨论AI 代理工程与工具调用能力",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
-        "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+        "主体是 DeepMind，核心变化集中在AI 代理工程与工具调用能力。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：llm、agents、ai-engineering。"
+        "相关标签包括：deepmind、research、podcast。"
       ],
-      "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
       "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
       "terms_zh": [
         {
           "term": "AI Agent",
           "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
         }
       ],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
-          "source_url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/"
+          "text": "Agentic cheminformatics with Google Antigravity",
+          "source_url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
         },
         {
           "label": "公开摘要",
-          "text": "Evals without traces, million-cell tabular reviews, and cracks in the billable hour as a business model",
-          "source_url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/"
+          "text": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+          "source_url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
         }
       ],
-      "slug": "building-ai-for-lawyers-jacob-lauritzen-cto-of-legora-19ed9c0e",
-      "localized_url": "/zh/items/2026-11-03/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora-19ed9c0e/",
-      "source_license_mode": "summary_only",
+      "slug": "agentic-cheminformatics-with-google-antigravity-7b04a568",
+      "localized_url": "/zh/items/2026-11-04/agentic-cheminformatics-with-google-antigravity-7b04a568/",
+      "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
-      "title_original": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
-      "title_en": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
-      "summary_zh": "Latent Space 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies...",
-      "source_name": "Latent Space",
-      "source_url": "https://www.latent.space/",
-      "original_url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
-      "published_at": "Mon, 02 Nov 2026 22:54:03 GMT",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "llm",
-        "agents",
-        "ai-engineering"
-      ],
-      "importance_score": 40.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "e33216d0e243",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Latent Space 讨论AI 代理工程与工具调用能力",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 Latent Space，核心变化集中在AI 代理工程与工具调用能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：llm、agents、ai-engineering。"
-      ],
-      "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
-          "source_url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one",
-          "source_url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/"
-        }
-      ],
-      "slug": "building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto-of-1a6e22a4",
-      "localized_url": "/zh/items/2026-11-03/building-legal-agents-when-you-can-t-see-the-data-jacob-lauritzen-cto-of-1a6e22a4/",
-      "source_license_mode": "summary_only",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
-      "title_original": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
-      "title_en": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
-      "summary_zh": "Grok 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "source_name": "Lenny's Podcast",
-      "source_url": "https://www.lennysnewsletter.com/",
-      "original_url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
-      "published_at": "Mon, 02 Nov 2026 16:02:08 GMT",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
-      "category": "podcasts-interviews",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "podcast",
-        "product",
-        "ai-products",
-        "startups"
-      ],
-      "importance_score": 40.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "853a62592e47",
-      "language": "en",
-      "source_type": "podcast",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Grok 讨论行业访谈中的判断与经验",
-      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
-      "key_points_zh": [
-        "主体是 Grok，核心变化集中在行业访谈中的判断与经验。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：podcast、product、ai-products、startups。"
-      ],
-      "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
-          "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-          "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet"
-        }
-      ],
-      "slug": "how-i-ai-grok-vs-dot-vs-muse-vs-duet-how-figmas-pms-actually-use-ai-ever-853a6259",
-      "localized_url": "/zh/items/2026-11-03/how-i-ai-grok-vs-dot-vs-muse-vs-duet-how-figmas-pms-actually-use-ai-ever-853a6259/",
-      "source_license_mode": "summary_only",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
-      "title_original": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
-      "title_en": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+      "title": "Lenny’s Newsletter holiday gift guide 2026",
+      "title_original": "Lenny’s Newsletter holiday gift guide 2026",
+      "title_en": "Lenny’s Newsletter holiday gift guide 2026",
       "summary_zh": "Lenny's Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+      "summary_en": "100+ gift ideas—all things I actually use, love, and recommend",
       "source_name": "Lenny's Podcast",
       "source_url": "https://www.lennysnewsletter.com/",
-      "original_url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
-      "published_at": "Mon, 02 Nov 2026 13:04:11 GMT",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
+      "original_url": "https://www.lennysnewsletter.com/p/lennys-newsletter-holiday-gift-guide-057",
+      "published_at": "Tue, 03 Nov 2026 14:45:33 GMT",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
       "category": "podcasts-interviews",
       "people": [],
       "companies": [],
@@ -773,7 +813,7 @@
       "importance_score": 40.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "81161cac288b",
+      "duplicate_group_id": "5c054ef054f6",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -798,46 +838,46 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
-          "source_url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every"
+          "text": "Lenny’s Newsletter holiday gift guide 2026",
+          "source_url": "https://www.lennysnewsletter.com/p/lennys-newsletter-holiday-gift-guide-057"
         },
         {
           "label": "公开摘要",
-          "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
-          "source_url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every"
+          "text": "100+ gift ideas—all things I actually use, love, and recommend",
+          "source_url": "https://www.lennysnewsletter.com/p/lennys-newsletter-holiday-gift-guide-057"
         }
       ],
-      "slug": "how-figmas-pms-actually-use-ai-every-day-ezra-mechaber-pm-figma-81161cac",
-      "localized_url": "/zh/items/2026-11-03/how-figmas-pms-actually-use-ai-every-day-ezra-mechaber-pm-figma-81161cac/",
+      "slug": "lennys-newsletter-holiday-gift-guide-2026-5c054ef0",
+      "localized_url": "/zh/items/2026-11-04/lennys-newsletter-holiday-gift-guide-2026-5c054ef0/",
       "source_license_mode": "summary_only",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Speeding up planning decisions with AI",
-      "title_original": "Speeding up planning decisions with AI",
-      "title_en": "Speeding up planning decisions with AI",
-      "summary_zh": "DeepMind 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Google DeepMind and UK government work together to reduce planning assessment times",
-      "source_name": "Google DeepMind Podcast",
-      "source_url": "https://deepmind.google/discover/the-podcast/",
-      "original_url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
-      "published_at": "Fri, 30 Oct 2026 14:18:30 +0000",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
+      "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+      "title_original": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+      "title_en": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+      "summary_zh": "Benchmark 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+      "source_name": "Latent Space",
+      "source_url": "https://www.latent.space/",
+      "original_url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+      "published_at": "Tue, 03 Nov 2026 05:35:00 GMT",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
       "category": "podcasts-interviews",
       "people": [],
       "companies": [
-        "Google DeepMind"
+        "Benchmark"
       ],
       "tags": [
-        "deepmind",
-        "research",
-        "podcast"
+        "llm",
+        "agents",
+        "ai-engineering"
       ],
       "importance_score": 40.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "ea66f5a34808",
+      "duplicate_group_id": "360a3a5d8e13",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -848,322 +888,71 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "DeepMind 讨论政府与国家安全合作原则",
+      "title_zh": "Benchmark 讨论AI 代理工程与工具调用能力",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
-        "主体是 DeepMind，核心变化集中在政府与国家安全合作原则。",
+        "主体是 Benchmark，核心变化集中在AI 代理工程与工具调用能力。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：deepmind、research、podcast。",
-        "涉及公司或机构：Google DeepMind。"
+        "相关标签包括：llm、agents、ai-engineering。",
+        "涉及公司或机构：Benchmark。"
       ],
-      "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
       "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Speeding up planning decisions with AI",
-          "source_url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Google DeepMind and UK government work together to reduce planning assessment times",
-          "source_url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
-        }
-      ],
-      "slug": "speeding-up-planning-decisions-with-ai-094c331a",
-      "localized_url": "/zh/items/2026-11-03/speeding-up-planning-decisions-with-ai-094c331a/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Projects can now be configured with vercel.toml",
-      "title_original": "Projects can now be configured with vercel.toml",
-      "title_en": "Projects can now be configured with vercel.toml",
-      "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Vercel now supports vercel.toml , which allows you to to configure your project using the TOML configuration format . All of the same configuration properties are supported as in vercel.json , but it supports comments and has a flatter structure. All projects",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml",
-      "published_at": "2026-11-02T21:00:00.000Z",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "d9f477ed4cf3",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Vercel 推进AI 产业与产品变化",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
       "terms_zh": [
         {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "benchmark",
+          "explanation": "用于衡量模型能力的任务集合或评测体系。"
         }
       ],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Projects can now be configured with vercel.toml",
-          "source_url": "https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml"
+          "text": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+          "source_url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
         },
         {
           "label": "公开摘要",
-          "text": "Vercel now supports vercel.toml , which allows you to to configure your project using the TOML configuration format . All of the same configuration properties are supported as in vercel.json , but it supports comments",
-          "source_url": "https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml"
+          "text": "Editing Qwen’s weights to reduce reasoning loops, DeepSeek’s super-agent prototype, and the GDPx benchmark.",
+          "source_url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/"
         }
       ],
-      "slug": "projects-can-now-be-configured-with-vercel-toml-d9f477ed",
-      "localized_url": "/zh/items/2026-11-03/projects-can-now-be-configured-with-vercel-toml-d9f477ed/",
-      "source_license_mode": "official_public",
+      "slug": "ainews-llms-can-read-write-neural-network-weights-weight-space-programmi-bbb1cbf3",
+      "localized_url": "/zh/items/2026-11-04/ainews-llms-can-read-write-neural-network-weights-weight-space-programmi-bbb1cbf3/",
+      "source_license_mode": "summary_only",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Vercel MCP now supports Client ID Metadata Documents",
-      "title_original": "Vercel MCP now supports Client ID Metadata Documents",
-      "title_en": "Vercel MCP now supports Client ID Metadata Documents",
-      "summary_zh": "Meta 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Any MCP client can now ask to connect to Vercel MCP . You still log in and approve each connection, but the client no longer has to be reviewed by Vercel first. Previously, Vercel reviewed and allowlisted each client and its redirect URIs by hand, and",
+      "title": "How Zapier turns ideas into working software in hours with Vercel",
+      "title_original": "How Zapier turns ideas into working software in hours with Vercel",
+      "title_en": "How Zapier turns ideas into working software in hours with Vercel",
+      "summary_zh": "Vercel 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Zapier on Vercel Interactive partner demos in under two hours with v0, replacing a process that could take weeks First versions of three internal applications, each built in one day A shared daily briefing for more than 60 marketers, replacing individual",
       "source_name": "Vercel AI",
       "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents",
-      "published_at": "2026-11-02T20:09:00.000Z",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
-      "category": "company-industry",
+      "original_url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
+      "published_at": "2026-11-03T04:00:00.000Z",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
+      "category": "models-products",
       "people": [],
       "companies": [],
       "tags": [
         "developer",
         "ai-sdk"
       ],
-      "importance_score": 24.0,
+      "importance_score": 36.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "9a0861c2e6df",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Meta 更新AI 产业与产品变化",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Meta，核心变化集中在AI 产业与产品变化。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Vercel MCP now supports Client ID Metadata Documents",
-          "source_url": "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Any MCP client can now ask to connect to Vercel MCP . You still log in and approve each connection, but the client no longer has to be reviewed by Vercel first. Previously, Vercel reviewed and allowlisted each client",
-          "source_url": "https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents"
-        }
-      ],
-      "slug": "vercel-mcp-now-supports-client-id-metadata-documents-9a0861c2",
-      "localized_url": "/zh/items/2026-11-03/vercel-mcp-now-supports-client-id-metadata-documents-9a0861c2/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Vercel MCP now renders deployments as an interactive card",
-      "title_original": "Vercel MCP now renders deployments as an interactive card",
-      "title_en": "Vercel MCP now renders deployments as an interactive card",
-      "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Vercel MCP can now show your deployments as an interactive card inside ChatGPT and other chat clients that support MCP Apps . The card shows live deployment status, build logs, and source and commit details, with a Visit button once the deployment URL is",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt",
-      "published_at": "2026-11-02T17:05:00.000Z",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "553410a0ec68",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Vercel 推进AI 产业与产品变化",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Vercel MCP now renders deployments as an interactive card",
-          "source_url": "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Vercel MCP can now show your deployments as an interactive card inside ChatGPT and other chat clients that support MCP Apps . The card shows live deployment status, build logs, and source and commit details, with a",
-          "source_url": "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt"
-        }
-      ],
-      "slug": "vercel-mcp-now-renders-deployments-as-an-interactive-card-553410a0",
-      "localized_url": "/zh/items/2026-11-03/vercel-mcp-now-renders-deployments-as-an-interactive-card-553410a0/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Flags Explorer redesigned for easier override sharing",
-      "title_original": "Flags Explorer redesigned for easier override sharing",
-      "title_en": "Flags Explorer redesigned for easier override sharing",
-      "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Flags Explorer is a tool in the Vercel Toolbar where you can see which feature flags are active on your end, and share them with your team, either by setting them for the branch or through a URL. The Explorer surface has been redesigned to co-locate",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing",
-      "published_at": "2026-11-02T16:58:00.000Z",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "6fcdcf18234b",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Vercel 推进AI 产业与产品变化",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Flags Explorer redesigned for easier override sharing",
-          "source_url": "https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Flags Explorer is a tool in the Vercel Toolbar where you can see which feature flags are active on your end, and share them with your team, either by setting them for the branch or through a URL. The Explorer surface",
-          "source_url": "https://vercel.com/changelog/flags-explorer-redesigned-for-easier-override-sharing"
-        }
-      ],
-      "slug": "flags-explorer-redesigned-for-easier-override-sharing-6fcdcf18",
-      "localized_url": "/zh/items/2026-11-03/flags-explorer-redesigned-for-easier-override-sharing-6fcdcf18/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Vercel Sandbox with Drives now starts up to 2.4x faster",
-      "title_original": "Vercel Sandbox with Drives now starts up to 2.4x faster",
-      "title_en": "Vercel Sandbox with Drives now starts up to 2.4x faster",
-      "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Vercel Sandboxes that mount Drives now start faster. Median creation time dropped from 1.7s to 0.7s, and p95 dropped from 2.2s to 1.6s. The speedup applies automatically to every sandbox that uses Drives, with no SDK upgrade or configuration changes needed.",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster",
-      "published_at": "2026-11-02T16:39:00.000Z",
-      "fetched_at": "2026-11-03T03:29:32.263285+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "06dd68e0094b",
+      "duplicate_group_id": "4782b364a7f8",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
@@ -1175,9 +964,209 @@
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
       "title_zh": "Vercel 推进开发者接口与平台能力",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
         "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        },
+        {
+          "term": "API",
+          "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "How Zapier turns ideas into working software in hours with Vercel",
+          "source_url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Zapier on Vercel Interactive partner demos in under two hours with v0, replacing a process that could take weeks First versions of three internal applications, each built in one day A shared daily briefing for more than",
+          "source_url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel"
+        }
+      ],
+      "slug": "how-zapier-turns-ideas-into-working-software-in-hours-with-vercel-4782b364",
+      "localized_url": "/zh/items/2026-11-04/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel-4782b364/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "How Mercor ships internal apps and billions of production tokens on one platform",
+      "title_original": "How Mercor ships internal apps and billions of production tokens on one platform",
+      "title_en": "How Mercor ships internal apps and billions of production tokens on one platform",
+      "summary_zh": "Vercel 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Mercor on Vercel Batch jobs cut from 12 hours to 2 hours 18M requests and 63B tokens routed through AI Gateway in 10 days Expert access provisioned in seconds via Vercel Passport Over 2,000 projects created by hundreds of internal builders Mercor connects",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
+      "published_at": "2026-11-03T04:00:00.000Z",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 36.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "c5a365340932",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 推进开发者接口与平台能力",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "How Mercor ships internal apps and billions of production tokens on one platform",
+          "source_url": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Mercor on Vercel Batch jobs cut from 12 hours to 2 hours 18M requests and 63B tokens routed through AI Gateway in 10 days Expert access provisioned in seconds via Vercel Passport Over 2,000 projects created by hundreds",
+          "source_url": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform"
+        }
+      ],
+      "slug": "how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-c5a36534",
+      "localized_url": "/zh/items/2026-11-04/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-c5a36534/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Can AI Invent or Just Help Scientists Work Faster? with Richard Socher - #783",
+      "title_original": "Can AI Invent or Just Help Scientists Work Faster? with Richard Socher - #783",
+      "title_en": "Can AI Invent or Just Help Scientists Work Faster? with Richard Socher - #783",
+      "summary_zh": "Richard Socher 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "AI can help scientists write code, analyze data, and draft papers. But can it generate the ideas that lead to new discoveries? Richard Socher, former chief scientist at Salesforce, founder of You.com, and co-founder of Recursive, joins us to explore the move",
+      "source_name": "TWIML AI Podcast",
+      "source_url": "https://twimlai.com/podcast/twimlai/",
+      "original_url": "https://twimlai.com/podcast/twimlai/can-ai-invent-just-help-scientists-work-faster",
+      "published_at": "Tue, 03 Nov 2026 17:25:00 -0000",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
+      "category": "podcasts-interviews",
+      "people": [
+        "Richard Socher"
+      ],
+      "companies": [],
+      "tags": [
+        "ml",
+        "podcast",
+        "research"
+      ],
+      "importance_score": 32.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "fc129763dc11",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Richard Socher 讨论模型评测与研究方法",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Richard Socher，核心变化集中在模型评测与研究方法。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：ml、podcast、research。"
+      ],
+      "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Can AI Invent or Just Help Scientists Work Faster? with Richard Socher - #783",
+          "source_url": "https://twimlai.com/podcast/twimlai/can-ai-invent-just-help-scientists-work-faster"
+        },
+        {
+          "label": "公开摘要",
+          "text": "AI can help scientists write code, analyze data, and draft papers. But can it generate the ideas that lead to new discoveries? Richard Socher, former chief scientist at Salesforce, founder of You.com, and co-founder of",
+          "source_url": "https://twimlai.com/podcast/twimlai/can-ai-invent-just-help-scientists-work-faster"
+        }
+      ],
+      "slug": "can-ai-invent-or-just-help-scientists-work-faster-with-richard-socher-78-fc129763",
+      "localized_url": "/zh/items/2026-11-04/can-ai-invent-or-just-help-scientists-work-faster-with-richard-socher-78-fc129763/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Vercel Security Review now in public beta",
+      "title_original": "Vercel Security Review now in public beta",
+      "title_en": "Vercel Security Review now in public beta",
+      "summary_zh": "Vercel 推进了政府与国家安全合作原则，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Vercel Security Review is now in public beta for Pro and Enterprise teams. Once enabled, every push to a connected GitHub repository is automatically reviewed for vulnerabilities, and findings are reported in the Vulnerabilities dashboard . What triggers a",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/vercel-security-review-public-beta",
+      "published_at": "2026-11-03T20:00:00.000Z",
+      "fetched_at": "2026-11-04T02:22:41.507661+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "f537ef361e9d",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 推进政府与国家安全合作原则",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在政府与国家安全合作原则。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
         "相关标签包括：developer、ai-sdk。"
@@ -1193,17 +1182,17 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Vercel Sandbox with Drives now starts up to 2.4x faster",
-          "source_url": "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster"
+          "text": "Vercel Security Review now in public beta",
+          "source_url": "https://vercel.com/changelog/vercel-security-review-public-beta"
         },
         {
           "label": "公开摘要",
-          "text": "Vercel Sandboxes that mount Drives now start faster. Median creation time dropped from 1.7s to 0.7s, and p95 dropped from 2.2s to 1.6s. The speedup applies automatically to every sandbox that uses Drives, with no SDK",
-          "source_url": "https://vercel.com/changelog/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster"
+          "text": "Vercel Security Review is now in public beta for Pro and Enterprise teams. Once enabled, every push to a connected GitHub repository is automatically reviewed for vulnerabilities, and findings are reported in the",
+          "source_url": "https://vercel.com/changelog/vercel-security-review-public-beta"
         }
       ],
-      "slug": "vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster-06dd68e0",
-      "localized_url": "/zh/items/2026-11-03/vercel-sandbox-with-drives-now-starts-up-to-2-4x-faster-06dd68e0/",
+      "slug": "vercel-security-review-now-in-public-beta-f537ef36",
+      "localized_url": "/zh/items/2026-11-04/vercel-security-review-now-in-public-beta-f537ef36/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
