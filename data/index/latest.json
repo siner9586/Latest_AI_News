@@ -1,35 +1,33 @@
 {
-  "date": "2026-11-05",
-  "title_zh": "AI 新闻简报 · 2026-11-05",
-  "title_en": "English AI News Brief · 2026-11-05",
-  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 137 条，入选 15 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
-  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 137 previously displayed items excluded, and 15 selected items. Chinese pages link to internal research digests while preserving original source links.",
+  "date": "2026-11-06",
+  "title_zh": "AI 新闻简报 · 2026-11-06",
+  "title_en": "English AI News Brief · 2026-11-06",
+  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 125 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 125 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
   "source_count": 181,
   "candidate_count": 152,
-  "skipped_history_count": 137,
-  "selected_count": 15,
+  "skipped_history_count": 125,
+  "selected_count": 18,
   "categories": [
-    "company-industry",
     "models-products",
     "podcasts-interviews"
   ],
   "category_labels_zh": {
-    "company-industry": "公司与产业",
     "models-products": "模型与产品",
     "podcasts-interviews": "访谈与播客"
   },
   "items": [
     {
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "title_original": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "title_en": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "title_original": "Cult.fit builds operational muscle with Codex",
+      "title_en": "Cult.fit builds operational muscle with Codex",
       "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "summary_en": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "source_name": "OpenAI News",
       "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/openai-to-acquire-pierre",
-      "published_at": "Wed, 04 Nov 2026 14:30:00 GMT",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
+      "original_url": "https://openai.com/index/cultfit-builds-with-codex",
+      "published_at": "Thu, 05 Nov 2026 20:00:00 GMT",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
       "category": "models-products",
       "people": [],
       "companies": [
@@ -43,7 +41,7 @@
       "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "3a06f84c0f51",
+      "duplicate_group_id": "c88b52d0b210",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
@@ -69,32 +67,95 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "OpenAI to acquire Pierre Computer Company, Inc.",
-          "source_url": "https://openai.com/index/openai-to-acquire-pierre"
+          "text": "Cult.fit builds operational muscle with Codex",
+          "source_url": "https://openai.com/index/cultfit-builds-with-codex"
         },
         {
           "label": "公开摘要",
-          "text": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-          "source_url": "https://openai.com/index/openai-to-acquire-pierre"
+          "text": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+          "source_url": "https://openai.com/index/cultfit-builds-with-codex"
         }
       ],
-      "slug": "openai-to-acquire-pierre-computer-company-inc-3a06f84c",
-      "localized_url": "/zh/items/2026-11-05/openai-to-acquire-pierre-computer-company-inc-3a06f84c/",
+      "slug": "cult-fit-builds-operational-muscle-with-codex-c88b52d0",
+      "localized_url": "/zh/items/2026-11-06/cult-fit-builds-operational-muscle-with-codex-c88b52d0/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "A thousand fewer paths to root",
-      "title_original": "A thousand fewer paths to root",
-      "title_en": "A thousand fewer paths to root",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "title_original": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "title_en": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "summary_zh": "NVIDIA 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "published_at": "Thu, 05 Nov 2026 19:35:16 GMT",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "e8690f74b67f",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "extracted_excerpt": "A Blog post by NVIDIA on Hugging Face",
+      "extracted_text_for_analysis": "NVIDIA Cosmos world model development platform adds four new open-weight checkpoints to its Cosmos 3 model family for generating interactive world simulation and multi-sensor multi-view driving scenes: - 🌦️ Cosmos3-Nano-Transfer-Auto : Generate multi-view driving data with varied weather, lighting, and time of day. - 🚗 Cosmos3-Nano-Sim-Auto : Stream synchronized camera and LiDAR observations for driving simulation. - 🎨 Cosmos3-Nano-Sim-Transfer : Turn simulator controls and a text prompt into photorealistic video. - 🤖 Cosmos3-Nano-Sim-Bimanual : Predict video from robot or camera actions. All four models are post-trained examples of Cosmos 3 Nano and have 16B trainable parameters. The models use OpenMDW1.1, permitting commercial and non-commercial use under its terms. Download the checkpoints · Read the technical report . Watch the demos 🦾 Robotics needs environments that can answer this across changing scenes and viewpoints. These checkpoints offer complementary ways to build them: Sim-Bimanual predicts visual consequences from actions, while Sim-Transfer turns a physics simulator’s controls into generated observations. 🚦 For autonomous driving, appearance and geometry must agree. Synchronized camera and LiDAR generation connects visual observations with 3D sensing. Scene and traffic-signal controls let researchers vary road layouts and signal states, then study how a driving policy responds. 🔄 Each observation can shape the next action. Streaming generation connects video prediction to ongoing interaction, giving world-model researchers a way to explore how actions and observations unfold together. 🌐 An open foundation for others to build on. NVIDIA’s vision is to help researchers and developers create richer, more responsive simulated worlds. Open weights and post-training recipes provide a shared starting point for adapting models, comparing methods, and contributing improvements. These problems remain hard: the work ahead is to measure where the models faithfully support policy learning and evaluation, understand their limits, and improve where they fall short. Cosmos3-Nano-Transfer-Auto is a bidirectional model for offline synthetic driving data generation. It generates synchronized video across up to 11 camera views, including fisheyes, and supports joint RGB–LiDAR generation. Per-camera World Scenario Map (WSM) controls specify scene structure and traffic motion, while text prompts guide appearance. Developers can vary environmental conditions to expand training and evaluation coverage, with optional initial RGB images to anchor scene appearance. Joint LiDAR generation additionally uses aligned HD-map range-map controls. Transfer-Auto also serves as the foundation for adapting Cosmos to your own sensor rig and driving domain. Start by post-training it on your data to accommodate your camera layout, LiDAR configuration, and target environment. The adapted model can be used directly for offline data generation or undergo causal training and few-step distillation for fast streaming simulation—the development path used to create Cosmos3-Nano-Sim-Auto. Point your agent to the open skill : Run inference with Cosmos3-Nano-Transfer-Auto Prefer a notebook? Open Transfer-Auto. Cosmos3-Nano-Sim-Auto is the causally distilled streaming variant of Transfer-Auto. It generates successive small chunks of synchronized camera video and LiDAR in just a few denoising steps, using generated history and updated driving controls to support fast streaming and long, interactive rollouts. Provide per-camera captions and synchronized WSM controls, optionally adding initial RGB images. For LiDAR generation, include HD-Map range controls aligned with the camera controls. The distilled model generates successive chunks using its rolling history. Closed-loop interaction requires a simulation runtime and WSM renderer to update those controls from driving inputs. For a new sensor rig or domain, adapt Transfer-Auto first, then distill it into Sim-Auto. Point your agent to the open skill : Run inference with Cosmos3-Nano-Sim-Auto Prefer a notebook? Open Sim-Auto. Your simulator computes motion, contacts, and physical state. Sim-Transfer uses its spatial controls and a text prompt to render color observations that a policy can consume. Action → simulator update → spatial controls → generated RGB → next policy action - Depth: relative distance from the camera. - Segmentation: regions and object boundaries. - Edges: scene contours. - Blur: coarse appearance and layout. Text guides appearance; physics and ground-truth state stay with the simulator. Depth control to video Segmentation control to video Point your agent to the open skill : Run inference with Cosmos3-Nano-Sim-Transfer Prefer a notebook? Use Transfer. Input Frames Output Video From Sim-Bimanual Simulation Checkpoint Cosmos3-Nano-Sim-Bimanual simulates how an environment evolves in response to a bimanual robot’s actions. It supports interactive two-arm simulation for YAM and AgiBot embodiments, controlled by a policy or human-operated joysticks. Start with an image, move the robot or camera, and generate the next observations. One control sequence can switch between viewpoint changes and manipulation. The mixed-action example uses 59 control values, padded to 64 during training. Its schema defines coordinate frames, rotations, gripper calibration, validity masks, and control domains. Follow those conventions so each value describes the intended motion. Keep timing aligned: T transitions need T+1 observations. Training transforms raw captures into the model’s action representation; released inference actions are already normalized. Here, Sim-Transfer generates visuals from a physics simulator’s updated state; Sim-Bimanual generates the next observation directly from the scene and robot actions. See the data contract and action schema. Requirements: Linux, an NVIDIA GPU, Docker, and NVIDIA Container Toolkit. The published vLLM-Omni setup was tested on one GB200; this is not a minimum-memory specification. The server downloads weights; the clients fetch sample inputs. Point your agent to the open skill : Run inference with Cosmos3-Nano-Sim-Bimanual Prefer a notebook? Open Bimanual Cosmos 3’s Mixture-of-Transformers backbone connects separate text-processing and visual-generation networks through attention. The generator predicts each short segment from the prompt, available controls, and generated history. Controls + history → generate chunk → decode images → update history Denoising refines noisy, compressed video representations into a segment. Temporal-causal attention lets it read available history and controls while blocking future target observations. A key/value cache retains attention information for the next prediction. The model operates on compressed video representations called latents. After the initial image, each latent time step represents four RGB frames. Transfer predicts one step per chunk; the optimized Bimanual setup",
+      "title_zh": "NVIDIA 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 NVIDIA 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+          "source_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+        },
+        {
+          "label": "公开摘要",
+          "text": "NVIDIA has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+        }
+      ],
+      "slug": "new-nvidia-cosmos-3-open-models-for-interactive-world-simulation-e8690f74",
+      "localized_url": "/zh/items/2026-11-06/new-nvidia-cosmos-3-open-models-for-interactive-world-simulation-e8690f74/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Australian universities are creating AI-native graduates",
+      "title_original": "Australian universities are creating AI-native graduates",
+      "title_en": "Australian universities are creating AI-native graduates",
       "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "summary_en": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "source_name": "OpenAI News",
       "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "published_at": "Wed, 04 Nov 2026 08:00:00 GMT",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
+      "original_url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "published_at": "Thu, 05 Nov 2026 17:00:00 GMT",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
       "category": "models-products",
       "people": [],
       "companies": [
@@ -108,7 +169,7 @@
       "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "a4f4c423c542",
+      "duplicate_group_id": "b58fee4edbbb",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
@@ -134,32 +195,32 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "A thousand fewer paths to root",
-          "source_url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+          "text": "Australian universities are creating AI-native graduates",
+          "source_url": "https://openai.com/index/australian-universities-ai-native-graduates"
         },
         {
           "label": "公开摘要",
-          "text": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-          "source_url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+          "text": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+          "source_url": "https://openai.com/index/australian-universities-ai-native-graduates"
         }
       ],
-      "slug": "a-thousand-fewer-paths-to-root-a4f4c423",
-      "localized_url": "/zh/items/2026-11-05/a-thousand-fewer-paths-to-root-a4f4c423/",
+      "slug": "australian-universities-are-creating-ai-native-graduates-b58fee4e",
+      "localized_url": "/zh/items/2026-11-06/australian-universities-are-creating-ai-native-graduates-b58fee4e/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "title_original": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "title_en": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "title_original": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "title_en": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
       "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "summary_en": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
       "source_name": "OpenAI News",
       "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "published_at": "Wed, 04 Nov 2026 07:00:00 GMT",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
+      "original_url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "published_at": "Thu, 05 Nov 2026 09:00:00 GMT",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
       "category": "models-products",
       "people": [],
       "companies": [
@@ -173,7 +234,7 @@
       "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "75679f5aa60b",
+      "duplicate_group_id": "53c56afbaf05",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
@@ -184,7 +245,146 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "OpenAI 发布政府与国家安全合作原则",
+      "title_zh": "OpenAI 推进政府与国家安全合作原则",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+          "source_url": "https://openai.com/index/introducing-gpt-6-cyber"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+          "source_url": "https://openai.com/index/introducing-gpt-6-cyber"
+        }
+      ],
+      "slug": "gpt6-cyber-advancing-the-frontier-of-aligned-cybersecurity-agents-53c56afb",
+      "localized_url": "/zh/items/2026-11-06/gpt6-cyber-advancing-the-frontier-of-aligned-cybersecurity-agents-53c56afb/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "title_original": "Merge builds product and business tools with OpenAI technology",
+      "title_en": "Merge builds product and business tools with OpenAI technology",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/merge-builds-with-openai",
+      "published_at": "Thu, 05 Nov 2026 08:00:00 GMT",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "300d91101f21",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "restricted_or_paywalled"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "OpenAI 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Merge builds product and business tools with OpenAI technology",
+          "source_url": "https://openai.com/index/merge-builds-with-openai"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+          "source_url": "https://openai.com/index/merge-builds-with-openai"
+        }
+      ],
+      "slug": "merge-builds-product-and-business-tools-with-openai-technology-300d9110",
+      "localized_url": "/zh/items/2026-11-06/merge-builds-product-and-business-tools-with-openai-technology-300d9110/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "title_original": "Setting a new standard for responsible AI infrastructure",
+      "title_en": "Setting a new standard for responsible AI infrastructure",
+      "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "published_at": "Thu, 05 Nov 2026 02:00:00 GMT",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "f93567576105",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "restricted_or_paywalled"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "OpenAI 推进政府与国家安全合作原则",
       "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
         "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
@@ -199,102 +399,32 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Daybreak Red is now available in AWS GovCloud (US-East)",
-          "source_url": "https://openai.com/index/daybreak-red-aws-govcloud"
+          "text": "Setting a new standard for responsible AI infrastructure",
+          "source_url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
         },
         {
           "label": "公开摘要",
-          "text": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-          "source_url": "https://openai.com/index/daybreak-red-aws-govcloud"
+          "text": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+          "source_url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
         }
       ],
-      "slug": "daybreak-red-is-now-available-in-aws-govcloud-us-east-75679f5a",
-      "localized_url": "/zh/items/2026-11-05/daybreak-red-is-now-available-in-aws-govcloud-us-east-75679f5a/",
+      "slug": "setting-a-new-standard-for-responsible-ai-infrastructure-f9356757",
+      "localized_url": "/zh/items/2026-11-06/setting-a-new-standard-for-responsible-ai-infrastructure-f9356757/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Introducing Images 2.6",
-      "title_original": "Introducing Images 2.6",
-      "title_en": "Introducing Images 2.6",
-      "summary_zh": "OpenAI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/introducing-images-2-6",
-      "published_at": "Wed, 04 Nov 2026 00:00:00 GMT",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "0a437d67f2ef",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "restricted_or_paywalled"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "OpenAI 发布开发者接口与平台能力",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [
-        {
-          "term": "API",
-          "explanation": "让开发者通过程序调用模型或平台能力的接口。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Introducing Images 2.6",
-          "source_url": "https://openai.com/index/introducing-images-2-6"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
-          "source_url": "https://openai.com/index/introducing-images-2-6"
-        }
-      ],
-      "slug": "introducing-images-2-6-0a437d67",
-      "localized_url": "/zh/items/2026-11-05/introducing-images-2-6-0a437d67/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-      "title_original": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-      "title_en": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "title": "Flipsnack grows product signups with conversion optimization",
+      "title_original": "Flipsnack grows product signups with conversion optimization",
+      "title_en": "Flipsnack grows product signups with conversion optimization",
       "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "summary_en": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
       "source_name": "OpenAI News",
       "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/devrev-enterprise-self-service",
-      "published_at": "Wed, 04 Nov 2026 00:00:00 GMT",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
+      "original_url": "https://openai.com/ads/customers/flipsnack",
+      "published_at": "Thu, 05 Nov 2026 00:45:15 GMT",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
       "category": "models-products",
       "people": [],
       "companies": [
@@ -308,7 +438,7 @@
       "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "bf25be8f8779",
+      "duplicate_group_id": "1f9981de5700",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
@@ -334,104 +464,181 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
-          "source_url": "https://openai.com/index/devrev-enterprise-self-service"
+          "text": "Flipsnack grows product signups with conversion optimization",
+          "source_url": "https://openai.com/ads/customers/flipsnack"
         },
         {
           "label": "公开摘要",
-          "text": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
-          "source_url": "https://openai.com/index/devrev-enterprise-self-service"
+          "text": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+          "source_url": "https://openai.com/ads/customers/flipsnack"
         }
       ],
-      "slug": "devrev-delivers-autonomous-self-service-with-gpt-6-1-sol-bf25be8f",
-      "localized_url": "/zh/items/2026-11-05/devrev-delivers-autonomous-self-service-with-gpt-6-1-sol-bf25be8f/",
+      "slug": "flipsnack-grows-product-signups-with-conversion-optimization-1f9981de",
+      "localized_url": "/zh/items/2026-11-06/flipsnack-grows-product-signups-with-conversion-optimization-1f9981de/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "title_original": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "title_en": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
-      "source_name": "Hugging Face Blog",
-      "source_url": "https://huggingface.co/blog",
-      "original_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "published_at": "Wed, 04 Nov 2026 17:50:10 GMT",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
+      "title": "Franklin Templeton uses OpenAI to support investment research",
+      "title_original": "Franklin Templeton uses OpenAI to support investment research",
+      "title_en": "Franklin Templeton uses OpenAI to support investment research",
+      "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/franklin-templeton",
+      "published_at": "Thu, 05 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
       "category": "models-products",
       "people": [],
-      "companies": [],
-      "tags": [
-        "open-source",
-        "models",
-        "developer"
+      "companies": [
+        "OpenAI"
       ],
-      "importance_score": 44.0,
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "5afc49da7bd4",
+      "duplicate_group_id": "c0d7b0808284",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "extracted_excerpt": "A Blog post by Dharma-AI on Hugging Face",
-      "extracted_text_for_analysis": "A 2-billion-parameter model that extracts exactly the fields you ask for, from any document type, outperforming every frontier LLM we tested, at a fraction of the cost. In April, we released DharmaOCR-LITE, a model specialized for OCR across a wide range of documents, from contracts and court filings to invoices, IDs and forms. The paper behind it made a narrow, well-measured case for domain specialization: a smaller model trained closer to its task beating general-purpose frontier APIs on that task. OCR gives you the text on a page, faithful to the original formatting. That's exactly what you want when the job is the whole document, like a contract you'll read end to end or a manuscript you're digitizing. However, there's a different use case: you don't want the page, you want specific fields out of it, in a shape a system downstream can consume. Every line item on an invoice, as a list. The patient name, exam type and date from a medical requisition, ready to schedule. The fields off an ID, mapped to the columns of an employee record. Run that document through OCR and you get back everything printed on it, line by line, with no indication of which string is the exam type, which is the date or which number is the total. Someone still has to write the code that maps each value to the right field before it reaches the database. A general-purpose LLM can do this work today, with careful prompting. At frontier API pricing and latency, on a task many businesses need to run at high volume, that quickly becomes the expensive way to solve a well-defined problem. So we built a model for it instead. The Field Extractor takes a document image and either a request for everything it can find, or an exact schema to fill, and returns structured JSON: typed, field by field, nested where the document nests. An invoice comes back with every line item as an ordered list, each with its own quantity and value, alongside the totals. An ID comes back as the fields you'll store, under the names your system already uses for them. The same checkpoint handles all of it, with no per-type fine-tuning. You can try it yourself here. Say a batch of supplier invoices lands every morning, and you need four things off each one to push into your system: the supplier, the invoice number, the due date, the total. Same story for medical requisitions going into a scheduler, or contracts feeding a compliance system, where what matters is the parties, the term, the penalties and the fine amounts. You don't need the page, you need certain fields. With the Field Extractor there are two ways to ask for them: - Open: no schema supplied. The model reads the page and works out which parts of it are structured fields (a label followed by a value, a table with a header row over its columns) from context and layout, not from a fixed list of field names, and returns everything it finds as key-value pairs. - Schema-directed: you specify the exact shape wanted, field by field, with a type for each one (string, number, or boolean), under the key names your system already uses. Ask for \"service_provider\" and \"client_company\", and those are the exact keys that come back. Ask for a table and it fills it row by row, column by column, matching each cell to the key it belongs under. Ask for a field that isn't on the document, and it returns null instead of inventing a value. The choice comes down to what you already know. Send an open request when you don't know what the document holds. Send a schema when the output has to match a shape that already exists somewhere else. Either way, what comes back is JSON: the fields as keys, the values typed as requested, and null where the document didn't have what you asked for. When you send a schema, the output follows it exactly, with the same keys and no extra fields, so it can go straight into the next system. The base model is DharmaOCR-LITE v1.1, a new 2-billion-parameter version optimized from the one in the paper and already specialized for OCR through supervised fine-tuning and DPO. On top of that checkpoint we trained a LoRA adapter on 43,384 training examples covering both request modes. The data is organized into three streams: - English multi-domain data: diverse documents collected from the public web, spanning many document types. - Brazilian domain data: real Brazilian documents sourced internally, in Portuguese. - Multilingual data: a smaller share covering other European and Asian languages, for broader generalization beyond English and Portuguese. All three streams are annotated at the field level. The mix is deliberately multi-domain: receipts, commercial invoices, forms, bank statements, ID documents and synthetic documents, rather than one filing type. The full benchmark covers 546 documents across three request scenarios, for 1,638 total cases: extracting every field with no schema, a partial schema naming only real fields, and a schema that also includes deliberately nonexistent fields. The score is field-level F1 (matched by path, including position inside a table), multiplied by the Levenshtein similarity on the values that matched and by the share of outputs that come back as valid JSON. We ran the same benchmark against four general-purpose frontier configurations. Against general-purpose LLMs, the quality gap runs from 1.8 points (Claude Opus 5, the closest) to 9.3 points (GPT-5.6 Luna, the widest). Cost runs from roughly 6 times lower (GPT-5.6 Luna) to roughly 147 times lower (GPT-5.6 Sol). The two sides are priced differently. The frontier figures come from measured average input and output tokens per page, reasoning tokens included, against each provider's published list pricing. Every frontier model ran with reasoning set to low; Claude Opus 5 used adaptive effort, which can skip reasoning on simpler pages while staying at the low level. Ours isn't billed per token: the model runs self-hosted, so the figure is GPU time on a single L40S at $2.24 per hour. This is not a sales price. Self-hosted cost depends on the hardware, the volume and the latency each deployment needs. The comparison is here to show that a sovereign SSLM, deployed on your own infrastructure, is a real alternative to frontier APIs. SROIE and FUNSD are two public datasets in our benchmark, not used in training. Below is one example from each. On a SROIE receipt, we asked for all 18 fields printed on it, with no phantom fields this time, and every one comes back correct: the multi-line, unlabeled billing address captured as a single field, the two blank fields (salesperson and ref) correctly returned as null, and every number on the receipt matching to the cent. On a FUNSD photocopying variance form, a checklist of twelve boolean fields with one nested group of five sub-options, the model marks exactly the one box that's checked (poor quality original, with a handwritten \"faded\" note beside it) as true, and the other eleven as false, matching the form exactly. It also reads the",
-      "title_zh": "Hugging Face 推进模型或产品能力更新",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "restricted_or_paywalled"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "OpenAI 更新模型评测与研究方法",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
       "key_points_zh": [
-        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：open-source、models、developer。"
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
       ],
-      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
       "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
       "terms_zh": [],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-          "source_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+          "text": "Franklin Templeton uses OpenAI to support investment research",
+          "source_url": "https://openai.com/index/franklin-templeton"
         },
         {
           "label": "公开摘要",
-          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
-          "source_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+          "text": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+          "source_url": "https://openai.com/index/franklin-templeton"
         }
       ],
-      "slug": "dharma-field-extractor-any-document-in-structured-fields-in-json-out-5afc49da",
-      "localized_url": "/zh/items/2026-11-05/dharma-field-extractor-any-document-in-structured-fields-in-json-out-5afc49da/",
+      "slug": "franklin-templeton-uses-openai-to-support-investment-research-c0d7b080",
+      "localized_url": "/zh/items/2026-11-06/franklin-templeton-uses-openai-to-support-investment-research-c0d7b080/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
-      "title_original": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
-      "title_en": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
-      "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "November 3, 2026 — A quiet day lets us share some behind the senes.",
-      "source_name": "Latent Space",
-      "source_url": "https://www.latent.space/",
-      "original_url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
-      "published_at": "Wed, 04 Nov 2026 19:17:30 GMT",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
-      "category": "podcasts-interviews",
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "title_original": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "title_en": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "summary_zh": "Benchmark 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Benchmark has a release or product update that may affect model capability, developer tooling or AI adoption.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/phonon-tts",
+      "published_at": "Thu, 05 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
+      "category": "models-products",
       "people": [],
-      "companies": [],
-      "tags": [
-        "llm",
-        "agents",
-        "ai-engineering"
+      "companies": [
+        "Benchmark"
       ],
-      "importance_score": 40.0,
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "e9efb1446d7a",
+      "duplicate_group_id": "89209ab642b1",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Benchmark 发布模型评测与研究方法",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Benchmark 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Benchmark，核心变化集中在模型评测与研究方法。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。",
+        "涉及公司或机构：Benchmark。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "benchmark",
+          "explanation": "用于衡量模型能力的任务集合或评测体系。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+          "source_url": "https://huggingface.co/blog/phonon-tts"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Benchmark has a release or product update that may affect model capability, developer tooling or AI adoption.",
+          "source_url": "https://huggingface.co/blog/phonon-tts"
+        }
+      ],
+      "slug": "a-closer-look-at-phonon-tts-launching-high-quality-on-device-speech-that-89209ab6",
+      "localized_url": "/zh/items/2026-11-06/a-closer-look-at-phonon-tts-launching-high-quality-on-device-speech-that-89209ab6/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "The benchmark where AIs have to lie to win",
+      "title_original": "The benchmark where AIs have to lie to win",
+      "title_en": "The benchmark where AIs have to lie to win",
+      "summary_zh": "Benchmark 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "AIs are now good enough to run a conspiracy",
+      "source_name": "Dwarkesh Podcast",
+      "source_url": "https://www.dwarkeshpatel.com/",
+      "original_url": "https://www.dwarkesh.com/p/clocktower",
+      "published_at": "Thu, 05 Nov 2026 21:05:50 GMT",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "Benchmark"
+      ],
+      "tags": [
+        "agi",
+        "economics",
+        "interview"
+      ],
+      "importance_score": 56.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "c0c2d1f3626b",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -442,13 +649,84 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+      "title_zh": "Benchmark 披露模型评测与研究方法",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
-        "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+        "主体是 Benchmark，核心变化集中在模型评测与研究方法。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：llm、agents、ai-engineering。"
+        "相关标签包括：agi、economics、interview。",
+        "涉及公司或机构：Benchmark。"
+      ],
+      "background_zh": "这条内容来自 Dwarkesh Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "benchmark",
+          "explanation": "用于衡量模型能力的任务集合或评测体系。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "The benchmark where AIs have to lie to win",
+          "source_url": "https://www.dwarkesh.com/p/clocktower"
+        },
+        {
+          "label": "公开摘要",
+          "text": "AIs are now good enough to run a conspiracy",
+          "source_url": "https://www.dwarkesh.com/p/clocktower"
+        }
+      ],
+      "slug": "the-benchmark-where-ais-have-to-lie-to-win-c0c2d1f3",
+      "localized_url": "/zh/items/2026-11-06/the-benchmark-where-ais-have-to-lie-to-win-c0c2d1f3/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "[AINews] It's Swapping Season",
+      "title_original": "[AINews] It's Swapping Season",
+      "title_en": "[AINews] It's Swapping Season",
+      "summary_zh": "OpenAI 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
+      "source_name": "Latent Space",
+      "source_url": "https://www.latent.space/",
+      "original_url": "https://latent.space/p/ainews-it-s-swapping-season/",
+      "published_at": "Thu, 05 Nov 2026 06:24:09 GMT",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "llm",
+        "agents",
+        "ai-engineering"
+      ],
+      "importance_score": 56.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "5e468467bd2e",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "OpenAI 讨论政府与国家安全合作原则",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：llm、agents、ai-engineering。",
+        "涉及公司或机构：OpenAI。"
       ],
       "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
       "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
@@ -465,527 +743,46 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
-          "source_url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/"
+          "text": "[AINews] It's Swapping Season",
+          "source_url": "https://latent.space/p/ainews-it-s-swapping-season/"
         },
         {
           "label": "公开摘要",
-          "text": "November 3, 2026 — A quiet day lets us share some behind the senes.",
-          "source_url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/"
+          "text": "November 4, 2026 — OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
+          "source_url": "https://latent.space/p/ainews-it-s-swapping-season/"
         }
       ],
-      "slug": "ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai-f52f1991",
-      "localized_url": "/zh/items/2026-11-05/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai-f52f1991/",
+      "slug": "ainews-it-s-swapping-season-0f7a5ac5",
+      "localized_url": "/zh/items/2026-11-06/ainews-it-s-swapping-season-0f7a5ac5/",
       "source_license_mode": "summary_only",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Tencent Hy4 now available on AI Gateway",
-      "title_original": "Tencent Hy4 now available on AI Gateway",
-      "title_en": "Tencent Hy4 now available on AI Gateway",
-      "summary_zh": "OpenAI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Hy4 from Tencent is now available on AI Gateway , at 50% off through December 31, 2026. Hy4 supports reasoning , tool calling , structured outputs , and image input, and has a 1M-token context window for work across a codebase or many documents. Hy4 is the",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/tencent-hy4-now-available-on-ai-gateway",
-      "published_at": "2026-11-03T00:00:00.000Z",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 40.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "0d2095d10703",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "Tencent Hy4 now available on AI Gateway - Vercel",
-      "extracted_excerpt": "Call Tencent Hy4 at 50% off through Vercel AI Gateway with one API key, no provider account, spend tracking, and request traces.",
-      "extracted_text_for_analysis": "Hy4 from Tencent is now available on AI Gateway, at 50% off through December 31, 2026. Hy4 supports reasoning, tool calling, structured outputs, and image input, and has a 1M-token context window for work across a codebase or many documents. Hy4 is the first Hy model with vision. It can pick out fine detail in an image and read complex charts. It also supports computer use in both command-line and graphical interfaces. Compared with Hy4 Preview, it follows instructions more closely and does better with long context, long-running tasks, and deep research. Use tencent/hy4 as the model name: import { streamText } from 'ai';const result = streamText({ model: 'tencent/hy4', prompt: 'Outline a database migration in three brief steps.',});for await (const text of result.textStream) { process.stdout.write(text);} To use it in Claude Code, Codex, Cursor, and more, install the latest Vercel CLI and run setup: npx vercel ai-gateway setup Then select tencent/hy4 in the agent. See the coding agents guide for details. Try Hy4 in the model playground. AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more. AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests. You can view all language models available on AI Gateway.",
-      "title_zh": "OpenAI 发布开发者接口与平台能力",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Tencent Hy4 now available on AI Gateway",
-          "source_url": "https://vercel.com/changelog/tencent-hy4-now-available-on-ai-gateway"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Hy4 from Tencent is now available on AI Gateway , at 50% off through December 31, 2026. Hy4 supports reasoning , tool calling , structured outputs , and image input, and has a 1M-token context window for work across a",
-          "source_url": "https://vercel.com/changelog/tencent-hy4-now-available-on-ai-gateway"
-        }
-      ],
-      "slug": "tencent-hy4-now-available-on-ai-gateway-0d2095d1",
-      "localized_url": "/zh/items/2026-11-05/tencent-hy4-now-available-on-ai-gateway-0d2095d1/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Together Compiler: Continual Compilation for AI inference",
-      "title_original": "Together Compiler: Continual Compilation for AI inference",
-      "title_en": "Together Compiler: Continual Compilation for AI inference",
-      "summary_zh": "Together AI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Together Compiler uses agents and persistent engines to optimize open models in under 24 hours, delivering up to 3.7x higher throughput as traffic changes.",
-      "source_name": "Together AI Blog",
-      "source_url": "https://www.together.ai/blog",
-      "original_url": "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
-      "published_at": "Wed, 04 Nov 2026 00:00:00 GMT",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "infra",
-        "models"
-      ],
-      "importance_score": 26.0,
-      "freshness_score": 72.0,
-      "credibility_score": 76.0,
-      "duplicate_group_id": "09aa94730512",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Together AI 推进AI 代理工程与工具调用能力",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 Together AI，核心变化集中在AI 代理工程与工具调用能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：infra、models。"
-      ],
-      "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "inference",
-          "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
-        },
-        {
-          "term": "throughput",
-          "explanation": "单位时间内可处理的请求或 token 数，是推理基础设施的重要指标。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Together Compiler: Continual Compilation for AI inference",
-          "source_url": "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Together Compiler uses agents and persistent engines to optimize open models in under 24 hours, delivering up to 3.7x higher throughput as traffic changes.",
-          "source_url": "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference"
-        }
-      ],
-      "slug": "together-compiler-continual-compilation-for-ai-inference-09aa9473",
-      "localized_url": "/zh/items/2026-11-05/together-compiler-continual-compilation-for-ai-inference-09aa9473/",
-      "source_license_mode": "summary_only",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Polymorphic Inference: self-tuning inference for open models",
-      "title_original": "Polymorphic Inference: self-tuning inference for open models",
-      "title_en": "Polymorphic Inference: self-tuning inference for open models",
-      "summary_zh": "Together AI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Models, traffic and chips are constantly changing. Polymorphic Inference adapts to each, and Together Compiler uses AI agents to keep production inference tuned.",
-      "source_name": "Together AI Blog",
-      "source_url": "https://www.together.ai/blog",
-      "original_url": "https://www.together.ai/blog/polymorphic-inference",
-      "published_at": "Wed, 04 Nov 2026 00:00:00 GMT",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "infra",
-        "models"
-      ],
-      "importance_score": 26.0,
-      "freshness_score": 72.0,
-      "credibility_score": 76.0,
-      "duplicate_group_id": "493a258a2758",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Together AI 推进AI 代理工程与工具调用能力",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 Together AI，核心变化集中在AI 代理工程与工具调用能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：infra、models。"
-      ],
-      "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "AI Agent",
-          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
-        },
-        {
-          "term": "inference",
-          "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Polymorphic Inference: self-tuning inference for open models",
-          "source_url": "https://www.together.ai/blog/polymorphic-inference"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Models, traffic and chips are constantly changing. Polymorphic Inference adapts to each, and Together Compiler uses AI agents to keep production inference tuned.",
-          "source_url": "https://www.together.ai/blog/polymorphic-inference"
-        }
-      ],
-      "slug": "polymorphic-inference-self-tuning-inference-for-open-models-493a258a",
-      "localized_url": "/zh/items/2026-11-05/polymorphic-inference-self-tuning-inference-for-open-models-493a258a/",
-      "source_license_mode": "summary_only",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Workflow SDK adds idempotent starts",
-      "title_original": "Workflow SDK adds idempotent starts",
-      "title_en": "Workflow SDK adds idempotent starts",
-      "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "The Workflow SDK 's start() function can now admit a run and claim a hook in one atomic step. Duplicate workflow starts fail safely. The atomic start replaces the previous getHookByToken() -then- start() pattern, whose gap between the lookup and the start",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk",
-      "published_at": "2026-11-04T18:55:00.000Z",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "1ada68209674",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Vercel AI 推进开发者接口与平台能力",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Workflow SDK adds idempotent starts",
-          "source_url": "https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk"
-        },
-        {
-          "label": "公开摘要",
-          "text": "The Workflow SDK 's start() function can now admit a run and claim a hook in one atomic step. Duplicate workflow starts fail safely. The atomic start replaces the previous getHookByToken() -then- start() pattern, whose",
-          "source_url": "https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk"
-        }
-      ],
-      "slug": "workflow-sdk-adds-idempotent-starts-1ada6820",
-      "localized_url": "/zh/items/2026-11-05/workflow-sdk-adds-idempotent-starts-1ada6820/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Kimi K3.1 Pro now has more ZDR providers on AI Gateway",
-      "title_original": "Kimi K3.1 Pro now has more ZDR providers on AI Gateway",
-      "title_en": "Kimi K3.1 Pro now has more ZDR providers on AI Gateway",
-      "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Kimi K3.1 Pro and its higher-speed version, Kimi K3.1 Pro Highspeed , are now available on AI Gateway from more Zero Data Retention (ZDR) providers. Until today, Moonshot AI was the only provider serving either model. K3.1 Pro improves on earlier Kimi models",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway",
-      "published_at": "2026-11-04T17:00:00.000Z",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "16f9590165b2",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Vercel AI 推进开发者接口与平台能力",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Kimi K3.1 Pro now has more ZDR providers on AI Gateway",
-          "source_url": "https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Kimi K3.1 Pro and its higher-speed version, Kimi K3.1 Pro Highspeed , are now available on AI Gateway from more Zero Data Retention (ZDR) providers. Until today, Moonshot AI was the only provider serving either model.",
-          "source_url": "https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway"
-        }
-      ],
-      "slug": "kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway-16f95901",
-      "localized_url": "/zh/items/2026-11-05/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway-16f95901/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Vercel CI no longer requires a linked Vercel project",
-      "title_original": "Vercel CI no longer requires a linked Vercel project",
-      "title_en": "Vercel CI no longer requires a linked Vercel project",
-      "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "Vercel CI can now run on a GitHub repository that has no Vercel project. Until now you had to create an empty project just to connect the repository. To enable it, you need: The Vercel GitHub App installed with access to the repository Your GitHub account",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project",
-      "published_at": "2026-11-03T18:00:00.000Z",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "52e9b971e813",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Vercel 推进AI 产业与产品变化",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "Vercel CI no longer requires a linked Vercel project",
-          "source_url": "https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Vercel CI can now run on a GitHub repository that has no Vercel project. Until now you had to create an empty project just to connect the repository. To enable it, you need: The Vercel GitHub App installed with access",
-          "source_url": "https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project"
-        }
-      ],
-      "slug": "vercel-ci-no-longer-requires-a-linked-vercel-project-52e9b971",
-      "localized_url": "/zh/items/2026-11-05/vercel-ci-no-longer-requires-a-linked-vercel-project-52e9b971/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "How OpenEvidence scales medical search for 650K doctors",
-      "title_original": "How OpenEvidence scales medical search for 650K doctors",
-      "title_en": "How OpenEvidence scales medical search for 650K doctors",
-      "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
-      "summary_en": "OpenEvidence on Vercel Serves 650,000 doctors with medical search Completes production deployments in about five minutes Absorbs traffic spikes without additional capacity provisioning Reduced serverless spend by 90% with Fluid compute Updates doctor- and",
-      "source_name": "Vercel AI",
-      "source_url": "https://vercel.com/blog",
-      "original_url": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors",
-      "published_at": "2026-11-03T00:00:00.000Z",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
-      "category": "company-industry",
-      "people": [],
-      "companies": [],
-      "tags": [
-        "developer",
-        "ai-sdk"
-      ],
-      "importance_score": 24.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "43dd043ed1e2",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "metadata_only_source"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "Vercel 推进AI 产业与产品变化",
-      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
-      "key_points_zh": [
-        "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：developer、ai-sdk。"
-      ],
-      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
-      "terms_zh": [
-        {
-          "term": "SDK",
-          "explanation": "供开发者集成能力的软件开发工具包。"
-        }
-      ],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "How OpenEvidence scales medical search for 650K doctors",
-          "source_url": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors"
-        },
-        {
-          "label": "公开摘要",
-          "text": "OpenEvidence on Vercel Serves 650,000 doctors with medical search Completes production deployments in about five minutes Absorbs traffic spikes without additional capacity provisioning Reduced serverless spend by 90%",
-          "source_url": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors"
-        }
-      ],
-      "slug": "how-openevidence-scales-medical-search-for-650k-doctors-43dd043e",
-      "localized_url": "/zh/items/2026-11-05/how-openevidence-scales-medical-search-for-650k-doctors-43dd043e/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Learn the rules: The hacker mindset",
-      "title_original": "Learn the rules: The hacker mindset",
-      "title_en": "Learn the rules: The hacker mindset",
-      "summary_zh": "Microsoft 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Research Manager Mike Walker reflects on a career spanning hacker culture, cybersecurity, and AI, sharing lessons about trust, teamwork, leadership, and why solving difficult problems requires curiosity, judgment, agility—and an understanding of the rules.",
-      "source_name": "Microsoft Research Podcast",
-      "source_url": "https://www.microsoft.com/en-us/research/podcast/",
-      "original_url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
-      "published_at": "Tue, 03 Nov 2026 17:14:38 +0000",
-      "fetched_at": "2026-11-05T02:30:36.208111+00:00",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "title_original": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "title_en": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "published_at": "Thu, 05 Nov 2026 20:00:41 +0000",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
       "category": "podcasts-interviews",
       "people": [],
-      "companies": [],
-      "tags": [
-        "research",
-        "podcast",
-        "microsoft"
+      "companies": [
+        "NVIDIA"
       ],
-      "importance_score": 22.0,
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
       "freshness_score": 72.0,
-      "credibility_score": 76.0,
-      "duplicate_group_id": "7f05432d1620",
+      "credibility_score": 90.0,
+      "duplicate_group_id": "7eab5dddcfa7",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -996,32 +793,449 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Microsoft 讨论政府与国家安全合作原则",
+      "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
-        "主体是 Microsoft，核心变化集中在政府与国家安全合作原则。",
+        "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：research、podcast、microsoft。"
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
       ],
-      "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "throughput",
+          "explanation": "单位时间内可处理的请求或 token 数，是推理基础设施的重要指标。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+          "source_url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution",
+          "source_url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/"
+        }
+      ],
+      "slug": "vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-age-e8438a23",
+      "localized_url": "/zh/items/2026-11-06/vera-delivers-the-best-of-both-worlds-highest-throughput-and-fastest-age-e8438a23/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+      "title_original": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+      "title_en": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
+      "published_at": "Thu, 05 Nov 2026 16:00:05 +0000",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "477cff6d6b4c",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "NVIDIA 讨论模型评测与研究方法",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在模型评测与研究方法。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "open source",
+          "explanation": "可公开查看、使用或修改的代码与模型资源。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+          "source_url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research",
+          "source_url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/"
+        }
+      ],
+      "slug": "the-wizard-of-open-weights-chris-alexiuk-makes-ai-easy-with-open-models-9b11b10a",
+      "localized_url": "/zh/items/2026-11-06/the-wizard-of-open-weights-chris-alexiuk-makes-ai-easy-with-open-models-9b11b10a/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "title_original": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "title_en": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+      "published_at": "Thu, 05 Nov 2026 16:00:00 +0000",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "3df4d68063a5",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "API",
+          "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+          "source_url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory",
+          "source_url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/"
+        }
+      ],
+      "slug": "more-performance-from-every-byte-how-full-stack-codesign-solves-ais-memo-abce1472",
+      "localized_url": "/zh/items/2026-11-06/more-performance-from-every-byte-how-full-stack-codesign-solves-ais-memo-abce1472/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
+      "title_original": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
+      "title_en": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft: Forever also opens a new chapter in Azeroth,",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
+      "published_at": "Thu, 05 Nov 2026 14:00:34 +0000",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "588776d5fd50",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
       "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
       "terms_zh": [],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Learn the rules: The hacker mindset",
-          "source_url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/"
+          "text": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
+          "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
         },
         {
           "label": "公开摘要",
-          "text": "Research Manager Mike Walker reflects on a career spanning hacker culture, cybersecurity, and AI, sharing lessons about trust, teamwork, leadership, and why solving difficult problems requires curiosity, judgment,",
-          "source_url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/"
+          "text": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft:",
+          "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/"
         }
       ],
-      "slug": "learn-the-rules-the-hacker-mindset-7edcdb24",
-      "localized_url": "/zh/items/2026-11-05/learn-the-rules-the-hacker-mindset-7edcdb24/",
+      "slug": "hogwarts-legacy-gets-a-magical-nvidia-dlss-5-upgrade-on-geforce-now-d050786c",
+      "localized_url": "/zh/items/2026-11-06/hogwarts-legacy-gets-a-magical-nvidia-dlss-5-upgrade-on-geforce-now-d050786c/",
       "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "title_original": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "title_en": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "summary_zh": "Gemini 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+      "source_name": "Google DeepMind Podcast",
+      "source_url": "https://deepmind.google/discover/the-podcast/",
+      "original_url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "published_at": "Thu, 05 Nov 2026 17:05:16 +0000",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "deepmind",
+        "research",
+        "podcast"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "003a6dd08e36",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Gemini 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Gemini，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：deepmind、research、podcast。"
+      ],
+      "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+          "source_url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+        }
+      ],
+      "slug": "gemini-omni-1-2-flash-fast-and-cost-effective-with-longer-clips-825a50d1",
+      "localized_url": "/zh/items/2026-11-06/gemini-omni-1-2-flash-fast-and-cost-effective-with-longer-clips-825a50d1/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash now available on AI Gateway",
+      "title_original": "Gemini Omni 1.2 Flash now available on AI Gateway",
+      "title_en": "Gemini Omni 1.2 Flash now available on AI Gateway",
+      "summary_zh": "Gemini 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Gemini Omni 1.2 Flash from Google is now available on AI Gateway. Generate videos from text prompts with one API key and no separate Google account. Gemini Omni 1.2 Flash generates 3–15 second videos with native audio and edits 3–15 second source clips with",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/gemini-omni-1-2-flash-now-available-on-ai-gateway",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 36.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "6fd883e8b0a2",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Gemini 发布开发者接口与平台能力",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Gemini 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Gemini，核心变化集中在开发者接口与平台能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        },
+        {
+          "term": "API",
+          "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Gemini Omni 1.2 Flash now available on AI Gateway",
+          "source_url": "https://vercel.com/changelog/gemini-omni-1-2-flash-now-available-on-ai-gateway"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Gemini Omni 1.2 Flash from Google is now available on AI Gateway. Generate videos from text prompts with one API key and no separate Google account. Gemini Omni 1.2 Flash generates 3–15 second videos with native audio",
+          "source_url": "https://vercel.com/changelog/gemini-omni-1-2-flash-now-available-on-ai-gateway"
+        }
+      ],
+      "slug": "gemini-omni-1-2-flash-now-available-on-ai-gateway-6fd883e8",
+      "localized_url": "/zh/items/2026-11-06/gemini-omni-1-2-flash-now-available-on-ai-gateway-6fd883e8/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Abundant Intelligence at the Midwest AI Summit Part 2",
+      "title_original": "Abundant Intelligence at the Midwest AI Summit Part 2",
+      "title_en": "Abundant Intelligence at the Midwest AI Summit Part 2",
+      "summary_zh": "Practical AI 的新访谈把焦点放在政府与国家安全合作原则，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "How do organizations decide what AI should do, where to set boundaries, and when to keep humans in control? In this episode, Don Barger of the International Mission Board shares how establishing an AI charter helped define what the organization would and",
+      "source_name": "Practical AI",
+      "source_url": "https://changelog.com/practicalai",
+      "original_url": "https://share.transistor.fm/s/1b301bdc",
+      "published_at": "Thu, 05 Nov 2026 05:00:00 -0500",
+      "fetched_at": "2026-11-06T02:30:39.282525+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "ml",
+        "engineering",
+        "podcast"
+      ],
+      "importance_score": 32.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "ed7bed4ad263",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Practical AI 讨论政府与国家安全合作原则",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Practical AI，核心变化集中在政府与国家安全合作原则。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：ml、engineering、podcast。"
+      ],
+      "background_zh": "这条内容来自 Practical AI，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Abundant Intelligence at the Midwest AI Summit Part 2",
+          "source_url": "https://share.transistor.fm/s/1b301bdc"
+        },
+        {
+          "label": "公开摘要",
+          "text": "How do organizations decide what AI should do, where to set boundaries, and when to keep humans in control? In this episode, Don Barger of the International Mission Board shares how establishing an AI charter helped",
+          "source_url": "https://share.transistor.fm/s/1b301bdc"
+        }
+      ],
+      "slug": "abundant-intelligence-at-the-midwest-ai-summit-part-2-ed7bed4a",
+      "localized_url": "/zh/items/2026-11-06/abundant-intelligence-at-the-midwest-ai-summit-part-2-ed7bed4a/",
+      "source_license_mode": "summary_only",
       "content_mode": "research_digest",
       "full_text_zh": ""
     }
