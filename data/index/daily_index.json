@@ -1,7 +1,1051 @@
 {
-  "updated_at": "2026-11-06T02:30:40.289833+00:00",
-  "count": 141,
+  "updated_at": "2026-11-07T01:58:09.101476+00:00",
+  "count": 142,
   "briefs": [
+    {
+      "date": "2026-11-07",
+      "title_zh": "AI 新闻简报 · 2026-11-07",
+      "title_en": "English AI News Brief · 2026-11-07",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 136 条，入选 15 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 136 previously displayed items excluded, and 15 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 136,
+      "selected_count": 15,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "title_original": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "title_en": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/partnering-with-hacktron",
+          "published_at": "Fri, 06 Nov 2026 08:00:00 GMT",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bc8f9eac1966",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+              "source_url": "https://openai.com/index/partnering-with-hacktron"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+              "source_url": "https://openai.com/index/partnering-with-hacktron"
+            }
+          ],
+          "slug": "partnering-with-hacktron-to-find-vulnerabilities-in-openais-systems-bc8f9eac",
+          "localized_url": "/zh/items/2026-11-07/partnering-with-hacktron-to-find-vulnerabilities-in-openais-systems-bc8f9eac/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Measuring how AI agents handle everyday wet-lab science",
+          "title_original": "Measuring how AI agents handle everyday wet-lab science",
+          "title_en": "Measuring how AI agents handle everyday wet-lab science",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+          "published_at": "Fri, 06 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Benchmark"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cfd4354afa14",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI、Benchmark。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "benchmark",
+              "explanation": "用于衡量模型能力的任务集合或评测体系。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Measuring how AI agents handle everyday wet-lab science",
+              "source_url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+              "source_url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+            }
+          ],
+          "slug": "measuring-how-ai-agents-handle-everyday-wet-lab-science-cfd4354a",
+          "localized_url": "/zh/items/2026-11-07/measuring-how-ai-agents-handle-everyday-wet-lab-science-cfd4354a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+          "title_original": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+          "title_en": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+          "summary_zh": "Anthropic 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+          "published_at": "Fri, 06 Nov 2026 10:35:21 GMT",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "47595e2862bb",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Anthropic 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+              "source_url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+              "source_url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/"
+            }
+          ],
+          "slug": "ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beatin-1601aee8",
+          "localized_url": "/zh/items/2026-11-07/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beatin-1601aee8/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+          "title_original": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+          "title_en": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+          "published_at": "Fri, 06 Nov 2026 16:00:35 +0000",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2b3eb4eb79de",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+          "extracted_excerpt": "With over a million downloads, NVIDIA’s open source 5G/6G tools are equipping research institutions worldwide to develop wireless systems that help robots react faster, improve signal reception and match network capacity to demand.",
+          "extracted_text_for_analysis": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless systems. Today, researchers and developers are using these tools to build 6G-ready networks that do more than just transmit data — receiving signals more effectively, keeping robots and autonomous systems connected when it matters most, and adapting in real time as devices move through the world. Over the past year, global developer adoption of NVIDIA AI Aerial and NVIDIA Sionna software has grown 10x, while NVIDIA’s open source 5G/6G tools have surpassed 1 million downloads. More than 8,000 research and academic institutions worldwide are using these platforms. The projects emerging today offer a view of how future networks could look. Each addresses a different challenge, but together point toward a broader ambition for building AI-native 6G networks that deliver connectivity, computing and sensing over a converged software-defined platform for billions of people, machines and agents. Networks That Help Robots React Faster A robot picking up an object needs to understand its surroundings and act before they change. When the AI powering that decision runs on a nearby server or in the cloud, the wireless connection becomes part of the response time. Researchers are exploring a more efficient approach called goal-oriented semantic communications. Instead of sending full images, robots transmit compact descriptions of objects, their positions and their relationships. Transmitting just as much information as needed allows robots to more quickly respond, especially in dynamic environments like workplaces and warehouses. At King’s College London, researchers connected a camera-equipped robot arm to an NVIDIA Jetson AGX Orin running NVIDIA Sionna, which supports both software-defined 5G network and edge AI processing. In fruit-packing and cube-stacking experiments with deliberately introduced faults, the approach reduced robot task completion time by up to 52.6% and improved task success compared with sending periodic images. In addition to quicker responses and less processing overhead, the system also proved more resilient — detecting dropped objects, recovering from unsuccessful actions and, in configurations using a digital twin, checking planned movements for potential collisions before execution. Networks That Learn to Receive Signals Better For a firefighter receiving live drone footage or a rescue team searching for a missing person, timely images can help guide urgent decisions. But interference and changing radio conditions can make wireless signals harder to decode, causing errors and retransmissions that delay information from the field. AI receivers address this challenge by learning to recover information from incoming signals more effectively. Better reception could help responders maintain a clearer, more current view of a fire scene or search area. SoftBank demonstrated this by integrating a neural receiver into NVIDIA Aerial CUDA-Accelerated RAN (ACAR) and testing it with a commercial 5G smartphone. In controlled tests with interference, the neural receiver delivered higher uplink throughput than a conventional receiver at all 15 tested settings, with a maximum gain of roughly 60%. Another way to improve reception is to teach receivers about the environments where they operate. Using NVIDIA Aerial Testbed, ETH Zurich researchers found that tuning neural receivers using local measurements reduced block error rates by more than one-third compared with selected pretrained versions. Networks That Learn When to Save Power As 6G connects more devices and supports more AI applications, managing energy demand will become increasingly important. For example, a network may need enough capacity to serve a busy stadium, but demand changes when the crowd leaves. AI can help identify when spare capacity can power down — and when it needs to come back online — so operators can reduce electricity use without dropping connections. At the University of Leeds, researchers developed a system that predicts network demand 10 minutes ahead and uses those forecasts to guide base station sleep decisions. Before powering down, it checks that neighboring active stations can continue serving affected devices and monitors for changes that require capacity to be restored. The team tested their approach using a portable, NVIDIA DGX Spark-powered 5G “network-in-a-box” alongside a digital twin for validating decisions against real wireless equipment. The result: researchers reported a 45.6% reduction in RAN power consumption relative to a full-power baseline while maintaining device connectivity. Networks That Can Be Tested Faster — Before They’re Built Before deploying a network, researchers need to know how it will perform when hundreds of devices compete for connections or radio signals run into interference. Simulating these conditions helps teams evaluate designs before committing to costly equipment and field trials. But realistic simulations can take hours, limiting how many ideas researchers can explore. The Centre Tecnològic de Telecomunicacions de Catalunya (CTTC) is accelerating that process by bringing GPU-accelerated radio channel models, running on ACAR, into CTTC’s open source 5G-LENA network simulator. These models calculate how wireless signals travel between antennas and devices — a computation that grows increasingly demanding as simulated networks grow. In an early evaluation, the approach reduced simulation runtime from approximately three hours to 10-20 minutes, depending on the integration, while preserving the expected statistical behavior and network performance. Faster simulations let researchers compare more designs, investigate more demanding scenarios and refine ideas sooner. As the industry develops 6G, this could shorten the path from a proposed innovation to a thoroughly evaluated network design — helping teams build better connectivity before deploying it in the real world. At NVIDIA GTC Washington, D.C., attend 6G Developer Sessions where researchers and developers will showcase more innovations shaping the future of wireless networks. NVIDIA AI Aerial and NVIDIA Sionna are available on GitHub.",
+          "title_zh": "NVIDIA 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "open source",
+              "explanation": "可公开查看、使用或修改的代码与模型资源。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+              "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation",
+              "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/"
+            }
+          ],
+          "slug": "how-nvidia-open-source-tools-are-helping-researchers-build-next-generati-215687ca",
+          "localized_url": "/zh/items/2026-11-07/how-nvidia-open-source-tools-are-helping-researchers-build-next-generati-215687ca/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+          "title_original": "ToyBlocks: A controlled world for robot learning and evaluation",
+          "title_en": "ToyBlocks: A controlled world for robot learning and evaluation",
+          "summary_zh": "Hugging Face Blog 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog shares research or evaluation work, with attention to metrics, findings and practical limits.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/allenai/toyblocks",
+          "published_at": "Fri, 06 Nov 2026 14:00:48 GMT",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "be1ba71e55b7",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "ToyBlocks: A controlled world for robot learning and evaluation",
+          "extracted_excerpt": "A Blog post by Ai2 on Hugging Face",
+          "extracted_text_for_analysis": "💻 Code | 📊 Data | 🤖 Models | 📖 Documentation Robots are learning to fold laundry, sort parts, and handle unfamiliar objects. But those demonstrations are often rather narrow and don't explain what a robot has learned or why it fails. To study a complex system, scientists often begin with a small, controlled environment, such as a petri dish or terrarium, where they can vary conditions and observe the effects. Robotics needs environments that make this kind of investigation possible—researchers should be able to change the training data or model design, repeat a test, and trace the cause of a failure. Today we're introducing a framework for creating these environments; we call them FoundationWorlds. Each pairs a controlled, simulated world targeted at studying robotics in a specific environment with tools for automatically generating tasks and training demonstrations, as well as metrics for measuring a robot's behavior over time. Together, they provide a setting for studying questions such as how models improve as more training data becomes available, and how to best combine high-level reasoning with precise physical control. Our first foundation world is ToyBlocks: an open simulation framework built around a robot arm and blocks on a tabletop. The setting is deliberately simple, but the robot must still reason about how the blocks interact and how to arrange them while pushing, flipping, and stacking. ToyBlocks automatically generates demonstrations, which are recordings of a robot completing tasks in simulation, without requiring time-consuming teleoperation, in which a person remotely controls the robot. Researchers can easily vary these training experiences. For example, a team could generate more pushing or flipping demonstrations, then evaluate performance on tasks kept out of training. Starting with ToyBlocks as our first FoundationWorld, we aim to extend the approach to increasingly complex environments. Building on our earlier work in open robot learning, including MolmoAct 2, MolmoBot, and MolmoSpaces, ToyBlocks gives researchers a way to study robotics questions in a deliberately constrained domain. As a FoundationWorld, ToyBlocks is designed around four requirements: (1) realistic physics and appearance, (2) automatic generation of tasks and demonstrations at scale, (3) challenges that combine reasoning with dexterity, and (4) broad coverage of the tasks possible within a domain. Open-ended domains require modeling a wide range of objects and interactions, making it infeasible to fulfill all these requirements. ToyBlocks’ narrow scope, on the other hand, makes it possible to fulfill them all. Within ToyBlocks' smaller setting, researchers can work toward investigating how a robot can learn to perform any reasonable task while being confident that the simulated arm and blocks behave very similarly to their physical counterparts. A physical robot gripper above wooden blocks in the ToyBlocks setup. ToyBlocks is not just about picking and stacking blocks: pictures and letters on the blocks' faces allow for searching, sorting, and arranging tasks. A robot may need to turn a block to see a hidden face before deciding where it belongs. Domain randomization – varying block size, table height, and other physical properties from scene to scene – tests how well models generalize as the geometry changes. ToyBlocks automatically generates skills (behaviors for short tasks) and task demonstrations that can be used to train models or adapt previously trained models through additional training (fine-tuning). High-level reasoning models decide what to do; low-level action models control the robot’s movements. The framework can also be used to easily design experiments and validate hypotheses. ToyBlocks uses reinforcement learning (RL) and motion planning, which computes how the robot should move, to generate skills for short-horizon tasks, which involve brief sequences of actions. Skill training takes place in Isaac Lab, Nvidia's open-source framework for robot learning in simulation. Through trial and error, these policies – models that choose the robot’s actions – learn non-prehensile skills such as pushing a block across the table or flipping it onto another face without picking it up. Skill generation can draw on privileged information – values the simulator can supply directly but a real robot cannot, such as a block's exact position and orientation – instead of estimating it from camera images. This enables the automatic generation of skills that would require teleoperation in the real world. To generate demonstration data, a task-and-motion planner (TAMP) automatically selects and sequences the skills needed to solve a task and plans the robot’s movements between them. Running each plan in simulation produces a dataset of recorded demonstrations along with labels describing which task or skill the robot performs. ToyBlocks scales data generation through generating and executing hundreds of such plans in parallel on a single graphics processing unit (GPU), reaching up to 24 times real-time performance. Acting from sensor observations adds a perception problem: a model has to estimate a block’s pose – its position and orientation – which the simulator could supply directly. To reflect real-world conditions, ToyBlocks trains models that map raw sensor observations to actions. Execution of Molmo 2 (a high-level model) and ManiFlow (a low-level model) trained in ToyBlocks. Molmo 2 selects skills such as rotation and flipping, indicating the relevant block via a pointing interface, while ManiFlow controls the simulated arm to execute the commanded skills. ToyBlocks' controllable data generator lets users create training mixtures that emphasize particular skills or fill gaps in existing datasets. Researchers can study how much data a model needs and which experiences help it generalize to unseen tasks. For example, they could test whether adding rotation and pick-and-place demonstrations improves flipping, or vary the balance of examples inside and outside a defined workspace region—evaluating their choices on tasks kept out of training. Importantly, evaluation of trained models generates metrics beyond success rates; it provides information such as execution speeds, forces exerted on objects, and task progress measured via the same specifications used by the planning module. A webpage interface lets users connect Claude – or another frontier model – and use natural language to instruct the robot or try tasks, offering a way to explore how a model plans and acts without needing robotics expertise. The evaluations below use ToyBlocks to study how training data and methods affect performance, spatial reasoning, generalization to new letters and block appearances, multi-step planning, transfer to physical robots, and frontier models that act through tools. Users can easily design their own tasks and measures to investigate other questions—for example, whether a model performs",
+          "title_zh": "Hugging Face 披露模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "ToyBlocks: A controlled world for robot learning and evaluation",
+              "source_url": "https://huggingface.co/blog/allenai/toyblocks"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog shares research or evaluation work, with attention to metrics, findings and practical limits.",
+              "source_url": "https://huggingface.co/blog/allenai/toyblocks"
+            }
+          ],
+          "slug": "toyblocks-a-controlled-world-for-robot-learning-and-evaluation-be1ba71e",
+          "localized_url": "/zh/items/2026-11-07/toyblocks-a-controlled-world-for-robot-learning-and-evaluation-be1ba71e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+          "title_original": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+          "title_en": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+          "published_at": "Fri, 06 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "82196d4ece0a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+          "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "extracted_text_for_analysis": "RW-Voice EQ ASR Explore and compare English speech‑recognition model performance A few months ago, we added private data to the Open ASR Leaderboard: 11 splits from Appen and DataOceanAI covering scripted and conversational speech from five accents (blog). The community response was great, with many highlighting the importance of held-out sets for trustworthy evaluations. Since then, we added one more private split for Indian-accented English with Voice Arena (blog). We’re excited to announce a new collaboration with Liva AI to add even more private data with two new accents: Egyptian 🇪🇬 and Nigerian 🇳🇬. This is part of our continued effort to improve representation in ASR evals (more accents and more languages) and to improve trust (new private data to minimize benchmaxxing, and new data providers). We’re excited to see the community continuing to push ASR performance for the world 🤗 With these new accents, we can now present a richer breakdown of accents, based on Kachru’s Three Circles (kudos to Hume AI for this idea in their leaderboard). The Open ASR Leaderboard will now report: As more accents join, we’ll split the Outer and Expanding Circles. Liva AI collects multimodal interaction data through consumer products used by real people. Because Liva owns both the collection environment and distribution, it can design products around specific model gaps across domains, industries, languages, modalities, and interaction types. This gives it access to natural, high-context behavior that emerges through real product use, rather than artificially elicited or task-based interactions.",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+              "source_url": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+            }
+          ],
+          "slug": "egyptian-and-nigerian-english-join-the-open-asr-leaderboard-82196d4e",
+          "localized_url": "/zh/items/2026-11-07/egyptian-and-nigerian-english-join-the-open-asr-leaderboard-82196d4e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+          "title_original": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+          "title_en": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+          "summary_zh": "Modal 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+          "published_at": "Fri, 06 Nov 2026 15:10:53 GMT",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b18e8924e9aa",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Modal 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Modal，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+              "source_url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
+              "source_url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/"
+            }
+          ],
+          "slug": "controlling-biology-fabian-theis-helmholtz-munich-44d3b851",
+          "localized_url": "/zh/items/2026-11-07/controlling-biology-fabian-theis-helmholtz-munich-44d3b851/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Chat SDK agents can now stream generative UI with json-render",
+          "title_original": "Chat SDK agents can now stream generative UI with json-render",
+          "title_en": "Chat SDK agents can now stream generative UI with json-render",
+          "summary_zh": "Vercel AI 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now stream generative UI from your Chat SDK agent with json-render . With a typed catalog of components, the agent writes a JSON spec that json-render converts into a Chat SDK card. Each adapter then posts the card in its platform’s native format,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/json-render-and-chat-sdk-agents",
+          "published_at": "2026-11-06T21:00:00.000Z",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ca6f08fa829e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Chat SDK agents can now stream generative UI with json-render - Vercel",
+          "extracted_excerpt": "Stream generative UI from your Chat SDK agent with `@json-render/chat`. One typed catalog renders native cards on Slack, Teams, and every Chat SDK platform.",
+          "extracted_text_for_analysis": "You can now stream generative UI from your Chat SDK agent with json-render. With a typed catalog of components, the agent writes a JSON spec that json-render converts into a Chat SDK card. Each adapter then posts the card in its platform’s native format, such as Block Kit on Slack and Adaptive Cards on Teams. The catalog covers tables, charts, buttons, and more, so there’s no separate tool to build and maintain for each message shape. import { defineCatalog } from \"@json-render/core\";import { schema, standardComponentDefinitions, streamCard,} from \"@json-render/chat\";import { streamText } from \"ai\"; const catalog = defineCatalog(schema, { components: standardComponentDefinitions,}); bot.onNewMention(async (thread, message) => { const result = streamText({ model: \"anthropic/claude-haiku-5.5\", system: catalog.prompt(), prompt: message.text, }); await streamCard(thread, result.textStream);}); Stream a generated card into the thread when your agent is mentioned. Copy link to headingStream cards as the model writes streamCard posts the card once its root element has content and updates the message as new elements stream in. Edits go out at most once every 500 ms by default, which matches Chat SDK’s streaming interval. Once the stream ends, the message shows the final, validated card. Copy link to headingValidate specs and enforce platform limits toCard checks every element’s props against its component schema and throws CardSpecError for an invalid spec. Each problem gets its own readable issue, so you can send the list back to the model for a corrected spec. Platforms cap what a single message can hold, and Chat SDK adapters degrade content past those caps. The Slack adapter, for example, turns a second table into a code block. Pass limits to reject those specs instead. Read the documentation to get started, or try the playground.",
+          "title_zh": "Vercel AI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Chat SDK agents can now stream generative UI with json-render",
+              "source_url": "https://vercel.com/changelog/json-render-and-chat-sdk-agents"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now stream generative UI from your Chat SDK agent with json-render . With a typed catalog of components, the agent writes a JSON spec that json-render converts into a Chat SDK card. Each adapter then posts the",
+              "source_url": "https://vercel.com/changelog/json-render-and-chat-sdk-agents"
+            }
+          ],
+          "slug": "chat-sdk-agents-can-now-stream-generative-ui-with-json-render-ca6f08fa",
+          "localized_url": "/zh/items/2026-11-07/chat-sdk-agents-can-now-stream-generative-ui-with-json-render-ca6f08fa/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Gateway adds DeepSeek Search and Fetch tools",
+          "title_original": "AI Gateway adds DeepSeek Search and Fetch tools",
+          "title_en": "AI Gateway adds DeepSeek Search and Fetch tools",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "DeepSeek Search and DeepSeek Fetch are now available through AI Gateway . Search finds relevant pages with titles, URLs, and summaries. Fetch retrieves page content as Markdown for your model to read. Use both tools with any model that supports tool calling,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools",
+          "published_at": "2026-11-06T21:00:00.000Z",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8d6a841a4915",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Gateway adds DeepSeek Search and Fetch tools",
+              "source_url": "https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools"
+            },
+            {
+              "label": "公开摘要",
+              "text": "DeepSeek Search and DeepSeek Fetch are now available through AI Gateway . Search finds relevant pages with titles, URLs, and summaries. Fetch retrieves page content as Markdown for your model to read. Use both tools",
+              "source_url": "https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools"
+            }
+          ],
+          "slug": "ai-gateway-adds-deepseek-search-and-fetch-tools-8d6a841a",
+          "localized_url": "/zh/items/2026-11-07/ai-gateway-adds-deepseek-search-and-fetch-tools-8d6a841a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel CLI can now set new projects to expire",
+          "title_original": "Vercel CLI can now set new projects to expire",
+          "title_en": "Vercel CLI can now set new projects to expire",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now set a new project to expire when you deploy it with Vercel CLI . Expired projects are deleted automatically, so prototypes, demos, and test apps don't need cleaning up by hand. Run vercel deploy with --delete-project-after and a duration:",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-cli-can-now-set-new-projects-to-expire",
+          "published_at": "2026-11-06T18:00:00.000Z",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "fc7161ee6b40",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel CLI can now set new projects to expire",
+              "source_url": "https://vercel.com/changelog/vercel-cli-can-now-set-new-projects-to-expire"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now set a new project to expire when you deploy it with Vercel CLI . Expired projects are deleted automatically, so prototypes, demos, and test apps don't need cleaning up by hand. Run vercel deploy with",
+              "source_url": "https://vercel.com/changelog/vercel-cli-can-now-set-new-projects-to-expire"
+            }
+          ],
+          "slug": "vercel-cli-can-now-set-new-projects-to-expire-fc7161ee",
+          "localized_url": "/zh/items/2026-11-07/vercel-cli-can-now-set-new-projects-to-expire-fc7161ee/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Tracing is now generally available",
+          "title_original": "Vercel Tracing is now generally available",
+          "title_en": "Vercel Tracing is now generally available",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Tracing is now generally available on all plans. You can now search and inspect traces from the dashboard or the Vercel CLI , and new Next.js projects get tracing by default. Pricing is unchanged from the beta. Browse and search traces in the dashboard",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-tracing-is-now-generally-available",
+          "published_at": "2026-11-06T17:00:00.000Z",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "05a03358226b",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 发布AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Tracing is now generally available",
+              "source_url": "https://vercel.com/changelog/vercel-tracing-is-now-generally-available"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Tracing is now generally available on all plans. You can now search and inspect traces from the dashboard or the Vercel CLI , and new Next.js projects get tracing by default. Pricing is unchanged from the beta.",
+              "source_url": "https://vercel.com/changelog/vercel-tracing-is-now-generally-available"
+            }
+          ],
+          "slug": "vercel-tracing-is-now-generally-available-05a03358",
+          "localized_url": "/zh/items/2026-11-07/vercel-tracing-is-now-generally-available-05a03358/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Token Pass credit now applies automatically across AI Gateway",
+          "title_original": "Token Pass credit now applies automatically across AI Gateway",
+          "title_en": "Token Pass credit now applies automatically across AI Gateway",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Token Pass credit now applies automatically to included model usage through AI Gateway , whether a request authenticates with an API key, OIDC token, or fx login. No dedicated Token Pass API key is required, though you can still create one from the dashboard",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/token-pass-credit-now-applies-automatically-across-ai-gateway",
+          "published_at": "2026-11-06T01:00:00.000Z",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1564a9d4f10d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Token Pass credit now applies automatically across AI Gateway",
+              "source_url": "https://vercel.com/changelog/token-pass-credit-now-applies-automatically-across-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Token Pass credit now applies automatically to included model usage through AI Gateway , whether a request authenticates with an API key, OIDC token, or fx login. No dedicated Token Pass API key is required, though you",
+              "source_url": "https://vercel.com/changelog/token-pass-credit-now-applies-automatically-across-ai-gateway"
+            }
+          ],
+          "slug": "token-pass-credit-now-applies-automatically-across-ai-gateway-1564a9d4",
+          "localized_url": "/zh/items/2026-11-07/token-pass-credit-now-applies-automatically-across-ai-gateway-1564a9d4/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Ampersand from Humans& now available on AI Gateway",
+          "title_original": "Ampersand from Humans& now available on AI Gateway",
+          "title_en": "Ampersand from Humans& now available on AI Gateway",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Ampersand from Humans& is now available on AI Gateway for free through November 13, 2026. Ampersand is a language model built to take part in group conversations, such as a team chat, and to decide on each turn whether to speak or stay quiet. It is designed",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway",
+          "published_at": "2026-11-06T00:00:00.000Z",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c1198ca2bc5d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Ampersand from Humans& now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Ampersand from Humans& is now available on AI Gateway for free through November 13, 2026. Ampersand is a language model built to take part in group conversations, such as a team chat, and to decide on each turn whether",
+              "source_url": "https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "ampersand-from-humans-now-available-on-ai-gateway-c1198ca2",
+          "localized_url": "/zh/items/2026-11-07/ampersand-from-humans-now-available-on-ai-gateway-c1198ca2/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Schedules is now in public beta",
+          "title_original": "Vercel Schedules is now in public beta",
+          "title_en": "Vercel Schedules is now in public beta",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Schedules is now in public beta on all plans. Run tasks on a recurring cadence or at a single point in time, in production, preview, or custom environments. Schedules in vercel.json can target a private Vercel Function, an HTTP path, or a Vercel Queue",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-schedules-is-now-in-public-beta",
+          "published_at": "2026-11-05T17:00:00.000Z",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "176b4a361e9b",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Schedules is now in public beta",
+              "source_url": "https://vercel.com/changelog/vercel-schedules-is-now-in-public-beta"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Schedules is now in public beta on all plans. Run tasks on a recurring cadence or at a single point in time, in production, preview, or custom environments. Schedules in vercel.json can target a private Vercel",
+              "source_url": "https://vercel.com/changelog/vercel-schedules-is-now-in-public-beta"
+            }
+          ],
+          "slug": "vercel-schedules-is-now-in-public-beta-176b4a36",
+          "localized_url": "/zh/items/2026-11-07/vercel-schedules-is-now-in-public-beta-176b4a36/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+          "title_original": "Formally verifying agent-written full-stack web apps with PDD Kit",
+          "title_en": "Formally verifying agent-written full-stack web apps with PDD Kit",
+          "summary_zh": "Microsoft 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It converts developer intent into a Verus",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+          "published_at": "Thu, 05 Nov 2026 16:00:00 +0000",
+          "fetched_at": "2026-11-07T01:58:07.930773+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "5c5c439c3a5a",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Formally verifying agent-written full-stack web apps with PDD Kit",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/"
+            }
+          ],
+          "slug": "formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit-7ab25c6d",
+          "localized_url": "/zh/items/2026-11-07/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit-7ab25c6d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-11-06",
       "title_zh": "AI 新闻简报 · 2026-11-06",
