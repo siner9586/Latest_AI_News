@@ -1,7 +1,1253 @@
 {
-  "updated_at": "2026-11-11T01:57:50.187747+00:00",
-  "count": 146,
+  "updated_at": "2026-11-12T03:04:04.819604+00:00",
+  "count": 147,
   "briefs": [
+    {
+      "date": "2026-11-12",
+      "title_zh": "AI 新闻简报 · 2026-11-12",
+      "title_en": "English AI News Brief · 2026-11-12",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 131 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 131 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 131,
+      "selected_count": 18,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "ChatGPT Plus for veterans and servicemembers",
+          "title_original": "ChatGPT Plus for veterans and servicemembers",
+          "title_en": "ChatGPT Plus for veterans and servicemembers",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "published_at": "Wed, 11 Nov 2026 08:00:00 GMT",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "80b38ea7da37",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "ChatGPT Plus for veterans and servicemembers",
+              "source_url": "https://openai.com/index/chatgpt-plus-for-veterans"
+            },
+            {
+              "label": "公开摘要",
+              "text": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+              "source_url": "https://openai.com/index/chatgpt-plus-for-veterans"
+            }
+          ],
+          "slug": "chatgpt-plus-for-veterans-and-servicemembers-80b38ea7",
+          "localized_url": "/zh/items/2026-11-12/chatgpt-plus-for-veterans-and-servicemembers-80b38ea7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+          "title_original": "JioStar’s chief architect on AI discovery at 500M-user scale",
+          "title_en": "JioStar’s chief architect on AI discovery at 500M-user scale",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/jiostar-vijay-seshadri",
+          "published_at": "Wed, 11 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8c999d6885d2",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "JioStar’s chief architect on AI discovery at 500M-user scale",
+              "source_url": "https://openai.com/index/jiostar-vijay-seshadri"
+            },
+            {
+              "label": "公开摘要",
+              "text": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+              "source_url": "https://openai.com/index/jiostar-vijay-seshadri"
+            }
+          ],
+          "slug": "jiostars-chief-architect-on-ai-discovery-at-500m-user-scale-8c999d68",
+          "localized_url": "/zh/items/2026-11-12/jiostars-chief-architect-on-ai-discovery-at-500m-user-scale-8c999d68/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+          "title_original": "Singapore Airlines elevates travel & work with OpenAI technology",
+          "title_en": "Singapore Airlines elevates travel & work with OpenAI technology",
+          "summary_zh": "OpenAI 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/singapore-airlines-travel-work",
+          "published_at": "Tue, 10 Nov 2026 08:00:00 GMT",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4e3e5904c85a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Singapore Airlines elevates travel & work with OpenAI technology",
+              "source_url": "https://openai.com/index/singapore-airlines-travel-work"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+              "source_url": "https://openai.com/index/singapore-airlines-travel-work"
+            }
+          ],
+          "slug": "singapore-airlines-elevates-travel-work-with-openai-technology-4e3e5904",
+          "localized_url": "/zh/items/2026-11-12/singapore-airlines-elevates-travel-work-with-openai-technology-4e3e5904/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+          "title_original": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+          "title_en": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+          "summary_zh": "OpenAI 的新访谈把焦点放在实时语音交互模型能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/codex-work/",
+          "published_at": "Wed, 11 Nov 2026 04:49:48 GMT",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d46e4b8dae91",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 讨论实时语音交互模型能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+              "source_url": "https://latent.space/p/codex-work/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.",
+              "source_url": "https://latent.space/p/codex-work/"
+            }
+          ],
+          "slug": "ai-engineer-code-summit-openai-on-new-ways-of-working-with-codex-6a8ddd1b",
+          "localized_url": "/zh/items/2026-11-12/ai-engineer-code-summit-openai-on-new-ways-of-working-with-codex-6a8ddd1b/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "マイケル・ロジャース米退役海軍大将、トム・モラン元CIA支局長がSakana AIのシニアアドバイザーに就任",
+          "title_original": "マイケル・ロジャース米退役海軍大将、トム・モラン元CIA支局長がSakana AIのシニアアドバイザーに就任",
+          "title_en": "マイケル・ロジャース米退役海軍大将、トム・モラン元CIA支局長がSakana AIのシニアアドバイザーに就任",
+          "summary_zh": "写真左：マイケル・ロジャース氏、写真右：トム・モラン氏",
+          "summary_en": "写真左：マイケル・ロジャース氏、写真右：トム・モラン氏",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/michael-tom/",
+          "published_at": "2026-11-11T00:00:00+09:00",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [
+            "Sakana AI"
+          ],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2a3ac4983c49",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "マイケル・ロジャース米退役海軍大将、トム・モラン元CIA支局長がSakana AIのシニアアドバイザーに就任",
+          "extracted_text_for_analysis": "写真左：マイケル・ロジャース氏、写真右：トム・モラン氏 （English Announcement Below.） AIは、国家の安全保障のあり方を左右する重要なテクノロジーになりつつあります。この変化に日本が向き合うために、Sakana AIは本日、元米国家安全保障局（NSA）長官兼米サイバー軍司令官のマイケル・ロジャース（Michael Rogers）退役海軍大将と、元米中央情報局（CIA）幹部のトム・モラン（Tom Moran）氏が、ともにシニアアドバイザーに就任したことを発表します。両氏は、防衛分野の強化とサイバーセキュリティの強化の2つの軸で、当社に助言を行います。 2名のアドバイザーは、異なるインテリジェンスの領域で、それぞれ最前線に立ってきました。 マイケル・ロジャース退役海軍大将 マイケル・ロジャース氏は、37年にわたる米海軍でのキャリアを、軍事作戦、インテリジェンス、サイバーセキュリティの最前線で歩んできました。 海軍では暗号分野を専門とし、米インド太平洋軍（U.S. Indo-Pacific Command）の情報部長（J2）をはじめとする情報分野の要職を歴任。その後、米艦隊サイバー軍（U.S. Fleet Cyber Command）/第10艦隊の司令官（U.S. Tenth Fleet）などを経て、2014年から2018年には、NSA長官（National Security Agency Director and Commander）と米サイバー軍司令官（Commander of U.S. Cyber Command）を兼務しました。米国最大の諜報機関と、米軍ネットワークの防衛および世界規模のサイバー作戦を担う統合軍を同時に率いた、サイバー領域のエキスパートです。 2018年に四つ星の海軍大将として退役後は、2019年からBrunswick Groupのシニアアドバイザーとして、サイバーセキュリティ、地政学、危機管理について助言しています。 「AIは、サイバー空間における攻撃と防御の両面で、国家安全保障の前提を大きく変えつつあります。Sakana AIは、世界水準の研究力と、日本発の独自のアプローチを兼ね備えた企業です。サイバーセキュリティと防衛の強化に向けて、私の経験を役立てられることを楽しみにしています。」 — マイケル・ロジャース退役海軍大将 トム・モラン元CIA支局長 トム・モラン氏は、約30年にわたりCIAに在籍し、オペレーション・オフィサーとして世界各地での任務にあたってきました。 東アジア、西欧、中東、アフリカの各地で支局長（Chief of Station）を6度務め、ワシントンD.C.の本部でも上級幹部職を歴任。情報機関の上級幹部にあたる上級情報部（Senior Intelligence Service）のメンバーとして、2023年には殊勲情報章（Distinguished Career Intelligence Medal）を受章しています。 2024年からは、UC Berkeley Goldman School of Public PolicyのInstitute for Security and Governanceにおいて「Intelligence Project」のディレクターを務め、自身の安全保障に関する知見を次世代に伝えています。 「インテリジェンスの現場で最も大切なのは、限られた時間のなかで、膨大な情報から正しい判断を導き出すことです。AIはその力を飛躍的に高める可能性を持っています。同時に、信頼性と責任ある運用が欠かせません。Sakana AIは、優れた人材と創造的な発想で、日本の防衛・インテリジェンスを支えようとしています。その挑戦に、アドバイザーとして参加できることを光栄に思います。」 — トム・モラン元CIA支局長 Sakana AI Sakana AIは創業以来、国内外から優れた人材を東京に迎え入れてきました。9月のユルゲン・シュミットフーバー博士に続き、今回は防衛とインテリジェンスの領域で、国際的な経験を持つ二人をお迎えします。 Sakana AIは防衛事業に対する基本方針に基づき、技術の力で日本の防衛・インテリジェンスを支える最前線のチームを拡大中です。ソフトウェアエンジニア、アプライドリサーチエンジニア、サイバーセキュリティエンジニア、プロジェクトマネージャー、テクニカルエディターなど複数の職種の人材を募集しています。詳しくは当社の募集要項をご覧ください。 English Announcement Left: Michael Rogers, Right: Tom Moran AI is becoming a technology that will shape the future of national security. To help Japan meet this change, Sakana AI today announces that Admiral Michael Rogers, U.S. Navy (Ret.), former Director of the National Security Agency (NSA) and Commander of U.S. Cyber Command, and Tom Moran, a former senior officer of the Central Intelligence Agency (CIA), have both joined as Senior Advisors. They will advise the company on two fronts: strengthening defense capabilities and strengthening cybersecurity. Our two advisors have each stood on the front lines of different domains of intelligence. Admiral Michael Rogers, U.S. Navy (Ret.) Michael Rogers spent a 37-year career in the U.S. Navy on the front lines of military operations, intelligence, and cybersecurity. Specializing in cryptology, he held a series of senior intelligence posts, including Director for Intelligence (J2) at U.S. Indo-Pacific Command (INDOPACOM), and went on to serve as Commander of U.S. Fleet Cyber Command / U.S. Tenth Fleet, among other posts, before serving simultaneously as Director of the NSA and Commander of U.S. Cyber Command from 2014 to 2018. He led both the largest intelligence agency in the United States and the unified command responsible for defending U.S. military networks and conducting cyber operations worldwide, making him an expert with an unparalleled command of the cyber domain. After retiring in 2018 as a four-star admiral, he has served since 2019 as Senior Advisor to the Brunswick Group, advising on cybersecurity, geopolitics, and crisis management. “AI is fundamentally changing the assumptions of national security, on both offense and defense in cyberspace. Throughout my career, I have seen how much risk emerges when institutions fail to keep pace with advances in technology. Sakana AI combines world-class research with a distinctive approach that originates in Japan. I look forward to contributing my experience to strengthening cybersecurity and defense.” — Admiral Michael Rogers, U.S. Navy (Ret.) Tom Moran spent close to 30 years at the CIA, on the front lines of intelligence operations in the field around the world. He served six times as Chief of Station across East Asia, Western Europe, the Middle East, and Africa, and held senior leadership positions at headquarters in Washington, D.C. A member of the Senior Intelligence Service, the CIA’s senior executive cadre, he was awarded the Distinguished Career Intelligence Medal in 2023. Since 2024, he has also been passing on his security expertise to the next generation as Director of the Intelligence Project in the Institute for Security and Governance at UC Berkeley’s Goldman School of Public Policy. “What matters most in intelligence work is reaching the right judgment from an enormous amount of information in a limited amount of time. AI has the potential to dramatically strengthen that ability. At the same time, reliability and responsible use are essential. Sakana AI is working to support Japan’s defense and intelligence with outstanding people and creative thinking, and I am honored to join that effort as an advisor.” — Tom Moran, Former CIA Chief of Station About Sakana AI Since its founding, Sakana AI has welcomed outstanding talent from Japan and abroad to Tokyo. Following Dr. Jürgen Schmidhuber in September, we are now joined by two people with international experience in defense and intelligence. In line with our Defense Policy, Sakana AI is expanding its front-line team that supports Japan’s defense and intelligence through technology. We are hiring for multiple roles, including Software Engineer, Applied Research Engineer, Cybersecurity Engineer, Project Manager, and Technical Editor. For details, please see our careers page.",
+          "title_zh": "Sakana AI 推进研究与开源进展",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI，核心变化集中在研究与开源进展。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。",
+            "涉及公司或机构：Sakana AI。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "マイケル・ロジャース米退役海軍大将、トム・モラン元CIA支局長がSakana AIのシニアアドバイザーに就任",
+              "source_url": "https://sakana.ai/michael-tom/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "写真左：マイケル・ロジャース氏、写真右：トム・モラン氏",
+              "source_url": "https://sakana.ai/michael-tom/"
+            }
+          ],
+          "slug": "ciasakana-ai-f12eb62c",
+          "localized_url": "/zh/items/2026-11-12/ciasakana-ai-f12eb62c/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+          "title_original": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+          "title_en": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+          "published_at": "Wed, 11 Nov 2026 03:00:20 +0000",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a3f9078912ac",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+          "extracted_excerpt": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
+          "extracted_text_for_analysis": "As world leaders gather for COP31 in Türkiye, the event’s emphasis on zero waste puts a practical challenge in focus: how to keep products and materials in use for longer. Globally, less than 7% of the materials entering the economy come from recycled or reused sources. Municipal solid waste generation accounts for over 2 billion tons of trash per year — a figure that could nearly double by 2050. AI and robotics are helping change this trajectory, as innovators around the globe improve sorting to recover resources that would otherwise end up in landfills. “A more circular economy relies on making better use of what we already have,” said Josh Parker, head of sustainability at NVIDIA. “AI can help us understand what’s in a waste stream, identify what can be recovered and automate the work of sorting it. We’re giving innovators the computing tools to make those processes more effective and bring them to more places.” See how four members of the NVIDIA Inception program for startups are applying AI to keep valuable materials in circulation. Recycled plastic is only used if its cost and quality can compete with new material. Too often it can’t: Incoming waste is of inconsistent quality, sorting depends on hard-to-find manual labor and mixed scrap ends up downcycled into low-grade products. The founders of AIRECO, a Taiwan-based startup, believe that AI sorting can cut down the cost and improve the quality of recycling to make these materials more commercially useful. The company uses vision AI to sort plastics more finely, enabling materials to be plucked out of mixed scrap piles for closed-loop recycling, where used items are reprocessed into new versions of the same product. “The finer you sort, the more you can recycle,” said Chun-Feng Liu, founder and CEO of AIRECO. “With finely sorted material, it’s more likely that an item can stay in the loop — a plastic bottle recycled back into a bottle again and again, rather than ending up in other products that are hard to recycle further.” The company uses NVIDIA Jetson Orin NX modules to run inference across its pilot line at a recycling plant in Tainan, including to drive robotic arms that pick targets off a conveyor belt. Recognition accuracy on the test line tops 95%. In a full production line planned for next year, the team aims to nearly triple annual waste processing capacity from 18,000 to 48,000 tons while cutting operating costs by 85%. At material recovery facilities, the plants that separate household recyclables, sorting must be done in real time at fast-moving conveyor belts — requiring rapid analysis to identify and sort items. EverestLabs AI, a U.S. startup, deploys computer vision-guided robots on those sorting lines. About 150 robots are currently deployed in facilities across North America and Australia. “Other robots have infinite time to finish their tasks,” said R. Paul Singh, CEO of EverestLabs AI. “We don’t have that luxury because our conveyor belts are going to come in at a certain speed, and we have to act at a fast clip before the material moves. It’s a real-time game.” EverestLabs runs AI inference on NVIDIA RTX GPUs at the edge and trains its models on NVIDIA data center GPUs, optimized using NVIDIA CUDA. The company estimates its deployed systems have so far identified about 40 billion objects, recycled roughly 25,000 tons of material and avoided about 30,000 metric tons of carbon dioxide emissions. Their team is constantly working to improve its models to correctly classify and pick every kind of object while capturing metadata about the material type, brand and packaging of each. They’re also shipping agentic AI tools to provide actionable data to recycling facility staff, from floor managers to executives responsible for multiple facilities — and are looking to extend that capability to adjacent industries. Recycling plants can process tens of thousands of tons of waste a day, yet operators have long judged what’s on the belt by manually sampling less than 1% of it. U.K. startup Greyparrot built its Analyzer platform to change that. Mounted above conveyor belts, it uses computer vision to identify each passing object by material and brand, even in dusty environments or poor lighting on belts moving up to 4 meters a second. “Waste changes all the time. It shifts by hour, by season, by supplier,” said Ambarish Mitra, cofounder of Greyparrot. “Before, operators guessed based on a tiny sample, and now they can see exactly what’s on the belt.” Greyparrot uses NVIDIA GPUs to train AI models on billions of objects, while NVIDIA Jetson modules run rapid detection at the edge. More than 300 Analyzer systems, operating in over 20 countries, have made over a trillion bounding box detections to date — reducing the time needed to check 15 tons of waste from 375 hours to just six. Facilities using the real-time data from Analyzer report efficiency gains of 10% to 30%. At global packaging company Amcor, the solution helped increase the yield of food-grade plastics by 12%. Brands including Coca-Cola, Colgate-Palmolive and Kenvue also use Greyparrot technology to measure how their packaging is recycled in real sorting plants. Europe generates nearly 7 million tons of used textiles a year. About a quarter of these textiles are collected separately and sorted by hand into hundreds of categories, destined for uses ranging from vintage resale to downcycling as furniture filling or cleaning cloths. The work is slow, costly and hard to staff, which keeps the value of reusable garments buried. reverse.fashion, a Berlin-based startup, is helping automate the job with high-resolution computer vision. Its system identifies product type, defects, color, size, brand, fabric construction, season and style and assigns each garment to its most valuable category. “Compared to classical waste sorting, our AI models have to run at very high resolution because humans are picky with textiles,” said Karsten Pufahl, cofounder and chief technology officer of reverse.fashion. “The computer vision pipeline needs to spot small defects to determine the quality and potential value of each garment.” As it moves across a conveyor belt at 3 meters a second, each textile analyzed by Reverse Fashion passes through over a dozen vision AI models optimized with NVIDIA TensorRT software and running on NVIDIA Jetson modules at the edge. The models are trained on NVIDIA GPUs in workstations and the cloud. The system sorts in an hour what would’ve previously taken a week to sort, Pufahl estimates, and is currently rolling out to facilities in Europe. Explore more NVIDIA-powered sustainability applications.",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+              "source_url": "https://blogs.nvidia.com/blog/ai-recycling-startups/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.",
+              "source_url": "https://blogs.nvidia.com/blog/ai-recycling-startups/"
+            }
+          ],
+          "slug": "how-ai-helps-recyclers-turn-mixed-waste-into-reusable-material-34dcc0e7",
+          "localized_url": "/zh/items/2026-11-12/how-ai-helps-recyclers-turn-mixed-waste-into-reusable-material-34dcc0e7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+          "title_original": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+          "title_en": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+          "summary_zh": "Hugging Face Blog 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/qvac/botpsy",
+          "published_at": "Wed, 11 Nov 2026 05:01:16 GMT",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b22522d14a17",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+          "extracted_excerpt": "A Blog post by QVAC on Hugging Face",
+          "extracted_text_for_analysis": "Frontier cloud LLMs carry high operational costs that can fluctuate unexpectedly, and relying on such third-party models introduces vulnerabilities, as providers can modify, deny, or deprecate access at any time. Furthermore, proprietary models offer limited customization for specific workflows, while posing risks to privacy, data control, and transparency. Besides, not every task demands frontier-level intelligence: small, specialized agents can be equally capable on specific tasks and significantly cheaper to run, since many routine or smaller workloads can be processed efficiently on-device. As intelligence per parameter continues to improve rapidly, we aim to stand at the forefront of this shift toward performant, privacy-focused, self-hosted models. Tether AI Research introduces BotPsy, a 0.8B-parameter model introduce BotPsy, a 0.8B-parameter model designed for function calling and agentic workflows, built on top of Qwen3.5-0.8B and suitable for on-device deployment. BotPsy is a \"personal assistant\" that uses tools to perform a variety of simple tasks for the user, in domains such as web search & research, travel & lifestyle, commerce & finance, business & customer operations, device & vehicle control, files & documents, calendar, and email & messaging. Due to its small parameter count, it is best suited to tasks of low to medium difficulty. BotPsy achieves state-of-the-art (SOTA) tool-use and agentic performance for its size, outperforming every model of up to 1.2B parameters that we tested (Figures 1 and 2). Designed for secure on-device workflows, it provides exceptional instruction-following reliability and efficiency while keeping user data private. As a small model, BotPsy still makes mistakes and is not intended for high-stakes use; please read the Intended Use and Limitations for more information. 🤗 Model (safetensors) | 📦 GGUFs (bf16, Q8, Q4) We will take appropriate actions in response to notice of copyright infringement. If you believe your work has been used or copied in a manner that infringes upon your intellectual property rights, please email data-apps@tether.io identifying and describing both the copyrighted work and alleged infringing content to file a notice of infringement. - Twice the performance of its base model: BotPsy roughly doubles the agentic capability of Qwen3.5-0.8B-Think on key benchmarks: BFCL v4 rises from 23.4 to 44.0, ACEBench from 30.1 to 58.7, and τ-bench from 23.2 to 51.5 (mean of the retail, telecom and banking subsets). - Best agent in its category: BotPsy outperforms leading models in the ≤1.2B-parameter weight class (Qwen3.5-0.8B-Think, LFM2.5-1.2B-Think, MiniCPM5-1B-Think) on all six tool-use and agentic benchmarks: BFCL v4, ACEBench, τ-bench, ToolSandbox, Claw-Eval and BrowseComp-Plus. - Outperforms its larger sibling: BotPsy has the highest score of all models tested on five of the six benchmarks, beating Qwen3.5-2B-Think, a model 2.5× its size, on BFCL v4 (44.0 vs 37.7), ACEBench (58.7 vs 55.4), τ-bench (51.5 vs 46.5), ToolSandbox (64.6 vs 41.2) and BrowseComp-Plus (4.5 vs 2.8). Only on Claw-Eval does Qwen3.5-2B-Think lead (48.9 vs 46.5). - More reliable in multi-turn workflows: On τ²-bench, where the agent must hold a long customer conversation, follow a strict policy, and act on the customer's behalf, it scores 82.5 in telecom, ahead of Qwen3.5-2B-Think (69.3). On BFCL v4's multi-turn tasks, it rises from 7.5 to 46.1 over its base, nearly double Qwen3.5-2B-Think (23.8). Grouped by application, its multi-step scores lead all models tested in commerce and services (58.3 vs 47.4 for the next best, Qwen3.5-2B-Think) and in device and system management (46.1 vs 31.9). - Knows when (not) to call tools: An agent that acts must also know when not to act. On BFCL v4's hallucination tests, which check that the model declines when no appropriate tool exists, BotPsy scores 86.1, the highest of all models tested. On ACEBench's special cases, where the request is incomplete, contains wrong parameters, or cannot be served by the given tools, it scores 51.3, up from 13.7 for its base model. - Follows instructions while preserving knowledge: BotPsy specializes in tool use while preserving general skills. Instruction following improves sharply, with IFEval rising from 59.7 to 90.8 and IFBench from 22.0 to 55.9, the highest IFBench score of all models tested. General knowledge also improves, with GPQA Diamond rising from 33.2 to 38.1 and MMLU-Pro from 41.6 to 48.9. On all four benchmarks, BotPsy outperforms every other model of 1.2B parameters or fewer that we tested. - Safer than leading models in its category: In automated red-teaming across six harm categories, BotPsy produces unsafe responses 21% of the time, compared with 36% for its base model. This is the lowest rate of all models of up to 1.2B parameters (LFM2.5-1.2B-Think: 35%; MiniCPM5-1B-Think: 47%). Under prompt-injection attacks, which matter most for agents that read untrusted tool outputs, the unsafe rate drops from 46% for its base model to 31%. - More efficient reasoning and less looping: On questions that all five models answer correctly, BotPsy reaches the answer with about 3× fewer reasoning tokens than its base model on GPQA Diamond (3,690 vs 11,563) and 2.7× fewer on MMLU-Pro (1,912 vs 5,105). Across all IFBench attempts, its rate of getting stuck in repetitive reasoning loops falls from 22.9% to 1.4%, and runs that hit the 32k-token limit fall from 28.3% to 0.2%. Shorter, more decisive reasoning should reduce latency on-device. - Open-source and ready to use: BotPsy will be released with open weights under the Apache 2.0 license for research and educational use. It will be available in three precisions (bf16, Q8, Q4), as Hugging Face safetensors and as GGUF files for the QVAC SDK and llama.cpp. Building upon the foundation of BotPsy, future development by Tether Data, S.A. de C.V. (“Tether AI Research”, “we”, “our”) will focus on expanding on-device agentic capabilities to seamlessly integrate with an even broader array of hardware and local services. Tether's Hypersearch will evolve to support more robust decentralized peer-to-peer (P2P) queries, further ensuring private, encrypted web searches that bypass corporate trackers. QVAC Fabric local fine-tuning mechanisms will be optimized to adapt more deeply to individual user preferences, workflows, and specialized tool environments. Future iterations will allow the smartphone interface to smoothly delegate heavy computational tasks to home PCs or trusted secure P2P nodes during offline-online transitions. Privacy protocols will be continuously strengthened to guarantee that all personal data, credentials, and decisions remain strictly on local hardware. Collaborative features will be introduced to allow secure agent-to-agent communication across trusted local networks without compromising user confidentiality. Ultimately, these advancements will solidify BotPsy as a fully autonomous, highly capable personal AI",
+          "title_zh": "Hugging Face 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+              "source_url": "https://huggingface.co/blog/qvac/botpsy"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/qvac/botpsy"
+            }
+          ],
+          "slug": "botpsy-on-device-personal-assistant-with-a-sub-billion-parameter-agentic-b22522d1",
+          "localized_url": "/zh/items/2026-11-12/botpsy-on-device-personal-assistant-with-a-sub-billion-parameter-agentic-b22522d1/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+          "title_original": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+          "title_en": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/token-pooling",
+          "published_at": "Wed, 11 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d2296a64c0dc",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+          "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "extracted_text_for_analysis": "Multi-vector embedding models give each query token its own opportunity to find a match in a document. This makes them wonderfully expressive for search, but those document vectors add up quickly. A corpus with millions of documents can contain hundreds of millions of vectors! Token pooling makes these representations smaller by merging similar token vectors. The more aggressively I compress them, however, the easier it becomes to lose something useful. Pooling-aware training teaches the encoder to preserve the information that matters when its vectors are merged, helping you retrieve better from the same storage budget. In this post, I'll explain how pooling works, train a model for compressed retrieval with Sentence Transformers, and explore the resulting quality and storage tradeoff. With pool_factor=4, my normally trained model retains 94.6% of its unpooled NanoBEIR nDCG@10, with a 4x reduction in document vectors. Token pooling-aware training raises that retention to 97.8% at the same storage budget! Let's see how. This post builds on pooling-aware training studied in Stefan Josef's Learn to Pool and LightOn's pooling regularization study, which also explores targeted training and adaptive budgets. Here, I'll focus on understanding the method and putting it to work with a short, reproducible Sentence Transformers example. Pooling-aware training improves retrieval quality at the same vector budget. Details below. A single-vector embedding model compresses an entire document into one vector. Multi-vector models such as ColBERT instead keep a collection of contextual token vectors, allowing different parts of a query to match different parts of a document. For example, a query about a laptop with a long battery life can find evidence about the laptop in one part of a document and battery endurance in another. With MaxSim scoring, each query vector selects its best matching document vector, and those scores are added together: Even with the 2-bit or 4-bit residual quantization supported by Fast-PLAID, storing hundreds of vectors per document adds up. At 4 bits per residual coordinate, 200 vectors of 128 dimensions require 12.8 KB of quantized residuals per document, or 12.8 GB across a million documents. Pooling each document to 50 vectors reduces that to 3.2 GB, at the same dimensionality and precision. The useful observation is that many document vectors can be similar. Several tokens might describe closely related concepts, creating an opportunity to represent them together. HierarchicalTokenPooling groups similar token embeddings using Ward hierarchical clustering. Starting with one group per token vector, it repeatedly merges the two groups that cause the smallest increase in how spread out the vectors are within their groups. This spread is measured by the sum of squared distances from each vector to its group's mean, so Ward's method favors compact groups of similar vectors. These merges build a hierarchy of progressively larger groups, letting us choose a level of compression that fits our budget. We then represent each group by its mean and normalize the resulting vectors again, ready for MaxSim scoring. You can make compression proportional to document length: from sentence_transformers.multi_vector_encoder.modules import HierarchicalTokenPooling pooling = HierarchicalTokenPooling(pool_factor=4) With pool_factor=4, documents retain approximately one quarter of their original vectors, so longer documents can keep proportionally more capacity. By default, the first token is protected from merging and pooling applies only to document embeddings, leaving query embeddings unchanged. HierarchicalTokenPooling offers three alternative controls: This distinction matters when document lengths vary. With pool_factor=4, a longer document can retain approximately one quarter of its vectors, allowing its representation to grow with its content. With distance_threshold, the vector count can grow when more distinct embeddings need to be preserved. Adaptive pooling uses a shared distance threshold to merge similar embeddings more aggressively while preserving more vectors for documents with distinct content. It can be used with any multi-vector model, including one trained without a pooling-aware objective. Rather than choosing a threshold manually, you can calibrate it for a target average vector count. Given a representative sample of your corpus in calibration_documents: from sentence_transformers import MultiVectorEncoder from sentence_transformers.multi_vector_encoder.modules import HierarchicalTokenPooling model = MultiVectorEncoder(\"lightonai/LateOn\") calibration_embeddings = model.encode_document(calibration_documents) threshold = HierarchicalTokenPooling.calibrate_distance_threshold(calibration_embeddings, target_tokens=16) pooling = HierarchicalTokenPooling(distance_threshold=threshold) # Apply pooling, targeting an average of 16 vectors per document document_embeddings = model.encode_document(documents_to_index, token_pooling=pooling) Calibration only needs document embeddings and returns a threshold you can reuse when indexing. The target is an average, so individual documents can receive more or fewer than 16 vectors. The achieved average can also change on another corpus. Pooling can already be useful on an ordinary multi-vector model. The difficulty appears when a document contains a distinction that matters for retrieval, but merging its vectors makes that distinction harder to recover. The original training objective never required the model to work with these compressed representations. But, you can teach it to do exactly that. If you've used Matryoshka embeddings, the training principle will feel familiar. Matryoshka applies a retrieval objective at several embedding widths, teaching smaller prefixes to remain useful. Pooling-aware training applies the objective to representations with fewer token vectors. For my example, each training batch contributes two losses: - Retrieval using the original document embeddings. - Retrieval after compressing documents to approximately one quarter of their original vectors. I average them: The first term teaches the model to retrieve with its full representations. The second teaches it to arrange its token embeddings so that useful matches survive pooling. Both objectives update the same encoder, giving it feedback about retrieval before and after compression. Ward clustering makes discrete decisions about which tokens belong together. During training, HierarchicalTokenPooling uses a straight-through estimator to pass gradients from pooled vectors back to their member tokens, without differentiating the cluster assignments. The encoder can then learn from retrieval errors made with its pooled representations. MultiVectorTokenPoolingLoss wraps an existing multi-vector retrieval loss and applies it using your chosen poolers: from sentence_transformers import MultiVectorEncoder from",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+              "source_url": "https://huggingface.co/blog/token-pooling"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/token-pooling"
+            }
+          ],
+          "slug": "token-pooling-aware-training-for-multi-vector-embedding-models-d2296a64",
+          "localized_url": "/zh/items/2026-11-12/token-pooling-aware-training-for-multi-vector-embedding-models-d2296a64/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+          "title_original": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+          "title_en": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+          "summary_zh": "DeepMind 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+          "published_at": "Wed, 11 Nov 2026 15:00:15 +0000",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e879c6fc35d4",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "DeepMind 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 DeepMind，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+              "source_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+              "source_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+            }
+          ],
+          "slug": "alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-diseas-5b916f1b",
+          "localized_url": "/zh/items/2026-11-12/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-diseas-5b916f1b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+          "title_original": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+          "title_en": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+          "summary_zh": "Claude 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Lenny's Podcast",
+          "source_url": "https://www.lennysnewsletter.com/",
+          "original_url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+          "published_at": "Wed, 11 Nov 2026 13:04:09 GMT",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "podcast",
+            "product",
+            "ai-products",
+            "startups"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0f3a523ea23a",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Claude 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Claude，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：podcast、product、ai-products、startups。"
+          ],
+          "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+              "source_url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai"
+            }
+          ],
+          "slug": "claude-code-obsidian-my-familys-ai-brain-scott-farrar-0f3a523e",
+          "localized_url": "/zh/items/2026-11-12/claude-code-obsidian-my-familys-ai-brain-scott-farrar-0f3a523e/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+          "title_original": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+          "title_en": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+          "summary_zh": "Gemini 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+          "published_at": "Wed, 11 Nov 2026 09:34:28 GMT",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f18c0fa24109",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Gemini 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+              "source_url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "November 10, 2026 — Google GA's Gemini 4 Carbon.",
+              "source_url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/"
+            }
+          ],
+          "slug": "ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate-bb789fe0",
+          "localized_url": "/zh/items/2026-11-12/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate-bb789fe0/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Gemini Decision 1 now available on AI Gateway",
+          "title_original": "Gemini Decision 1 now available on AI Gateway",
+          "title_en": "Gemini Decision 1 now available on AI Gateway",
+          "summary_zh": "Gemini 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Gemini Decision 1 from Google is now available on AI Gateway. The multimodal decision model works with text, images, audio, video, and PDF documents, returning Boolean probabilities, choices, and scores. Use it to route requests, check policies, filter agent",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/gemini-decision-1-now-available-on-ai-gateway",
+          "published_at": "2026-11-11T00:00:00.000Z",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ce36778b2714",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Gemini 发布开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Gemini 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "multimodal",
+              "explanation": "同时处理文本、图像、音频或视频等多种输入输出形式。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Gemini Decision 1 now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/gemini-decision-1-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Gemini Decision 1 from Google is now available on AI Gateway. The multimodal decision model works with text, images, audio, video, and PDF documents, returning Boolean probabilities, choices, and scores. Use it to route",
+              "source_url": "https://vercel.com/changelog/gemini-decision-1-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "gemini-decision-1-now-available-on-ai-gateway-ce36778b",
+          "localized_url": "/zh/items/2026-11-12/gemini-decision-1-now-available-on-ai-gateway-ce36778b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Canva Is Tackling AI Design’s Most Frustrating Problem with Stefano Corazza- #784",
+          "title_original": "Canva Is Tackling AI Design’s Most Frustrating Problem with Stefano Corazza- #784",
+          "title_en": "Canva Is Tackling AI Design’s Most Frustrating Problem with Stefano Corazza- #784",
+          "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "In this episode, Stefano Corazza, head of AI research at Canva, joins us to explore how his team is building custom models and agents around iterative design workflows. We discuss the tradeoffs between training models from scratch and adapting open weights",
+          "source_name": "TWIML AI Podcast",
+          "source_url": "https://twimlai.com/podcast/twimlai/",
+          "original_url": "https://twimlai.com/podcast/twimlai/canva-tackling-ai-designs-most-frustrating-problem",
+          "published_at": "Tue, 10 Nov 2026 16:21:00 -0000",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "podcast",
+            "research"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "fd46662d8a36",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "TWIML AI Podcast 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 TWIML AI Podcast，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、podcast、research。"
+          ],
+          "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Canva Is Tackling AI Design’s Most Frustrating Problem with Stefano Corazza- #784",
+              "source_url": "https://twimlai.com/podcast/twimlai/canva-tackling-ai-designs-most-frustrating-problem"
+            },
+            {
+              "label": "公开摘要",
+              "text": "In this episode, Stefano Corazza, head of AI research at Canva, joins us to explore how his team is building custom models and agents around iterative design workflows. We discuss the tradeoffs between training models",
+              "source_url": "https://twimlai.com/podcast/twimlai/canva-tackling-ai-designs-most-frustrating-problem"
+            }
+          ],
+          "slug": "canva-is-tackling-ai-designs-most-frustrating-problem-with-stefano-coraz-fd46662d",
+          "localized_url": "/zh/items/2026-11-12/canva-is-tackling-ai-designs-most-frustrating-problem-with-stefano-coraz-fd46662d/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "MiniMax H3 Image and Highspeed now available on AI Gateway",
+          "title_original": "MiniMax H3 Image and Highspeed now available on AI Gateway",
+          "title_en": "MiniMax H3 Image and Highspeed now available on AI Gateway",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "MiniMax H3 Image and MiniMax H3 Image Highspeed are now available on AI Gateway. Generate images from text or edit existing images with one API key and no separate MiniMax account. Both models support custom dimensions and aspect ratios, including 2K and 4K",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/minimax-h3-image-and-highspeed-now-available-on-ai-gateway",
+          "published_at": "2026-11-10T00:00:00.000Z",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "39585ac01d20",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "API",
+              "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "MiniMax H3 Image and Highspeed now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/minimax-h3-image-and-highspeed-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "MiniMax H3 Image and MiniMax H3 Image Highspeed are now available on AI Gateway. Generate images from text or edit existing images with one API key and no separate MiniMax account. Both models support custom dimensions",
+              "source_url": "https://vercel.com/changelog/minimax-h3-image-and-highspeed-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "minimax-h3-image-and-highspeed-now-available-on-ai-gateway-39585ac0",
+          "localized_url": "/zh/items/2026-11-12/minimax-h3-image-and-highspeed-now-available-on-ai-gateway-39585ac0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Speed Insights and Web Analytics now support custom environments",
+          "title_original": "Speed Insights and Web Analytics now support custom environments",
+          "title_en": "Speed Insights and Web Analytics now support custom environments",
+          "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Speed Insights and Web Analytics now fully support custom environments . Previously, data captured on deployments to a custom environment was attributed to the Preview environment. That data is now attributed to the custom environment it came from, so you can",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/speed-insights-and-web-analytics-now-support-custom-environments",
+          "published_at": "2026-11-10T00:00:00.000Z",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "90960533e554",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Speed Insights and Web Analytics now support custom environments",
+              "source_url": "https://vercel.com/changelog/speed-insights-and-web-analytics-now-support-custom-environments"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Speed Insights and Web Analytics now fully support custom environments . Previously, data captured on deployments to a custom environment was attributed to the Preview environment. That data is now attributed to the",
+              "source_url": "https://vercel.com/changelog/speed-insights-and-web-analytics-now-support-custom-environments"
+            }
+          ],
+          "slug": "speed-insights-and-web-analytics-now-support-custom-environments-90960533",
+          "localized_url": "/zh/items/2026-11-12/speed-insights-and-web-analytics-now-support-custom-environments-90960533/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Sandbox snapshot creation is now up to 10x faster",
+          "title_original": "Vercel Sandbox snapshot creation is now up to 10x faster",
+          "title_en": "Vercel Sandbox snapshot creation is now up to 10x faster",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Sandbox now creates snapshots up to 10x faster. Median time to snapshot is under 0.4 seconds, down from 4.4 seconds. Snapshot restore speed has also improved by 50% from 500ms to 250ms at p50. Snapshots are now able to write and restore by re-using",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster",
+          "published_at": "2026-11-09T21:00:00.000Z",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3545a23fc2ec",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Sandbox snapshot creation is now up to 10x faster",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Sandbox now creates snapshots up to 10x faster. Median time to snapshot is under 0.4 seconds, down from 4.4 seconds. Snapshot restore speed has also improved by 50% from 500ms to 250ms at p50. Snapshots are now",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster"
+            }
+          ],
+          "slug": "vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster-3545a23f",
+          "localized_url": "/zh/items/2026-11-12/vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster-3545a23f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GLM 5.3 Flash is now available in Token Pass",
+          "title_original": "GLM 5.3 Flash is now available in Token Pass",
+          "title_en": "GLM 5.3 Flash is now available in Token Pass",
+          "summary_zh": "Modal 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Token Pass now includes GLM 5.3 Flash , alongside Kimi K3, GLM 5.3, and DeepSeek V4.1 Flash (with more models to come). GLM 5.3 Flash is Z.ai's native multimodal coding model with a 1M-token context window. Token Pass is a $30/month subscription on Pro teams",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/glm-5-3-flash-is-now-available-in-token-pass",
+          "published_at": "2026-11-09T00:00:00.000Z",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d9a12df5a57e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Modal 发布代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Modal，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "multimodal",
+              "explanation": "同时处理文本、图像、音频或视频等多种输入输出形式。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GLM 5.3 Flash is now available in Token Pass",
+              "source_url": "https://vercel.com/changelog/glm-5-3-flash-is-now-available-in-token-pass"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Token Pass now includes GLM 5.3 Flash , alongside Kimi K3, GLM 5.3, and DeepSeek V4.1 Flash (with more models to come). GLM 5.3 Flash is Z.ai's native multimodal coding model with a 1M-token context window. Token Pass",
+              "source_url": "https://vercel.com/changelog/glm-5-3-flash-is-now-available-in-token-pass"
+            }
+          ],
+          "slug": "glm-5-3-flash-is-now-available-in-token-pass-d9a12df5",
+          "localized_url": "/zh/items/2026-11-12/glm-5-3-flash-is-now-available-in-token-pass-d9a12df5/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Workflow SDK now writes over WebSockets on Vercel",
+          "title_original": "Workflow SDK now writes over WebSockets on Vercel",
+          "title_en": "Workflow SDK now writes over WebSockets on Vercel",
+          "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "The Workflow SDK now sends event writes and stream writes to Vercel Workflows over a WebSocket by default, replacing one HTTP request per write, or per write group for streams. No code change is needed beyond upgrading to workflow@5.2.0 or later. Once you",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/workflow-writes-now-use-websockets-on-vercel",
+          "published_at": "2026-11-09T00:00:00.000Z",
+          "fetched_at": "2026-11-12T03:04:03.684248+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [
+            "Benchmark"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cae1c36134f0",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Benchmark。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Workflow SDK now writes over WebSockets on Vercel",
+              "source_url": "https://vercel.com/changelog/workflow-writes-now-use-websockets-on-vercel"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The Workflow SDK now sends event writes and stream writes to Vercel Workflows over a WebSocket by default, replacing one HTTP request per write, or per write group for streams. No code change is needed beyond upgrading",
+              "source_url": "https://vercel.com/changelog/workflow-writes-now-use-websockets-on-vercel"
+            }
+          ],
+          "slug": "workflow-sdk-now-writes-over-websockets-on-vercel-cae1c361",
+          "localized_url": "/zh/items/2026-11-12/workflow-sdk-now-writes-over-websockets-on-vercel-cae1c361/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-11-11",
       "title_zh": "AI 新闻简报 · 2026-11-11",
