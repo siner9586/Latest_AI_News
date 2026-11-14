@@ -1,7 +1,1239 @@
 {
-  "updated_at": "2026-11-13T02:39:35.781116+00:00",
-  "count": 148,
+  "updated_at": "2026-11-14T02:28:47.944758+00:00",
+  "count": 149,
   "briefs": [
+    {
+      "date": "2026-11-14",
+      "title_zh": "AI 新闻简报 · 2026-11-14",
+      "title_en": "English AI News Brief · 2026-11-14",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 131 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 131 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 131,
+      "selected_count": 18,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+          "title_original": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+          "title_en": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+          "published_at": "Fri, 13 Nov 2026 09:04:13 GMT",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "podcasts-interviews",
+          "people": [
+            "Jensen Huang"
+          ],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 74.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "12f357dd3921",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "open source",
+              "explanation": "可公开查看、使用或修改的代码与模型资源。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+              "source_url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+              "source_url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/"
+            }
+          ],
+          "slug": "ainews-jensen-huang-resigns-after-33-years-leading-nvidia-39f10582",
+          "localized_url": "/zh/items/2026-11-14/ainews-jensen-huang-resigns-after-33-years-leading-nvidia-39f10582/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing ChatGPT Wallet",
+          "title_original": "Introducing ChatGPT Wallet",
+          "title_en": "Introducing ChatGPT Wallet",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/introducing-chatgpt-wallet",
+          "published_at": "Fri, 13 Nov 2026 15:00:00 GMT",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "5bf4951adbe9",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 发布AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing ChatGPT Wallet",
+              "source_url": "https://openai.com/index/introducing-chatgpt-wallet"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+              "source_url": "https://openai.com/index/introducing-chatgpt-wallet"
+            }
+          ],
+          "slug": "introducing-chatgpt-wallet-5bf4951a",
+          "localized_url": "/zh/items/2026-11-14/introducing-chatgpt-wallet-5bf4951a/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+          "title_original": "Shield helps technicians hand off legacy portal work with OpenAI",
+          "title_en": "Shield helps technicians hand off legacy portal work with OpenAI",
+          "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/business/customer-stories/shield",
+          "published_at": "Fri, 13 Nov 2026 08:00:00 GMT",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d1318183fe17",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Shield helps technicians hand off legacy portal work with OpenAI",
+              "source_url": "https://openai.com/business/customer-stories/shield"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+              "source_url": "https://openai.com/business/customer-stories/shield"
+            }
+          ],
+          "slug": "shield-helps-technicians-hand-off-legacy-portal-work-with-openai-d1318183",
+          "localized_url": "/zh/items/2026-11-14/shield-helps-technicians-hand-off-legacy-portal-work-with-openai-d1318183/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+          "title_original": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+          "title_en": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+          "published_at": "Fri, 13 Nov 2026 13:00:42 +0000",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ece4b84db3e9",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+          "extracted_excerpt": "Health systems and startups are putting AI to work across healthcare disciplines with NVIDIA technologies behind the applications.",
+          "extracted_text_for_analysis": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI outputs and guiding decisions, while NVIDIA technologies provide the compute behind the applications. Read on to learn how healthcare teams are using AI to improve and speed patient care. Friday, Nov. 13, 5:00 a.m. PT 🔗 Dyania Health Uses AI to Turn Decades of Patient Records Into Better Care Hospitals hold decades of patient history, most of it written in free text, as physicians’ notes, operative reports, imaging and pathology reads and discharge summaries. To understand one patient’s full story, a clinician would need to read through years of charts. Dyania Health, a New Jersey-based clinical AI company, built Synapsis AI to do just that. Synapsis AI is a clinical reasoning engine: It works across every note, report and lab result in a patient’s record, connecting findings that may be years apart to answer clinical questions the way a specialist reviewing the chart would. The output is a set of clinical signals, each traceable to its source in the record, that tells care teams which patients need attention and why. Clinicians review the evidence and make every decision. Keeping Patient Data Inside the Hospital Walls Synapsis AI runs on NVIDIA-accelerated computing inside a health system’s own firewall. The entire health system’s patient records can be processed onsite, so patient data is never shared and never leaves the hospital. Processing records this way takes chart review off the desks of clinical teams and lets them spend that time with patients. But Synapsis AI still requires clinician input — it’s an assistive tool that surfaces evidence from medical records that a clinician must still confirm and act on. Dyania builds and trains its clinical models with NVIDIA NeMo open libraries, then uses NVIDIA TensorRT and TensorRT-LLM to optimize them to run faster and more efficiently on the hospital’s own GPU servers. Synapsis AI in the Real World Cleveland Clinic used Synapsis AI to support a study of more than 7,800 aortic valve replacement patients between 2005 and 2021. Synapsis AI reasoned across each patient’s record, including every echocardiogram added in the years after surgery, and used this information to build a predictive model of valve deterioration and reintervention risk at the three-, five- and ten-year mark after a patient undergoes an aortic valve replacement procedure. The AI platform completed chart review across the full cohort that would have taken clinicians years to complete by hand. “Using technology to bring together and analyze information that can help us predict the duration of implanted heart valves is a promising step towards enhanced outcomes and more personalized care for patients,” said Dr. Lars Svensson, chief of the Heart, Vascular & Thoracic Institute at Cleveland Clinic. The same approach can be applied to any healthcare challenge where the answer sits inside the medical record, such as identifying patients eligible for clinical trials, closing care gaps in cardiology and oncology, and populating clinical registries. Learn more about Dyania Health.",
+          "title_zh": "NVIDIA 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+              "source_url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching",
+              "source_url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/"
+            }
+          ],
+          "slug": "how-ai-is-helping-care-teams-get-patients-the-right-care-sooner-a326fbf0",
+          "localized_url": "/zh/items/2026-11-14/how-ai-is-helping-care-teams-get-patients-the-right-care-sooner-a326fbf0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+          "title_original": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+          "title_en": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+          "published_at": "Fri, 13 Nov 2026 18:00:39 GMT",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2427bacb74a9",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+          "extracted_excerpt": "A Blog post by NVIDIA on Hugging Face",
+          "extracted_text_for_analysis": "This walkthrough showcases a beverage can pick-and-place task that uses the UR17G arm, Robotiq 2F-140 gripper, and beverage can to compose a scene in Isaac Sim, check their behavior, and run a pick-and-place example with agent-generated controls. For robotics workflows, SimReady means an OpenUSD asset has been prepared with the properties needed for a defined simulation use case, such as collisions, mass, joints, and joint drives. SimReady Central, an open asset library on Hugging Face, lets you reuse robot and object assets with authored simulation properties and profile-validation evidence. For more about the library and its launch, read the announcement blog. SimReady Foundation defines what features the OpenUSD asset needs for a simulation use case. Its specifications connect three levels: - Profile: a group of features for a use case, such as a robot body. - Features: capabilities needed for the use case, such as joints that can be controlled. - Requirements: checks on the settings needed for each feature, such as a joint’s drive settings. For this task, those properties include the arm and gripper’s joints and a beverage can asset collisions and mass. Validation checks these settings against the profile’s requirements. The simulation then tests whether the assembled robot can use them to pick up and move the can. The UR17G, Robotiq 2F-140, and beverage can packages include the models and their simulation settings. You assemble the scene and add task code to define the arm–gripper assembly, work surface, starting positions, and controls for moving the arm and opening and closing the gripper. Figure 2. SimReady Central supplies the asset models and simulation settings and the example scene and controls define the pick-and-place task. A robot can look visually correct while stationary in Isaac Sim but move or interact with objects incorrectly when the simulation runs. Before running pick-and-place, test its joints, movement, and contact behavior. You can ask the agent to perform these tests or do them manually in Isaac Sim. - Joint settings: Review the arm and gripper’s joint limits and drive settings. - Movement: Test a small arm movement and open and close the gripper. - Contact: Confirm that the can rests on the work surface without falling through it. During pick-and-place, watch whether a beverage can stay in the gripper as the arm moves. Asset structures vary, so use the settings in your loaded scene as your starting point. We will be going through the overall process of downloading the assets and composing the scene in the steps below. This example combines the UR17G arm, Robotiq 2F-140 gripper, and beverage can in Isaac Sim. The task is to grasp the can, lift it, move it to a target, and release it. You can also leverage SimReady Central Space search service endpoint to look for OEM curated content. We will also use a frontier AI model to help create and run the task code in an open Isaac Sim scene. For this example, we use GPT-6 Sol, but another agent and model combination may work if it can load the required skills and execute Python against Isaac Sim (generated code and results can vary). The prompt provides a starting point. Inspect the generated code and check the resulting behavior before adapting the task. Required Software: - Install Isaac Sim 6.2, the version used for this example, and check its system requirements. - Set up an agent of your choice that can use the Isaac Sim skills. Follow the Agent Skills documentation to make the bundled skills available to your agent. - Install the Hugging Face CLI only if you choose the command-line asset download option. - Use the USD Search endpoint. Open SimReady Central and find the UR17G arm, Robotiq 2F-140 gripper, and beverage can used here. Select Download on each asset, then use Save to folder or the supplied Hugging Face command. Keep all three complete asset folders intact so Isaac Sim can find their supporting files. Use the asset versions linked in this example and provide your agent with the local USD file paths for the arm, gripper, and beverage can. An example gripper path is shown below; your download location may differ. ~/ASSETS/hf/src/simready-assets-c7fa7615/Robotiq_2F_140/simready_usd/Robotiq_2F_140.usda Figure 3. SimReady Central search and interactive previews help identify the Robotiq 2F-140 gripper and beverage can used in this example. Figure 4. The beverage can’s download options include saving the asset package to a folder or using the Hugging Face CLI. The arm validation report uses the Robot-Body 4.0.0 profile and the gripper validation report uses Robot-Gripper 3.0.0. Both record passing PhysX driven-joint checks, which inspect joint-drive settings. SimReady profile validation provides a shared baseline for reusing these assets. The pick-and-place run then tests how the arm, gripper, can, and controller work together in the assembled scene. With the assets downloaded, use your agent with Isaac Sim skills to help assemble the robot, run validation tools, and create the pick-and-place controls. You can also perform these steps manually using the linked documentation. Start Isaac Sim from its installation directory with the remote Python server enabled so the agent can interact with the simulation through Python: ./isaac-sim.sh --enable isaacsim.code_editor.python_server If you are using an agent, make sure you start it from the Isaac Sim directory so that it can access the skills needed while going through the steps below. Confirm that all three assets appear without missing-file errors. Ask the agent to inspect the arm and gripper’s joint limits and drive settings, or review them yourself in Isaac Sim. The robot and the gripper contain physics joints which can be tested and validated in the Isaac Sim GUI as well. We will now assemble the arm and the gripper next so that we can control the assembly as a single articulation. You can follow the Robot Assembler tutorial for manual assembly. Here we will ask our agent to complete the assembly and validate it for us: Sample prompt used in this example: Assemble the robot arm with the gripper using the Robot Assembly tutorial in Isaac Sim https://docs.isaacsim.omniverse.nvidia.com/6.2.0/robot_setup/assemble_robots.html. Validate the assembly on completion. The agent ends up using the ‘isaac-sim-remote’ and ‘usd-articulation’ skills packaged with Isaac Sim to complete the assembly and validate the physics of the robot. We now have all the assets needed for running pick and place; the assembled robot and the soda can. We will now proceed with the final portion of the workflow. Figure 5. Joint settings for the UR17G arm and Robotiq 2F-140 gripper in Isaac Sim. With the assembled robot and can in the scene, ask the agent to run the task. Evaluate the simulation behavior using the checks in the next step. Now that the assets include simulation properties and profile validation, we can now test in an assembled scene and controller. The",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+              "source_url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+            }
+          ],
+          "slug": "build-a-robot-pick-and-place-simulation-with-simready-assets-2427bacb",
+          "localized_url": "/zh/items/2026-11-14/build-a-robot-pick-and-place-simulation-with-simready-assets-2427bacb/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "XYBench: Helping with the problem behind the question",
+          "title_original": "XYBench: Helping with the problem behind the question",
+          "title_en": "XYBench: Helping with the problem behind the question",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/allenai/xybench",
+          "published_at": "Fri, 13 Nov 2026 17:02:35 GMT",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8400bdfe1e2a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "XYBench: Helping with the problem behind the question",
+          "extracted_excerpt": "A Blog post by Ai2 on Hugging Face",
+          "extracted_text_for_analysis": "Truly useful AI assistants need to be able to help users who ask misguided questions—not just users who ask the right question with the right amount of detail. We’re releasing XYBench, a benchmark of 8K+ questions that tests how AI assistants respond to requests based on misconceptions, such as asking how to thicken frosting that keeps sliding off cupcakes when the real problem is that the cupcakes are still too warm to frost. XYBench won the Best Resource Paper Award at EMNLP 2026. A mismatch between the approach someone asks about and the goal they want to achieve is known as the XY problem: a person wants to accomplish X, assumes a particular approach Y will work, and asks for help with Y. In the cupcake example, the person is so committed to making the frosting stick that they fail to consider the warmth of the cupcake as the true problem to be addressed. Developed with researchers at Carnegie Mellon, NVIDIA, and Johns Hopkins, XYBench exposes a critical gap in LLMs' ability to troubleshoot problems: recognizing when a user's request is based on an implicit misconception and appropriately redirecting them toward a solution that addresses their actual goal. Drawing on 8,115 real-world questions spanning programming and everyday activities such as cooking and home repair, we introduce a benchmark that measures whether models identify these misconceptions and are able to prioritize effective solutions in their responses. The models we evaluated on XYBench – Claude Sonnet 4.6, GPT-5, Gemini 3.1 Pro, Qwen3.5-9B, and DeepSeek-V4 Pro – often suggested a solution to the user’s problem but kept their answers focused on the original, mistaken approach. Unlike human reference answers, all five models were less likely to steer users away from that approach and toward a solution suited to their goal. People use AI systems with different levels of knowledge and may not always know how best to approach a problem. We hope XYBench helps researchers measure whether model improvements make assistants better at recognizing mistaken assumptions, explaining why a proposed approach might not work, and suggesting more effective alternatives—even when users don't know the right questions to ask. We built XYBench from four sources: 1,557 questions from Stack Overflow, 184 from Stack Exchange, 102 manually curated examples, and 6,272 questions generated from WikiHow guides. For each question, we identified the stated request (Y), what the person explicitly asks for, and the intended request (X)—the underlying goal that can be inferred from context. For the public forum questions, we used the three highest-scored human answers and the accepted answer, where available, to establish the intended request and possible solutions. We filtered out cases where answering the stated request was judged sufficient. For WikiHow, we used Sonnet 4.5 to generate questions around plausible misconceptions in procedural guides, then refined them to include enough context for an expert to infer the underlying goal without stating it outright. We removed examples where answering the literal request would largely resolve the problem. A model might spend several paragraphs recommending a more powerful vacuum cleaner, then briefly suggest checking for a clogged hose. If a clog is causing the weak suction, clearing it could solve the problem. A more helpful answer would recognize that the user wants to restore suction and focus on diagnosing the cause. This draws on pragmatics, the branch of linguistics concerned with how context and communicative intent shape meaning. To test whether models use this understanding in their answers, XYBench measures three aspects of each response: - Pragmatic solution—records whether a model’s response includes solutions to the stated request (Y) and the intended request (X), checking each separately. - Pragmatic emphasis—measures whether a model’s answer focuses on the stated request (Y), focuses on the intended request (X), or balances the two. - Misconception identification—measures whether a model’s response steers the user toward the underlying goal (X) while discouraging or avoiding the mistaken approach (Y). In XYBench, Claude Sonnet 4.5 serves as the automated judge. It classifies individual suggestions within each model’s response and assesses the answer’s pragmatic emphasis. To validate Sonnet 4.5’s judgments, two human reviewers independently assessed 500 model responses to XYBench questions. Agreement with the judge, averaged across the reviewers, ranged from 97.5–100% on whether a solution appeared, 84.6–93.3% on misconception identification, and 74.2–79.8% on pragmatic emphasis. We evaluated Sonnet 4.6, GPT-5, Gemini 3.1 Pro, Qwen3.5-9B, and DeepSeek-V4 Pro on XYBench in a single-turn setting, with one response per question. We evaluated human reference answers separately using the same metrics. Across all four sources, every model was more likely to include a solution to the stated request (Y) than to the underlying goal (X). On Stack Overflow, stated-request solutions appeared in 75–86% of responses, compared with 59–71% for underlying-goal solutions. A passing mention of a solution does not make it the focus of an answer. In the vacuum example, a model could briefly suggest unclogging the hose but focus most of its response on buying a more powerful vacuum. We would count that response as containing a solution to the underlying goal, even though the model emphasized the stated request. We measured overall emphasis separately: on Stack Overflow, models focused primarily on the underlying goal in only 35–41% of their responses, and on the stated request in 47–57%. In the remaining responses, models gave similar emphasis to the stated request and the underlying goal. We also tested whether making the user’s goal explicit would help. In an oracle experiment, we supplied both the stated request (Y) and the intended request (X) alongside each question. On Stack Overflow, Sonnet 4.6’s rate of including a solution to the underlying goal rose from 59% to 67%, but its misconception-identification rate fell from 47% to 34%. Across the sources with human reference answers, every model in this experiment still trailed humans on misconception identification. Supplying intent helped, but did not consistently close the gap with human responses. This suggests that detecting intent is only part of the challenge: models also need to act on it when it diverges from the stated request. A separate experiment tested whether models could identify useful advice when judging responses instead of writing them. We gave the same five models, plus GPT-4.1, each question with two possible answers: one focused on the literal request and one explaining the misconception and addressing the underlying goal. On Stack Overflow, all six chose the goal-focused answer in 71–84% of cases. By comparison, only 35–41% of the answers written by the five models in our main evaluation primarily focused on the",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "XYBench: Helping with the problem behind the question",
+              "source_url": "https://huggingface.co/blog/allenai/xybench"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/allenai/xybench"
+            }
+          ],
+          "slug": "xybench-helping-with-the-problem-behind-the-question-8400bdfe",
+          "localized_url": "/zh/items/2026-11-14/xybench-helping-with-the-problem-behind-the-question-8400bdfe/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+          "title_original": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+          "title_en": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "published_at": "Fri, 13 Nov 2026 14:05:22 GMT",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "40e78db6601d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+          "extracted_excerpt": "A Blog post by ggml-org on Hugging Face",
+          "extracted_text_for_analysis": "llama.cpp makes it possible to run multi-modal LLMs across a wide range of hardware - from consumer-grade local machines to high-end enterprise servers. Through quantization, optimized backends, and a portable C/C++ implementation, we make AI inference accessible at every level of the software stack. We believe this is the most lightweight, versatile and sensible platform for building cross-platform and private AI products. During the 3.5 years since its inception, the project has grown a lot and many downstream applications already depend on our work. We expect this trend to continue as local AI and privacy become increasingly important in our everyday lives. Every new integration means more developers depending on our library interfaces and therefore having a flexible but stable API is paramount. Today we release libraries v1.0.0, highlighting our responsibility to those developers. Moving forward, both llama.cpp and ggml will reflect API and ABI incompatibilities with major-version bumps. As adoption grows, we will be stricter about making those boundaries visible to downstream consumers. The following rules apply to all ggml-org projects using semantic versioning: We are looking forward to expanding the ways in which ggml-org software is distributed and reaches developers and end-users. For more information about how to add ggml-org projects to your packaging and release pipelines, please check the following discussion. The project has fostered an amazing open-source community with highly-skilled and talented contributors. With the rapid advance of AI capabilities in the field of software engineering, we continue to adapt and integrate LLMs in our developement cycle in a thoughtful and resonable manner. Maintaining a high quality codebase, staying in control of the architecture and understanding the implementation details will remain our top priorities. To reinforce the faster pace of development we continue to invest more and more resources in improving the CI infrastructure behind the projects. Thanks to HF technologies such as HF Buckets and HF Jobs we are able to scale the capacity necessary to guarantee correctness for every change that lands on the master branches. With hardware support from NVIDIA, AMD, Qualcomm, Arm, IBM and Intel, we continue to enroll more self-hosted runners across all major hardware platforms. The underlying machine learning engine of llama.cpp - ggml is designed to run on virtually any hardware in existence. This is achieved by implementing dedicated ggml backends. Each backend can be compiled as a dynamic library and optionally loaded at runtime. A complete list of the currently implemented backends can be found here. We are committed to provide continuous support of all model architectures. Currently, llama.cpp supports more than 150 architecture variants as well as all mainstream speculative decoding methods. The llama.cpp team at Hugging Face is thankful for the incredible support from the community. Special thanks to the long-time maintainers of the project and all contributors. This is a significant milestone which would not have been possible without our joint efforts! - llama.cpp examples - ggml-org at Hugging Face - ggml-org at Github - Check out Llama desktop apps for MacOS and Windows, shipped with love by the team behind llama.cpp and Hugging Face.",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+              "source_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+            }
+          ],
+          "slug": "llama-cpp-v1-0-0-a-stronger-foundation-for-the-local-ai-ecosystem-40e78db6",
+          "localized_url": "/zh/items/2026-11-14/llama-cpp-v1-0-0-a-stronger-foundation-for-the-local-ai-ecosystem-40e78db6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Opening the datasets behind our AI weather models",
+          "title_original": "Opening the datasets behind our AI weather models",
+          "title_en": "Opening the datasets behind our AI weather models",
+          "summary_zh": "DeepMind 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+          "published_at": "Tue, 10 Nov 2026 11:13:04 +0000",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cd88f6cf71e0",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "PARDIG & SatWeave: Foundational Datasets for Earth Science â Google DeepMind",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "We are releasing PARDIG and SatWeave to help researchers and developers build new weather, hydrology, and climate applications. Understanding and predicting the planetâs weather and water cycle starts with how well we can observe the Earth right now. Satellites and ground instruments monitor the planet continuously and in great detail. But converting these raw measurements into a coherent global picture and making it available quickly is a major scientific and engineering challenge. Today, we are releasing two foundational datasets, SatWeave and PARDIG, to support the global community in building weather, hydrology, and climate applications. Both datasets are key to the advances in our recently released WeatherNext 3 model. SatWeave is a global mosaic of geostationary satellite imagery that provides the model a live view of developing clouds and storms. PARDIG is an AI-based global precipitation dataset that was used to train the modelâs precipitation forecasts. We are making historical archives and live feeds of both datasets available, so researchers and developers can use them in their modeling and downstream applications. SatWeave: A unified view of Earth from space SatWeave combines imagery from five satellites, which cover different parts of the globe: GOES-East and GOES-West, Meteosat 0 and Meteosat Indian Ocean, and Himawari. Because each uses different map projections, file formats, sensors, and scan schedules (ranging from 10 to 30 minutes), it is difficult to form a coherent global map. Most existing global composites drop incompatible aspects, offering only four or fewer channels, or updating every few hours.",
+          "title_zh": "DeepMind 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 DeepMind，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Opening the datasets behind our AI weather models",
+              "source_url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+              "source_url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/"
+            }
+          ],
+          "slug": "opening-the-datasets-behind-our-ai-weather-models-51d2fad2",
+          "localized_url": "/zh/items/2026-11-14/opening-the-datasets-behind-our-ai-weather-models-51d2fad2/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The avalanche that hit math is coming for AI development",
+          "title_original": "The avalanche that hit math is coming for AI development",
+          "title_en": "The avalanche that hit math is coming for AI development",
+          "summary_zh": "Dwarkesh Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Why I now expect superintelligence by 2030",
+          "source_name": "Dwarkesh Podcast",
+          "source_url": "https://www.dwarkeshpatel.com/",
+          "original_url": "https://www.dwarkesh.com/p/rsi",
+          "published_at": "Fri, 13 Nov 2026 18:37:51 GMT",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "agi",
+            "economics",
+            "interview"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "80a7173f8db2",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Dwarkesh Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Dwarkesh Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：agi、economics、interview。"
+          ],
+          "background_zh": "这条内容来自 Dwarkesh Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The avalanche that hit math is coming for AI development",
+              "source_url": "https://www.dwarkesh.com/p/rsi"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Why I now expect superintelligence by 2030",
+              "source_url": "https://www.dwarkesh.com/p/rsi"
+            }
+          ],
+          "slug": "the-avalanche-that-hit-math-is-coming-for-ai-development-80a7173f",
+          "localized_url": "/zh/items/2026-11-14/the-avalanche-that-hit-math-is-coming-for-ai-development-80a7173f/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+          "title_original": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+          "title_en": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/artcraft/",
+          "published_at": "Fri, 13 Nov 2026 04:17:25 GMT",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "0f77776f7c50",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "open source",
+              "explanation": "可公开查看、使用或修改的代码与模型资源。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+              "source_url": "https://latent.space/p/artcraft/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+              "source_url": "https://latent.space/p/artcraft/"
+            }
+          ],
+          "slug": "ai-ambition-artcraft-cloned-photoshop-and-now-wants-to-rebuild-everythin-16f585da",
+          "localized_url": "/zh/items/2026-11-14/ai-ambition-artcraft-cloned-photoshop-and-now-wants-to-rebuild-everythin-16f585da/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Workflow SDK 5: built for production",
+          "title_original": "Workflow SDK 5: built for production",
+          "title_en": "Workflow SDK 5: built for production",
+          "summary_zh": "Vercel 更新了开发者接口与平台能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "When we first launched Workflow SDK, the goal was simple: write regular async JavaScript, and let the SDK keep it running through crashes, deployments, and long waits. Last year, we shipped just that , with the world-class developer experience Vercel is known",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/workflow-sdk-5",
+          "published_at": "2026-11-12T13:00:00.000Z",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2bfaf4838ec5",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Vercel 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Workflow SDK 5: built for production",
+              "source_url": "https://vercel.com/blog/workflow-sdk-5"
+            },
+            {
+              "label": "公开摘要",
+              "text": "When we first launched Workflow SDK, the goal was simple: write regular async JavaScript, and let the SDK keep it running through crashes, deployments, and long waits. Last year, we shipped just that , with the",
+              "source_url": "https://vercel.com/blog/workflow-sdk-5"
+            }
+          ],
+          "slug": "workflow-sdk-5-built-for-production-2bfaf483",
+          "localized_url": "/zh/items/2026-11-14/workflow-sdk-5-built-for-production-2bfaf483/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Implementing Federated Learning to enhance Agentic AI",
+          "title_original": "Implementing Federated Learning to enhance Agentic AI",
+          "title_en": "Implementing Federated Learning to enhance Agentic AI",
+          "summary_zh": "Practical AI 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "How can AI models learn from private data without compromising privacy? Chris is joined by Lorenzo Sani, Research Scientist at Flower Labs and PhD researcher at Cambridge, to explore federated learning and privacy-preserving AI. They discuss how collaborative",
+          "source_name": "Practical AI",
+          "source_url": "https://changelog.com/practicalai",
+          "original_url": "https://share.transistor.fm/s/58a69653",
+          "published_at": "Fri, 13 Nov 2026 12:59:46 -0500",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "engineering",
+            "podcast"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3c42ca3aa07c",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Practical AI 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Practical AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、engineering、podcast。"
+          ],
+          "background_zh": "这条内容来自 Practical AI，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Implementing Federated Learning to enhance Agentic AI",
+              "source_url": "https://share.transistor.fm/s/58a69653"
+            },
+            {
+              "label": "公开摘要",
+              "text": "How can AI models learn from private data without compromising privacy? Chris is joined by Lorenzo Sani, Research Scientist at Flower Labs and PhD researcher at Cambridge, to explore federated learning and",
+              "source_url": "https://share.transistor.fm/s/58a69653"
+            }
+          ],
+          "slug": "implementing-federated-learning-to-enhance-agentic-ai-3c42ca3a",
+          "localized_url": "/zh/items/2026-11-14/implementing-federated-learning-to-enhance-agentic-ai-3c42ca3a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Daemons can now send traces to Vercel Tracing",
+          "title_original": "Daemons can now send traces to Vercel Tracing",
+          "title_en": "Daemons can now send traces to Vercel Tracing",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Daemons can now send OpenTelemetry traces to Vercel Tracing , allowing you and your agents to inspect background worker operations alongside the rest of your project's traces. Vercel provides each daemon with a Unix socket for receiving OTLP/HTTP",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-daemons-can-now-send-traces-to-vercel-tracing",
+          "published_at": "2026-11-13T22:24:00.000Z",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3199ec5d7e2f",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Daemons can now send traces to Vercel Tracing",
+              "source_url": "https://vercel.com/changelog/vercel-daemons-can-now-send-traces-to-vercel-tracing"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Daemons can now send OpenTelemetry traces to Vercel Tracing , allowing you and your agents to inspect background worker operations alongside the rest of your project's traces. Vercel provides each daemon with a",
+              "source_url": "https://vercel.com/changelog/vercel-daemons-can-now-send-traces-to-vercel-tracing"
+            }
+          ],
+          "slug": "daemons-can-now-send-traces-to-vercel-tracing-3199ec5d",
+          "localized_url": "/zh/items/2026-11-14/daemons-can-now-send-traces-to-vercel-tracing-3199ec5d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Token Pass now includes $150 in tokens for $30/month",
+          "title_original": "Token Pass now includes $150 in tokens for $30/month",
+          "title_en": "Token Pass now includes $150 in tokens for $30/month",
+          "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Token Pass now includes $150 of tokens per month (up from $80) for the same $30 per team per month. The credit applies to featured open-weight models served through AI Gateway , including Kimi K3, Kimi K3.1 Pro, GLM 5.3, GLM 5.3 Flash, and DeepSeek",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-token-pass-now-includes-one-hundred-fifty-dollars-of-monthly-tokens",
+          "published_at": "2026-11-13T18:42:00.000Z",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e7df57a4272a",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Token Pass now includes $150 in tokens for $30/month",
+              "source_url": "https://vercel.com/changelog/vercel-token-pass-now-includes-one-hundred-fifty-dollars-of-monthly-tokens"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Token Pass now includes $150 of tokens per month (up from $80) for the same $30 per team per month. The credit applies to featured open-weight models served through AI Gateway , including Kimi K3, Kimi K3.1 Pro,",
+              "source_url": "https://vercel.com/changelog/vercel-token-pass-now-includes-one-hundred-fifty-dollars-of-monthly-tokens"
+            }
+          ],
+          "slug": "token-pass-now-includes-150-in-tokens-for-30-month-e7df57a4",
+          "localized_url": "/zh/items/2026-11-14/token-pass-now-includes-150-in-tokens-for-30-month-e7df57a4/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Security Review no longer requires a linked Vercel project",
+          "title_original": "Vercel Security Review no longer requires a linked Vercel project",
+          "title_en": "Vercel Security Review no longer requires a linked Vercel project",
+          "summary_zh": "Vercel 推进了政府与国家安全合作原则，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now scan code changes for vulnerabilities with Vercel Security Review in GitHub repositories that have not yet been linked to a Vercel project. By default, Security Review covers all unlinked repositories the Vercel GitHub App can access in a",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-security-review-no-longer-requires-a-linked-vercel-project",
+          "published_at": "2026-11-13T00:00:00.000Z",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ee7e395dd1dd",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进政府与国家安全合作原则",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Security Review no longer requires a linked Vercel project",
+              "source_url": "https://vercel.com/changelog/vercel-security-review-no-longer-requires-a-linked-vercel-project"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now scan code changes for vulnerabilities with Vercel Security Review in GitHub repositories that have not yet been linked to a Vercel project. By default, Security Review covers all unlinked repositories the",
+              "source_url": "https://vercel.com/changelog/vercel-security-review-no-longer-requires-a-linked-vercel-project"
+            }
+          ],
+          "slug": "vercel-security-review-no-longer-requires-a-linked-vercel-project-ee7e395d",
+          "localized_url": "/zh/items/2026-11-14/vercel-security-review-no-longer-requires-a-linked-vercel-project-ee7e395d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Sandbox starts up to 4x faster",
+          "title_original": "Vercel Sandbox starts up to 4x faster",
+          "title_en": "Vercel Sandbox starts up to 4x faster",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Sandbox now initializes up to 4x faster outside the Washington, D.C. ( iad1 ) region when reused image data is served from a regional cache. Initialization now reads cached image data close to where the sandbox runs, avoiding round trips to origin",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-sandbox-starts-up-to-four-times-faster",
+          "published_at": "2026-11-13T00:00:00.000Z",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [
+            "Benchmark"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3e6b7f50e580",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：Benchmark。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Sandbox starts up to 4x faster",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-starts-up-to-four-times-faster"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Sandbox now initializes up to 4x faster outside the Washington, D.C. ( iad1 ) region when reused image data is served from a regional cache. Initialization now reads cached image data close to where the sandbox",
+              "source_url": "https://vercel.com/changelog/vercel-sandbox-starts-up-to-four-times-faster"
+            }
+          ],
+          "slug": "vercel-sandbox-starts-up-to-4x-faster-3e6b7f50",
+          "localized_url": "/zh/items/2026-11-14/vercel-sandbox-starts-up-to-4x-faster-3e6b7f50/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Build cache size limit on Vercel increased to 5 GB",
+          "title_original": "Build cache size limit on Vercel increased to 5 GB",
+          "title_en": "Build cache size limit on Vercel increased to 5 GB",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "The build cache size limit on all Vercel build machines has been increased to 5 GB. This allows projects to save more installed dependencies and framework files for reuse between deployments, which can reduce install and build times. Build machines are the",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/build-cache-size-limit-on-vercel-increased-to-five-gb",
+          "published_at": "2026-11-13T00:00:00.000Z",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "86dd43093642",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Build cache size limit on Vercel increased to 5 GB",
+              "source_url": "https://vercel.com/changelog/build-cache-size-limit-on-vercel-increased-to-five-gb"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The build cache size limit on all Vercel build machines has been increased to 5 GB. This allows projects to save more installed dependencies and framework files for reuse between deployments, which can reduce install",
+              "source_url": "https://vercel.com/changelog/build-cache-size-limit-on-vercel-increased-to-five-gb"
+            }
+          ],
+          "slug": "build-cache-size-limit-on-vercel-increased-to-5-gb-86dd4309",
+          "localized_url": "/zh/items/2026-11-14/build-cache-size-limit-on-vercel-increased-to-5-gb-86dd4309/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Parallel Decisions now available on AI Gateway for free",
+          "title_original": "Parallel Decisions now available on AI Gateway for free",
+          "title_en": "Parallel Decisions now available on AI Gateway for free",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Parallel Decisions Fast from Parallel is now available on AI Gateway and is free through November 23, 2026. It searches the live web to answer typed questions about companies, products, policies, and other changing information, returning probabilities and",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/parallel-decisions-now-available-on-ai-gateway-for-free",
+          "published_at": "2026-11-13T00:00:00.000Z",
+          "fetched_at": "2026-11-14T02:28:46.270487+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ef655ff6d140",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Parallel Decisions now available on AI Gateway for free",
+              "source_url": "https://vercel.com/changelog/parallel-decisions-now-available-on-ai-gateway-for-free"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Parallel Decisions Fast from Parallel is now available on AI Gateway and is free through November 23, 2026. It searches the live web to answer typed questions about companies, products, policies, and other changing",
+              "source_url": "https://vercel.com/changelog/parallel-decisions-now-available-on-ai-gateway-for-free"
+            }
+          ],
+          "slug": "parallel-decisions-now-available-on-ai-gateway-for-free-ef655ff6",
+          "localized_url": "/zh/items/2026-11-14/parallel-decisions-now-available-on-ai-gateway-for-free-ef655ff6/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-11-13",
       "title_zh": "AI 新闻简报 · 2026-11-13",
