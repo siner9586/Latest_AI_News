@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-16",
-  "title_zh": "AI 新闻简报 · 2026-11-16",
-  "title_en": "English AI News Brief · 2026-11-16",
-  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 147 条，入选 4 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
-  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 147 previously displayed items excluded, and 4 selected items. Chinese pages link to internal research digests while preserving original source links.",
+  "date": "2026-11-17",
+  "title_zh": "AI 新闻简报 · 2026-11-17",
+  "title_en": "English AI News Brief · 2026-11-17",
+  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 112 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 112 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
   "source_count": 181,
   "candidate_count": 152,
-  "skipped_history_count": 147,
-  "selected_count": 4,
+  "skipped_history_count": 112,
+  "selected_count": 18,
   "categories": [
     "models-products",
     "podcasts-interviews"
@@ -18,81 +18,16 @@
   },
   "items": [
     {
-      "title": "A step toward defining the Standard Model on a lattice",
-      "title_original": "A step toward defining the Standard Model on a lattice",
-      "title_en": "A step toward defining the Standard Model on a lattice",
-      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
-      "source_name": "OpenAI News",
-      "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/step-toward-defining-the-standard-model",
-      "published_at": "Sun, 15 Nov 2026 22:00:01 GMT",
-      "fetched_at": "2026-11-16T02:12:20.645317+00:00",
-      "category": "models-products",
-      "people": [],
-      "companies": [
-        "OpenAI"
-      ],
-      "tags": [
-        "openai",
-        "models",
-        "product"
-      ],
-      "importance_score": 60.0,
-      "freshness_score": 72.0,
-      "credibility_score": 90.0,
-      "duplicate_group_id": "87d7014c15ee",
-      "language": "en",
-      "source_type": "company_blog",
-      "translation_status": "fallback",
-      "extraction_status": "partial",
-      "quality_warnings": [
-        "restricted_or_paywalled"
-      ],
-      "extracted_title": "",
-      "extracted_excerpt": "",
-      "extracted_text_for_analysis": "",
-      "title_zh": "OpenAI 推进模型或产品能力更新",
-      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
-      "key_points_zh": [
-        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
-        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
-        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：openai、models、product。",
-        "涉及公司或机构：OpenAI。"
-      ],
-      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
-      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
-      "terms_zh": [],
-      "evidence_zh": [
-        {
-          "label": "原始来源",
-          "text": "A step toward defining the Standard Model on a lattice",
-          "source_url": "https://openai.com/index/step-toward-defining-the-standard-model"
-        },
-        {
-          "label": "公开摘要",
-          "text": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
-          "source_url": "https://openai.com/index/step-toward-defining-the-standard-model"
-        }
-      ],
-      "slug": "a-step-toward-defining-the-standard-model-on-a-lattice-87d7014c",
-      "localized_url": "/zh/items/2026-11-16/a-step-toward-defining-the-standard-model-on-a-lattice-87d7014c/",
-      "source_license_mode": "official_public",
-      "content_mode": "research_digest",
-      "full_text_zh": ""
-    },
-    {
-      "title": "Our new blog for science",
-      "title_original": "Our new blog for science",
-      "title_en": "Our new blog for science",
+      "title": "Broadening access to AI for scientists",
+      "title_original": "Broadening access to AI for scientists",
+      "title_en": "Broadening access to AI for scientists",
       "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
-      "summary_en": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "summary_en": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
       "source_name": "OpenAI News",
       "source_url": "https://openai.com/news/",
-      "original_url": "https://openai.com/index/our-new-blog-for-science",
-      "published_at": "Sun, 15 Nov 2026 22:00:00 GMT",
-      "fetched_at": "2026-11-16T02:12:20.645317+00:00",
+      "original_url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "published_at": "Mon, 16 Nov 2026 17:00:00 GMT",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
       "category": "models-products",
       "people": [],
       "companies": [
@@ -106,7 +41,7 @@
       "importance_score": 60.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "4b0fc5b701ff",
+      "duplicate_group_id": "f26f2a4dfd6b",
       "language": "en",
       "source_type": "company_blog",
       "translation_status": "fallback",
@@ -132,32 +67,570 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Our new blog for science",
-          "source_url": "https://openai.com/index/our-new-blog-for-science"
+          "text": "Broadening access to AI for scientists",
+          "source_url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
         },
         {
           "label": "公开摘要",
-          "text": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
-          "source_url": "https://openai.com/index/our-new-blog-for-science"
+          "text": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+          "source_url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
         }
       ],
-      "slug": "our-new-blog-for-science-4b0fc5b7",
-      "localized_url": "/zh/items/2026-11-16/our-new-blog-for-science-4b0fc5b7/",
+      "slug": "broadening-access-to-ai-for-scientists-f26f2a4d",
+      "localized_url": "/zh/items/2026-11-17/broadening-access-to-ai-for-scientists-f26f2a4d/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
-      "title_original": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
-      "title_en": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
-      "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "title_original": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "title_en": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/strengthening-online-child-safety",
+      "published_at": "Mon, 16 Nov 2026 17:00:00 GMT",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "b1c71d07875a",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "restricted_or_paywalled"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "OpenAI 更新模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Strengthening the fight against online child sexual abuse with new tools and support",
+          "source_url": "https://openai.com/index/strengthening-online-child-safety"
+        },
+        {
+          "label": "公开摘要",
+          "text": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+          "source_url": "https://openai.com/index/strengthening-online-child-safety"
+        }
+      ],
+      "slug": "strengthening-the-fight-against-online-child-sexual-abuse-with-new-tools-b1c71d07",
+      "localized_url": "/zh/items/2026-11-17/strengthening-the-fight-against-online-child-sexual-abuse-with-new-tools-b1c71d07/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "title_original": "Science at the Frontier: How scientists use ChatGPT",
+      "title_en": "Science at the Frontier: How scientists use ChatGPT",
+      "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/science-at-the-frontier",
+      "published_at": "Mon, 16 Nov 2026 12:00:00 GMT",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "f891bd93f3d2",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "restricted_or_paywalled"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "OpenAI 推进模型评测与研究方法",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Science at the Frontier: How scientists use ChatGPT",
+          "source_url": "https://openai.com/index/science-at-the-frontier"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+          "source_url": "https://openai.com/index/science-at-the-frontier"
+        }
+      ],
+      "slug": "science-at-the-frontier-how-scientists-use-chatgpt-f891bd93",
+      "localized_url": "/zh/items/2026-11-17/science-at-the-frontier-how-scientists-use-chatgpt-f891bd93/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "title_original": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "title_en": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/lvmh-media-division-partnership",
+      "published_at": "Mon, 16 Nov 2026 09:00:00 GMT",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "91e58e2ea930",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "restricted_or_paywalled"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "OpenAI 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "LVMH’s Media Division announces strategic partnership with OpenAI",
+          "source_url": "https://openai.com/index/lvmh-media-division-partnership"
+        },
+        {
+          "label": "公开摘要",
+          "text": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+          "source_url": "https://openai.com/index/lvmh-media-division-partnership"
+        }
+      ],
+      "slug": "lvmhs-media-division-announces-strategic-partnership-with-openai-91e58e2e",
+      "localized_url": "/zh/items/2026-11-17/lvmhs-media-division-announces-strategic-partnership-with-openai-91e58e2e/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Our first phase of embedded assessments",
+      "title_original": "Our first phase of embedded assessments",
+      "title_en": "Our first phase of embedded assessments",
+      "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "published_at": "Mon, 16 Nov 2026 08:00:00 GMT",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "ebd9eb949639",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "restricted_or_paywalled"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "OpenAI 推进模型评测与研究方法",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Our first phase of embedded assessments",
+          "source_url": "https://openai.com/index/our-first-phase-of-embedded-assessments"
+        },
+        {
+          "label": "公开摘要",
+          "text": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+          "source_url": "https://openai.com/index/our-first-phase-of-embedded-assessments"
+        }
+      ],
+      "slug": "our-first-phase-of-embedded-assessments-ebd9eb94",
+      "localized_url": "/zh/items/2026-11-17/our-first-phase-of-embedded-assessments-ebd9eb94/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Advancing computer-use agents for healthcare teams",
+      "title_original": "Advancing computer-use agents for healthcare teams",
+      "title_en": "Advancing computer-use agents for healthcare teams",
+      "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "OpenAI has an AI update relevant to product, industry or technical direction.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "published_at": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "b0ded74e06b0",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "restricted_or_paywalled"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Advancing computer-use agents for healthcare teams",
+          "source_url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams"
+        },
+        {
+          "label": "公开摘要",
+          "text": "OpenAI has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams"
+        }
+      ],
+      "slug": "advancing-computer-use-agents-for-healthcare-teams-b0ded74e",
+      "localized_url": "/zh/items/2026-11-17/advancing-computer-use-agents-for-healthcare-teams-b0ded74e/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "title_original": "More ways to move care forward with ChatGPT for Healthcare",
+      "title_en": "More ways to move care forward with ChatGPT for Healthcare",
+      "summary_zh": "OpenAI 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "published_at": "Mon, 16 Nov 2026 06:00:00 GMT",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "cfcc7acb02e9",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "restricted_or_paywalled"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "OpenAI 推进AI 代理工程与工具调用能力",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "More ways to move care forward with ChatGPT for Healthcare",
+          "source_url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+          "source_url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare"
+        }
+      ],
+      "slug": "more-ways-to-move-care-forward-with-chatgpt-for-healthcare-cfcc7acb",
+      "localized_url": "/zh/items/2026-11-17/more-ways-to-move-care-forward-with-chatgpt-for-healthcare-cfcc7acb/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "The King’s Trust and OpenAI launch £1m partnership",
+      "title_original": "The King’s Trust and OpenAI launch £1m partnership",
+      "title_en": "The King’s Trust and OpenAI launch £1m partnership",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/the-kings-trust-and-openai",
+      "published_at": "Mon, 16 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "e3915f7e4cf0",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "restricted_or_paywalled"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "OpenAI 发布模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "The King’s Trust and OpenAI launch £1m partnership",
+          "source_url": "https://openai.com/index/the-kings-trust-and-openai"
+        },
+        {
+          "label": "公开摘要",
+          "text": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+          "source_url": "https://openai.com/index/the-kings-trust-and-openai"
+        }
+      ],
+      "slug": "the-kings-trust-and-openai-launch-1m-partnership-e3915f7e",
+      "localized_url": "/zh/items/2026-11-17/the-kings-trust-and-openai-launch-1m-partnership-e3915f7e/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "title_original": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "title_en": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "summary_zh": "Hugging Face 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/openrouter",
+      "published_at": "Mon, 16 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "Hugging Face"
+      ],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "853b24ff0d6e",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。",
+        "涉及公司或机构：Hugging Face。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+          "source_url": "https://huggingface.co/blog/openrouter"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/openrouter"
+        }
+      ],
+      "slug": "hugging-face-and-openrouter-join-forces-to-make-open-weight-models-easy-853b24ff",
+      "localized_url": "/zh/items/2026-11-17/hugging-face-and-openrouter-join-forces-to-make-open-weight-models-easy-853b24ff/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "title_original": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "title_en": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected",
       "source_name": "NVIDIA AI Podcast",
       "source_url": "https://blogs.nvidia.com/ai-podcast/",
-      "original_url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
-      "published_at": "Mon, 16 Nov 2026 00:00:28 +0000",
-      "fetched_at": "2026-11-16T02:12:20.645317+00:00",
+      "original_url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+      "published_at": "Mon, 16 Nov 2026 23:00:05 +0000",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
       "category": "podcasts-interviews",
       "people": [],
       "companies": [
@@ -171,15 +644,356 @@
       "importance_score": 48.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "46b48e728e81",
+      "duplicate_group_id": "8617ffe05c73",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
-      "extraction_status": "success",
-      "quality_warnings": [],
-      "extracted_title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
-      "extracted_excerpt": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents.",
-      "extracted_text_for_analysis": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai Motor Group, LG Electronics and SK Group — as well as startups like Real World and Luda Robotics — using NVIDIA platforms to bring general-purpose robotics into the real world. Jonathan Cohen, vice president of applied research at NVIDIA, showed how enterprises can build agents they own and control. Breakout sessions featured speakers from Coupang Intelligent Cloud, Doosan Robotics, LG AI Research, LG Electronics, NAVER Cloud, SK Telecom and Upstage. “It was a genuinely enjoyable time to have candid conversations,” said Hyunho Yang, research engineer for omnimodal foundation models at SK Telecom. “Seeing the passion of fellow AI developers was a real source of inspiration for me.” The Agentic AI 10x Bootcamp Community Day brought together Pseudo Lab, Python Korea, PyTorchKR, HAERAE, Hugging Face KREW, Graph User Group, Womxn Who Code Korea, Dnol (Datayanolja) and other developer communities. Five finalists from the Hangul Day hackathon, co-hosted with Fastcampus, built agents trained on the Korean language and culture with the OpenShell runtime. The winning team, FlyGate, received an NVIDIA DGX Spark system. More than 500 developers also took part in full-day NVIDIA Deep Learning Institute workshops and NVIDIA Certification exams in Korean. Workshops covered deploying and optimizing AI inference at scale, building end-to-end robotics workflows with the NVIDIA Isaac platform and developing secure AI agents. Certification included the new AI Model and Application Development exam. The Physical AI Startup Connect event included pitches from 10 NVIDIA Inception startups: AIM Intelligence, Avikus, GoLe Robotics, MOVIN, Neubility, ROAI, ROBROS, TESOLLO, TwelveLabs and XYZ. The AI for Science Forum brought together the Korea Institute of Science and Technology Information, Korean universities and NVIDIA Research. AI Day Seoul sessions will soon be available on NVIDIA On-Demand.",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "NVIDIA 讨论模型评测与研究方法",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在模型评测与研究方法。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+          "source_url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA",
+          "source_url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/"
+        }
+      ],
+      "slug": "nvidia-dgx-spark-developer-kit-turns-a-desk-into-a-supercomputing-lab-23e0c35a",
+      "localized_url": "/zh/items/2026-11-17/nvidia-dgx-spark-developer-kit-turns-a-desk-into-a-supercomputing-lab-23e0c35a/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "title_original": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "title_en": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+      "published_at": "Mon, 16 Nov 2026 20:00:37 +0000",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "2453547dcede",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+          "source_url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over",
+          "source_url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/"
+        }
+      ],
+      "slug": "how-the-worlds-most-advanced-ai-infrastructure-supply-chain-invents-the-66395cf5",
+      "localized_url": "/zh/items/2026-11-17/how-the-worlds-most-advanced-ai-infrastructure-supply-chain-invents-the-66395cf5/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "title_original": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "title_en": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/lambda-photonics/",
+      "published_at": "Mon, 16 Nov 2026 16:00:51 +0000",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "aafc20d9f2a0",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+          "source_url": "https://blogs.nvidia.com/blog/lambda-photonics/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO)",
+          "source_url": "https://blogs.nvidia.com/blog/lambda-photonics/"
+        }
+      ],
+      "slug": "lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics-f149dc1a",
+      "localized_url": "/zh/items/2026-11-17/lambda-boosts-ai-factory-resiliency-and-efficiency-with-nvidia-photonics-f149dc1a/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
+      "title_original": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
+      "title_en": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Quantum processor deployments at supercomputing centers have grown nearly sevenfold over the past five years, with nearly 30 supercomputing centers around the world now in the process of deploying over 50 quantum processors. Many of these centers use Slurm to",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
+      "published_at": "Mon, 16 Nov 2026 16:00:47 +0000",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "0be2ab6226e7",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "NVIDIA 更新行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
+          "source_url": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Quantum processor deployments at supercomputing centers have grown nearly sevenfold over the past five years, with nearly 30 supercomputing centers around the world now in the process of deploying over 50 quantum",
+          "source_url": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/"
+        }
+      ],
+      "slug": "nvidia-expands-slurm-to-bring-quantum-computing-into-supercomputing-cd6b6d84",
+      "localized_url": "/zh/items/2026-11-17/nvidia-expands-slurm-to-bring-quantum-computing-into-supercomputing-cd6b6d84/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "title_original": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "title_en": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "published_at": "Mon, 16 Nov 2026 16:00:25 +0000",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA",
+        "Benchmark"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "0f2a855bc6a8",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA、Benchmark。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "benchmark",
+          "explanation": "用于衡量模型能力的任务集合或评测体系。"
+        },
+        {
+          "term": "inference",
+          "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+          "source_url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1",
+          "source_url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/"
+        }
+      ],
+      "slug": "nvidia-sweeps-mlperf-training-and-endpoints-as-vera-rubin-debuts-with-le-3197bf91",
+      "localized_url": "/zh/items/2026-11-17/nvidia-sweeps-mlperf-training-and-endpoints-as-vera-rubin-debuts-with-le-3197bf91/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+      "title_original": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+      "title_en": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+      "published_at": "Mon, 16 Nov 2026 16:00:16 +0000",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "8192f1094925",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
       "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
@@ -204,45 +1018,46 @@
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
-          "source_url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/"
+          "text": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+          "source_url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/"
         },
         {
           "label": "公开摘要",
-          "text": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions,",
-          "source_url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/"
+          "text": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology.",
+          "source_url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/"
         }
       ],
-      "slug": "ai-day-seoul-brings-together-koreas-industry-leaders-startups-and-develo-0ea5fbe7",
-      "localized_url": "/zh/items/2026-11-16/ai-day-seoul-brings-together-koreas-industry-leaders-startups-and-develo-0ea5fbe7/",
+      "slug": "nvidia-cuda-x-libraries-give-agents-the-tools-to-accelerate-scientific-d-7ffe4f27",
+      "localized_url": "/zh/items/2026-11-17/nvidia-cuda-x-libraries-give-agents-the-tools-to-accelerate-scientific-d-7ffe4f27/",
       "source_license_mode": "official_public",
       "content_mode": "research_digest",
       "full_text_zh": ""
     },
     {
-      "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
-      "title_original": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
-      "title_en": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
-      "summary_zh": "Meta 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
-      "summary_en": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
-      "source_name": "Lenny's Podcast",
-      "source_url": "https://www.lennysnewsletter.com/",
-      "original_url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
-      "published_at": "Sun, 15 Nov 2026 13:31:28 GMT",
-      "fetched_at": "2026-11-16T02:12:20.645317+00:00",
+      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "title_original": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "title_en": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniversary presents an occasion to reflect across computing eras,",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/20-years-cuda/",
+      "published_at": "Mon, 16 Nov 2026 16:00:11 +0000",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
       "category": "podcasts-interviews",
       "people": [],
-      "companies": [],
-      "tags": [
-        "podcast",
-        "product",
-        "ai-products",
-        "startups"
+      "companies": [
+        "NVIDIA"
       ],
-      "importance_score": 40.0,
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
       "freshness_score": 72.0,
       "credibility_score": 90.0,
-      "duplicate_group_id": "5f5faf4419ad",
+      "duplicate_group_id": "f96db6736bc3",
       "language": "en",
       "source_type": "podcast",
       "translation_status": "fallback",
@@ -253,31 +1068,187 @@
       "extracted_title": "",
       "extracted_excerpt": "",
       "extracted_text_for_analysis": "",
-      "title_zh": "Meta 发布行业访谈中的判断与经验",
+      "title_zh": "NVIDIA 讨论模型评测与研究方法",
       "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
       "key_points_zh": [
-        "主体是 Meta，核心变化集中在行业访谈中的判断与经验。",
+        "主体是 NVIDIA，核心变化集中在模型评测与研究方法。",
         "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
         "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
-        "相关标签包括：podcast、product、ai-products、startups。"
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
       ],
-      "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
       "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
       "terms_zh": [],
       "evidence_zh": [
         {
           "label": "原始来源",
-          "text": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
-          "source_url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most"
+          "text": "CUDA at 20: How the Platform Transformed Scientific Computing",
+          "source_url": "https://blogs.nvidia.com/blog/20-years-cuda/"
         },
         {
           "label": "公开摘要",
-          "text": "Lenny's Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
-          "source_url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most"
+          "text": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniversary presents an",
+          "source_url": "https://blogs.nvidia.com/blog/20-years-cuda/"
         }
       ],
-      "slug": "metas-muse-how-we-launched-the-most-successful-consumer-product-this-yea-5f5faf44",
-      "localized_url": "/zh/items/2026-11-16/metas-muse-how-we-launched-the-most-successful-consumer-product-this-yea-5f5faf44/",
+      "slug": "cuda-at-20-how-the-platform-transformed-scientific-computing-ed06a680",
+      "localized_url": "/zh/items/2026-11-17/cuda-at-20-how-the-platform-transformed-scientific-computing-ed06a680/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "title_original": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "title_en": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate",
+      "source_name": "NVIDIA AI Podcast",
+      "source_url": "https://blogs.nvidia.com/ai-podcast/",
+      "original_url": "https://blogs.nvidia.com/blog/rubin-hpc/",
+      "published_at": "Mon, 16 Nov 2026 16:00:01 +0000",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "nvidia",
+        "chips",
+        "podcast"
+      ],
+      "importance_score": 48.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "6cab091c059a",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：nvidia、chips、podcast。",
+        "涉及公司或机构：NVIDIA。"
+      ],
+      "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+          "source_url": "https://blogs.nvidia.com/blog/rubin-hpc/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists",
+          "source_url": "https://blogs.nvidia.com/blog/rubin-hpc/"
+        }
+      ],
+      "slug": "nvidia-announces-rubin-hpc-a-new-gpu-to-accelerate-agents-for-science-en-13aacf9f",
+      "localized_url": "/zh/items/2026-11-17/nvidia-announces-rubin-hpc-a-new-gpu-to-accelerate-agents-for-science-en-13aacf9f/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "How we make Together AI easy for coding agents to use",
+      "title_original": "How we make Together AI easy for coding agents to use",
+      "title_en": "How we make Together AI easy for coding agents to use",
+      "summary_zh": "Together AI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "We built agent evals to test how effective coding agents are at using Together AI. Small fixes to our docs, skills, and API errors lifted task completion rate from 75% to 97%.",
+      "source_name": "Together AI Blog",
+      "source_url": "https://www.together.ai/blog",
+      "original_url": "https://www.together.ai/blog/how-we-do-agent-evals-at-together-ai",
+      "published_at": "Mon, 16 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-17T04:32:00.933989+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "Together AI"
+      ],
+      "tags": [
+        "infra",
+        "models"
+      ],
+      "importance_score": 42.0,
+      "freshness_score": 72.0,
+      "credibility_score": 76.0,
+      "duplicate_group_id": "e5036d685641",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Together AI 推进代码评测可靠性问题",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Together AI，核心变化集中在代码评测可靠性问题。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：infra、models。",
+        "涉及公司或机构：Together AI。"
+      ],
+      "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "API",
+          "explanation": "让开发者通过程序调用模型或平台能力的接口。"
+        },
+        {
+          "term": "coding",
+          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "How we make Together AI easy for coding agents to use",
+          "source_url": "https://www.together.ai/blog/how-we-do-agent-evals-at-together-ai"
+        },
+        {
+          "label": "公开摘要",
+          "text": "We built agent evals to test how effective coding agents are at using Together AI. Small fixes to our docs, skills, and API errors lifted task completion rate from 75% to 97%.",
+          "source_url": "https://www.together.ai/blog/how-we-do-agent-evals-at-together-ai"
+        }
+      ],
+      "slug": "how-we-make-together-ai-easy-for-coding-agents-to-use-e5036d68",
+      "localized_url": "/zh/items/2026-11-17/how-we-make-together-ai-easy-for-coding-agents-to-use-e5036d68/",
       "source_license_mode": "summary_only",
       "content_mode": "research_digest",
       "full_text_zh": ""
