@@ -1,7 +1,1232 @@
 {
-  "updated_at": "2026-11-18T03:43:37.500283+00:00",
-  "count": 153,
+  "updated_at": "2026-11-19T03:33:37.147975+00:00",
+  "count": 154,
   "briefs": [
+    {
+      "date": "2026-11-19",
+      "title_zh": "AI 新闻简报 · 2026-11-19",
+      "title_en": "English AI News Brief · 2026-11-19",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 123 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 123 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 123,
+      "selected_count": 18,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "The Silent Consensus",
+          "title_original": "The Silent Consensus",
+          "title_en": "The Silent Consensus",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/the-silent-consensus",
+          "published_at": "Wed, 18 Nov 2026 10:00:00 GMT",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e683d40fba10",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The Silent Consensus",
+              "source_url": "https://openai.com/index/the-silent-consensus"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+              "source_url": "https://openai.com/index/the-silent-consensus"
+            }
+          ],
+          "slug": "the-silent-consensus-e683d40f",
+          "localized_url": "/zh/items/2026-11-19/the-silent-consensus-e683d40f/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Research acceleration: The jagged frontier",
+          "title_original": "Research acceleration: The jagged frontier",
+          "title_en": "Research acceleration: The jagged frontier",
+          "summary_zh": "OpenAI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/research-acceleration-jagged-frontier",
+          "published_at": "Wed, 18 Nov 2026 08:00:00 GMT",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "9fa731b0ef6c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Research acceleration: The jagged frontier",
+              "source_url": "https://openai.com/index/research-acceleration-jagged-frontier"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+              "source_url": "https://openai.com/index/research-acceleration-jagged-frontier"
+            }
+          ],
+          "slug": "research-acceleration-the-jagged-frontier-9fa731b0",
+          "localized_url": "/zh/items/2026-11-19/research-acceleration-the-jagged-frontier-9fa731b0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+          "title_original": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+          "title_en": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+          "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/business/customer-stories/sumitomo-life",
+          "published_at": "Wed, 18 Nov 2026 08:00:00 GMT",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b527b6f0ddce",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+              "source_url": "https://openai.com/business/customer-stories/sumitomo-life"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+              "source_url": "https://openai.com/business/customer-stories/sumitomo-life"
+            }
+          ],
+          "slug": "how-sumitomo-lifes-leaders-helped-teams-adopt-chatgpt-enterprise-b527b6f0",
+          "localized_url": "/zh/items/2026-11-19/how-sumitomo-lifes-leaders-helped-teams-adopt-chatgpt-enterprise-b527b6f0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Inside the Codex sandbox",
+          "title_original": "Inside the Codex sandbox",
+          "title_en": "Inside the Codex sandbox",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/inside-the-codex-sandbox",
+          "published_at": "Wed, 18 Nov 2026 08:00:00 GMT",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "53f2a14376dd",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Inside the Codex sandbox",
+              "source_url": "https://openai.com/index/inside-the-codex-sandbox"
+            },
+            {
+              "label": "公开摘要",
+              "text": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+              "source_url": "https://openai.com/index/inside-the-codex-sandbox"
+            }
+          ],
+          "slug": "inside-the-codex-sandbox-53f2a143",
+          "localized_url": "/zh/items/2026-11-19/inside-the-codex-sandbox-53f2a143/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Managing frontier AI risk: From training to deployment",
+          "title_original": "Managing frontier AI risk: From training to deployment",
+          "title_en": "Managing frontier AI risk: From training to deployment",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/managing-frontier-ai-risk",
+          "published_at": "Wed, 18 Nov 2026 06:00:00 GMT",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "8b6ac2940fdc",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Managing frontier AI risk: From training to deployment",
+              "source_url": "https://openai.com/index/managing-frontier-ai-risk"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+              "source_url": "https://openai.com/index/managing-frontier-ai-risk"
+            }
+          ],
+          "slug": "managing-frontier-ai-risk-from-training-to-deployment-8b6ac294",
+          "localized_url": "/zh/items/2026-11-19/managing-frontier-ai-risk-from-training-to-deployment-8b6ac294/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "title_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "title_en": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+          "published_at": "Wed, 18 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6cab9c8cd383",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+              "source_url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+              "source_url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership"
+            }
+          ],
+          "slug": "le-groupe-figaro-and-openai-partner-to-bring-le-figaro-journalism-to-cha-6cab9c8c",
+          "localized_url": "/zh/items/2026-11-19/le-groupe-figaro-and-openai-partner-to-bring-le-figaro-journalism-to-cha-6cab9c8c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Advancing chip design with OpenAI models",
+          "title_original": "Advancing chip design with OpenAI models",
+          "title_en": "Advancing chip design with OpenAI models",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/advancing-chip-design-with-our-models",
+          "published_at": "Wed, 18 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c7d3ecb00643",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Advancing chip design with OpenAI models",
+              "source_url": "https://openai.com/index/advancing-chip-design-with-our-models"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+              "source_url": "https://openai.com/index/advancing-chip-design-with-our-models"
+            }
+          ],
+          "slug": "advancing-chip-design-with-openai-models-c7d3ecb0",
+          "localized_url": "/zh/items/2026-11-19/advancing-chip-design-with-openai-models-c7d3ecb0/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+          "title_original": "NVIDIA RTX Spark Compact Desktops Out Now",
+          "title_en": "NVIDIA RTX Spark Compact Desktops Out Now",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+          "published_at": "Wed, 18 Nov 2026 14:00:31 +0000",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1c3eaf246b72",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "NVIDIA RTX Spark Compact Desktops Out Now",
+          "extracted_excerpt": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these",
+          "extracted_text_for_analysis": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development tools. A dedicated desktop can keep agents and scheduled tasks running while a laptop travels or handles other work. Alongside the new desktops, an expanding software ecosystem brings more creative and development workflows to RTX Spark laptops and compact desktops. Native Windows on Arm applications from Adobe, the NVIDIA DLSS Ray Reconstruction feature in Blender and local generation workflows in ComfyUI expand what creators and developers can do on RTX Spark — all on one Windows PC. A Windows PC Built for Local AI As workflows expand to include local AI models and agents, more work can continue beyond an active editing session — from generating assets to processing long renders or scheduled tasks. RTX Spark compact desktops give developers, creators and AI enthusiasts a dedicated Windows PC for local models and always-on agents. They bring together image and video generation, model fine-tuning, creative applications and development tools in one compact system. Running supported models locally keeps locally processed code and files on the PC and avoids per-token cloud application programming interface (API) charges for those tasks. RTX Spark desktops are equipped with a 20-core NVIDIA Grace CPU, an NVIDIA Blackwell RTX GPU with 6,144 CUDA cores and up to 128GB of unified memory, delivering up to 1 petaflop of AI performance. Ten-gigabit Ethernet connectivity enables fast transfers of large datasets, model files and creative assets between RTX Spark compact desktops and networked storage. This advanced hardware unlocks incredible capabilities for creators, developers and AI enthusiasts, including: - Running massive 120-billion-parameter large language models locally - Rendering 90GB+ 3D scenes in real time - Smoothly editing 4:2:2 video in real time New compact desktops are available for purchase from ASUS, Dell and MSI, joining the RTX Spark family of laptops available today. Mini PCs from Acer, GIGABYTE and HP are coming soon, along with the Microsoft Surface RTX Spark Dev Box. From Local Agents to AI Creation Native CUDA support and Linux development tools through Windows Subsystem for Linux give developers a foundation for building and running local AI workflows. Developers can set up agents with Hermes Agent or NVIDIA NemoClaw blueprints and fine-tune supported models using Unsloth. RTX Spark can run creative agents that connect familiar applications and local AI tools, helping creators move from an idea to finished work with natural-language instructions. NVIDIA Switchyard, now available in Hermes, automatically routes agent tasks between local and cloud models. Everyday tasks can run on device, while advanced reasoning draws on cloud models, helping manage cloud costs across creative workflows. These capabilities come together in creative workflows that connect Photoshop and ComfyUI through Hermes Agent. Using natural-language instructions, creators can turn sketches into rendered images and animations, or animate an image entirely on device — from isolating a subject and defining its motion to generating the finished video. NVIDIA brought these workflows to life at Adobe MAX, where attendees used natural-language instructions to turn sketches into rendered images and animations for a shared digital Miami landscape. The RTX Video Frame Generation and RTX Video HDR features, already available in ComfyUI, extend the pipeline: a generated clip can be expanded to 60 frames per second and converted to high dynamic range for color grading, all within a single ComfyUI workflow on RTX Spark. Adobe Accelerates the Full Creative Stack for RTX Spark NVIDIA and Adobe are expanding native Windows on Arm support and RTX acceleration across Adobe’s creative applications, helping video editors, photographers, designers and 3D artists work more efficiently on RTX Spark. Adobe Premiere accelerates a range of AI-powered editing features through NVIDIA TensorRT-RTX, including Enhance Speech, Object Mask, Scene Edit Detection and Auto Reframe — so editors spend less time waiting and more time cutting. GPU acceleration also extends to Film Impact transition and effects plug-ins. The update improves support for professional video formats, including Canon RAW, Red RAW, ARRI RAW, ARRICORE, ARRI HDE, H.264 and HEVC in MXF, ProRes RAW and long-GOP video. This lets editors realize more than 50% quicker turnaround on everyday H.264 video deliverables. Adobe Photoshop adds TensorRT-RTX acceleration for the Remove Tool and ArmRTX Spark-native Camera Raw support, helping photographers remove unwanted objects faster and work with RAW images without relying on emulation. At Adobe MAX, Adobe previewed a next-generation image processing engine with extensive GPU acceleration, including interactive Gaussian blur and Light Leaks filters. Adobe Substance 3D Painter 12.2 is now optimized for RTX Spark with native support on Arm for the first time in public beta. Artists in games, visual effects and visualization can run Substance Painter natively on RTX Spark laptops and compact desktops, with no compatibility layer required. Adobe Illustrator and InDesign now offer native Windows on Arm versions optimized for RTX Spark. Adobe Illustrator delivers up to 30% higher performance than its emulated version, helping accelerate illustration, graphic design and page-layout workflows on RTX Spark. Blender 5.3 Adds DLSS Ray Reconstruction to the Viewport Blender 5.3 integrates DLSS 4.5 Ray Reconstruction into the Cycles viewport, helping artists evaluate lighting and materials with near-final-quality ray-traced previews as they work. The practical difference is immediate: instead of navigating a noisy, resolving preview, Ray Reconstruction delivers near-final-quality lighting, reflections and materials in the interactive viewport in real time. DLSS 4.5 Ray Reconstruction support requires Blender 5.3 and the latest NVIDIA Game Ready Driver or NVIDIA Studio Driver. Download the NVIDIA App to get automatic notifications when the latest drivers are available, optimize games and applications from a unified GPU control center, and discover the latest NVIDIA tools and software. Windows Server 2028 Coming to DGX Station for Windows Announced at Microsoft Ignite, Windows Server is evolving for organizations that need to run AI closer to their enterprise applications and data. Microsoft is expanding hardware choice through support for the latest AI silicon, helping customers take advantage of accelerated inference and increasingly capable models in their own environments. NVIDIA DGX Station for Windows platform powered by the GB300 Grace Blackwell Ultra Desktop",
+          "title_zh": "NVIDIA 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA RTX Spark Compact Desktops Out Now",
+              "source_url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified",
+              "source_url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/"
+            }
+          ],
+          "slug": "nvidia-rtx-spark-compact-desktops-out-now-2f5d6d63",
+          "localized_url": "/zh/items/2026-11-19/nvidia-rtx-spark-compact-desktops-out-now-2f5d6d63/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+          "title_original": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+          "title_en": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+          "published_at": "Wed, 18 Nov 2026 19:54:56 GMT",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f689168723dc",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+              "source_url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
+            }
+          ],
+          "slug": "daisyrose-27b-pushing-the-frontier-of-post-training-efficiency-f6891687",
+          "localized_url": "/zh/items/2026-11-19/daisyrose-27b-pushing-the-frontier-of-post-training-efficiency-f6891687/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Why your fine-tuning job takes longer than the FLOPs say",
+          "title_original": "Why your fine-tuning job takes longer than the FLOPs say",
+          "title_en": "Why your fine-tuning job takes longer than the FLOPs say",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+          "published_at": "Wed, 18 Nov 2026 18:53:43 GMT",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "75623b38e68b",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Why your fine-tuning job takes longer than the FLOPs say",
+              "source_url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+            }
+          ],
+          "slug": "why-your-fine-tuning-job-takes-longer-than-the-flops-say-75623b38",
+          "localized_url": "/zh/items/2026-11-19/why-your-fine-tuning-job-takes-longer-than-the-flops-say-75623b38/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+          "title_original": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+          "title_en": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+          "published_at": "Wed, 18 Nov 2026 15:00:23 GMT",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "bf1424b145e4",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+              "source_url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse"
+            }
+          ],
+          "slug": "time-series-models-in-the-streamhouse-a-new-frontier-and-use-cases-bf1424b1",
+          "localized_url": "/zh/items/2026-11-19/time-series-models-in-the-streamhouse-a-new-frontier-and-use-cases-bf1424b1/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+          "title_original": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+          "title_en": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+          "summary_zh": "Hugging Face Blog 更新了推理容量与成本控制方案，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/moe-expert-streaming",
+          "published_at": "Wed, 18 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "af1852b4c46d",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进推理容量与成本控制方案",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在推理容量与成本控制方案。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "inference",
+              "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+              "source_url": "https://huggingface.co/blog/moe-expert-streaming"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/moe-expert-streaming"
+            }
+          ],
+          "slug": "180b-parameters-32gb-of-ram-pushing-moe-inference-to-the-limit-with-tran-af1852b4",
+          "localized_url": "/zh/items/2026-11-19/180b-parameters-32gb-of-ram-pushing-moe-inference-to-the-limit-with-tran-af1852b4/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+          "title_original": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+          "title_en": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/rumble-2-flash",
+          "published_at": "Wed, 18 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "679cee5ea146",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+              "source_url": "https://huggingface.co/blog/rumble-2-flash"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/rumble-2-flash"
+            }
+          ],
+          "slug": "rumble-2-flash-an-open-0-5b-speech-model-for-40-languages-679cee5e",
+          "localized_url": "/zh/items/2026-11-19/rumble-2-flash-an-open-0-5b-speech-model-for-40-languages-679cee5e/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing Gemini 4 Neon",
+          "title_original": "Introducing Gemini 4 Neon",
+          "title_en": "Introducing Gemini 4 Neon",
+          "summary_zh": "Gemini 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+          "published_at": "Wed, 18 Nov 2026 21:35:43 +0000",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b898a1b2127c",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Gemini 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing Gemini 4 Neon",
+              "source_url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+            }
+          ],
+          "slug": "introducing-gemini-4-neon-0c3c8b23",
+          "localized_url": "/zh/items/2026-11-19/introducing-gemini-4-neon-0c3c8b23/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Genie 4 is now available",
+          "title_original": "Genie 4 is now available",
+          "title_en": "Genie 4 is now available",
+          "summary_zh": "DeepMind 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+          "source_name": "Google DeepMind Podcast",
+          "source_url": "https://deepmind.google/discover/the-podcast/",
+          "original_url": "https://deepmind.google/blog/genie-4-is-now-available/",
+          "published_at": "Wed, 18 Nov 2026 18:13:42 +0000",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "deepmind",
+            "research",
+            "podcast"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "50e3ea47cbae",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "DeepMind 发布行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 DeepMind，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：deepmind、research、podcast。"
+          ],
+          "background_zh": "这条内容来自 Google DeepMind Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Genie 4 is now available",
+              "source_url": "https://deepmind.google/blog/genie-4-is-now-available/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Google DeepMind Podcast is discussed in a new interview or podcast, useful for tracking executive views, product direction and AI strategy.",
+              "source_url": "https://deepmind.google/blog/genie-4-is-now-available/"
+            }
+          ],
+          "slug": "genie-4-is-now-available-652211f5",
+          "localized_url": "/zh/items/2026-11-19/genie-4-is-now-available-652211f5/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+          "title_original": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+          "title_en": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+          "summary_zh": "Benchmark 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+          "published_at": "Wed, 18 Nov 2026 10:19:04 GMT",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Benchmark"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "7c37480e5f49",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Benchmark 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Benchmark，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：Benchmark。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "benchmark",
+              "explanation": "用于衡量模型能力的任务集合或评测体系。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+              "source_url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
+              "source_url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/"
+            }
+          ],
+          "slug": "ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-b-7c228905",
+          "localized_url": "/zh/items/2026-11-19/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-b-7c228905/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing Vercel X",
+          "title_original": "Introducing Vercel X",
+          "title_en": "Introducing Vercel X",
+          "summary_zh": "OpenAI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Today we’re launching Vercel X , a six-week accelerator for AI founders at the idea and pre-seed stages. Join a cohort of 40 teams at our San Francisco HQ and build alongside Vercel’s product leaders, designers, and engineers. The program takes no equity for",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/vercel-x",
+          "published_at": "2026-11-18T00:00:00.000Z",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [
+            "OpenAI",
+            "Anthropic"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "28be48dfcbbd",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 发布AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI、Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing Vercel X",
+              "source_url": "https://vercel.com/blog/vercel-x"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Today we’re launching Vercel X , a six-week accelerator for AI founders at the idea and pre-seed stages. Join a cohort of 40 teams at our San Francisco HQ and build alongside Vercel’s product leaders, designers, and",
+              "source_url": "https://vercel.com/blog/vercel-x"
+            }
+          ],
+          "slug": "introducing-vercel-x-28be48df",
+          "localized_url": "/zh/items/2026-11-19/introducing-vercel-x-28be48df/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Gemini 4 Neon now available on AI Gateway",
+          "title_original": "Gemini 4 Neon now available on AI Gateway",
+          "title_en": "Gemini 4 Neon now available on AI Gateway",
+          "summary_zh": "Gemini 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Gemini 4 Neon from Google is now available on AI Gateway. Gemini 4 Neon is a major upgrade over the earlier, lighter Gemini 4 model, delivering output quality close to Google’s larger Gemini 4 models with faster responses. It’s built for coding, agent",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/gemini-4-neon-now-available-on-ai-gateway",
+          "published_at": "2026-11-18T00:00:00.000Z",
+          "fetched_at": "2026-11-19T03:33:36.416922+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 36.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b2962b123ee9",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Gemini 发布开发者接口与平台能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Gemini 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Gemini，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Gemini 4 Neon now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/gemini-4-neon-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Gemini 4 Neon from Google is now available on AI Gateway. Gemini 4 Neon is a major upgrade over the earlier, lighter Gemini 4 model, delivering output quality close to Google’s larger Gemini 4 models with faster",
+              "source_url": "https://vercel.com/changelog/gemini-4-neon-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "gemini-4-neon-now-available-on-ai-gateway-b2962b12",
+          "localized_url": "/zh/items/2026-11-19/gemini-4-neon-now-available-on-ai-gateway-b2962b12/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-11-18",
       "title_zh": "AI 新闻简报 · 2026-11-18",
