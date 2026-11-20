@@ -1,7 +1,1228 @@
 {
-  "updated_at": "2026-11-19T03:33:37.147975+00:00",
-  "count": 154,
+  "updated_at": "2026-11-20T03:23:05.954482+00:00",
+  "count": 155,
   "briefs": [
+    {
+      "date": "2026-11-20",
+      "title_zh": "AI 新闻简报 · 2026-11-20",
+      "title_en": "English AI News Brief · 2026-11-20",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 127 条，入选 18 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 127 previously displayed items excluded, and 18 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 127,
+      "selected_count": 18,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews",
+        "research-open-source"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客",
+        "research-open-source": "研究与开源"
+      },
+      "items": [
+        {
+          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "title_original": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "title_en": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "published_at": "Thu, 19 Nov 2026 08:00:00 GMT",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "6687f7be62c3",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+              "source_url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+              "source_url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+            }
+          ],
+          "slug": "how-openais-performance-factory-keeps-chatgpt-fast-6687f7be",
+          "localized_url": "/zh/items/2026-11-20/how-openais-performance-factory-keeps-chatgpt-fast-6687f7be/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Deploying Daybreak Red",
+          "title_original": "Deploying Daybreak Red",
+          "title_en": "Deploying Daybreak Red",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/business/learn/deploying-daybreak-red",
+          "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4b08ec50268e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Deploying Daybreak Red",
+              "source_url": "https://openai.com/business/learn/deploying-daybreak-red"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+              "source_url": "https://openai.com/business/learn/deploying-daybreak-red"
+            }
+          ],
+          "slug": "deploying-daybreak-red-4b08ec50",
+          "localized_url": "/zh/items/2026-11-20/deploying-daybreak-red-4b08ec50/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "See PR scans in action",
+          "title_original": "See PR scans in action",
+          "title_en": "See PR scans in action",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/business/learn/pr-scans-demo",
+          "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "cb99e2baa62e",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "See PR scans in action",
+              "source_url": "https://openai.com/business/learn/pr-scans-demo"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+              "source_url": "https://openai.com/business/learn/pr-scans-demo"
+            }
+          ],
+          "slug": "see-pr-scans-in-action-cb99e2ba",
+          "localized_url": "/zh/items/2026-11-20/see-pr-scans-in-action-cb99e2ba/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Explore the Codex Security Plugin",
+          "title_original": "Explore the Codex Security Plugin",
+          "title_en": "Explore the Codex Security Plugin",
+          "summary_zh": "OpenAI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/business/learn/codex-security-plugin-demo",
+          "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "e29ac258c013",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进政府与国家安全合作原则",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Explore the Codex Security Plugin",
+              "source_url": "https://openai.com/business/learn/codex-security-plugin-demo"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+              "source_url": "https://openai.com/business/learn/codex-security-plugin-demo"
+            }
+          ],
+          "slug": "explore-the-codex-security-plugin-e29ac258",
+          "localized_url": "/zh/items/2026-11-20/explore-the-codex-security-plugin-e29ac258/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Get started with Daybreak Blue",
+          "title_original": "Get started with Daybreak Blue",
+          "title_en": "Get started with Daybreak Blue",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+          "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "a2fb00344062",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "restricted_or_paywalled"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Get started with Daybreak Blue",
+              "source_url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+              "source_url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo"
+            }
+          ],
+          "slug": "get-started-with-daybreak-blue-a2fb0034",
+          "localized_url": "/zh/items/2026-11-20/get-started-with-daybreak-blue-a2fb0034/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+          "title_original": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+          "title_en": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+          "summary_zh": "Anthropic 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+          "published_at": "Thu, 19 Nov 2026 07:07:43 GMT",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f0a746966ded",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Anthropic 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+              "source_url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83.",
+              "source_url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/"
+            }
+          ],
+          "slug": "ainews-gemini-4-neon-gdm-s-opus-sol-contender-20477ed2",
+          "localized_url": "/zh/items/2026-11-20/ainews-gemini-4-neon-gdm-s-opus-sol-contender-20477ed2/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing Sakana AI’s Security Research Group",
+          "title_original": "Introducing Sakana AI’s Security Research Group",
+          "title_en": "Introducing Sakana AI’s Security Research Group",
+          "summary_zh": "Sakana AI 披露了政府与国家安全合作原则，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+          "summary_en": "Sakana AI has a release or product update that may affect model capability, developer tooling or AI adoption.",
+          "source_name": "Sakana AI Blog",
+          "source_url": "https://sakana.ai/blog/",
+          "original_url": "https://sakana.ai/security-research-group/",
+          "published_at": "2026-11-20T00:00:00+09:00",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "research-open-source",
+          "people": [],
+          "companies": [
+            "Sakana AI"
+          ],
+          "tags": [
+            "research",
+            "agents",
+            "japan"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "4649648137e2",
+          "language": "en",
+          "source_type": "research_lab",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Sakana AI",
+          "extracted_excerpt": "Introducing Sakana AI’s Security Research Group",
+          "extracted_text_for_analysis": "（＊日本語は英文の後に） Sakana AI is launching the Security Research Group, an independent R&D team studying collective, AI-driven cyber defense and the security and safety of AI itself. Our research starts from the idea that intelligence and resilience emerge from collectives, like a school of fish rather than a single swimmer. As a company building frontier AI, we also believe we share responsibility for the security of the society that uses it. Separate from our commercial business, the group’s mission is to serve the public interest: publishing research, reproducible benchmarks, and practical guidelines, and working with government, industry, and academia on research to improve cybersecurity. What We Are Seeing Frontier AI’s ability to find flaws in software is growing, and the number of disclosed flaws is climbing. NIST reports that CVE submissions rose 263% between 2020 and 2025, and that early 2026 ran nearly a third above the same period a year earlier. JVN iPedia, which provides vulnerability information in Japanese, also registered nearly twice as many entries in the latest quarter as a year earlier, most of them from the NVD. AI is widely suspected to play a part, though there is still more to confirm: FIRST points to AI-assisted discovery alongside administrative factors, and NIST staff say AI-based discovery tools have added to their workload. Japan’s government now treats the trend as a national security matter. The strain is already showing. NIST has stopped routine analysis of older records and now prioritizes flaws known to be exploited. Japan’s financial regulators have asked institutions to treat the response as a management issue, with top management directly involved. Flaws are being found at machine speed and fixed at organizational speed, and we suspect the people in between are the ones bearing the cost. The other side is changing too. Attackers are using AI agents, running intrusions against many targets at once. And AI systems are themselves becoming targets: NICT recorded more probing aimed at AI service endpoints in the first quarter of 2026. Why Faster Response Is Not Enough Faster triage and patching are necessary, but patching systems already in operation will not be enough to bring overall risk down. CISA’s review of two fiscal years finds that many attackers exploit well-known, straightforward weaknesses, with input validation and memory safety flaws the most dependable ways in, and it calls for eliminating persistent, preventable weaknesses. NICT’s recent alert on attacks against the servers behind mobile apps names the same kinds of weakness, such as missing authorization checks and unvalidated input. The FBI’s account of the AI-agent intrusions lists SSRF, IDOR, missing API authentication and injection. Even if AI makes finding these flaws faster, if the same weaknesses keep being introduced into software and architecture, the work is likely to keep growing. That is why we believe the lasting answer lies upstream, in the development process of systems, AI included. Instead of chasing flaws after release, the aim is to keep them from arising at the design and build stage, or to remove them there. Japan’s government-wide package points the same way, asking software vendors to apply secure-by-design principles and to use advanced AI across development to find and fix vulnerabilities early. Four layers of defense, from upstream to downstream: the quality of each product, the design and configuration of the system, operation and patching, and detection and response. The Security Research Group works across all four, with its long-term weight on the upstream two. Quality Is Where Japan Can Lead We propose to treat this as a question of quality. Finding and fixing vulnerabilities may be seen as a special task that security specialists carry out separately, after the product is built. We would rather see it as part of the quality a product is expected to have, and raise that quality at the source. Japan may be well placed to lead on this. Japanese manufacturing built its worldwide reputation on quality, and that tradition is part of how Japan’s products have long been valued. Rethinking quality through the security of software is a challenge, and also a chance to raise Japan’s profile. AI can help here as well. The same capability that finds flaws in finished systems can be turned into a way of checking quality at every step of design, building and operation, and we will use it to the fullest on the defending side. If the expertise of excellent human reviewers can be built into AI agents, quality could be assured at a scale and depth that were hard to reach before, and the flaws found today could teach us not to build the same flaws tomorrow. That gives defenders reason for hope. Security Is Must-Be Quality The Kano model, widely used in quality management, sorts quality into three kinds by how they relate to user satisfaction: attractive quality, which delights when present; one-dimensional quality, which satisfies in step with how well it is met; and must-be quality. Must-be quality goes unnoticed when it is present and causes strong dissatisfaction only when it is missing. Safety is a classic example, and security is another; because they are taken for granted and so rarely asked for explicitly, both are easily left out of the definition of quality altogether. That is why they have to be treated as quality requirements from the start and built in, rather than inspected for at the end. Keeping quality means working to never introduce the gaps that lead to incidents, in the software we run and in AI systems themselves. Safety and security are must-be qualities in the Kano model: meeting them never lifts users above neutral, but falling short causes strong dissatisfaction. Conceptual sketch after Kano et al. (1984). Japan’s Constraints Responding to AI-era vulnerabilities is hard in Japan, most likely for reasons like those set out in public documents, including the request from the Financial Services Agency and the Bank of Japan. - Outsourced operations: Many organizations entrust system maintenance to vendors, so whether patching is covered by the maintenance contract, and who is responsible for what, needs to be clear in advance. - Technical debt: Legacy systems and incomplete asset inventories can make it hard to tell which flaws apply, and harder still to fix them. - Limited staff: Substantially expanding IT staff in the short term is not realistic, so the expertise that exists has to be focused where it matters most. Under these conditions, simply adding people will not keep up. We see these difficulties as structural, or design, problems to solve. The fewer flaws a product has, the less vendor coordination, patch windows and emergency staffing it needs. Keeping must-be quality through incident response after a product is built tends to be costly. If the investment goes into design and build instead, the total cost of must-be quality could",
+          "title_zh": "Sakana AI 发布政府与国家安全合作原则",
+          "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+          "key_points_zh": [
+            "主体是 Sakana AI，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、agents、japan。",
+            "涉及公司或机构：Sakana AI。"
+          ],
+          "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing Sakana AI’s Security Research Group",
+              "source_url": "https://sakana.ai/security-research-group/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Sakana AI has a release or product update that may affect model capability, developer tooling or AI adoption.",
+              "source_url": "https://sakana.ai/security-research-group/"
+            }
+          ],
+          "slug": "introducing-sakana-ais-security-research-group-d84ea821",
+          "localized_url": "/zh/items/2026-11-20/introducing-sakana-ais-security-research-group-d84ea821/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "GPT-Live 1.1 now available on AI Gateway",
+          "title_original": "GPT-Live 1.1 now available on AI Gateway",
+          "title_en": "GPT-Live 1.1 now available on AI Gateway",
+          "summary_zh": "OpenAI 更新了实时语音交互模型能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "GPT-Live 1.1 from OpenAI is now available on AI Gateway. GPT-Live 1.1 is a full-duplex voice model, so it listens while it speaks and a caller can pause, interrupt, or add detail mid-reply. Compared with the previous GPT-Live model, it transcribes speech more",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/gpt-live-1-1-now-available-on-ai-gateway",
+          "published_at": "2026-11-19T00:00:00.000Z",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 52.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "328019628912",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "GPT-Live 1.1 now available on AI Gateway - Vercel",
+          "extracted_excerpt": "Run OpenAI's GPT-Live 1.1 voice sessions through Vercel AI Gateway with one API key: no provider account, per-second billing, and usage on every session.",
+          "extracted_text_for_analysis": "GPT-Live 1.1 from OpenAI is now available on AI Gateway. GPT-Live 1.1 is a full-duplex voice model, so it listens while it speaks and a caller can pause, interrupt, or add detail mid-reply. Compared with the previous GPT-Live model, it transcribes speech more accurately and keeps a more consistent accent and voice across languages. It uses the same Live endpoint and client delegation, so an existing GPT-Live integration only needs the new model ID. Copy link to headingSimple example without delegation Run openai/gpt-live-1.1 by itself: import { createOpenAI } from '@ai-sdk/openai'; const live = createOpenAI({ apiKey: process.env.AI_GATEWAY_API_KEY, baseURL: 'https://ai-gateway.vercel.sh/v1',}).experimental_realtime('openai/gpt-live-1.1', { api: 'live' }); const { url, headers } = await live.getServerWebSocketConfig(); send(live.serializeClientEvent({ type: 'session-start', config: { instructions: 'You are a helpful voice assistant.' },})); Copy link to headingDelegate work and keep talking Turn on client delegation, and use the session instructions to tell GPT-Live 1.1 when to ask for help. It asks by sending delegation-created. Answer with any text model on AI Gateway and return the result on the commentary channel for GPT-Live to speak. This example uses openai/gpt-6.2-sol and builds on the session above: send(live.serializeClientEvent({ type: 'session-start', config: { instructions: 'Ask the application for help with order questions.', providerOptions: { openai: { delegation: { type: 'client' } } }, },})); async function handleDelegation({ delegationId }) { const { text } = await generateText({ model: 'openai/gpt-6.2-sol', // Any text model prompt: conversationContext, }); send(live.serializeClientEvent({ type: 'context-append', delegationId, content: text, providerOptions: { openai: { channel: 'commentary' } }, }));} Your application controls delegated work and its permissions, confirmations, and cancellation. Delegated model requests are billed separately through AI Gateway, and voice-session usage continues while they run. These snippets omit the WebSocket connection, event parsing, transcript assembly, audio streaming, and shutdown. See the GPT-Live guide for connection setup, audio streaming, and complete examples. Try GPT-Live 1.1 in the model playground. AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, Zero Data Retention support, budgets for API keys, routing rules, and more. AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests. You can view all models available on AI Gateway.",
+          "title_zh": "OpenAI 发布实时语音交互模型能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "GPT-Live 1.1 now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/gpt-live-1-1-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GPT-Live 1.1 from OpenAI is now available on AI Gateway. GPT-Live 1.1 is a full-duplex voice model, so it listens while it speaks and a caller can pause, interrupt, or add detail mid-reply. Compared with the previous",
+              "source_url": "https://vercel.com/changelog/gpt-live-1-1-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "gpt-live-1-1-now-available-on-ai-gateway-32801962",
+          "localized_url": "/zh/items/2026-11-20/gpt-live-1-1-now-available-on-ai-gateway-32801962/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+          "title_original": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+          "title_en": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+          "published_at": "Thu, 19 Nov 2026 20:00:15 +0000",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1a7867b3a729",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 更新行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+              "source_url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and",
+              "source_url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/"
+            }
+          ],
+          "slug": "nvidia-and-microsoft-expand-accelerated-computing-from-azure-to-windows-fe6303fb",
+          "localized_url": "/zh/items/2026-11-20/nvidia-and-microsoft-expand-accelerated-computing-from-azure-to-windows-fe6303fb/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Eight Thoughts On Anthropic’s IPO (And What Comes Next)",
+          "title_original": "Eight Thoughts On Anthropic’s IPO (And What Comes Next)",
+          "title_en": "Eight Thoughts On Anthropic’s IPO (And What Comes Next)",
+          "summary_zh": "Anthropic 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "The most successful IPO all time. Now comes the hard part.",
+          "source_name": "Big Technology Podcast",
+          "source_url": "https://www.bigtechnology.com/",
+          "original_url": "https://www.bigtechnology.com/p/eight-thoughts-on-anthropics-ipo",
+          "published_at": "Thu, 19 Nov 2026 16:48:08 GMT",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "tech-media",
+            "ai",
+            "interview"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "46ac3cad2936",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Anthropic 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：tech-media、ai、interview。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Big Technology Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Eight Thoughts On Anthropic’s IPO (And What Comes Next)",
+              "source_url": "https://www.bigtechnology.com/p/eight-thoughts-on-anthropics-ipo"
+            },
+            {
+              "label": "公开摘要",
+              "text": "The most successful IPO all time. Now comes the hard part.",
+              "source_url": "https://www.bigtechnology.com/p/eight-thoughts-on-anthropics-ipo"
+            }
+          ],
+          "slug": "eight-thoughts-on-anthropics-ipo-and-what-comes-next-46ac3cad",
+          "localized_url": "/zh/items/2026-11-20/eight-thoughts-on-anthropics-ipo-and-what-comes-next-46ac3cad/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+          "title_original": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+          "title_en": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+          "summary_zh": "NVIDIA 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "GeForce NOW is kicking off Black Friday with more reasons to make time for gaming. Six-month memberships are back for a limited time. Save 30% on the first six-month term of a Performance or Ultimate membership. Big gaming plans, smaller price tag. Keep the",
+          "source_name": "NVIDIA AI Podcast",
+          "source_url": "https://blogs.nvidia.com/ai-podcast/",
+          "original_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+          "published_at": "Thu, 19 Nov 2026 14:00:12 +0000",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "NVIDIA"
+          ],
+          "tags": [
+            "nvidia",
+            "chips",
+            "podcast"
+          ],
+          "importance_score": 48.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "baa754261624",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "NVIDIA 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 NVIDIA，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：nvidia、chips、podcast。",
+            "涉及公司或机构：NVIDIA。"
+          ],
+          "background_zh": "这条内容来自 NVIDIA AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+              "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "GeForce NOW is kicking off Black Friday with more reasons to make time for gaming. Six-month memberships are back for a limited time. Save 30% on the first six-month term of a Performance or Ultimate membership. Big",
+              "source_url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/"
+            }
+          ],
+          "slug": "seasons-streamings-and-savings-black-friday-deals-come-to-geforce-now-b6fd6465",
+          "localized_url": "/zh/items/2026-11-20/seasons-streamings-and-savings-black-friday-deals-come-to-geforce-now-b6fd6465/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Tencent Hy4 is live on Together AI",
+          "title_original": "Tencent Hy4 is live on Together AI",
+          "title_en": "Tencent Hy4 is live on Together AI",
+          "summary_zh": "Together AI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Tencent Hy4 is live on Together AI. We tested its image input by extracting and rebuilding a chart, then tried its coding with a browser game generated from one prompt.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/tencent-hy4",
+          "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Together AI"
+          ],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 42.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "cc5d7f4c6c4c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Together AI 推进代码评测可靠性问题",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。",
+            "涉及公司或机构：Together AI。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Tencent Hy4 is live on Together AI",
+              "source_url": "https://www.together.ai/blog/tencent-hy4"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Tencent Hy4 is live on Together AI. We tested its image input by extracting and rebuilding a chart, then tried its coding with a browser game generated from one prompt.",
+              "source_url": "https://www.together.ai/blog/tencent-hy4"
+            }
+          ],
+          "slug": "tencent-hy4-is-live-on-together-ai-cc5d7f4c",
+          "localized_url": "/zh/items/2026-11-20/tencent-hy4-is-live-on-together-ai-cc5d7f4c/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+          "title_original": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+          "title_en": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+          "summary_zh": "Latent Space 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/linear-scaling/",
+          "published_at": "Thu, 19 Nov 2026 23:58:21 GMT",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "222a3317cded",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+              "source_url": "https://latent.space/p/linear-scaling/"
+            },
+            {
+              "label": "公开摘要",
+              "text": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+              "source_url": "https://latent.space/p/linear-scaling/"
+            }
+          ],
+          "slug": "scaling-linears-gtm-to-100m-arr-cristina-cordova-coo-53258ed2",
+          "localized_url": "/zh/items/2026-11-20/scaling-linears-gtm-to-100m-arr-cristina-cordova-coo-53258ed2/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "#505 – GTA 6, Crime, Jewel Heists, Prison, Corrupt Cops, Mafia, Miami & Money",
+          "title_original": "#505 – GTA 6, Crime, Jewel Heists, Prison, Corrupt Cops, Mafia, Miami & Money",
+          "title_en": "#505 – GTA 6, Crime, Jewel Heists, Prison, Corrupt Cops, Mafia, Miami & Money",
+          "summary_zh": "Lex Fridman Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Larry Lawton is one of the most notorious and prolific jewelry thieves in US history, who was eventually caught by the FBI, spent more than a decade in prison, including a lot of time in the hole, and then he turned his life around to run the Reality Check",
+          "source_name": "Lex Fridman Podcast",
+          "source_url": "https://lexfridman.com/podcast/",
+          "original_url": "https://lexfridman.com/larry-lawton/?utm_source=rss&utm_medium=rss&utm_campaign=larry-lawton",
+          "published_at": "Thu, 19 Nov 2026 04:37:34 +0000",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "interview",
+            "agi",
+            "research"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "279a8a91cc02",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Lex Fridman Podcast 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Lex Fridman Podcast，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：interview、agi、research。"
+          ],
+          "background_zh": "这条内容来自 Lex Fridman Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "#505 – GTA 6, Crime, Jewel Heists, Prison, Corrupt Cops, Mafia, Miami & Money",
+              "source_url": "https://lexfridman.com/larry-lawton/?utm_source=rss&utm_medium=rss&utm_campaign=larry-lawton"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Larry Lawton is one of the most notorious and prolific jewelry thieves in US history, who was eventually caught by the FBI, spent more than a decade in prison, including a lot of time in the hole, and then he turned his",
+              "source_url": "https://lexfridman.com/larry-lawton/?utm_source=rss&utm_medium=rss&utm_campaign=larry-lawton"
+            }
+          ],
+          "slug": "505-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami-money-a1b0f472",
+          "localized_url": "/zh/items/2026-11-20/505-gta-6-crime-jewel-heists-prison-corrupt-cops-mafia-miami-money-a1b0f472/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Building Human-Centered AI",
+          "title_original": "Building Human-Centered AI",
+          "title_en": "Building Human-Centered AI",
+          "summary_zh": "Practical AI 的新访谈把焦点放在AI 代理工程与工具调用能力，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "How can enterprises adopt AI and agentic systems while keeping people, business value, and trust at the center? Chris is joined by Dr. Gautham Pallapa, Principal Director of AI and Innovation at Scotiabank and author of Invaluable , to explore how",
+          "source_name": "Practical AI",
+          "source_url": "https://changelog.com/practicalai",
+          "original_url": "https://share.transistor.fm/s/bb4dad17",
+          "published_at": "Thu, 19 Nov 2026 05:00:00 -0500",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "ml",
+            "engineering",
+            "podcast"
+          ],
+          "importance_score": 32.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "103349f98498",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Practical AI 讨论AI 代理工程与工具调用能力",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Practical AI，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：ml、engineering、podcast。"
+          ],
+          "background_zh": "这条内容来自 Practical AI，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Building Human-Centered AI",
+              "source_url": "https://share.transistor.fm/s/bb4dad17"
+            },
+            {
+              "label": "公开摘要",
+              "text": "How can enterprises adopt AI and agentic systems while keeping people, business value, and trust at the center? Chris is joined by Dr. Gautham Pallapa, Principal Director of AI and Innovation at Scotiabank and author of",
+              "source_url": "https://share.transistor.fm/s/bb4dad17"
+            }
+          ],
+          "slug": "building-human-centered-ai-103349f9",
+          "localized_url": "/zh/items/2026-11-20/building-human-centered-ai-103349f9/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing Together Storage Accelerator: fast, free data caching for your GPU cluster",
+          "title_original": "Introducing Together Storage Accelerator: fast, free data caching for your GPU cluster",
+          "title_en": "Introducing Together Storage Accelerator: fast, free data caching for your GPU cluster",
+          "summary_zh": "Together AI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Together Storage Accelerator is a distributed caching layer for Together GPU Clusters: about 20x faster warm reads, one origin fetch per cluster, no application changes, and it's included free.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/introducing-together-storage-accelerator",
+          "published_at": "Thu, 19 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 26.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "d23ef0ed3115",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Together AI 发布模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing Together Storage Accelerator: fast, free data caching for your GPU cluster",
+              "source_url": "https://www.together.ai/blog/introducing-together-storage-accelerator"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Together Storage Accelerator is a distributed caching layer for Together GPU Clusters: about 20x faster warm reads, one origin fetch per cluster, no application changes, and it's included free.",
+              "source_url": "https://www.together.ai/blog/introducing-together-storage-accelerator"
+            }
+          ],
+          "slug": "introducing-together-storage-accelerator-fast-free-data-caching-for-your-d23ef0ed",
+          "localized_url": "/zh/items/2026-11-20/introducing-together-storage-accelerator-fast-free-data-caching-for-your-d23ef0ed/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Billing CLI is now available",
+          "title_original": "Vercel Billing CLI is now available",
+          "title_en": "Vercel Billing CLI is now available",
+          "summary_zh": "Vercel 推进了实时语音交互模型能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "You can now check your team’s billing overview, review and download invoices, and preview upcoming charges with the Vercel CLI . All billing commands, including usage, contracts, and budgets, are now grouped under vercel billing . Billing overview and invoice",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-billing-cli-is-now-available",
+          "published_at": "2026-11-19T05:00:00.000Z",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "2510f3b7e9af",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 发布实时语音交互模型能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Billing CLI is now available",
+              "source_url": "https://vercel.com/changelog/vercel-billing-cli-is-now-available"
+            },
+            {
+              "label": "公开摘要",
+              "text": "You can now check your team’s billing overview, review and download invoices, and preview upcoming charges with the Vercel CLI . All billing commands, including usage, contracts, and budgets, are now grouped under",
+              "source_url": "https://vercel.com/changelog/vercel-billing-cli-is-now-available"
+            }
+          ],
+          "slug": "vercel-billing-cli-is-now-available-2510f3b7",
+          "localized_url": "/zh/items/2026-11-20/vercel-billing-cli-is-now-available-2510f3b7/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Liquid AI's d1.2 and d1.2-ultra are now available on AI Gateway",
+          "title_original": "Liquid AI's d1.2 and d1.2-ultra are now available on AI Gateway",
+          "title_en": "Liquid AI's d1.2 and d1.2-ultra are now available on AI Gateway",
+          "summary_zh": "Vercel AI 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Liquid AI’s d1.2 and d1.2-ultra are now available on AI Gateway with audio input and bounding box support. These decision models return structured answers instead of generating text. Ask Boolean questions for yes/no probabilities, Choice questions to select a",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/liquid-ais-d1-2-and-d1-2-ultra-are-now-available-on-ai-gateway",
+          "published_at": "2026-11-19T00:00:00.000Z",
+          "fetched_at": "2026-11-20T03:23:04.555768+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d50f4c5c00e7",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel AI 发布开发者接口与平台能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel AI，核心变化集中在开发者接口与平台能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Liquid AI's d1.2 and d1.2-ultra are now available on AI Gateway",
+              "source_url": "https://vercel.com/changelog/liquid-ais-d1-2-and-d1-2-ultra-are-now-available-on-ai-gateway"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Liquid AI’s d1.2 and d1.2-ultra are now available on AI Gateway with audio input and bounding box support. These decision models return structured answers instead of generating text. Ask Boolean questions for yes/no",
+              "source_url": "https://vercel.com/changelog/liquid-ais-d1-2-and-d1-2-ultra-are-now-available-on-ai-gateway"
+            }
+          ],
+          "slug": "liquid-ai-s-d1-2-and-d1-2-ultra-are-now-available-on-ai-gateway-d50f4c5c",
+          "localized_url": "/zh/items/2026-11-20/liquid-ai-s-d1-2-and-d1-2-ultra-are-now-available-on-ai-gateway-d50f4c5c/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-11-19",
       "title_zh": "AI 新闻简报 · 2026-11-19",
