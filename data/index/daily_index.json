@@ -1,7 +1,1042 @@
 {
-  "updated_at": "2026-11-20T03:23:05.954482+00:00",
-  "count": 155,
+  "updated_at": "2026-11-21T03:15:14.675531+00:00",
+  "count": 156,
   "briefs": [
+    {
+      "date": "2026-11-21",
+      "title_zh": "AI 新闻简报 · 2026-11-21",
+      "title_en": "English AI News Brief · 2026-11-21",
+      "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 137 条，入选 15 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+      "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 137 previously displayed items excluded, and 15 selected items. Chinese pages link to internal research digests while preserving original source links.",
+      "source_count": 181,
+      "candidate_count": 152,
+      "skipped_history_count": 137,
+      "selected_count": 15,
+      "categories": [
+        "company-industry",
+        "models-products",
+        "podcasts-interviews"
+      ],
+      "category_labels_zh": {
+        "company-industry": "公司与产业",
+        "models-products": "模型与产品",
+        "podcasts-interviews": "访谈与播客"
+      },
+      "items": [
+        {
+          "title": "Combatting adversarial distillation",
+          "title_original": "Combatting adversarial distillation",
+          "title_en": "Combatting adversarial distillation",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/combatting-adversarial-distillation",
+          "published_at": "Fri, 20 Nov 2026 10:00:00 GMT",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "3ea993db7e3c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Combatting adversarial distillation",
+          "extracted_excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+          "extracted_text_for_analysis": "Combatting adversarial distillation How we’re addressing safety risks of distillation and lessons we’ve learned for strengthening safeguards across the industry. As frontier AI models become more capable, safeguards play an increasingly important role in how they can be used responsibly. Adversarial distillation creates a path for bad actors to reproduce these capabilities without appropriate safeguards. An actor may use a frontier model’s outputs without authorization to train another model with similar capabilities, then deploy it without comparable protections. For instance, an adversary might distill a model’s cyber capabilities and use the resulting model to help carry out cyberattacks that the original model would have refused to assist with or that its safeguards would have blocked. We’re sharing how OpenAI detects and disrupts adversarial distillation, how we’ve strengthened protections for our models’ protected reasoning, and what we’ve learned that can help strengthen defenses across the industry. Our approach to adversarial distillation combines adversarial testing, model training, classifiers, and API-level protections with investigations into coordinated attempts to extract model capabilities. These updated safeguards align more closely with those we use for biology and cybersecurity. We place particular emphasis on preventing attackers from extracting our models’ protected reasoning: the intermediate steps a model generates internally while working toward an answer, known as its chain-of-thought. These traces can contain information the final answer leaves out, making them especially valuable training data for another model. We’ve strengthened our defenses against protected reasoning extraction in GPT‑6.2 Astra and GPT‑6.2 Sol. In an internal adaptive evaluation using strong automated red-teaming, we tested whether attackers could recover protected reasoning the model had generated while answering an earlier prompt. The average attack success rate fell from 54.0% against GPT‑6 Astra with its original safeguards to 0.2% against GPT‑6.2 Astra with its updated safeguards. Distillation is a common machine-learning technique in which one model learns from data produced by another. For example, a model can learn from another model’s answers, its reasoning, or its judgments about which answers are better and why. Beyond intellectual property concerns, unauthorized distillation poses serious safety risks. Through adversarial distillation, a second model can learn advanced frontier capabilities without inheriting the safeguards that govern how the original model can use them. The concern is especially clear in dual-use domains like cybersecurity and biology. A model that helps defenders find vulnerabilities in software could also help an attacker exploit them; a model that assists with biological research could also help someone develop a harmful pathogen. If such capabilities were transferred to a model with weaker safeguards, it may provide assistance that the original model would have refused, or that the original safeguards would have blocked. Our models help users with coding and defensive cybersecurity tasks. A second model trained on many of those benign outputs may learn skills that also apply to offensive cybersecurity tasks. To better understand this, we study how distillation, especially involving reasoning traces, may transfer risky cyber capabilities. In this setting, the model that produces the training data is called the teacher, and the model that learns from it is called the student. In an internal study on how cyber capabilities transfer, we used the content normally visible to users—final responses, reasoning summaries, and tool interactions—as our baseline for distillation, and tested how much additional cyber capability transfers when the student has access to the teacher’s exact reasoning traces. We started each training run from the same pretrained student model. We created a supervised fine-tuning dataset consisting primarily of trajectories from Astra-level teacher models working on coding and defensive cybersecurity tasks. Each trajectory includes all of the steps a model takes as it works through a task, including any tool interactions and its final response. We evaluated each student after fine-tuning and again after a lightweight round of reinforcement learning in cybersecurity and coding environments. After supervised fine-tuning, the student trained on exact reasoning traces generally outperformed the student trained on reasoning summaries. After reinforcement learning, the exact-trace student still scored higher at the largest inference budget tested on both benchmarks shown, while the summary-trained student scored higher at lower budgets. Our cyber distillation results suggest that protecting reasoning traces can limit cyber capability transfer, even when the underlying task is one allowed under our usage policies. Across many such interactions, exact reasoning traces can teach a student skills that generalize beyond the tasks the teacher originally performed. We will continue studying how much additional capability transfers across different student models and distillation training recipes. We defend against adversarial distillation at two complementary levels of our safeguard stack. At the request level, model behavior, classifier checks, and API controls limit reasoning trace extraction. At the campaign level, we look for patterns in request-level and account-level signals that can reveal coordinated extraction attempts. In turn, attacks uncovered in investigations become examples for training and testing our safeguards. Adversarial training teaches models to recognize reasoning extraction attempts and refuse to disclose protected reasoning, while preserving responses to legitimate requests for explanations and assistance. Adversarial training examples come from successful attacks identified through internal automated red-teaming, investigations, and responsible disclosures of potential security weaknesses from outside researchers or industry partners. We use input classifiers to detect attempts to extract protected reasoning, and output classifiers to detect leaks of protected reasoning in assistant messages and tool-call arguments. These safeguards apply to both streaming and non-streaming responses. Tool-call coverage is important because a model can expose protected reasoning in a tool’s arguments without including it in its final answer. Output classifiers can block suspected leaks before that content reaches the caller. API-level protections restrict how protected reasoning can be reused across interactions and models. Our September disclosure described attacks that moved encrypted reasoning from one conversation into another and asked the model to reveal the reasoning in user-readable form. We strengthened protections across user, workspace, organization, and model-family boundaries, including closing a pathway that",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Combatting adversarial distillation",
+              "source_url": "https://openai.com/index/combatting-adversarial-distillation"
+            },
+            {
+              "label": "公开摘要",
+              "text": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+              "source_url": "https://openai.com/index/combatting-adversarial-distillation"
+            }
+          ],
+          "slug": "combatting-adversarial-distillation-3ea993db",
+          "localized_url": "/zh/items/2026-11-21/combatting-adversarial-distillation-3ea993db/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+          "title_original": "Hebbia sees improvements in financial research with GPT-6 Astra",
+          "title_en": "Hebbia sees improvements in financial research with GPT-6 Astra",
+          "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/business/customer-stories/hebbia",
+          "published_at": "Fri, 20 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "d15c45643214",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+          "extracted_excerpt": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+          "extracted_text_for_analysis": "Required source types cited 13.6 Percentage-point lead over the best alternative tested in Hebbia’s tests. Citation relevance 99.5 Percent of cited excerpts relevant to the question in Hebbia’s tests. Presentation requirements met 97.9 Percent of applicable presentation requirements met in Hebbia’s tests. Presentation requirement lead 14.4 Percentage-point lead over the best alternative tested on presentation requirements. Before a banker can recommend an acquisition to their client, they need to make sense of financial statements, customer contracts and management presentations. Hebbia’s Matrix helps bring that research together, linking answers to the documents behind them. Hebbia tested OpenAI’s GPT‑6 Astra to improve two parts of that work: finding the sources a question requires and building a presentation that follows the banker’s brief. “We’ve been strong partners with OpenAI over the course of Hebbia’s lifetime, and the leaps GPT-6 Astra has made in terms of quality outputs and accuracy have truly been surprising. GPT-6 Astra shines compared to any other model we’ve tested before on these two fronts.” It could work like this: a banker is helping their client assess a strategic acquisition of an industrial-software company, with roughly 2,000 files to review. What makes its revenue durable? How does it compare with peers? In Hebbia’s hypothetical example, the banker could load the data room into Matrix and examine customer concentration, contract terms and churn in cited cells. Matrix could bring in peer filings and industry news to help develop the deal thesis, then turn that research into a diligence summary and valuation deck in the firm’s template. In that workflow, GPT‑6 Astra selects documents or Matrix cells to support an answer, then turns the analysis into native PowerPoint slides that follow the user’s structure and guidelines. “Traceability is really important to our users because they’re basing millions of dollars of decisions on what the AI actually comes back with,” Kavita says. “Citations help with traceability as well as giving users confidence that the AI found the right answer.” In Hebbia’s tests, GPT‑6 Astra combined broader source coverage with highly relevant citations. It scored 13.6 percentage points above the best alternative tested on citing the required types of sources, while 99.5% of the excerpts it cited were relevant to the question. Hebbia tested a prerelease build in August-September 2026, using the same financial research cases and grading criteria for each model. Domain experts wrote or audited the criteria against source documents. “When you’re looking at a data room with thousands of documents, that’s extremely important. Even a single percentage-point gain can yield a lot of marginal benefit,” Kavita says. A presentation also has to look like work the banker would send to a client. “I don’t want to create a deck and send that to my partner that looks like AI made it,” Kavita says. “I want it to be made in my firm’s branding, and I want it to look like a human-made slide.” GPT‑6 Astra led on both following the brief and presentation quality. In Hebbia’s tests, it met 97.9% of the applicable presentation requirements, putting it 14.4 percentage points ahead of the best alternative tested on that measure. Other models traded off polish and adherence to the brief; GPT‑6 Astra ranked first on both. “In the past, we’ve seen models that really shine on one or the other of these dimensions where they’re really good at craft, but the instruction following and adhering to guidelines is not strong, or vice versa. GPT‑6 Astra is the first model we’ve seen where it’s number one on both of those fronts,” Kavita says. In Hebbia, users can open a citation to see the underlying document and highlighted passage; slide footnotes lead back to the source material, too. A review could be as specific as checking a customer-concentration figure against the source table and correcting the reporting period before the deck goes to the investment committee. Hebbia wants bankers to spend less time reformatting decks and checking sources, and more time assessing a deal. Kavita describes what a better first draft could make possible: “What’s amazing about GPT-6 Astra is its ability to create really precise outputs and artifacts that adhere to user guidelines. You can imagine the hours this will save professionals when you get a deck that is closer to your final output. The overnighters that you have to pull get reduced to a few minutes of reviewing GPT-6 Astra’s output.” Kavita sees a future role for agents that monitor information in the background and surface signals for finance professionals to assess. “Imagine getting an important signal a few hours before your competitors,” she says. “You can get started thinking about it and see and process more opportunities that a human is not manually hunting. It can unlock a lot of value for our users.” Hebbia wants to build on these results to help finance professionals assess deals with research they can trace back to its sources.",
+          "title_zh": "OpenAI 推进模型评测与研究方法",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Hebbia sees improvements in financial research with GPT-6 Astra",
+              "source_url": "https://openai.com/business/customer-stories/hebbia"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+              "source_url": "https://openai.com/business/customer-stories/hebbia"
+            }
+          ],
+          "slug": "hebbia-sees-improvements-in-financial-research-with-gpt-6-astra-d15c4564",
+          "localized_url": "/zh/items/2026-11-21/hebbia-sees-improvements-in-financial-research-with-gpt-6-astra-d15c4564/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Can AI help scientists identify promising drug candidates?",
+          "title_original": "Can AI help scientists identify promising drug candidates?",
+          "title_en": "Can AI help scientists identify promising drug candidates?",
+          "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/news/",
+          "original_url": "https://openai.com/index/introducing-medchembench",
+          "published_at": "Fri, 20 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "OpenAI"
+          ],
+          "tags": [
+            "openai",
+            "models",
+            "product"
+          ],
+          "importance_score": 60.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "f4784c304003",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Can AI help scientists identify promising drug candidates?",
+          "extracted_excerpt": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+          "extracted_text_for_analysis": "Can AI help scientists identify promising drug candidates? Introducing MedChemBench, a benchmark that tests how well AI models read molecular structures, interpret experimental results, and choose which compounds to test next. We’re introducing MedChemBench, a benchmark that evaluates AI models on reasoning tasks drawn from medicinal chemistry research. It tests whether models can connect a molecule’s structure with experimental evidence to explain results, compare compounds, and predict their properties. Building AI that can reliably support this work is one step towards helping scientists develop better medicines. One of the hardest parts of this work is that improving one property of a molecule can make another worse. A compound might act strongly against a disease related protein but be poorly absorbed or break down too quickly in the body. Medicinal chemists work through these tradeoffs by designing, making, and testing related compounds, then deciding what to try next. For AI to help, it needs to connect changes in molecular structure with experimental evidence and reason about what compounds are worth pursuing. MedChemBench measures these abilities through 99 problems drawn from published research. At the xhigh reasoning setting, GPT‑6.2 Astra earned 84.5% of the available credit, compared with 83.3% for GPT‑6 Astra, 82.0% for GPT‑6.1 Sol, and 58.2% for GPT‑5.6 Sol. GPT‑6 Astra was strongest at reconstructing molecular structures and explaining experimental evidence. Selecting compounds and predicting their numerical properties proved harder for that model. MedChemBench draws on 117 papers and patents and includes 761 distinct molecular structures. For most problems, models receive the context available at a chosen point in a research program: the biological target, the researchers’ goals, the compounds studied so far, and selected experimental findings. The benchmark evaluates four components: - Molecular structures. Correct atom connections and specified stereochemistry in molecules assembled from the drawings and chemical groups provided. - Scientific reasoning. Explanations supported by the supplied evidence, such as the reasons for choosing one compound over another. - Ranking and selection. Compound rankings and choices that meet the stated requirements. - Property predictions. Agreement with the numerical values and categories reported in the source material, including measured and calculated molecular properties. One MedChemBench problem draws on research into inhibitors of PRMT5, a protein studied in cancer drug discovery. The model receives molecular structures and results from earlier experiments. It must predict how three related compounds will behave: how strongly they block PRMT5 in cells, how readily they cross a cell barrier, and how quickly liver enzymes break them down in a laboratory assay. Later experiments, withheld from the model, showed a tradeoff. Compound 23 blocked PRMT5 in cells at a lower concentration, while compound 24 crossed the cell barrier more readily and broke down more slowly in the liver-enzyme assay. Predicting these properties together tests whether a model can connect molecular structures with several aspects of compound behavior. This reflects a central challenge in medicinal chemistry: stronger activity against a target does not necessarily come with better permeability or slower breakdown. The benchmark checks whether the model reconstructs the molecular structures correctly and how closely its predictions match experimental measurements. Predictions receive partial credit based on their closeness to the measured values. Measurements already supplied in the prompt must also be reproduced correctly. Before a model can reason about a compound’s properties, it needs to identify the molecule correctly. Chemical drawings encode atom connections, ring structures, and stereochemistry. MedChemBench tests whether models preserve this information when reconstructing molecules from the drawings and chemical groups provided. One problem asks models to assemble a molecule from a central structure and two attached groups while preserving an 18-atom ring. At the highest reasoning setting shared by all eleven models (xhigh), GPT‑6 Astra reconstructed this compound correctly in all ten responses. GPT‑5.6 Sol and GPT‑5.6 Luna failed across all ten responses. In the illustrated answers, GPT‑5.6 Sol produced a 15-atom ring, while GPT‑5.6 Luna split the molecule into two disconnected fragments. These errors change the identity of the molecule being analyzed. This example tests a foundation of medicinal chemistry reasoning: whether the model can accurately represent the compound before interpreting its behavior. Figure 1. The same input, different molecules While measuring the benchmark for structure components, Astra earned 95.4% of the available credit at xhigh. This result shows strong performance on reconstructing the molecular structures supplied in the tasks. We evaluated eleven GPT models at different reasoning-effort settings. Across the full benchmark, Astra earned 83.3% of the available credit at the shared xhigh setting, compared with 82.0% for GPT‑6.1 Sol, 75.1% for GPT‑6.1 Terra, and 58.2% for GPT‑5.6 Sol. At max effort, GPT‑6 Astra reached 83.8%. Higher reasoning settings improved scores, while large differences between models remained. The figure below plots performance against output tokens. Figure 2. Performance versus token usage The component results separate four abilities: reconstructing molecules, explaining findings, selecting compounds, and predicting measurements. This shows where models are strongest and where errors remain. Figure 3. Component performance versus token usage Astra’s clearest strengths were in reconstructing molecular structures and explaining the scientific evidence. In selected reasoning examples from our preprint, Astra correctly identified structural changes and weighed their possible effects on protein binding, absorption, and metabolism. Where selection and prediction remain difficult, Astra earned 95.4% of the available structure credit at xhigh, but only about half the credit for selecting compounds and predicting numerical properties. These categories use different tasks and scoring rules, but the results show substantial room to improve predictions and compound choices. These results do not establish whether models can discover new drugs or improve laboratory decisions. Prior exposure to the published sources cannot be ruled out, and each response was a single attempt without tools, feedback, or new experiments. While the benchmark evaluates reasoning from historical evidence rather than real-world drug discovery, its results help identify where models are advancing and where challenges remain. We believe MedChemBench will support continued progress and look forward to sharing updates as our models advance to serve the field.",
+          "title_zh": "OpenAI 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：openai、models、product。",
+            "涉及公司或机构：OpenAI。"
+          ],
+          "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Can AI help scientists identify promising drug candidates?",
+              "source_url": "https://openai.com/index/introducing-medchembench"
+            },
+            {
+              "label": "公开摘要",
+              "text": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+              "source_url": "https://openai.com/index/introducing-medchembench"
+            }
+          ],
+          "slug": "can-ai-help-scientists-identify-promising-drug-candidates-f4784c30",
+          "localized_url": "/zh/items/2026-11-21/can-ai-help-scientists-identify-promising-drug-candidates-f4784c30/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+          "title_original": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+          "title_en": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+          "summary_zh": "Anthropic 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+          "published_at": "Fri, 20 Nov 2026 07:12:24 GMT",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [
+            "Anthropic"
+          ],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 56.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "1177dfbd92c1",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Anthropic 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Anthropic，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。",
+            "涉及公司或机构：Anthropic。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+              "source_url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+              "source_url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/"
+            }
+          ],
+          "slug": "ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-cae2fd7a",
+          "localized_url": "/zh/items/2026-11-21/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-cae2fd7a/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+          "title_original": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+          "title_en": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+          "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/inkling2mini",
+          "published_at": "Fri, 20 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "80d31a6dee29",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+          "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "extracted_text_for_analysis": "TLDR; Inkling 2 Mini is a new looped transformer model. It’s a multimodal Mixture-of-Experts with ~26B physical total and 3B active parameters per token. It uses a neat trick to increase capacity: some layers are visited in a loop that repeats three times, which makes it work like it had more parameters. It supports a 1M-token context size, accepts images and text inputs. Thinking Machines Lab ships the model in a mixed-precision format, with NVFP4 and MXFP8 expert weights. A DSpark drafter is also included for additional speed-up at a small memory cost. Inkling 2 Mini is much, much smaller than Inkling 2 Small, and is designed for local AI setups. We think this is a refreshingly new great local model. In our vibe tests, it's at least comparable with Qwen 3.8 27B. More validation is needed, but we are super excited about this release! We ship transformers, Llama App (llama.cpp), and MLX support. SGLang also provides day-zero inference support for production deployments on datacenter hardware. This post goes through what makes Inkling Mini different, some of our vibe tests, and how you can use it with your setup. Inkling 2 Mini is a mixture-of-experts model with 24 decoder layers, but the 12 middle layers run three times in a loop. Therefore, the model acts as if it had 48 (6+ 3*12 + 6) logical layers with just 24 physical ones. Similar to Inkling 2 Small, Inkling 2 Mini executes 48 layer visits per token. The hidden size is 2,304 instead of 4,608. At each layer visit, both variants route the token to 8 experts, but Mini selects them from among 128 experts per layer, while Small selects from 384. The decoder runs layers 0–5 once, layers 6–17 three times, and layers 18–23 once. All three passes through layers 6–17 reuse the same weights. Architectures such as Nanbeige have explored looping before. But Inkling 2 Mini explores an interesting approach. Every pass through the looped core (layers 6–17) starts from the same inputs which is the output of the first six layers. Information moves between passes through cross-pass messages. Each looped layer reads a message from the previous pass's outputs with its own learned query (one message for its query, key, value and MLP inputs). A small gating controller then looks at both the layer's current input and the message. It decides how much of the current input to forget and how much of the message to add. Each pass therefore refines what the previous one computed. - Each six-layer block has five sliding-window layers and one full-attention layer. The local window holds up to 1,024 tokens. - Attention uses 24 query heads and eight KV heads. It uses learned relative position logits, a learned sink, and an output gate. Full-attention layers use dynamic key and value convolutions. - The router selects eight of 128 SwiGLU experts for each token. It normalizes the selected scores and scales the weights by 8. - During passes 2 and 3, each core layer attends over two residual blocks from the previous pass. Four rank-64 gates mix separate messages into the query, key, value, and MoE inputs. Text decoder width is 2,304, and the intermediate width of each expert is 1,152. Reusing core weights reduces the number of distinct layers the checkpoint stores. The model still executes all 48 visits, and each visit keeps its own KV and short-convolution state. In addition to the flagship Inkling 2 Mini model, a research artifact has also been released. It shares the same architecture, but this variant was trained to accept a variable number of passes through the loop 🤯. Setting 1 or 2 passes instead of 3 will make inference run a lot faster, but generations may be of slightly lower quality. We tested this variant, and it works, but we haven’t evaluated it in depth. Inkling 2 Mini is state-of-the-art in its class in the Artificial Analysis Intelligence Index v5 (AAv5), as well as across many benchmarks in various categories. Compared with Gemma 4 31B, Muse Glimmer, Qwen3.8-27B, and Nemotron 3.5 Super VL, Inkling 2 Mini leads in 32 benchmarks out of 48. These cover coding and autoresearch, agentic search and tool use for knowledge work, vision interpretation and creation, reasoning and knowledge, and safety and alignment. See the Inkling 2 Mini model card for the full list of benchmarks and scores. Inkling 2 Mini is a great local coding companion. It leads in FrontierCode v2.0, ties with Qwen3.8-27B on Terminal-Bench 4.0, and trails Qwen on AutomationBench-AA v1.0.6. You can check out a few of our highlights below for coding and knowledge work. Note that AA Briefcase is in ELO rating, higher is better. In this section, you can find how to use Inkling 2 Mini in transformers, llama.cpp, MLX, and SGLang. We provide support for both Inkling 2 Mini (fixed loop) and the TML-d24-varloop-research (variable loop) research variant. You can use the AutoModelForMultimodalLM class. import torch from transformers import AutoModelForMultimodalLM, AutoProcessor model_id = \"thinkingmachines/Inkling-2-Mini\" processor = AutoProcessor.from_pretrained(model_id) model = AutoModelForMultimodalLM.from_pretrained( model_id, ) messages = [{\"role\": \"user\", \"content\": [{\"type\": \"text\", \"text\": \"Why is the sky blue?\"}]}] inputs = processor.apply_chat_template( messages, tokenize=True, add_generation_prompt=True, return_dict=True, return_tensors=\"pt\", ).to(model.device) input_len = inputs[\"input_ids\"].shape[-1] outputs = model.generate(**inputs, max_new_tokens=1024) print(processor.decode(outputs[0][input_len:], skip_special_tokens=False)) To set the number of loops in the research checkpoint, you can modify the loop_num_passes in text_config as follows. The example below uses two loops. import torch from transformers import AutoModelForMultimodalLM, AutoProcessor model_id = \"thinkingmachines/TML-d24-varloop-research\" processor = AutoProcessor.from_pretrained(model_id) model = AutoModelForMultimodalLM.from_pretrained( model_id, text_config={\"loop_num_passes\": 2}, ) messages = [{\"role\": \"user\", \"content\": [{\"type\": \"text\", \"text\": \"Why is the sky blue?\"}]}] inputs = processor.apply_chat_template( messages, reasoning_effort=\"medium\", tokenize=True, add_generation_prompt=True, return_dict=True, return_tensors=\"pt\", ).to(model.device) input_len = inputs[\"input_ids\"].shape[-1] outputs = model.generate(**inputs, max_new_tokens=1024) print(processor.decode(outputs[0][input_len:], skip_special_tokens=False)) For an image prompt, replace messages in either example with the list below and infer as usual. messages = [ { \"role\": \"user\", \"content\": [ {\"type\": \"image\", \"image\": \"/path/to/image.jpg\"}, {\"type\": \"text\", \"text\": \"What is in this image?\"}, ], } ] Pass reasoning_effort=\"medium\" to processor.apply_chat_template(...) to set the effort for a request. The chat template adds the numeric value to the prompt as a system message. The default is high (0.9). inputs = processor.apply_chat_template( messages, reasoning_effort=\"medium\", tokenize=True, add_generation_prompt=True,",
+          "title_zh": "Hugging Face 推进模型或产品能力更新",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+              "source_url": "https://huggingface.co/blog/inkling2mini"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+              "source_url": "https://huggingface.co/blog/inkling2mini"
+            }
+          ],
+          "slug": "welcome-inkling-2-mini-cutting-edge-performance-for-your-local-setup-80d31a6d",
+          "localized_url": "/zh/items/2026-11-21/welcome-inkling-2-mini-cutting-edge-performance-for-your-local-setup-80d31a6d/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+          "title_original": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+          "title_en": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+          "summary_zh": "Hugging Face Blog 更新了AI 代理工程与工具调用能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Hugging Face Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
+          "source_name": "Hugging Face Blog",
+          "source_url": "https://huggingface.co/blog",
+          "original_url": "https://huggingface.co/blog/harness-adapters-at-scale",
+          "published_at": "Fri, 20 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "open-source",
+            "models",
+            "developer"
+          ],
+          "importance_score": 44.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "211fbe8009a4",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+          "extracted_excerpt": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "extracted_text_for_analysis": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost Combining RL on a custom task distribution with your favorite agent harness yields more accurate and efficient models for that target harness and task distribution. Models are not fully optimized for all harnesses and the tasks you’re doing. Instead, they target general performance. So when you combine a model and harness, you’re leaving performance and efficiency on the table for the stuff you’re actually doing. With RL, you can train a custom harness adapter that squeezes everything out of your model for your harness and task combination. Take Qwen3.8-27B, its Terminal-Bench 2.1 score with the pi harness is 39% which uses on average 2.9K tokens per task. If we freeze those weights and add a custom RL-trained LoRA adapter we can get 55% pass@1, with average token usage of 1.5K. Most of this is down to the model reasoning less, calling less tools, and performing better first time. Our earlier work (multi-harness RL, harness adapters) showed that RL on your own task distribution, inside your own harness, gives a more accurate and more efficient model. Those experiments covered data-analysis and code-building tasks. Here we wanted to push this further by exploring whether the result holds at 27B, on harder real-world software engineering tasks, across three harnesses: Pi, OpenCode and Hermes Agent. And most of all, share a fully reusable recipe, so you can reproduce this on your own task, harness, model combinations. - We trained one LoRA adapter for Qwen3.8-27B per agent harness (pi, Hermes Agent, OpenCode), with RL inside the harness itself. - Datasets, training and agent rollouts all happen on the Hub in Jobs using TRL's AsyncGRPOTrainer, OpenEnv and harbor. - Each harness adapter beats the base model under its own harness on both benchmarks, for both performance and efficiency. - The three LoRAs are also merged into a single super adapter that runs unchanged under pi, Hermes Agent and OpenCode. - All artifacts (adapters, GGUFs, RL tasks, safeagents plugin) can be browsed through this Hugging Face collection. We leverage the Harbor integration in OpenEnv and TRL’s OpenEnv guide to train the model inside the harnesses we chose for the final training. We have built ready-to-use docker images for all our RL tasks that come with the target harnesses already pre-installed inside. In our final docker images, we use Pi 1.5.2, OpenCode 2.2.7 and Hermes Agent v0.22.6. The diagram below from the aforementioned blogpost explains well the entire protocol: Most RL frameworks train a re-implementation of the agent loop: the agent is written against the framework's own interface, such as verl's AgentLoop, SkyRL-Gym environments, rLLM's agent and environment classes, slime's custom rollout functions, or ART's client inside your own Python agent. Here the harness runs exactly as it ships, and the trainer learns from the exact tokens it produced, recorded by a proxy between the harness and vLLM. Recent work moves in the same direction: Agent Lightning v1.0 keeps the deploy-time harness in the loop through a proxy (\"harnessed agentic RL\"), and SkyRL's Harbor integration trains on Harbor trials, converting their chat histories into tokens for the trainer. For this recipe we created a custom dataset for agentic coding with the Hub, OpenEnv, and Repo2RLEnv. We combined together task retrieval of existing RL envs, task generation with Repo2RLEnv, task validation with OpenEnv, and sampling into a single data pipeline. This gave us the highest quality set of validated and relevant tasks to improve Qwen3.8-27B on agentic coding. In this section, we’ll walk through how we built it, so you can try it out on your own domains. RL training needs tasks the agent can attempt, a verifier that scores each attempt, and evidence that the verifier is right. A verifier that accepts wrong answers teaches the wrong behavior. A task that is already feasible will not teach the model anything. This section describes how we built the task set from three sources: two on the Hugging Face Hub and a third generated with Tasksmith, a pipeline in Repo2RLEnv. Every task passes an eligibility screen with openenv validate, and the same difficulty check against the base model, Qwen3.8-27B. Each task uses the Harbor format, which Terminal-Bench 2.1 also uses. A broad search of the Hub for Harbor environments returned about 59,000 tasks, but they included duplicates, evaluation sets and tasks marked as not for training. We filtered down to just two Hub sources built for training and generated a third set ourselves: - SWE-smith (Python, Go) injects bugs into real Python and Go repositories, with an LLM rewrite or a mutation such as a flipped operator. The tests that catch each bug become the task's tests. It adds volume. - SWE-Gym, packaged as Harbor tasks in TaskTrove, turns real GitHub issues and their merged fixes into tasks. It adds real-world bugs. - Tasksmith generates tasks from merged pull requests. An LLM agent writes the instruction and tests, and Tasksmith checks the result: the reference and a valid alternative must pass, while the unfixed code and a known-wrong solution must fail. We used Tasksmith to target gaps. We mapped the skills that our target benchmarks test (Terminal-Bench 2.1, the hard subset of SWE-bench Pro, and DeepSWE), then chose pull requests that exercise them, such as HTTP streaming, filesystem operations and serialization. From 30 merged pull requests, Tasksmith produced 24 tasks in 10 Python repositories that passed its checks, 17 of them on a second run. Its checks do not replace ours, so these tasks go through the same pipeline as the rest. A metadata screen runs first. It keeps tasks from training splits with permissive licenses. It drops duplicates, tasks marked as not for training, the 253 tasks in our target benchmarks, and any task from a repository those benchmarks use. We then ran the semantic checks from openenv validate on every task in fresh trials: - The reference solution earns the maximum reward (semantic.oracle_max). - Doing nothing scores clearly lower (semantic.floor_gap). - No canary scores more than doing nothing (semantic.canary_floor). - A replay of the reference gives the same reward (runtime.episode_determinism). Each trial ran as its own Hugging Face Job, which let us validate dozens of tasks at once. openenv validate offers the same option for any Harbor task: openenv validate path/to/task --sandbox hf-sandbox 858 of 1,127 Hub candidates passed. Wrong-answer controls caught defects, including a Tasksmith task that accepted an incomplete implementation and a Terminal-Bench 2.1 verifier (regex-log) that accepted known-wrong answers. Most failures were infrastructure problems, such as images that did not start. Failed tasks stay in a rejected split with the failing check recorded. A valid task can still teach nothing. GRPO (group relative policy optimization) scores",
+          "title_zh": "Hugging Face 发布AI 代理工程与工具调用能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Hugging Face，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：open-source、models、developer。"
+          ],
+          "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+              "source_url": "https://huggingface.co/blog/harness-adapters-at-scale"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Hugging Face Blog has a release or product update that may affect model capability, developer tooling or AI adoption.",
+              "source_url": "https://huggingface.co/blog/harness-adapters-at-scale"
+            }
+          ],
+          "slug": "introducing-harness-adapters-adapt-your-favorite-model-to-your-harness-t-211fbe80",
+          "localized_url": "/zh/items/2026-11-21/introducing-harness-adapters-adapt-your-favorite-model-to-your-harness-t-211fbe80/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Qwen3 TTS is now available on Together AI",
+          "title_original": "Qwen3 TTS is now available on Together AI",
+          "title_en": "Qwen3 TTS is now available on Together AI",
+          "summary_zh": "Together AI 更新了实时语音交互模型能力，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+          "summary_en": "Qwen3 TTS is now available on Together AI. Keep one voice across your product, change its tone with a plain-language instruction and move it between 10 languages, with first audio in as little as 97ms.",
+          "source_name": "Together AI Blog",
+          "source_url": "https://www.together.ai/blog",
+          "original_url": "https://www.together.ai/blog/qwen3-tts",
+          "published_at": "Fri, 20 Nov 2026 00:00:00 GMT",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "models-products",
+          "people": [],
+          "companies": [
+            "Together AI"
+          ],
+          "tags": [
+            "infra",
+            "models"
+          ],
+          "importance_score": 42.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "af212a7ce83c",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "success",
+          "quality_warnings": [],
+          "extracted_title": "Qwen3 TTS is now available on Together AI",
+          "extracted_excerpt": "Qwen3 TTS is now available on Together AI. Keep one voice across your product, change its tone with a plain-language instruction and move it between 10 languages, with first audio in as little as 97ms.",
+          "extracted_text_for_analysis": "- Qwen3 TTS on Together AI: Qwen's open text-to-speech model, on Together Serverless Inference and dedicated endpoints at \\$20 per 1M characters. - One voice, many deliveries: nine preset voices that change tone and emotion from a plain-language instruction such as \"excited and upbeat.\" - 10 languages per voice: every preset speaks Chinese, English, Japanese, Korean, German, French, Russian, Portuguese, Spanish and Italian. - Built for real-time voice: first audio in as little as 97ms, with HTTP streaming and a WebSocket API for text that arrives in pieces. Starting today, developers can run Qwen3 TTS on Together AI, with first audio in as little as 97ms. Qwen3 TTS is an open text-to-speech model that separates who is speaking from how they speak. You choose one of nine preset voices, and that voice stays the same while you change its delivery with a plain-language instruction, such as \"excited and upbeat,\" or move it between 10 languages. Together AI's inference team tuned the serving stack for Qwen3 TTS so that speech starts streaming quickly enough for real-time conversation. The model is available now on Together Serverless Inference and on dedicated endpoints. Tell it how to say the line The same sentence can land as good news or bad news depending on how it's said, and with Qwen3 TTS you decide which by describing the delivery in a few words. Here the voice aiden reads one line three times. The voice and the words don't change between clips, only the instruction. The instruction controls the delivery, and the voice stays the one you chose. You can keep that same voice when you change languages too. Keep one voice across 10 languages Every preset voice speaks all 10 supported languages: Chinese, English, Japanese, Korean, German, French, Russian, Portuguese, Spanish and Italian. That lets a product keep the same voice when it moves into a new market. Here aiden, an English voice, reads the same order update in four languages. Supply the text in the language you select; the four clips above use separately translated text. Each voice also has a native language, and Qwen recommends using a voice in its native language for the best quality, so listen to the languages your application needs before you settle on a preset. Choose a voice in VoiceFinder The quickest way to choose a preset is to hear each one say your own lines. VoiceFinder lists the Qwen3 TTS voices, plays a sample of each and reads the text you enter in any of them. - Open voicefinder.together.ai, select Qwen/Qwen3-TTS-12Hz-1.7B in the model menu and select Find voices. - Select Preview to play a sample of a voice. - Select Try custom text, enter up to 500 characters and select Generate to hear that voice read your text. Repeat with another voice to compare them on the same text. - Select Show code to get the request for that voice in Python, TypeScript or cURL. The nine preset voices, with each one's native language and Qwen's description: Generate speech You need the Together Python SDK (pip install together) and a TOGETHER_API_KEY. This request sets the voice, the language and the instruction together, and produces the excited reading of the line above. The Python SDK passes instructions through extra_body. If an instruction doesn't seem to change the delivery, check that the field is spelled instructions, since a misspelled field is skipped without an error. Parameters for this model: Word timestamps (alignment=word) aren't supported for Qwen3 TTS. Stream audio for a voice agent In a voice agent, speech has to start before the whole reply has been synthesized. On Together AI, Qwen3 TTS returns first audio in as little as 97ms, and it streams in two ways. The right one depends on whether you have the full text when you make the request. When you have the full text: streaming over HTTP With stream=True and response_format=\"raw\", the speech API returns server-sent events as the audio is generated. Each conversation.item.audio_output.delta event carries a base64-encoded chunk of audio. This script receives the stream, decodes each chunk and saves the audio to a file. The output is 16-bit mono PCM at 24 kHz, and the instruction applies to a streamed request the same way it does to a complete one. To play speech as it arrives, send each decoded chunk to your audio output instead of a file. When the text is still being written: WebSocket If the text comes from a language model token by token, the WebSocket endpoint lets you send it in pieces. You open one connection, append text as it becomes available and commit when the input is complete, and the server synthesizes each sentence once it has the whole sentence. This script sends an order update in two pieces and saves the audio that comes back. It needs the websockets package, version 14 or later (pip install websockets). The connection URL carries the model, voice, language and audio settings (the WebSocket endpoint names raw PCM pcm), and the audio arrives in the same base64 events as the HTTP stream. The WebSocket guide lists every message type. Get started - Compare the voices in VoiceFinder - Read the text-to-speech docs, the streaming guide and the WebSocket guide - View the Qwen3 TTS model page - Read Qwen's model card on Hugging Face FAQs How much does Qwen3 TTS cost on Together AI? Qwen3 TTS costs \\$20 per 1M characters on Together Serverless Inference. The model is also available on dedicated endpoints. How fast is Qwen3 TTS on Together AI? Qwen3 TTS returns first audio in as little as 97ms on Together AI when you stream the response, on a serving stack our inference team tuned for real-time voice. How do I control the tone of a Qwen3 TTS voice? Send a plain-language description of the delivery in the instructions field of the speech request, such as excited and upbeat. In the Python SDK, pass it through extra_body. An instruction changes the emotion and tone of the voice and doesn't change who it sounds like. Can one Qwen3 TTS voice speak more than one language? Yes, each of the nine Qwen3 TTS preset voices can speak all 10 supported languages. Set voice to the voice name and language to the language of the text, and send the text in that language. Qwen recommends using each voice in its native language for the best quality. Does Qwen3 TTS support streaming on Together AI? Yes, Qwen3 TTS supports streaming on Together AI in two ways. Over HTTP, set stream to true and response_format to raw to receive server-sent events with base64-encoded PCM audio. Over WebSocket, send text in pieces and receive audio as it's generated. What audio formats does Qwen3 TTS return? Qwen3 TTS returns wav, mp3, raw (PCM) or mulaw audio on Together AI, at a sample rate of 24000 (the default) or 8000. It doesn't return opus, aac or flac. How do I compare Qwen3 TTS voices before choosing one? Open VoiceFinder and select Qwen/Qwen3-TTS-12Hz-1.7B in the model menu. You can preview each voice and generate up to 500 characters of your own text with it. Is Qwen3 TTS open",
+          "title_zh": "Together AI 发布实时语音交互模型能力",
+          "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+          "key_points_zh": [
+            "主体是 Together AI，核心变化集中在实时语音交互模型能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：infra、models。",
+            "涉及公司或机构：Together AI。"
+          ],
+          "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Qwen3 TTS is now available on Together AI",
+              "source_url": "https://www.together.ai/blog/qwen3-tts"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Qwen3 TTS is now available on Together AI. Keep one voice across your product, change its tone with a plain-language instruction and move it between 10 languages, with first audio in as little as 97ms.",
+              "source_url": "https://www.together.ai/blog/qwen3-tts"
+            }
+          ],
+          "slug": "qwen3-tts-is-now-available-on-together-ai-af212a7c",
+          "localized_url": "/zh/items/2026-11-21/qwen3-tts-is-now-available-on-together-ai-af212a7c/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+          "title_original": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+          "title_en": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+          "summary_zh": "Latent Space 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
+          "source_name": "Latent Space",
+          "source_url": "https://www.latent.space/",
+          "original_url": "https://latent.space/p/formal-verification/",
+          "published_at": "Fri, 20 Nov 2026 21:18:41 GMT",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "llm",
+            "agents",
+            "ai-engineering"
+          ],
+          "importance_score": 40.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c989db0d32fd",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：llm、agents、ai-engineering。"
+          ],
+          "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+              "source_url": "https://latent.space/p/formal-verification/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
+              "source_url": "https://latent.space/p/formal-verification/"
+            }
+          ],
+          "slug": "the-war-against-slop-and-an-emerging-weapon-to-fight-it-formal-verificat-790fce69",
+          "localized_url": "/zh/items/2026-11-21/the-war-against-slop-and-an-emerging-weapon-to-fight-it-formal-verificat-790fce69/",
+          "source_license_mode": "summary_only",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel Functions now support request bodies up to 20MiB",
+          "title_original": "Vercel Functions now support request bodies up to 20MiB",
+          "title_en": "Vercel Functions now support request bodies up to 20MiB",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel Functions now accept inbound request bodies up to 20MiB, up from 4.5MB, in Public Beta. To turn this on, set the VERCEL_SUPPORT_LARGE_REQUEST_BODY=1 environment variable. The opt-in applies to the whole project in the environment where you set it, so",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/vercel-functions-now-support-request-bodies-up-to-20mib",
+          "published_at": "2026-11-20T13:00:00.000Z",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "c101e9e83286",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 更新AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel Functions now support request bodies up to 20MiB",
+              "source_url": "https://vercel.com/changelog/vercel-functions-now-support-request-bodies-up-to-20mib"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel Functions now accept inbound request bodies up to 20MiB, up from 4.5MB, in Public Beta. To turn this on, set the VERCEL_SUPPORT_LARGE_REQUEST_BODY=1 environment variable. The opt-in applies to the whole project",
+              "source_url": "https://vercel.com/changelog/vercel-functions-now-support-request-bodies-up-to-20mib"
+            }
+          ],
+          "slug": "vercel-functions-now-support-request-bodies-up-to-20mib-c101e9e8",
+          "localized_url": "/zh/items/2026-11-21/vercel-functions-now-support-request-bodies-up-to-20mib-c101e9e8/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Vercel completes ISO/IEC 42001:2023 certification",
+          "title_original": "Vercel completes ISO/IEC 42001:2023 certification",
+          "title_en": "Vercel completes ISO/IEC 42001:2023 certification",
+          "summary_zh": "Vercel 推进了政府与国家安全合作原则，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Vercel has completed its ISO/IEC 42001:2023 certification, meeting the international standard for AI management systems. This certification gives our customers confidence to ship fast with agents on Vercel, demonstrating how Vercel designs, builds, operates,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/vercel-completes-iso-iec-42001-2023-certification",
+          "published_at": "2026-11-20T05:00:00.000Z",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "36ed53299827",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进政府与国家安全合作原则",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在政府与国家安全合作原则。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Vercel completes ISO/IEC 42001:2023 certification",
+              "source_url": "https://vercel.com/blog/vercel-completes-iso-iec-42001-2023-certification"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Vercel has completed its ISO/IEC 42001:2023 certification, meeting the international standard for AI management systems. This certification gives our customers confidence to ship fast with agents on Vercel,",
+              "source_url": "https://vercel.com/blog/vercel-completes-iso-iec-42001-2023-certification"
+            }
+          ],
+          "slug": "vercel-completes-iso-iec-42001-2023-certification-36ed5329",
+          "localized_url": "/zh/items/2026-11-21/vercel-completes-iso-iec-42001-2023-certification-36ed5329/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Agents can now find Vercel CLI commands by describing the task",
+          "title_original": "Agents can now find Vercel CLI commands by describing the task",
+          "title_en": "Agents can now find Vercel CLI commands by describing the task",
+          "summary_zh": "Vercel 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Coding agents can now use vercel help search to find Vercel CLI commands by describing a task in plain language. The search returns a list of matching commands. Add --with-help to include the help page for the first result in the same call. For example,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/agents-can-now-find-vercel-cli-commands-by-describing-the-task",
+          "published_at": "2026-11-19T05:00:00.000Z",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "ff5bf0023942",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进代码评测可靠性问题",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Agents can now find Vercel CLI commands by describing the task",
+              "source_url": "https://vercel.com/changelog/agents-can-now-find-vercel-cli-commands-by-describing-the-task"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Coding agents can now use vercel help search to find Vercel CLI commands by describing a task in plain language. The search returns a list of matching commands. Add --with-help to include the help page for the first",
+              "source_url": "https://vercel.com/changelog/agents-can-now-find-vercel-cli-commands-by-describing-the-task"
+            }
+          ],
+          "slug": "agents-can-now-find-vercel-cli-commands-by-describing-the-task-ff5bf002",
+          "localized_url": "/zh/items/2026-11-21/agents-can-now-find-vercel-cli-commands-by-describing-the-task-ff5bf002/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Priority Projects now in public beta",
+          "title_original": "Priority Projects now in public beta",
+          "title_en": "Priority Projects now in public beta",
+          "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Priority Projects are now in public beta for Pro and Enterprise teams. This optional upgrade for individual Vercel projects adds bot and traffic-source signals, Page Integrity for monitoring and controlling client-side scripts and connections, and additional",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/changelog/priority-projects-now-in-public-beta",
+          "published_at": "2026-11-19T01:10:00.000Z",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "7a31f10889ec",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 推进AI 产业与产品变化",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Priority Projects now in public beta",
+              "source_url": "https://vercel.com/changelog/priority-projects-now-in-public-beta"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Priority Projects are now in public beta for Pro and Enterprise teams. This optional upgrade for individual Vercel projects adds bot and traffic-source signals, Page Integrity for monitoring and controlling client-side",
+              "source_url": "https://vercel.com/changelog/priority-projects-now-in-public-beta"
+            }
+          ],
+          "slug": "priority-projects-now-in-public-beta-7a31f108",
+          "localized_url": "/zh/items/2026-11-21/priority-projects-now-in-public-beta-7a31f108/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Introducing Vercel Board",
+          "title_original": "Introducing Vercel Board",
+          "title_en": "Introducing Vercel Board",
+          "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+          "summary_en": "Software development is moving from individual agents completing tasks to teams of agents working on more complex projects. A single agent can track its work in a Markdown file, but there isn't a purpose-built primitive for tracking tasks, delegation,",
+          "source_name": "Vercel AI",
+          "source_url": "https://vercel.com/blog",
+          "original_url": "https://vercel.com/blog/introducing-vercel-board",
+          "published_at": "2026-11-18T08:00:00.000Z",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "company-industry",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "developer",
+            "ai-sdk"
+          ],
+          "importance_score": 24.0,
+          "freshness_score": 72.0,
+          "credibility_score": 90.0,
+          "duplicate_group_id": "b0d1e4ff5d55",
+          "language": "en",
+          "source_type": "company_blog",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Vercel 发布AI 代理工程与工具调用能力",
+          "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+          "key_points_zh": [
+            "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：developer、ai-sdk。"
+          ],
+          "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "SDK",
+              "explanation": "供开发者集成能力的软件开发工具包。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Introducing Vercel Board",
+              "source_url": "https://vercel.com/blog/introducing-vercel-board"
+            },
+            {
+              "label": "公开摘要",
+              "text": "Software development is moving from individual agents completing tasks to teams of agents working on more complex projects. A single agent can track its work in a Markdown file, but there isn't a purpose-built primitive",
+              "source_url": "https://vercel.com/blog/introducing-vercel-board"
+            }
+          ],
+          "slug": "introducing-vercel-board-b0d1e4ff",
+          "localized_url": "/zh/items/2026-11-21/introducing-vercel-board-b0d1e4ff/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "Can AI help build a healthier future?",
+          "title_original": "Can AI help build a healthier future?",
+          "title_en": "Can AI help build a healthier future?",
+          "summary_zh": "Microsoft 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "What can AI enable in medicine, and how do we get there? Microsoft Research lead Doug Burger, Microsoft Principal Research Manager Ava Amini, Microsoft Chief Scientific Officer Eric Horvitz, and physician-scientist Eric Topol of Scripps Research explore these",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+          "published_at": "Tue, 17 Nov 2026 16:52:17 +0000",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "745a96bce666",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 讨论模型评测与研究方法",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在模型评测与研究方法。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "Can AI help build a healthier future?",
+              "source_url": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "What can AI enable in medicine, and how do we get there? Microsoft Research lead Doug Burger, Microsoft Principal Research Manager Ava Amini, Microsoft Chief Scientific Officer Eric Horvitz, and physician-scientist Eric",
+              "source_url": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/"
+            }
+          ],
+          "slug": "can-ai-help-build-a-healthier-future-23b0b78b",
+          "localized_url": "/zh/items/2026-11-21/can-ai-help-build-a-healthier-future-23b0b78b/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        },
+        {
+          "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+          "title_original": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+          "title_en": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+          "summary_zh": "Microsoft 的新访谈把焦点放在代码评测可靠性问题，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+          "summary_en": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It’s a path toward coding agents that learn not only how to solve tasks,",
+          "source_name": "Microsoft Research Podcast",
+          "source_url": "https://www.microsoft.com/en-us/research/podcast/",
+          "original_url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+          "published_at": "Mon, 16 Nov 2026 17:01:35 +0000",
+          "fetched_at": "2026-11-21T03:15:13.055569+00:00",
+          "category": "podcasts-interviews",
+          "people": [],
+          "companies": [],
+          "tags": [
+            "research",
+            "podcast",
+            "microsoft"
+          ],
+          "importance_score": 22.0,
+          "freshness_score": 72.0,
+          "credibility_score": 76.0,
+          "duplicate_group_id": "669b07982406",
+          "language": "en",
+          "source_type": "podcast",
+          "translation_status": "fallback",
+          "extraction_status": "partial",
+          "quality_warnings": [
+            "metadata_only_source"
+          ],
+          "extracted_title": "",
+          "extracted_excerpt": "",
+          "extracted_text_for_analysis": "",
+          "title_zh": "Microsoft 讨论代码评测可靠性问题",
+          "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+          "key_points_zh": [
+            "主体是 Microsoft，核心变化集中在代码评测可靠性问题。",
+            "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+            "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+            "相关标签包括：research、podcast、microsoft。"
+          ],
+          "background_zh": "这条内容来自 Microsoft Research Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+          "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+          "terms_zh": [
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "AI Agent",
+              "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+            },
+            {
+              "term": "coding",
+              "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+            }
+          ],
+          "evidence_zh": [
+            {
+              "label": "原始来源",
+              "text": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/"
+            },
+            {
+              "label": "公开摘要",
+              "text": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It’s a path toward coding agents",
+              "source_url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/"
+            }
+          ],
+          "slug": "tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-e-8451eda1",
+          "localized_url": "/zh/items/2026-11-21/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-e-8451eda1/",
+          "source_license_mode": "official_public",
+          "content_mode": "research_digest",
+          "full_text_zh": ""
+        }
+      ],
+      "failures": []
+    },
     {
       "date": "2026-11-20",
       "title_zh": "AI 新闻简报 · 2026-11-20",
