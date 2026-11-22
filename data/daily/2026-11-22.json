@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-22",
+  "title_zh": "AI 新闻简报 · 2026-11-22",
+  "title_en": "English AI News Brief · 2026-11-22",
+  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 147 条，入选 5 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 147 previously displayed items excluded, and 5 selected items. Chinese pages link to internal research digests while preserving original source links.",
+  "source_count": 181,
+  "candidate_count": 152,
+  "skipped_history_count": 147,
+  "selected_count": 5,
+  "categories": [
+    "models-products",
+    "podcasts-interviews",
+    "research-open-source"
+  ],
+  "category_labels_zh": {
+    "models-products": "模型与产品",
+    "podcasts-interviews": "访谈与播客",
+    "research-open-source": "研究与开源"
+  },
+  "items": [
+    {
+      "title": "Introducing the Sakana AI Applied Research Lab",
+      "title_original": "Introducing the Sakana AI Applied Research Lab",
+      "title_en": "Introducing the Sakana AI Applied Research Lab",
+      "summary_zh": "Sakana AI 披露了模型评测与研究方法，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+      "summary_en": "Sakana AI has a release or product update that may affect model capability, developer tooling or AI adoption.",
+      "source_name": "Sakana AI Blog",
+      "source_url": "https://sakana.ai/blog/",
+      "original_url": "https://sakana.ai/applied-research-lab/",
+      "published_at": "2026-11-24T00:00:00+09:00",
+      "fetched_at": "2026-11-22T02:16:17.885244+00:00",
+      "category": "research-open-source",
+      "people": [],
+      "companies": [
+        "Sakana AI"
+      ],
+      "tags": [
+        "research",
+        "agents",
+        "japan"
+      ],
+      "importance_score": 52.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "e98f48458270",
+      "language": "en",
+      "source_type": "research_lab",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Sakana AI",
+      "extracted_excerpt": "Introducing the Sakana AI Applied Research Lab",
+      "extracted_text_for_analysis": "（＊日本語は英文の後に） Today we are announcing the Sakana AI Applied Research Lab, a research group within Sakana AI that applies the company’s research to large, complex real-world systems, advancing the state of the art in their understanding and delivering it as value to Sakana AI clients. The Lab’s first program is in finance and economics. We expect other programs to emerge in the future. A complex system, such as a market or an economy, is not something one LLM-powered agentic AI can resolve. A complex phenomenon must be modeled as a system: its units, their links, and how changes in one part affect the others. Deciding which questions to ask, what to model, and how to judge the answers has been the work of human experts, and progress has run at the speed of human effort. Agentic AI can now implement, test, and refine models at scale; its weakness is knowing which questions matter. Combining the two, the potential of AI on top of a foundation of human knowledge, will be the focus of the Lab. Our First Program Finance has traditionally studied asset prices, and economics the larger system beneath them. AI connects the two at the granularity of firms and transactions, and in near real time: asset prices become the visible reflection of the economy. The Lab’s Computational Finance and Economics (COFE) program is interested in both: the visible portion and the real economy underneath. The Lab’s Foundations at Sakana AI The Lab builds upon research at Sakana AI since its founding in July 2023, including automated scientific discovery, evolutionary search, agent-based simulation, and evaluation. The Lab’s most direct predecessors are Sakana AI’s projects in finance and economics. EDINET-Bench (ICLR 2026) evaluates LLMs on financial reasoning over ten years of Japanese corporate annual reports in a single-turn, non-agentic setting, and in a surprising finding at the time, even leading LLMs performed only marginally better than logistic regression on fraud detection and earnings forecasting. JFinBench evaluates LLMs on the 2026 editions of six Japanese financial certification exams, including the CPA and tax accountant exams. CoffeeBench (NeurIPS 2026), built with KPMG AZSA, tests whether LLM agents can run a business profitably over 90 days in a multi-agent coffee supply-chain economy. QD-Rec applies quality-diversity search to high-stakes decisions such as M&A, keeping an archive of diverse, well-reasoned candidates rather than a single ranked list. Some of the Applied Research Lab’s prior research. One of the Lab’s initial focuses will be on agent-based modeling, building on our existing work in this area. Shachi (ALIFE 2026) provides a simulation framework with LLM-powered agents with modular minds (configuration, memory, and tools), used to study how collective behavior, such as a market’s reaction to a tariff shock, emerges. CEDAR (ALIFE 2026) complements this by using LLM-guided tree search to discover and refine the structure of complex systems toward desired behaviors. The Lab also draws on advances across the company: ShinkaEvolve (ICLR 2026) and AB-MCTS (NeurIPS 2025) for search, evolving and refining code such as a trading strategy. Related work includes The AI Scientist (Nature, March 2026), which automates research from hypothesis to experiment to paper. Sakana AI has always held that progress comes through ideas rather than compute; at the Lab, we believe that advances come through understanding the structure of systems, scaling that understanding, and automating the building blocks of the process. Markets are the oldest form of collective intelligence, hence a natural subject for Sakana AI. And markets answer back: reflexivity is a feature of human systems. Join the Sakana AI Applied Research Lab The Lab is based at Sakana AI’s headquarters in Tokyo, one of the world’s great financial centers. We are building a small interdisciplinary team and would especially like to hear from two kinds of people: - Researchers from any quantitative discipline, such as physics, statistics, mathematics, or economics, who are driven by curiosity, program well in Python, and have done real research on real data. A PhD helps; a specialist background is not required. - Engineers who build harnesses, such as data pipelines, simulation infrastructure, and agent orchestration at scale, and who want their systems tested against the hardest data there is. If this sounds like you, we would love to hear from you. For now, the way in is through our Member of Technical Staff (MTS) internship or Visiting Researcher programs. Apply on our careers page and mention your interest in the Lab. We also welcome partners: institutions, investors, policy-makers, and firms with hard real-world problems. Get in touch. Japanese 複雑な現実のシステムをAIで理解する：Sakana AI Applied Research Labを設立 Read in English Sakana AIは、社内に新しい研究組織「Sakana AI Applied Research Lab」を設立しました。Applied Research Labは、当社の研究を大規模で複雑な現実のシステムに応用する研究グループです。システムへの理解を深めること、そしてその成果をお客様に提供することを目指します。 最初のプログラムは金融・経済分野で、今後ほかの分野にも広げていく予定です。 市場や経済のような複雑系は、LLMを使ったエージェントをひとつ用意すれば扱えるものではありません。システムを構成する単位や単位同士のつながり、ある部分の変化が他の部分にどう伝わるかを捉えたうえで、システムとしてモデル化する必要があります。 これまでは、どの問いを立てるか、何をモデル化するか、結果をどう評価するかを人間の専門家が決めてきたため、研究のスピードは人間の作業量に左右されてきました。現在のエージェント型AIは、モデルを大規模に実装・検証・改良できるようになりましたが、どの問いが重要かを判断するのはまだ得意ではありません。Applied Research Labでは、人間の知識を土台にしてAIの能力を組み合わせることを中心テーマとしています。 最初のプログラム ファイナンスは資産価格を、経済学はその背後にある経済システムを、それぞれ研究対象としてきました。AIを使うと、企業や取引といった細かい粒度で、ほぼリアルタイムにこの2つを結びつけられるようになります。そうなると、資産価格は経済の状態を映す指標として読めるようになります。Applied Research LabのComputational Finance and Economics（COFE）プログラムでは、市場で観測される価格と、その背後にある実体経済の両方を研究対象とします。 これまでの研究 Applied Research Labは、2023年7月の創業以来Sakana AIが取り組んできた研究、たとえば科学的発見の自動化、進化的探索、エージェントベース・シミュレーション、評価手法などをベースにしています。 とくに関係が深いのが、金融・経済分野でのこれまでのプロジェクトです。EDINET-Bench（ICLR 2026）は、日本企業の有価証券報告書10年分を使い、シングルターン・非エージェント型の設定でLLMの金融推論能力を評価するベンチマークです。会計不正の検知や業績予測では、最先端のLLMでもロジスティック回帰をわずかに上回る程度という結果になりました。JFinBenchは、公認会計士試験や税理士試験など、日本の6つの金融資格試験の2026年版をもとにLLMを評価するベンチマークです。有限責任 あずさ監査法人と共同開発したCoffeeBench（NeurIPS 2026）は、コーヒーのサプライチェーンを模したマルチエージェント経済の中で、LLMエージェントが90日間黒字で事業を運営できるかを検証します。QD-Recは、M&Aのような意思決定に品質多様性（Quality-Diversity）探索を応用し、単一のランキングではなく、多様で妥当な候補群を提示する手法です。 Applied Research Labの前身となる研究の一部。 当面の重点テーマのひとつは、これらの研究をもとにしたエージェントベース・モデリング（ABM）です。Shachi（ALIFE 2026）は、設定・記憶・ツールからなるモジュール型のLLMエージェントによるシミュレーション・フレームワークで、関税ショックに対する市場の反応のような集団的な振る舞いがどう生じるかを調べるために使います。CEDAR（ALIFE 2026）は、LLMを使った木探索によって複雑系の構造を見つけ、目的の振る舞いに近づくよう改良していく手法です。このほか、トレーディング戦略などのコードを進化的に改良するShinkaEvolve（ICLR 2026）やAB-MCTS（NeurIPS 2025）、仮説立案から実験、論文執筆までを自動化するAIサイエンティスト（Nature、2026年3月）など、社内のさまざまな研究成果も活用します。 Sakana AIは創業時から、AIの進歩には計算資源の量だけでなく、新しいアイデアが重要だと考えてきました。Applied Research Labでは、システムの構造を理解し、その理解を大規模に活用し、研究プロセスの一部を自動化することに取り組みます。市場は多くの参加者の判断が集まって成り立つ仕組みで、私たちの研究テーマとも相性がよい対象です。また市場は、それを観察し、働きかける人々の行動によって変化していきます。この再帰性（reflexivity）は、人間がつくるシステムに特有の性質です。 Applied Research Labへの参加 Applied Research Labでは、東京で少人数の学際的なチームをつくっています。特に次のような方を募集しています。 -",
+      "title_zh": "Sakana AI 发布模型评测与研究方法",
+      "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+      "key_points_zh": [
+        "主体是 Sakana AI，核心变化集中在模型评测与研究方法。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：research、agents、japan。",
+        "涉及公司或机构：Sakana AI。"
+      ],
+      "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Introducing the Sakana AI Applied Research Lab",
+          "source_url": "https://sakana.ai/applied-research-lab/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Sakana AI has a release or product update that may affect model capability, developer tooling or AI adoption.",
+          "source_url": "https://sakana.ai/applied-research-lab/"
+        }
+      ],
+      "slug": "introducing-the-sakana-ai-applied-research-lab-e5792abe",
+      "localized_url": "/zh/items/2026-11-22/introducing-the-sakana-ai-applied-research-lab-e5792abe/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Qwen4 Max is live on Together AI",
+      "title_original": "Qwen4 Max is live on Together AI",
+      "title_en": "Qwen4 Max is live on Together AI",
+      "summary_zh": "Together AI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Qwen4 Max, Alibaba's flagship Qwen model, is live on Together AI and 30% off through November 22, 2026. We sent it a bug report and an entire repository in one request. Its patch passed the project's tests, for 69 cents.",
+      "source_name": "Together AI Blog",
+      "source_url": "https://www.together.ai/blog",
+      "original_url": "https://www.together.ai/blog/qwen4-max",
+      "published_at": "Sat, 21 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-22T02:16:17.885244+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "Together AI"
+      ],
+      "tags": [
+        "infra",
+        "models"
+      ],
+      "importance_score": 42.0,
+      "freshness_score": 72.0,
+      "credibility_score": 76.0,
+      "duplicate_group_id": "3ac87bcc9a31",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Qwen4 Max is live on Together AI",
+      "extracted_excerpt": "Qwen4 Max, Alibaba's flagship Qwen model, is live on Together AI and 30% off through November 22, 2026. We sent it a bug report and an entire repository in one request. Its patch passed the project's tests, for 69 cents.",
+      "extracted_text_for_analysis": "- Qwen4 Max on Together AI: Alibaba's flagship Qwen model is available on Together Serverless Inference with a 1M-token context window. - What we tested: Qwen4 Max took a bug report and all 344 files of the Tornado repository in one request, and its patch passes the maintainers' tests. - Sale pricing: Through November 22, 2026, it costs \\$1.05 per 1M input tokens, \\$0.0525 per 1M cached input tokens and \\$3.15 per 1M output tokens. - Before you call it: Requests have to stream, and thinking is on by default, with thinking tokens counted as output tokens. We gave Qwen4 Max a bug report and an entire codebase in one request. The codebase was Tornado, the Python web framework: all 344 files, 652,519 tokens. The model had no tools, and we didn't select relevant files or run a retrieval step first. Seventy-two seconds later it returned a patch, and the patch passes the tests Tornado's maintainers wrote for that bug. The request cost 69 cents. It also found a precedent elsewhere in the repository. The bug report never mentions tornado/iostream.py, but the model pointed to code there that already handles errors the way its patch needed to. Tornado's maintainers cite the same code in their own fix. Qwen4 Max is Alibaba's flagship Qwen model. It's live on Together AI today, and it's 30% off through November 22, 2026. The test Tornado is an open-source Python web framework. Its repository holds about 340 files of code, tests and docs. That fits in Qwen4 Max's context window, and it's far more than anyone would paste into a prompt by hand. We picked a fix the maintainers committed on November 18, 2026, two days after Qwen4 Max was released, and tested against the repository as it was just before that commit. This is one example, chosen to show what a single call can do and what it costs. The bug is in Tornado's websocket code. When a connection closed with messages still unsent, every write_message() call that wasn't awaited logged an error, even though awaiting it is optional. We sent every text file in that checkout as one prompt, with a bug report that describes only the symptom: write_message logs \"Task exception was never retrieved\" when the connection closes When a websocket connection closes while messages are still unsent (for example, the client sends its messages and a FIN, or resets the connection, without reading the replies), every write_message() call whose result was not awaited logs \"Task exception was never retrieved\" at ERROR level. Awaiting the Future returned by write_message is optional, so an unawaited call should not log anything. A caller that does await it should still get WebSocketClosedError. We asked for the cause and a patch. This is the request, replayed: What came back The first token arrived after 54 seconds, and the reply was complete at 72. Qwen4 Max traced the error to WebSocketProtocol13.write_message in tornado/websocket.py. That method wraps each write in a task. When the connection closes, the task fails with an exception that nobody is required to collect, and Python logs that as \"Task exception was never retrieved.\" The model's patch marks the exception as retrieved. Nothing is logged, and a caller who does await the write still gets the error: The precedent is what makes the patch read like it belongs in the project. The model's explanation says the fix should do what BaseIOStream.write already does for its own futures. That method is in tornado/iostream.py, one layer below the websocket code, and it solves the same problem the same way. The maintainers' commit makes the same comparison. Nobody picked those files for it. All 344 went in, and the model found the two that mattered. How we checked it Tornado's maintainers added two regression tests with their fix: one for a write that isn't awaited, and one for a write that is. On the code before the fix, the first one fails. With the model's patch applied, both pass. We then ran Tornado's full suite, 1,673 tests, with the patch in place, and none failed. What it cost At the sale price, the request works out to about 69 cents, nearly all of it for the 652,519 input tokens. At list price it would be 98 cents. Sending the same repository again costs far less. Together AI caches prompt input automatically, and cached input is \\$0.0525 per million tokens during the sale. When we repeated a request of about 630,000 tokens, nearly all of it came back cached. The first token arrived in 8 seconds instead of 54, and the input cost about 3 cents instead of 66. About Qwen4 Max Alibaba released Qwen4 Max on November 16, 2026, and describes it as the most capable model in the Qwen family to date. It positions the model for long agent work, including coding across large repositories, which is the kind of task we tested. Qwen4 Max is a sparse mixture-of-experts model with 2.4 trillion parameters, of which 71 billion are active for each token. On Work360, Alibaba's own benchmark of industry tasks across 721 specialized fields, Alibaba reports that it outperforms Qwen3.8 Max overall, uses 35% fewer tokens at high reasoning effort, and costs about 60% less per task on average. Those are Alibaba's figures, and its announcement has the details. Run it on Together AI Qwen4 Max is on Together Serverless Inference under the model string Qwen/Qwen4-Max. This script sends a whole repository and a bug report in one request, the way our test did. You need the Together Python SDK (pip install together), a TOGETHER_API_KEY, a local clone of the repository and the bug report saved as bug_report.md. It sends every text file git tracks, so check the repository for secrets first. Two things in it are specific to this model. Requests have to set stream=True, because Qwen4 Max on Together AI accepts streaming requests only. And thinking is on by default, so the model's reasoning streams first in delta.reasoning and there's a pause before the answer starts. Thinking tokens count as output tokens. To skip the thinking on a simple request, pass reasoning={\"enabled\": False}. To try it without writing code, open it in the playground. The model page has the same details. FAQs How much does Qwen4 Max cost on Together AI? Qwen4 Max on Together AI has a list price of \\$1.50 per 1M input tokens, \\$4.50 per 1M output tokens and \\$0.075 per 1M cached input tokens. Through November 22, 2026, it's 30% off: \\$1.05, \\$3.15 and \\$0.0525. Thinking tokens count as output tokens. What is the context window of Qwen4 Max on Together AI? Qwen4 Max has a 1M-token context window on Together AI. In our test, a request with 652,519 input tokens returned its first token after 54 seconds. Does Qwen4 Max accept images? Yes, Qwen4 Max accepts text and image input on Together AI and returns text. Send each image as an image_url block in the message content, as described in the vision docs. Why does my Qwen4 Max request fail without streaming? Qwen4 Max on Together AI accepts streaming requests only. A request without \"stream\": true returns a 400 error",
+      "title_zh": "Together AI 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Together AI，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：infra、models。",
+        "涉及公司或机构：Together AI。"
+      ],
+      "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Qwen4 Max is live on Together AI",
+          "source_url": "https://www.together.ai/blog/qwen4-max"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Qwen4 Max, Alibaba's flagship Qwen model, is live on Together AI and 30% off through November 22, 2026. We sent it a bug report and an entire repository in one request. Its patch passed the project's tests, for 69 cents.",
+          "source_url": "https://www.together.ai/blog/qwen4-max"
+        }
+      ],
+      "slug": "qwen4-max-is-live-on-together-ai-3ac87bcc",
+      "localized_url": "/zh/items/2026-11-22/qwen4-max-is-live-on-together-ai-3ac87bcc/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+      "title_original": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+      "title_en": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+      "summary_zh": "Community Wisdom 306",
+      "summary_en": "Community Wisdom 306",
+      "source_name": "Lenny's Podcast",
+      "source_url": "https://www.lennysnewsletter.com/",
+      "original_url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+      "published_at": "Sat, 21 Nov 2026 16:49:56 GMT",
+      "fetched_at": "2026-11-22T02:16:17.885244+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "podcast",
+        "product",
+        "ai-products",
+        "startups"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "046340afda36",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Lenny's Podcast 讨论AI 代理工程与工具调用能力",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Lenny's Podcast，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：podcast、product、ai-products、startups。"
+      ],
+      "background_zh": "这条内容来自 Lenny's Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t",
+          "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Community Wisdom 306",
+          "source_url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context"
+        }
+      ],
+      "slug": "community-wisdom-handling-context-switching-with-multiple-agents-giving-046340af",
+      "localized_url": "/zh/items/2026-11-22/community-wisdom-handling-context-switching-with-multiple-agents-giving-046340af/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "[AINews] Riemann Hypothesis proved...twice independently",
+      "title_original": "[AINews] Riemann Hypothesis proved...twice independently",
+      "title_en": "[AINews] Riemann Hypothesis proved...twice independently",
+      "summary_zh": "November 20 2026 —",
+      "summary_en": "November 20 2026 —",
+      "source_name": "Latent Space",
+      "source_url": "https://www.latent.space/",
+      "original_url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+      "published_at": "Sat, 21 Nov 2026 05:02:13 GMT",
+      "fetched_at": "2026-11-22T02:16:17.885244+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "llm",
+        "agents",
+        "ai-engineering"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "2b32d4b379bc",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Latent Space 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Latent Space，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：llm、agents、ai-engineering。"
+      ],
+      "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "[AINews] Riemann Hypothesis proved...twice independently",
+          "source_url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "November 20 2026 —",
+          "source_url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/"
+        }
+      ],
+      "slug": "ainews-riemann-hypothesis-proved-twice-independently-45149ab5",
+      "localized_url": "/zh/items/2026-11-22/ainews-riemann-hypothesis-proved-twice-independently-45149ab5/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Security event: Prompt leakage for requests in June and July of 2026",
+      "title_original": "Security event: Prompt leakage for requests in June and July of 2026",
+      "title_en": "Security event: Prompt leakage for requests in June and July of 2026",
+      "summary_zh": "Together AI 更新了政府与国家安全合作原则，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "We are notifying customers about a security incident involving a subset of prompts submitted to Together AI’s serverless inference service in June and July 2026.",
+      "source_name": "Together AI Blog",
+      "source_url": "https://www.together.ai/blog",
+      "original_url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+      "published_at": "Sat, 21 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-22T02:16:17.885244+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "Together AI"
+      ],
+      "tags": [
+        "infra",
+        "models"
+      ],
+      "importance_score": 26.0,
+      "freshness_score": 72.0,
+      "credibility_score": 76.0,
+      "duplicate_group_id": "329b54ad7ed6",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Security event: Prompt leakage for requests in June and July of 2026",
+      "extracted_excerpt": "We are notifying customers about a security incident involving a subset of prompts submitted to Together AI’s serverless inference service in June and July 2026.",
+      "extracted_text_for_analysis": "We are notifying customers about a security incident involving a subset of prompts submitted to Together AI’s serverless inference service in June and July 2026. An unauthorized party downloaded stored prompt samples after a credential for a private repository was exposed in a public code repository. We apologize for this incident. We are reviewing the affected data to determine what information was exposed and which customers require direct notification. What happened As part of routine software testing, we collected prompt samples authorized for that use and stored them in a private Hugging Face repository. The samples came from requests to the MiniMax M3, GLM-5.2, and Kimi K2.6 models, primarily on June 24, July 4, July 8, and July 14, 2026. During development of our public GitHub repository, xorl, an AI coding agent committed a credential that provided access to the private Hugging Face repository. Our automated scanning detected the exposed credential, and we reverted the commit. During the exposure window, an unauthorized party obtained the credential and used it to download the stored prompt samples. The party subsequently searched those samples for credentials to other services and tested whether those credentials were valid. Five of the credentials tested were canary credentials associated with a Dragos security experiment. We have no reason to believe the unauthorized party has leaked this data further and understand that it has now been deleted. Investigation and scope We have worked with an external forensic investigation firm and law enforcement to investigate the incident. Based on our review, we have not identified evidence of additional prompt leakage beyond this incident. Our review of the affected prompt contents is ongoing to determine whether sensitive personal information or other customer data was exposed. We will contact affected customers directly as needed with the findings relevant to them. Changes we have made Following the incident, we strengthened controls around development workflows, credentials, and customer data. These changes include: - Using scoped or short-lived credentials, and keyless access where supported, to reduce the potential impact of credential exposure. - Checking all pull requests for credentials. - Making zero data retention (ZDR) the default setting for new accounts. - Updating our development processes governing the use of AI coding agents. What customers can do Customers handling sensitive prompt data should enable ZDR in their account settings. If you have questions about this incident or its potential impact on your organization, contact security@together.ai. Vipul Ved Prakash CEO and Co-founder, Together AI",
+      "title_zh": "Together AI 推进政府与国家安全合作原则",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Together AI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Together AI，核心变化集中在政府与国家安全合作原则。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：infra、models。",
+        "涉及公司或机构：Together AI。"
+      ],
+      "background_zh": "这条内容来自 Together AI Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "inference",
+          "explanation": "模型根据输入生成输出的运行过程，直接影响速度与成本。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Security event: Prompt leakage for requests in June and July of 2026",
+          "source_url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026"
+        },
+        {
+          "label": "公开摘要",
+          "text": "We are notifying customers about a security incident involving a subset of prompts submitted to Together AI’s serverless inference service in June and July 2026.",
+          "source_url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026"
+        }
+      ],
+      "slug": "security-event-prompt-leakage-for-requests-in-june-and-july-of-2026-329b54ad",
+      "localized_url": "/zh/items/2026-11-22/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026-329b54ad/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    }
+  ],
+  "failures": []
+}
