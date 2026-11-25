@@ -1,0 +1,1169 @@
+{
+  "date": "2026-11-25",
+  "title_zh": "AI 新闻简报 · 2026-11-25",
+  "title_en": "English AI News Brief · 2026-11-25",
+  "overview_zh": "本期从 181 个结构化来源中生成，候选 152 条，跨期排除历史已展示 135 条，入选 17 条。首页标题进入站内中文研究页，原始来源在详情页保留，可追溯、不伪造、不绕过付费墙。",
+  "overview_en": "This brief is generated from 181 structured sources with 152 candidates, 135 previously displayed items excluded, and 17 selected items. Chinese pages link to internal research digests while preserving original source links.",
+  "source_count": 181,
+  "candidate_count": 152,
+  "skipped_history_count": 135,
+  "selected_count": 17,
+  "categories": [
+    "company-industry",
+    "models-products",
+    "podcasts-interviews",
+    "research-open-source"
+  ],
+  "category_labels_zh": {
+    "company-industry": "公司与产业",
+    "models-products": "模型与产品",
+    "podcasts-interviews": "访谈与播客",
+    "research-open-source": "研究与开源"
+  },
+  "items": [
+    {
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "title_original": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "title_en": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "published_at": "Tue, 24 Nov 2026 13:00:00 GMT",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "3c6728c1bfd1",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "extracted_excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "extracted_text_for_analysis": "- Our GPT‑6 family of models can design new protein shapes and the sequence of their chemical building blocks using only reasoning and code, without calling specialized biology models to generate those designs. - An internal research model matched or outperformed specialized models on many protein design tasks. Researchers could also guide designs by prompting the model on where a protein should attach and what shape it should take. - In lab tests with Onava, proteins based on GPT‑6.2’s designs showed evidence of binding, or attachment, across five targets. Redesigned antibodies also retained binding. Specialized models helped supply sequences and select candidates for testing. - The models’ written reasoning and code suggest they draw on math, physics, chemistry, and biological knowledge to reason about protein shapes and interactions with other molecules. In a preprint titled GPT‑6 as a Universal Foundation Model for Protein Biology: Beyond Specialized Models, we show that our GPT‑6 family of models has intrinsic capabilities for designing new proteins: the models can design new protein structures and sequences without relying on specialized biology models, using only reasoning and general-purpose coding tools. Proteins do much of the work in living cells. They drive the chemical reactions that sustain life, carry oxygen through the blood, and defend the body against infection. Incorrectly shaped proteins can also cause disease and dysfunction. Proteins are made from chains of chemical building blocks called amino acids. The order, or sequence, of these amino acids helps determine how a protein folds into a three-dimensional shape, which in turn influences what it does. Scientists often start with a clear idea of what they want a protein to do. They might want it to block a signal that helps cancer cells evade the immune system or to help capture carbon dioxide from the air. The challenge is to work out what three-dimensional structure would enable the protein to do its job and which amino acid sequence would give it that structure. Specialized biology models capable of generating three-dimensional protein structures and sequences have made this work more practical. Using and coordinating these specialized models requires substantial expertise. Each accepts particular kinds of inputs and constraints, and these models cannot easily accept new kinds of information without changes to their software or additional training. In contrast, a general-purpose model capable of performing the work of multiple specialized models can easily adapt to new instructions and requirements. Our research illustrates the potential power of pairing natural language with intrinsic protein capabilities. We could guide our models at scales ranging from a single bond between two atoms to the overall shape of a protein. For example, we asked GPT‑6.2 to predict where and how a small molecule would bind to a protein. When we already knew which two atoms formed a bond, we could give the model that information and ask how the rest of the molecule would fit. We could switch between these tasks simply by changing the prompt, without retraining the model. We also asked our models to design small proteins called minibinders and marked where each should attach to its target, and further specified how many coils or strands each minibinder should contain. An internal model followed that instruction with near-perfect fidelity in its three-dimensional designs. We ran computational tests of whether the GPT‑6 models series could design small proteins to bind given targets, build proteins around specified structural features, predict protein structures and molecular interactions, and rank how sequence changes affect properties such as stability and binding. Our latest models performed comparably to or better than specialized models on most tasks, although predicting a complete protein structure remained a clear weakness. The models’ written reasoning and code offer clues to how they approach these tasks. They draw on mathematics, physics, chemistry, and coding alongside knowledge of recurring patterns in protein sequences and structures. For example, when designing a small protein intended to bind to IL-7Rα, the model proposed how the two proteins might interact, then wrote and executed code to explore different protein shapes and amino acid choices that could support that interaction. With our research partner, Onava(opens in a new window), we also tested the models’ structure and sequence designs in the lab. First, Onava made small proteins based on three-dimensional structures designed by a pre-released version of GPT‑6.2. Specialized models supplied amino acid sequences and helped select candidates for testing. For each of the five targets we chose, at least one protein showed evidence of binding in the lab. In separate experiments, GPT‑6.2 designed new amino acid sequences for existing minibinders and antibodies. Following candidate selection with specialized models, many of the redesigned proteins also showed evidence of binding to the same targets as the originals. Our first laboratory experiment tested whether GPT‑6.2 could design small proteins that would bind to their intended targets. We compared computational measurements of quality against RFdiffusion, a specialized model for protein design, and found that GPT‑6.2’s three-dimensional designs scored slightly lower while our latest internal models scored higher. For the lab experiment, we made proteins based on GPT‑6.2’s designs and measured how strongly they bound to their targets. We gave GPT‑6.2 the three-dimensional structures of five target proteins and marked where we wanted a minibinder to attach. It then wrote code to create three-dimensional designs for potential minibinders, without using specialized protein AI models. To turn GPT‑6.2’s three-dimensional designs into proteins we could test in the lab, we needed amino acid sequences that would fold into the proposed structures. We used a specialized AI model called SolubleMPNN to suggest sequences for each design. Other specialized protein models helped us select candidates predicted to fold as designed and bind at the intended site on the target. We tested 322 minibinders against 5 targets in the lab. Of those, 35 (10.9%) tested positive for binding to their intended target. We found 5 hits for PD-L1 (a protein some cancers use to evade the immune system), 3 for IL-7Rα, 1 for TrkA, 8 for VEGF-A and 18 for IL-17A. The original RFdiffusion study(opens in a new window) reported higher hit rates, but rates depend heavily on how strictly researchers filter designs before lab validation and their definition of binding. Nevertheless, our results provide early evidence that we can turn GPT‑6.2’s three-dimensional designs into proteins that bind to their intended targets in the lab. We tested whether GPT‑6.2 could design the sequences itself. We gave it three-dimensional models of how existing",
+      "title_zh": "OpenAI 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "source_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+        },
+        {
+          "label": "公开摘要",
+          "text": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+          "source_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+        }
+      ],
+      "slug": "gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-3c6728c1",
+      "localized_url": "/zh/items/2026-11-25/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-3c6728c1/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Searching for distant planets with Astra",
+      "title_original": "Searching for distant planets with Astra",
+      "title_en": "Searching for distant planets with Astra",
+      "summary_zh": "OpenAI 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "published_at": "Tue, 24 Nov 2026 11:00:00 GMT",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "f3aa9260f109",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Searching for distant planets with Astra",
+      "extracted_excerpt": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "extracted_text_for_analysis": "Searching for distant planets with Astra Two amateur astronomers used Codex and Astra to look for signs of planets in public telescope data. Now they’ve given professional astronomers a few places to look more closely. Astronomers have confirmed more than 6,400 planets beyond our solar system(opens in a new window) since the first ones were announced in 1992(opens in a new window). A worldwide community of amateur astronomers has long been part of that search. Some comb through public telescope data for small, repeated dips in a star’s brightness that could signal an orbiting planet. Others use their own telescopes to watch for the next dip and share what they see with researchers. Astronomers have used AI in this search for years. In 2017, researchers trained a neural network on 15,000 signals from NASA’s Kepler Space Telescope(opens in a new window) that astronomers had already examined. From those examples, the model learned to recognize which patterns in starlight were most likely to come from a planet. When the researchers used it to examine weaker signals, one led them to an eighth planet orbiting a star called Kepler-90(opens in a new window). Now, tools like Astra are helping amateur astronomers design and run searches of their own, often on data that has already yielded the more obvious exoplanet signals. Kevin Bond, an engineer at OpenAI, came to astronomy through his love of photographing the night sky. He used Codex to search observations of about 100,000 stars from the Kepler telescope, a planet-hunting mission that ran from 2009 to 2018. Ethan Byrd, founder of the email infrastructure start-up Primitive, has always loved astronomy. Working independently of Bond, he tried several AI models before choosing Astra to help him analyze telescope data from about 19 million stars. Both searches identified potential exoplanets. Bond and Byrd have now turned to astronomers for an independent assessment of their results. Bond contacted an astronomer at the SETI Institute, who ran an independent search and found two of the same signals in the Kepler data. Byrd sent one of his strongest candidates to researchers working on NASA’s Transiting Exoplanet Survey Satellite (TESS) mission. It’s in line for further analysis, and two more candidates are awaiting submission. One of the most common ways to find an exoplanet is to watch the star it orbits. When a planet passes in front of its star from our point of view on Earth, it blocks a tiny amount of starlight. Astronomers call that crossing a transit. On a graph of the star’s brightness over time, known as a light curve, a transit shows up as a dip. If the dip keeps coming back at regular intervals, astronomers know when to watch for it again. Searching for that pattern across thousands of stars is partly a coding problem. Astronomers have published methods for picking out faint, recurring dips in years of measurements. Bond used Codex to compare those methods, combine them in a search program, and test whether changes to the code improved the search. One AI agent scanned the light curves for promising signals. Another ran more detailed checks on the candidates the first one flagged. Bond ran the program on public data from the Kepler Space Telescope. The search flagged more than 200 signals, including 10 from previously confirmed planets. Finding those known planets gave Bond confidence that the program could pick out the kinds of signals he was looking for. Two stars stood out. The first, KIC 5689121, is a relatively cool star about half the size of our sun in the constellation Lyra. The Codex search found a dip in brightness every 13.8 days. If a planet is causing it, the amount of light it blocks suggests it could be about 2.4 times Earth’s diameter. The second star, KIC 6691030, is faint and lies in the northern sky. The Codex search found a dip in its brightness every 4.8 days, consistent with a planet smaller than Neptune. These were the two signals the SETI Institute astronomer found independently. Confirming what caused them could take months or years. “Kevin’s work shows how citizen scientists, equipped with AI, can help astronomers explore the Kepler Bonus Catalog—a vast collection of stars beyond Kepler’s original targets. His pipeline has surfaced promising candidates in data traditional searches may have missed. Our initial checks are encouraging, and follow-up observations will tell us more.” Byrd used Astra to design two searches. One looked broadly for exoplanet candidates. The other focused on stars’ habitable zones. A habitable zone is the range of distances from a star where a planet with a suitable atmosphere could support liquid water on its surface. Byrd then asked Astra to review published methods, build the search software, and run initial checks on promising signals. His searches drew on observations from TESS, which NASA launched in 2018, and from other public telescope archives. The first pass through the data turned up 49 candidates. Byrd sent one of his strongest candidates to researchers working on the TESS mission, where it is awaiting further analysis. His search is still running. When astronomers see a star dim, they have to consider what else might explain it. Two stars passing in front of one another can produce a similar dip. Even a change in temperature aboard a telescope can affect its instruments enough to make a star appear to dim. Astronomers can use statistics to show that an exoplanet is the most likely explanation for a series of dips. They can also collect more observations, sometimes using a different method. For example, an orbiting planet’s gravity tugs on its star, causing it to move slightly toward and away from us. That motion, called radial velocity, shows up as tiny shifts in the color of the star’s light. Astronomers then publish their findings in a peer-reviewed journal so others can examine the evidence. For Bond and Byrd, each candidate is a question that can be tested. If a planet is passing in front of the star in Lyra every 13.8 days, astronomers can watch for the next crossing. Further observations can help establish whether the dip repeats as expected, while additional checks can help determine what is causing it. You can contribute without owning a telescope. NASA’s Exoplanet Watch(opens in a new window) lets you request data and learn to plot a light curve yourself. Its broader exoplanet citizen science programs(opens in a new window) offer other ways to participate. If you have access to a telescope, Exoplanet Watch walks users through how to collect data on transiting exoplanets and participate in observation campaigns. AAVSO’s Exoplanet Observing Program(opens in a new window) can show you how to measure a dip in starlight and share your observations with the researchers studying that planet. And the Unistellar Network Investigating TESS Exoplanets(opens in a new window) coordinates volunteers around the world with a certain type of telescope to observe",
+      "title_zh": "OpenAI 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Searching for distant planets with Astra",
+          "source_url": "https://openai.com/index/searching-for-distant-planets-with-astra"
+        },
+        {
+          "label": "公开摘要",
+          "text": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+          "source_url": "https://openai.com/index/searching-for-distant-planets-with-astra"
+        }
+      ],
+      "slug": "searching-for-distant-planets-with-astra-f3aa9260",
+      "localized_url": "/zh/items/2026-11-25/searching-for-distant-planets-with-astra-f3aa9260/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "How Intentful uses dots to make more time for growth",
+      "title_original": "How Intentful uses dots to make more time for growth",
+      "title_en": "How Intentful uses dots to make more time for growth",
+      "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/business/customer-stories/intentful-dots",
+      "published_at": "Tue, 24 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "ec442b764e04",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "How Intentful uses dots to make more time for growth",
+      "extracted_excerpt": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "extracted_text_for_analysis": "How Intentful uses dots to make more time for growth How a small business founder’s dot helps her with research and proposals, while alerting her to critical messages and resolving issues. Marina Petrova is CEO and cofounder of Intentful(opens in a new window), a lean team that helps brands make their marketing interactive, with products such as ads that answer customers’ questions in real time and tools that make website information readable by AI. The company also advises and trains marketers on using AI. In travel and tourism, Intentful works with destination organizations and local businesses such as hotels, restaurants, and attractions. A custom proposal is part of how Marina wins their business, showing prospects what’s possible and what it would take to deliver. To keep Intentful growing, she needed more room for that strategic work, but she was spending too much time on research, hunting for files, and formatting decks. Her dot changed all that, taking on tasks and meeting Marina’s needs before she even had to ask. “My dot makes me feel like I gained a new superpower.” For one of Intentful’s tourism clients, Marina wanted to propose a package of Intentful’s AI services for hundreds of local businesses in the destination. Before she could price the package, she needed to work out which businesses’ websites the package could cover and what Intentful had charged other clients for similar work. She brought in her dot, which she named Aria, to help her get from research to a proposal she could put her name on in a few hours instead of several days. First, Marina gave Aria a spreadsheet of URLs and criteria for deciding which sites to include. For example, a site needed a readable sitemap listing no more than 3,000 pages. “My dot looked through about 300 website sitemaps, helped me figure out which sites to include in a new offer for local businesses, and pulled pricing from past agreements.” Next, Aria helped Marina research pricing. Through ChatGPT(opens in a new window) plugins, Aria reviewed Intentful’s sales data, including past engagements and discussions in HubSpot. It surfaced pricing from earlier agreements and context from Intentful’s plans for the following year. Using that data, Marina and Aria then built a pricing model: page counts determined the pricing tier, and previous customer agreements also informed the price. “We worked through a custom pricing model together, and then Aria turned it into a one-page proposal I reviewed and edited,” said Marina. When drafting proposals, Aria knows to use Intentful’s templates from Google Drive. Marina can also point Aria to an earlier proposal as a reference, so the draft follows Intentful’s style from the start. “I need to say what needs to be in a proposal, but I don’t need to spend an hour figuring out its layout. My dot handles that,” Marina says. Aria can also spot things Marina hadn’t thought to check. When Marina asked Aria to reuse pricing from an earlier proposal, it noticed that the original renewal date didn’t match the timing she remembered. Aria flagged the discrepancy and left the date out of the new draft. Marina uses the Gmail and Slack plugins in ChatGPT to catch up on conversations, find open tasks, and see where the team needs her. Aria checks for messages that need Marina’s attention. While Marina was offline, Aria spotted a reply she had been waiting for and let her know it included an invitation for a call that morning. Marina also uses Aria to talk through ideas, find conversations, check an account’s history in the CRM, or open and assign tasks in Asana. She often briefs Aria by phone while she travels. “On a long drive, I call my dot and talk through what needs to get done. We chat through updates for client proposals, and my dot already knows the structure, the formatting, and what needs to be done.” Marina loves that her dot works in the tools she already uses. When Aria writes a draft, Marina can leave comments in Google Docs exactly where she wants changes. On longer documents, she asks Aria to use suggesting mode so she can see what changed. Aria also keeps up with changes in shared work without being asked. For a conference presentation, Marina created the deck and a colleague added two slides. “Aria noticed the new slides, updated the speaker notes without being asked, and let me know,” Marina says. Marina chooses which information Aria can access and always reviews outgoing email. She can keep work moving without handing over the final call. When Marina prepared an AI 101 session on agents, she used Aria to help build the lesson. The process was itself an example of what she wanted attendees to learn: delegate a real task, give the agent enough context, challenge the result, and stay in control of what goes out. Aria’s support continued even after the class. After a flight, Marina saw a participant’s request for access to a training file. When she checked with Aria, it had already shared the file. And after a session for 50 marketers, Aria noticed that a software glitch was preventing participants from opening the recording. It flagged the access issue and offered to fix it before the link was shared. “With my dot, I can focus on strategic things. I can focus on ideas and growth.”",
+      "title_zh": "OpenAI 推进模型评测与研究方法",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "How Intentful uses dots to make more time for growth",
+          "source_url": "https://openai.com/business/customer-stories/intentful-dots"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+          "source_url": "https://openai.com/business/customer-stories/intentful-dots"
+        }
+      ],
+      "slug": "how-intentful-uses-dots-to-make-more-time-for-growth-ec442b76",
+      "localized_url": "/zh/items/2026-11-25/how-intentful-uses-dots-to-make-more-time-for-growth-ec442b76/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "title_original": "How iFood scales coding agents across 15,000 repositories",
+      "title_en": "How iFood scales coding agents across 15,000 repositories",
+      "summary_zh": "OpenAI 更新了代码评测可靠性问题，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "OpenAI has an AI update relevant to product, industry or technical direction.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/business/customer-stories/ifood",
+      "published_at": "Tue, 24 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "7a6462e387eb",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "How iFood scales coding agents across 15,000 repositories",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "15,000 code repositories at iFood 25,000+ runs completed by the platform US$0.04 average inference cost per run 2x+ as many vulnerabilities fixed through the security platform The Remote Agents Platform turned engineering tasks into API calls: teams delegate the work, execution takes place in a remote sandbox, and the result comes back as a merge request. In the internal security platform, the number of vulnerabilities fixed more than doubled. iFood maintains more than 15,000 code repositories. Each periodically needs specific tasks performed: validating code to ensure it meets internal standards, fixing vulnerable dependencies, or running an analysis. None of these tasks is difficult on its own. The challenge comes when those tasks multiply. “Solving this for one repository is easy. The challenge is solving it at scale,” says Victor Coelho, Senior Software Engineer at iFood. “The Remote Agents Platform is designed to make it possible to solve this at scale across all 15,000 repositories.” Before the platform, each team tackled the problem in its own way—and they all ran into the same obstacle. “Before, we had fragmented solutions. Imagine several teams at iFood trying to solve different problems, but without this layer, this agentic runtime, available to them. In the end, those solutions always ran into the same problem.” What was missing wasn’t intelligence or a use case. It was execution infrastructure. A dedicated runtime. “Teams can focus on solving their business problems and delegate execution to our platform.” The team describes the Remote Agents Platform as an API that launches a remote agentic coding task. The cycle has three steps: the user submits a prompt and environment requirements through a REST call; the platform processes the task on a dedicated remote runner inside an isolated sandbox; and the result is retrieved later. “The platform’s entry point, its interface, is a simple REST API. Users can use this API to create the runs they need. Internally, we handle and manage the entire lifecycle and delegate execution to isolated sandboxes,” he explains. Task progress can be monitored in real time. The runner’s internal design alternates between two different types of steps—and that combination makes the overall workflow predictable. Deterministic steps bookend the workflow: cloning the repository, importing the skills the agent can use, and setting up the working branch at the start; publishing the merge request and making the generated artifacts available at the end. In between is the agentic execution itself, running GPT‑5.6 Luna inside the sandbox. “It’s a combination of those two things: deterministic steps and agentic execution within the workflow.” The sandbox runs Ubuntu and includes the toolchains iFood’s ecosystem requires—Python, Java, Kotlin, C#, TypeScript, Rust, JavaScript, and Go—along with general-purpose tools. Beyond the sandbox, the agent can access Nexus, GitLab, Docker, Snyk, Kubernetes, and AWS. The model choice came down to three factors considered together, rather than just one. “We chose GPT‑5.6 Luna because, among models at the same checkpoint, the benchmarks showed it offered a great balance of intelligence, efficiency, and execution speed—how quickly it could complete tasks. Those three qualities together led us to choose GPT‑5.6 Luna.” That balance matters more for a platform built to scale than it would for a one-off use case. With tens of thousands of tokens being consumed, the average cost of four U.S. cents per run stops being a minor detail and becomes an architectural consideration. “Given our plans to scale the platform across many use cases at iFood, the balance of efficiency and intelligence that OpenAI’s model provides ensures we can scale sustainably.” Delegating execution at scale creates a new challenge: automatically determining whether the agent did what it was supposed to do. iFood’s answer comes in the step after the session. Once execution is complete, the result is processed using OpenAI’s Structured Outputs, which requires the output to conform to a predefined contract. “We process the result using Structured Outputs, which ensures the response follows a predefined contract. From the agent’s session, we can identify the outputs within the response structure we expect. This helps reduce uncertainty and ensures we can always get a response from the agent’s session, whether positive or negative.” The platform already powers an internal iFood security product that scans the 15,000 repositories for vulnerable dependencies and attempts to fix them. The migration had a direct impact: “With our platform, the accuracy of those changes, those fixes, more than doubled,” says Coelho. This use case illustrates the idea behind the platform: the security team didn’t need to build its own agentic runtime or become experts in agent orchestration. It needed to call an API. The team emphasizes what asynchronous execution frees developers to do, rather than replacement. Because the task is delegated and runs without supervision, the developer doesn’t have to stay focused on monitoring it. “While they’re in a meeting, they can launch a code fix, a performance analysis, or another task that’s a little more routine—something they can delegate without having to monitor it at that moment.” Routine work no longer competes for the team’s attention. That leaves time for problems that require judgment. “You can unlock those productivity gains without necessarily having to monitor the work as it happens.” The Remote Agents Platform was designed as an internal layer with similarities to the way OpenAI makes this type of task available to external customers. “The Remote Agents Platform drew a lot of inspiration from OpenAI’s APIs, both the Batch API and the Agents API, which is an even more recent OpenAI product. We built a platform that resembles those products, but is internal to iFood.” The inspiration went beyond the concept. It extends to the design of the interfaces, the organization of resources, and the approach to asynchronous execution with results retrieved later. “These products directly inspired how we built our solution.” - The platform has completed more than 25,000 tasks, consuming more than 27 billion tokens, at an average cost of US$0.04 per run. - After migrating to the Remote Agents Platform, the internal security platform more than doubled both the accuracy of its fixes and the number of vulnerabilities resolved. - Coverage extends across iFood’s more than 15,000 code repositories. - All runs use GPT‑5.6 Luna, chosen for its balance of intelligence, efficiency, and speed. - Structured Outputs ensures that each session returns a result that follows a predefined contract, whether positive or negative. - Product teams have moved from building fragmented solutions to delegating agentic execution through a REST API. - The bottleneck is often the runtime, not the use case. Several teams already knew what they wanted to",
+      "title_zh": "OpenAI 推进代码评测可靠性问题",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在代码评测可靠性问题。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "coding",
+          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "How iFood scales coding agents across 15,000 repositories",
+          "source_url": "https://openai.com/business/customer-stories/ifood"
+        },
+        {
+          "label": "公开摘要",
+          "text": "OpenAI has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://openai.com/business/customer-stories/ifood"
+        }
+      ],
+      "slug": "how-ifood-scales-coding-agents-across-15-000-repositories-7a6462e3",
+      "localized_url": "/zh/items/2026-11-25/how-ifood-scales-coding-agents-across-15-000-repositories-7a6462e3/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "title_original": "Clay helps sales teams win with Codex and ChatGPT",
+      "title_en": "Clay helps sales teams win with Codex and ChatGPT",
+      "summary_zh": "OpenAI 更新了模型评测与研究方法，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "source_name": "OpenAI News",
+      "source_url": "https://openai.com/news/",
+      "original_url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "published_at": "Tue, 24 Nov 2026 00:00:00 GMT",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [
+        "OpenAI"
+      ],
+      "tags": [
+        "openai",
+        "models",
+        "product"
+      ],
+      "importance_score": 60.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "99b93f3e1098",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Clay helps sales teams win with Codex and ChatGPT",
+      "extracted_excerpt": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "extracted_text_for_analysis": "Clay helps sales teams win with Codex and ChatGPT ChatGPT and Codex integrations help Clay users research deals and turn data into go-to-market plays, and GPT‑6 models handle the reasoning. Even when sales teams have plenty of data about a prospect, they can still struggle to understand what matters most and develop a winning pitch. Clay(opens in a new window) is a self-learning revenue engine designed to help. Using GPT‑6 Astra, GPT‑6 Sol, and other models, Clay enables users to build lists of companies and people, enrich those records using agents, and use that information in go-to-market plays. Clay also brings these capabilities to where customers are already working with plugins for Codex and ChatGPT, making it easier to create and run go-to-market workflows and research accounts and deals. “Clay in ChatGPT gives sales reps a way to understand more about the customers they’re trying to sell to. It brings all of that rich context to the places they’re already working.” Clay’s Codex integration lets builders create and run go-to-market plays in Codex, while giving sales reps access to data they can use to research an account or understand a deal they’re trying to close. Jeff has seen reps combine information from their own systems and public datasets to determine how to best communicate their product’s value to a customer. “Customers love using Codex for a lot of different tasks in sales,” he says. “We’ve seen the best sales reps be the most empowered by this.” Clay’s ChatGPT plugin brings the same customer data into another tool reps already use, helping them learn more about prospects without leaving ChatGPT. Jeff says, “It’s been a big success.” OpenAI models power Claygent’s research, qualification, enrichment, and signal detection, as well as the agent that helps users build workflows and coordinate other Clay agents. Clay uses GPT‑6 Sol as its primary model, with GPT‑6 Astra for harder tasks and GPT‑6 Luna for cost-sensitive work. That range supports background research and copywriting as well as agents that users work with directly. “GPT-6 Sol is a really great model for go-to-market plays. It has really good intuition and can build long-horizon, outcome-based go-to-market tasks.” The Responses API lets Clay use different levels of intelligence and cost through the same interface. “Having the same Responses API across the different price points is something that’s super appealing to us with OpenAI models,” said Jeff. GPT‑6 Astra also helps Jeff build and test software. He used to spend much of his time manually checking features he had built; now he can ask GPT‑6 Astra to handle more of that work. He explains, “GPT‑6 Astra really changed how I build software because it fully closed the loop on the engineering process. Now I can have Astra write code, add tests, and then actually run the tests and test the feature and record that and upload that in the PR. It simplifies my life a lot.” For Clay’s customers, Jeff sees GPT‑Live‑1 as a way to use Clay and Codex by voice and help prospects learn about a product. Clay is working on inbound sales development features that would let an agent show a product or service to a prospect. He also sees the Decisions API as another way to integrate models into Clay and open up new use cases. Clay’s ambition is to carry go-to-market workflows from start to finish, with agents that improve as they learn from the results. For Jeff, the goal is to empower builders “to bring the same shift that happened in software engineering to go-to-market.”",
+      "title_zh": "OpenAI 推进模型评测与研究方法",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 OpenAI 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 OpenAI，核心变化集中在模型评测与研究方法。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：openai、models、product。",
+        "涉及公司或机构：OpenAI。"
+      ],
+      "background_zh": "这条内容来自 OpenAI News，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Clay helps sales teams win with Codex and ChatGPT",
+          "source_url": "https://openai.com/business/customer-stories/clay-plugins-openai"
+        },
+        {
+          "label": "公开摘要",
+          "text": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+          "source_url": "https://openai.com/business/customer-stories/clay-plugins-openai"
+        }
+      ],
+      "slug": "clay-helps-sales-teams-win-with-codex-and-chatgpt-99b93f3e",
+      "localized_url": "/zh/items/2026-11-25/clay-helps-sales-teams-win-with-codex-and-chatgpt-99b93f3e/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "title_original": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "title_en": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "summary_zh": "Hugging Face Blog 更新了模型或产品能力更新，关键在于模型能力、部署成本、权限控制或开发者工作流的实际变化。",
+      "summary_en": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Hugging Face Blog",
+      "source_url": "https://huggingface.co/blog",
+      "original_url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "published_at": "Tue, 24 Nov 2026 16:34:13 GMT",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "models-products",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "open-source",
+        "models",
+        "developer"
+      ],
+      "importance_score": 44.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "16565a3f5dc0",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "success",
+      "quality_warnings": [],
+      "extracted_title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "extracted_excerpt": "A Blog post by NVIDIA on Hugging Face",
+      "extracted_text_for_analysis": "Add local obstacle avoidance to Microduck while keeping its walking policy fixed. Build varied courses with reusable SimReady assets, model ToF sensing with Newton’s raycaster, and train a controller in Isaac Lab to adjust gamepad velocity commands around obstacles. This tutorial covers simulation training, evaluation, export, and real-robot deployment. A walking policy can keep Microduck balanced, but it does not tell the robot how to steer around an obstacle in its path. In this workflow, we reuse the walking policy from our first Microduck tutorial and keep its weights fixed. This follow-up trains a separate avoidance controller using time-of-flight (ToF) sensing. You choose a direction with a gamepad; the controller adjusts the velocity command before passing it to the walking policy. NVIDIA Isaac Lab is an open-source framework for training policies across thousands of GPU-parallel simulations and it provides the robot-learning environment. Newton simulates physics and the sensor’s depth measurements. We will cover the control architecture, train on varied obstacle layouts, evaluate the resulting policies, and prepare the interface for hardware testing. For simulation and training, prepare: - A Linux system with a compatible NVIDIA GPU and driver. See the Isaac Lab installation guide for platform requirements. - Git with Git LFS, and the uv package manager. For physical-robot testing, prepare: - A configured Microduck. Load the same backlash walking-policy export used by the navigation task. - A supported ToF sensor with its configuration recorded. - A paired gamepad and a level test area with obstacles. Install uv if it is not already installed. Then clone the exp/microduck branch of the Isaac Lab repository and install its dependencies: git lfs install git clone --branch exp/microduck https://github.com/isaac-sim/IsaacLab.git cd IsaacLab uv sync --frozen Once setup is complete, list the available Microduck environments and presets: uv run isaaclab list_envs --keyword MicroDuck --show_presets Download and export the upstream backlash walking checkpoint once before training. The obstacle avoidance task loads the exported walking policy automatically. uv run isaaclab play \\ --task IsaacContrib-Velocity-Rough-MicroDuck \\ --rl_library rsl_rl --checkpoint pretrained \\ --num_envs 1 --visualizer none \\ --video newton_gl --video_length 1 \\ presets=backlash The environment combines simple primitives with OpenUSD assets available through SimReady Central on Hugging Face. We use a cardboard box, office bin, bedside cabinet alongside cones. From the IsaacLab repository root, download the pinned box, bin and cabinet packages into assets/simready. uvx --from huggingface-hub hf download nvidia/simready-assets \\ --repo-type dataset \\ --revision 9d4556bfe80868c1d27a7a7ba1c2774e63e8cedd \\ --include \"box_cardboard_a01/*\" \\ --include \"trashCan_office_black_a03/*\" \\ --include \"table_bedside_b01/*\" \\ --local-dir ./assets/simready At each episode reset, the environment code automatically samples a layout, shuffles the props, and varies their placement and rotation. Most courses scatter obstacles ahead of the duck, with a smaller mix of clear paths, barriers and passages. The code also mirrors layouts and mixes aligned and staggered rows. Goals start ahead of the duck. Movement commands guide it toward the goal while the policy adjusts them around obstacles. Figure 1. Varied obstacle-course layouts with SimReady assets and primitive geometry. The IsaacContrib-ObstacleAvoidance-Flat-MicroDuck task separates obstacle avoidance from balance. A navigation policy uses ToF sensing to adjust forward, lateral, and yaw commands at 50 Hz. The frozen walking policy then converts those commands into joint actions, allowing the robot to learn obstacle avoidance without retraining its walking behavior. During training, the navigation policy’s actor receives ToF history and body and controller state available on the real robot. Its critic has access to additional simulation state to guide learning, but is not needed for deployment. Rewards encourage progress toward the goal, safe arrivals, and movement around obstacles. Following a movement command earns credit only when the robot makes progress with sufficient clearance; risky approaches reduce that credit. Penalties discourage fast approaches, abrupt command changes, collisions, and falls. The obstacle-avoidance task lives in isaaclab_tasks.contrib.microduck_obstacle. Its configuration is in obstacle_avoidance_env_cfg.py, ToF sensing is in sensors.py, and actions, commands, observations and rewards are organized under mdp/. MicroDuckToFCamera extends Newton’s LegacyMultiMeshRayCasterCamera to model the VL53L5CX—a compact time-of-flight (ToF) sensor on the microduck that measures distance across an 8×8 grid at 15Hz. The simulated sensor has a 45° field of view and a 0.12–4 m range. It follows the duck’s head, with placement similar to the sensor on the real duck. Real recordings informed the sensor placement and floor readings in simulation. Training adds noise, delays and missing measurements—including near the grid’s edges—to expose the policy to imperfect data. The excerpt below shows selected sensor settings already included in the task configuration. You do not need to edit or run this code separately. # Selected settings; mount and raycast targets omitted. head_tof = MicroDuckToFCameraCfg( prim_path=MICRODUCK_HEAD_BODY_PATH, update_period=1.0 / 15.0, pattern_cfg=patterns.PinholeCameraPatternCfg( focal_length=1.0, width=8, height=8, horizontal_aperture=_TOF_APERTURE, vertical_aperture=_TOF_APERTURE, ), randomization=ToFRandomizationCfg( mount_pitch_degrees=(-10.0, 10.0), mount_height_m=(-0.02, 0.02), floor_validity_midpoint_offset_m=(0.0, 0.13), near_floor_edge_impairment_probability=0.5, ), data_types=[\"distance_to_image_plane\", \"distance_to_camera\"], max_distance=TOF_MAX_RANGE, depth_clipping_behavior=\"zero\", ) Train the navigation policy with PPO across 16,384 parallel environments for 1,500 training iterations. Its actor, critic, normalizers, and optimizer start fresh. The task configuration loads the fixed walking checkpoint, robot model, and obstacle assets. The 16,384 environments shown here are configurable, not a minimum requirement. Lower --num_envs to fit your GPU’s available memory. With fewer environments collecting experience in parallel, reaching comparable policy performance may require more training iterations and longer training time. We also trained this policy on NVIDIA DGX Spark in approximately 6 hours using 4,096 parallel environments for 3,000 PPO updates, demonstrating a smaller-scale configuration for the same workflow. Run this command to train the policy: uv run isaaclab train \\ --task IsaacContrib-ObstacleAvoidance-Flat-MicroDuck \\ --rl_library rsl_rl \\ --num_envs 16384 \\ --max_iterations 1500 \\ --seed 42 \\ --device cuda:0 \\ --visualizer none \\ presets=backlash Figure 2. Parallel MicroDuck obstacle-avoidance",
+      "title_zh": "Hugging Face 推进模型或产品能力更新",
+      "insight_zh": "这条动态的价值不只在发布本身，而在于 Hugging Face 如何把模型能力转成可部署、可计费、可管理的产品能力。",
+      "key_points_zh": [
+        "主体是 Hugging Face，核心变化集中在模型或产品能力更新。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：open-source、models、developer。"
+      ],
+      "background_zh": "这条内容来自 Hugging Face Blog，归入“模型与产品”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对开发者而言，重点是接口、成本、上下文能力和工具链兼容性；对企业而言，重点是权限、审计、稳定性和实际 ROI。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+          "source_url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Hugging Face Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
+        }
+      ],
+      "slug": "microduck-obstacle-avoidance-a-sim2real-workflow-with-isaac-lab-and-newt-16565a3f",
+      "localized_url": "/zh/items/2026-11-25/microduck-obstacle-avoidance-a-sim2real-workflow-with-isaac-lab-and-newt-16565a3f/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+      "title_original": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+      "title_en": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+      "summary_zh": "Gemini 的新访谈把焦点放在模型评测与研究方法，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+      "source_name": "Latent Space",
+      "source_url": "https://www.latent.space/",
+      "original_url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+      "published_at": "Wed, 25 Nov 2026 04:29:07 GMT",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [
+        "Benchmark"
+      ],
+      "tags": [
+        "llm",
+        "agents",
+        "ai-engineering"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "190619a69a1b",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Gemini 讨论模型评测与研究方法",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Gemini，核心变化集中在模型评测与研究方法。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：llm、agents、ai-engineering。",
+        "涉及公司或机构：Benchmark。"
+      ],
+      "background_zh": "这条内容来自 Latent Space，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "benchmark",
+          "explanation": "用于衡量模型能力的任务集合或评测体系。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+          "source_url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+          "source_url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/"
+        }
+      ],
+      "slug": "ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab-054ddac7",
+      "localized_url": "/zh/items/2026-11-25/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab-054ddac7/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Responding to objections to recursive self-improvement",
+      "title_original": "Responding to objections to recursive self-improvement",
+      "title_en": "Responding to objections to recursive self-improvement",
+      "summary_zh": "Dwarkesh Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "What the skeptics get right about superintelligence",
+      "source_name": "Dwarkesh Podcast",
+      "source_url": "https://www.dwarkeshpatel.com/",
+      "original_url": "https://www.dwarkesh.com/p/rsiobjections",
+      "published_at": "Tue, 24 Nov 2026 21:45:30 GMT",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "agi",
+        "economics",
+        "interview"
+      ],
+      "importance_score": 40.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "943d9ed1df75",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Dwarkesh Podcast 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 Dwarkesh Podcast，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：agi、economics、interview。"
+      ],
+      "background_zh": "这条内容来自 Dwarkesh Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Responding to objections to recursive self-improvement",
+          "source_url": "https://www.dwarkesh.com/p/rsiobjections"
+        },
+        {
+          "label": "公开摘要",
+          "text": "What the skeptics get right about superintelligence",
+          "source_url": "https://www.dwarkesh.com/p/rsiobjections"
+        }
+      ],
+      "slug": "responding-to-objections-to-recursive-self-improvement-943d9ed1",
+      "localized_url": "/zh/items/2026-11-25/responding-to-objections-to-recursive-self-improvement-943d9ed1/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Sakana Namazu Small",
+      "title_original": "Sakana Namazu Small",
+      "title_en": "Sakana Namazu Small",
+      "summary_zh": "Sakana AI Blog 披露了研究与开源进展，对评测指标、开源复现和模型可靠性判断都有参考价值。",
+      "summary_en": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+      "source_name": "Sakana AI Blog",
+      "source_url": "https://sakana.ai/blog/",
+      "original_url": "https://sakana.ai/namazu-small/",
+      "published_at": "2026-11-25T00:00:00+09:00",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "research-open-source",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "research",
+        "agents",
+        "japan"
+      ],
+      "importance_score": 36.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "983fe61fda22",
+      "language": "en",
+      "source_type": "research_lab",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Sakana AI Blog 推进研究与开源进展",
+      "insight_zh": "它有助于校准对模型能力的判断，尤其适合用于比较评测方法、复现实验与真实应用之间的差距。",
+      "key_points_zh": [
+        "主体是 Sakana AI Blog，核心变化集中在研究与开源进展。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：research、agents、japan。"
+      ],
+      "background_zh": "这条内容来自 Sakana AI Blog，归入“研究与开源”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "对研究者而言，它可作为评测口径和复现实验的参考；对企业部署而言，它提醒不要把单一榜单当作可靠性结论。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Sakana Namazu Small",
+          "source_url": "https://sakana.ai/namazu-small/"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Sakana AI Blog has an AI update relevant to product, industry or technical direction.",
+          "source_url": "https://sakana.ai/namazu-small/"
+        }
+      ],
+      "slug": "sakana-namazu-small-049beecd",
+      "localized_url": "/zh/items/2026-11-25/sakana-namazu-small-049beecd/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Building AI That Can Reason Under Uncertainty with Thore Graepel - #786",
+      "title_original": "Building AI That Can Reason Under Uncertainty with Thore Graepel - #786",
+      "title_en": "Building AI That Can Reason Under Uncertainty with Thore Graepel - #786",
+      "summary_zh": "TWIML AI Podcast 的新访谈把焦点放在行业访谈中的判断与经验，适合观察 AI 产品负责人、创业者和研究者如何判断下一阶段应用边界。",
+      "summary_en": "In this episode, Thore Graepel, CEO and co-founder of Metis Reasoning and Chair of Machine Learning at UCL, joins us to explore an approach to AI reasoning inspired by his work on AlphaGo. We discuss why he believes reliable reasoning requires explicit",
+      "source_name": "TWIML AI Podcast",
+      "source_url": "https://twimlai.com/podcast/twimlai/",
+      "original_url": "https://twimlai.com/podcast/twimlai/building-ai-that-can-reason-under-uncertainty",
+      "published_at": "Tue, 24 Nov 2026 20:15:00 -0000",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "podcasts-interviews",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "ml",
+        "podcast",
+        "research"
+      ],
+      "importance_score": 32.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "b8b3c3bc0d15",
+      "language": "en",
+      "source_type": "podcast",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "TWIML AI Podcast 讨论行业访谈中的判断与经验",
+      "insight_zh": "访谈类内容的意义在于暴露一线建设者的真实取舍，可补足正式公告中过于简化的产品叙事。",
+      "key_points_zh": [
+        "主体是 TWIML AI Podcast，核心变化集中在行业访谈中的判断与经验。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：ml、podcast、research。"
+      ],
+      "background_zh": "这条内容来自 TWIML AI Podcast，归入“访谈与播客”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "它更适合用作趋势判断材料，而不是单独作为事实依据；关键是和正式公告、产品文档及开源实现交叉验证。",
+      "terms_zh": [],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Building AI That Can Reason Under Uncertainty with Thore Graepel - #786",
+          "source_url": "https://twimlai.com/podcast/twimlai/building-ai-that-can-reason-under-uncertainty"
+        },
+        {
+          "label": "公开摘要",
+          "text": "In this episode, Thore Graepel, CEO and co-founder of Metis Reasoning and Chair of Machine Learning at UCL, joins us to explore an approach to AI reasoning inspired by his work on AlphaGo. We discuss why he believes",
+          "source_url": "https://twimlai.com/podcast/twimlai/building-ai-that-can-reason-under-uncertainty"
+        }
+      ],
+      "slug": "building-ai-that-can-reason-under-uncertainty-with-thore-graepel-786-b8b3c3bc",
+      "localized_url": "/zh/items/2026-11-25/building-ai-that-can-reason-under-uncertainty-with-thore-graepel-786-b8b3c3bc/",
+      "source_license_mode": "summary_only",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Standard builds for existing Pro teams have moved to usage-based billing",
+      "title_original": "Standard builds for existing Pro teams have moved to usage-based billing",
+      "title_en": "Standard builds for existing Pro teams have moved to usage-based billing",
+      "summary_zh": "Vercel AI 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Existing Pro teams will no longer include a Standard build slot. This brings Standard builds under the same usage-based billing model as other build machines. Standard builds cost $0.014 per build minute, and your monthly usage credit applies to build usage.",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/standard-builds-for-existing-pro-teams-have-moved-to-usage-based-billing",
+      "published_at": "2026-11-25T08:00:00.000Z",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "fe1c4d089bec",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel AI 推进AI 产业与产品变化",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel AI，核心变化集中在AI 产业与产品变化。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Standard builds for existing Pro teams have moved to usage-based billing",
+          "source_url": "https://vercel.com/changelog/standard-builds-for-existing-pro-teams-have-moved-to-usage-based-billing"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Existing Pro teams will no longer include a Standard build slot. This brings Standard builds under the same usage-based billing model as other build machines. Standard builds cost $0.014 per build minute, and your",
+          "source_url": "https://vercel.com/changelog/standard-builds-for-existing-pro-teams-have-moved-to-usage-based-billing"
+        }
+      ],
+      "slug": "standard-builds-for-existing-pro-teams-have-moved-to-usage-based-billing-fe1c4d08",
+      "localized_url": "/zh/items/2026-11-25/standard-builds-for-existing-pro-teams-have-moved-to-usage-based-billing-fe1c4d08/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "All Sandbox runtimes now use Vercel Managed Images",
+      "title_original": "All Sandbox runtimes now use Vercel Managed Images",
+      "title_en": "All Sandbox runtimes now use Vercel Managed Images",
+      "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "All Vercel Sandbox runtimes now use Vercel Managed Images (VMIs). Legacy runtimes, such as node22 , now use the open-source images in the vercel/sandbox repository , distributed through Vercel Container Registry (VCR). Sandboxes created with these now come",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images",
+      "published_at": "2026-11-24T18:00:00.000Z",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "064cde63a438",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 推进AI 产业与产品变化",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "All Sandbox runtimes now use Vercel Managed Images",
+          "source_url": "https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images"
+        },
+        {
+          "label": "公开摘要",
+          "text": "All Vercel Sandbox runtimes now use Vercel Managed Images (VMIs). Legacy runtimes, such as node22 , now use the open-source images in the vercel/sandbox repository , distributed through Vercel Container Registry (VCR).",
+          "source_url": "https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images"
+        }
+      ],
+      "slug": "all-sandbox-runtimes-now-use-vercel-managed-images-064cde63",
+      "localized_url": "/zh/items/2026-11-25/all-sandbox-runtimes-now-use-vercel-managed-images-064cde63/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "AWS PrivateLink endpoints are now available on Secure Compute",
+      "title_original": "AWS PrivateLink endpoints are now available on Secure Compute",
+      "title_en": "AWS PrivateLink endpoints are now available on Secure Compute",
+      "summary_zh": "Vercel 推进了AI 产业与产品变化，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Enterprise teams using Secure Compute can now create and manage AWS PrivateLink endpoints directly from the Vercel dashboard. Endpoints on Secure Compute live in your team's dedicated VPC and use the network's AWS region. They belong to the network and are",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/aws-privatelink-endpoints-are-now-available-on-secure-compute",
+      "published_at": "2026-11-24T09:54:00.000Z",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "8d35db2c3876",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 发布AI 产业与产品变化",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在AI 产业与产品变化。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "AWS PrivateLink endpoints are now available on Secure Compute",
+          "source_url": "https://vercel.com/changelog/aws-privatelink-endpoints-are-now-available-on-secure-compute"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Enterprise teams using Secure Compute can now create and manage AWS PrivateLink endpoints directly from the Vercel dashboard. Endpoints on Secure Compute live in your team's dedicated VPC and use the network's AWS",
+          "source_url": "https://vercel.com/changelog/aws-privatelink-endpoints-are-now-available-on-secure-compute"
+        }
+      ],
+      "slug": "aws-privatelink-endpoints-are-now-available-on-secure-compute-8d35db2c",
+      "localized_url": "/zh/items/2026-11-25/aws-privatelink-endpoints-are-now-available-on-secure-compute-8d35db2c/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Flags SDK now works on Vercel without FLAGS_SECRET",
+      "title_original": "Flags SDK now works on Vercel without FLAGS_SECRET",
+      "title_en": "Flags SDK now works on Vercel without FLAGS_SECRET",
+      "summary_zh": "Vercel 推进了开发者接口与平台能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "With flags@4.5.0 , projects on Vercel can use Flags Explorer and precompute without FLAGS_SECRET . That cuts out a setup step for new projects and removes the need to keep a shared secret in sync across microfrontends. Vercel signs Flags Explorer discovery",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret",
+      "published_at": "2026-11-24T05:00:00.000Z",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "1527355e5e45",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 推进开发者接口与平台能力",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在开发者接口与平台能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Flags SDK now works on Vercel without FLAGS_SECRET",
+          "source_url": "https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret"
+        },
+        {
+          "label": "公开摘要",
+          "text": "With flags@4.5.0 , projects on Vercel can use Flags Explorer and precompute without FLAGS_SECRET . That cuts out a setup step for new projects and removes the need to keep a shared secret in sync across microfrontends.",
+          "source_url": "https://vercel.com/changelog/flags-sdk-now-works-on-vercel-without-flags-secret"
+        }
+      ],
+      "slug": "flags-sdk-now-works-on-vercel-without-flags-secret-1527355e",
+      "localized_url": "/zh/items/2026-11-25/flags-sdk-now-works-on-vercel-without-flags-secret-1527355e/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Agents can now manage AI Gateway through Vercel MCP",
+      "title_original": "Agents can now manage AI Gateway through Vercel MCP",
+      "title_en": "Agents can now manage AI Gateway through Vercel MCP",
+      "summary_zh": "Vercel 推进了AI 代理工程与工具调用能力，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Your agent can now manage AI Gateway through Vercel MCP . Ask it in plain language to: Manage virtual models : Create reusable model IDs with saved settings, then list, inspect, update, or restore them. Configure routing rules : View, add, and update",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/agents-can-now-manage-ai-gateway-through-vercel-mcp",
+      "published_at": "2026-11-24T05:00:00.000Z",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "abddb5cf2d50",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel 推进AI 代理工程与工具调用能力",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel，核心变化集中在AI 代理工程与工具调用能力。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Agents can now manage AI Gateway through Vercel MCP",
+          "source_url": "https://vercel.com/changelog/agents-can-now-manage-ai-gateway-through-vercel-mcp"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Your agent can now manage AI Gateway through Vercel MCP . Ask it in plain language to: Manage virtual models : Create reusable model IDs with saved settings, then list, inspect, update, or restore them. Configure",
+          "source_url": "https://vercel.com/changelog/agents-can-now-manage-ai-gateway-through-vercel-mcp"
+        }
+      ],
+      "slug": "agents-can-now-manage-ai-gateway-through-vercel-mcp-abddb5cf",
+      "localized_url": "/zh/items/2026-11-25/agents-can-now-manage-ai-gateway-through-vercel-mcp-abddb5cf/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Delete a run's data on demand in Workflow SDK",
+      "title_original": "Delete a run's data on demand in Workflow SDK",
+      "title_en": "Delete a run's data on demand in Workflow SDK",
+      "summary_zh": "Vercel AI 推进了政府与国家安全合作原则，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "The Workflow SDK now lets you delete a finished run's stored data on demand. This feature gives you the ability to quickly meet compliance and security requirements when sensitive data needs to be purged from run payloads. Deleting a run's data deletes any",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/delete-run-data-workflow-sdk",
+      "published_at": "2026-11-24T05:00:00.000Z",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "f7ab3d0b9446",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Vercel AI 推进政府与国家安全合作原则",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Vercel AI，核心变化集中在政府与国家安全合作原则。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Delete a run's data on demand in Workflow SDK",
+          "source_url": "https://vercel.com/changelog/delete-run-data-workflow-sdk"
+        },
+        {
+          "label": "公开摘要",
+          "text": "The Workflow SDK now lets you delete a finished run's stored data on demand. This feature gives you the ability to quickly meet compliance and security requirements when sensitive data needs to be purged from run",
+          "source_url": "https://vercel.com/changelog/delete-run-data-workflow-sdk"
+        }
+      ],
+      "slug": "delete-a-run-s-data-on-demand-in-workflow-sdk-f7ab3d0b",
+      "localized_url": "/zh/items/2026-11-25/delete-a-run-s-data-on-demand-in-workflow-sdk-f7ab3d0b/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    },
+    {
+      "title": "Inkling 2 Mini now available on AI Gateway",
+      "title_original": "Inkling 2 Mini now available on AI Gateway",
+      "title_en": "Inkling 2 Mini now available on AI Gateway",
+      "summary_zh": "Modal 推进了代码评测可靠性问题，需要关注它对 AI 产品落地、企业采用和产业竞争节奏的影响。",
+      "summary_en": "Inkling 2 Mini from Thinking Machines is now available on AI Gateway. The small multimodal reasoning model is built for agentic coding, tool use, and knowledge work, with text and image inputs and text output. Inkling 2 Mini has 26.4 billion total parameters",
+      "source_name": "Vercel AI",
+      "source_url": "https://vercel.com/blog",
+      "original_url": "https://vercel.com/changelog/inkling-2-mini-now-available-on-ai-gateway",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-25T04:54:34.481112+00:00",
+      "category": "company-industry",
+      "people": [],
+      "companies": [],
+      "tags": [
+        "developer",
+        "ai-sdk"
+      ],
+      "importance_score": 24.0,
+      "freshness_score": 72.0,
+      "credibility_score": 90.0,
+      "duplicate_group_id": "2f9bf4596a53",
+      "language": "en",
+      "source_type": "company_blog",
+      "translation_status": "fallback",
+      "extraction_status": "partial",
+      "quality_warnings": [
+        "metadata_only_source"
+      ],
+      "extracted_title": "",
+      "extracted_excerpt": "",
+      "extracted_text_for_analysis": "",
+      "title_zh": "Modal 发布代码评测可靠性问题",
+      "insight_zh": "它提供了观察 AI 产业链变化的一个窗口，尤其适合跟踪企业采用、开发者生态和商业化节奏。",
+      "key_points_zh": [
+        "主体是 Modal，核心变化集中在代码评测可靠性问题。",
+        "原始链接已保留，当前页面只提供中文研究解读与必要证据摘录。",
+        "判断价值应放在真实部署、成本、可靠性和生态影响上，而不是只看发布措辞。",
+        "相关标签包括：developer、ai-sdk。"
+      ],
+      "background_zh": "这条内容来自 Vercel AI，归入“公司与产业”。中文页基于公开标题、摘要、元数据和可抽取正文生成，不绕过付费墙，也不把不可验证内容包装成事实。",
+      "impact_zh": "影响主要体现在产品路线、产业竞争、企业采用节奏和开发者生态预期上，需要结合后续真实发布和用户反馈继续观察。",
+      "terms_zh": [
+        {
+          "term": "AI Agent",
+          "explanation": "能够调用工具、拆解任务并持续执行的 AI 系统。"
+        },
+        {
+          "term": "SDK",
+          "explanation": "供开发者集成能力的软件开发工具包。"
+        },
+        {
+          "term": "multimodal",
+          "explanation": "同时处理文本、图像、音频或视频等多种输入输出形式。"
+        },
+        {
+          "term": "coding",
+          "explanation": "代码生成、修复、评测与软件工程自动化相关能力。"
+        }
+      ],
+      "evidence_zh": [
+        {
+          "label": "原始来源",
+          "text": "Inkling 2 Mini now available on AI Gateway",
+          "source_url": "https://vercel.com/changelog/inkling-2-mini-now-available-on-ai-gateway"
+        },
+        {
+          "label": "公开摘要",
+          "text": "Inkling 2 Mini from Thinking Machines is now available on AI Gateway. The small multimodal reasoning model is built for agentic coding, tool use, and knowledge work, with text and image inputs and text output. Inkling 2",
+          "source_url": "https://vercel.com/changelog/inkling-2-mini-now-available-on-ai-gateway"
+        }
+      ],
+      "slug": "inkling-2-mini-now-available-on-ai-gateway-2f9bf459",
+      "localized_url": "/zh/items/2026-11-25/inkling-2-mini-now-available-on-ai-gateway-2f9bf459/",
+      "source_license_mode": "official_public",
+      "content_mode": "research_digest",
+      "full_text_zh": ""
+    }
+  ],
+  "failures": []
+}
